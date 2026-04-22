@@ -6,6 +6,8 @@ This folder collects lecture-style notes and runnable examples for both discrete
 
 - `theorem/` - core RL concepts and discrete-action examples (Q-learning, DQN, DDQN)
 - `DDPG/` - continuous-action control with deterministic policy gradients
+- `SAC/` - continuous-action control with maximum-entropy actor-critic
+- `TRPO/` - continuous-action trust-region policy optimization
 
 ## 1. Problem Setup
 
@@ -56,7 +58,7 @@ $$
  y_{\text{DDQN}} = r + \gamma Q_{\phi^-}(s', \arg\max_{a'} Q_{\phi}(s',a')).
 $$
 
-## 4. Continuous Actions: DDPG
+## 4. Continuous Actions: DDPG, SAC, and TRPO
 
 For continuous actions, DDPG learns a deterministic policy $\mu_\theta(s)$ and critic $Q_\phi(s,a)$.
 
@@ -74,6 +76,26 @@ $$
  \mathbb{E}_{s\sim\mathcal{D}}\left[\nabla_a Q_\phi(s,a)\rvert_{a=\mu_\theta(s)}\nabla_\theta \mu_\theta(s)\right].
 $$
 
+SAC instead optimizes a stochastic policy with entropy regularization:
+
+$$
+J_{\text{SAC}}(\pi) = \sum_t \mathbb{E}\left[r(s_t,a_t) + \alpha\,\mathcal{H}(\pi(\cdot\mid s_t))\right].
+$$
+
+TRPO takes a different route and maximizes a local surrogate under a KL trust-region constraint:
+
+$$
+\max_{\theta'}\; \mathbb{E}\left[\frac{\pi_{\theta'}(a\mid s)}{\pi_\theta(a\mid s)} A^{\pi_\theta}(s,a)\right]
+\quad \text{such that} \quad
+\mathbb{E}\left[D_{\mathrm{KL}}\big(\pi_\theta(\cdot\mid s)\|\pi_{\theta'}(\cdot\mid s)\big)\right] \le \delta.
+$$
+
+In short:
+
+- **DDPG** - off-policy, deterministic actor, replay buffer, target networks
+- **SAC** - off-policy, stochastic actor, entropy maximization
+- **TRPO** - on-policy, stochastic actor, natural-gradient trust region
+
 ## 5. Quick Start
 
 **Discrete examples (theorem):**
@@ -85,9 +107,15 @@ python 07_deep_q_network_cartpole.py
 python 10_double_dqn_cartpole.py
 ```
 
-**Continuous example (DDPG):**
+**Continuous examples:**
 
 ```bash
 cd /home/quangvd7/self_learning/Robot_learning/RL/DDPG
 python ddpg_cartpole_swingup_balance.py
+
+cd /home/quangvd7/self_learning/Robot_learning/RL/SAC
+python sac_cartpole_swingup_balance.py
+
+cd /home/quangvd7/self_learning/Robot_learning/RL/TRPO
+python trpo_cartpole_swingup_balance.py
 ```
