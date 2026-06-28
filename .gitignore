@@ -1,0 +1,10 @@
+# Virtual environment
+.venv/
+
+# Python
+__pycache__/
+*.pyc
+
+# Generated plots / animations from the learning examples
+RL/Network/*.png
+RL/Network/*.gif

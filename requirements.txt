@@ -1,0 +1,12 @@
+# Robot_learning environment
+# Create the venv with uv (matches the repo's other .venv setups):
+#   uv venv --python 3.10 .venv
+#   source .venv/bin/activate
+#   uv pip install -r requirements.txt --index-url https://download.pytorch.org/whl/cu128
+#
+# torch is pulled from the CUDA 12.8 (cu128) index for the Blackwell GPU.
+
+torch
+numpy
+matplotlib
+imageio
