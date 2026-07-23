@@ -6,6 +6,7 @@ This document is a lecture-style math note for the imitation learning methods im
 - Conditional Diffusion (diffusion)
 - Conditional VAE (vae)
 - Conditional GAN (gan)
+- Adversarial Motion Priors / AMP (amp)
 
 The goal is to imitate expert demonstrations for control tasks (pendulum and cart-pole variants).
 
@@ -201,7 +202,48 @@ $$
 + \lambda_{bc}\,\|G_\theta(s,0)-a_E\|_2^2.
 $$
 
-## 8. State Features and Representation
+## 8. Method D: AMP (Adversarial Motion Priors) Policy
+
+AMP keeps the same adversarial idea as GAIL but drops the assumption that the policy's output can
+be backpropagated through into the discriminator's input — i.e. it does not require the
+environment step to be differentiable, which is the common case for physics simulators and real
+robots. The discriminator scores **transitions** $(s,s')$ instead of $(s,a)$ pairs (no action
+labels needed), and the policy is trained with on-policy RL (PPO) against a discriminator-derived
+reward rather than by direct backprop.
+
+Model form:
+
+$$
+\pi_\theta(a\mid s) \ \text{(Gaussian actor, trained by PPO)}, \qquad D_\phi(s,s') \in \mathbb{R}.
+$$
+
+Discriminator objective (least-squares GAN + zero-centered gradient penalty on expert samples):
+
+$$
+\mathcal{L}_D = \mathbb{E}_{(s,s')\sim\mathcal{D}_E}\big[(D_\phi(s,s')-1)^2\big]
++ \mathbb{E}_{(s,s')\sim\mathcal{D}_\pi}\big[(D_\phi(s,s')+1)^2\big]
++ w_{gp}\,\mathbb{E}_{(s,s')\sim\mathcal{D}_E}\big[\|\nabla_\phi D_\phi(s,s')\|_2^2\big].
+$$
+
+Transition-level style reward fed to RL:
+
+$$
+r_{\text{style}}(s,s') = \operatorname{clip}\!\Big(1 - \tfrac14\big(D_\phi(s,s')-1\big)^2,\, 0,\, 1\Big),
+\qquad r_t = w_{\text{task}}\,r_{\text{task}} + w_{\text{style}}\,r_{\text{style}}.
+$$
+
+Policy objective is the standard PPO clipped surrogate on $r_t$ (no gradient flows from $D_\phi$
+into $\pi_\theta$):
+
+$$
+\mathcal{L}_\pi = -\mathbb{E}_t\Big[\min\big(\rho_t A_t,\ \operatorname{clip}(\rho_t,1{-}\epsilon,1{+}\epsilon)A_t\big)\Big],
+\qquad \rho_t = \frac{\pi_\theta(a_t\mid s_t)}{\pi_{\theta_{\text{old}}}(a_t\mid s_t)}.
+$$
+
+See [amp/readme.md](amp/readme.md) for a side-by-side comparison with the GAN/GAIL script and a
+worked numeric example of one discriminator-reward-to-PPO-update step.
+
+## 9. State Features and Representation
 
 For angular systems, raw angles are discontinuous at $\pm\pi$. A smoother representation is:
 
@@ -211,7 +253,7 @@ $$
 
 Swing-up policies use this feature map to reduce wrap-around issues.
 
-## 9. Evaluation Metrics
+## 10. Evaluation Metrics
 
 All tasks use tail-window stability metrics:
 
@@ -225,9 +267,9 @@ $$
 	ext{success} = \mathbf{1}[\bar e_\theta < \tau_\theta \land \bar e_x < \tau_x \land \text{valid rollout}].
 $$
 
-## 10. Learning Path: Basic to Advanced
+## 11. Learning Path: Basic to Advanced
 
-### 10.1 Basic teaching examples
+### 11.1 Basic teaching examples
 
 - [Imitation_learning/basic_examples/readme.md](basic_examples/readme.md)
 - [Imitation_learning/basic_examples/supervised_learning_basic.py](basic_examples/supervised_learning_basic.py)
@@ -244,7 +286,7 @@ python3 basic_examples/dagger_double_integrator.py
 python3 basic_examples/privileged_teacher_swingup_pendulum.py
 ```
 
-### 10.2 Balance control studies
+### 11.2 Balance control studies
 
 - Diffusion: [Imitation_learning/diffusion/diffusion_inverted_pendulum_study.py](diffusion/diffusion_inverted_pendulum_study.py)
 - Diffusion: [Imitation_learning/diffusion/diffusion_cartpole_study.py](diffusion/diffusion_cartpole_study.py)
@@ -253,15 +295,17 @@ python3 basic_examples/privileged_teacher_swingup_pendulum.py
 - GAN: [Imitation_learning/gan/gan_inverted_pendulum_study.py](gan/gan_inverted_pendulum_study.py)
 - GAN: [Imitation_learning/gan/gan_cartpole_study.py](gan/gan_cartpole_study.py)
 
-### 10.3 Swing-up + balance studies
+### 11.3 Swing-up + balance studies
 
 - Diffusion: [Imitation_learning/diffusion/diffusion_cartpole_swingup_balance_study.py](diffusion/diffusion_cartpole_swingup_balance_study.py)
 - VAE: [Imitation_learning/vae/vae_cartpole_swingup_balance_study.py](vae/vae_cartpole_swingup_balance_study.py)
 - VAE (ACT-style transformer CVAE): [Imitation_learning/vae/act_cartpole_swingup_balance_study.py](vae/act_cartpole_swingup_balance_study.py)
 - GAN: [Imitation_learning/gan/gan_cartpole_swingup_balance_study.py](gan/gan_cartpole_swingup_balance_study.py)
+- AMP: [Imitation_learning/amp/amp_cartpole_swingup_balance_study.py](amp/amp_cartpole_swingup_balance_study.py)
 
-## 11. Folder Index
+## 12. Folder Index
 
 - Diffusion implementations: [Imitation_learning/diffusion/readme.md](diffusion/readme.md)
 - VAE implementations: [Imitation_learning/vae/readme.md](vae/readme.md)
 - GAN implementations: [Imitation_learning/gan/readme.md](gan/readme.md)
+- AMP implementation: [Imitation_learning/amp/readme.md](amp/readme.md)

@@ -108,7 +108,177 @@ Outputs (plots + GIF) are saved under the local `outputs/` folder.
 	\phi^- \leftarrow \tau\phi + (1-\tau)\phi^-
 	$$
 
-## 8. Study Case: CartPole Swing-up + Balance
+---
+
+## Intuition & Theory: From DDPG → SAC
+
+### 9. Policy Gradient & θ
+
+A policy is a function:
+
+$$
+\pi_\theta(a \mid s)
+$$
+
+**θ (theta)** represents all neural network parameters (weights & biases). Training = updating θ to maximize expected reward:
+
+$$
+\theta \leftarrow \theta + \alpha \nabla_\theta J(\theta)
+$$
+
+> **Insight:** θ defines the behavior of the agent. Changing θ = changing the policy.
+
+---
+
+### 10. From Q-learning → DDPG
+
+**Q-learning:**
+
+$$
+a = \arg\max_a Q(s, a)
+$$
+
+- Works for discrete actions, not feasible for continuous control.
+
+**DDPG:**
+
+$$
+a = \mu_\theta(s) \approx \arg\max_a Q(s, a)
+$$
+
+Actor update:
+
+$$
+\nabla_\theta J = \mathbb{E}\left[\nabla_a Q(s,a) \cdot \nabla_\theta \mu(s)\right]
+$$
+
+> **Insight:** DDPG replaces **argmax** with a **learned differentiable function (actor)**.
+
+---
+
+### 11. Problems with DDPG
+
+- Deterministic policy → poor exploration
+- Q-value overestimation
+- Unstable learning
+
+---
+
+### 12. Entropy
+
+$$
+\mathcal{H}(\pi) = -\mathbb{E}[\log \pi(a \mid s)]
+$$
+
+- High entropy → more randomness (exploration)
+- Low entropy → deterministic behavior
+
+> **Insight:** Entropy is NOT maximized alone — it is a **regularizer**.
+
+---
+
+### 13. SAC Objective
+
+$$
+J = \mathbb{E}[r + \alpha \mathcal{H}]
+$$
+
+- Maximize reward
+- Maintain sufficient randomness
+
+---
+
+### 14. Softmax Policy (Soft Argmax)
+
+Instead of hard argmax, SAC uses:
+
+$$
+\pi(a \mid s) \propto \exp\!\left(\frac{Q(s,a)}{\alpha}\right)
+$$
+
+This is a **soft version of argmax**:
+- Higher Q → higher probability
+- Lower Q → still possible (exploration)
+
+---
+
+### 15. Role of Temperature α
+
+- $\alpha \downarrow$ → policy becomes deterministic (like DDPG)
+- $\alpha \uparrow$ → policy becomes more random
+
+> Controls exploration vs exploitation trade-off.
+
+---
+
+### 16. Why Double Q (Two Critics)?
+
+Problem:
+
+$$
+\max(Q + \text{noise}) \Rightarrow \text{overestimation}
+$$
+
+Solution:
+
+$$
+Q_{\text{safe}} = \min(Q_1, Q_2)
+$$
+
+Using the minimum:
+- Removes over-optimistic estimates
+- Improves stability
+
+---
+
+### 17. SAC Core Components
+
+SAC combines three key ideas:
+
+| Component | Formula | Origin |
+|-----------|---------|--------|
+| Soft policy (entropy) | $\pi(a\|s) \propto \exp(Q/\alpha)$ | Maximum entropy RL |
+| Double Q | $Q = \min(Q_1, Q_2)$ | Double Q-learning |
+| Actor-Critic | reparameterized Gaussian actor | Policy gradient |
+
+---
+
+### 18. Key Insights
+
+- SAC does **not** find a single best action → it learns a **distribution over good actions**
+- The $\min(Q_1, Q_2)$ does NOT break optimality → it preserves ranking and avoids risky overestimation
+- Entropy ensures exploration is **learned, not injected**
+
+---
+
+### 19. One-line Summary
+
+> **SAC = softmax(Q) (via entropy) + double Q (for stability) + actor-critic (for continuous control)**
+
+---
+
+### 20. Intuition (Robot Perspective)
+
+| Agent | Behavior |
+|-------|---------|
+| DDPG | "Do the best action I know" |
+| SAC | "Prefer the best actions, but stay flexible and explore safely" |
+
+---
+
+### 21. Final Takeaway
+
+SAC improves over DDPG by:
+
+1. Replacing hard argmax with **soft probabilistic decisions**
+2. Embedding exploration into the objective **(entropy)**
+3. Using conservative Q estimates **(double Q)**
+
+> **Result:** more stable, robust, and efficient learning in continuous control
+
+---
+
+## 22. Study Case: CartPole Swing-up + Balance
 
 What to look for in the plots and GIF:
 
