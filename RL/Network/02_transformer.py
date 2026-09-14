@@ -75,6 +75,12 @@ try:
 except Exception:
     HAVE_PLT = False
 
+try:
+    import imageio
+    HAVE_IMAGEIO = True
+except Exception:
+    HAVE_IMAGEIO = False
+
 # Base class so the nn.Module subclasses below can be *defined* even when torch
 # is absent (their torch code only runs on instantiation, which we guard with
 # HAVE_TORCH). Lets the NumPy attention demo in Part 1 run on its own.
@@ -308,6 +314,81 @@ def plot_attention(np_weights, model, data, out_dir):
     print(f"saved {path}")
 
 
+def _fig_to_rgb(fig):
+    """Render a figure to [H, W, 3] uint8 (buffer_rgba: tostring_rgb gone in mpl 3.10)."""
+    fig.canvas.draw()
+    buf = np.asarray(fig.canvas.buffer_rgba())
+    return buf[..., :3].copy()
+
+
+def _draw_pendulum(ax, obs, color, label):
+    """obs = [cos theta, sin theta, theta_dot]; theta=0 hangs down."""
+    cos_t, sin_t = float(obs[0]), float(obs[1])
+    L = 1.0
+    bob_x, bob_y = L * sin_t, -L * cos_t
+    ax.plot([0, bob_x], [0, bob_y], color=color, linewidth=4, label=label)
+    ax.scatter([0], [0], s=30, color="black")
+    ax.scatter([bob_x], [bob_y], s=160, color=color)
+
+
+def create_rollout_gif(model, out_dir, name="transformer_rollout.gif",
+                       horizon=60, seed=7):
+    """Autoregressive rollout: TRUE pendulum vs the Transformer's prediction.
+
+    We give the model a short real history, then let it predict the next state,
+    feed that prediction back in, and predict again -- a pure sequence-model
+    rollout (like Decision Transformer imagining the future). The blue pole is
+    ground truth; the orange pole is what the Transformer thinks happens next.
+    Watch how long the prediction tracks reality before small errors compound.
+    """
+    if not HAVE_PLT or not HAVE_IMAGEIO or model is None:
+        print("matplotlib/imageio/model not available, skipping GIF")
+        return
+
+    # Ground-truth trajectory we will try to predict.
+    true_traj, _ = simulate_pendulum(n_traj=1, T=horizon, seed=seed)
+    true_traj = true_traj[0]                       # [horizon, 3]
+
+    warmup = 8                                     # real steps fed before predicting
+    context = list(true_traj[:warmup])             # known history
+    pred_traj = list(true_traj[:warmup])           # predicted matches truth here
+
+    model_was_training = model.training
+    model.eval()
+    with torch.no_grad():
+        for t in range(warmup, horizon):
+            x = torch.tensor(np.array(context)[None], dtype=torch.float32)  # [1, t, 3]
+            pred, _ = model(x)
+            nxt = pred[0, -1].numpy()              # predicted next state
+            # renormalize cos/sin so the drawn pole stays unit length
+            norm = math.hypot(nxt[0], nxt[1]) + 1e-8
+            nxt = np.array([nxt[0] / norm, nxt[1] / norm, nxt[2]], dtype=np.float32)
+            pred_traj.append(nxt)
+            context.append(nxt)                    # feed prediction back (autoregressive)
+    if model_was_training:
+        model.train()
+
+    frames = []
+    for t in range(horizon):
+        fig, ax = plt.subplots(figsize=(4.8, 4.8))
+        _draw_pendulum(ax, true_traj[t], "#0072B2", "true")
+        _draw_pendulum(ax, pred_traj[t], "#D55E00", "transformer")
+        phase = "context (real)" if t < warmup else "predicted (autoregressive)"
+        ax.set_title(f"step {t:02d}   {phase}")
+        ax.set_xlim(-1.3, 1.3)
+        ax.set_ylim(-1.3, 1.3)
+        ax.set_aspect("equal")
+        ax.axis("off")
+        ax.legend(loc="upper right", fontsize=8)
+        fig.tight_layout()
+        frames.append(_fig_to_rgb(fig))
+        plt.close(fig)
+
+    path = Path(out_dir) / name
+    imageio.mimsave(path, frames, duration=0.08)
+    print(f"saved {path}   ({warmup} real steps, then {horizon - warmup} predicted)")
+
+
 def main():
     parser = argparse.ArgumentParser(description="Transformer explained on pendulum trajectories")
     parser.add_argument("--seq-len", type=int, default=16)
@@ -331,6 +412,10 @@ def main():
         print("\n[torch not installed - skipping PyTorch section]")
 
     plot_attention(np_weights, model, data, args.out)
+
+    # Animate an autoregressive rollout: true pendulum vs the model's prediction.
+    if model is not None:
+        create_rollout_gif(model, args.out)
 
     print("\nTAKEAWAYS")
     print("- Attention = softmax(Q Kᵀ / sqrt(d)) V: a learned, data-dependent look-up.")

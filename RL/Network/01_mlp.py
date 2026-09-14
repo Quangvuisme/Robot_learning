@@ -74,6 +74,12 @@ try:
 except Exception:
     HAVE_PLT = False
 
+try:
+    import imageio
+    HAVE_IMAGEIO = True
+except Exception:
+    HAVE_IMAGEIO = False
+
 
 # ----------------------------------------------------------------------------
 # The target we want the MLP to learn (a known function of the pendulum state)
@@ -252,6 +258,77 @@ def plot_surface(net_numpy, net_torch, out_dir):
     print(f"saved {path}")
 
 
+def _fig_to_rgb(fig):
+    """Render a matplotlib figure to an [H, W, 3] uint8 array.
+
+    Uses buffer_rgba() (tostring_rgb() was removed in matplotlib 3.10).
+    """
+    fig.canvas.draw()
+    buf = np.asarray(fig.canvas.buffer_rgba())   # [H, W, 4]
+    return buf[..., :3].copy()                   # drop alpha -> RGB
+
+
+def predict_torque(net, theta, theta_dot):
+    """Run the trained MLP forward on one (theta, theta_dot) -> scalar torque."""
+    s = pendulum_state(np.array([theta]), np.array([theta_dot]))   # [1, 3]
+    if HAVE_TORCH and isinstance(net, nn.Module):
+        with torch.no_grad():
+            return float(net(torch.tensor(s, dtype=torch.float32)).item())
+    return float(net.forward(s).ravel()[0])
+
+
+def create_swingup_gif(net, out_dir, name="mlp_swingup.gif", gain=2.5, u_max=6.0,
+                       steps=320, dt=0.02):
+    """Let the LEARNED MLP torque act as a swing-up controller and animate it.
+
+    theta = 0 is hanging straight down, theta = pi is balanced upright. Each
+    frame: read state -> MLP outputs a torque -> apply it to the dynamics ->
+    integrate. This is exactly the policy loop in the RL files, but the "policy"
+    here is the tiny MLP we just trained to imitate the energy-shaping law.
+    """
+    if not HAVE_PLT or not HAVE_IMAGEIO:
+        print("matplotlib/imageio not available, skipping GIF")
+        return
+
+    g, l, damping = 9.81, 1.0, 0.1
+    theta, theta_dot = 0.15, 0.0          # start near the bottom, almost at rest
+    L = 1.0
+    frames, traj = [], []
+    step_size = max(1, steps // 140)      # keep the GIF light
+
+    for t in range(steps):
+        u = float(np.clip(gain * predict_torque(net, theta, theta_dot), -u_max, u_max))
+        # pendulum dynamics with the MLP torque as the control input
+        theta_ddot = -(g / l) * math.sin(theta) - damping * theta_dot + u
+        theta_dot += theta_ddot * dt
+        theta += theta_dot * dt
+        traj.append((theta, theta_dot, u))
+
+        if t % step_size != 0:
+            continue
+        fig, ax = plt.subplots(figsize=(4.6, 4.6))
+        # upright target (faint) and the pole
+        ax.plot([0, 0], [0, L], color="green", linestyle="--", alpha=0.4, linewidth=2)
+        bob_x, bob_y = L * math.sin(theta), -L * math.cos(theta)
+        ax.plot([0, bob_x], [0, bob_y], color="#D55E00", linewidth=4)
+        ax.scatter([0], [0], s=40, color="black")                 # pivot
+        ax.scatter([bob_x], [bob_y], s=180, color="#0072B2")      # bob
+        # torque indicator
+        ax.set_title(f"step {t:03d}   MLP torque u = {u:+.2f}")
+        ax.set_xlim(-1.3, 1.3)
+        ax.set_ylim(-1.3, 1.3)
+        ax.set_aspect("equal")
+        ax.axis("off")
+        fig.tight_layout()
+        frames.append(_fig_to_rgb(fig))
+        plt.close(fig)
+
+    path = Path(out_dir) / name
+    imageio.mimsave(path, frames, duration=0.04)
+    upright = sum(1 for th, _, _ in traj if math.cos(th) < -0.7)
+    print(f"saved {path}   (reached near-upright on {upright}/{len(traj)} steps)")
+
+
 def main():
     parser = argparse.ArgumentParser(description="MLP explained on the inverted pendulum")
     parser.add_argument("--hidden", type=int, default=64)
@@ -276,6 +353,10 @@ def main():
         print("\n[torch not installed - skipping PyTorch section]")
 
     plot_surface(net_np, net_t, args.out)
+
+    # Animate the pendulum being driven by the learned MLP torque.
+    gif_net = net_t if net_t is not None else net_np
+    create_swingup_gif(gif_net, args.out)
 
     print("\nTAKEAWAYS")
     print("- An MLP is just (Linear -> nonlinearity) stacked; params live in W,b.")
