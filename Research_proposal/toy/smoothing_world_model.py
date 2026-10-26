@@ -108,6 +108,11 @@ def make_data(alphas, rng):
 
 
 def train_wm(X, Y, noise_conditioned, rng, steps=8000, batch=1024, lr=3e-3, weights=None):
+    """noise_conditioned: False | "input" (noise on the model input, target f(s)  -> learns E[f(s)|s~], a
+    density-dependent DENOISER) | "argument" (clean input s, target f(s + sigma*eps) from the simulator ->
+    learns E_eps[f(s + sigma*eps)] = bundled dynamics, independent of the data density)."""
+    if noise_conditioned is True:
+        noise_conditioned = "input"
     params = init_mlp([5, 128, 128, 4], rng)
     flat = [p for pair in params for p in pair]
     m = [np.zeros_like(p) for p in flat]; v = [np.zeros_like(p) for p in flat]
@@ -122,9 +127,12 @@ def train_wm(X, Y, noise_conditioned, rng, steps=8000, batch=1024, lr=3e-3, weig
     for it in range(1, steps + 1):
         idx = rng.choice(len(X), batch, p=p_w)
         x, y = X[idx], Y[idx]
-        if noise_conditioned:
+        if noise_conditioned == "input":
             sig = rng.choice(SIGMAS, size=(batch, 1))
             x = x + rng.normal(size=x.shape) * sig * SCALE
+        elif noise_conditioned == "argument":
+            sig = rng.choice(SIGMAS, size=(batch, 1))
+            y = np.asarray(true_step(x + rng.normal(size=x.shape) * sig * SCALE))
         else:
             sig = np.zeros((batch, 1))
         g = gl(flat, x, y, sig)
@@ -175,6 +183,8 @@ def main():
     wm_plain = train_wm(X, Y, False, np.random.default_rng(1))
     wm_nc = train_wm(X, Y, True, np.random.default_rng(2))
     wm_nc_conc = train_wm(Xc, Yc, True, np.random.default_rng(3))
+    wm_arg = train_wm(X, Y, "argument", np.random.default_rng(4))
+    wm_arg_conc = train_wm(Xc, Yc, "argument", np.random.default_rng(5))
     print("trained", flush=True)
 
     # ---- Prop A, one-step test (no compounding): g(s~, sigma) vs MC  f_sigma(s~) = E f(s~ + sigma eps)
@@ -182,18 +192,21 @@ def main():
     idx = rs.choice(len(X), 4000, replace=False)
     one = {}
     for sg in (0.03, 0.05, 0.08, 0.12):
-        st = X[idx] + rs.normal(size=(4000, 4)) * sg * SCALE
+        st = X[idx]                                          # on-distribution states
         f_s = np.asarray(true_step(st[None] + rs.normal(size=(2048, 4000, 4)) * sg * SCALE)).mean(0)
         f_raw = np.asarray(true_step(st))
         g_nc = np.asarray(wm(wm_nc, st, sg)); g_pl = np.asarray(wm(wm_plain, st, 0.0))
         g_cc = np.asarray(wm(wm_nc_conc, st, sg))
+        g_ar = np.asarray(wm(wm_arg, st, sg)); g_arc = np.asarray(wm(wm_arg_conc, st, sg))
         near = np.abs(f_s - f_raw).sum(-1) > 0.05            # states where smoothing matters (near contact)
         err = lambda g: float(np.abs((g - f_s) / D_SCALE)[near].sum(-1).mean())
         one[sg] = dict(n_near_contact=int(near.sum()),
                        err_to_smoothed__unsmoothed_true=round(err(f_raw), 3),
                        err_to_smoothed__plain_wm=round(err(g_pl), 3),
                        err_to_smoothed__nc_wm=round(err(g_nc), 3),
-                       err_to_smoothed__nc_wm_concentrated=round(err(g_cc), 3))
+                       err_to_smoothed__nc_wm_concentrated=round(err(g_cc), 3),
+                       err_to_smoothed__ARG_nc_wm=round(err(g_ar), 3),
+                       err_to_smoothed__ARG_nc_wm_concentrated=round(err(g_arc), 3))
     res["propA_one_step_near_contact"] = one
     print("propA one-step", json.dumps(one), flush=True)
 
@@ -205,9 +218,11 @@ def main():
         mc = J_mc_smoothed(grid, sg) if sg > 0 else np.asarray(J_true(grid))
         nc = np.asarray(J_wm(wm_nc, grid, sg))
         ncc = np.asarray(J_wm(wm_nc_conc, grid, sg))
+        arg = np.asarray(J_wm(wm_arg, grid, sg)); land[f"arg_sigma{sg}"] = arg.tolist()
         land[f"mc_sigma{sg}"] = mc.tolist(); land[f"nc_sigma{sg}"] = nc.tolist(); land[f"ncconc_sigma{sg}"] = ncc.tolist()
         propA[sg] = dict(mae_nc_vs_mc=round(float(np.abs(nc - mc).mean()), 4),
-                         mae_concentrated_vs_mc=round(float(np.abs(ncc - mc).mean()), 4))
+                         mae_concentrated_vs_mc=round(float(np.abs(ncc - mc).mean()), 4),
+                         mae_ARG_vs_mc=round(float(np.abs(arg - mc).mean()), 4))
     land["plain_wm"] = np.asarray(J_wm(wm_plain, grid, 0.0)).tolist()
     res["propA_landscape_error"] = propA
     print("propA", propA, flush=True)
@@ -217,7 +232,8 @@ def main():
     gtab = {}
     for name, fn in [("true FO", lambda a: J_true(a))] + \
             [(f"NC-WM s={sg}", (lambda sg: lambda a: J_wm(wm_nc, a, sg))(sg)) for sg in (0.0, 0.03, 0.05, 0.08, 0.12)] + \
-            [(f"NC-WM concentrated s={sg}", (lambda sg: lambda a: J_wm(wm_nc_conc, a, sg))(sg)) for sg in (0.05, 0.12)]:
+            [(f"NC-WM concentrated s={sg}", (lambda sg: lambda a: J_wm(wm_nc_conc, a, sg))(sg)) for sg in (0.05, 0.12)] + \
+            [(f"ARG-WM s={sg}", (lambda sg: lambda a: J_wm(wm_arg, a, sg))(sg)) for sg in (0.03, 0.05, 0.08, 0.12)]:
         gtab[name] = [round(float(grad(fn)(float(a))), 4) for a in pts]
     res["dJ/dalpha_at_8_12_16_19deg"] = gtab
     print("grads", json.dumps(gtab), flush=True)
@@ -229,10 +245,11 @@ def main():
         "true FO": dict(Jfun=lambda a, s: J_true(a)),
         "ZO-RS (8 samples, 5 deg)": dict(Jfun=None, zo=True),
         "plain WM": dict(Jfun=lambda a, s: J_wm(wm_plain, a, 0.0)),
-        "NC-WM sigma=0.03": dict(Jfun=lambda a, s: J_wm(wm_nc, a, 0.03)),
-        "NC-WM sigma=0.12": dict(Jfun=lambda a, s: J_wm(wm_nc, a, 0.12)),
-        "NC-WM annealed 0.12->0": dict(Jfun=lambda a, s: J_wm(wm_nc, a, s), sigma_sched=anneal),
-        "NC-WM annealed, concentrated data": dict(Jfun=lambda a, s: J_wm(wm_nc_conc, a, s), sigma_sched=anneal),
+        "input-noise NC-WM annealed 0.12->0": dict(Jfun=lambda a, s: J_wm(wm_nc, a, s), sigma_sched=anneal),
+        "ARG-WM sigma=0.05": dict(Jfun=lambda a, s: J_wm(wm_arg, a, 0.05)),
+        "ARG-WM sigma=0.12": dict(Jfun=lambda a, s: J_wm(wm_arg, a, 0.12)),
+        "ARG-WM annealed 0.12->0": dict(Jfun=lambda a, s: J_wm(wm_arg, a, s), sigma_sched=anneal),
+        "ARG-WM annealed, concentrated data": dict(Jfun=lambda a, s: J_wm(wm_arg_conc, a, s), sigma_sched=anneal),
     }
     opt = {}
     for name, kw in methods.items():
@@ -254,11 +271,11 @@ def main():
         ax[0].plot(grid, land["true"], "k", lw=2, label="true J")
         for sg, c in zip((0.03, 0.08, 0.12), ("C0", "C1", "C2")):
             ax[0].plot(grid, land[f"mc_sigma{sg}"], color=c, ls="--", label=f"MC-smoothed true dynamics, sigma={sg}")
-            ax[0].plot(grid, land[f"nc_sigma{sg}"], color=c, label=f"noise-conditioned WM, sigma={sg}")
+            ax[0].plot(grid, land[f"arg_sigma{sg}"], color=c, label=f"argument-noise WM, sigma={sg}")
         ax[0].plot(grid, land["plain_wm"], color="C4", ls=":", label="plain WM (sigma=0)")
         ax[0].axvspan(6, 19, color="0.9", zorder=0)
         ax[0].set_xlabel("launch angle alpha [deg]"); ax[0].set_ylabel("J = final x [m]")
-        ax[0].set_title("Prop A: NC world model ~ randomized smoothing (grey: optimisation starts)", fontsize=9)
+        ax[0].set_title("Argument-noise world model vs randomized smoothing (grey: optimisation starts)", fontsize=9)
         ax[0].legend(fontsize=6.5)
         for sg, c in zip((0.05, 0.12), ("C1", "C2")):
             ax[1].plot(grid, land[f"mc_sigma{sg}"], color=c, ls="--", label=f"MC-smoothed, sigma={sg}")
@@ -266,7 +283,7 @@ def main():
             ax[1].plot(grid, land[f"ncconc_sigma{sg}"], color=c, ls=":", lw=2, label=f"NC-WM concentrated data, sigma={sg}")
         ax[1].plot(grid, land["true"], "k", lw=1)
         ax[1].set_xlabel("launch angle alpha [deg]")
-        ax[1].set_title("Prop C: density-weighted smoothing with policy-concentrated data", fontsize=9)
+        ax[1].set_title("Input-noise world models (broad / concentrated data) are denoisers, not smoothers", fontsize=9)
         ax[1].legend(fontsize=6.5)
         fig.tight_layout()
         p = os.path.join(args.out, "idea8_smoothing.png")
