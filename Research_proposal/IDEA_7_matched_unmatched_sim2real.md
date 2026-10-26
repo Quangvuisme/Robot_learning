@@ -69,6 +69,53 @@ All three propositions show up:
 **Caveat:** the "state residual" is near-perfect here because its hand-picked features happen to span the true
 cartpole residual. On a real robot it must be learned, and identifiability becomes the issue (Section 4).
 
+## 3b. Closed-loop transfer: the test that matters (`toy/matched_unmatched_transfer.py`)
+
+**Setup.**
+- The corrections now use **generic features**: all monomials up to degree 2 of (x, ẋ, sinθ, cosθ, θ̇, u). These
+  are not hand-picked, so the comparison does not favour the state residual.
+- A 7-gain swing-up controller is optimised by CEM *inside each corrected simulator*, then deployed on the "real"
+  system.
+- Gap sizes were chosen by a scan so that a controller tuned in the plain sim fails on the real system while one
+  tuned on the real system succeeds; otherwise the test is uninformative.
+- Results are the mean over 3 data seeds and 32 test starts.
+
+| real success (return) | plain sim | δ 1-step | δ multi-step (ASAP-like) | state residual | oracle (tuned on real) |
+|---|---|---|---|---|---|
+| **matched** (gain 0.5, cart friction 3) | 0% (0.50) | **100%** (0.78) | **100%** (0.78) | **100%** (0.78) | 100% (0.78) |
+| **unmatched** (pole friction 0.03, pole 0.12 kg) | 0% (0.39) | **0% (0.28)** | 34% (0.52), seeds 53/50/0% | **97%** (0.68) | 97% (0.68) |
+| both | 0% (0.02) | 0% (0.11) | 0% (0.07) | 0% (0.20) | 0% (0.21) |
+
+**Findings:**
+- **Proposition 1 holds in closed loop.** For matched gaps, every action-residual variant transfers as well as
+  the oracle.
+- **Propositions 2 and 3 hold in closed loop.** For unmatched gaps:
+  - the 1-step action residual never transfers;
+  - the multi-step (ASAP-like) residual is **unreliable across data seeds** (53%, 50%, 0%);
+  - only the state-level residual matches the oracle.
+- **New finding, the partial-correction trap.** For the unmatched gap, the 1-step action residual makes transfer
+  *worse than no correction at all* (return 0.28 versus 0.39). It fixes the matched projection of the gap but
+  leaves a sim whose remaining error is systematically biased, and the optimiser exploits it. This is worth a
+  proposition of its own in the paper.
+- **The "both" gap** is too hard for this controller family: even the oracle reaches 0%. So only returns are
+  comparable, and their order (state ≈ oracle > δ1 > δH > plain) is consistent with the theory.
+
+## 3c. Proposition 4 (domain randomization): **not confirmed** in the toy (`toy/matched_unmatched_dr.py`)
+
+**Hypothesis:** DR suffices for matched gaps but not for unmatched ones (feedback can dominate matched
+uncertainty only).
+
+| | no DR | DR over the gap's parameters | oracle (this setup) | price of robustness (nominal return lost) |
+|---|---|---|---|---|
+| matched | 0% | **100%** | 100% | 0.030 |
+| unmatched | 0% | **73%** | 80% | 0.027 |
+
+DR handled the unmatched gap almost as well as the oracle in this setup, at the same small price. So the
+matched/unmatched distinction is sharp for **model-based corrections** (action residuals) but **not clearly for
+DR**. The paper should scope its claims to correction models, and treat DR versus unmatched gaps as an open
+empirical question for the humanoid. (The oracle here reaches only 80% because CEM used fewer training starts than
+in §3b; that confounder should be fixed before drawing stronger conclusions.)
+
 ## 4. Method: what to do instead
 
 1. **Diagnose:** compute ρ from real logs. If ρ ≈ 1, an action residual is enough (use ASAP). Otherwise,

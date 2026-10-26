@@ -1,2 +1,12 @@
 matched seed 0 {'nominal': (0.496, 0.0), 'delta1': (0.78, 1.0), 'deltaH': (0.78, 1.0), 'state': (0.78, 1.0), 'oracle': (0.78, 1.0)}
 matched seed 1 {'nominal': (0.497, 0.0), 'delta1': (0.78, 1.0), 'deltaH': (0.78, 1.0), 'state': (0.78, 1.0), 'oracle': (0.78, 1.0)}
+matched seed 2 {'nominal': (0.496, 0.0), 'delta1': (0.78, 1.0), 'deltaH': (0.78, 1.0), 'state': (0.779, 1.0), 'oracle': (0.78, 1.0)}
+matched {"nominal": {"real_return": 0.497, "real_success": 0.0, "replay_err_new_policy": 1.0}, "delta1": {"real_return": 0.78, "real_success": 1.0, "replay_err_new_policy": 0.0}, "deltaH": {"real_return": 0.78, "real_success": 1.0, "replay_err_new_policy": 0.0}, "state": {"real_return": 0.78, "real_success": 1.0, "replay_err_new_policy": 0.0}, "oracle": {"real_return": 0.78, "real_success": 1.0, "replay_err_new_policy": 0.0}}
+unmatched seed 0 {'nominal': (0.388, 0.0), 'delta1': (0.274, 0.0), 'deltaH': (0.61, 0.53125), 'state': (0.68, 0.96875), 'oracle': (0.679, 0.96875)}
+unmatched seed 1 {'nominal': (0.387, 0.0), 'delta1': (0.279, 0.0), 'deltaH': (0.601, 0.5), 'state': (0.678, 0.96875), 'oracle': (0.679, 0.96875)}
+unmatched seed 2 {'nominal': (0.386, 0.0), 'delta1': (0.284, 0.0), 'deltaH': (0.333, 0.0), 'state': (0.678, 0.96875), 'oracle': (0.679, 0.96875)}
+unmatched {"nominal": {"real_return": 0.387, "real_success": 0.0, "replay_err_new_policy": 1.0}, "delta1": {"real_return": 0.279, "real_success": 0.0, "replay_err_new_policy": 0.464}, "deltaH": {"real_return": 0.515, "real_success": 0.344, "replay_err_new_policy": 0.415}, "state": {"real_return": 0.679, "real_success": 0.969, "replay_err_new_policy": 0.001}, "oracle": {"real_return": 0.679, "real_success": 0.969, "replay_err_new_policy": 0.0}}
+both seed 0 {'nominal': (0.015, 0.0), 'delta1': (0.106, 0.0), 'deltaH': (0.074, 0.0), 'state': (0.186, 0.0), 'oracle': (0.218, 0.0)}
+both seed 1 {'nominal': (0.014, 0.0), 'delta1': (0.105, 0.0), 'deltaH': (0.068, 0.0), 'state': (0.2, 0.0), 'oracle': (0.197, 0.0)}
+both seed 2 {'nominal': (0.015, 0.0), 'delta1': (0.105, 0.0), 'deltaH': (0.073, 0.0), 'state': (0.203, 0.0), 'oracle': (0.21, 0.0)}
+both {"nominal": {"real_return": 0.015, "real_success": 0.0, "replay_err_new_policy": 1.0}, "delta1": {"real_return": 0.105, "real_success": 0.0, "replay_err_new_policy": 0.019}, "deltaH": {"real_return": 0.072, "real_success": 0.0, "replay_err_new_policy": 0.017}, "state": {"real_return": 0.197, "real_success": 0.0, "replay_err_new_policy": 0.0}, "oracle": {"real_return": 0.208, "real_success": 0.0, "replay_err_new_policy": 0.0}}

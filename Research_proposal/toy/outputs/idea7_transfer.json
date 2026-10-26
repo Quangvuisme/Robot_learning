@@ -1,0 +1,84 @@
+{
+  "matched": {
+    "nominal": {
+      "real_return": 0.497,
+      "real_success": 0.0,
+      "replay_err_new_policy": 1.0
+    },
+    "delta1": {
+      "real_return": 0.78,
+      "real_success": 1.0,
+      "replay_err_new_policy": 0.0
+    },
+    "deltaH": {
+      "real_return": 0.78,
+      "real_success": 1.0,
+      "replay_err_new_policy": 0.0
+    },
+    "state": {
+      "real_return": 0.78,
+      "real_success": 1.0,
+      "replay_err_new_policy": 0.0
+    },
+    "oracle": {
+      "real_return": 0.78,
+      "real_success": 1.0,
+      "replay_err_new_policy": 0.0
+    }
+  },
+  "unmatched": {
+    "nominal": {
+      "real_return": 0.387,
+      "real_success": 0.0,
+      "replay_err_new_policy": 1.0
+    },
+    "delta1": {
+      "real_return": 0.279,
+      "real_success": 0.0,
+      "replay_err_new_policy": 0.464
+    },
+    "deltaH": {
+      "real_return": 0.515,
+      "real_success": 0.344,
+      "replay_err_new_policy": 0.415
+    },
+    "state": {
+      "real_return": 0.679,
+      "real_success": 0.969,
+      "replay_err_new_policy": 0.001
+    },
+    "oracle": {
+      "real_return": 0.679,
+      "real_success": 0.969,
+      "replay_err_new_policy": 0.0
+    }
+  },
+  "both": {
+    "nominal": {
+      "real_return": 0.015,
+      "real_success": 0.0,
+      "replay_err_new_policy": 1.0
+    },
+    "delta1": {
+      "real_return": 0.105,
+      "real_success": 0.0,
+      "replay_err_new_policy": 0.019
+    },
+    "deltaH": {
+      "real_return": 0.072,
+      "real_success": 0.0,
+      "replay_err_new_policy": 0.017
+    },
+    "state": {
+      "real_return": 0.197,
+      "real_success": 0.0,
+      "replay_err_new_policy": 0.0
+    },
+    "oracle": {
+      "real_return": 0.208,
+      "real_success": 0.0,
+      "replay_err_new_policy": 0.0
+    }
+  },
+  "note": "controller (7 gains) optimised by CEM inside each simulator, then deployed on the real system; mean over 3 data seeds and 32 test initial states. real_return is per-step reward; replay_err_new_policy is H-step replay error on pi1 data relative to the plain sim."
+}

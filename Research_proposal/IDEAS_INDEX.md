@@ -7,14 +7,18 @@ re-check arXiv before committing.
 
 | # | Idea | File | Novelty | Evidence so far | Recommendation |
 |---|---|---|---|---|---|
-| 7 | **What can an action residual fix?** The matched/unmatched condition for ASAP-style sim-to-real corrections, the diagnostic ρ, and a generalized-force fix | `IDEA_7_matched_unmatched_sim2real.md` | **Open**: no paper states the matching condition for delta-action sim-to-real | Cartpole toy confirms all 3 propositions; the multi-step (ASAP-like) fit is about 2× worse on a new policy for unmatched gaps | **Top pick** |
+| 7 | **What can an action residual fix?** The matched/unmatched condition for ASAP-style sim-to-real corrections, the diagnostic ρ, and a generalized-force fix | `IDEA_7_matched_unmatched_sim2real.md` | **Open**: no paper states the matching condition for delta-action sim-to-real | Cartpole toy: replay error confirms Propositions 1–3. **Closed-loop transfer** (generic features, 3 seeds): matched → every correction 100%; unmatched → 1-step δ 0% (worse than no correction), ASAP-like δ 34% (unstable across seeds), state residual 97% (= oracle). Proposition 4 (DR) is *not* confirmed: DR reached 73% on the unmatched gap | **Top pick** |
 | 8 | Smoothing theory of world-model policy gradients, plus annealed noise-conditioned world models | `IDEA_8_9_fundamental_sketches.md` | Partly open (PWM, MB-RPG theory, Bundled Contact Gradients are close) | none yet | Second |
 | 9 | Restart distributions for motion imitation from the performance-difference lemma | `IDEA_8_9_fundamental_sketches.md` | Partly open (RCG, prioritized restarts, SFV) | none yet | Third |
 
 Fundamental ideas checked and rejected: **action-chunking theory for behaviour cloning** (Zhang, Pfrommer, Pan,
 Matni & Simchowitz, ICLR 2026, arXiv 2507.09061, plus arXiv 2610.01626); **optimal-transport / DTW rewards for
 infeasible or misaligned references** (Flow-Matched Motion Priors arXiv 2609.15631, ORCA arXiv 2502.05397, rough
-demonstrations arXiv 2206.11693); **adaptive tracking σ** (KungfuBot).
+demonstrations arXiv 2206.11693); **adaptive tracking σ** (KungfuBot); **bias of the privileged (asymmetric)
+critic** (Baisero & Amato arXiv 2105.11674; Informed AAC arXiv 2509.26000); **closed-loop identifiability with
+active probing** (SPI-Active, CoRL 2025; arXiv 2607.21867; ASID arXiv 2404.12308); **plasticity in humanoid
+fine-tuning** (PPF arXiv 2504.09833, partly). Open but compute-heavy: **is the critic the bottleneck in universal
+motion tracking?** (SuperMimic notes that critic calibration "has not been systematically evaluated").
 
 ## Application-driven ideas (earlier; kept for reference)
 

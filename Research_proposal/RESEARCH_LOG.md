@@ -136,3 +136,29 @@ Each loop iteration does three things: a literature sweep, one step on the proto
 - Caveat: an Idea 2 online-adaptation code path exists (`adapt=True`) and is still unevaluated (parked).
 - Next: add closed-loop policy fine-tuning to the Idea 7 toy (measure transfer success, not only replay error);
   run a sim-to-sim humanoid with controlled matched and unmatched gaps (mjlab versus MuJoCo).
+
+## Iteration 5 (2026-10-26): Idea 7 closed-loop experiments
+- **Transfer test** (`toy/matched_unmatched_transfer.py`): generic degree-2 features, a 7-gain controller
+  optimised by CEM inside each corrected sim, then deployed on the real system; 3 seeds.
+  - Matched gap: every action residual = oracle (100%).
+  - Unmatched gap:
+    - 1-step δ: 0%, and its return is *worse* than the plain sim (the "partial-correction trap");
+    - ASAP-like multi-step δ: 34% (53%, 50% and 0% across seeds);
+    - state residual: 97% (= oracle).
+  - Both gaps: infeasible for this controller family (oracle 0%); returns are ordered as the theory predicts.
+- **Domain-randomization test** (`toy/matched_unmatched_dr.py`): DR gives 100% on the matched gap and 73% on
+  the unmatched gap (oracle 80% in this setup), with a price of robustness of about 0.03 in both cases. **The
+  Proposition 4 hypothesis is not confirmed.** The claims are now scoped to correction models.
+- Setup lessons:
+  - the first controller had a wrong-sign cart feedback term (it was fixed with an LQR initialisation);
+  - gap sizes must be scanned so that the plain sim fails but the oracle succeeds, otherwise transfer tests are
+    uninformative.
+- **Novelty re-check:** still no paper on matched versus unmatched uncertainty in DR or delta-action sim-to-real.
+- **New candidates checked:** asymmetric-critic bias (taken), closed-loop identifiability (taken, but it explains
+  Proposition 3), critic bottleneck in motion tracking (open, compute-heavy), plasticity in fine-tuning (partly
+  taken).
+- **Next:**
+  - fix the DR-test confounder (same training starts for the oracle);
+  - write Propositions 1–3 and the partial-correction trap formally (a short theory note);
+  - start the sim-to-sim humanoid design: mjlab as the sim, MuJoCo with base-inertia or foot-compliance gaps as
+    the "real" system.
