@@ -46,7 +46,7 @@ Cross-entropy is a proper scoring rule, so the event head converges to the calib
 *Toy:* with true terrain the boundary width is **0.6–0.9 cm**, where a plain regression MLP blurs it to
 3–16 cm and shifts it in a seed-dependent way.
 
-### C2. Perception-calibrated inputs
+### C2. Perception-calibrated inputs (one of two options; see §3b)
 
 Feed the model the **perceived** terrain (heightmap with the real sensor-noise model), never the privileged
 ground truth. The event head then learns the **Bayesian posterior** P(trip | y, Ĥ) = P(H > y | Ĥ), and margins
@@ -151,6 +151,34 @@ for iteration in range(N):
     θ ← θ + lr * ∇_θ J                                   # gradient flows through the weights w (boundary term)
     ψ ← fit V_ψ on λ-returns from the branched rollouts
 ```
+
+## 3b. Revisions from loop iterations 1–2 (NN policy, 5-step staircase)
+
+1. **Every discontinuity must be an event.** The 2-event model (trip only) left the foot-stop at the target
+   (vx: 1 → 0) to the regression branch. It smoothed the jump (vx → −0.7 … −8), the rollout diverged, and the
+   event head fired false trips (p ≈ 0.9). With an NN policy on a 5-riser staircase this gave
+   J 2.17 ± 1.74 (ideal 4.165). A 3-way head {none, trip, stop}, with absorbing tripped and landed modes, fixes it:
+   **J 4.058 ± 0.066**, escape from a tripping start 3.994 ± 0.051 (σ_p = 2 cm, 3 seeds).
+2. **C2 is an option, not a requirement.** With a correct event model and branched rollouts, a world model fed
+   the **true** terrain, combined with **sampling (H, Ĥ) pairs in the policy batch** (the perception-noise model
+   is applied to the policy input only), performed **best**:
+
+   | σ_p | true-terrain EB-WM | perceived-terrain EB-WM |
+   |---|---|---|
+   | 2 cm | **J 4.236 ± 0.003**, all 5 steps 99% | J 4.058 ± 0.066, all 5 steps 90.5% |
+   | 4 cm | **J 4.097 ± 0.024**, all 5 steps 98.9% | J 3.863 ± 0.090, all 5 steps 92% |
+
+   This beats the Gaussian-approximation "ideal", which ignores the uniform height prior. Reason: a *learned*
+   event head is a smooth sigmoid (≈ 0.7 cm wide), so averaging its pathwise gradient over sampled true terrains
+   gives a kernel estimate of the boundary term (bias O(width)). **Proposition E still holds for the exact
+   simulator** (100% trips). Earlier failures of true-terrain models came from mean-field rollouts and the
+   unmodelled stop event.
+3. **Updated essential components:**
+   - (i) an event-factored model covering **all** discontinuities;
+   - (ii) mode-branched rollouts;
+   - (iii) perception noise represented either in the policy batch (true-terrain model) or inside the model
+     (perceived-terrain model);
+   - (iv) argument-noise smoothing within the budget, when escape is needed.
 
 ## 4. Theory (statements; proofs to write)
 

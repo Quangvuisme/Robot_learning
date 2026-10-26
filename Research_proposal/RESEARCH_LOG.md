@@ -229,3 +229,12 @@ Each loop iteration does three things: a literature sweep, one step on the proto
 - **(B) New candidates:**
   - Idea 12, event-factored critics (partly open; CACTO-BIC, Zero Collapse) → sketch;
   - termination-as-hidden-reward → parked (analysis-type).
+- **(A) 3-event NN staircase results (iteration 2, completed):**
+  - **σ_p = 2 cm:**
+    - perceived-terrain EB-WM: J 4.058 ± 0.066, all 5 steps 90.5%, escape 3.994 ± 0.051;
+    - **true-terrain EB-WM (noise sampled in the policy batch): J 4.236 ± 0.003, all 5 steps 99%**.
+  - **σ_p = 4 cm:** perceived J 3.863 ± 0.090; true-terrain **J 4.097 ± 0.024**, 98.9%.
+  - Both beat the Gaussian "ideal" (4.165 / 3.737), which ignores the prior.
+  - **Revision:** C2 (perceived input) is optional. The smooth learned event head plus MC sampling of (H, Ĥ)
+    recovers the boundary term. Proposition E holds only for the exact simulator.
+  - METHOD §3b updated.

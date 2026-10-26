@@ -1,0 +1,10 @@
+seed 0 clearing {'ideal': 3.7374, 'branched3': 3.7355, 'branched3_privileged': 4.1169} 143s
+seed 0 tripping {'ideal': 3.7621, 'branched3': 3.6315, 'branched3_privileged': 4.1134} 255s
+seed 1 clearing {'ideal': 3.7272, 'branched3': 3.9138, 'branched3_privileged': 4.0641} 401s
+seed 1 tripping {'ideal': 3.7466, 'branched3': 3.9157, 'branched3_privileged': 4.0998} 511s
+seed 2 clearing {'ideal': 3.7464, 'branched3': 3.9387, 'branched3_privileged': 4.1109} 655s
+seed 2 tripping {'ideal': 3.7305, 'branched3': 3.9145, 'branched3_privileged': 4.0345} 769s
+ideal {"clearing": {"J": [3.737, 0.0078], "steps_climbed": [4.8523, 0.009], "all5": [0.9524, 0.0032], "trip_per_step": [0.0105, 0.0004], "clearance_cm_vs_Hp_seed0": {"0.07": 9.85, "0.09": 9.65, "0.11": 9.22, "0.13": 8.93, "0.15": 8.92, "0.17": 8.9, "0.19": 8.81}}, "tripping": {"J": [3.7464, 0.0129], "steps_climbed": [4.8643, 0.0128], "all5": [0.9564, 0.0042], "trip_per_step": [0.0091, 0.0013], "clearance_cm_vs_Hp_seed0": {"0.07": 9.73, "0.09": 9.69, "0.11": 9.34, "0.13": 8.8, "0.15": 9.14, "0.17": 8.52, "0.19": 8.58}}}
+branched3 {"clearing": {"J": [3.8627, 0.0905], "steps_climbed": [4.764, 0.1299], "all5": [0.9212, 0.0437], "trip_per_step": [0.0143, 0.0074], "clearance_cm_vs_Hp_seed0": {"0.07": 8.45, "0.09": 7.03, "0.11": 5.48, "0.13": 5.14, "0.15": 6.72, "0.17": 7.29, "0.19": 6.58}}, "tripping": {"J": [3.8206, 0.1337], "steps_climbed": [4.7163, 0.1827], "all5": [0.9064, 0.06], "trip_per_step": [0.0171, 0.0107], "clearance_cm_vs_Hp_seed0": {"0.07": 8.55, "0.09": 7.11, "0.11": 5.47, "0.13": 5.24, "0.15": 6.7, "0.17": 7.29, "0.19": 6.72}}}
+branched3_privileged {"clearing": {"J": [4.0973, 0.0236], "steps_climbed": [4.966, 0.0175], "all5": [0.9886, 0.0061], "trip_per_step": [0.0021, 0.0007], "clearance_cm_vs_Hp_seed0": {"0.07": 10.68, "0.09": 9.64, "0.11": 8.79, "0.13": 7.45, "0.15": 5.5, "0.17": 3.76, "0.19": 1.93}}, "tripping": {"J": [4.0826, 0.0344], "steps_climbed": [4.9807, 0.0056], "all5": [0.9937, 0.0019], "trip_per_step": [0.0014, 0.0004], "clearance_cm_vs_Hp_seed0": {"0.07": 11.07, "0.09": 10.1, "0.11": 9.04, "0.13": 7.42, "0.15": 5.58, "0.17": 4.0, "0.19": 2.12}}}
+done 772s
