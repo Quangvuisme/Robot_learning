@@ -42,3 +42,16 @@ Each loop iteration does three things: a literature sweep, one step on the proto
 3. Ablate preview length (1, 3, 5, 10 segments, full program) to get the curve for Figure 2.
 4. Literature: search Google Scholar-style terms ("thermal-aware MPC robot joint", "motor temperature constraint
    humanoid RL", "endurance humanoid").
+
+## Iteration 1b (2026-10-26): idea search, at the user's request "continue find new idea"
+- Brainstormed deployment problems that humanoid papers ignore, then checked each one's novelty (see
+  `IDEAS_INDEX.md`).
+- **New: Idea 3, humanoids in moving vehicles.** A single accelerometer cannot tell tilt from acceleration, so
+  the standard "projected gravity" input is corrupted inside a braking bus (about 11° error at 0.2 g). We found
+  no learned humanoid controller for this. Prior work is the 2026 survey arXiv 2604.20990 and an estimation-only
+  invariant EKF (arXiv 2201.10636).
+- Rejected as already taken: joint-failure tolerance (TOLEBI), fatigue-aware torque control (SATA), battery-sag
+  modelling (2608.29769), and hardware co-design (BRIDGE, EA-CoRL).
+- Thesis storyline drafted: "Humanoids in the real world: slow hidden states and moving frames."
+- Next: build the Idea 3 toy (a pendulum on a braking cart with a simulated IMU and complementary filter), and
+  continue the Idea 2 iteration 2 tasks.
