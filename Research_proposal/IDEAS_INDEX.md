@@ -3,6 +3,21 @@
 Updated every loop iteration. Since 2026-10-26 (user request) the focus is the core areas: walking, WBC, perception, imitation and collaboration. "Open" means no matching paper was found in web search as of the date; always
 re-check arXiv before committing.
 
+## Fundamental learning track (current focus, at the user's request on 2026-10-26)
+
+| # | Idea | File | Novelty | Evidence so far | Recommendation |
+|---|---|---|---|---|---|
+| 7 | **What can an action residual fix?** The matched/unmatched condition for ASAP-style sim-to-real corrections, the diagnostic ρ, and a generalized-force fix | `IDEA_7_matched_unmatched_sim2real.md` | **Open**: no paper states the matching condition for delta-action sim-to-real | Cartpole toy confirms all 3 propositions; the multi-step (ASAP-like) fit is about 2× worse on a new policy for unmatched gaps | **Top pick** |
+| 8 | Smoothing theory of world-model policy gradients, plus annealed noise-conditioned world models | `IDEA_8_9_fundamental_sketches.md` | Partly open (PWM, MB-RPG theory, Bundled Contact Gradients are close) | none yet | Second |
+| 9 | Restart distributions for motion imitation from the performance-difference lemma | `IDEA_8_9_fundamental_sketches.md` | Partly open (RCG, prioritized restarts, SFV) | none yet | Third |
+
+Fundamental ideas checked and rejected: **action-chunking theory for behaviour cloning** (Zhang, Pfrommer, Pan,
+Matni & Simchowitz, ICLR 2026, arXiv 2507.09061, plus arXiv 2610.01626); **optimal-transport / DTW rewards for
+infeasible or misaligned references** (Flow-Matched Motion Priors arXiv 2609.15631, ORCA arXiv 2502.05397, rough
+demonstrations arXiv 2206.11693); **adaptive tracking σ** (KungfuBot).
+
+## Application-driven ideas (earlier; kept for reference)
+
 | # | Idea | File | Novelty (2026-10-26) | Hardware need | Recommendation |
 |---|---|---|---|---|---|
 | 1 | World-model-grounded sampling guidance for diffusion policies | `README.md` | Combination of existing pieces; crowded area | G1 | Backup only |

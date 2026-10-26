@@ -1,0 +1,48 @@
+{
+  "matched": {
+    "matched_fraction_rho": 1.0,
+    "pi0_heldout": {
+      "none": 1.0,
+      "delta_1step": 0.0,
+      "delta_Hstep": 0.0,
+      "state_resid": 0.0
+    },
+    "pi1_new_policy": {
+      "none": 1.0,
+      "delta_1step": 0.0,
+      "delta_Hstep": 0.0,
+      "state_resid": 0.0
+    }
+  },
+  "unmatched": {
+    "matched_fraction_rho": 0.549,
+    "pi0_heldout": {
+      "none": 1.0,
+      "delta_1step": 0.388,
+      "delta_Hstep": 0.326,
+      "state_resid": 0.0
+    },
+    "pi1_new_policy": {
+      "none": 1.0,
+      "delta_1step": 0.386,
+      "delta_Hstep": 0.643,
+      "state_resid": 0.004
+    }
+  },
+  "both": {
+    "matched_fraction_rho": 0.914,
+    "pi0_heldout": {
+      "none": 1.0,
+      "delta_1step": 0.114,
+      "delta_Hstep": 0.105,
+      "state_resid": 0.0
+    },
+    "pi1_new_policy": {
+      "none": 1.0,
+      "delta_1step": 0.119,
+      "delta_Hstep": 0.11,
+      "state_resid": 0.0
+    }
+  },
+  "note": "numbers = H-step open-loop replay error (cart position + pole angle) relative to the plain sim (1.0 = no improvement, 0 = perfect); H = 25"
+}

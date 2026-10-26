@@ -118,3 +118,21 @@ Each loop iteration does three things: a literature sweep, one step on the proto
   - **Idea 6:** a humanoid that physically assists people.
 
   See their proposal files.
+
+## Iteration 4 (2026-10-26): user feedback "not good, too application-focused; do more fundamental learning"
+
+- Switched to a **fundamental learning track**. Checked 7 candidates:
+  - **Taken:** chunking/compounding-error theory (ICLR 2026); OT/DTW rewards for infeasible references
+    (2609.15631, ORCA).
+  - **Partly open:** smoothing theory of world-model gradients (PWM, MB-RPG theory, Bundled Contact Gradients);
+    restart-distribution theory for imitation (RCG, prioritized restarts).
+  - **Open:** the matching condition for delta-action sim-to-real (ASAP), which became **Idea 7**.
+- **Idea 7 toy** (`toy/matched_unmatched_delta_action.py`), an underactuated cartpole:
+  - matched gap: ρ = 1.0, and the action residual is exact;
+  - unmatched gap: ρ = 0.55, and the 1-step residual is stuck at 0.39 relative error;
+  - the multi-step (ASAP-like) residual gives 0.33 on the training policy but **0.64 on a new policy**, so it
+    overfits to the data-collection policy, as Proposition 3 predicts;
+  - the full state residual is about 0, but it is optimistic because its features span the true residual.
+- Caveat: an Idea 2 online-adaptation code path exists (`adapt=True`) and is still unevaluated (parked).
+- Next: add closed-loop policy fine-tuning to the Idea 7 toy (measure transfer success, not only replay error);
+  run a sim-to-sim humanoid with controlled matched and unmatched gaps (mjlab versus MuJoCo).
