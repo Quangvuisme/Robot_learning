@@ -7,7 +7,8 @@ re-check arXiv before committing.
 |---|---|---|---|---|---|
 | 1 | World-model-grounded sampling guidance for diffusion policies | `README.md` | Combination of existing pieces; crowded area | G1 | Backup only |
 | 2 | **Thermal preview control** (plan motor heat over minutes, move load across redundant joints) | `IDEA_2_thermal_preview_humanoid.md` | **Open** for humanoids; quadruped work is reactive only | G1 + thermal logs | **Main paper.** The toy prototype already works (`toy/`). |
-| 3 | **Humanoids in moving vehicles** (gravito-inertial ambiguity breaks "projected gravity") | `IDEA_3_humanoid_in_moving_vehicles.md` | **Open** for learned humanoid control; there is a 2026 survey and estimation-only prior work | G1 + motion platform or rolling cart | **Strong second paper**, with a clear insight and good demos |
+| 3 | **Humanoids in moving vehicles** (gravito-inertial ambiguity breaks "projected gravity") | `IDEA_3_humanoid_in_moving_vehicles.md` | **Open** for learned humanoid control (re-checked 2026-10-26); there is a 2026 survey and estimation-only prior work | G1 + motion platform or rolling cart | **Strong second paper.** The toy works: platform-acceleration estimation survives 2–3× the braking of the IMU-vertical design (`toy/`). Escalators are an extension. |
+| 4 | Humanoids wading through flowing water | `IDEA_4_humanoid_wading_sketch.md` | **Open** (no learned humanoid water locomotion found) | Needs waterproofing, which is a risk | Sketch only; possible chapter in "the world moves" |
 
 ## A PhD thesis storyline built from these ideas
 
@@ -26,3 +27,5 @@ re-check arXiv before committing.
 | Fatigue or wear-aware torque policy | SATA (arXiv 2502.12674) keeps a fatigue state in the policy (quadruped) | partially taken; could become a thesis chapter on gearbox impact damage |
 | Battery voltage-sag modelling | arXiv 2608.29769 models sag and adds a penalty (humanoid jumping) | partially taken; *planning over state of charge* is still open (thesis chapter) |
 | Hardware co-design from tracking policies | BRIDGE (arXiv 2609.03497), EA-CoRL (arXiv 2509.26082) | taken |
+| Humanoid walking in strong wind | Covered in practice by disturbance observers (ADAPT, arXiv 2606.16542) and push randomisation; one biped wind-DDPG paper exists | weak novelty: wind is just a distributed push |
+| Falsification / stress testing of humanoid policies | Stress tests of SPARK safety filters (arXiv 2605.19009); selective adversarial training (arXiv 2507.08303) | partially open, but the contribution would be methodological; parked |

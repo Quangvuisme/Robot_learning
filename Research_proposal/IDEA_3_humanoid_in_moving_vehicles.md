@@ -23,8 +23,24 @@ vehicle's acceleration. This is Einstein's equivalence principle: a single accel
 an acceleration.
 
 So the robot's sense of "down" tilts. When a bus brakes at 0.2 g, the apparent vertical is off by about 11°.
-The policy, trained on a static ground, "corrects" a tilt that is not there and falls forward. Human pilots have
-the same failure; it is called the **somatogravic illusion**. Bus passengers fall for the same reason.
+Human pilots have the same illusion; it is called the **somatogravic illusion**.
+
+**Refined after the toy prototype (iteration 2).** The mechanism is subtler than "the robot corrects a tilt that is
+not there," and more interesting:
+
+- **(a)** In *steady* braking, the gravito-inertial vertical (what the IMU reports) is actually the *right* balance
+  reference. You should lean into the deceleration, as experienced passengers do.
+- **(b)** A torso accelerometer measures *contact force / mass*. For a standing body, its "tilt" reading is about
+  −u/(m g l), which is the robot's **own ankle torque**, not its tilt. So feedback on a fast IMU tilt estimate with
+  stiffness Kp > m g l is *self-destabilising*: positive feedback through the robot's own torque. In the toy, a
+  0.1 s filter falls **even when the bus is stationary**.
+- **(c)** The orientation filter must therefore be slow (0.5–2 s). A slow filter **lags at braking onset and
+  release**, and that is when robots fall.
+- **(d)** Using only joint kinematics (treating the floor as inertial) never leans, so it saturates the ankle
+  torque above about 0.07 g.
+
+So "projected gravity from the IMU" is wrong in transients, and "upright relative to the floor" is wrong in steady
+state. The fix is to estimate the **platform acceleration itself**.
 
 **This is a principled failure mode of the standard humanoid observation design, and no paper studies it.**
 
@@ -98,7 +114,44 @@ stepping and staying up, plus the estimator's "down" arrow drawn on both.
 - It extends naturally into a thesis chapter: ships and offshore, then lifts and stairs in vehicles, then
   humanoids helping passengers.
 
-## 6. Toy prototype (1 week)
+## 6a. Toy result (iteration 2): `toy/braking_bus_pendulum.py`
+
+The largest peak braking deceleration (in g) survived with an ankle strategy only, over 2 noise seeds:
+
+| onset (rise) time | 0.2 s | 0.5 s | 1.0 s | 2.0 s |
+|---|---|---|---|---|
+| C0 IMU vertical, τ = 0.1 s | 0 (falls standing still) | 0 | 0 | 0 |
+| C0 IMU vertical, τ = 0.5 s | 0.08 | 0.08 | 0.12 | 0.22 |
+| C0 IMU vertical, τ = 2 s | 0.06 | 0.08 | 0.08 | 0.10 |
+| C1 kinematic vertical | 0.06 | 0.06 | 0.06 | 0.06 |
+| **C2a ours, torso IMU + kinematics** | **0.12** | **0.16** | **0.24** | **0.44** |
+| **C2b ours, foot IMU** | **0.12** | **0.16** | **0.24** | **0.46** |
+| oracle a_p | 0.12 | 0.18 | 0.28 | 0.52 |
+| oracle + 0.3 s preview | 0.40 | 0.28 | 0.46 | 0.52 |
+
+Typical bus braking is 0.1–0.3 g. The standard IMU-vertical design is **2–3× worse** than estimating the platform
+acceleration, and ours comes within about 15% of the oracle. **Anticipation** (preview) is the biggest lever for
+fast onsets (0.12 → 0.40 g at 0.2 s), which motivates the "predict the vehicle" contribution.
+
+Also note: with only a torso IMU, the estimator *needs angular acceleration*. The model-based alternative
+cancels a_p to first order (its coefficient is sin²θ). This favours adding a cheap foot IMU, which is a hardware
+recommendation the paper can make.
+
+Caveats:
+- This is a point-mass pendulum with no stepping, under a PD controller rather than a learned policy.
+- Real RL policies also see joint encoders and history, and might partly learn to disambiguate. Testing a
+  standard mjlab G1 policy on a moving platform is the *first* experiment of the real paper.
+- The preview curve is non-monotonic because the fixed 0.3 s preview is not tuned to the onset time; this needs
+  investigating.
+
+## 6b. Extensions (thesis chapter material)
+
+- **Escalators**, a moving *and* stepped platform. No humanoid escalator work was found (2026-10-26); the closest
+  is stair work such as FastStair (arXiv 2601.10365) and arXiv 2605.09944.
+- Lifts (vertical acceleration changes the friction cone and the ankle-torque limit), and ship decks (rotating
+  platform, where the floor is no longer level and the kinematic vertical is also wrong).
+
+## 6. Toy prototype (1 week): original plan
 
 Use a 2D inverted pendulum (or the cartpole in this repo) **standing on an accelerating cart**:
 - The IMU is simulated as specific force plus gyro. A complementary filter gives the "projected gravity".

@@ -1,4 +1,16 @@
-# Toy prototype: thermal preview control on a redundant 3-link arm
+# Toy prototypes
+
+- `thermal_preview_arm.py`: Idea 2 (thermal preview control), described below.
+- `braking_bus_pendulum.py`: Idea 3 (humanoid in a braking bus). Run it with
+  `python3 braking_bus_pendulum.py --seeds 3` (about 20 s). It writes `outputs/idea3_survival_map.png` and
+  `outputs/idea3_survival.json`. The results table and caveats are in `../IDEA_3_humanoid_in_moving_vehicles.md`,
+  section 6a.
+
+![idea3](outputs/idea3_survival_map.png)
+
+---
+
+# Idea 2: thermal preview control on a redundant 3-link arm
 
 `thermal_preview_arm.py` is the minimal, numpy-only version of the idea in
 `../IDEA_2_thermal_preview_humanoid.md`. Run it with:

@@ -55,3 +55,41 @@ Each loop iteration does three things: a literature sweep, one step on the proto
 - Thesis storyline drafted: "Humanoids in the real world: slow hidden states and moving frames."
 - Next: build the Idea 3 toy (a pendulum on a braking cart with a simulated IMU and complementary filter), and
   continue the Idea 2 iteration 2 tasks.
+
+## Iteration 2 (2026-10-26): user asked to continue researching
+
+### New ideas checked
+- **Accepted as a sketch: Idea 4, humanoid wading in water.** No learned humanoid water locomotion was found; the
+  closest work is model-based underwater ZMP and SLIP models with added mass. Hardware waterproofing is the main
+  risk.
+- **Escalators:** no humanoid escalator work found. Added as an extension of Idea 3.
+- **Rejected: wind** (it is just a distributed push; ADAPT and push randomisation already cover it).
+- **Parked: falsification of humanoid policies** (SPARK stress tests and selective adversarial training exist).
+
+### Related-work re-check
+- Idea 3: a search for humanoid RL on moving or accelerating platforms in 2026 found nothing. Still open.
+
+### Prototype: Idea 3 toy (`toy/braking_bus_pendulum.py`)
+- An inverted pendulum with a foot-limited ankle torque on a braking bus floor, with a simulated torso IMU
+  (specific force plus gyro) and a foot IMU.
+- **Key analytic insight, now confirmed numerically:** the torso accelerometer "tilt" is about −u/(m g l), the
+  robot's own ankle torque. So a fast complementary filter combined with stiff balance feedback is positive
+  feedback, and it **falls even when the bus is stationary**. The filter must be slow, and a slow filter lags at
+  braking onset and release.
+- **Survival map:** the IMU-vertical design survives 0.06–0.22 g; kinematic-vertical survives 0.06 g; ours
+  (platform-acceleration estimation) survives 0.12–0.46 g; the oracle survives 0.12–0.52 g. Preview gives
+  0.40 g even at a 0.2 s onset.
+- **Correction to the Idea 3 proposal:** the failure is *not* "corrects a non-existent tilt". In steady state the
+  IMU vertical is the right reference; the failure comes from transients and the self-induced accelerometer
+  signal. The proposal text has been updated.
+- **Open anomaly:** the preview curve is non-monotonic (the fixed 0.3 s preview is mismatched to some onset
+  times). Investigate next time.
+- **Most important next experiment for the real paper:** does a standard mjlab G1 policy (push-randomised, no
+  platform motion) actually fall on a moving platform? If RL policies implicitly learn to disambiguate from
+  history, the story changes to "a learned estimator vs implicit learning".
+
+### Next iteration
+1. Idea 2: learned surrogate, model mismatch, fair baselines, preview-length ablation (carried over).
+2. Idea 3: fix the preview anomaly (optimal lean-ahead), add a stepping strategy (capture point) to show where
+   ankle-only fails, and add a ship-deck roll (non-level floor, where the kinematic vertical is also wrong).
+3. One new idea check.
