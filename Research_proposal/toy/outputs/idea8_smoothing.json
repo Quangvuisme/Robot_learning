@@ -1,0 +1,212 @@
+{
+  "propA_one_step_near_contact": {
+    "0.03": {
+      "n_near_contact": 969,
+      "err_to_smoothed__unsmoothed_true": 0.351,
+      "err_to_smoothed__plain_wm": 0.462,
+      "err_to_smoothed__nc_wm": 0.568,
+      "err_to_smoothed__nc_wm_concentrated": 0.599
+    },
+    "0.05": {
+      "n_near_contact": 1113,
+      "err_to_smoothed__unsmoothed_true": 0.451,
+      "err_to_smoothed__plain_wm": 0.64,
+      "err_to_smoothed__nc_wm": 0.827,
+      "err_to_smoothed__nc_wm_concentrated": 0.813
+    },
+    "0.08": {
+      "n_near_contact": 1281,
+      "err_to_smoothed__unsmoothed_true": 0.585,
+      "err_to_smoothed__plain_wm": 0.959,
+      "err_to_smoothed__nc_wm": 1.244,
+      "err_to_smoothed__nc_wm_concentrated": 1.181
+    },
+    "0.12": {
+      "n_near_contact": 1566,
+      "err_to_smoothed__unsmoothed_true": 0.643,
+      "err_to_smoothed__plain_wm": 1.165,
+      "err_to_smoothed__nc_wm": 1.749,
+      "err_to_smoothed__nc_wm_concentrated": 1.661
+    }
+  },
+  "propA_landscape_error": {
+    "0.0": {
+      "mae_nc_vs_mc": 0.2998,
+      "mae_concentrated_vs_mc": 0.3659
+    },
+    "0.03": {
+      "mae_nc_vs_mc": 0.3035,
+      "mae_concentrated_vs_mc": 0.2945
+    },
+    "0.05": {
+      "mae_nc_vs_mc": 0.3332,
+      "mae_concentrated_vs_mc": 0.4628
+    },
+    "0.08": {
+      "mae_nc_vs_mc": 0.3436,
+      "mae_concentrated_vs_mc": 0.5053
+    },
+    "0.12": {
+      "mae_nc_vs_mc": 0.4352,
+      "mae_concentrated_vs_mc": 0.312
+    }
+  },
+  "dJ/dalpha_at_8_12_16_19deg": {
+    "true FO": [
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "NC-WM s=0.0": [
+      0.0663,
+      -0.0827,
+      -0.0283,
+      -0.0776
+    ],
+    "NC-WM s=0.03": [
+      -0.0574,
+      -0.0008,
+      -0.0,
+      0.2878
+    ],
+    "NC-WM s=0.05": [
+      0.0,
+      0.0361,
+      0.0004,
+      -0.0
+    ],
+    "NC-WM s=0.08": [
+      -0.0027,
+      5.0035,
+      -0.0267,
+      -0.0005
+    ],
+    "NC-WM s=0.12": [
+      0.0039,
+      -0.0107,
+      -0.0013,
+      0.0005
+    ],
+    "NC-WM concentrated s=0.05": [
+      -0.0005,
+      0.0116,
+      0.0,
+      0.0032
+    ],
+    "NC-WM concentrated s=0.12": [
+      0.0444,
+      -0.0,
+      0.187,
+      -0.0489
+    ]
+  },
+  "optimisation_from_flat_region": {
+    "true FO": {
+      "final_alpha_deg": [
+        6.0,
+        7.6,
+        9.2,
+        10.9,
+        12.5,
+        14.1,
+        15.8,
+        17.4,
+        19.0
+      ],
+      "mean_true_J": 0.999,
+      "cleared_wall": "0/9"
+    },
+    "ZO-RS (8 samples, 5 deg)": {
+      "final_alpha_deg": [
+        39.7,
+        39.4,
+        40.1,
+        42.1,
+        38.9,
+        40.0,
+        39.2,
+        39.4,
+        38.7
+      ],
+      "mean_true_J": 1.978,
+      "cleared_wall": "9/9"
+    },
+    "plain WM": {
+      "final_alpha_deg": [
+        7.1,
+        7.1,
+        7.1,
+        13.1,
+        13.1,
+        11.5,
+        16.7,
+        25.5,
+        31.0
+      ],
+      "mean_true_J": 1.199,
+      "cleared_wall": "2/9"
+    },
+    "NC-WM sigma=0.03": {
+      "final_alpha_deg": [
+        4.4,
+        12.7,
+        13.2,
+        11.7,
+        13.2,
+        13.2,
+        19.9,
+        19.9,
+        19.9
+      ],
+      "mean_true_J": 0.999,
+      "cleared_wall": "0/9"
+    },
+    "NC-WM sigma=0.12": {
+      "final_alpha_deg": [
+        1.0,
+        1.0,
+        10.8,
+        1.0,
+        9.5,
+        6.1,
+        1.0,
+        30.6,
+        18.5
+      ],
+      "mean_true_J": 1.095,
+      "cleared_wall": "1/9"
+    },
+    "NC-WM annealed 0.12->0": {
+      "final_alpha_deg": [
+        17.6,
+        1.7,
+        30.2,
+        1.0,
+        31.0,
+        15.1,
+        19.9,
+        12.1,
+        8.4
+      ],
+      "mean_true_J": 1.279,
+      "cleared_wall": "3/9"
+    },
+    "NC-WM annealed, concentrated data": {
+      "final_alpha_deg": [
+        1.4,
+        24.5,
+        29.7,
+        8.3,
+        15.3,
+        15.2,
+        15.6,
+        13.1,
+        10.6
+      ],
+      "mean_true_J": 1.18,
+      "cleared_wall": "2/9"
+    }
+  },
+  "note": "optimum: alpha ~ 42 deg, J ~ 1.99; flat region (stuck on wall) J = 1.0; cleared = J > 1.05"
+}
