@@ -1,6 +1,6 @@
 # Research ideas: index and status
 
-Updated every loop iteration. "Open" means no matching paper was found in web search as of the date; always
+Updated every loop iteration. Since 2026-10-26 (user request) the focus is the core areas: walking, WBC, perception, imitation and collaboration. "Open" means no matching paper was found in web search as of the date; always
 re-check arXiv before committing.
 
 | # | Idea | File | Novelty (2026-10-26) | Hardware need | Recommendation |
@@ -9,6 +9,8 @@ re-check arXiv before committing.
 | 2 | **Thermal preview control** (plan motor heat over minutes, move load across redundant joints) | `IDEA_2_thermal_preview_humanoid.md` | **Open** for humanoids; quadruped work is reactive only | G1 + thermal logs | **Main paper.** The toy prototype already works (`toy/`). |
 | 3 | **Humanoids in moving vehicles** (gravito-inertial ambiguity breaks "projected gravity") | `IDEA_3_humanoid_in_moving_vehicles.md` | **Open** for learned humanoid control (re-checked 2026-10-26); there is a 2026 survey and estimation-only prior work | G1 + motion platform or rolling cart | **Strong second paper.** The toy works: platform-acceleration estimation survives 2–3× the braking of the IMU-vertical design (`toy/`). Escalators are an extension. |
 | 4 | Humanoids wading through flowing water | `IDEA_4_humanoid_wading_sketch.md` | **Open** (no learned humanoid water locomotion found) | Needs waterproofing, which is a risk | Sketch only; possible chapter in "the world moves" |
+| 5 | **Cane / trekking pole as a third leg *and* a probe** (walking + WBC + perception + imitation) | `IDEA_5_cane_support_and_probing.md` | **Open**: only a 2015 model-based cane humanoid and quadruped probing arms exist; no learned humanoid tool support or probing | G1 + a $50 wrist-clamped pole | **Top pick in the core areas** (cheap, safe, covers every area the user asked about) |
+| 6 | **Humanoid physically assisting people** (stand up, walk, catch a stumble) (collaboration + WBC + imitation) | `IDEA_6_physical_assistance.md` | **Open**: there is co-carrying of objects, dance and exoskeleton simulations, but no learned humanoid assistance of a person | Mannequin first, then volunteers (IRB); G1 arms are weak, so balance support only | High impact; ethics and arm strength are risks |
 
 ## A PhD thesis storyline built from these ideas
 
@@ -28,4 +30,9 @@ re-check arXiv before committing.
 | Battery voltage-sag modelling | arXiv 2608.29769 models sag and adds a penalty (humanoid jumping) | partially taken; *planning over state of charge* is still open (thesis chapter) |
 | Hardware co-design from tracking policies | BRIDGE (arXiv 2609.03497), EA-CoRL (arXiv 2509.26082) | taken |
 | Humanoid walking in strong wind | Covered in practice by disturbance observers (ADAPT, arXiv 2606.16542) and push randomisation; one biped wind-DDPG paper exists | weak novelty: wind is just a distributed push |
+| Active gaze for perceptive humanoid locomotion | TAGA (arXiv 2606.05880) learns terrain-aware active gaze (attention over the height scan) | taken (a physical neck camera remains a small gap) |
+| Human–humanoid interaction mimic from two-person motion capture | CoDance (arXiv 2610.05324), PAIR (CVPR 2026), Harmanoid (arXiv 2510.10206) | taken |
+| Multi-humanoid cooperative carrying | decMHT (arXiv 2609.17824), COLA (arXiv 2510.14293), MASkillBlender, Humanoid Hanoi (CoRL 2026) | taken |
+| Policy-controlled time warping of reference motions | AdaMimic (arXiv 2510.14454); feasibility-index time warping (IEEE 2015) | taken |
+| Carrying a box that blocks the view of the feet | HAIC (arXiv 2602.11758), FootQuery (arXiv 2609.21447), RPL (arXiv 2602.03002) | taken |
 | Falsification / stress testing of humanoid policies | Stress tests of SPARK safety filters (arXiv 2605.19009); selective adversarial training (arXiv 2507.08303) | partially open, but the contribution would be methodological; parked |

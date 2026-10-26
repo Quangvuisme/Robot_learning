@@ -107,10 +107,13 @@ def fast_layer(tau, ori, b):
     return cost.argmin(-1)
 
 
-def thermal_segment(T0, tau_sq, dur):
+NOMINAL_PLANT = dict(alpha=ALPHA, R=R_TH, C=C_TH, T_amb=T_AMB)
+
+
+def thermal_segment(T0, tau_sq, dur, plant=NOMINAL_PLANT):
     """Exact RC solution for constant torque over `dur` seconds (end temperature; monotone in time)."""
-    T_ss = T_AMB + ALPHA * R_TH * tau_sq
-    return T_ss + (T0 - T_ss) * np.exp(-dur / (R_TH * C_TH))
+    T_ss = plant["T_amb"] + plant["alpha"] * plant["R"] * tau_sq
+    return T_ss + (T0 - T_ss) * np.exp(-dur / (plant["R"] * plant["C"]))
 
 
 # ---------------- slow layer: MPPI over the allowance schedule ----------------
@@ -133,7 +136,8 @@ def allowance_tables(taus, oris):
     return tau_sq, ori
 
 
-def mppi_plan(T0, tab_tau_sq, tab_ori, durs, u_init, per_joint=True, K=1024, iters=25, rng=None):
+def mppi_plan(T0, tab_tau_sq, tab_ori, durs, u_init, per_joint=True, K=1024, iters=25, rng=None,
+              model=NOMINAL_PLANT):
     """MPPI over continuous allowance logits u; each sample is snapped to the grid for evaluation."""
     n_seg = tab_ori.shape[0]
     dim = 3 if per_joint else 1
@@ -155,7 +159,7 @@ def mppi_plan(T0, tab_tau_sq, tab_ori, durs, u_init, per_joint=True, K=1024, ite
         T = np.repeat(T0[None], K, 0)
         cost = np.zeros(K)
         for k in range(n_seg):
-            T = thermal_segment(T, tau_sq[:, k], durs[k])
+            T = thermal_segment(T, tau_sq[:, k], durs[k], model)
             over = np.maximum(T - (T_MAX - MARGIN), 0.0)
             cost += durs[k] * ori[:, k] + 5e3 * (over ** 2).sum(-1) + 1e3 * over.sum(-1)
         i = cost.argmin()
@@ -169,31 +173,43 @@ def mppi_plan(T0, tab_tau_sq, tab_ori, durs, u_init, per_joint=True, K=1024, ite
 
 
 # ---------------- closed-loop simulation (1 s thermal steps) ----------------
-def simulate(program, method, seed=0):
+def simulate(program, method, seed=0, plant=None, tables=None, horizon=None, reactive=(25.0, MARGIN),
+             adapt=False):
+    """plant   : true thermal parameters (the planner always assumes NOMINAL_PLANT)
+    tables  : planner's model of the fast layer (default: exact tables; pass a learned surrogate's tables)
+    horizon : preview length in segments for "ours" (default: the whole remaining program)
+    reactive: (span, offset) of the reactive baseline b = clip((T_max - offset - T) / span)
+    adapt   : online bias adaptation -- after each segment, compare the planner's own temperature
+              prediction with the measurement and fit a shared ambient offset (least squares)"""
     rng = np.random.default_rng(seed)
+    plant = plant or NOMINAL_PLANT
     taus, oris = precompute(program)
-    tab_tau_sq, tab_ori = allowance_tables(taus, oris)
+    tab_tau_sq, tab_ori = tables if tables is not None else allowance_tables(taus, oris)
     durs = np.array([s["dur"] for s in program], float)
-    T = np.full(3, T_AMB)
+    T = np.full(3, plant["T_amb"])
     limit = TAU_MAX.copy()
     log = dict(T=[], ori_deg=[], tau=[], b=[], fail=[])
     first_derate, first_fail = None, None
     u_plan = None
+    model = dict(NOMINAL_PLANT)
+    amb_bias = 0.0
     t = 0
     for k, s in enumerate(program):
+        T_pred = T.copy()                                # planner-model prediction over this segment
         if method in ("ours", "myopic", "scalar"):
             per_joint = method != "scalar"
             dim = 3 if per_joint else 1
-            horizon = 1 if method == "myopic" else len(program) - k
-            if u_plan is None or u_plan.shape[0] != horizon or u_plan.shape[1] != dim:
-                prev = u_plan
-                u_plan = np.full((horizon, dim), 3.0)
-                if prev is not None and prev.shape[1] == dim:   # warm start: shift
-                    m = min(horizon, prev.shape[0] - 1)
-                    if m > 0:
-                        u_plan[:m] = prev[1:1 + m]
-            u_plan = mppi_plan(T, tab_tau_sq[k:k + horizon], tab_ori[k:k + horizon], durs[k:k + horizon],
-                               u_plan, per_joint=per_joint, rng=rng)
+            H = 1 if method == "myopic" else (horizon or len(program))
+            H = min(H, len(program) - k)
+            prev = u_plan
+            u_plan = np.full((H, dim), 3.0)
+            if prev is not None and prev.shape[1] == dim:       # warm start: shift, extend with last row
+                m = min(H, prev.shape[0] - 1)
+                if m > 0:
+                    u_plan[:m] = prev[1:1 + m]
+                u_plan[m:] = prev[-1]
+            u_plan = mppi_plan(T, tab_tau_sq[k:k + H], tab_ori[k:k + H], durs[k:k + H],
+                               u_plan, per_joint=per_joint, rng=rng, model=model)
             b_seg = B_LEVELS[quantize(1.0 / (1.0 + np.exp(-u_plan[0])))]
             if not per_joint:
                 b_seg = np.repeat(b_seg, 3)
@@ -201,7 +217,7 @@ def simulate(program, method, seed=0):
             if method == "nominal":
                 b = np.ones(3)
             elif method == "reactive":
-                b = np.clip((T_MAX - MARGIN - T) / 25.0, 0.02, 1.0)
+                b = np.clip((T_MAX - reactive[1] - T) / reactive[0], 0.02, 1.0)
             else:
                 b = b_seg
             ori_k = np.where(np.all(np.abs(taus[k]) <= limit, 1), oris[k], 1e6)  # respect current limits
@@ -210,7 +226,8 @@ def simulate(program, method, seed=0):
             fail = bool(ori_k[i] >= 1e6)            # no reachable configuration within current torque limits
             if fail and first_fail is None:
                 first_fail = t
-            T = thermal_segment(T, tau ** 2, 1.0)
+            T = thermal_segment(T, tau ** 2, 1.0, plant)
+            T_pred = thermal_segment(T_pred, tau ** 2, 1.0, model)
             if np.any(T >= T_MAX):
                 if first_derate is None:
                     first_derate = t
@@ -222,6 +239,11 @@ def simulate(program, method, seed=0):
             log["b"].append(np.array(b, float))
             log["fail"].append(fail)
             t += 1
+        if adapt:                                        # residual = bias * (1 - exp(-dur / RC))
+            f = 1.0 - np.exp(-s["dur"] / (R_TH * C_TH))
+            r = T - T_pred
+            amb_bias = 0.5 * amb_bias + 0.5 * (amb_bias + float((r * f).sum() / (f * f).sum()))
+            model = dict(NOMINAL_PLANT, T_amb=T_AMB + amb_bias)
     for key in log:
         log[key] = np.array(log[key])
     hard = np.concatenate([[s["hard"]] * int(s["dur"]) for s in program])

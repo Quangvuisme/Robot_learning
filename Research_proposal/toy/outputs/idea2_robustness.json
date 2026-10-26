@@ -1,0 +1,171 @@
+{
+  "reactive_tuned_params(span,offset)": [
+    40.0,
+    8.0
+  ],
+  "surrogate_test_error": {
+    "mae_tau_Nm": [
+      0.331,
+      0.25,
+      0.029
+    ],
+    "mae_ori_deg": 1.85
+  },
+  "mismatch": {
+    "exact": {
+      "nominal": {
+        "completed": "0/5",
+        "derated": "5/5",
+        "fail_s": 124.8,
+        "ori_deg": 1.83,
+        "hard_ori_deg": 6.36
+      },
+      "reactive (default)": {
+        "completed": "2/5",
+        "derated": "4/5",
+        "fail_s": 30.4,
+        "ori_deg": 2.36,
+        "hard_ori_deg": 6.83
+      },
+      "reactive (tuned)": {
+        "completed": "5/5",
+        "derated": "0/5",
+        "fail_s": 0.0,
+        "ori_deg": 2.66,
+        "hard_ori_deg": 6.82
+      },
+      "ours (exact model)": {
+        "completed": "5/5",
+        "derated": "0/5",
+        "fail_s": 0.0,
+        "ori_deg": 0.73,
+        "hard_ori_deg": 0.5
+      },
+      "ours (learned surrogate)": {
+        "completed": "5/5",
+        "derated": "0/5",
+        "fail_s": 0.0,
+        "ori_deg": 1.15,
+        "hard_ori_deg": 1.77
+      }
+    },
+    "params+-30%": {
+      "nominal": {
+        "completed": "1/5",
+        "derated": "4/5",
+        "fail_s": 106.8,
+        "ori_deg": 1.83,
+        "hard_ori_deg": 6.72
+      },
+      "reactive (default)": {
+        "completed": "3/5",
+        "derated": "3/5",
+        "fail_s": 29.4,
+        "ori_deg": 2.07,
+        "hard_ori_deg": 5.2
+      },
+      "reactive (tuned)": {
+        "completed": "5/5",
+        "derated": "1/5",
+        "fail_s": 0.0,
+        "ori_deg": 2.35,
+        "hard_ori_deg": 5.49
+      },
+      "ours (exact model)": {
+        "completed": "5/5",
+        "derated": "0/5",
+        "fail_s": 0.0,
+        "ori_deg": 0.79,
+        "hard_ori_deg": 1.22
+      },
+      "ours (learned surrogate)": {
+        "completed": "5/5",
+        "derated": "1/5",
+        "fail_s": 0.0,
+        "ori_deg": 1.09,
+        "hard_ori_deg": 1.77
+      }
+    },
+    "hot day (38C)": {
+      "nominal": {
+        "completed": "0/5",
+        "derated": "5/5",
+        "fail_s": 148.8,
+        "ori_deg": 2.21,
+        "hard_ori_deg": 8.7
+      },
+      "reactive (default)": {
+        "completed": "2/5",
+        "derated": "5/5",
+        "fail_s": 58.6,
+        "ori_deg": 3.06,
+        "hard_ori_deg": 8.9
+      },
+      "reactive (tuned)": {
+        "completed": "2/5",
+        "derated": "5/5",
+        "fail_s": 25.8,
+        "ori_deg": 3.36,
+        "hard_ori_deg": 8.94
+      },
+      "ours (exact model)": {
+        "completed": "5/5",
+        "derated": "1/5",
+        "fail_s": 0.0,
+        "ori_deg": 3.44,
+        "hard_ori_deg": 9.94
+      },
+      "ours (learned surrogate)": {
+        "completed": "3/5",
+        "derated": "3/5",
+        "fail_s": 1.8,
+        "ori_deg": 3.4,
+        "hard_ori_deg": 9.85
+      }
+    }
+  },
+  "preview_ablation": {
+    "1": {
+      "completed": "4/5",
+      "derated": "4/5",
+      "fail_s": 36.0,
+      "ori_deg": 3.4,
+      "hard_ori_deg": 10.97
+    },
+    "2": {
+      "completed": "3/5",
+      "derated": "5/5",
+      "fail_s": 29.2,
+      "ori_deg": 4.06,
+      "hard_ori_deg": 13.97
+    },
+    "4": {
+      "completed": "4/5",
+      "derated": "2/5",
+      "fail_s": 24.0,
+      "ori_deg": 4.92,
+      "hard_ori_deg": 16.97
+    },
+    "8": {
+      "completed": "5/5",
+      "derated": "0/5",
+      "fail_s": 0.0,
+      "ori_deg": 3.75,
+      "hard_ori_deg": 12.49
+    },
+    "16": {
+      "completed": "5/5",
+      "derated": "0/5",
+      "fail_s": 0.0,
+      "ori_deg": 2.02,
+      "hard_ori_deg": 4.16
+    },
+    "30": {
+      "completed": "5/5",
+      "derated": "0/5",
+      "fail_s": 0.0,
+      "ori_deg": 0.73,
+      "hard_ori_deg": 0.5
+    }
+  }
+}

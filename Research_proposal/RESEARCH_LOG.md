@@ -93,3 +93,28 @@ Each loop iteration does three things: a literature sweep, one step on the proto
 2. Idea 3: fix the preview anomaly (optimal lean-ahead), add a stepping strategy (capture point) to show where
    ankle-only fails, and add a ship-deck roll (non-level floor, where the kinematic vertical is also wrong).
 3. One new idea check.
+
+## Iteration 3 (2026-10-26)
+
+### Idea 2 robustness (`toy/thermal_preview_robustness.py`, `outputs/idea2_robustness.json`)
+- **Honest correction:** a *tuned* reactive baseline (span 40, offset 8, tuned on separate training programs)
+  also completes 5/5 programs without derating. Ours' advantage is **task quality**, not completion: hard-block
+  orientation error is 0.5° for ours versus 6.8° for the tuned reactive baseline (mean 0.73° versus 2.66°).
+- **Parameters ±30%:** ours completes 5/5 with 1.2° hard-block error.
+- **Learned surrogate:** a numpy MLP trained on 100 unrelated programs (torque MAE 0.03–0.33 Nm, orientation
+  MAE 1.85°) completes 5/5 with 1.8° error.
+- **Weakness, hot day (ambient +8 °C unknown to the planner):** ours still completes 5/5, but one run derates
+  and hard-block error rises to 9.9°. The learned version completes only 3/5. An online ambient-bias adaptation
+  is implemented (`adapt=True`) but **not yet evaluated** on this case; the run was interrupted.
+- **Preview ablation:** horizons of 1, 2, 4, 8, 16 and 30 minutes complete 4, 3, 4, 5, 5 and 5 programs; hard-block
+  error is 11.0°, 14.0°, 17.0°, 12.5°, 4.2° and 0.5°. The horizon must exceed the elbow's thermal time constant
+  (about 11 minutes). Short horizons with no terminal value are worse than myopic planning.
+
+### Pivot (user request): new ideas in walking, WBC, perception, imitation and collaboration
+- **Checked and taken:** active gaze (TAGA); two-person interaction mimic (CoDance, PAIR); multi-humanoid carrying
+  (decMHT, COLA); time-warped tracking (AdaMimic); box-carrying occlusion (HAIC, FootQuery, RPL).
+- **New and open:**
+  - **Idea 5:** a cane or trekking pole used as both a third leg and a haptic probe.
+  - **Idea 6:** a humanoid that physically assists people.
+
+  See their proposal files.
