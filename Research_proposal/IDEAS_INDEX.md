@@ -1,6 +1,6 @@
 # Research ideas: index and status
 
-Updated every loop iteration. Since 2026-10-26 (user request) the focus is the core areas: walking, WBC, perception, imitation and collaboration. "Open" means no matching paper was found in web search as of the date; always
+Updated every loop iteration. Current focus (user request, 2026-10-26): the **fundamental learning track** below. Earlier focuses were applications, then core areas (walking, WBC, perception, imitation, collaboration). "Open" means no matching paper was found in web search as of the date; always
 re-check arXiv before committing.
 
 ## Fundamental learning track (current focus, at the user's request on 2026-10-26)
