@@ -1,0 +1,4 @@
+/usr/local/lib/python3.13/dist-packages/autograd/tracer.py:93: RuntimeWarning: overflow encountered in cosh
+  return f_raw(*args, **kwargs)
+/usr/local/lib/python3.13/dist-packages/autograd/numpy/numpy_vjps.py:178: RuntimeWarning: overflow encountered in square
+  defvjp(anp.tanh, lambda ans, x: lambda g: g / anp.cosh(x) ** 2)
