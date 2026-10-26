@@ -107,6 +107,51 @@ repeat
 until converged
 ```
 
+### Algorithm 1, detailed (single training loop)
+
+```python
+# ===== EB-WM: Event-Branched, Perception-Calibrated World Model =====
+# Inputs: simulator f (with contact-event labels), sensor-noise model, policy π_θ, critic V_ψ
+σ_max = sqrt(max(0, σ_escape**2 - σ_p**2))          # smoothing budget (σ_p = sensor noise)
+use_arg_noise = σ_max > 0                            # budget 0 -> do not train with argument noise
+
+for iteration in range(N):
+    # ---- 1. collect data (behaviour depends only on the PERCEIVED terrain) ----
+    for episode in batch:
+        terrain = sample_terrain();  ĥ = perceive(terrain, σ_p)          # noisy heightmap
+        for t in steps:
+            a = π_θ(o_t, ĥ) + exploration_noise
+            s_next, event_label = f(s, a, terrain)                        # simulator gives the event label
+            buffer.add(s, a, ĥ, terrain)
+
+    # ---- 2. train the event-factored world model g_φ(s, a, ĥ, σ) ----
+    for minibatch (s, a, ĥ, terrain) in buffer:
+        σ = sample_uniform(0, σ_max) if use_arg_noise else 0
+        s_pert = s + σ * ε                                  # ARGUMENT noise: perturb the state, not the input
+        y, e = f(s_pert, a, terrain)                        # target and label from the SIMULATOR at s_pert
+        p_k, f_free, f_k = g_φ(s, a, ĥ, σ)                  # clean input s; perceived terrain ĥ
+        loss = BCE(p_k, e)                                  # event head (proper scoring rule -> calibrated)
+               + MSE(f_free, y | e = none)                  # each branch trained only on its own samples
+               + Σ_k MSE(f_k, y | e = k)
+        φ ← φ - lr * ∇_φ loss
+
+    # ---- 3. update the policy by BPTT through MODE-BRANCHED rollouts ----
+    σ = schedule(iteration)        # hold σ_max for 30 %, cosine decay, 0 from 90 % of training
+    particles = {"no_event": (w = 1, s = s0)}            # one particle per contact-mode history
+    for t in range(H):
+        new = {}
+        for mode, (w, s) in particles:
+            a = π_θ(s, ĥ)
+            p_k, f_free, f_k = g_φ(s, a, ĥ, σ)
+            new[mode]          += (w * (1 - Σ_k p_k), f_free)        # no event
+            for k: new[mode + k] += (w * p_k, f_k)                   # event k happens
+        particles = merge_same_mode(new)                 # IMM: weighted average of states within a mode
+        J += Σ_modes w * r(s, a)                         # reward weighted by mode probability
+    J += Σ_modes w * V_ψ(s_H)                            # critic bootstrap at the horizon
+    θ ← θ + lr * ∇_θ J                                   # gradient flows through the weights w (boundary term)
+    ψ ← fit V_ψ on λ-returns from the branched rollouts
+```
+
 ## 4. Theory (statements; proofs to write)
 
 - **Proposition A′.** Under squared loss, argument-noise training gives g_σ = f ∗ φ_σ (the bundled dynamics) for
