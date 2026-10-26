@@ -197,3 +197,19 @@ Each loop iteration does three things: a literature sweep, one step on the proto
     escape 5/5.
 - **Next:** humanoid implementation on SuperMimic-Reproduced (mjlab, G1) with per-foot contact-event heads and a
   noisy heightmap.
+
+## Loop iteration 1 (2026-10-26): research loop on humanoid learning (current topic + more topics)
+- **(A) EB-WM novelty re-check:** still open. There is no SuperMimic follow-up for stairs or contact events.
+  WM-LOCO (arXiv 2609.02542) uses PPO, not BPTT; DWMP (arXiv 2609.12347) is a dual world model for obstacles.
+- **(A) Experiment launched** (`toy/staircase_nn_policy.py`): an NN perceptive policy on a 5-riser staircase
+  with absorbing trips. The ideal-posterior NN learns 5.1–5.6 cm clearance (more than the single-step 4.6 cm,
+  because of compounding) and climbs all 5 steps 98% of the time. EB-WM and the ablations are running for
+  σ_p = 2 and 4 cm.
+- **(B) New topic accepted, Idea 10: privileged teachers teach overconfidence.**
+  (`toy/teacher_student_overconfidence.py`)
+  - L2 / DAgger students trip 38 / 43 / 46% at σ_p = 1 / 2 / 4 cm (clearance stuck at 0.3 cm).
+  - Quantile-BC (τ = 0.97) trips 1.4–2.1%.
+  - Critic-guided distillation matches the oracle.
+  - Related: CritiQ (arXiv 2505.09546), Student-Informed Teacher Training (ICLR 2025), risk-aware MM
+    (arXiv 2603.04579).
+- **(B) New topic sketched, Idea 11:** contact-mode-balanced sampling for motion trackers (partly open).

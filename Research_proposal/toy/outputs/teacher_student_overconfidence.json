@@ -1,0 +1,237 @@
+{
+  "sigma_p=0.01": {
+    "oracle": {
+      "J": 0.5764,
+      "trip": 0.0042,
+      "clearance_cm": 2.57
+    },
+    "L2-BC / DAgger (privileged teacher)": {
+      "J": [
+        0.5074,
+        0.0002
+      ],
+      "trip": [
+        0.3776,
+        0.0008
+      ],
+      "clearance_cm": [
+        0.3067,
+        0.0047
+      ]
+    },
+    "quantile-BC tau=0.9": {
+      "J": [
+        0.5686,
+        0.0008
+      ],
+      "trip": [
+        0.0569,
+        0.0044
+      ],
+      "clearance_cm": [
+        1.5333,
+        0.0368
+      ]
+    },
+    "quantile-BC tau=0.97": {
+      "J": [
+        0.5755,
+        0.0001
+      ],
+      "trip": [
+        0.0144,
+        0.0009
+      ],
+      "clearance_cm": [
+        2.1233,
+        0.0262
+      ]
+    },
+    "critic-guided distillation": {
+      "J": [
+        0.5764,
+        0.0
+      ],
+      "trip": [
+        0.0044,
+        0.001
+      ],
+      "clearance_cm": [
+        2.5967,
+        0.0946
+      ]
+    },
+    "RL fine-tuning (ZO)": {
+      "J": [
+        0.5726,
+        0.0016
+      ],
+      "trip": [
+        0.0001,
+        0.0001
+      ],
+      "clearance_cm": [
+        4.14,
+        0.5161
+      ],
+      "sim_rollouts": 1638400
+    }
+  },
+  "sigma_p=0.02": {
+    "oracle": {
+      "J": 0.571,
+      "trip": 0.0092,
+      "clearance_cm": 4.19
+    },
+    "L2-BC / DAgger (privileged teacher)": {
+      "J": [
+        0.4966,
+        0.0001
+      ],
+      "trip": [
+        0.4329,
+        0.0008
+      ],
+      "clearance_cm": [
+        0.3067,
+        0.0047
+      ]
+    },
+    "quantile-BC tau=0.9": {
+      "J": [
+        0.5627,
+        0.0007
+      ],
+      "trip": [
+        0.0731,
+        0.004
+      ],
+      "clearance_cm": [
+        2.61,
+        0.051
+      ]
+    },
+    "quantile-BC tau=0.97": {
+      "J": [
+        0.5704,
+        0.0001
+      ],
+      "trip": [
+        0.0197,
+        0.0014
+      ],
+      "clearance_cm": [
+        3.6833,
+        0.045
+      ]
+    },
+    "critic-guided distillation": {
+      "J": [
+        0.571,
+        0.0
+      ],
+      "trip": [
+        0.0087,
+        0.0011
+      ],
+      "clearance_cm": [
+        4.2433,
+        0.0759
+      ]
+    },
+    "RL fine-tuning (ZO)": {
+      "J": [
+        0.5689,
+        0.0005
+      ],
+      "trip": [
+        0.0022,
+        0.0007
+      ],
+      "clearance_cm": [
+        5.2167,
+        0.2076
+      ],
+      "sim_rollouts": 1638400
+    }
+  },
+  "sigma_p=0.04": {
+    "oracle": {
+      "J": 0.5608,
+      "trip": 0.0238,
+      "clearance_cm": 6.26
+    },
+    "L2-BC / DAgger (privileged teacher)": {
+      "J": [
+        0.4916,
+        0.0001
+      ],
+      "trip": [
+        0.4599,
+        0.0008
+      ],
+      "clearance_cm": [
+        0.31,
+        0.0082
+      ]
+    },
+    "quantile-BC tau=0.9": {
+      "J": [
+        0.5583,
+        0.0007
+      ],
+      "trip": [
+        0.0759,
+        0.0046
+      ],
+      "clearance_cm": [
+        4.13,
+        0.0779
+      ]
+    },
+    "quantile-BC tau=0.97": {
+      "J": [
+        0.565,
+        0.0001
+      ],
+      "trip": [
+        0.0206,
+        0.0021
+      ],
+      "clearance_cm": [
+        5.5933,
+        0.0826
+      ]
+    },
+    "critic-guided distillation": {
+      "J": [
+        0.5654,
+        0.0001
+      ],
+      "trip": [
+        0.0102,
+        0.0005
+      ],
+      "clearance_cm": [
+        6.1,
+        0.0327
+      ]
+    },
+    "RL fine-tuning (ZO)": {
+      "J": [
+        0.5633,
+        0.0003
+      ],
+      "trip": [
+        0.0089,
+        0.0025
+      ],
+      "clearance_cm": [
+        6.6167,
+        0.1408
+      ],
+      "sim_rollouts": 1638400
+    }
+  },
+  "note": "[mean, std] over 3 seeds; trip = fraction of steps where the toe hits the riser"
+}
