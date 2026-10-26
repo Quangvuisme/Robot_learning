@@ -213,3 +213,19 @@ Each loop iteration does three things: a literature sweep, one step on the proto
   - Related: CritiQ (arXiv 2505.09546), Student-Informed Teacher Training (ICLR 2025), risk-aware MM
     (arXiv 2603.04579).
 - **(B) New topic sketched, Idea 11:** contact-mode-balanced sampling for motion trackers (partly open).
+
+## Loop iteration 2 (2026-10-26)
+- **(A) NN staircase result, negative:** with an NN policy on a 5-riser staircase, the 2-event EB-WM was
+  unstable (J 2.17 ± 1.74, against 4.165 for the ideal posterior at σ_p = 2 cm). All model-based variants were
+  poor.
+- **Root cause:** the foot-stop at the target (vx: 1 → 0) is a discontinuity that was not modelled as an event.
+  The regression branch smoothed it (vx → −0.7 … −8), the rollout diverged off-distribution, and the event head
+  fired false trips (p ≈ 0.9). The 2-parameter tests hid this because their objective used only the final x.
+- **Principle added to the method:** *every discontinuity must be an event* (trip, stop, touchdown …).
+- **Fix:** `toy/ef_multievent.py` adds a 3-way event head {none, trip, stop} with absorbing tripped / landed
+  modes. Model P(clear) along the rollout now tracks the posterior (12 cm: 0.60 vs 0.45; 14 cm: 0.97 vs 0.83;
+  monotone, slightly overconfident).
+- **Running:** the NN staircase with the 3-event model (σ_p = 2 and 4 cm, 3 seeds).
+- **(B) New candidates:**
+  - Idea 12, event-factored critics (partly open; CACTO-BIC, Zero Collapse) → sketch;
+  - termination-as-hidden-reward → parked (analysis-type).

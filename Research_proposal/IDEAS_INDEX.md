@@ -12,6 +12,7 @@ re-check arXiv before committing.
 | 9 | Restart distributions for motion imitation from the performance-difference lemma | `IDEA_8_9_fundamental_sketches.md` | Partly open (RCG, prioritized restarts, SFV) | none yet | Third |
 | 10 | **Privileged teachers teach overconfidence**: L2 / DAgger distillation collapses safety margins under perception noise; quantile (newsvendor) and critic-guided fixes | `IDEA_10_privileged_distillation_margin_collapse.md` | Partly open: imitation gap and CritiQ (arXiv 2505.09546) are known; the margin-collapse analysis and quantile-BC look new | Toy (3 seeds, std ≈ 0): L2 student trips 38/43/46% at σ_p = 1/2/4 cm; quantile-BC 1.4–2.1%; critic-guided = oracle | **Strong add-on to EB-WM** (same chapter) |
 | 11 | Contact-mode-balanced training for universal motion trackers | `IDEA_11_contact_mode_sampling_sketch.md` | Partly open (EGM, PGMT, ContactMimic, SceneBot) | none yet | Sketch; fold into EB-WM tracking experiments |
+| 12 | Event-factored critics for absorbing failures: V = P_survive · V_alive + (1 − P_survive) · V_fail | `IDEA_12_event_factored_critic_sketch.md` | Partly open (CACTO-BIC: critic smoothing at value discontinuities; Zero Collapse) | none yet | Sketch; needed for the EB-WM critic bootstrap |
 
 Fundamental ideas checked and rejected: **action-chunking theory for behaviour cloning** (Zhang, Pfrommer, Pan,
 Matni & Simchowitz, ICLR 2026, arXiv 2507.09061, plus arXiv 2610.01626); **optimal-transport / DTW rewards for
@@ -20,7 +21,7 @@ demonstrations arXiv 2206.11693); **adaptive tracking σ** (KungfuBot); **bias o
 critic** (Baisero & Amato arXiv 2105.11674; Informed AAC arXiv 2509.26000); **closed-loop identifiability with
 active probing** (SPI-Active, CoRL 2025; arXiv 2607.21867; ASID arXiv 2404.12308); **plasticity in humanoid
 fine-tuning** (PPF arXiv 2504.09833, partly). Open but compute-heavy: **is the critic the bottleneck in universal
-motion tracking?** (SuperMimic notes that critic calibration "has not been systematically evaluated").
+motion tracking?** (SuperMimic notes that critic calibration "has not been systematically evaluated"). Parked (analysis-type): **termination as a hidden reward** (DeepMimic: impact "not well evaluated").
 
 ## Application-driven ideas (earlier; kept for reference)
 
