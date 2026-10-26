@@ -1,54 +1,67 @@
 {
   "propA_one_step_near_contact": {
     "0.03": {
-      "n_near_contact": 969,
-      "err_to_smoothed__unsmoothed_true": 0.351,
-      "err_to_smoothed__plain_wm": 0.462,
-      "err_to_smoothed__nc_wm": 0.568,
-      "err_to_smoothed__nc_wm_concentrated": 0.599
+      "n_near_contact": 1244,
+      "err_to_smoothed__unsmoothed_true": 0.374,
+      "err_to_smoothed__plain_wm": 0.353,
+      "err_to_smoothed__nc_wm": 0.341,
+      "err_to_smoothed__nc_wm_concentrated": 0.418,
+      "err_to_smoothed__ARG_nc_wm": 0.108,
+      "err_to_smoothed__ARG_nc_wm_concentrated": 0.126
     },
     "0.05": {
-      "n_near_contact": 1113,
-      "err_to_smoothed__unsmoothed_true": 0.451,
-      "err_to_smoothed__plain_wm": 0.64,
-      "err_to_smoothed__nc_wm": 0.827,
-      "err_to_smoothed__nc_wm_concentrated": 0.813
+      "n_near_contact": 1362,
+      "err_to_smoothed__unsmoothed_true": 0.509,
+      "err_to_smoothed__plain_wm": 0.491,
+      "err_to_smoothed__nc_wm": 0.455,
+      "err_to_smoothed__nc_wm_concentrated": 0.543,
+      "err_to_smoothed__ARG_nc_wm": 0.114,
+      "err_to_smoothed__ARG_nc_wm_concentrated": 0.131
     },
     "0.08": {
-      "n_near_contact": 1281,
-      "err_to_smoothed__unsmoothed_true": 0.585,
-      "err_to_smoothed__plain_wm": 0.959,
-      "err_to_smoothed__nc_wm": 1.244,
-      "err_to_smoothed__nc_wm_concentrated": 1.181
+      "n_near_contact": 1487,
+      "err_to_smoothed__unsmoothed_true": 0.677,
+      "err_to_smoothed__plain_wm": 0.658,
+      "err_to_smoothed__nc_wm": 0.605,
+      "err_to_smoothed__nc_wm_concentrated": 0.698,
+      "err_to_smoothed__ARG_nc_wm": 0.107,
+      "err_to_smoothed__ARG_nc_wm_concentrated": 0.141
     },
     "0.12": {
-      "n_near_contact": 1566,
-      "err_to_smoothed__unsmoothed_true": 0.643,
-      "err_to_smoothed__plain_wm": 1.165,
-      "err_to_smoothed__nc_wm": 1.749,
-      "err_to_smoothed__nc_wm_concentrated": 1.661
+      "n_near_contact": 1712,
+      "err_to_smoothed__unsmoothed_true": 0.814,
+      "err_to_smoothed__plain_wm": 0.798,
+      "err_to_smoothed__nc_wm": 0.747,
+      "err_to_smoothed__nc_wm_concentrated": 0.83,
+      "err_to_smoothed__ARG_nc_wm": 0.125,
+      "err_to_smoothed__ARG_nc_wm_concentrated": 0.17
     }
   },
   "propA_landscape_error": {
     "0.0": {
       "mae_nc_vs_mc": 0.2998,
-      "mae_concentrated_vs_mc": 0.3659
+      "mae_concentrated_vs_mc": 0.3659,
+      "mae_ARG_vs_mc": 0.1892
     },
     "0.03": {
       "mae_nc_vs_mc": 0.3035,
-      "mae_concentrated_vs_mc": 0.2945
+      "mae_concentrated_vs_mc": 0.2945,
+      "mae_ARG_vs_mc": 0.1685
     },
     "0.05": {
       "mae_nc_vs_mc": 0.3332,
-      "mae_concentrated_vs_mc": 0.4628
+      "mae_concentrated_vs_mc": 0.4628,
+      "mae_ARG_vs_mc": 0.1836
     },
     "0.08": {
       "mae_nc_vs_mc": 0.3436,
-      "mae_concentrated_vs_mc": 0.5053
+      "mae_concentrated_vs_mc": 0.5053,
+      "mae_ARG_vs_mc": 0.1625
     },
     "0.12": {
       "mae_nc_vs_mc": 0.4352,
-      "mae_concentrated_vs_mc": 0.312
+      "mae_concentrated_vs_mc": 0.312,
+      "mae_ARG_vs_mc": 0.1683
     }
   },
   "dJ/dalpha_at_8_12_16_19deg": {
@@ -99,6 +112,30 @@
       -0.0,
       0.187,
       -0.0489
+    ],
+    "ARG-WM s=0.03": [
+      0.0544,
+      0.0325,
+      0.0145,
+      0.0155
+    ],
+    "ARG-WM s=0.05": [
+      0.0106,
+      0.0988,
+      0.1257,
+      0.0437
+    ],
+    "ARG-WM s=0.08": [
+      -0.0002,
+      0.0071,
+      0.0358,
+      0.0007
+    ],
+    "ARG-WM s=0.12": [
+      0.007,
+      0.0015,
+      0.0262,
+      0.068
     ]
   },
   "optimisation_from_flat_region": {
@@ -147,37 +184,7 @@
       "mean_true_J": 1.199,
       "cleared_wall": "2/9"
     },
-    "NC-WM sigma=0.03": {
-      "final_alpha_deg": [
-        4.4,
-        12.7,
-        13.2,
-        11.7,
-        13.2,
-        13.2,
-        19.9,
-        19.9,
-        19.9
-      ],
-      "mean_true_J": 0.999,
-      "cleared_wall": "0/9"
-    },
-    "NC-WM sigma=0.12": {
-      "final_alpha_deg": [
-        1.0,
-        1.0,
-        10.8,
-        1.0,
-        9.5,
-        6.1,
-        1.0,
-        30.6,
-        18.5
-      ],
-      "mean_true_J": 1.095,
-      "cleared_wall": "1/9"
-    },
-    "NC-WM annealed 0.12->0": {
+    "input-noise NC-WM annealed 0.12->0": {
       "final_alpha_deg": [
         17.6,
         1.7,
@@ -192,20 +199,65 @@
       "mean_true_J": 1.279,
       "cleared_wall": "3/9"
     },
-    "NC-WM annealed, concentrated data": {
+    "ARG-WM sigma=0.05": {
       "final_alpha_deg": [
-        1.4,
-        24.5,
-        29.7,
-        8.3,
-        15.3,
-        15.2,
-        15.6,
-        13.1,
-        10.6
+        8.1,
+        8.1,
+        8.1,
+        26.9,
+        14.4,
+        14.4,
+        26.9,
+        26.9,
+        24.3
       ],
-      "mean_true_J": 1.18,
-      "cleared_wall": "2/9"
+      "mean_true_J": 1.356,
+      "cleared_wall": "4/9"
+    },
+    "ARG-WM sigma=0.12": {
+      "final_alpha_deg": [
+        29.3,
+        29.3,
+        29.3,
+        29.3,
+        29.3,
+        29.3,
+        29.3,
+        29.3,
+        29.3
+      ],
+      "mean_true_J": 1.883,
+      "cleared_wall": "9/9"
+    },
+    "ARG-WM annealed 0.12->0": {
+      "final_alpha_deg": [
+        27.6,
+        27.4,
+        33.2,
+        27.6,
+        27.6,
+        27.5,
+        33.2,
+        33.2,
+        33.2
+      ],
+      "mean_true_J": 1.853,
+      "cleared_wall": "9/9"
+    },
+    "ARG-WM annealed, concentrated data": {
+      "final_alpha_deg": [
+        29.0,
+        11.5,
+        14.8,
+        11.4,
+        8.0,
+        12.2,
+        40.4,
+        40.4,
+        44.7
+      ],
+      "mean_true_J": 1.43,
+      "cleared_wall": "4/9"
     }
   },
   "note": "optimum: alpha ~ 42 deg, J ~ 1.99; flat region (stuck on wall) J = 1.0; cleared = J > 1.05"

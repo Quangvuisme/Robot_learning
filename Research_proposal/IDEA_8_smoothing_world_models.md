@@ -101,6 +101,56 @@ Tests:
    - **NC-WM annealed**;
    - annealed NC-WM with concentrated data.
 
+## 4a. Results: Proposition A had to be corrected (input noise ≠ smoothing; argument noise = smoothing)
+
+**v2 (input noise, `outputs/idea8_smoothing_v2_input_noise.json`): negative.**
+- A world model trained on noisy *inputs* was **further** from the Monte-Carlo smoothed dynamics near contact
+  than the unsmoothed simulator was (error 0.57–1.75 versus 0.35–0.64).
+- In optimisation it cleared the wall only **3/9** times.
+- **Why:** robot state data lies on a low-dimensional manifold of trajectories. By Tweedie,
+  E[f(s) | s̃] ≈ f(s̃ + σ²∇log p_σ(s̃)), so off the manifold an input-noise model acts as a **denoiser** (it
+  projects back onto the data) and does not smooth isotropically. The "flat density" condition of Proposition A
+  fails badly in robotics.
+
+**Corrected Proposition A′ (argument noise).** Train g(s, σ) with *clean* input s and target
+**f(s + σε) produced by the simulator** from the perturbed state. The squared-loss optimum is exactly
+E_ε[f(s + σε)] = f_σ(s), **independent of the data density**; only coverage matters. This costs nothing in
+simulation, and SuperMimic already fits its world model on simulator transitions.
+
+**v3 (`outputs/idea8_smoothing.json`): confirms A′.**
+
+| | unsmoothed sim | input-noise WM | **argument-noise WM** |
+|---|---|---|---|
+| one-step error to f_σ near contact (σ = 0.03–0.12) | 0.37–0.81 | 0.34–0.75 | **0.11–0.13** |
+| rollout landscape MAE to MC-smoothed J | – | 0.30–0.44 | **0.16–0.19** |
+| gradient in the flat region (true gradient = 0) | 0 | erratic sign | **consistently towards the cliff** |
+| optimisation: wall cleared / mean J (optimum 1.99) | true first-order: 0/9, 1.00 | 3/9, 1.28 | **annealed: 9/9, 1.85**; fixed σ = 0.12: 9/9, 1.88 |
+| …with policy-concentrated data | | | annealed: 4/9, 1.43 |
+
+Zeroth-order randomized smoothing on α reached 9/9 with J = 1.98, but it uses 16 simulator rollouts per
+iteration; the world-model methods use none during policy optimisation. With concentrated data, even the
+argument-noise model degrades. The mechanism here is **coverage** (model error in rarely-visited regions), not
+the closed-form βσ² shift of Proposition C, which is specific to input noise.
+
+**So Proposition C** (closed form Δ·Φ((s̃ − βσ²)/σ), verified numerically to 4 decimals) describes
+**input-noise / denoising** models, which is what one gets when the world model's input is a noisy *observation*
+(perception). That is exactly the perceptive-locomotion case in §4b.
+
+## 4b. Extension to perceptive stairs: two different reasons to smooth
+
+| purpose | how | anneal σ to |
+|---|---|---|
+| **optimisation** (escape flat or cliff regions) | argument noise in the simulator call | 0 |
+| **uncertainty** (the heightmap is noisy) | train the world model on the *perceived* terrain, so it learns E[f \| Ĥ], the Bayesian posterior | the true sensor noise, never below it |
+
+**Proposition E (pathwise gradients miss the boundary term).** E[J] = ∫ J(θ, H) p(H | Ĥ) dH has, by the
+Leibniz rule, a boundary term at the trip surface {a(θ, Ĥ) = H}. Backpropagation through a model fed the *true*
+H only sees the interior: on the clear side it sees only the effort cost, which pushes the swing *down* towards
+the riser. **No safety margin is learned, even though the policy observes noisy Ĥ.** A model fed Ĥ learns the
+posterior, which turns the boundary term into a smooth interior term that backpropagation can see.
+
+The test suite is `toy/stair_tests.py` (results in §4c).
+
 ## 5. Full research plan
 
 1. **Theory note** (L4DC- or NeurIPS-style): Propositions A–D with proofs, the σ_eff diagnostic, and the
