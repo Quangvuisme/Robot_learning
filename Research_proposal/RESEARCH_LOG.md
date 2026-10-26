@@ -182,3 +182,18 @@ Each loop iteration does three things: a literature sweep, one step on the proto
   at σ_p = 0; trips 18% ± 25%). v2 was stopped because it was too slow on an oversubscribed CPU.
 - **Stair v3** (running): the **event-factored world model** (BCE event head, which is a proper scoring rule, plus
   mixture of branches) against regression baselines; 3 seeds; σ_p ∈ {0, 2, 4} cm; both initialisations.
+
+## Iteration 7 (2026-10-26): stable result reached, method written up (`METHOD_event_branched_world_models.md`)
+- **v3:** the event-factored WM learns sharp boundaries. An apparent −1.6σ_p shift on perceived terrain turned
+  out to be a **probe artifact**: the probe was at x = 0.395, but crossings only occur at x = 0.38. The
+  "confounding" finding was retracted.
+- **Mode-branched rollouts** fix the off-distribution mean-field states (73–95% → 0.7–17% trips).
+- **v4** (5 seeds, ablations A–E): event heads are calibrated in every seed (width ≈ posterior, shift ≈ 0);
+  branching is essential. A fixed σ_max = 5 cm over-smooths at σ_p = 4 cm.
+- **v5 smoothing budget** σ_ARG,max = √(σ_esc² − σ_p²):
+  - σ_p = 2 cm: J 0.566 ± 0.005, 0.14% trips, 99.2% on 5 stairs, escape 5/5;
+  - σ_p = 0: 0% trips, escape 5/5 (one seed over-conservative);
+  - σ_p = 4 cm: σ_ARG = 0, so use the model trained without argument noise (= v4 config C): J 0.557 ± 0.005,
+    escape 5/5.
+- **Next:** humanoid implementation on SuperMimic-Reproduced (mjlab, G1) with per-foot contact-event heads and a
+  noisy heightmap.

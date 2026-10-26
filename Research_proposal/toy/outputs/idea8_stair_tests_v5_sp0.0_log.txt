@@ -1,0 +1,6 @@
+sigma_p=0.0 seed 0 {'J': 0.5673, 'trip': 0.0, 'clearance_cm': 5.96, 'staircase5_success': 1.0} {'J': 0.5628, 'trip': 0.0, 'clearance_cm': 6.99, 'staircase5_success': 1.0} 89s
+sigma_p=0.0 seed 1 {'J': 0.5639, 'trip': 0.0, 'clearance_cm': 6.94, 'staircase5_success': 1.0} {'J': 0.5661, 'trip': 0.0, 'clearance_cm': 6.13, 'staircase5_success': 1.0} 175s
+sigma_p=0.0 seed 2 {'J': 0.5735, 'trip': 0.0, 'clearance_cm': 3.83, 'staircase5_success': 1.0} {'J': 0.573, 'trip': 0.0, 'clearance_cm': 3.98, 'staircase5_success': 1.0} 262s
+sigma_p=0.0 seed 3 {'J': 0.5679, 'trip': 0.0, 'clearance_cm': 5.62, 'staircase5_success': 1.0} {'J': 0.5685, 'trip': 0.0, 'clearance_cm': 5.39, 'staircase5_success': 1.0} 348s
+sigma_p=0.0 seed 4 {'J': 0.4961, 'trip': 0.0, 'clearance_cm': 20.97, 'staircase5_success': 1.0} {'J': 0.4838, 'trip': 0.0, 'clearance_cm': 22.87, 'staircase5_success': 1.0} 434s
+{"D' smoothing budget": {"sigma_ARG_max_cm": 4.0, "from_clearing_init": {"J": [0.5537, 0.029], "trip": [0.0, 0.0], "clearance_cm": [8.664, 6.2347], "staircase5_success": [1.0, 0.0]}, "from_tripping_init": {"J": [0.5508, 0.0337], "trip": [0.0, 0.0], "clearance_cm": [9.072, 6.9694], "staircase5_success": [1.0, 0.0]}}}

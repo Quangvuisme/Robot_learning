@@ -1,0 +1,41 @@
+{
+  "D' smoothing budget": {
+    "sigma_ARG_max_cm": 3.46,
+    "from_clearing_init": {
+      "J": [
+        0.5664,
+        0.0045
+      ],
+      "trip": [
+        0.0014,
+        0.0012
+      ],
+      "clearance_cm": [
+        6.072,
+        1.3391
+      ],
+      "staircase5_success": [
+        0.9921,
+        0.0071
+      ]
+    },
+    "from_tripping_init": {
+      "J": [
+        0.5664,
+        0.0043
+      ],
+      "trip": [
+        0.0014,
+        0.0012
+      ],
+      "clearance_cm": [
+        5.996,
+        1.2414
+      ],
+      "staircase5_success": [
+        0.9923,
+        0.0066
+      ]
+    }
+  }
+}
