@@ -1,0 +1,376 @@
+{
+  "table": {
+    "nominal": {
+      "programs_completed": "0/5",
+      "mean_fail_seconds": 124.8,
+      "programs_derated": "5/5",
+      "mean_ori_err_deg": 1.83,
+      "hard_ori_err_deg": 6.36
+    },
+    "reactive": {
+      "programs_completed": "2/5",
+      "mean_fail_seconds": 30.4,
+      "programs_derated": "4/5",
+      "mean_ori_err_deg": 2.36,
+      "hard_ori_err_deg": 6.83
+    },
+    "myopic": {
+      "programs_completed": "4/5",
+      "mean_fail_seconds": 36.0,
+      "programs_derated": "4/5",
+      "mean_ori_err_deg": 3.4,
+      "hard_ori_err_deg": 10.97
+    },
+    "scalar": {
+      "programs_completed": "0/5",
+      "mean_fail_seconds": 107.2,
+      "programs_derated": "5/5",
+      "mean_ori_err_deg": 6.15,
+      "hard_ori_err_deg": 6.63
+    },
+    "ours": {
+      "programs_completed": "5/5",
+      "mean_fail_seconds": 0.0,
+      "programs_derated": "0/5",
+      "mean_ori_err_deg": 0.73,
+      "hard_ori_err_deg": 0.5
+    }
+  },
+  "per_seed": {
+    "nominal": [
+      {
+        "method": "nominal",
+        "first_derate_min": 20.08,
+        "first_fail_min": 20.1,
+        "fail_seconds": 174,
+        "mean_ori_err_deg": 1.58,
+        "hard_ori_err_deg": 5.79,
+        "peak_T": [
+          45.4,
+          80.4,
+          66.1
+        ]
+      },
+      {
+        "method": "nominal",
+        "first_derate_min": 20.15,
+        "first_fail_min": 20.17,
+        "fail_seconds": 50,
+        "mean_ori_err_deg": 1.84,
+        "hard_ori_err_deg": 5.38,
+        "peak_T": [
+          45.3,
+          83.8,
+          66.2
+        ]
+      },
+      {
+        "method": "nominal",
+        "first_derate_min": 20.32,
+        "first_fail_min": 20.33,
+        "fail_seconds": 160,
+        "mean_ori_err_deg": 1.17,
+        "hard_ori_err_deg": 3.36,
+        "peak_T": [
+          44.9,
+          80.8,
+          66.6
+        ]
+      },
+      {
+        "method": "nominal",
+        "first_derate_min": 19.9,
+        "first_fail_min": 22.0,
+        "fail_seconds": 180,
+        "mean_ori_err_deg": 2.43,
+        "hard_ori_err_deg": 10.3,
+        "peak_T": [
+          46.3,
+          81.5,
+          65.0
+        ]
+      },
+      {
+        "method": "nominal",
+        "first_derate_min": 20.02,
+        "first_fail_min": 21.0,
+        "fail_seconds": 60,
+        "mean_ori_err_deg": 2.11,
+        "hard_ori_err_deg": 6.95,
+        "peak_T": [
+          46.2,
+          84.0,
+          66.4
+        ]
+      }
+    ],
+    "reactive": [
+      {
+        "method": "reactive",
+        "first_derate_min": 23.43,
+        "first_fail_min": 23.45,
+        "fail_seconds": 33,
+        "mean_ori_err_deg": 2.39,
+        "hard_ori_err_deg": 6.95,
+        "peak_T": [
+          46.6,
+          81.7,
+          66.0
+        ]
+      },
+      {
+        "method": "reactive",
+        "first_derate_min": 25.58,
+        "first_fail_min": null,
+        "fail_seconds": 0,
+        "mean_ori_err_deg": 2.71,
+        "hard_ori_err_deg": 7.43,
+        "peak_T": [
+          46.1,
+          80.1,
+          66.0
+        ]
+      },
+      {
+        "method": "reactive",
+        "first_derate_min": 24.4,
+        "first_fail_min": 24.42,
+        "fail_seconds": 35,
+        "mean_ori_err_deg": 2.72,
+        "hard_ori_err_deg": 8.36,
+        "peak_T": [
+          46.0,
+          80.2,
+          66.5
+        ]
+      },
+      {
+        "method": "reactive",
+        "first_derate_min": 24.58,
+        "first_fail_min": 24.6,
+        "fail_seconds": 84,
+        "mean_ori_err_deg": 1.57,
+        "hard_ori_err_deg": 4.43,
+        "peak_T": [
+          47.3,
+          80.0,
+          66.6
+        ]
+      },
+      {
+        "method": "reactive",
+        "first_derate_min": null,
+        "first_fail_min": null,
+        "fail_seconds": 0,
+        "mean_ori_err_deg": 2.4,
+        "hard_ori_err_deg": 6.98,
+        "peak_T": [
+          47.0,
+          79.5,
+          66.2
+        ]
+      }
+    ],
+    "myopic": [
+      {
+        "method": "myopic",
+        "first_derate_min": 24.0,
+        "first_fail_min": null,
+        "fail_seconds": 0,
+        "mean_ori_err_deg": 2.93,
+        "hard_ori_err_deg": 8.39,
+        "peak_T": [
+          47.4,
+          82.3,
+          65.2
+        ]
+      },
+      {
+        "method": "myopic",
+        "first_derate_min": 22.82,
+        "first_fail_min": null,
+        "fail_seconds": 0,
+        "mean_ori_err_deg": 6.04,
+        "hard_ori_err_deg": 18.96,
+        "peak_T": [
+          46.0,
+          82.1,
+          62.4
+        ]
+      },
+      {
+        "method": "myopic",
+        "first_derate_min": null,
+        "first_fail_min": null,
+        "fail_seconds": 0,
+        "mean_ori_err_deg": 0.59,
+        "hard_ori_err_deg": 0.57,
+        "peak_T": [
+          47.9,
+          76.0,
+          67.0
+        ]
+      },
+      {
+        "method": "myopic",
+        "first_derate_min": 19.88,
+        "first_fail_min": 22.0,
+        "fail_seconds": 180,
+        "mean_ori_err_deg": 2.39,
+        "hard_ori_err_deg": 10.3,
+        "peak_T": [
+          46.3,
+          81.5,
+          65.0
+        ]
+      },
+      {
+        "method": "myopic",
+        "first_derate_min": 22.97,
+        "first_fail_min": null,
+        "fail_seconds": 0,
+        "mean_ori_err_deg": 5.05,
+        "hard_ori_err_deg": 16.65,
+        "peak_T": [
+          47.0,
+          81.3,
+          62.2
+        ]
+      }
+    ],
+    "scalar": [
+      {
+        "method": "scalar",
+        "first_derate_min": 20.68,
+        "first_fail_min": 20.7,
+        "fail_seconds": 138,
+        "mean_ori_err_deg": 8.86,
+        "hard_ori_err_deg": 5.19,
+        "peak_T": [
+          45.6,
+          81.0,
+          66.0
+        ]
+      },
+      {
+        "method": "scalar",
+        "first_derate_min": 20.5,
+        "first_fail_min": 20.52,
+        "fail_seconds": 29,
+        "mean_ori_err_deg": 4.34,
+        "hard_ori_err_deg": 5.14,
+        "peak_T": [
+          45.4,
+          84.1,
+          66.2
+        ]
+      },
+      {
+        "method": "scalar",
+        "first_derate_min": 20.83,
+        "first_fail_min": 20.85,
+        "fail_seconds": 129,
+        "mean_ori_err_deg": 5.33,
+        "hard_ori_err_deg": 3.45,
+        "peak_T": [
+          45.0,
+          81.4,
+          66.6
+        ]
+      },
+      {
+        "method": "scalar",
+        "first_derate_min": 20.38,
+        "first_fail_min": 22.0,
+        "fail_seconds": 180,
+        "mean_ori_err_deg": 7.26,
+        "hard_ori_err_deg": 12.86,
+        "peak_T": [
+          46.3,
+          81.6,
+          65.0
+        ]
+      },
+      {
+        "method": "scalar",
+        "first_derate_min": 20.27,
+        "first_fail_min": 21.0,
+        "fail_seconds": 60,
+        "mean_ori_err_deg": 4.98,
+        "hard_ori_err_deg": 6.49,
+        "peak_T": [
+          46.2,
+          83.8,
+          66.4
+        ]
+      }
+    ],
+    "ours": [
+      {
+        "method": "ours",
+        "first_derate_min": null,
+        "first_fail_min": null,
+        "fail_seconds": 0,
+        "mean_ori_err_deg": 1.22,
+        "hard_ori_err_deg": 0.53,
+        "peak_T": [
+          48.5,
+          75.1,
+          66.6
+        ]
+      },
+      {
+        "method": "ours",
+        "first_derate_min": null,
+        "first_fail_min": null,
+        "fail_seconds": 0,
+        "mean_ori_err_deg": 0.62,
+        "hard_ori_err_deg": 0.34,
+        "peak_T": [
+          47.0,
+          76.5,
+          67.2
+        ]
+      },
+      {
+        "method": "ours",
+        "first_derate_min": null,
+        "first_fail_min": null,
+        "fail_seconds": 0,
+        "mean_ori_err_deg": 0.75,
+        "hard_ori_err_deg": 0.91,
+        "peak_T": [
+          47.6,
+          77.0,
+          66.9
+        ]
+      },
+      {
+        "method": "ours",
+        "first_derate_min": null,
+        "first_fail_min": null,
+        "fail_seconds": 0,
+        "mean_ori_err_deg": 0.59,
+        "hard_ori_err_deg": 0.4,
+        "peak_T": [
+          49.1,
+          76.8,
+          67.7
+        ]
+      },
+      {
+        "method": "ours",
+        "first_derate_min": null,
+        "first_fail_min": null,
+        "fail_seconds": 0,
+        "mean_ori_err_deg": 0.47,
+        "hard_ori_err_deg": 0.33,
+        "peak_T": [
+          48.1,
+          76.0,
+          67.5
+        ]
+      }
+    ]
+  }
+}

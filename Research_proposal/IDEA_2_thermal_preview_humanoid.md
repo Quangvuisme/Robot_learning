@@ -184,6 +184,13 @@ deadlines on each venue's site.
 - FALCON: arXiv 2505.06776 (evidence that wrists overheat)
 - G1 getting-up policies: arXiv 2502.12152 (evidence that a policy can choose where heat goes)
 - BeyondMimic: arXiv 2508.08241; mjlab: arXiv 2601.22074 (the tracker and the simulator you build on)
+- Olaf (Disney): arXiv 2512.16705. It says thermal timescales are far slower than balance dynamics, which
+  supports our timescale split.
+- Human-Level Actuation for Humanoids: arXiv 2511.06796 (thermal limits appear only in integrated tests)
+- Model-based two-timescale precedents: two-rate actuator policies (Yagi & Morimoto), singular-perturbation
+  hierarchical MPC (NAIST thesis), and thermal-constrained manipulator MPC (Pisa thesis)
+- Toy evidence that the idea works: `toy/README.md` (preview plus per-joint allowance completes 5/5 programs
+  with no derating, versus at most 4/5 for the baselines)
 
 ## 10. Risks and fallbacks
 
