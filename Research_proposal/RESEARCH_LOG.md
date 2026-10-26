@@ -162,3 +162,23 @@ Each loop iteration does three things: a literature sweep, one step on the proto
   - write Propositions 1–3 and the partial-correction trap formally (a short theory note);
   - start the sim-to-sim humanoid design: mjlab as the sim, MuJoCo with base-inertia or foot-compliance gaps as
     the "real" system.
+
+## Iteration 6 (2026-10-26): Idea 8 deep dive (smoothing world models; stairs and perceptive locomotion)
+- **v2 ball–wall (input noise):** negative result. Input-noise world models are *denoisers* (Tweedie) on
+  low-dimensional robot data, not smoothers.
+- **v3 ball–wall (argument noise, target f(s + σε)):** confirms the corrected Proposition A′.
+  - One-step error to the smoothed dynamics: 0.11–0.13, versus 0.34–0.75 for input noise.
+  - Wall cleared 9/9 (annealed), versus 3/9 for input noise and 0/9 for the true first-order gradient.
+- **Proposition E** (pathwise gradients miss the boundary term of the trip event): confirmed. Backprop through the
+  true simulator trips 100% at every noise level.
+- **Stair v1** (a clean swing model):
+  - T1 at σ_p = 1–2 cm: perceived-terrain world model 0–0.3% trips, versus 26–37% for the true-terrain model.
+  - But the perceived model also learns about a 5 cm margin at σ_p = 0, so model error, not the posterior, drives
+    much of the margin.
+  - The model-free zeroth-order method matches the oracle, but needs 614k simulator rollouts.
+- **Ideal posterior control** (backprop through the exact E[J | Ĥ]): clearance 0.3 / 4.6 / 7.5 cm at
+  σ_p = 0 / 2 / 4 cm, i.e. calibrated, as the theory predicts.
+- **Stair v2** (ensembles): the first condition showed a seed-dependent, blurred boundary (MLP width 3.6–5.3 cm
+  at σ_p = 0; trips 18% ± 25%). v2 was stopped because it was too slow on an oversubscribed CPU.
+- **Stair v3** (running): the **event-factored world model** (BCE event head, which is a proper scoring rule, plus
+  mixture of branches) against regression baselines; 3 seeds; σ_p ∈ {0, 2, 4} cm; both initialisations.

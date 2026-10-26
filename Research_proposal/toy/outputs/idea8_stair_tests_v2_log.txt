@@ -2,3 +2,4 @@
   return f_raw(*args, **kwargs)
 /usr/local/lib/python3.13/dist-packages/autograd/numpy/numpy_vjps.py:178: RuntimeWarning: overflow encountered in square
   defvjp(anp.tanh, lambda ans, x: lambda g: g / anp.cosh(x) ** 2)
+sigma_p=0.0 WM-true (broad data) {"J": [0.5401, 0.0461], "trip": [0.1791, 0.2533], "clearance_cm": [2.6267, 2.8134], "staircase5_success": [0.6723, 0.4634], "mechanism_shift_cm": [-0.8, -0.6, -0.5], "mechanism_width_cm": [3.7, 3.6, 5.3], "posterior_width_cm": 0.0} 1018s
