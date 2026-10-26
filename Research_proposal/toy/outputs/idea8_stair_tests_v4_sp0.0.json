@@ -1,0 +1,299 @@
+{
+  "C_HOLD": 1.0635,
+  "sigma_p=0.0": {
+    "oracle": {
+      "theta": [
+        0.003,
+        0.94
+      ],
+      "J": 0.5829,
+      "trip": 0.0,
+      "clearance_cm": 0.31,
+      "staircase5_success": 1.0
+    },
+    "ideal posterior model": {
+      "J": [
+        0.5828,
+        0.0
+      ],
+      "trip": [
+        0.0,
+        0.0
+      ],
+      "clearance_cm": [
+        0.336,
+        0.0049
+      ],
+      "staircase5_success": [
+        1.0,
+        0.0
+      ]
+    },
+    "A  MLP-WM perceived, mean-field (baseline)": {
+      "from_clearing_init": {
+        "J": [
+          0.5585,
+          0.0224
+        ],
+        "trip": [
+          0.0,
+          0.0
+        ],
+        "clearance_cm": [
+          7.492,
+          5.5563
+        ],
+        "staircase5_success": [
+          1.0,
+          0.0
+        ]
+      },
+      "from_tripping_init": {
+        "J": [
+          0.47,
+          0.0895
+        ],
+        "trip": [
+          0.6,
+          0.4899
+        ],
+        "clearance_cm": [
+          -6.514,
+          7.0867
+        ],
+        "staircase5_success": [
+          0.4,
+          0.4899
+        ]
+      },
+      "mechanism_shift_cm": [
+        -0.5,
+        -0.1,
+        -0.2,
+        -0.3,
+        -0.3
+      ],
+      "mechanism_width_cm": [
+        9.8,
+        4.4,
+        4.8,
+        4.2,
+        16.0
+      ],
+      "posterior_width_cm": 0.0
+    },
+    "B  EF-WM perceived, mean-field": {
+      "from_clearing_init": {
+        "J": [
+          0.4287,
+          0.0769
+        ],
+        "trip": [
+          0.8,
+          0.4
+        ],
+        "clearance_cm": [
+          -3.048,
+          2.1904
+        ],
+        "staircase5_success": [
+          0.2,
+          0.4
+        ]
+      },
+      "from_tripping_init": {
+        "J": [
+          0.4275,
+          0.0749
+        ],
+        "trip": [
+          0.8,
+          0.4
+        ],
+        "clearance_cm": [
+          -2.662,
+          2.8075
+        ],
+        "staircase5_success": [
+          0.2,
+          0.4
+        ]
+      },
+      "mechanism_shift_cm": [
+        0.1,
+        0.1,
+        0.0,
+        0.1,
+        0.2
+      ],
+      "mechanism_width_cm": [
+        0.8,
+        0.9,
+        0.8,
+        0.8,
+        0.7
+      ],
+      "posterior_width_cm": 0.0
+    },
+    "C  EF-WM perceived, branched": {
+      "from_clearing_init": {
+        "J": [
+          0.5403,
+          0.078
+        ],
+        "trip": [
+          0.2,
+          0.4
+        ],
+        "clearance_cm": [
+          1.25,
+          1.2244
+        ],
+        "staircase5_success": [
+          0.8,
+          0.4
+        ]
+      },
+      "from_tripping_init": {
+        "J": [
+          0.4243,
+          0.0642
+        ],
+        "trip": [
+          0.8276,
+          0.3448
+        ],
+        "clearance_cm": [
+          -4.16,
+          3.1387
+        ],
+        "staircase5_success": [
+          0.1025,
+          0.205
+        ]
+      },
+      "mechanism_shift_cm": [
+        0.1,
+        0.1,
+        0.0,
+        0.1,
+        0.2
+      ],
+      "mechanism_width_cm": [
+        0.8,
+        0.9,
+        0.8,
+        0.8,
+        0.7
+      ],
+      "posterior_width_cm": 0.0
+    },
+    "D  EF-WM perceived, branched, ARG annealed  [FULL METHOD]": {
+      "from_clearing_init": {
+        "J": [
+          0.5532,
+          0.0293
+        ],
+        "trip": [
+          0.0,
+          0.0
+        ],
+        "clearance_cm": [
+          8.68,
+          6.3349
+        ],
+        "staircase5_success": [
+          1.0,
+          0.0
+        ]
+      },
+      "from_tripping_init": {
+        "J": [
+          0.5169,
+          0.069
+        ],
+        "trip": [
+          0.2,
+          0.4
+        ],
+        "clearance_cm": [
+          6.546,
+          9.0833
+        ],
+        "staircase5_success": [
+          0.8,
+          0.4
+        ]
+      },
+      "mechanism_shift_cm": [
+        0.1,
+        -0.2,
+        -0.3,
+        0.1,
+        0.2
+      ],
+      "mechanism_width_cm": [
+        2.3,
+        2.5,
+        2.5,
+        2.8,
+        2.7
+      ],
+      "posterior_width_cm": 0.0
+    },
+    "E  EF-WM TRUE terrain, branched, ARG annealed  [privileged ablation]": {
+      "from_clearing_init": {
+        "J": [
+          0.493,
+          0.0869
+        ],
+        "trip": [
+          0.4,
+          0.4899
+        ],
+        "clearance_cm": [
+          -1.546,
+          12.5223
+        ],
+        "staircase5_success": [
+          0.6,
+          0.4899
+        ]
+      },
+      "from_tripping_init": {
+        "J": [
+          0.5218,
+          0.0595
+        ],
+        "trip": [
+          0.1798,
+          0.3596
+        ],
+        "clearance_cm": [
+          7.65,
+          5.7683
+        ],
+        "staircase5_success": [
+          0.8,
+          0.4
+        ]
+      },
+      "mechanism_shift_cm": [
+        0.1,
+        0.0,
+        0.0,
+        0.1,
+        0.4
+      ],
+      "mechanism_width_cm": [
+        2.3,
+        2.3,
+        2.3,
+        2.6,
+        2.1
+      ],
+      "posterior_width_cm": 0.0
+    }
+  },
+  "note": "[mean, std] over world-model seeds; unconfounded targeted data; clearance = C_HOLD*a - H (cm); mechanism = shift/width of P(clear) at the crossing state vs posterior (0, 2.56 sigma_p)"
+}

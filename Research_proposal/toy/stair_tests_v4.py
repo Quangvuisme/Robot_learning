@@ -113,13 +113,13 @@ def collect_unconfounded(n_ep, sig_p, rng, frac=0.7):
     return (np.stack(S, 1).reshape(-1, 3), np.stack(U, 1).reshape(-1), np.repeat(H, ST.T), np.repeat(Hp, ST.T))
 
 
-def sigma_schedule(it, iters, smax=0.05):
+def sigma_schedule(it, iters, smax=0.05, hold=0.4):
     f = it / iters
-    if f < 0.4:
+    if f < hold:
         return smax
     if f > 0.9:
         return 0.0
-    return smax * 0.5 * (1 + np.cos(np.pi * (f - 0.4) / 0.5))
+    return smax * 0.5 * (1 + np.cos(np.pi * (f - hold) / (0.9 - hold)))
 
 
 def rollout_branched(p, theta, hin, Hobs, sig):
@@ -143,11 +143,12 @@ def rollout_branched(p, theta, hin, Hobs, sig):
     return J
 
 
-def optimise_ef(p, terrain, theta0, sig_p, rng, anneal=False, iters=300, lr=0.004, batch=128, branched=False):
+def optimise_ef(p, terrain, theta0, sig_p, rng, anneal=False, iters=300, lr=0.004, batch=128, branched=False,
+                smax=0.05, hold=0.4):
     th = np.array(theta0, float); m = np.zeros(2); v = np.zeros(2)
     for it in range(1, iters + 1):
         H, Hp = ST.terrains(rng, batch, sig_p)
-        sig = sigma_schedule(it, iters) if anneal else 0.0
+        sig = sigma_schedule(it, iters, smax, hold) if anneal else 0.0
         hin = H if terrain == "true" else Hp
         if branched:
             g = grad(lambda t_: anp.mean(rollout_branched(p, t_, hin, Hp, sig)))(th)
