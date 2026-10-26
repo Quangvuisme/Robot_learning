@@ -70,7 +70,7 @@ def evaluate(th, sig_p, n=8000, seed=7):
 
 def mechanism(model_params, sig_p, Hp0=0.13):
     c = np.linspace(-0.08, 0.08, 161)
-    s = np.stack([np.full(c.size, ST.XE - 0.005), Hp0 + c, np.full(c.size, ST.VX)], -1)
+    s = np.stack([np.full(c.size, ST.XE - ST.VX * ST.DT), Hp0 + c, np.full(c.size, ST.VX)], -1)
     p = np.clip(np.asarray(ST.wm(model_params, s, np.zeros(c.size), np.full(c.size, Hp0), 0.0))[:, 2] / ST.VX, 0, 1)
     p = np.maximum.accumulate(p)                      # monotone envelope for robust crossing points
 

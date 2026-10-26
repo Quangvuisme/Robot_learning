@@ -104,7 +104,7 @@ def optimise_ef(p, terrain, theta0, sig_p, rng, anneal=False, iters=300, lr=0.00
 
 def mechanism_ef(p, sig_p, Hp0=0.13):
     c = np.linspace(-0.08, 0.08, 161)
-    s = np.stack([np.full(c.size, ST.XE - 0.005), Hp0 + c, np.full(c.size, ST.VX)], -1)
+    s = np.stack([np.full(c.size, ST.XE - ST.VX * ST.DT), Hp0 + c, np.full(c.size, ST.VX)], -1)
     logit, _, _ = ef_parts(p, s, np.zeros(c.size), np.full(c.size, Hp0), 0.0)
     pc = np.maximum.accumulate(1 - 1 / (1 + np.exp(-np.asarray(logit))))   # P(clear), monotone envelope
 
