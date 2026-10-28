@@ -114,3 +114,40 @@ for iteration in range(N):
   - simulator steps and GPU-hours to a given success rate.
 - **Main risk:** combinatorial contact modes (9 parts). Mitigation: factorize events per body part, use a beam
   over modes (K_max ≈ 8–16), and merge modes that share a contact set.
+
+## 6. Thorough toy test (`toy/acp_ebwm_stepping_stones.py`, 3 seeds × 4 noise levels)
+
+**Setup:**
+- Stepping stones (6 per step); perceived centre and width have noise σ_p; reach limit 0.75 m; motor noise 1 cm.
+- A miss is an absorbing fall with F = 3; 5 steps per episode.
+- Planner: ACP-style token scoring plus a no-step slot and an aim offset, pretrained self-supervised from a
+  privileged expert (ACP-SS), then fine-tuned. Test-time policy = argmax.
+- Values are mean ± std; J is the 5-step return.
+
+| σ_p | ACP-SS (no fine-tune) | **+ EB-WM (true + MC)** | + EB-WM (perceived) | + plain WM (mean-field) | + pathwise true-sim | + ZO RL (8.2M sim rollouts) | oracle | privileged expert |
+|---|---|---|---|---|---|---|---|---|
+| 0 cm | 2.454, miss 5.3% | **3.537 ± 0.004**, miss 0.2% | 3.538 | 3.349 ± 0.022 | 1.642 | 3.052 ± 0.132 | 3.559 | 3.537 |
+| 1 cm | 2.306, miss 6.0% | **3.338 ± 0.007**, miss 0.8% | 3.344 | 3.264 ± 0.013 | 1.736 | 2.642 ± 0.219 | 3.353 | (3.537, sees true stones) |
+| 2 cm | 1.873, miss 8.1% | **2.869 ± 0.048**, miss 2.5% | 2.862 | 2.906 ± 0.021 | 1.747 | 1.921 | 2.878 | – |
+| 4 cm | 1.134, miss 12.2% | 1.500 ± 0.018 | 1.461 | 1.511 ± 0.074 | 1.458 | 1.460 | 1.458 | – |
+
+**Findings:**
+1. **EB-WM fine-tuning of an ACP-style planner reaches the oracle** (within 0.3–1%) for σ_p ≤ 2 cm. That is
+   +44–53% return over the self-supervised planner and 5–20× fewer misses, with **no simulator rollouts** during
+   fine-tuning. It is stable across seeds (std ≤ 0.05).
+2. **Margins calibrate:** mean landing distance from the nearest true edge is 3.7 → 3.9–4.1 → 4.0–4.2 cm for
+   σ_p = 0 → 1 → 2 cm. ACP-SS stays at about 3.4 cm, which is margin collapse from imitating a privileged expert
+   (Idea 10).
+3. **Pathwise through the true simulator fails** at every noise level and is *worse* than no fine-tuning, which
+   is Proposition E again.
+4. **Model-free ZO** needs 8.2M rollouts and is still far from the oracle at σ_p ≥ 1 cm.
+5. **Honest negatives:**
+   - The **plain mean-field WM is competitive** here: −5% at 0 cm, but +1% at 2 cm. In this toy each step is a
+     *single* transition, so the regressed mean outcome already equals E[r]. The branching advantage needs
+     multi-step rollouts through discontinuities, which the staircase toy shows (2.17 vs 4.24). The next test
+     should add a swing phase with toe-stub and stop events inside each step.
+   - The "oracle" is optimisation-limited (BPTT from the same initialisation, 400 iterations), so it is not a
+     strict upper bound.
+   - **At σ_p = 4 cm every method converges to the same conservative policy** (J ≈ 1.46–1.51, about 10% misses).
+     The noise is comparable to stone half-widths, so the regime is **information-limited**: the gap to the
+     privileged expert (3.54) is missing information, not optimisation.

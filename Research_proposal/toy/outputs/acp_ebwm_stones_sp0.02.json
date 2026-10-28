@@ -1,0 +1,139 @@
+{
+  "privileged expert (true stones, not deployable)": {
+    "J": 3.5368,
+    "all5": 0.9855
+  },
+  "ACP-SS (self-supervised, no fine-tune)": {
+    "J": [
+      1.8729,
+      0.0126
+    ],
+    "all5": [
+      0.6548,
+      0.002
+    ],
+    "miss_per_step": [
+      0.0812,
+      0.0006
+    ],
+    "edge_margin_cm": [
+      3.3667,
+      0.0047
+    ],
+    "sim_rollouts": 0
+  },
+  "ACP-SS + EB-WM (true + MC)": {
+    "J": [
+      2.869,
+      0.0479
+    ],
+    "all5": [
+      0.8813,
+      0.0145
+    ],
+    "miss_per_step": [
+      0.025,
+      0.0032
+    ],
+    "edge_margin_cm": [
+      4.0267,
+      0.0685
+    ],
+    "sim_rollouts": 0
+  },
+  "ACP-SS + EB-WM (perceived)": {
+    "J": [
+      2.8623,
+      0.0231
+    ],
+    "all5": [
+      0.9018,
+      0.0064
+    ],
+    "miss_per_step": [
+      0.0205,
+      0.0014
+    ],
+    "edge_margin_cm": [
+      4.22,
+      0.0432
+    ],
+    "sim_rollouts": 0
+  },
+  "ACP-SS + plain WM (mean-field)": {
+    "J": [
+      2.906,
+      0.0209
+    ],
+    "all5": [
+      0.924,
+      0.0053
+    ],
+    "miss_per_step": [
+      0.0157,
+      0.0011
+    ],
+    "edge_margin_cm": [
+      4.38,
+      0.0566
+    ],
+    "sim_rollouts": 0
+  },
+  "ACP-SS + pathwise true-sim": {
+    "J": [
+      1.7474,
+      0.0005
+    ],
+    "all5": [
+      0.6279,
+      0.0001
+    ],
+    "miss_per_step": [
+      0.0887,
+      0.0
+    ],
+    "edge_margin_cm": [
+      3.33,
+      0.0
+    ],
+    "sim_rollouts": 0
+  },
+  "ACP-SS + ZO RL (model-free)": {
+    "J": [
+      1.9206,
+      0.0062
+    ],
+    "all5": [
+      0.6614,
+      0.0011
+    ],
+    "miss_per_step": [
+      0.0793,
+      0.0003
+    ],
+    "edge_margin_cm": [
+      3.3667,
+      0.0047
+    ],
+    "sim_rollouts": 8192000
+  },
+  "oracle (exact expected outcome)": {
+    "J": [
+      2.8779,
+      0.03
+    ],
+    "all5": [
+      0.885,
+      0.0088
+    ],
+    "miss_per_step": [
+      0.0241,
+      0.002
+    ],
+    "edge_margin_cm": [
+      4.08,
+      0.0327
+    ],
+    "sim_rollouts": 0
+  }
+}

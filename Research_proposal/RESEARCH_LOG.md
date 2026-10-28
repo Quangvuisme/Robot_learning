@@ -238,3 +238,13 @@ Each loop iteration does three things: a literature sweep, one step on the proto
   - **Revision:** C2 (perceived input) is optional. The smooth learned event head plus MC sampling of (H, Ĥ)
     recovers the boundary term. Proposition E holds only for the exact simulator.
   - METHOD §3b updated.
+
+## 2026-10-28: thorough test of ACP + EB-WM (Algorithm 2), stepping-stone toy
+- **EB-WM fine-tuning of an ACP-style planner ≈ oracle at σ_p ≤ 2 cm** (3.537 / 3.338 / 2.869 against
+  3.559 / 3.353 / 2.878). That is +44–53% over ACP-SS, misses fall from 5–8% to 0.2–2.5%, and margins grow with
+  noise.
+- Pathwise true-sim fails (worse than no fine-tuning). ZO needs 8.2M rollouts and lags.
+- **Negatives:** plain mean-field WM is competitive in this single-transition task (the branching advantage needs
+  multi-step discontinuous rollouts). σ_p = 4 cm is information-limited (all methods ≈ 1.46–1.51).
+- **Next:** add a swing phase with toe-stub and stop events inside each step, to test branching inside
+  Algorithm 2.
