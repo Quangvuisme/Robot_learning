@@ -180,6 +180,60 @@ for iteration in range(N):
      (perceived-terrain model);
    - (iv) argument-noise smoothing within the budget, when escape is needed.
 
+### Algorithm 1′ (revised after loop iterations 1–2; supersedes Algorithm 1)
+
+```python
+# ===== EB-WM (revised): every discontinuity is an event + mode-branched rollouts =====
+# Simulator f(s, a, terrain) -> (s_next, e), where e ∈ {0: none, 1..K: events}
+#   events = ALL discontinuities: trip / toe-stub, touchdown, lift-off, slip, stop, fall ...
+#   ABSORBING ⊂ events: failures that end the episode (trip, fall)
+# Sensor-noise model N_p (heightmap noise σ_p), policy π_θ, critic V_ψ
+TERRAIN_INPUT = "true"        # default (best in the toy); alternative "perceived" (WM learns E[f | ĥ])
+σ_max = sqrt(max(0, σ_esc**2 - σ_p**2))                 # smoothing budget; 0 -> no argument noise
+
+for iteration in range(N):
+    # ---- 1. Data: behaviour depends only on the policy's own (perceived) observation ----
+    for episode in batch:
+        terrain = sample_terrain()
+        for t in range(T):
+            ĥ = N_p(terrain)                                  # noisy heightmap
+            a = π_θ(o_t, ĥ) + exploration_noise
+            s_next, e = f(s, a, terrain)                      # event label is free in simulation
+            buffer.add(s, a, terrain, ĥ)
+
+    # ---- 2. Event-factored world model g_φ(s, a, h_in, σ) ----
+    for (s, a, terrain, ĥ) in minibatches(buffer):
+        h_in  = terrain if TERRAIN_INPUT == "true" else ĥ
+        σ     = uniform(0, σ_max) if σ_max > 0 else 0.0
+        y, e  = f(s + σ * ε, a, terrain)                      # ARGUMENT noise: target and label from the simulator
+        logits, {f_k} = g_φ(s, a, h_in, σ)                    # f_0 = "no event" branch, f_k = after event k
+        loss = CE(logits, e) + Σ_k MSE(f_k, y | e == k)       # each branch trained only on its own samples
+        φ ← φ - lr * ∇_φ loss
+
+    # ---- 3. Policy: BPTT through MODE-BRANCHED rollouts ----
+    σ_t = schedule(iteration)            # hold σ_max for 30 %, cosine decay, 0 from 90 % of training
+    terrain = sample_terrain(B);  ĥ = N_p(terrain)            # Monte Carlo over perception noise
+    h_in = terrain if TERRAIN_INPUT == "true" else ĥ
+    particles = {mode_0: (w = 1, s = s_0)}                    # mode = contact configuration + failure flag
+    J = 0
+    for t in range(H):
+        new = defaultdict(list)
+        for mode, (w, s) in particles.items():
+            if mode in ABSORBING:                             # failure: stop rolling this particle
+                new[mode].append((w, s)); continue
+            a = π_θ(obs(s), ĥ)
+            logits, {f_k} = g_φ(s, a, h_in, σ_t)
+            p = softmax(logits)
+            J += w * r(s, a)                                  # reward weighted by the probability of the mode
+            for k in range(K + 1):                            # k = 0: no event
+                new[transition(mode, k)].append((w * p[k], f_k))
+        particles = merge_same_mode(new)                      # IMM: total weight, weighted mean state per mode
+        particles = prune(particles, K_max)                   # bounded count (e.g. 2 feet × stance/swing × fail)
+    J += Σ_{mode ∉ ABSORBING} w * V_ψ(s) + Σ_{mode ∈ ABSORBING} w * V_fail
+    θ ← θ + lr * ∇_θ J               # gradient flows through the weights w (boundary term) and the states s
+    ψ ← fit V_ψ on λ-returns of the branched rollouts   # Idea 12: V = P_survive · V_alive + (1 − P_survive) · V_fail
+```
+
 ## 4. Theory (statements; proofs to write)
 
 - **Proposition A′.** Under squared loss, argument-noise training gives g_σ = f ∗ φ_σ (the bundled dynamics) for
