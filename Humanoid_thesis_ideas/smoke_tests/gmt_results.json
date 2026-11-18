@@ -1,0 +1,42 @@
+{
+ "walk_stand.pkl": {
+  "seconds": 10.0,
+  "fell_at": null,
+  "mean_joint_err_rad": 0.06551562308520079,
+  "mean_root_h_err_m": 0.010779179175283584,
+  "min_root_h": 0.7490128592700263,
+  "wall_s": 1.8
+ },
+ "dance.pkl": {
+  "seconds": 10.0,
+  "fell_at": null,
+  "mean_joint_err_rad": 0.0756296718120575,
+  "mean_root_h_err_m": 0.007860322786327706,
+  "min_root_h": 0.7180881499186446,
+  "wall_s": 1.7
+ },
+ "squat.pkl": {
+  "seconds": 10.0,
+  "fell_at": null,
+  "mean_joint_err_rad": 0.08971182694286108,
+  "mean_root_h_err_m": 0.01835945492080775,
+  "min_root_h": 0.4886765195698052,
+  "wall_s": 1.7
+ },
+ "kick_walk.pkl": {
+  "seconds": 10.0,
+  "fell_at": null,
+  "mean_joint_err_rad": 0.09205668786168099,
+  "mean_root_h_err_m": 0.027801498872103102,
+  "min_root_h": 0.7039322057491564,
+  "wall_s": 1.6
+ },
+ "airkick_stand.pkl": {
+  "seconds": 10.0,
+  "fell_at": null,
+  "mean_joint_err_rad": 0.09995444040000438,
+  "mean_root_h_err_m": 0.032687866370452894,
+  "min_root_h": 0.6941871228437673,
+  "wall_s": 1.6
+ }
+}

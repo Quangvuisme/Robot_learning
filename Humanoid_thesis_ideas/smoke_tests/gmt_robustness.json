@@ -1,0 +1,138 @@
+{
+ "walk_stand.pkl|push 0N/0.1s": {
+  "fell": false,
+  "joint_err": 0.06972341622434078
+ },
+ "walk_stand.pkl|push 200N/0.1s": {
+  "fell": false,
+  "joint_err": 0.0726211811110596
+ },
+ "walk_stand.pkl|push 300N/0.1s": {
+  "fell": false,
+  "joint_err": 0.07235267847859769
+ },
+ "walk_stand.pkl|push 400N/0.1s": {
+  "fell": false,
+  "joint_err": 0.07338527761997761
+ },
+ "walk_stand.pkl|push 500N/0.1s": {
+  "fell": false,
+  "joint_err": 0.07735271055524827
+ },
+ "walk_stand.pkl|push 600N/0.1s": {
+  "fell": false,
+  "joint_err": 0.08097498449904343
+ },
+ "walk_stand.pkl|payload 5kg": {
+  "fell": false,
+  "joint_err": 0.07193223633871104
+ },
+ "walk_stand.pkl|payload 10kg": {
+  "fell": false,
+  "joint_err": 0.07557125598671671
+ },
+ "walk_stand.pkl|payload 15kg": {
+  "fell": true,
+  "t": 2.84
+ },
+ "walk_stand.pkl|payload 20kg": {
+  "fell": true,
+  "t": 2.52
+ },
+ "walk_stand.pkl|latency 20ms": {
+  "fell": false,
+  "joint_err": 0.07055026297795668
+ },
+ "walk_stand.pkl|latency 40ms": {
+  "fell": false,
+  "joint_err": 0.07645403470499058
+ },
+ "walk_stand.pkl|latency 60ms": {
+  "fell": true,
+  "t": 2.2
+ },
+ "walk_stand.pkl|friction 0.4": {
+  "fell": false,
+  "joint_err": 0.06925094013516116
+ },
+ "walk_stand.pkl|friction 0.2": {
+  "fell": false,
+  "joint_err": 0.06942801309378896
+ },
+ "walk_stand.pkl|kp x0.6": {
+  "fell": true,
+  "t": 5.48
+ },
+ "walk_stand.pkl|kp x0.4": {
+  "fell": true,
+  "t": 1.44
+ },
+ "dance.pkl|push 0N/0.1s": {
+  "fell": false,
+  "joint_err": 0.07978237219700215
+ },
+ "dance.pkl|push 200N/0.1s": {
+  "fell": false,
+  "joint_err": 0.07710221066551158
+ },
+ "dance.pkl|push 300N/0.1s": {
+  "fell": false,
+  "joint_err": 0.07269813594972853
+ },
+ "dance.pkl|push 400N/0.1s": {
+  "fell": false,
+  "joint_err": 0.07281049540449776
+ },
+ "dance.pkl|push 500N/0.1s": {
+  "fell": false,
+  "joint_err": 0.07373239396220152
+ },
+ "dance.pkl|push 600N/0.1s": {
+  "fell": false,
+  "joint_err": 0.07694483465541514
+ },
+ "dance.pkl|payload 5kg": {
+  "fell": false,
+  "joint_err": 0.08075021144589871
+ },
+ "dance.pkl|payload 10kg": {
+  "fell": false,
+  "joint_err": 0.08068552324658512
+ },
+ "dance.pkl|payload 15kg": {
+  "fell": false,
+  "joint_err": 0.07713390280434503
+ },
+ "dance.pkl|payload 20kg": {
+  "fell": false,
+  "joint_err": 0.07754416173257686
+ },
+ "dance.pkl|latency 20ms": {
+  "fell": false,
+  "joint_err": 0.07637773791696047
+ },
+ "dance.pkl|latency 40ms": {
+  "fell": false,
+  "joint_err": 0.08091549540746296
+ },
+ "dance.pkl|latency 60ms": {
+  "fell": false,
+  "joint_err": 0.07080728022526146
+ },
+ "dance.pkl|friction 0.4": {
+  "fell": false,
+  "joint_err": 0.08201103831719722
+ },
+ "dance.pkl|friction 0.2": {
+  "fell": false,
+  "joint_err": 0.08133889647345265
+ },
+ "dance.pkl|kp x0.6": {
+  "fell": false,
+  "joint_err": 0.07543649179837959
+ },
+ "dance.pkl|kp x0.4": {
+  "fell": true,
+  "t": 1.9000000000000001
+ }
+}
