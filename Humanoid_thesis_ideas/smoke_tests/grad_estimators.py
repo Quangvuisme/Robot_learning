@@ -6,7 +6,8 @@ Estimators at equal rollout budget N:
   CLIP    : EXACT + per-sample median-relative clipping (NablaMimic-style)
   WM      : pathwise BPTT through a learned MLP dynamics model (SuperMimic-style)
   HYBRID  : EXACT, but outlier samples (norm > c * median) are replaced by their WM gradient (proposed)
-Reference: LR with 400k rollouts (unbiased for the stochastic objective)."""
+Reference: central finite differences with common random numbers over 200k rollouts
+(gradient of the expected return, including contact discontinuities; bias O(h^2))."""
 import torch, json, sys, math, time
 torch.manual_seed(0); torch.set_num_threads(4)
 T, DT, SIG = 60, 0.01, 0.3
@@ -71,8 +72,18 @@ theta = torch.tensor([-2.0, -0.3, 2.0, 1.0, 0.2, 0.5])
 N, TRIALS = 64, 20
 for k in [1e3, 1e4, 1e5]:
     g = torch.Generator().manual_seed(1)
-    ref = torch.zeros(6); B = 20000
-    for _ in range(20): ref += lr_grad(theta, B, k, g)[0]/20
+    ref = torch.zeros(6); B, h = 200000, 0.02
+    gr = torch.Generator().manual_seed(7); s0 = sample_s0(B, gr); eps = torch.randn(B, T, generator=gr)
+    with torch.no_grad():
+        for i in range(6):
+            d = torch.zeros(6); d[i] = h
+            ref[i] = (rollout(theta+d, s0, eps, k).mean() - rollout(theta-d, s0, eps, k).mean())/(2*h)
+    # reference noise check: same FD on a disjoint half
+    with torch.no_grad():
+        ref2 = torch.zeros(6); gr = torch.Generator().manual_seed(8); s0 = sample_s0(B, gr); eps = torch.randn(B, T, generator=gr)
+        for i in range(6):
+            d = torch.zeros(6); d[i] = h
+            ref2[i] = (rollout(theta+d, s0, eps, k).mean() - rollout(theta-d, s0, eps, k).mean())/(2*h)
     wm, wml = fit_wm(theta, k, g)
     stats = {e: [] for e in ["LR", "EXACT", "CLIP", "WM", "HYBRID"]}; extra = {"clip_frac": [], "hyb_frac": [], "exact_max_over_median": []}
     for tr in range(TRIALS):
@@ -83,7 +94,7 @@ for k in [1e3, 1e4, 1e5]:
         stats["EXACT"].append(G.mean(0)); Gc, f = clip(G); stats["CLIP"].append(Gc.mean(0)); extra["clip_frac"].append(f)
         stats["WM"].append(Gw.mean(0)); Gh, f2 = hybrid(G, Gw); stats["HYBRID"].append(Gh.mean(0)); extra["hyb_frac"].append(f2)
         nr = G.norm(dim=1); extra["exact_max_over_median"].append((nr.max()/nr.median()).item())
-    row = {"wm_loss": wml, "ref_norm": ref.norm().item()}
+    row = {"wm_loss": round(wml,4), "ref_norm": round(ref.norm().item(),4), "ref_self_rel_err": round(((ref-ref2).norm()/ref.norm()).item(),4)}
     for e, L in stats.items():
         S = torch.stack(L); m = S.mean(0)
         row[e] = dict(cos_to_ref_mean=round(sum(cos(x, ref) for x in L)/len(L), 3),

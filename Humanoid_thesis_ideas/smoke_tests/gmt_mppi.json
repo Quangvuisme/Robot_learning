@@ -1,0 +1,106 @@
+[
+ {
+  "case": "payload15",
+  "plan": "none",
+  "K": 0,
+  "fell": true,
+  "t": 2.84,
+  "wall": 0
+ },
+ {
+  "case": "payload15",
+  "plan": "oracle",
+  "K": 16,
+  "fell": true,
+  "t": 4.22,
+  "wall": 96
+ },
+ {
+  "case": "payload15",
+  "plan": "oracle",
+  "K": 16,
+  "fell": true,
+  "t": 4.16,
+  "wall": 98
+ },
+ {
+  "case": "payload15",
+  "plan": "nominal",
+  "K": 16,
+  "fell": true,
+  "t": 4.04,
+  "wall": 91
+ },
+ {
+  "case": "payload15",
+  "plan": "nominal",
+  "K": 16,
+  "fell": true,
+  "t": 3.68,
+  "wall": 87
+ },
+ {
+  "case": "kp0.6",
+  "plan": "none",
+  "K": 0,
+  "fell": true,
+  "t": 5.48,
+  "wall": 1
+ },
+ {
+  "case": "kp0.6",
+  "plan": "oracle",
+  "K": 16,
+  "fell": true,
+  "t": 3.94,
+  "wall": 84
+ },
+ {
+  "case": "kp0.6",
+  "plan": "oracle",
+  "K": 16,
+  "fell": true,
+  "t": 3.1,
+  "wall": 69
+ },
+ {
+  "case": "kp0.6",
+  "plan": "nominal",
+  "K": 16,
+  "fell": true,
+  "t": 4.16,
+  "wall": 98
+ },
+ {
+  "case": "kp0.6",
+  "plan": "nominal",
+  "K": 16,
+  "fell": true,
+  "t": 3.0,
+  "wall": 66
+ },
+ {
+  "case": "latency60",
+  "plan": "none",
+  "K": 0,
+  "fell": true,
+  "t": 2.2,
+  "wall": 0
+ },
+ {
+  "case": "latency60",
+  "plan": "oracle",
+  "K": 16,
+  "fell": true,
+  "t": 3.54,
+  "wall": 79
+ },
+ {
+  "case": "latency60",
+  "plan": "oracle",
+  "K": 16,
+  "fell": true,
+  "t": 4.92,
+  "wall": 112
+ }
+]
