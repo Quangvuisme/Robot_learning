@@ -128,3 +128,45 @@ smoothing scale"**:
 2. Contribution: choose ρ or σ per contact from local contact quantities (penetration depth, impulse, stiffness) so that the measured bias
    stays below a target. Both DiffContact and BCG list this as future work, and my toy shows the wrong scale is catastrophic.
 Timing risk: BCG and ∇Mimic code is coming out, and the space is moving fast (Sep–Oct 2026).
+
+---
+
+## 2026-11-19 #4: Decoupled forward/backward model optimization (DMO; Amigo, Khorrambakht, Mansard, Righetti; arXiv 2509.00215 + 2602.06219)
+
+**What it is.** First-order MBRL where the **forward** rollout comes from an accurate system (simulator, or a heavy diffusion WM in the 2026 paper)
+and the **backward** pass uses Jacobians of a cheap **local** model evaluated *at the accurate states*. The local model only needs one-step
+accurate Jacobians, so there is no compounding drift. The 2026 version trains manipulation and quadruped-push policies purely from real play data:
+9/10 vs PPO 1/10 on Push-T, with 5x fewer samples.
+Related field (ML world models): also flagged were "Dreaming smoothly… gradient-penalized latent dynamics" (2605.23089) and
+"Closing the train-test gap in WMs for gradient-based planning" (2512.09929). Both say prediction loss alone gives poor model gradients.
+
+**Official repo.** `machines-in-motion/DMO_code` (project page `machines-in-motion/DMO`). Cloned and inspected: DMO-SHAC on DFlex and
+Isaac Gym (Go2); the bipedal env is "coming soon". Needs CUDA / Isaac Gym, so **not run**. The core is in `algorithms/dmo_shac.py`
+(real `next_obs` stored, learned `dyn_model` for gradients).
+
+**Smoke test (`smoke_tests/grad_dmo.py`).** Same mismatch setup as #2 (real hopper: mass x1.3, motor gain x0.6, 512 rollouts of data).
+Implemented as `s = s_model + (s_true - s_model).detach()`: forward values from the true system, backward through the chosen model.
+
+| k | Forward NOMINAL, backward nominal (#2) | **DMO: forward TRUE, backward nominal sim** | DMO: backward full WM | DMO: backward sim + MLP residual | Identified params (#2) |
+|---|---|---|---|---|---|
+| 1e3 | cos 0.99, bias 11.3 | cos 0.995, bias 9.4 | cos 0.95, bias 108 | cos -0.97 | cos 0.995, bias 5.3 |
+| 1e4 | **cos -1.00**, bias 1.93 | **cos 1.00**, bias 1.22 | cos 0.45, diverges | cos -1.00 | cos 1.00, bias 0.18 |
+| 1e5 | cos 1.00, bias 1.98 | **cos 1.00, bias 1.09** | diverges | cos -0.76 | cos 1.00, bias 0.12 |
+
+**Readings.**
+1. **Decoupling alone fixes the direction** of nominal-sim gradients under mismatch (cos -1.00 → 1.00 at k=1e4) and roughly halves the bias,
+   without learning anything. The forward pass must come from the real system.
+2. With the MLP residual, the gradients stay wrong **even when decoupled** (no compounding). So the failure in #2 is the **learned Jacobian itself**,
+   not error accumulation. This rules out "just train the residual better on prediction loss".
+3. Identified physical parameters are still best (bias 0.12–0.18).
+
+**Effect on the thesis: Paper 2 gets its core algorithm.**
+"**Real-world first-order adaptation**": roll out the policy **on the real robot** (forward = real data), and backpropagate through the
+**exact simulator adjoint** (NablaEngine / MuJoCo-Warp) evaluated at the measured states, with **physical parameters identified online
+through the same adjoint** (HALO-style) and, only if needed, a Jacobian-regularized residual.
+- This combines DMO (decoupling, NYU/LAAS) + ∇Mimic (exact G1 adjoint) + HALO (adjoint-based SysID). Nobody has done this for humanoids:
+  DMO's biped is "coming soon", and DMO uses a *learned* backward model, not an exact adjoint.
+- Measurable claims: gradient fidelity vs a finite-difference reference (from P1); minutes of real data to recover from payload / latency /
+  weak motors (README §3a), vs HALO, Contact-UAN and HumanoidNDM.
+- Open technical issue: the robot's real state must be estimated well enough (base pose/velocity) to evaluate the adjoint.
+  Contact-UAN's contact-consistent state inference is the tool for this.

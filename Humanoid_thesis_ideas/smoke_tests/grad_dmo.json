@@ -1,0 +1,53 @@
+{
+ "k=1e+03": {
+  "DMO back=nominal sim": {
+   "cos": 0.995,
+   "rel_bias": 9.419,
+   "rel_std": 0.492
+  },
+  "DMO back=full WM": {
+   "cos": 0.953,
+   "rel_bias": 107.846,
+   "rel_std": 18.696
+  },
+  "DMO back=sim+MLP residual": {
+   "cos": -0.974,
+   "rel_bias": 132.828,
+   "rel_std": 8.398
+  }
+ },
+ "k=1e+04": {
+  "DMO back=nominal sim": {
+   "cos": 1.0,
+   "rel_bias": 1.224,
+   "rel_std": 0.313
+  },
+  "DMO back=full WM": {
+   "cos": 0.446,
+   "rel_bias": 1302.957,
+   "rel_std": 2330.035
+  },
+  "DMO back=sim+MLP residual": {
+   "cos": -0.998,
+   "rel_bias": 1011.475,
+   "rel_std": 78.948
+  }
+ },
+ "k=1e+05": {
+  "DMO back=nominal sim": {
+   "cos": 1.0,
+   "rel_bias": 1.086,
+   "rel_std": 0.27
+  },
+  "DMO back=full WM": {
+   "cos": -0.333,
+   "rel_bias": 9840750.0,
+   "rel_std": 16469507.0
+  },
+  "DMO back=sim+MLP residual": {
+   "cos": -0.762,
+   "rel_bias": 97619.859,
+   "rel_std": 27209.998
+  }
+ }
+}
