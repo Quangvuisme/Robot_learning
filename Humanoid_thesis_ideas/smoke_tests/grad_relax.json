@@ -1,0 +1,83 @@
+{
+ "k=1e+03": {
+  "EXACT": {
+   "cos": 1.0,
+   "rel_bias": 2.061,
+   "rel_std": 0.164
+  },
+  "CLIP": {
+   "cos": 1.0,
+   "rel_bias": 2.061,
+   "rel_std": 0.164
+  },
+  "RELAX rho=1e-3": {
+   "cos": 0.998,
+   "rel_bias": 0.283,
+   "rel_std": 0.046
+  },
+  "RELAX rho=3e-3": {
+   "cos": 1.0,
+   "rel_bias": 0.316,
+   "rel_std": 0.035
+  },
+  "RELAX rho=1e-2": {
+   "cos": 1.0,
+   "rel_bias": 0.139,
+   "rel_std": 0.048
+  }
+ },
+ "k=1e+04": {
+  "EXACT": {
+   "cos": 1.0,
+   "rel_bias": 0.118,
+   "rel_std": 0.26
+  },
+  "CLIP": {
+   "cos": 1.0,
+   "rel_bias": 0.503,
+   "rel_std": 0.222
+  },
+  "RELAX rho=1e-3": {
+   "cos": 1.0,
+   "rel_bias": 0.118,
+   "rel_std": 0.26
+  },
+  "RELAX rho=3e-3": {
+   "cos": 1.0,
+   "rel_bias": 0.115,
+   "rel_std": 0.261
+  },
+  "RELAX rho=1e-2": {
+   "cos": 1.0,
+   "rel_bias": 0.313,
+   "rel_std": 0.371
+  }
+ },
+ "k=1e+05": {
+  "EXACT": {
+   "cos": 1.0,
+   "rel_bias": 0.035,
+   "rel_std": 0.124
+  },
+  "CLIP": {
+   "cos": 1.0,
+   "rel_bias": 0.134,
+   "rel_std": 0.108
+  },
+  "RELAX rho=1e-3": {
+   "cos": 1.0,
+   "rel_bias": 0.035,
+   "rel_std": 0.124
+  },
+  "RELAX rho=3e-3": {
+   "cos": 1.0,
+   "rel_bias": 0.035,
+   "rel_std": 0.124
+  },
+  "RELAX rho=1e-2": {
+   "cos": 1.0,
+   "rel_bias": 0.035,
+   "rel_std": 0.124
+  }
+ }
+}
