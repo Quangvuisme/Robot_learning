@@ -246,3 +246,41 @@ velocity, so only the fixed 1 mm height noise in that run mattered. The second r
 - In Paper 1 the automatic smoothing scale should be **ρ = max(contact length scale, state-estimate uncertainty)**: backward-only relaxation (#1)
   over the uncertain contact band, instead of differentiating in one possibly wrong mode. The filter's covariance gives this uncertainty for free.
   This turns Paper 1's "automatic smoothing scale" into a principled rule tied to deployment, and it is the bridge between the two papers.
+
+---
+
+## 2026-11-19 #7: MJX differentiable simulation on the real Unitree G1 (google-deepmind/mujoco MJX + Menagerie `unitree_g1/scene_mjx.xml`)
+
+**What it is.** MuJoCo's JAX backend (also behind MuJoCo Playground), used here as the **exact-gradient engine** on the actual G1 model:
+29 position actuators, 49 contact pairs, 4 ms timestep, implicitfast. This moves the P1 questions from the toy hopper to the real robot model.
+
+**Repo / setup.** Official MuJoCo package `mujoco-mjx==3.17.0` (in `venv_nm`), with the G1 from the Menagerie revision pinned by NablaMimic.
+**Blocker found and patched:** reverse-mode autodiff fails ("Reverse-mode differentiation does not work for lax.while_loop") because
+MJX's constraint solver (`mjx/_src/solver.py`, line ~637) uses a plain `jax.lax.while_loop`. This is the issue ∇Mimic cites (mujoco#2259).
+I replaced it inside the solver module with MJX's own `_while_loop_scan` at the fixed `opt.iterations` (= 5), giving a fixed-iteration unrolled solver.
+After the patch, exact gradients compile in ~80 s on CPU and run.
+
+**Smoke test (`smoke_tests/g1_mjx_grad.py`).** θ = a constant 29-D joint-target offset. Each sample starts from the `knees_bent` key with a random
+downward and lateral base velocity, which forces **foot impacts**. J = −Σ[(z_pelvis − z0)² + 0.5·tilt²] over 12 control steps (0.24 s, 5 substeps each).
+Reference: central finite differences (h = 2e-3) on 96 common samples (self-error 1–2%). Estimators: mean over 32 per-sample exact gradients, 6 trials.
+
+| contact timeconst (solref) | EXACT cos / bias / std | CLIP (3×median) cos / bias / std | max/median per-sample norm | non-finite samples |
+|---|---|---|---|---|
+| 0.02 (softer) | 0.968 / 0.129 / 0.263 | **0.991 / 0.073 / 0.134** | mean 4.2, **max 15.4** | 0 / 192 |
+| 0.005 (stiffer) | **0.999 / 0.060 / 0.061** | identical (clip inactive) | mean 1.75, max 2.2 | **1 / 192 (NaN)** |
+
+**Readings.**
+1. **Exact G1 gradients are good on average** at this short horizon: cos 0.97–0.999 to the reference, bias 6–13%.
+2. **Heavy tails are real on the G1** (one sample is 15× the median in the softer setting), and there **clipping helped**:
+   bias 0.13 → 0.07, std 0.26 → 0.13. This **reverses the toy result** (#1, #3), where clipping only added bias.
+   Toy conclusions about stabilizers do **not** transfer to the full humanoid, so P1 must be run at G1 scale.
+3. Surprisingly, the *softer* contact gave the heavier tail here. A guess (untested): longer soft contacts give more contact-mode changes per window.
+4. The stiffer setting produced a **NaN** per-sample gradient (1/192): the "rare unbounded samples" ∇Mimic describes. Any estimator needs a finiteness guard.
+   Caveats: a single θ, a 0.24 s horizon, standing and impact rather than tracking, CPU float32.
+
+**Effect on the thesis (Paper 1).**
+- This confirms the paper is needed: whether clipping or relaxation wins depends on the system and the contact setting, so a **G1-scale controlled comparison** is the contribution.
+- The "automatic" rule gains a second input: **the measured tail of per-sample gradient norms** (max/median, or a tail-index estimate) decides *whether*
+  to clip, while the contact and estimate scale (#6) decides *how much* to relax.
+- The **benchmark harness now exists and runs on CPU**: `smoke_tests/g1_mjx_grad.py` (with the solver patch). On your GPU, extend it to
+  longer horizons, tracking rewards, and the four stabilizers (clip, relax, BCG, AHAC).

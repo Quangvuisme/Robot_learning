@@ -1,0 +1,52 @@
+{
+ "timeconst=0.02": {
+  "H": 12,
+  "ref_norm": 0.2513,
+  "ref_self_rel_err": 0.023,
+  "EXACT": {
+   "cos": 0.968,
+   "rel_bias": 0.129,
+   "rel_std": 0.263
+  },
+  "CLIP": {
+   "cos": 0.991,
+   "rel_bias": 0.073,
+   "rel_std": 0.134
+  },
+  "max_over_median": {
+   "mean": 4.19,
+   "max": 15.39
+  },
+  "nonfinite_samples": 0,
+  "seconds": {
+   "compile_fwd": 13,
+   "fd_ref": 149,
+   "compile_grad": 76
+  }
+ },
+ "timeconst=0.005": {
+  "H": 12,
+  "ref_norm": 0.2464,
+  "ref_self_rel_err": 0.011,
+  "EXACT": {
+   "cos": 0.999,
+   "rel_bias": 0.06,
+   "rel_std": 0.061
+  },
+  "CLIP": {
+   "cos": 0.999,
+   "rel_bias": 0.06,
+   "rel_std": 0.061
+  },
+  "max_over_median": {
+   "mean": 1.75,
+   "max": 2.23
+  },
+  "nonfinite_samples": 1,
+  "seconds": {
+   "compile_fwd": 15,
+   "fd_ref": 147,
+   "compile_grad": 89
+  }
+ }
+}
