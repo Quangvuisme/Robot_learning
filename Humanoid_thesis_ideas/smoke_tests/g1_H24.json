@@ -1,0 +1,27 @@
+{
+ "timeconst=0.02": {
+  "H": 24,
+  "ref_norm": 0.744,
+  "ref_self_rel_err": 0.042,
+  "EXACT": {
+   "cos": 0.919,
+   "rel_bias": 0.291,
+   "rel_std": 0.614
+  },
+  "CLIP": {
+   "cos": 0.994,
+   "rel_bias": 0.125,
+   "rel_std": 0.173
+  },
+  "max_over_median": {
+   "mean": 8.97,
+   "max": 40.94
+  },
+  "nonfinite_samples": 0,
+  "seconds": {
+   "compile_fwd": 13,
+   "fd_ref": 290,
+   "compile_grad": 77
+  }
+ }
+}

@@ -33,7 +33,7 @@ def make(m):
     return J
 res = {}
 rng = np.random.default_rng(0)
-for tc in [0.02, 0.005]:          # default-ish vs stiffer contact
+for tc in [float(x) for x in os.environ.get("TCS", "0.02,0.005").split(",")]:          # contact timeconsts
     m = build(tc); _ITERS['n'] = int(m.opt.iterations); J = make(m)
     Jb = jax.jit(jax.vmap(J, in_axes=(None, 0)))
     gb = jax.jit(jax.vmap(jax.grad(J), in_axes=(None, 0)))

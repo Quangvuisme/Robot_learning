@@ -284,3 +284,42 @@ Reference: central finite differences (h = 2e-3) on 96 common samples (self-erro
   to clip, while the contact and estimate scale (#6) decides *how much* to relax.
 - The **benchmark harness now exists and runs on CPU**: `smoke_tests/g1_mjx_grad.py` (with the solver patch). On your GPU, extend it to
   longer horizons, tracking rewards, and the four stabilizers (clip, relax, BCG, AHAC).
+
+---
+
+## 2026-11-19 #8: AHAC: Adaptive Horizon Actor-Critic (arXiv 2405.17784, Georgia Tech / Stanford / NVIDIA, ICML 2024)
+
+**What it is.** SHAC-style first-order policy learning (short differentiable windows + a learned critic), but the window length is **adapted**:
+the horizon is cut so that a window covers roughly one gait cycle and does not run through excessive (stiff) contact. A constraint on accumulated
+contact forces sets the horizon. They report +40% over PPO on high-dimensional dflex locomotion. It is the fourth stabilizer in Paper 1's comparison
+(clip / relax / bundle / **horizon**). Related newer works seen: Open-DiffLoco (2608.02069, open-source differentiable quadruped locomotion),
+Reparameterization Flow Policy Optimization (2602.03501).
+
+**Official repo.** `imgeorgiev/DiffRL` (README: "Adaptive Horizon Actor Critic (AHAC)", `python train.py alg=ahac env=ant`). Cloned. It is built on
+dflex (CUDA kernels), so it was **not run** on CPU.
+
+**Smoke test: horizon sweep on the real G1 (`smoke_tests/g1_mjx_grad.py`, `TCS=0.02 H=…`).** Same setup as #7 (softer contact, foot impacts from a
+downward initial velocity, 96-sample finite-difference reference, 6×32 per-sample exact gradients). The objective is truncated at H (no critic),
+and each H gets its own reference, so the comparison is fair.
+
+| Horizon H (control steps, 20 ms each) | EXACT cos / bias / std | CLIP cos / bias / std | max/median per-sample norm (mean / max) |
+|---|---|---|---|
+| 4 (80 ms) | **0.88 / 0.49 / 1.07** | 0.981 / 0.10 / 0.18 | **14.3 / 73.9** |
+| 12 (240 ms, #7) | 0.968 / 0.13 / 0.26 | 0.991 / 0.07 / 0.13 | 4.2 / 15.4 |
+| 24 (480 ms) | 0.919 / 0.29 / 0.61 | 0.994 / 0.13 / 0.17 | 9.0 / 40.9 |
+
+**Readings.**
+1. Gradient quality is **not monotone in horizon length**. The *shortest* window was the worst (cos 0.88, 74× outliers).
+   With H=4 the window **ends inside the foot-impact transient** for most samples, so the terminal sensitivity sits on the stiffest part of the contact.
+   H=12 ends after the impact settles and is the best. H=24 includes more contact events and degrades again.
+2. So the useful quantity is **where the window boundary falls relative to contact events**, not "shorter is safer". This supports AHAC's actual rule
+   (fit windows to the gait and avoid ending inside excessive contact) over plain truncation. Truncating *at* contact, as some SHAC variants do, could be worst.
+3. **Clipping fixes all three** on the G1 (cos 0.98–0.99, bias 0.07–0.13), consistent with #7. On the real robot, the heavy tail dominates the error.
+   Caveats: no critic (real AHAC bootstraps), a single θ, standing/impact rather than tracking, CPU float32.
+
+**Effect on the thesis (Paper 1).** Two concrete additions:
+- **A contact-aware window placement** for SHAC-style training: put horizon boundaries in low-contact-force phases, which a contact-force signal from the sim
+  can detect. This is a cheap stabilizer and should be tested alongside clip / relax / BCG.
+- The G1 harness now gives Paper 1's first figure: **error vs horizon with and without clipping** (non-monotone exact curve, flat clipped curve).
+  A main G1 result so far: **clipping is the strongest single stabilizer on the G1**, unlike the 1-D toy. So the paper's message should be
+  "measure the tail, then clip", with relaxation and bundling as fixes for bias that clipping leaves.
