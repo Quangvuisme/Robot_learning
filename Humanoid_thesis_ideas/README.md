@@ -118,6 +118,7 @@ sampling (3b) cannot fix.
 - Builds directly on both open repos; both papers list this as open. Venue: CoRL / RSS / ICRA.
 
 **P2: "Residual world models for exact-gradient adaptation"** (main contribution)
+- *Revised 2026-11-19 (METHOD_LOG #2):* an unconstrained MLP residual fits 5–11x better but gives wrong-direction gradients. Use physics parameters identified through the adjoint (HALO-style) + a small residual trained for **gradient fidelity** (multi-step + Jacobian loss). Must beat HALO and Contact-UAN (both retrain with PPO) on adaptation time.
 - Dynamics = exact sim step f_sim + learned residual r_φ(s, a, history), trained on (perturbed-sim, then real) data.
   Policy gradients backpropagate through ∂f_sim (exact adjoint) + ∂r_φ.
 - Benchmark = the stress suite in 3a (payload / latency / weak motors / friction) applied to GMT, BeyondMimic, SONIC and ∇Mimic policies.
