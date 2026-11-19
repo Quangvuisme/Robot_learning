@@ -1,0 +1,68 @@
+{
+ "k=1e+03": {
+  "EXACT": {
+   "cos": 1.0,
+   "rel_bias": 2.061,
+   "rel_std": 0.164
+  },
+  "CLIP": {
+   "cos": 1.0,
+   "rel_bias": 2.061,
+   "rel_std": 0.164
+  },
+  "BCG sz=1mm sv=2cm/s": {
+   "cos": 0.999,
+   "rel_bias": 2.167,
+   "rel_std": 0.168
+  },
+  "BCG sz=3mm sv=5cm/s": {
+   "cos": 0.994,
+   "rel_bias": 2.338,
+   "rel_std": 0.162
+  }
+ },
+ "k=1e+04": {
+  "EXACT": {
+   "cos": 1.0,
+   "rel_bias": 0.118,
+   "rel_std": 0.26
+  },
+  "CLIP": {
+   "cos": 1.0,
+   "rel_bias": 0.503,
+   "rel_std": 0.222
+  },
+  "BCG sz=1mm sv=2cm/s": {
+   "cos": 0.996,
+   "rel_bias": 0.061,
+   "rel_std": 0.277
+  },
+  "BCG sz=3mm sv=5cm/s": {
+   "cos": 0.985,
+   "rel_bias": 0.076,
+   "rel_std": 0.298
+  }
+ },
+ "k=1e+05": {
+  "EXACT": {
+   "cos": 1.0,
+   "rel_bias": 0.035,
+   "rel_std": 0.124
+  },
+  "CLIP": {
+   "cos": 1.0,
+   "rel_bias": 0.134,
+   "rel_std": 0.108
+  },
+  "BCG sz=1mm sv=2cm/s": {
+   "cos": 0.679,
+   "rel_bias": 0.572,
+   "rel_std": 0.694
+  },
+  "BCG sz=3mm sv=5cm/s": {
+   "cos": 0.076,
+   "rel_bias": 1.599,
+   "rel_std": 1.262
+  }
+ }
+}

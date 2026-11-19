@@ -87,3 +87,44 @@ One-step fit loss: MLP residual **5–11x lower** than the full WM. Yet its grad
   (cosine/bias vs a finite-difference reference), not only by prediction error.
 - New contribution claim: "gradient fidelity, not prediction error, is the right metric for models used in first-order policy adaptation".
   This is testable at G1 scale with the P1 finite-difference reference, and neither HALO nor Contact-UAN measures it.
+
+---
+
+## 2026-11-19 #3: Bundled Contact Gradients (BCG, arXiv 2609.30951, USC / ETH / NVIDIA)
+
+**What it is.** Contact-local randomized smoothing for first-order policy learning. When a contact's normal impulse exceeds a threshold
+(400 N on the G1), B=10 copies of the contacting chain are perturbed in Cartesian space (σp = 1 cm, σv = 2 cm/s), stepped H=2 control steps
+with shared actions, and **averaged**. Backprop goes through the average. Used with SHAC + ADD rewards on the analytically smoothed contact
+model of Schwarke et al. (Warp).
+**Results:** first zero-shot transfer of a differentiable-sim-trained policy to a real **humanoid** (G1: run, jump, fight, dance);
+>10x fewer samples than PPO; lower MuJoCo tracking error on 3/4 motions. Their stated future work: *set the perturbation scales and bundle size automatically*.
+
+**Official repo.** Not yet: the project page (`bundledcontactgradients.github.io`) says "Code (soon)".
+
+**Smoke test (own analogue, `smoke_tests/grad_bcg.py`).** Same hopper and finite-difference reference as #1. At contact, 10 perturbed branches
+for 2 steps are averaged in the forward pass, as in BCG.
+
+| k | EXACT bias / std | CLIP | RELAX (#1, best ρ) | BCG σz=1 mm, σv=2 cm/s | BCG σz=3 mm, σv=5 cm/s |
+|---|---|---|---|---|---|
+| 1e3 | 2.06 / 0.16 | 2.06 / 0.16 | **0.14 / 0.05** | 2.17 / 0.17 | 2.34 / 0.16 |
+| 1e4 | 0.12 / 0.26 | 0.50 / 0.22 | 0.12 / 0.26 | **0.061** / 0.28 | 0.076 / 0.30 |
+| 1e5 | 0.035 / 0.12 | 0.13 / 0.11 | 0.035 / 0.12 | 0.57 / 0.69 (cos 0.68) | 1.60 / 1.26 (**cos 0.08**) |
+
+**Readings.**
+- At medium stiffness BCG **halved the bias** (0.12 → 0.06), the best of all estimators there.
+- At high stiffness it **broke**. Averaging *forward* states of branches that bounce differently changes the rollout itself
+  (cos fell to 0.68 / 0.08). The penetration depth at k=1e5 is ~0.1 mm, so a 1 mm perturbation is 10x too large.
+  **The smoothing scale must match the contact length scale.** BCG's fixed σ (tuned for κ=300 smoothed contact) would not carry over.
+- At soft contact it does not fix the magnitude error. Backward-only relaxation does.
+- Backward-only relaxation (#1) was never harmful at a small ρ. Forward-averaging methods (BCG) change the objective and can hurt.
+  Caveat: 1-D toy with my own analogues, not their implementations.
+
+**Effect on the thesis (Paper 1 sharpened).** There are now **four** published ways to stabilize humanoid first-order gradients,
+each tested in isolation and each with a hand-tuned scale:
+∇Mimic (per-sample clipping), DiffContact (backward-only relaxation, ρ), BCG (contact-local bundles, σ), AHAC (adaptive horizon).
+Paper 1 should be **"A controlled comparison of first-order gradient stabilizers for humanoid tracking, and an automatic, stiffness-aware
+smoothing scale"**:
+1. Put all four on one G1 benchmark (LAFAN1 on mjlab / MuJoCo-Warp adjoint) and score them with the same finite-difference bias/variance reference.
+2. Contribution: choose ρ or σ per contact from local contact quantities (penetration depth, impulse, stiffness) so that the measured bias
+   stays below a target. Both DiffContact and BCG list this as future work, and my toy shows the wrong scale is catastrophic.
+Timing risk: BCG and ∇Mimic code is coming out, and the space is moving fast (Sep–Oct 2026).
