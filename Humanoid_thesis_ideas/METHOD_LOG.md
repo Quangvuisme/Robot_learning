@@ -209,3 +209,40 @@ gradient does not stall. The refined parameters then feed the DMO-style real-wor
 New baseline for Paper 2: **LLA-MPPI itself**, i.e. adaptation by replanning with an identified model, vs adaptation by updating the policy.
 The README §3b result (16-sample MPPI around GMT could not recover a humanoid even with the oracle model) suggests replanning alone is
 too weak at humanoid DoF and a real-time budget. That is a testable claim for the paper.
+
+---
+
+## 2026-11-19 #6: State estimation for Paper 2 (CoCo-InEKF, arXiv 2605.15122, ETH / Disney Research) + estimate-noise tolerance test
+
+**What it is.** A **differentiable invariant EKF** (contact-aided, Hartley-style) where a small MLP predicts a full 3×3 **contact-velocity covariance**
+per contact candidate instead of a binary contact flag. It is trained end-to-end by BPTT on a body-velocity loss only, with no contact labels,
+and the contact candidates are chosen automatically. Body linear-velocity RMSE: **0.046 m/s** (sim dancing), **0.08 m/s** (real ground motions).
+In live control on the Lima biped it gave **higher success than mocap-based estimation** (95% vs 92% on trained dances), at 0.42 ms per step.
+Also surveyed: FOCUS (2609.02222, foot-observation confidence), InEKF on non-inertial ground (2606.19512), SixthSense whole-body wrench estimation (2605.01427).
+
+**Official repo.** None found (`DisneyResearch/coco-inekf` and variants do not exist). Disney biped only, not a G1.
+
+**Smoke test (`smoke_tests/grad_dmo_estnoise.py`, `grad_dmo_znoise.py`).** DMO-style gradients from #4 (forward = true system), but the adjoint
+Jacobian is evaluated at a **noisy state estimate**. Mismatched hopper (mass x1.3, gain x0.6).
+*Correction:* the first run swept velocity noise and gave identical results for every σ_v > 0. In this toy the Jacobian does not depend on
+velocity, so only the fixed 1 mm height noise in that run mattered. The second run sweeps **height noise σz** (σv = 0.05 m/s fixed).
+
+| k (contact penetration ≈ mg/k) | σz = 0 | 1e-5 m | 1e-4 m | 3e-4 m | 1e-3 m |
+|---|---|---|---|---|---|
+| 1e4 (≈1 mm), true-params adjoint | cos 1.00, bias 0.04 | 1.00 / 0.04 | 1.00 / 0.04 | 1.00 / 0.04 | 1.00 / 0.02 |
+| 1e5 (≈0.1 mm), true-params adjoint | cos 1.00, bias 0.04 | 1.00 / 0.04 | **0.91** / 0.15 | **0.82** / 0.30 | **0.50** / 0.74 |
+| 1e5, nominal adjoint | cos 1.00, bias 1.09 | 1.00 / 1.09 | 0.85 / 0.78 | 0.74 / 0.46 | 0.35 / 1.04 |
+
+**Readings.**
+1. Adjoint gradients are **insensitive to velocity-estimate error** (in this toy) but **sensitive to contact-geometry error**.
+   They degrade once the height error approaches the contact **penetration scale**, because the Jacobian is evaluated in the wrong contact mode.
+2. With stiff contact (~0.1 mm penetration, like the G1 on hard ground) even **0.1 mm** of error lowers the cosine to 0.91, and 1 mm to 0.50.
+   No proprioceptive estimator gives foot height to sub-millimetre accuracy, so **raw estimates cannot be plugged into the adjoint**.
+
+**Effect on the thesis (links Paper 1 and Paper 2).**
+- In Paper 2 the adjoint must be evaluated at a **contact-consistent** state, not the raw filter output. Re-simulate the measured joint
+  trajectory from the estimate so that contact modes are self-consistent (this is exactly Contact-UAN's contact-consistent replay), or take
+  contact modes from the filter's contact covariances (CoCo-InEKF).
+- In Paper 1 the automatic smoothing scale should be **ρ = max(contact length scale, state-estimate uncertainty)**: backward-only relaxation (#1)
+  over the uncertain contact band, instead of differentiating in one possibly wrong mode. The filter's covariance gives this uncertainty for free.
+  This turns Paper 1's "automatic smoothing scale" into a principled rule tied to deployment, and it is the bridge between the two papers.

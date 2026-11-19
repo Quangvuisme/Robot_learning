@@ -1,0 +1,106 @@
+{
+ "k=1e+04": {
+  "true-params adjoint, sigma_v=0.0": {
+   "cos": 1.0,
+   "rel_bias": 0.037,
+   "rel_std": 0.148
+  },
+  "true-params adjoint, sigma_v=0.02": {
+   "cos": 1.0,
+   "rel_bias": 0.016,
+   "rel_std": 0.129
+  },
+  "true-params adjoint, sigma_v=0.05": {
+   "cos": 1.0,
+   "rel_bias": 0.016,
+   "rel_std": 0.129
+  },
+  "true-params adjoint, sigma_v=0.1": {
+   "cos": 1.0,
+   "rel_bias": 0.016,
+   "rel_std": 0.129
+  },
+  "true-params adjoint, sigma_v=0.2": {
+   "cos": 1.0,
+   "rel_bias": 0.016,
+   "rel_std": 0.129
+  },
+  "nominal adjoint, sigma_v=0.0": {
+   "cos": 1.0,
+   "rel_bias": 1.224,
+   "rel_std": 0.313
+  },
+  "nominal adjoint, sigma_v=0.02": {
+   "cos": 1.0,
+   "rel_bias": 1.186,
+   "rel_std": 0.275
+  },
+  "nominal adjoint, sigma_v=0.05": {
+   "cos": 1.0,
+   "rel_bias": 1.186,
+   "rel_std": 0.275
+  },
+  "nominal adjoint, sigma_v=0.1": {
+   "cos": 1.0,
+   "rel_bias": 1.186,
+   "rel_std": 0.275
+  },
+  "nominal adjoint, sigma_v=0.2": {
+   "cos": 1.0,
+   "rel_bias": 1.186,
+   "rel_std": 0.275
+  }
+ },
+ "k=1e+05": {
+  "true-params adjoint, sigma_v=0.0": {
+   "cos": 1.0,
+   "rel_bias": 0.039,
+   "rel_std": 0.125
+  },
+  "true-params adjoint, sigma_v=0.02": {
+   "cos": 0.495,
+   "rel_bias": 0.735,
+   "rel_std": 0.944
+  },
+  "true-params adjoint, sigma_v=0.05": {
+   "cos": 0.495,
+   "rel_bias": 0.735,
+   "rel_std": 0.944
+  },
+  "true-params adjoint, sigma_v=0.1": {
+   "cos": 0.495,
+   "rel_bias": 0.735,
+   "rel_std": 0.944
+  },
+  "true-params adjoint, sigma_v=0.2": {
+   "cos": 0.495,
+   "rel_bias": 0.735,
+   "rel_std": 0.944
+  },
+  "nominal adjoint, sigma_v=0.0": {
+   "cos": 1.0,
+   "rel_bias": 1.086,
+   "rel_std": 0.27
+  },
+  "nominal adjoint, sigma_v=0.02": {
+   "cos": 0.351,
+   "rel_bias": 1.039,
+   "rel_std": 2.742
+  },
+  "nominal adjoint, sigma_v=0.05": {
+   "cos": 0.351,
+   "rel_bias": 1.039,
+   "rel_std": 2.742
+  },
+  "nominal adjoint, sigma_v=0.1": {
+   "cos": 0.351,
+   "rel_bias": 1.039,
+   "rel_std": 2.742
+  },
+  "nominal adjoint, sigma_v=0.2": {
+   "cos": 0.351,
+   "rel_bias": 1.039,
+   "rel_std": 2.742
+  }
+ }
+}

@@ -120,6 +120,7 @@ sampling (3b) cannot fix.
 **P2: "Residual world models for exact-gradient adaptation"** (main contribution)
 - *Revised 2026-11-19 (METHOD_LOG #2):* an unconstrained MLP residual fits 5–11x better but gives wrong-direction gradients. Use physics parameters identified through the adjoint (HALO-style) + a small residual trained for **gradient fidelity** (multi-step + Jacobian loss). Must beat HALO and Contact-UAN (both retrain with PPO) on adaptation time.
 - *Core algorithm (METHOD_LOG #4):* DMO-style decoupling. Forward = real-robot rollout, backward = exact sim adjoint at the measured states + online-identified parameters. In the toy, decoupling alone flipped mismatched gradients from cos -1.00 to +1.00.
+- *State-estimate requirement (METHOD_LOG #6):* adjoint gradients break when contact-geometry error approaches the penetration scale (0.1 mm → cos 0.91, 1 mm → cos 0.50 at stiff contact). Evaluate the adjoint at contact-consistent replayed states, and set Paper 1's smoothing scale to max(contact length scale, estimate uncertainty).
 - Dynamics = exact sim step f_sim + learned residual r_φ(s, a, history), trained on (perturbed-sim, then real) data.
   Policy gradients backpropagate through ∂f_sim (exact adjoint) + ∂r_φ.
 - Benchmark = the stress suite in 3a (payload / latency / weak motors / friction) applied to GMT, BeyondMimic, SONIC and ∇Mimic policies.
