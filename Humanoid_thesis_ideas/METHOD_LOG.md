@@ -170,3 +170,42 @@ through the same adjoint** (HALO-style) and, only if needed, a Jacobian-regulari
   weak motors (README §3a), vs HALO, Contact-UAN and HumanoidNDM.
 - Open technical issue: the robot's real state must be estimated well enough (base pose/velocity) to evaluate the adjoint.
   Contact-UAN's contact-consistent state inference is the tool for this.
+
+---
+
+## 2026-11-19 #5: LLA-MPPI (arXiv 2610.10465, CMU / MIT)
+
+**What it is.** Online adaptation without training or gradients. A **bank of K simulators** (MuJoCo-Warp, up to 10,000 worlds) with different
+physical or structural hypotheses (payload left/right, friction × slope, a locked leg, box mass) is stepped from each measured transition.
+The hypothesis with the lowest **windowed one-step prediction error** (W ≈ 20, switching margin γ) is handed to a whole-body MPPI planner on CPU.
+**Results:** 97.5% success over 4 Go2 tasks vs 98.5% for an oracle with the true model, 74% for a particle filter and 42.5% for a disturbance observer.
+Hardware: payload added mid-walk, a leg disabled, box mass increased on the fly. Stated limits: a finite, design-time bank, and hypotheses are only
+distinguishable when the motion excites them.
+
+**Official repo.** None found: the project page `lla-control/lla-control.github.io` has no code link, and the likely repo names do not exist. Quadruped only.
+
+**Smoke test (`smoke_tests/sysid_bank_vs_adjoint.py`).** Identify (mass, motor gain) of the mismatched hopper (true 1.3, 0.6) from **one** recorded
+rollout, by an LLA-style 33×33 bank vs HALO-style gradient descent through the exact step (300 Adam steps). The error is the sum of relative errors.
+(Note: one rollout has 60 transitions, so W ≥ 60 uses all of them.)
+
+| k | Window | Contact steps in window | Bank (LLA) mass / gain / error | Adjoint (HALO) mass / gain / error |
+|---|---|---|---|---|
+| any | W=10 | 0 | 0.80 / 0.30 / 0.89 (wrong) | 1.00 / 1.00 / 0.90 (stuck at init) |
+| 1e3 (soft) | W ≥ 30 | 5–27 | 1.30 / 0.609 / 0.016 | **1.30 / 0.600 / 0.000** |
+| 1e4 | W ≥ 30 | 1 | **1.30 / 0.609 / 0.016** | 1.306 / 0.706 / 0.181 |
+| 1e5 (stiff) | W ≥ 30 | 1 | **1.30 / 0.609 / 0.016** | 1.301 / 0.708 / 0.181 |
+
+**Readings.**
+1. **Excitation decides identifiability.** With no contact in the window, neither method can identify anything: in flight, mass and motor gain have no effect.
+   This matches LLA's own caveat and matters for humanoids, where e.g. hand payloads only show up in certain motions.
+2. **Through stiff contact, adjoint SysID stalls** (gain stuck at 0.71 vs 0.60; the same under-identification as in #2).
+   A single stiff contact step gives a narrow, badly conditioned gradient. The gradient-free bank gets it right to grid resolution.
+3. With soft or long contact, the adjoint is **exact** (0.000 error) where the bank is limited by its grid (0.016).
+
+**Effect on the thesis (Paper 2: the identification component).** Use **bank-then-adjoint** identification. Coarse, global and robust
+LLA-style bank selection on MuJoCo-Warp (no gradients, handles discrete faults such as a locked joint) initializes the estimate. Precise adjoint
+refinement (HALO-style) then runs only in windows with enough contact excitation, using P1's stiffness-aware smoothing so the stiff-contact
+gradient does not stall. The refined parameters then feed the DMO-style real-world first-order policy update (#4).
+New baseline for Paper 2: **LLA-MPPI itself**, i.e. adaptation by replanning with an identified model, vs adaptation by updating the policy.
+The README §3b result (16-sample MPPI around GMT could not recover a humanoid even with the oracle model) suggests replanning alone is
+too weak at humanoid DoF and a real-time budget. That is a testable claim for the paper.
