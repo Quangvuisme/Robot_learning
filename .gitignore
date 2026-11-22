@@ -8,3 +8,4 @@ __pycache__/
 # Generated plots / animations from the learning examples
 RL/Network/*.png
 RL/Network/*.gif
+frontier/repro.log
