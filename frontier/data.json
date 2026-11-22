@@ -1,0 +1,602 @@
+{
+ "generated": "2026-11-22 23:28Z",
+ "items": [
+  {
+   "section": "Loco-Manipulation and Whole-Body-Control",
+   "venue": "arXiv",
+   "date": "2026-11-19",
+   "url": "https://arxiv.org/abs/2611.26596",
+   "title": "PGX: Physically Grounded Execution for Long-Horizon Humanoid Loco-Manipulation",
+   "website": "https://kl-research.github.io/pgx"
+  },
+  {
+   "section": "Loco-Manipulation and Whole-Body-Control",
+   "venue": "arXiv",
+   "date": "2026-11-19",
+   "url": "https://arxiv.org/abs/2611.26420",
+   "title": "Awaken-HI: Scaling Humanoid Intelligence with Whole-Body Human Experience",
+   "website": "https://engineai-robotics.github.io/Awaken-HI",
+   "code": "https://github.com/engineai-robotics/Awaken-HI"
+  },
+  {
+   "section": "Loco-Manipulation and Whole-Body-Control",
+   "venue": "arXiv",
+   "date": "2026-11-19",
+   "url": "https://arxiv.org/abs/2611.25778",
+   "title": "ECHO: In-Context Behavior foundation model for Humanoid Whole-Body Control",
+   "website": "https://mwondering.github.io/echo-bfm/"
+  },
+  {
+   "section": "Locomotion",
+   "venue": "arXiv",
+   "date": "2026-11-19",
+   "url": "https://arxiv.org/abs/2611.26054",
+   "title": "Reference-Free Humanoid Skateboarding via Termination-Shaped Reinforcement Learning, Humanoids 2026"
+  },
+  {
+   "section": "Simulation Benchmark",
+   "venue": "arXiv",
+   "date": "2026-11-19",
+   "url": "https://arxiv.org/abs/2611.26565",
+   "title": "PhyDEX: A Benchmark for Physical Reasoning in Vision-Language-Action Models via Dynamic Extrinsic Dexterity"
+  },
+  {
+   "section": "Physics-Based Character Animation",
+   "venue": "arXiv",
+   "date": "2026-11-19",
+   "url": "https://arxiv.org/abs/2611.26218",
+   "title": "MixReact: Physics-Based Reactive Humanoid Control from Multimodal Cues via a Discrete-Continuous Mixture of Transformers",
+   "website": "https://binlee26.github.io/MixReact_Page/"
+  },
+  {
+   "section": "Loco-Manipulation and Whole-Body-Control",
+   "venue": "arXiv",
+   "date": "2026-11-18",
+   "url": "https://arxiv.org/abs/2611.25251",
+   "title": "WEVO: World Model-Enabled VLA Optimization for Whole-Body Loco-Manipulation",
+   "website": "https://qianzhong-chen.github.io/wevo.github.io/"
+  },
+  {
+   "section": "Loco-Manipulation and Whole-Body-Control",
+   "venue": "arXiv",
+   "date": "2026-11-18",
+   "url": "https://arxiv.org/abs/2611.24074",
+   "title": "SemPhys: Semantic-Physical Co-Learning for Humanoid Motion Generation via Differentiable World Models"
+  },
+  {
+   "section": "Manipulation",
+   "venue": "arXiv",
+   "date": "2026-11-18",
+   "url": "https://arxiv.org/abs/2611.24940",
+   "title": "Z-sight: Unifying Vision-Language-Action and Latent World Modeling",
+   "website": "https://junjieye.com/Z-sight/"
+  },
+  {
+   "section": "Locomotion",
+   "venue": "arXiv",
+   "date": "2026-11-18",
+   "url": "https://arxiv.org/abs/2611.23916",
+   "title": "ReLoco: Unified Humanoid Locomotion and Fall Recovery via Behavior-Conditioned Motion Priors"
+  },
+  {
+   "section": "Hardware Design",
+   "venue": "arXiv",
+   "date": "2026-11-18",
+   "url": "https://arxiv.org/abs/2611.24279",
+   "title": "QDD-MM: A Simple and Compact Open-Source Muscle Module with Quasi-Direct-Drive Motor for Tendon-driven Robots",
+   "code": "https://github.com/haraduka/qddmm"
+  },
+  {
+   "section": "Physics-Based Character Animation",
+   "venue": "arXiv",
+   "date": "2026-11-18",
+   "url": "https://arxiv.org/abs/2611.23825",
+   "title": "Learning Martial Arts Motion Skills for Animating Opponents in VR Sparring Games"
+  },
+  {
+   "section": "Human Motion Analysis and Synthesis",
+   "venue": "arXiv",
+   "date": "2026-11-18",
+   "url": "https://arxiv.org/abs/2611.25005",
+   "title": "Inhabitant: An Agent Framework for Long-Horizon Human-Scene Interaction with Spatial Control and Quantitative Feedback",
+   "website": "https://ryenhails.github.io/Inhabitant/"
+  },
+  {
+   "section": "Loco-Manipulation and Whole-Body-Control",
+   "venue": "arXiv",
+   "date": "2026-11-17",
+   "url": "https://arxiv.org/abs/2611.22713",
+   "title": "Body Schema Policy: Body as the Vision-Action Interface for Efficient Robot Loco-Manipulation"
+  },
+  {
+   "section": "Loco-Manipulation and Whole-Body-Control",
+   "venue": "arXiv",
+   "date": "2026-11-17",
+   "url": "https://arxiv.org/abs/2611.22275",
+   "title": "Heave-Ho: Decentralized Long-Horizon Multi-Humanoid Collaboration",
+   "website": "https://heaveho-humanoid.github.io/"
+  },
+  {
+   "section": "Loco-Manipulation and Whole-Body-Control",
+   "venue": "arXiv",
+   "date": "2026-11-17",
+   "url": "https://arxiv.org/abs/2611.22258",
+   "title": "ALERT: Extending Humanoid Motion Trackers with a General and Lightweight Human Avoidance Pipeline"
+  },
+  {
+   "section": "Locomotion",
+   "venue": "arXiv",
+   "date": "2026-11-17",
+   "url": "https://arxiv.org/abs/2611.22445",
+   "title": "Autonomous Track Racing with a Commercially Available Humanoid: System Design and Real-World Deployment"
+  },
+  {
+   "section": "Loco-Manipulation and Whole-Body-Control",
+   "venue": "arXiv",
+   "date": "2026-11-16",
+   "url": "https://arxiv.org/abs/2611.20791",
+   "title": "QTOP: Scaling Humanoid Motion Tracking with Quantile Critics"
+  },
+  {
+   "section": "Loco-Manipulation and Whole-Body-Control",
+   "venue": "arXiv",
+   "date": "2026-11-16",
+   "url": "https://arxiv.org/abs/2611.20452",
+   "title": "XMimic and XSoma: Learning Humanoid Motion Tracking and Locomotion in Under a Minute"
+  },
+  {
+   "section": "Locomotion",
+   "venue": "arXiv",
+   "date": "2026-11-16",
+   "url": "https://arxiv.org/abs/2611.20888",
+   "title": "Driving the Style: Velocity-Conditioned Whole-Body Control from Motion Demonstrations"
+  },
+  {
+   "section": "Hardware Design",
+   "venue": "arXiv",
+   "date": "2026-11-16",
+   "url": "https://arxiv.org/abs/2611.20950",
+   "title": "ROSE: A Shared Cross-Embodiment Facial-Motion Latent Space for Humanoid Robot Expression"
+  },
+  {
+   "section": "Teleoperation",
+   "venue": "arXiv",
+   "date": "2026-11-15",
+   "url": "https://arxiv.org/abs/2611.19998",
+   "title": "MoViC: Real-Time Humanoid Whole-Body Control from Monocular Video Streams",
+   "website": "https://movicproject.github.io/"
+  },
+  {
+   "section": "Loco-Manipulation and Whole-Body-Control",
+   "venue": "arXiv",
+   "date": "2026-11-14",
+   "url": "https://arxiv.org/abs/2611.19196",
+   "title": "Ego2Sim2Humanoid: Agentic Real-to-Sim for Learning Loco-Manipulation VLAs without Robot Demonstrations",
+   "website": "https://robonana.github.io/ego2sim2humanoid/"
+  },
+  {
+   "section": "Sim-to-Real",
+   "venue": "arXiv",
+   "date": "2026-11-14",
+   "url": "https://arxiv.org/abs/2611.19616",
+   "title": "Towards Probabilistically Safe Reinforcement Learning: Theory and Deployment on Humanoid and Aerial Robots"
+  },
+  {
+   "section": "Physics-Based Character Animation",
+   "venue": "arXiv",
+   "date": "2026-11-14",
+   "url": "https://arxiv.org/abs/2611.19153",
+   "title": "ImpedanceMimic: Learned Impedance as Action Space for Force-Accurate Motion Imitation",
+   "website": "https://impedancemimic.github.io/ImpedanceMimic/"
+  },
+  {
+   "section": "Manipulation",
+   "venue": "arXiv",
+   "date": "2026-11-13",
+   "url": "https://arxiv.org/abs/2611.18976",
+   "title": "TMA: Sim-to-Real Forceful Humanoid Manipulation via Tactile-Driven Motor Adaptation"
+  },
+  {
+   "section": "Manipulation",
+   "venue": "arXiv",
+   "date": "2026-11-13",
+   "url": "https://arxiv.org/abs/2611.18491",
+   "title": "When Will You Hand It Over? A Hidden Start Delay Makes Self-Play Handover Robust to Unfamiliar Partners"
+  },
+  {
+   "section": "Locomotion",
+   "venue": "arXiv",
+   "date": "2026-11-13",
+   "url": "https://arxiv.org/abs/2611.18003",
+   "title": "Reusing Locomotion Training Recipes Across Humanoids via Body-Aligned Virtual Joints"
+  },
+  {
+   "section": "Loco-Manipulation and Whole-Body-Control",
+   "venue": "arXiv",
+   "date": "2026-11-12",
+   "url": "https://arxiv.org/abs/2611.17142",
+   "title": "FORGE: Force-Aware Multi-Granularity Control for Efficient Humanoid Loco-Manipulation",
+   "website": "https://bb0928.github.io/forge/"
+  },
+  {
+   "section": "Loco-Manipulation and Whole-Body-Control",
+   "venue": "arXiv",
+   "date": "2026-11-12",
+   "url": "https://arxiv.org/abs/2611.16188",
+   "title": "PERA: Plug-in Experts for Robotic Actions in Continual Whole-Body Control"
+  },
+  {
+   "section": "Locomotion",
+   "venue": "arXiv",
+   "date": "2026-11-12",
+   "url": "https://arxiv.org/abs/2611.16346",
+   "title": "MotionSkill: From Bipedal Motion Video to Control across Embodiments"
+  },
+  {
+   "section": "Navigation",
+   "venue": "arXiv",
+   "date": "2026-11-12",
+   "url": "https://arxiv.org/abs/2611.17598",
+   "title": "X-Nav Technical Report: Real-World Long-Horizon Indoor-to-Outdoor Navigation on a Humanoid Robot"
+  },
+  {
+   "section": "Sim-to-Real",
+   "venue": "arXiv",
+   "date": "2026-11-11",
+   "url": "https://arxiv.org/abs/2611.15524",
+   "title": "Reading the Table: Sim-to-Real Game State Detection for the Chef's Hat Card Game"
+  },
+  {
+   "section": "Human Motion Analysis and Synthesis",
+   "venue": "arXiv",
+   "date": "2026-11-11",
+   "url": "https://arxiv.org/abs/2611.15101",
+   "title": "CFGComposer: Compositional Audio-Text-to-Motion Generation via Copula Score Correction"
+  },
+  {
+   "section": "Loco-Manipulation and Whole-Body-Control",
+   "venue": "CoRL",
+   "date": "2026-11-01",
+   "url": "https://openreview.net/forum?id=93leGzRaPV",
+   "title": "InfiniDanceRobot: A Streaming and Closed-Loop Music-driven Dance Generation for Humanoid Robot"
+  },
+  {
+   "section": "Loco-Manipulation and Whole-Body-Control",
+   "venue": "CoRL",
+   "date": "2026-11-01",
+   "url": "https://openreview.net/forum?id=qF26obIUEX",
+   "title": "EVOLVE: Egocentric Vision-based Humanoid Loco-Manipulation via Demonstration Editing"
+  },
+  {
+   "section": "Loco-Manipulation and Whole-Body-Control",
+   "venue": "CoRL",
+   "date": "2026-11-01",
+   "url": "https://openreview.net/forum?id=wALhOwQWnx",
+   "title": "Learning Functional Compliance in Whole-body Manipulation"
+  },
+  {
+   "section": "Loco-Manipulation and Whole-Body-Control",
+   "venue": "arXiv",
+   "date": "2026-11-01",
+   "url": "https://arxiv.org/abs/2611.14985",
+   "title": "ILA: A Transferable Interface-Level Adapter for Compliant Humanoid Motion Tracking"
+  },
+  {
+   "section": "Loco-Manipulation and Whole-Body-Control",
+   "venue": "arXiv",
+   "date": "2026-11-01",
+   "url": "https://arxiv.org/abs/2611.14981",
+   "title": "From a Single RGB Image to Robot Execution: Metric Scene Alignment and Contact-Guided Retargeting"
+  },
+  {
+   "section": "Loco-Manipulation and Whole-Body-Control",
+   "venue": "arXiv",
+   "date": "2026-11-01",
+   "url": "https://arxiv.org/abs/2611.14049",
+   "title": "RedirectMimic: Local Motion Content Redaction for Humanoid Whole-Body Control",
+   "website": "https://xiaopeng-whu.github.io/RedirectMimic/"
+  },
+  {
+   "section": "Loco-Manipulation and Whole-Body-Control",
+   "venue": "arXiv",
+   "date": "2026-11-01",
+   "url": "https://arxiv.org/abs/2611.13370",
+   "title": "AHEADance: Anticipatory Humanoid Dance from Streaming Audio"
+  },
+  {
+   "section": "Loco-Manipulation and Whole-Body-Control",
+   "venue": "arXiv",
+   "date": "2026-11-01",
+   "url": "https://arxiv.org/abs/2611.11554",
+   "title": "Kimodo-Policy: Learning Kinematic Action Models for Humanoid Loco-Manipulation",
+   "website": "https://kimodo-policy.github.io/"
+  },
+  {
+   "section": "Loco-Manipulation and Whole-Body-Control",
+   "venue": "arXiv",
+   "date": "2026-11-01",
+   "url": "https://arxiv.org/abs/2611.11127",
+   "title": "From Festival Video to the Stage: A Sim-to-Real Ladder for Long-Horizon Expressive Whole-Body Dance on a Commercial Humanoid"
+  },
+  {
+   "section": "Loco-Manipulation and Whole-Body-Control",
+   "venue": "arXiv",
+   "date": "2026-11-01",
+   "url": "https://arxiv.org/abs/2611.10872",
+   "title": "DreamVLA: From Generated Human Motions to Humanoid Vision-Language-Action Policies"
+  },
+  {
+   "section": "Loco-Manipulation and Whole-Body-Control",
+   "venue": "arXiv",
+   "date": "2026-11-01",
+   "url": "https://arxiv.org/abs/2611.09605",
+   "title": "DKWBC: Decoupling Motion Tracking and Balancing for Humanoid Whole-Body Control",
+   "website": "https://robbyant-research.github.io/DKWBC/"
+  },
+  {
+   "section": "Loco-Manipulation and Whole-Body-Control",
+   "venue": "arXiv",
+   "date": "2026-11-01",
+   "url": "https://arxiv.org/abs/2611.09266",
+   "title": "SUGARv2: Learning Diverse Visual Humanoid Loco-Manipulation Skills from Synthesized Interaction References",
+   "website": "https://tianshuwu.github.io/sugarv2-humanoid/"
+  },
+  {
+   "section": "Loco-Manipulation and Whole-Body-Control",
+   "venue": "arXiv",
+   "date": "2026-11-01",
+   "url": "https://arxiv.org/abs/2611.08664",
+   "title": "ForPC: Force-Aware Whole-Body Control for Precise Humanoid Cart Pushing",
+   "website": "https://roboforpc.github.io/"
+  },
+  {
+   "section": "Loco-Manipulation and Whole-Body-Control",
+   "venue": "arXiv",
+   "date": "2026-11-01",
+   "url": "https://arxiv.org/abs/2611.08039",
+   "title": "HITCH: Teaching a Vision-Language Model to Operate a Humanoid through a Whole-Body Harness",
+   "website": "https://hitch.axell.top/"
+  },
+  {
+   "section": "Loco-Manipulation and Whole-Body-Control",
+   "venue": "arXiv",
+   "date": "2026-11-01",
+   "url": "https://arxiv.org/abs/2611.06564",
+   "title": "Playing Soccer Like Humans Do: Learning Versatile and Agile Humanoid Soccer via Latent Motion Priors"
+  },
+  {
+   "section": "Loco-Manipulation and Whole-Body-Control",
+   "venue": "arXiv",
+   "date": "2026-11-01",
+   "url": "https://arxiv.org/abs/2611.06523",
+   "title": "H^2MARL: Hierarchical Heterogeneous Multi-agent Reinforcement Learning for Humanoid Robot Control"
+  },
+  {
+   "section": "Loco-Manipulation and Whole-Body-Control",
+   "venue": "arXiv",
+   "date": "2026-11-01",
+   "url": "https://arxiv.org/abs/2611.05754",
+   "title": "GRASP: Gradient-Guided Sampling for Contact-Rich Physics-Based Motion Retargeting",
+   "website": "https://computationalrobotics.seas.harvard.edu/GRASP/"
+  },
+  {
+   "section": "Loco-Manipulation and Whole-Body-Control",
+   "venue": "arXiv",
+   "date": "2026-11-01",
+   "url": "https://arxiv.org/abs/2611.05507",
+   "title": "Ctrl-F: Force as an Interface for Humanoid Loco-Manipulation",
+   "website": "https://forcectrl.github.io/"
+  },
+  {
+   "section": "Loco-Manipulation and Whole-Body-Control",
+   "venue": "arXiv",
+   "date": "2026-11-01",
+   "url": "https://arxiv.org/abs/2611.04839",
+   "title": "Coordinating Humanoid Loco-Manipulation through Action-Conditioned Latent Foresight",
+   "website": "https://ju6276.github.io/Action-Grounded-Foresight/"
+  },
+  {
+   "section": "Loco-Manipulation and Whole-Body-Control",
+   "venue": "arXiv",
+   "date": "2026-11-01",
+   "url": "https://arxiv.org/abs/2611.04424",
+   "title": "ReflexArc: Bottom-Up Integration of Instantaneous Tactile Reflexes into Whole-Body Humanoid Control",
+   "website": "https://minusmodulo.github.io/reflexarc-website/"
+  },
+  {
+   "section": "Loco-Manipulation and Whole-Body-Control",
+   "venue": "arXiv",
+   "date": "2026-11-01",
+   "url": "https://arxiv.org/abs/2611.03648",
+   "title": "Pixel: A Co-Designed Full-Stack Robot System for Learning General-Purpose Mobile Manipulation",
+   "website": "https://pixel-robot.com/pixel"
+  },
+  {
+   "section": "Loco-Manipulation and Whole-Body-Control",
+   "venue": "arXiv",
+   "date": "2026-11-01",
+   "url": "https://arxiv.org/abs/2611.03647",
+   "title": "Pixel-UMI: Learning Environment-Aware Whole-Body Manipulation from Sensorized Human Demonstrations",
+   "website": "https://pixel-robot.com/pixel-umi"
+  },
+  {
+   "section": "Loco-Manipulation and Whole-Body-Control",
+   "venue": "arXiv",
+   "date": "2026-11-01",
+   "url": "https://arxiv.org/abs/2611.02968",
+   "title": "ReContact: Reconstruct and Retarget Human Contacts from Video for Contact-Rich Humanoid Manipulation"
+  },
+  {
+   "section": "Loco-Manipulation and Whole-Body-Control",
+   "venue": "arXiv",
+   "date": "2026-11-01",
+   "url": "https://arxiv.org/abs/2611.02871",
+   "title": "ReGATE: Recurrent Gated Visual Fusion for Reactive Humanoid-Object Interaction"
+  },
+  {
+   "section": "Loco-Manipulation and Whole-Body-Control",
+   "venue": "arXiv",
+   "date": "2026-11-01",
+   "url": "https://arxiv.org/abs/2611.02613",
+   "title": "MAPO: Mixture of Experts with Alternating Policy Optimization for Universal Humanoid Motion Tracking",
+   "website": "https://mapo-corl2026.github.io/MAPO/"
+  },
+  {
+   "section": "Loco-Manipulation and Whole-Body-Control",
+   "venue": "arXiv",
+   "date": "2026-11-01",
+   "url": "https://arxiv.org/abs/2611.02555",
+   "title": "Sequential Recovery Updates for Learned Controllers under Successful-Trajectory Preservation"
+  },
+  {
+   "section": "Loco-Manipulation and Whole-Body-Control",
+   "venue": "arXiv",
+   "date": "2026-11-01",
+   "url": "https://arxiv.org/abs/2611.01748",
+   "title": "CompliantBot: Learning Whole-Body Compliance across Task Interfaces for Humanoid Control"
+  },
+  {
+   "section": "Loco-Manipulation and Whole-Body-Control",
+   "venue": "arXiv",
+   "date": "2026-11-01",
+   "url": "https://arxiv.org/abs/2611.01197",
+   "title": "Learning Agile Humanoid Dodgeball with Onboard Monocular Vision"
+  },
+  {
+   "section": "Loco-Manipulation and Whole-Body-Control",
+   "venue": "arXiv",
+   "date": "2026-11-01",
+   "url": "https://arxiv.org/abs/2611.00951",
+   "title": "Why Koopman Structure Does Not Help Differentiable World Models for Humanoid Whole-Body Tracking"
+  },
+  {
+   "section": "Loco-Manipulation and Whole-Body-Control",
+   "venue": "arXiv",
+   "date": "2026-11-01",
+   "url": "https://arxiv.org/abs/2611.00193",
+   "title": "Anchor 1: Precise and Stable Humanoid Control for Whole-Body Manipulation"
+  },
+  {
+   "section": "Manipulation",
+   "venue": "arXiv",
+   "date": "2026-11-01",
+   "url": "https://arxiv.org/abs/2611.11981",
+   "title": "Thermo-VLA: A Thermal-Aware Vision-Language-Action Model with Gated Residual Modulation for Robotic Manipulation"
+  },
+  {
+   "section": "Manipulation",
+   "venue": "arXiv",
+   "date": "2026-11-01",
+   "url": "https://arxiv.org/abs/2611.11854",
+   "title": "Decoupled Asynchronous System for Humanoids (DASH): Latency-Agnostic Scaling of Vision-Language-Action Models for Humanoid Manipulation"
+  },
+  {
+   "section": "Manipulation",
+   "venue": "arXiv",
+   "date": "2026-11-01",
+   "url": "https://arxiv.org/abs/2611.07712",
+   "title": "AffectiveVLA: Safe and Intent-Aware VLA Control for Human-Humanoid Social Interaction"
+  },
+  {
+   "section": "Manipulation",
+   "venue": "arXiv",
+   "date": "2026-11-01",
+   "url": "https://arxiv.org/abs/2611.05163",
+   "title": "RoboTryOn: Synthesizing Dexterous Robot Demonstrations from Human Videos via Virtual Try-On",
+   "website": "https://ryan-seungyong-lee.github.io/RoboTryOn"
+  },
+  {
+   "section": "Teleoperation",
+   "venue": "CoRL",
+   "date": "2026-11-01",
+   "url": "https://openreview.net/forum?id=u2dtQWAFQo",
+   "title": "CA-GMT: Contact-Aware Low-Rank Adaptation of Motion Tracking for Whole-Body Teleoperation"
+  },
+  {
+   "section": "Locomotion",
+   "venue": "arXiv",
+   "date": "2026-11-01",
+   "url": "https://arxiv.org/abs/2611.13929",
+   "title": "ReACT: Reflection-Consistent Modulation and Cross-Load Consistency for Humanoid Velocity Tracking Under Asymmetric Loads"
+  },
+  {
+   "section": "Locomotion",
+   "venue": "arXiv",
+   "date": "2026-11-01",
+   "url": "https://arxiv.org/abs/2611.08857",
+   "title": "STRIDE: Learning Humanoid Locomotion in Minutes with Acceleration-Based Rewards"
+  },
+  {
+   "section": "Locomotion",
+   "venue": "arXiv",
+   "date": "2026-11-01",
+   "url": "https://arxiv.org/abs/2611.08097",
+   "title": "STEP: Spatiotemporal Training with Explicit Prediction for Perceptive Humanoid Locomotion"
+  },
+  {
+   "section": "Locomotion",
+   "venue": "arXiv",
+   "date": "2026-11-01",
+   "url": "https://arxiv.org/abs/2611.08056",
+   "title": "Terrain-Indexed Motion Priors and Geometric Support for Extreme Humanoid Parkour"
+  },
+  {
+   "section": "Navigation",
+   "venue": "arXiv",
+   "date": "2026-11-01",
+   "url": "https://arxiv.org/abs/2611.12136",
+   "title": "LHNav: Long-Horizon Humanoid Navigation via Multirate Coordination and Physics-Grounded Action Data"
+  },
+  {
+   "section": "Navigation",
+   "venue": "arXiv",
+   "date": "2026-11-01",
+   "url": "https://arxiv.org/abs/2611.11665",
+   "title": "HINT-VLM: Humanoid Interactive Navigation over Rough Terrain with Embodiment-Grounded Vision-Language Model"
+  },
+  {
+   "section": "Navigation",
+   "venue": "arXiv",
+   "date": "2026-11-01",
+   "url": "https://arxiv.org/abs/2611.04972",
+   "title": "Caging Vision-Language Navigation for Legged Robots via Barrier-Certified Safety Architecture"
+  },
+  {
+   "section": "State Estimation",
+   "venue": "arXiv",
+   "date": "2026-11-01",
+   "url": "https://arxiv.org/abs/2611.10137",
+   "title": "A Unified Inertial Encoder for Human and Humanoid Motion"
+  },
+  {
+   "section": "Hardware Design",
+   "venue": "arXiv",
+   "date": "2026-11-01",
+   "url": "https://arxiv.org/abs/2611.05302",
+   "title": "PACT: Pose-Robust Actuation Co-Design for Tendon-Driven Robotic Hands"
+  },
+  {
+   "section": "Simulation Benchmark",
+   "venue": "arXiv",
+   "date": "2026-11-01",
+   "url": "https://arxiv.org/abs/2611.10994",
+   "title": "RoboMoCap: A Large-Scale Whole-Body Motion Capture Dataset with Egocentric Vision for Robot Learning",
+   "website": "https://bitrobot-foundation.github.io/robomocap/"
+  },
+  {
+   "section": "Human Motion Analysis and Synthesis",
+   "venue": "arXiv",
+   "date": "2026-10-14",
+   "url": "https://arxiv.org/abs/2610.19635",
+   "title": "Eye, Robot: Learning Expressive Gaze Dynamics via a VLM-Guided Transformer-VAE, [CoRL 2026](https://openreview.net/forum?id=aILPNAxgHb)"
+  },
+  {
+   "section": "Locomotion",
+   "venue": "arXiv",
+   "date": "2026-10-10",
+   "url": "https://arxiv.org/abs/2610.14564",
+   "title": "Chunk-wise Model-based Policy Optimization, [CoRL 2026](https://openreview.net/forum?id=dngZLI0SlV)",
+   "website": "https://song-wx.github.io/cmpo.github.io/"
+  }
+ ]
+}
