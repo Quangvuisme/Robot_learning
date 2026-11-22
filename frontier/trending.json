@@ -1,0 +1,210 @@
+[
+ {
+  "repo": "starVLA/starVLA",
+  "stars": 3972,
+  "pushed": "2026-11-18",
+  "created": "2025-10-09",
+  "desc": "StarVLA: A Lego-like Codebase for Vision-Language-Action Model Developing",
+  "q": "vision-language-action"
+ },
+ {
+  "repo": "NVlabs/GR00T-WholeBodyControl",
+  "stars": 3939,
+  "pushed": "2026-11-03",
+  "created": "2025-11-05",
+  "desc": "Welcome to GR00T Whole-Body Control (WBC)! This is a unified platform for developing and deploying advanced hu",
+  "q": "humanoid whole-body control"
+ },
+ {
+  "repo": "enactic/openarm",
+  "stars": 3717,
+  "pushed": "2026-11-16",
+  "created": "2024-09-29",
+  "desc": "A fully open-source humanoid arm for physical AI research and deployment in contact-rich environments.",
+  "q": "humanoid teleoperation"
+ },
+ {
+  "repo": "dexmal/dexbotic",
+  "stars": 3239,
+  "pushed": "2026-11-11",
+  "created": "2025-10-17",
+  "desc": "Dexbotic: Open-Source Vision-Language-Action Toolbox",
+  "q": "vision-language-action"
+ },
+ {
+  "repo": "dexmal/opendm",
+  "stars": 2746,
+  "pushed": "2026-11-06",
+  "created": "2026-07-06",
+  "desc": "An Open-World Foundation Model for General-Purpose Embodied Intelligence.",
+  "q": "vision-language-action"
+ },
+ {
+  "repo": "HybridRobotics/supermimic",
+  "stars": 1941,
+  "pushed": "2026-11-21",
+  "created": "2026-11-10",
+  "desc": "Humanoid whole-body motion tracking with one differentiable world model.",
+  "q": "humanoid motion tracking"
+ },
+ {
+  "repo": "unitreerobotics/xr_teleoperate",
+  "stars": 1737,
+  "pushed": "2026-11-17",
+  "created": "2024-08-05",
+  "desc": "This repository implements teleoperation of the Unitree humanoid robot using XR Devices.",
+  "q": "humanoid teleoperation"
+ },
+ {
+  "repo": "RainBowLuoCS/Gamer",
+  "stars": 1315,
+  "pushed": "2026-11-16",
+  "created": "2026-10-30",
+  "desc": "Official Implementation of Gamer: A Generalist Vision-Language-Action Foundation Model for Long-Horizon Real-T",
+  "q": "vision-language-action"
+ },
+ {
+  "repo": "DravenALG/awesome-vla-wam",
+  "stars": 1068,
+  "pushed": "2026-11-11",
+  "created": "2026-02-06",
+  "desc": "A Curated List of Vision-Language-Action (VLA) and World Action Models (WAM) Research and Beyond",
+  "q": "vision-language-action"
+ },
+ {
+  "repo": "Robbyant/lingbot-touch",
+  "stars": 803,
+  "pushed": "2026-11-11",
+  "created": "2026-11-09",
+  "desc": "Learning Heterogeneous Tactile Representation for General Dexterous Manipulation",
+  "q": "dexterous manipulation"
+ },
+ {
+  "repo": "sou350121/VLA-Handbook",
+  "stars": 790,
+  "pushed": "2026-11-22",
+  "created": "2025-11-23",
+  "desc": "本项目旨在为致力于进入VLA(Vision-Language-Action)领域的算法工程师提供一份全中文、实战导向的学习/面试手册。  不同于通用的 CV/NLP 面试指南，本项目聚焦于 Robotics 特有的挑战",
+  "q": "vision-language-action"
+ },
+ {
+  "repo": "HorizonRobotics/HoloMotion",
+  "stars": 770,
+  "pushed": "2026-10-26",
+  "created": "2025-07-30",
+  "desc": "A Foundation Model for Whole-Body Humanoid Control",
+  "q": "humanoid whole-body control"
+ },
+ {
+  "repo": "shengshu-ai/Motus2",
+  "stars": 597,
+  "pushed": "2026-11-22",
+  "created": "2026-09-11",
+  "desc": "Motus2: A Self-Evolving General World Model for Dexterous Manipulation",
+  "q": "dexterous manipulation"
+ },
+ {
+  "repo": "Sirui-Xu/InterMimic",
+  "stars": 560,
+  "pushed": "2026-11-12",
+  "created": "2025-03-25",
+  "desc": "[CVPR 2025 Highlight] InterMimic: Towards Universal Whole-Body Control for Physics-Based Human-Object Interact",
+  "q": "humanoid whole-body control"
+ },
+ {
+  "repo": "Motphys/Uni-SuperMimic",
+  "stars": 314,
+  "pushed": "2026-11-21",
+  "created": "2026-10-22",
+  "desc": "SuperMimic-UniLab: An Independent reproduction of SuperMimic on UniLab for whole-body humanoid motion tracking",
+  "q": "humanoid motion tracking"
+ },
+ {
+  "repo": "black-forest-labs/flux-action",
+  "stars": 227,
+  "pushed": "2026-11-10",
+  "created": "2026-09-23",
+  "desc": "FLUX 3 Action: open weights 7B world action model from Black Forest Labs. Train, fine-tune and run action pred",
+  "q": "world action model robot"
+ },
+ {
+  "repo": "Huy-Quang-Dao/instantTrack",
+  "stars": 216,
+  "pushed": "2026-11-07",
+  "created": "2026-10-29",
+  "desc": "Whole-body motion tracking for the Unitree G1 in under 3 minutes on average on one GPU: return 0.82 with 0/40 ",
+  "q": "humanoid motion tracking"
+ },
+ {
+  "repo": "CumulusAlpha/Dex-Supermimic",
+  "stars": 159,
+  "pushed": "2026-11-03",
+  "created": "2026-10-26",
+  "desc": "This is a reproduction of SuperMimic for dexterous hand manipulation tasks.",
+  "q": "dexterous manipulation"
+ },
+ {
+  "repo": "Roboparty/P-BFM",
+  "stars": 132,
+  "pushed": "2026-11-17",
+  "created": "2026-10-04",
+  "desc": "Perceptive behavioral foundation models for terrain-adaptive humanoid control: motion tracking, goal reaching,",
+  "q": "humanoid teleoperation"
+ },
+ {
+  "repo": "DAGroup-PKU/ViGAR",
+  "stars": 115,
+  "pushed": "2026-10-25",
+  "created": "2026-09-28",
+  "desc": "Rethinking World-Action Model for Compositional and In-context Robotic Manipulation",
+  "q": "world action model robot"
+ },
+ {
+  "repo": "Bench2Dex/Bench2Dex",
+  "stars": 108,
+  "pushed": "2026-11-15",
+  "created": "2026-08-14",
+  "desc": "A Bimanual Manipulation Benchmark across Dexterous Hands with Simulated Visuo-Tactile Support",
+  "q": "dexterous manipulation"
+ },
+ {
+  "repo": "TsinghuaC3I/HandsOn",
+  "stars": 82,
+  "pushed": "2026-11-17",
+  "created": "2026-10-13",
+  "desc": "HandsOn: a large-scale simulation benchmark for generalizable dexterous manipulation",
+  "q": "dexterous manipulation"
+ },
+ {
+  "repo": "lok-i/vibe",
+  "stars": 77,
+  "pushed": "2026-11-14",
+  "created": "2026-09-08",
+  "desc": "Post-training humanoid whole-body trackers for perceptive control tasks",
+  "q": "humanoid whole-body control"
+ },
+ {
+  "repo": "hgupt3/eigendexplore",
+  "stars": 68,
+  "pushed": "2026-11-15",
+  "created": "2026-10-06",
+  "desc": "Official code release for EigenDEXplore: Structured Exploration for Dexterous Manipulation with Human Priors. ",
+  "q": "dexterous manipulation"
+ },
+ {
+  "repo": "kaibohex/muscle-supermimic",
+  "stars": 55,
+  "pushed": "2026-11-14",
+  "created": "2026-10-26",
+  "desc": "SuperMimic whole-body motion tracking for muscle-driven humanoids on mjlab.",
+  "q": "humanoid motion tracking"
+ },
+ {
+  "repo": "bytepioneerX/Acp_supermimic_vibed",
+  "stars": 49,
+  "pushed": "2026-11-05",
+  "created": "2026-11-05",
+  "desc": "ACP reproduction + SuperMimic for Unitree G1 humanoid locomotion, contact planning, parkour, and whole-body co",
+  "q": "humanoid whole-body control"
+ }
+]

@@ -1,14 +1,6 @@
 {
- "generated": "2026-11-22 23:28Z",
+ "generated": "2026-11-22 23:37Z",
  "items": [
-  {
-   "section": "Loco-Manipulation and Whole-Body-Control",
-   "venue": "arXiv",
-   "date": "2026-11-19",
-   "url": "https://arxiv.org/abs/2611.26596",
-   "title": "PGX: Physically Grounded Execution for Long-Horizon Humanoid Loco-Manipulation",
-   "website": "https://kl-research.github.io/pgx"
-  },
   {
    "section": "Loco-Manipulation and Whole-Body-Control",
    "venue": "arXiv",
@@ -16,7 +8,26 @@
    "url": "https://arxiv.org/abs/2611.26420",
    "title": "Awaken-HI: Scaling Humanoid Intelligence with Whole-Body Human Experience",
    "website": "https://engineai-robotics.github.io/Awaken-HI",
-   "code": "https://github.com/engineai-robotics/Awaken-HI"
+   "code": "https://github.com/engineai-robotics/Awaken-HI",
+   "gh": {
+    "official": true,
+    "stars": 11,
+    "forks": 0,
+    "issues": 0,
+    "pushed": "2026-11-20",
+    "created": "2026-11-17",
+    "spd": 2.2,
+    "license": null,
+    "full": "engineai-robotics/Awaken-HI"
+   }
+  },
+  {
+   "section": "Loco-Manipulation and Whole-Body-Control",
+   "venue": "arXiv",
+   "date": "2026-11-19",
+   "url": "https://arxiv.org/abs/2611.26596",
+   "title": "PGX: Physically Grounded Execution for Long-Horizon Humanoid Loco-Manipulation",
+   "website": "https://kl-research.github.io/pgx"
   },
   {
    "section": "Loco-Manipulation and Whole-Body-Control",
@@ -49,6 +60,25 @@
    "website": "https://binlee26.github.io/MixReact_Page/"
   },
   {
+   "section": "Hardware Design",
+   "venue": "arXiv",
+   "date": "2026-11-18",
+   "url": "https://arxiv.org/abs/2611.24279",
+   "title": "QDD-MM: A Simple and Compact Open-Source Muscle Module with Quasi-Direct-Drive Motor for Tendon-driven Robots",
+   "code": "https://github.com/haraduka/qddmm",
+   "gh": {
+    "official": true,
+    "stars": 7,
+    "forks": 0,
+    "issues": 0,
+    "pushed": "2026-11-18",
+    "created": "2026-11-18",
+    "spd": 1.75,
+    "license": "MIT",
+    "full": "haraduka/qddmm"
+   }
+  },
+  {
    "section": "Loco-Manipulation and Whole-Body-Control",
    "venue": "arXiv",
    "date": "2026-11-18",
@@ -79,14 +109,6 @@
    "title": "ReLoco: Unified Humanoid Locomotion and Fall Recovery via Behavior-Conditioned Motion Priors"
   },
   {
-   "section": "Hardware Design",
-   "venue": "arXiv",
-   "date": "2026-11-18",
-   "url": "https://arxiv.org/abs/2611.24279",
-   "title": "QDD-MM: A Simple and Compact Open-Source Muscle Module with Quasi-Direct-Drive Motor for Tendon-driven Robots",
-   "code": "https://github.com/haraduka/qddmm"
-  },
-  {
    "section": "Physics-Based Character Animation",
    "venue": "arXiv",
    "date": "2026-11-18",
@@ -105,16 +127,27 @@
    "section": "Loco-Manipulation and Whole-Body-Control",
    "venue": "arXiv",
    "date": "2026-11-17",
-   "url": "https://arxiv.org/abs/2611.22713",
-   "title": "Body Schema Policy: Body as the Vision-Action Interface for Efficient Robot Loco-Manipulation"
+   "url": "https://arxiv.org/abs/2611.22275",
+   "title": "Heave-Ho: Decentralized Long-Horizon Multi-Humanoid Collaboration",
+   "website": "https://heaveho-humanoid.github.io/",
+   "gh": {
+    "official": false,
+    "stars": 29,
+    "forks": 0,
+    "issues": 1,
+    "pushed": "2026-11-20",
+    "created": "2026-11-17",
+    "spd": 5.8,
+    "license": null,
+    "full": "heaveho-humanoid/Heave-Ho"
+   }
   },
   {
    "section": "Loco-Manipulation and Whole-Body-Control",
    "venue": "arXiv",
    "date": "2026-11-17",
-   "url": "https://arxiv.org/abs/2611.22275",
-   "title": "Heave-Ho: Decentralized Long-Horizon Multi-Humanoid Collaboration",
-   "website": "https://heaveho-humanoid.github.io/"
+   "url": "https://arxiv.org/abs/2611.22713",
+   "title": "Body Schema Policy: Body as the Vision-Action Interface for Efficient Robot Loco-Manipulation"
   },
   {
    "section": "Loco-Manipulation and Whole-Body-Control",
@@ -172,7 +205,18 @@
    "date": "2026-11-14",
    "url": "https://arxiv.org/abs/2611.19196",
    "title": "Ego2Sim2Humanoid: Agentic Real-to-Sim for Learning Loco-Manipulation VLAs without Robot Demonstrations",
-   "website": "https://robonana.github.io/ego2sim2humanoid/"
+   "website": "https://robonana.github.io/ego2sim2humanoid/",
+   "gh": {
+    "official": false,
+    "stars": 2,
+    "forks": 0,
+    "issues": 0,
+    "pushed": "2026-11-17",
+    "created": "2026-11-13",
+    "spd": 0.22,
+    "license": null,
+    "full": "robonana/ego2sim2humanoid"
+   }
   },
   {
    "section": "Sim-to-Real",
@@ -223,7 +267,18 @@
    "venue": "arXiv",
    "date": "2026-11-12",
    "url": "https://arxiv.org/abs/2611.16188",
-   "title": "PERA: Plug-in Experts for Robotic Actions in Continual Whole-Body Control"
+   "title": "PERA: Plug-in Experts for Robotic Actions in Continual Whole-Body Control",
+   "gh": {
+    "official": false,
+    "stars": 0,
+    "forks": 0,
+    "issues": 0,
+    "pushed": "2026-11-16",
+    "created": "2026-11-13",
+    "spd": 0.0,
+    "license": null,
+    "full": "shangchaohu718/pera-project"
+   }
   },
   {
    "section": "Locomotion",
@@ -252,6 +307,100 @@
    "date": "2026-11-11",
    "url": "https://arxiv.org/abs/2611.15101",
    "title": "CFGComposer: Compositional Audio-Text-to-Motion Generation via Copula Score Correction"
+  },
+  {
+   "section": "Loco-Manipulation and Whole-Body-Control",
+   "venue": "arXiv",
+   "date": "2026-11-01",
+   "url": "https://arxiv.org/abs/2611.11554",
+   "title": "Kimodo-Policy: Learning Kinematic Action Models for Humanoid Loco-Manipulation",
+   "website": "https://kimodo-policy.github.io/",
+   "gh": {
+    "official": false,
+    "stars": 4339,
+    "forks": 479,
+    "issues": 23,
+    "pushed": "2026-10-15",
+    "created": "2026-03-16",
+    "spd": 17.29,
+    "license": "Apache-2.0",
+    "full": "nv-tlabs/kimodo"
+   }
+  },
+  {
+   "section": "Loco-Manipulation and Whole-Body-Control",
+   "venue": "arXiv",
+   "date": "2026-11-01",
+   "url": "https://arxiv.org/abs/2611.08039",
+   "title": "HITCH: Teaching a Vision-Language Model to Operate a Humanoid through a Whole-Body Harness",
+   "website": "https://hitch.axell.top/",
+   "gh": {
+    "official": false,
+    "stars": 21,
+    "forks": 3,
+    "issues": 0,
+    "pushed": "2026-11-16",
+    "created": "2026-11-16",
+    "spd": 3.5,
+    "license": "MIT",
+    "full": "Axellwppr/HITCH"
+   }
+  },
+  {
+   "section": "Loco-Manipulation and Whole-Body-Control",
+   "venue": "arXiv",
+   "date": "2026-11-01",
+   "url": "https://arxiv.org/abs/2611.09605",
+   "title": "DKWBC: Decoupling Motion Tracking and Balancing for Humanoid Whole-Body Control",
+   "website": "https://robbyant-research.github.io/DKWBC/",
+   "gh": {
+    "official": false,
+    "stars": 6,
+    "forks": 0,
+    "issues": 1,
+    "pushed": "2026-11-10",
+    "created": "2026-11-06",
+    "spd": 0.38,
+    "license": null,
+    "full": "robbyant-research/DKWBC"
+   }
+  },
+  {
+   "section": "Loco-Manipulation and Whole-Body-Control",
+   "venue": "arXiv",
+   "date": "2026-11-01",
+   "url": "https://arxiv.org/abs/2611.09266",
+   "title": "SUGARv2: Learning Diverse Visual Humanoid Loco-Manipulation Skills from Synthesized Interaction References",
+   "website": "https://tianshuwu.github.io/sugarv2-humanoid/",
+   "gh": {
+    "official": false,
+    "stars": 1,
+    "forks": 0,
+    "issues": 0,
+    "pushed": "2026-11-09",
+    "created": "2026-11-05",
+    "spd": 0.06,
+    "license": null,
+    "full": "tianshuwu/sugarv2-humanoid"
+   }
+  },
+  {
+   "section": "Manipulation",
+   "venue": "arXiv",
+   "date": "2026-11-01",
+   "url": "https://arxiv.org/abs/2611.11981",
+   "title": "Thermo-VLA: A Thermal-Aware Vision-Language-Action Model with Gated Residual Modulation for Robotic Manipulation",
+   "gh": {
+    "official": false,
+    "stars": 1,
+    "forks": 0,
+    "issues": 0,
+    "pushed": "2026-01-28",
+    "created": "2026-01-28",
+    "spd": 0.0,
+    "license": "MIT",
+    "full": "fias036911-create/fiasanova-thermodynamic-forecast"
+   }
   },
   {
    "section": "Loco-Manipulation and Whole-Body-Control",
@@ -307,14 +456,6 @@
    "section": "Loco-Manipulation and Whole-Body-Control",
    "venue": "arXiv",
    "date": "2026-11-01",
-   "url": "https://arxiv.org/abs/2611.11554",
-   "title": "Kimodo-Policy: Learning Kinematic Action Models for Humanoid Loco-Manipulation",
-   "website": "https://kimodo-policy.github.io/"
-  },
-  {
-   "section": "Loco-Manipulation and Whole-Body-Control",
-   "venue": "arXiv",
-   "date": "2026-11-01",
    "url": "https://arxiv.org/abs/2611.11127",
    "title": "From Festival Video to the Stage: A Sim-to-Real Ladder for Long-Horizon Expressive Whole-Body Dance on a Commercial Humanoid"
   },
@@ -329,33 +470,9 @@
    "section": "Loco-Manipulation and Whole-Body-Control",
    "venue": "arXiv",
    "date": "2026-11-01",
-   "url": "https://arxiv.org/abs/2611.09605",
-   "title": "DKWBC: Decoupling Motion Tracking and Balancing for Humanoid Whole-Body Control",
-   "website": "https://robbyant-research.github.io/DKWBC/"
-  },
-  {
-   "section": "Loco-Manipulation and Whole-Body-Control",
-   "venue": "arXiv",
-   "date": "2026-11-01",
-   "url": "https://arxiv.org/abs/2611.09266",
-   "title": "SUGARv2: Learning Diverse Visual Humanoid Loco-Manipulation Skills from Synthesized Interaction References",
-   "website": "https://tianshuwu.github.io/sugarv2-humanoid/"
-  },
-  {
-   "section": "Loco-Manipulation and Whole-Body-Control",
-   "venue": "arXiv",
-   "date": "2026-11-01",
    "url": "https://arxiv.org/abs/2611.08664",
    "title": "ForPC: Force-Aware Whole-Body Control for Precise Humanoid Cart Pushing",
    "website": "https://roboforpc.github.io/"
-  },
-  {
-   "section": "Loco-Manipulation and Whole-Body-Control",
-   "venue": "arXiv",
-   "date": "2026-11-01",
-   "url": "https://arxiv.org/abs/2611.08039",
-   "title": "HITCH: Teaching a Vision-Language Model to Operate a Humanoid through a Whole-Body Harness",
-   "website": "https://hitch.axell.top/"
   },
   {
    "section": "Loco-Manipulation and Whole-Body-Control",
@@ -424,7 +541,18 @@
    "venue": "arXiv",
    "date": "2026-11-01",
    "url": "https://arxiv.org/abs/2611.02968",
-   "title": "ReContact: Reconstruct and Retarget Human Contacts from Video for Contact-Rich Humanoid Manipulation"
+   "title": "ReContact: Reconstruct and Retarget Human Contacts from Video for Contact-Rich Humanoid Manipulation",
+   "gh": {
+    "official": false,
+    "stars": 0,
+    "forks": 0,
+    "issues": 0,
+    "pushed": "2026-10-01",
+    "created": "2026-05-20",
+    "spd": 0.0,
+    "license": "CC0-1.0",
+    "full": "artchallenger/blue-planet-recontact"
+   }
   },
   {
    "section": "Loco-Manipulation and Whole-Body-Control",
@@ -475,13 +603,6 @@
    "date": "2026-11-01",
    "url": "https://arxiv.org/abs/2611.00193",
    "title": "Anchor 1: Precise and Stable Humanoid Control for Whole-Body Manipulation"
-  },
-  {
-   "section": "Manipulation",
-   "venue": "arXiv",
-   "date": "2026-11-01",
-   "url": "https://arxiv.org/abs/2611.11981",
-   "title": "Thermo-VLA: A Thermal-Aware Vision-Language-Action Model with Gated Residual Modulation for Robotic Manipulation"
   },
   {
    "section": "Manipulation",

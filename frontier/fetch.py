@@ -21,27 +21,44 @@ for ln in md.splitlines():
     title=re.split(r",\s*\[(?:website|code|paper|video|demo)",rest)[0].strip()
     links=dict((k.lower(),v) for k,v in re.findall(r"\[(website|code|paper|video|demo)\]\((.+?)\)",rest))
     items.append(dict(section=sec,venue=venue,date=str(date),url=url,title=title,**links))
-# GitHub enrichment (unauthenticated API, 60 req/h; cache to stay under)
+# GitHub enrichment via search API (user-approved). 30 req/min unauthenticated.
+import urllib.parse
 cache_f=os.path.join(HERE,"ghcache.json")
 cache=json.load(open(cache_f)) if os.path.exists(cache_f) else {}
-calls=0
+def ent_of(j):
+    age=max(1,(today-dt.date.fromisoformat(j["created_at"][:10])).days)
+    return dict(t=time.time(),stars=j["stargazers_count"],forks=j["forks_count"],issues=j["open_issues_count"],
+        pushed=j["pushed_at"][:10],created=j["created_at"][:10],spd=round(j["stargazers_count"]/age,2),
+        license=(j.get("license") or {}).get("spdx_id"),full=j["full_name"])
+def search(q):
+    j=json.loads(get("https://api.github.com/search/repositories?per_page=10&q="+urllib.parse.quote(q))); time.sleep(2.2)
+    return j.get("items",[])
+repos={}
 for it in items:
-    c=it.get("code","")
-    m=re.match(r"https://github\.com/([^/]+)/([^/#?]+)",c)
-    if not m: continue
-    key=f"{m[1]}/{m[2]}".removesuffix(".git")
-    ent=cache.get(key)
-    if (not ent or time.time()-ent["t"]>3*3600) and calls<MAXCALLS:
+    m=re.match(r"https://github\.com/([^/]+)/([^/#?]+)",it.get("code",""))
+    if m: repos[f"{m[1]}/{m[2]}".removesuffix(".git").lower()]=it
+need=[k for k in repos if k not in cache or time.time()-cache[k]["t"]>3*3600]
+for i in range(0,len(need),5):
+    try:
+        for j in search(" ".join("repo:"+k for k in need[i:i+5])): cache[j["full_name"].lower()]=ent_of(j)
+    except Exception as e: print("gh fail",e,file=sys.stderr)
+for k,it in repos.items():
+    if k in cache: it["gh"]=dict(official=True,**{x:y for x,y in cache[k].items() if x!="t"})
+tried=0
+for it in items:
+    if "gh" in it or "code" in it or tried>=20: continue
+    name=re.split(r"[:\-]",it["title"])[0].strip()
+    if len(name)<4 or " " in name: continue
+    key="cand:"+name.lower()
+    if key not in cache or time.time()-cache[key]["t"]>6*3600:
+        tried+=1
         try:
-            j=json.loads(get(f"https://api.github.com/repos/{key}")); calls+=1
-            age=max(1,(today-dt.date.fromisoformat(j["created_at"][:10])).days)
-            ent=dict(t=time.time(),stars=j["stargazers_count"],forks=j["forks_count"],issues=j["open_issues_count"],
-                     pushed=j["pushed_at"][:10],created=j["created_at"][:10],lang=j.get("language"),
-                     spd=round(j["stargazers_count"]/age,2),license=(j.get("license") or {}).get("spdx_id"))
-            cache[key]=ent
-        except Exception as e: print("gh fail",key,e,file=sys.stderr)
-    if ent: it["gh"]=dict(repo=key,**{k:v for k,v in ent.items() if k!="t"})
+            hit=[j for j in search(f"{name} humanoid in:name,description,readme") if name.lower() in j["name"].lower()]
+            cache[key]=dict(t=time.time(),hit=ent_of(hit[0]) if hit else None)
+        except Exception as e: print("cand fail",name,e,file=sys.stderr); continue
+    h=cache[key].get("hit")
+    if h: it["gh"]=dict(official=False,**{x:y for x,y in h.items() if x!="t"})
 json.dump(cache,open(cache_f,"w"))
 items.sort(key=lambda x:(x["date"],x.get("gh",{}).get("stars",0)),reverse=True)
-json.dump(dict(generated=str(dt.datetime.utcnow())[:16]+"Z",items=items),open(os.path.join(HERE,"data.json"),"w"),indent=1,ensure_ascii=False)
-print(len(items),"papers;",sum(1 for i in items if "gh" in i),"with GH stats;",calls,"api calls")
+json.dump(dict(generated=str(dt.datetime.now(dt.timezone.utc))[:16]+"Z",items=items),open(os.path.join(HERE,"data.json"),"w"),indent=1,ensure_ascii=False)
+print(len(items),"papers;",sum(1 for i in items if "gh" in i),"with GH stats;")
