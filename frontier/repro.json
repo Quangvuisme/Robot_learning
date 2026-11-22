@@ -1,0 +1,982 @@
+[
+ {
+  "title": "Awaken-HI: Scaling Humanoid Intelligence with Whole-Body Human Experience",
+  "date": "2026-11-19",
+  "url": "https://arxiv.org/abs/2611.26420",
+  "repos": [
+   {
+    "repo": "BaiShuanghao/my_arXiv_daily",
+    "stars": 222,
+    "pushed": "2026-11-22",
+    "kind": "mentions",
+    "desc": ""
+   },
+   {
+    "repo": "engineai-robotics/Awaken-HI",
+    "stars": 11,
+    "pushed": "2026-11-20",
+    "kind": "mentions",
+    "desc": ""
+   },
+   {
+    "repo": "memoryunreal/awesome-whole-body-control",
+    "stars": 9,
+    "pushed": "2026-11-20",
+    "kind": "mentions",
+    "desc": ""
+   },
+   {
+    "repo": "arxivsub/arXivSub_daily_arxiv",
+    "stars": 4,
+    "pushed": "2026-11-20",
+    "kind": "mentions",
+    "desc": "Daily arXiv AI summarization powered by arXivSub"
+   }
+  ]
+ },
+ {
+  "title": "PGX: Physically Grounded Execution for Long-Horizon Humanoid Loco-Manipulation",
+  "date": "2026-11-19",
+  "url": "https://arxiv.org/abs/2611.26596",
+  "repos": [
+   {
+    "repo": "BaiShuanghao/my_arXiv_daily",
+    "stars": 222,
+    "pushed": "2026-11-22",
+    "kind": "mentions",
+    "desc": ""
+   },
+   {
+    "repo": "memoryunreal/awesome-whole-body-control",
+    "stars": 9,
+    "pushed": "2026-11-20",
+    "kind": "mentions",
+    "desc": ""
+   }
+  ]
+ },
+ {
+  "title": "ECHO: In-Context Behavior foundation model for Humanoid Whole-Body Control",
+  "date": "2026-11-19",
+  "url": "https://arxiv.org/abs/2611.25778",
+  "repos": [
+   {
+    "repo": "memoryunreal/awesome-whole-body-control",
+    "stars": 9,
+    "pushed": "2026-11-20",
+    "kind": "mentions",
+    "desc": ""
+   },
+   {
+    "repo": "arxivsub/arXivSub_daily_arxiv",
+    "stars": 4,
+    "pushed": "2026-11-20",
+    "kind": "mentions",
+    "desc": "Daily arXiv AI summarization powered by arXivSub"
+   }
+  ]
+ },
+ {
+  "title": "Reference-Free Humanoid Skateboarding via Termination-Shaped Reinforcement Learning, Humanoids 2026",
+  "date": "2026-11-19",
+  "url": "https://arxiv.org/abs/2611.26054",
+  "repos": [
+   {
+    "repo": "memoryunreal/awesome-whole-body-control",
+    "stars": 9,
+    "pushed": "2026-11-20",
+    "kind": "mentions",
+    "desc": ""
+   }
+  ]
+ },
+ {
+  "title": "PhyDEX: A Benchmark for Physical Reasoning in Vision-Language-Action Models via Dynamic Extrinsic Dexterity",
+  "date": "2026-11-19",
+  "url": "https://arxiv.org/abs/2611.26565",
+  "repos": [
+   {
+    "repo": "BaiShuanghao/my_arXiv_daily",
+    "stars": 222,
+    "pushed": "2026-11-22",
+    "kind": "mentions",
+    "desc": ""
+   },
+   {
+    "repo": "Blake-Jiang/ad-arxiv-daily",
+    "stars": 58,
+    "pushed": "2026-11-22",
+    "kind": "mentions",
+    "desc": "Daily tracking and organizing the latest arXiv papers in the field of autonomous driving (AD)"
+   },
+   {
+    "repo": "DoHeyYeah/arXiV-favor",
+    "stars": 1,
+    "pushed": "2026-11-22",
+    "kind": "mentions",
+    "desc": "Daily arXiv papers for 3D Vision and Dexterous Manipulation. Human edited."
+   },
+   {
+    "repo": "Wutronics/vla-paper-watch",
+    "stars": 0,
+    "pushed": "2026-11-21",
+    "kind": "mentions",
+    "desc": ""
+   }
+  ]
+ },
+ {
+  "title": "MixReact: Physics-Based Reactive Humanoid Control from Multimodal Cues via a Discrete-Continuous Mixture of Transformers",
+  "date": "2026-11-19",
+  "url": "https://arxiv.org/abs/2611.26218",
+  "repos": [
+   {
+    "repo": "Tavish9/awesome-daily-AI-arxiv",
+    "stars": 126,
+    "pushed": "2026-11-22",
+    "kind": "mentions",
+    "desc": "🚀 Daily AI Research Digest: Tracking breakthroughs in AI/NLP/CV/Robotics with dynamic updates and pa"
+   },
+   {
+    "repo": "memoryunreal/awesome-whole-body-control",
+    "stars": 9,
+    "pushed": "2026-11-20",
+    "kind": "mentions",
+    "desc": ""
+   },
+   {
+    "repo": "roatienza/cybersecurity-ai-weekly",
+    "stars": 1,
+    "pushed": "2026-11-22",
+    "kind": "mentions",
+    "desc": "Weekly digest of AI × cybersecurity: news, products, papers, research, announcements, and open-sourc"
+   }
+  ]
+ },
+ {
+  "title": "WEVO: World Model-Enabled VLA Optimization for Whole-Body Loco-Manipulation",
+  "date": "2026-11-18",
+  "url": "https://arxiv.org/abs/2611.25251",
+  "repos": [
+   {
+    "repo": "BaiShuanghao/my_arXiv_daily",
+    "stars": 222,
+    "pushed": "2026-11-22",
+    "kind": "mentions",
+    "desc": ""
+   },
+   {
+    "repo": "rayanrsr/RLCV-Papers",
+    "stars": 29,
+    "pushed": "2026-11-21",
+    "kind": "mentions",
+    "desc": "A curated list of papers applying Reinforcement Learning to Computer Vision"
+   },
+   {
+    "repo": "memoryunreal/awesome-whole-body-control",
+    "stars": 9,
+    "pushed": "2026-11-20",
+    "kind": "mentions",
+    "desc": ""
+   },
+   {
+    "repo": "arxivsub/arXivSub_daily_arxiv",
+    "stars": 4,
+    "pushed": "2026-11-20",
+    "kind": "mentions",
+    "desc": "Daily arXiv AI summarization powered by arXivSub"
+   }
+  ]
+ },
+ {
+  "title": "SemPhys: Semantic-Physical Co-Learning for Humanoid Motion Generation via Differentiable World Models",
+  "date": "2026-11-18",
+  "url": "https://arxiv.org/abs/2611.24074",
+  "repos": [
+   {
+    "repo": "memoryunreal/awesome-whole-body-control",
+    "stars": 9,
+    "pushed": "2026-11-20",
+    "kind": "mentions",
+    "desc": ""
+   }
+  ]
+ },
+ {
+  "title": "Z-sight: Unifying Vision-Language-Action and Latent World Modeling",
+  "date": "2026-11-18",
+  "url": "https://arxiv.org/abs/2611.24940",
+  "repos": [
+   {
+    "repo": "BaiShuanghao/my_arXiv_daily",
+    "stars": 222,
+    "pushed": "2026-11-22",
+    "kind": "mentions",
+    "desc": ""
+   },
+   {
+    "repo": "amani-td/World-models",
+    "stars": 1,
+    "pushed": "2026-11-20",
+    "kind": "mentions",
+    "desc": ""
+   },
+   {
+    "repo": "Wutronics/vla-paper-watch",
+    "stars": 0,
+    "pushed": "2026-11-21",
+    "kind": "mentions",
+    "desc": ""
+   }
+  ]
+ },
+ {
+  "title": "ReLoco: Unified Humanoid Locomotion and Fall Recovery via Behavior-Conditioned Motion Priors",
+  "date": "2026-11-18",
+  "url": "https://arxiv.org/abs/2611.23916",
+  "repos": [
+   {
+    "repo": "memoryunreal/awesome-whole-body-control",
+    "stars": 9,
+    "pushed": "2026-11-20",
+    "kind": "mentions",
+    "desc": ""
+   }
+  ]
+ },
+ {
+  "title": "Inhabitant: An Agent Framework for Long-Horizon Human-Scene Interaction with Spatial Control and Quantitative Feedback",
+  "date": "2026-11-18",
+  "url": "https://arxiv.org/abs/2611.25005",
+  "repos": [
+   {
+    "repo": "memoryunreal/awesome-whole-body-control",
+    "stars": 9,
+    "pushed": "2026-11-20",
+    "kind": "mentions",
+    "desc": ""
+   },
+   {
+    "repo": "arxivsub/arXivSub_daily_arxiv",
+    "stars": 4,
+    "pushed": "2026-11-20",
+    "kind": "mentions",
+    "desc": "Daily arXiv AI summarization powered by arXivSub"
+   }
+  ]
+ },
+ {
+  "title": "Heave-Ho: Decentralized Long-Horizon Multi-Humanoid Collaboration",
+  "date": "2026-11-17",
+  "url": "https://arxiv.org/abs/2611.22275",
+  "repos": [
+   {
+    "repo": "BaiShuanghao/my_arXiv_daily",
+    "stars": 222,
+    "pushed": "2026-11-22",
+    "kind": "mentions",
+    "desc": ""
+   },
+   {
+    "repo": "heaveho-humanoid/Heave-Ho",
+    "stars": 29,
+    "pushed": "2026-11-20",
+    "kind": "mentions",
+    "desc": "Heave-Ho: Decentralized Long-Horizon Multi-Humanoid Collaboration"
+   },
+   {
+    "repo": "memoryunreal/awesome-whole-body-control",
+    "stars": 9,
+    "pushed": "2026-11-20",
+    "kind": "mentions",
+    "desc": ""
+   }
+  ]
+ },
+ {
+  "title": "Body Schema Policy: Body as the Vision-Action Interface for Efficient Robot Loco-Manipulation",
+  "date": "2026-11-17",
+  "url": "https://arxiv.org/abs/2611.22713",
+  "repos": [
+   {
+    "repo": "BaiShuanghao/my_arXiv_daily",
+    "stars": 222,
+    "pushed": "2026-11-22",
+    "kind": "mentions",
+    "desc": ""
+   },
+   {
+    "repo": "memoryunreal/awesome-whole-body-control",
+    "stars": 9,
+    "pushed": "2026-11-20",
+    "kind": "mentions",
+    "desc": ""
+   }
+  ]
+ },
+ {
+  "title": "ALERT: Extending Humanoid Motion Trackers with a General and Lightweight Human Avoidance Pipeline",
+  "date": "2026-11-17",
+  "url": "https://arxiv.org/abs/2611.22258",
+  "repos": [
+   {
+    "repo": "memoryunreal/awesome-whole-body-control",
+    "stars": 9,
+    "pushed": "2026-11-20",
+    "kind": "mentions",
+    "desc": ""
+   }
+  ]
+ },
+ {
+  "title": "Autonomous Track Racing with a Commercially Available Humanoid: System Design and Real-World Deployment",
+  "date": "2026-11-17",
+  "url": "https://arxiv.org/abs/2611.22445",
+  "repos": [
+   {
+    "repo": "memoryunreal/awesome-whole-body-control",
+    "stars": 9,
+    "pushed": "2026-11-20",
+    "kind": "mentions",
+    "desc": ""
+   }
+  ]
+ },
+ {
+  "title": "QTOP: Scaling Humanoid Motion Tracking with Quantile Critics",
+  "date": "2026-11-16",
+  "url": "https://arxiv.org/abs/2611.20791",
+  "repos": [
+   {
+    "repo": "memoryunreal/awesome-whole-body-control",
+    "stars": 9,
+    "pushed": "2026-11-20",
+    "kind": "mentions",
+    "desc": ""
+   }
+  ]
+ },
+ {
+  "title": "XMimic and XSoma: Learning Humanoid Motion Tracking and Locomotion in Under a Minute",
+  "date": "2026-11-16",
+  "url": "https://arxiv.org/abs/2611.20452",
+  "repos": [
+   {
+    "repo": "nico-bohlinger/xmimic",
+    "stars": 194,
+    "pushed": "2026-11-18",
+    "kind": "mentions",
+    "desc": "Whole-body motion tracking for the Unitree G1 in under a minute. BlinkMimic's world-model trainer re"
+   },
+   {
+    "repo": "nico-bohlinger/xsoma",
+    "stars": 32,
+    "pushed": "2026-11-18",
+    "kind": "mentions",
+    "desc": "Humanoid velocity tracking on rough terrain in under a minute. Holosoma's Unitree G1 task learned wi"
+   },
+   {
+    "repo": "memoryunreal/awesome-whole-body-control",
+    "stars": 9,
+    "pushed": "2026-11-20",
+    "kind": "mentions",
+    "desc": ""
+   },
+   {
+    "repo": "Unitree-Turkiye/unitree-g1-hareket-taklidi-arastirma",
+    "stars": 0,
+    "pushed": "2026-11-19",
+    "kind": "mentions",
+    "desc": "Unitree G1 hareket taklidi araştırması (Türkçe): BeyondMimic, SuperMimic, BlinkMimic, XMimic, MacMim"
+   }
+  ]
+ },
+ {
+  "title": "Driving the Style: Velocity-Conditioned Whole-Body Control from Motion Demonstrations",
+  "date": "2026-11-16",
+  "url": "https://arxiv.org/abs/2611.20888",
+  "repos": [
+   {
+    "repo": "memoryunreal/awesome-whole-body-control",
+    "stars": 9,
+    "pushed": "2026-11-20",
+    "kind": "mentions",
+    "desc": ""
+   }
+  ]
+ },
+ {
+  "title": "ROSE: A Shared Cross-Embodiment Facial-Motion Latent Space for Humanoid Robot Expression",
+  "date": "2026-11-16",
+  "url": "https://arxiv.org/abs/2611.20950",
+  "repos": [
+   {
+    "repo": "DoHeyYeah/arXiV-favor",
+    "stars": 1,
+    "pushed": "2026-11-22",
+    "kind": "mentions",
+    "desc": "Daily arXiv papers for 3D Vision and Dexterous Manipulation. Human edited."
+   }
+  ]
+ },
+ {
+  "title": "MoViC: Real-Time Humanoid Whole-Body Control from Monocular Video Streams",
+  "date": "2026-11-15",
+  "url": "https://arxiv.org/abs/2611.19998",
+  "repos": [
+   {
+    "repo": "memoryunreal/awesome-whole-body-control",
+    "stars": 9,
+    "pushed": "2026-11-20",
+    "kind": "mentions",
+    "desc": ""
+   }
+  ]
+ },
+ {
+  "title": "Ego2Sim2Humanoid: Agentic Real-to-Sim for Learning Loco-Manipulation VLAs without Robot Demonstrations",
+  "date": "2026-11-14",
+  "url": "https://arxiv.org/abs/2611.19196",
+  "repos": [
+   {
+    "repo": "BaiShuanghao/my_arXiv_daily",
+    "stars": 222,
+    "pushed": "2026-11-22",
+    "kind": "mentions",
+    "desc": ""
+   },
+   {
+    "repo": "memoryunreal/awesome-whole-body-control",
+    "stars": 9,
+    "pushed": "2026-11-20",
+    "kind": "mentions",
+    "desc": ""
+   },
+   {
+    "repo": "robonana/ego2sim2humanoid",
+    "stars": 2,
+    "pushed": "2026-11-17",
+    "kind": "mentions",
+    "desc": "Ego2Sim2Humanoid: code (coming soon) and project page. Paper: arxiv.org/abs/2611.19196"
+   }
+  ]
+ },
+ {
+  "title": "ImpedanceMimic: Learned Impedance as Action Space for Force-Accurate Motion Imitation",
+  "date": "2026-11-14",
+  "url": "https://arxiv.org/abs/2611.19153",
+  "repos": [
+   {
+    "repo": "memoryunreal/awesome-whole-body-control",
+    "stars": 9,
+    "pushed": "2026-11-20",
+    "kind": "mentions",
+    "desc": ""
+   }
+  ]
+ },
+ {
+  "title": "TMA: Sim-to-Real Forceful Humanoid Manipulation via Tactile-Driven Motor Adaptation",
+  "date": "2026-11-13",
+  "url": "https://arxiv.org/abs/2611.18976",
+  "repos": [
+   {
+    "repo": "BaiShuanghao/my_arXiv_daily",
+    "stars": 222,
+    "pushed": "2026-11-22",
+    "kind": "mentions",
+    "desc": ""
+   },
+   {
+    "repo": "memoryunreal/awesome-whole-body-control",
+    "stars": 9,
+    "pushed": "2026-11-20",
+    "kind": "mentions",
+    "desc": ""
+   },
+   {
+    "repo": "humanoid-tma/humanoid-tma.github.io",
+    "stars": 0,
+    "pushed": "2026-11-19",
+    "kind": "mentions",
+    "desc": ""
+   }
+  ]
+ },
+ {
+  "title": "When Will You Hand It Over? A Hidden Start Delay Makes Self-Play Handover Robust to Unfamiliar Partners",
+  "date": "2026-11-13",
+  "url": "https://arxiv.org/abs/2611.18491",
+  "repos": [
+   {
+    "repo": "memoryunreal/awesome-whole-body-control",
+    "stars": 9,
+    "pushed": "2026-11-20",
+    "kind": "mentions",
+    "desc": ""
+   },
+   {
+    "repo": "DoHeyYeah/arXiV-favor",
+    "stars": 1,
+    "pushed": "2026-11-22",
+    "kind": "mentions",
+    "desc": "Daily arXiv papers for 3D Vision and Dexterous Manipulation. Human edited."
+   }
+  ]
+ },
+ {
+  "title": "Reusing Locomotion Training Recipes Across Humanoids via Body-Aligned Virtual Joints",
+  "date": "2026-11-13",
+  "url": "https://arxiv.org/abs/2611.18003",
+  "repos": [
+   {
+    "repo": "memoryunreal/awesome-whole-body-control",
+    "stars": 9,
+    "pushed": "2026-11-20",
+    "kind": "mentions",
+    "desc": ""
+   }
+  ]
+ },
+ {
+  "title": "FORGE: Force-Aware Multi-Granularity Control for Efficient Humanoid Loco-Manipulation",
+  "date": "2026-11-12",
+  "url": "https://arxiv.org/abs/2611.17142",
+  "repos": [
+   {
+    "repo": "BaiShuanghao/my_arXiv_daily",
+    "stars": 222,
+    "pushed": "2026-11-22",
+    "kind": "mentions",
+    "desc": ""
+   }
+  ]
+ },
+ {
+  "title": "PERA: Plug-in Experts for Robotic Actions in Continual Whole-Body Control",
+  "date": "2026-11-12",
+  "url": "https://arxiv.org/abs/2611.16188",
+  "repos": [
+   {
+    "repo": "shangchaohu718/pera-project",
+    "stars": 0,
+    "pushed": "2026-11-16",
+    "kind": "mentions",
+    "desc": "PERA: Skills as Plug-ins. Research website with humanoid skill demonstrations and experimental resul"
+   }
+  ]
+ },
+ {
+  "title": "CFGComposer: Compositional Audio-Text-to-Motion Generation via Copula Score Correction",
+  "date": "2026-11-11",
+  "url": "https://arxiv.org/abs/2611.15101",
+  "repos": [
+   {
+    "repo": "exopoiesis/arxiv-radar-physics",
+    "stars": 1,
+    "pushed": "2026-11-22",
+    "kind": "mentions",
+    "desc": "Daily-curated physics-relevant papers from arXiv with abstracts, canonical tags, and generated Pages"
+   }
+  ]
+ },
+ {
+  "title": "Kimodo-Policy: Learning Kinematic Action Models for Humanoid Loco-Manipulation",
+  "date": "2026-11-01",
+  "url": "https://arxiv.org/abs/2611.11554",
+  "repos": [
+   {
+    "repo": "BaiShuanghao/my_arXiv_daily",
+    "stars": 222,
+    "pushed": "2026-11-22",
+    "kind": "mentions",
+    "desc": ""
+   },
+   {
+    "repo": "kimodo-policy/kimodo-policy",
+    "stars": 28,
+    "pushed": "2026-11-11",
+    "kind": "mentions",
+    "desc": ""
+   }
+  ]
+ },
+ {
+  "title": "HITCH: Teaching a Vision-Language Model to Operate a Humanoid through a Whole-Body Harness",
+  "date": "2026-11-01",
+  "url": "https://arxiv.org/abs/2611.08039",
+  "repos": [
+   {
+    "repo": "Axellwppr/HITCH",
+    "stars": 21,
+    "pushed": "2026-11-16",
+    "kind": "mentions",
+    "desc": "HITCH: Teaching a Vision-Language Model to Operate a Humanoid through a Whole-Body Harness"
+   }
+  ]
+ },
+ {
+  "title": "SUGARv2: Learning Diverse Visual Humanoid Loco-Manipulation Skills from Synthesized Interaction References",
+  "date": "2026-11-01",
+  "url": "https://arxiv.org/abs/2611.09266",
+  "repos": [
+   {
+    "repo": "BaiShuanghao/my_arXiv_daily",
+    "stars": 222,
+    "pushed": "2026-11-22",
+    "kind": "mentions",
+    "desc": ""
+   }
+  ]
+ },
+ {
+  "title": "Thermo-VLA: A Thermal-Aware Vision-Language-Action Model with Gated Residual Modulation for Robotic Manipulation",
+  "date": "2026-11-01",
+  "url": "https://arxiv.org/abs/2611.11981",
+  "repos": [
+   {
+    "repo": "BaiShuanghao/my_arXiv_daily",
+    "stars": 222,
+    "pushed": "2026-11-22",
+    "kind": "mentions",
+    "desc": ""
+   },
+   {
+    "repo": "DoHeyYeah/arXiV-favor",
+    "stars": 1,
+    "pushed": "2026-11-22",
+    "kind": "mentions",
+    "desc": "Daily arXiv papers for 3D Vision and Dexterous Manipulation. Human edited."
+   }
+  ]
+ },
+ {
+  "title": "From a Single RGB Image to Robot Execution: Metric Scene Alignment and Contact-Guided Retargeting",
+  "date": "2026-11-01",
+  "url": "https://arxiv.org/abs/2611.14981",
+  "repos": [
+   {
+    "repo": "DoHeyYeah/arXiV-favor",
+    "stars": 1,
+    "pushed": "2026-11-22",
+    "kind": "mentions",
+    "desc": "Daily arXiv papers for 3D Vision and Dexterous Manipulation. Human edited."
+   }
+  ]
+ },
+ {
+  "title": "AHEADance: Anticipatory Humanoid Dance from Streaming Audio",
+  "date": "2026-11-01",
+  "url": "https://arxiv.org/abs/2611.13370",
+  "repos": [
+   {
+    "repo": "lbtwyk/lbtwyk",
+    "stars": 0,
+    "pushed": "2026-11-12",
+    "kind": "mentions",
+    "desc": "GitHub profile of Yukun Wang"
+   }
+  ]
+ },
+ {
+  "title": "DreamVLA: From Generated Human Motions to Humanoid Vision-Language-Action Policies",
+  "date": "2026-11-01",
+  "url": "https://arxiv.org/abs/2611.10872",
+  "repos": [
+   {
+    "repo": "BaiShuanghao/my_arXiv_daily",
+    "stars": 222,
+    "pushed": "2026-11-22",
+    "kind": "mentions",
+    "desc": ""
+   }
+  ]
+ },
+ {
+  "title": "ForPC: Force-Aware Whole-Body Control for Precise Humanoid Cart Pushing",
+  "date": "2026-11-01",
+  "url": "https://arxiv.org/abs/2611.08664",
+  "repos": [
+   {
+    "repo": "BaiShuanghao/my_arXiv_daily",
+    "stars": 222,
+    "pushed": "2026-11-22",
+    "kind": "mentions",
+    "desc": ""
+   }
+  ]
+ },
+ {
+  "title": "GRASP: Gradient-Guided Sampling for Contact-Rich Physics-Based Motion Retargeting",
+  "date": "2026-11-01",
+  "url": "https://arxiv.org/abs/2611.05754",
+  "repos": [
+   {
+    "repo": "BaiShuanghao/my_arXiv_daily",
+    "stars": 222,
+    "pushed": "2026-11-22",
+    "kind": "mentions",
+    "desc": ""
+   },
+   {
+    "repo": "DoHeyYeah/arXiV-favor",
+    "stars": 1,
+    "pushed": "2026-11-22",
+    "kind": "mentions",
+    "desc": "Daily arXiv papers for 3D Vision and Dexterous Manipulation. Human edited."
+   }
+  ]
+ },
+ {
+  "title": "Ctrl-F: Force as an Interface for Humanoid Loco-Manipulation",
+  "date": "2026-11-01",
+  "url": "https://arxiv.org/abs/2611.05507",
+  "repos": [
+   {
+    "repo": "BaiShuanghao/my_arXiv_daily",
+    "stars": 222,
+    "pushed": "2026-11-22",
+    "kind": "mentions",
+    "desc": ""
+   }
+  ]
+ },
+ {
+  "title": "Coordinating Humanoid Loco-Manipulation through Action-Conditioned Latent Foresight",
+  "date": "2026-11-01",
+  "url": "https://arxiv.org/abs/2611.04839",
+  "repos": [
+   {
+    "repo": "BaiShuanghao/my_arXiv_daily",
+    "stars": 222,
+    "pushed": "2026-11-22",
+    "kind": "mentions",
+    "desc": ""
+   }
+  ]
+ },
+ {
+  "title": "ReflexArc: Bottom-Up Integration of Instantaneous Tactile Reflexes into Whole-Body Humanoid Control",
+  "date": "2026-11-01",
+  "url": "https://arxiv.org/abs/2611.04424",
+  "repos": [
+   {
+    "repo": "MinusModulo/reflexarc-website",
+    "stars": 1,
+    "pushed": "2026-11-05",
+    "kind": "official?",
+    "desc": "Official website of ReflexArc"
+   }
+  ]
+ },
+ {
+  "title": "Pixel: A Co-Designed Full-Stack Robot System for Learning General-Purpose Mobile Manipulation",
+  "date": "2026-11-01",
+  "url": "https://arxiv.org/abs/2611.03648",
+  "repos": [
+   {
+    "repo": "DoHeyYeah/arXiV-favor",
+    "stars": 1,
+    "pushed": "2026-11-22",
+    "kind": "mentions",
+    "desc": "Daily arXiv papers for 3D Vision and Dexterous Manipulation. Human edited."
+   }
+  ]
+ },
+ {
+  "title": "Pixel-UMI: Learning Environment-Aware Whole-Body Manipulation from Sensorized Human Demonstrations",
+  "date": "2026-11-01",
+  "url": "https://arxiv.org/abs/2611.03647",
+  "repos": [
+   {
+    "repo": "BaiShuanghao/my_arXiv_daily",
+    "stars": 222,
+    "pushed": "2026-11-22",
+    "kind": "mentions",
+    "desc": ""
+   },
+   {
+    "repo": "mojojolite-sketch/mojojolite-sketch.github.io",
+    "stars": 0,
+    "pushed": "2026-11-20",
+    "kind": "mentions",
+    "desc": "ResearchWorkbench Views: Interactive Ontology Maps, Entity Dossiers (People/Companies/Funds/Labs) & "
+   }
+  ]
+ },
+ {
+  "title": "ReContact: Reconstruct and Retarget Human Contacts from Video for Contact-Rich Humanoid Manipulation",
+  "date": "2026-11-01",
+  "url": "https://arxiv.org/abs/2611.02968",
+  "repos": [
+   {
+    "repo": "BaiShuanghao/my_arXiv_daily",
+    "stars": 222,
+    "pushed": "2026-11-22",
+    "kind": "mentions",
+    "desc": ""
+   }
+  ]
+ },
+ {
+  "title": "ReGATE: Recurrent Gated Visual Fusion for Reactive Humanoid-Object Interaction",
+  "date": "2026-11-01",
+  "url": "https://arxiv.org/abs/2611.02871",
+  "repos": [
+   {
+    "repo": "BaiShuanghao/my_arXiv_daily",
+    "stars": 222,
+    "pushed": "2026-11-22",
+    "kind": "mentions",
+    "desc": ""
+   }
+  ]
+ },
+ {
+  "title": "Anchor 1: Precise and Stable Humanoid Control for Whole-Body Manipulation",
+  "date": "2026-11-01",
+  "url": "https://arxiv.org/abs/2611.00193",
+  "repos": [
+   {
+    "repo": "BaiShuanghao/my_arXiv_daily",
+    "stars": 222,
+    "pushed": "2026-11-22",
+    "kind": "mentions",
+    "desc": ""
+   },
+   {
+    "repo": "MXITeam/awesome-embodied-benchmarks",
+    "stars": 0,
+    "pushed": "2026-11-22",
+    "kind": "mentions",
+    "desc": "A list and taxonomy of embodied benchmarks"
+   }
+  ]
+ },
+ {
+  "title": "Decoupled Asynchronous System for Humanoids (DASH): Latency-Agnostic Scaling of Vision-Language-Action Models for Humanoid Manipulation",
+  "date": "2026-11-01",
+  "url": "https://arxiv.org/abs/2611.11854",
+  "repos": [
+   {
+    "repo": "BaiShuanghao/my_arXiv_daily",
+    "stars": 222,
+    "pushed": "2026-11-22",
+    "kind": "mentions",
+    "desc": ""
+   },
+   {
+    "repo": "iszhanjiawei/flow_matching_arxiv_daily",
+    "stars": 106,
+    "pushed": "2026-11-22",
+    "kind": "mentions",
+    "desc": ""
+   },
+   {
+    "repo": "DoHeyYeah/arXiV-favor",
+    "stars": 1,
+    "pushed": "2026-11-22",
+    "kind": "mentions",
+    "desc": "Daily arXiv papers for 3D Vision and Dexterous Manipulation. Human edited."
+   }
+  ]
+ },
+ {
+  "title": "AffectiveVLA: Safe and Intent-Aware VLA Control for Human-Humanoid Social Interaction",
+  "date": "2026-11-01",
+  "url": "https://arxiv.org/abs/2611.07712",
+  "repos": [
+   {
+    "repo": "Vincentqyw/cv-arxiv-daily",
+    "stars": 1520,
+    "pushed": "2026-11-21",
+    "kind": "mentions",
+    "desc": "🎓Automatically Update CV Papers Daily using Github Actions"
+   },
+   {
+    "repo": "DoHeyYeah/arXiV-favor",
+    "stars": 1,
+    "pushed": "2026-11-22",
+    "kind": "mentions",
+    "desc": "Daily arXiv papers for 3D Vision and Dexterous Manipulation. Human edited."
+   },
+   {
+    "repo": "Wutronics/vla-paper-watch",
+    "stars": 0,
+    "pushed": "2026-11-21",
+    "kind": "mentions",
+    "desc": ""
+   }
+  ]
+ },
+ {
+  "title": "RoboTryOn: Synthesizing Dexterous Robot Demonstrations from Human Videos via Virtual Try-On",
+  "date": "2026-11-01",
+  "url": "https://arxiv.org/abs/2611.05163",
+  "repos": [
+   {
+    "repo": "ryan-seungyong-lee/RoboTryOn",
+    "stars": 10,
+    "pushed": "2026-11-12",
+    "kind": "mentions",
+    "desc": "RoboTryOn: Synthesizing Dexterous Robot Demonstrations from Human Videos via Virtual Try-On"
+   },
+   {
+    "repo": "DoHeyYeah/arXiV-favor",
+    "stars": 1,
+    "pushed": "2026-11-22",
+    "kind": "mentions",
+    "desc": "Daily arXiv papers for 3D Vision and Dexterous Manipulation. Human edited."
+   },
+   {
+    "repo": "Wutronics/vla-paper-watch",
+    "stars": 0,
+    "pushed": "2026-11-21",
+    "kind": "mentions",
+    "desc": ""
+   }
+  ]
+ },
+ {
+  "title": "ReACT: Reflection-Consistent Modulation and Cross-Load Consistency for Humanoid Velocity Tracking Under Asymmetric Loads",
+  "date": "2026-11-01",
+  "url": "https://arxiv.org/abs/2611.13929",
+  "repos": [
+   {
+    "repo": "BaiShuanghao/my_arXiv_daily",
+    "stars": 222,
+    "pushed": "2026-11-22",
+    "kind": "mentions",
+    "desc": ""
+   }
+  ]
+ },
+ {
+  "title": "PACT: Pose-Robust Actuation Co-Design for Tendon-Driven Robotic Hands",
+  "date": "2026-11-01",
+  "url": "https://arxiv.org/abs/2611.05302",
+  "repos": [
+   {
+    "repo": "DoHeyYeah/arXiV-favor",
+    "stars": 1,
+    "pushed": "2026-11-22",
+    "kind": "mentions",
+    "desc": "Daily arXiv papers for 3D Vision and Dexterous Manipulation. Human edited."
+   }
+  ]
+ },
+ {
+  "title": "RoboMoCap: A Large-Scale Whole-Body Motion Capture Dataset with Egocentric Vision for Robot Learning",
+  "date": "2026-11-01",
+  "url": "https://arxiv.org/abs/2611.10994",
+  "repos": [
+   {
+    "repo": "BaiShuanghao/my_arXiv_daily",
+    "stars": 222,
+    "pushed": "2026-11-22",
+    "kind": "mentions",
+    "desc": ""
+   }
+  ]
+ }
+]

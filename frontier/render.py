@@ -18,6 +18,15 @@ for s in order+[k for k in secs if k not in order]:
     if s in secs: body+=f'<h2>{E(s)} <span class="m">({len(secs[s])})</span></h2><div class="w"><table>{"".join(row(i) for i in secs[s])}</table></div>'
 T=json.load(open('/home/user/Robot_learning/frontier/trending.json'))
 body+='<h2>GitHub buzz (repos pushed in last 30 days, sorted by stars)</h2><div class="w"><table>'+"".join(f'<tr><td class="n">★{t["stars"]}</td><td><a href="https://github.com/{t["repo"]}">{t["repo"]}</a><div class="s">pushed {t["pushed"]} · {E(t["desc"])}</div></td></tr>' for t in T)+'</table></div>'
+import re as _re
+_bad=_re.compile(r"arxiv|daily|awesome|paper|list|watch|digest|weekly|survey|handbook|notes|github\.io|profile|^[^/]+/[^/]+$" if False else r"arxiv|daily|awesome|paper|list|watch|digest|weekly|survey|handbook|notes|github\.io",_re.I)
+R=json.load(open('/home/user/Robot_learning/frontier/repro.json'))
+rows_=""
+for p in R:
+    rs=[r for r in p["repos"] if not _bad.search(r["repo"].split("/")[1]) and r["repo"].split("/")[0].lower()!=r["repo"].split("/")[1].lower() and r["stars"]+len(r["desc"])>0]
+    if rs: rows_+=f'<tr><td class="n">{p["date"]}</td><td>{E(p["title"])}<div class="s">'+" · ".join(f'<a href="https://github.com/{r["repo"]}">{r["repo"]}</a> ★{r["stars"]} ({r["kind"]})' for r in rs[:3])+"</div></td></tr>"
+body+='<h2>Code found on GitHub for recent papers</h2><p class="m">Repos whose README cites the paper. Papers under 2 weeks old rarely have independent reproductions yet; &ldquo;mentions&rdquo; means the repo cites the paper and is not confirmed official.</p><div class="w"><table>'+rows_+'</table></div>'
+body+='<h2>Community reproductions found (older papers)</h2><div class="w"><table><tr><td><a href="https://github.com/Motphys/Uni-SuperMimic">Motphys/Uni-SuperMimic</a> ★314<div class="s">independent reproduction of SuperMimic on UniLab</div></td></tr><tr><td><a href="https://github.com/bytepioneerX/Acp_supermimic_vibed">bytepioneerX/Acp_supermimic_vibed</a><div class="s">ACP reproduction + SuperMimic for Unitree G1</div></td></tr><tr><td><a href="https://github.com/kaibohex/muscle-supermimic">kaibohex/muscle-supermimic</a><div class="s">SuperMimic tracking for muscle-driven humanoids on mjlab</div></td></tr><tr><td><a href="https://github.com/EGalahad/mimic-lite">EGalahad/mimic-lite</a> ★76<div class="s">efficient humanoid motion tracking, scalable sim-to-real training</div></td></tr></table></div>'
 nc=sum('code' in i for i in d['items'])
 open('/tmp/claude-0/-home-user-Robot-learning/0673c822-7c37-5a1e-9ffa-49cb001bb9d2/scratchpad/frontier.html','w').write(f'''<title>Humanoid Frontier Map</title>
 <meta name="claude:viewport-fit-sides" content="cover">
