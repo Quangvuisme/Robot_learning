@@ -208,5 +208,55 @@
   "title": "Whole-Body Control Simulation of an 82.6 kg Quadruped Mobile Manipulator (8-DOF Legs + 6-Axis Arm + Vacuum Gripper) in MATLAB Simscape Multibody",
   "arxiv": null,
   "repo": "VasanEV007/quadruped-wbc-simscape"
+ },
+ {
+  "title": "An action-conditioned physics world model with a NumPy MLP and held-out rollout benchmarks.",
+  "arxiv": null,
+  "repo": "xiakangjun007-hash/world-model-lab"
+ },
+ {
+  "title": "MemE-WAM-Memory-Efficient-World-Action-Models-",
+  "arxiv": null,
+  "repo": "Thu-WangMX/MemE-WAM-Memory-Efficient-World-Action-Models-"
+ },
+ {
+  "title": "Large Commands, Small Effects: a JEPA world model's action-effect fidelity in PushT",
+  "arxiv": null,
+  "repo": "OmerTorres/jepa-action-effects"
+ },
+ {
+  "title": "FlexWAM: Learning Flexible Visual Routing for World Action Models",
+  "arxiv": null,
+  "repo": "FlexWAM/FlexWAM"
+ },
+ {
+  "title": "Bagel Labs\u2019 open-weight world-action model for bimanual robot manipulation, with training code and RoboDojo-Sim evaluation.",
+  "arxiv": null,
+  "repo": "bageldotcom/Bagel-Robotics-1"
+ },
+ {
+  "title": "Project page for Model Predictive Shape Controller Guided by a JEPA World Action Model",
+  "arxiv": null,
+  "repo": "ning-han99/shape-control"
+ },
+ {
+  "title": "Build an action-conditioned Joint Embedding Predictive Architecture (JEPA) world model in pure PyTorch. An encoder and EMA target learn collapse-resistant latents of a 2D room via VICReg, a predictor rolls dynamics in embedding space, and acting is random-shooting MPC toward goal embeddings. No decoder, no pixels, no learned policy.",
+  "arxiv": null,
+  "repo": "Anirudh-Senani/jepa-world-model-from-scratch"
+ },
+ {
+  "title": "Mid-Execution Corrections Interface (MECI) plugin for the Flex-\u03c0 world action model",
+  "arxiv": null,
+  "repo": "jessicawu-333/meci-flexpi"
+ },
+ {
+  "title": "DejaWorld: Scaling Action-Conditioned World Models through In-Context Dynamics Grounding (project page)",
+  "arxiv": null,
+  "repo": "dejaworld/dejaworld.github.io"
+ },
+ {
+  "title": "PreWAM: Exploring the Design of Latent Future Prediction for World-Action Modeling \u2014 project page",
+  "arxiv": null,
+  "repo": "newbrains1/PreWAM"
  }
 ]

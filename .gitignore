@@ -9,3 +9,4 @@ __pycache__/
 RL/Network/*.png
 RL/Network/*.gif
 frontier/repro.log
+frontier/cycle.log
