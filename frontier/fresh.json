@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-23 21:04Z",
+ "generated": "2026-11-23 21:34Z",
  "papers": [
   {
    "id": "2611.27967",
@@ -1553,7 +1553,7 @@
    "cat": "cs.CV",
    "comment": "8-page main paper with references and supplementary material (15 pages); 5 figures, 13 tables. Code: https://github.com/starsholic/AeroRSI Project page: https://starsholic.github.io/AeroRSI/",
    "hf": {
-    "up": 6,
+    "up": 7,
     "repo": "https://github.com/starsholic/AeroRSI",
     "stars": 8,
     "proj": "https://starsholic.github.io/AeroRSI/"
