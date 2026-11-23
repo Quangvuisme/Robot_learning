@@ -57,7 +57,7 @@ for it in items:
             cache[key]=dict(t=time.time(),hit=ent_of(hit[0]) if hit else None)
         except Exception as e: print("cand fail",name,e,file=sys.stderr); continue
     h=cache[key].get("hit")
-    if h: it["gh"]=dict(official=False,**{x:y for x,y in h.items() if x!="t"})
+    if h and h["created"]>=str(dt.date.fromisoformat(it["date"])-dt.timedelta(days=14)): it["gh"]=dict(official=False,**{x:y for x,y in h.items() if x!="t"})
 json.dump(cache,open(cache_f,"w"))
 items.sort(key=lambda x:(x["date"],x.get("gh",{}).get("stars",0)),reverse=True)
 json.dump(dict(generated=str(dt.datetime.now(dt.timezone.utc))[:16]+"Z",items=items),open(os.path.join(HERE,"data.json"),"w"),indent=1,ensure_ascii=False)

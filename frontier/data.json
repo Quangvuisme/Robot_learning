@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-23 10:38Z",
+ "generated": "2026-11-23 10:41Z",
  "items": [
   {
    "section": "Loco-Manipulation and Whole-Body-Control",
@@ -312,25 +312,6 @@
    "section": "Loco-Manipulation and Whole-Body-Control",
    "venue": "arXiv",
    "date": "2026-11-01",
-   "url": "https://arxiv.org/abs/2611.11554",
-   "title": "Kimodo-Policy: Learning Kinematic Action Models for Humanoid Loco-Manipulation",
-   "website": "https://kimodo-policy.github.io/",
-   "gh": {
-    "official": false,
-    "stars": 4350,
-    "forks": 479,
-    "issues": 23,
-    "pushed": "2026-10-15",
-    "created": "2026-03-16",
-    "spd": 17.26,
-    "license": "Apache-2.0",
-    "full": "nv-tlabs/kimodo"
-   }
-  },
-  {
-   "section": "Loco-Manipulation and Whole-Body-Control",
-   "venue": "arXiv",
-   "date": "2026-11-01",
    "url": "https://arxiv.org/abs/2611.08039",
    "title": "HITCH: Teaching a Vision-Language Model to Operate a Humanoid through a Whole-Body Harness",
    "website": "https://hitch.axell.top/",
@@ -433,6 +414,14 @@
    "date": "2026-11-01",
    "url": "https://arxiv.org/abs/2611.13370",
    "title": "AHEADance: Anticipatory Humanoid Dance from Streaming Audio"
+  },
+  {
+   "section": "Loco-Manipulation and Whole-Body-Control",
+   "venue": "arXiv",
+   "date": "2026-11-01",
+   "url": "https://arxiv.org/abs/2611.11554",
+   "title": "Kimodo-Policy: Learning Kinematic Action Models for Humanoid Loco-Manipulation",
+   "website": "https://kimodo-policy.github.io/"
   },
   {
    "section": "Loco-Manipulation and Whole-Body-Control",
