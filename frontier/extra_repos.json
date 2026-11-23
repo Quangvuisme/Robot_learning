@@ -258,5 +258,10 @@
   "title": "PreWAM: Exploring the Design of Latent Future Prediction for World-Action Modeling \u2014 project page",
   "arxiv": null,
   "repo": "newbrains1/PreWAM"
+ },
+ {
+  "title": "humanoid",
+  "arxiv": null,
+  "repo": "Hermelloy/humanoid"
  }
 ]
