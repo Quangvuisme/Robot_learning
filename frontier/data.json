@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-22 23:37Z",
+ "generated": "2026-11-23 10:38Z",
  "items": [
   {
    "section": "Loco-Manipulation and Whole-Body-Control",
@@ -11,12 +11,12 @@
    "code": "https://github.com/engineai-robotics/Awaken-HI",
    "gh": {
     "official": true,
-    "stars": 11,
+    "stars": 14,
     "forks": 0,
     "issues": 0,
     "pushed": "2026-11-20",
     "created": "2026-11-17",
-    "spd": 2.2,
+    "spd": 2.33,
     "license": null,
     "full": "engineai-robotics/Awaken-HI"
    }
@@ -73,7 +73,7 @@
     "issues": 0,
     "pushed": "2026-11-18",
     "created": "2026-11-18",
-    "spd": 1.75,
+    "spd": 1.4,
     "license": "MIT",
     "full": "haraduka/qddmm"
    }
@@ -132,12 +132,12 @@
    "website": "https://heaveho-humanoid.github.io/",
    "gh": {
     "official": false,
-    "stars": 29,
+    "stars": 30,
     "forks": 0,
     "issues": 1,
     "pushed": "2026-11-20",
     "created": "2026-11-17",
-    "spd": 5.8,
+    "spd": 5.0,
     "license": null,
     "full": "heaveho-humanoid/Heave-Ho"
    }
@@ -213,7 +213,7 @@
     "issues": 0,
     "pushed": "2026-11-17",
     "created": "2026-11-13",
-    "spd": 0.22,
+    "spd": 0.2,
     "license": null,
     "full": "robonana/ego2sim2humanoid"
    }
@@ -317,12 +317,12 @@
    "website": "https://kimodo-policy.github.io/",
    "gh": {
     "official": false,
-    "stars": 4339,
+    "stars": 4350,
     "forks": 479,
     "issues": 23,
     "pushed": "2026-10-15",
     "created": "2026-03-16",
-    "spd": 17.29,
+    "spd": 17.26,
     "license": "Apache-2.0",
     "full": "nv-tlabs/kimodo"
    }
@@ -336,12 +336,12 @@
    "website": "https://hitch.axell.top/",
    "gh": {
     "official": false,
-    "stars": 21,
+    "stars": 23,
     "forks": 3,
     "issues": 0,
     "pushed": "2026-11-16",
     "created": "2026-11-16",
-    "spd": 3.5,
+    "spd": 3.29,
     "license": "MIT",
     "full": "Axellwppr/HITCH"
    }
@@ -360,7 +360,7 @@
     "issues": 1,
     "pushed": "2026-11-10",
     "created": "2026-11-06",
-    "spd": 0.38,
+    "spd": 0.35,
     "license": null,
     "full": "robbyant-research/DKWBC"
    }
@@ -382,24 +382,6 @@
     "spd": 0.06,
     "license": null,
     "full": "tianshuwu/sugarv2-humanoid"
-   }
-  },
-  {
-   "section": "Manipulation",
-   "venue": "arXiv",
-   "date": "2026-11-01",
-   "url": "https://arxiv.org/abs/2611.11981",
-   "title": "Thermo-VLA: A Thermal-Aware Vision-Language-Action Model with Gated Residual Modulation for Robotic Manipulation",
-   "gh": {
-    "official": false,
-    "stars": 1,
-    "forks": 0,
-    "issues": 0,
-    "pushed": "2026-01-28",
-    "created": "2026-01-28",
-    "spd": 0.0,
-    "license": "MIT",
-    "full": "fias036911-create/fiasanova-thermodynamic-forecast"
    }
   },
   {
@@ -541,18 +523,7 @@
    "venue": "arXiv",
    "date": "2026-11-01",
    "url": "https://arxiv.org/abs/2611.02968",
-   "title": "ReContact: Reconstruct and Retarget Human Contacts from Video for Contact-Rich Humanoid Manipulation",
-   "gh": {
-    "official": false,
-    "stars": 0,
-    "forks": 0,
-    "issues": 0,
-    "pushed": "2026-10-01",
-    "created": "2026-05-20",
-    "spd": 0.0,
-    "license": "CC0-1.0",
-    "full": "artchallenger/blue-planet-recontact"
-   }
+   "title": "ReContact: Reconstruct and Retarget Human Contacts from Video for Contact-Rich Humanoid Manipulation"
   },
   {
    "section": "Loco-Manipulation and Whole-Body-Control",
@@ -603,6 +574,13 @@
    "date": "2026-11-01",
    "url": "https://arxiv.org/abs/2611.00193",
    "title": "Anchor 1: Precise and Stable Humanoid Control for Whole-Body Manipulation"
+  },
+  {
+   "section": "Manipulation",
+   "venue": "arXiv",
+   "date": "2026-11-01",
+   "url": "https://arxiv.org/abs/2611.11981",
+   "title": "Thermo-VLA: A Thermal-Aware Vision-Language-Action Model with Gated Residual Modulation for Robotic Manipulation"
   },
   {
    "section": "Manipulation",

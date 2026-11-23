@@ -1,7 +1,7 @@
 [
  {
   "repo": "starVLA/starVLA",
-  "stars": 3972,
+  "stars": 3973,
   "pushed": "2026-11-18",
   "created": "2025-10-09",
   "desc": "StarVLA: A Lego-like Codebase for Vision-Language-Action Model Developing",
@@ -17,15 +17,15 @@
  },
  {
   "repo": "enactic/openarm",
-  "stars": 3717,
-  "pushed": "2026-11-16",
+  "stars": 3718,
+  "pushed": "2026-11-23",
   "created": "2024-09-29",
   "desc": "A fully open-source humanoid arm for physical AI research and deployment in contact-rich environments.",
   "q": "humanoid teleoperation"
  },
  {
   "repo": "dexmal/dexbotic",
-  "stars": 3239,
+  "stars": 3234,
   "pushed": "2026-11-11",
   "created": "2025-10-17",
   "desc": "Dexbotic: Open-Source Vision-Language-Action Toolbox",
@@ -33,7 +33,7 @@
  },
  {
   "repo": "dexmal/opendm",
-  "stars": 2746,
+  "stars": 2744,
   "pushed": "2026-11-06",
   "created": "2026-07-06",
   "desc": "An Open-World Foundation Model for General-Purpose Embodied Intelligence.",
@@ -41,7 +41,7 @@
  },
  {
   "repo": "HybridRobotics/supermimic",
-  "stars": 1941,
+  "stars": 1971,
   "pushed": "2026-11-21",
   "created": "2026-11-10",
   "desc": "Humanoid whole-body motion tracking with one differentiable world model.",
@@ -57,7 +57,7 @@
  },
  {
   "repo": "RainBowLuoCS/Gamer",
-  "stars": 1315,
+  "stars": 1389,
   "pushed": "2026-11-16",
   "created": "2026-10-30",
   "desc": "Official Implementation of Gamer: A Generalist Vision-Language-Action Foundation Model for Long-Horizon Real-T",
@@ -73,7 +73,7 @@
  },
  {
   "repo": "Robbyant/lingbot-touch",
-  "stars": 803,
+  "stars": 809,
   "pushed": "2026-11-11",
   "created": "2026-11-09",
   "desc": "Learning Heterogeneous Tactile Representation for General Dexterous Manipulation",
@@ -81,15 +81,15 @@
  },
  {
   "repo": "sou350121/VLA-Handbook",
-  "stars": 790,
-  "pushed": "2026-11-22",
+  "stars": 792,
+  "pushed": "2026-11-23",
   "created": "2025-11-23",
   "desc": "本项目旨在为致力于进入VLA(Vision-Language-Action)领域的算法工程师提供一份全中文、实战导向的学习/面试手册。  不同于通用的 CV/NLP 面试指南，本项目聚焦于 Robotics 特有的挑战",
   "q": "vision-language-action"
  },
  {
   "repo": "HorizonRobotics/HoloMotion",
-  "stars": 770,
+  "stars": 771,
   "pushed": "2026-10-26",
   "created": "2025-07-30",
   "desc": "A Foundation Model for Whole-Body Humanoid Control",
@@ -97,7 +97,7 @@
  },
  {
   "repo": "shengshu-ai/Motus2",
-  "stars": 597,
+  "stars": 608,
   "pushed": "2026-11-22",
   "created": "2026-09-11",
   "desc": "Motus2: A Self-Evolving General World Model for Dexterous Manipulation",
@@ -112,8 +112,16 @@
   "q": "humanoid whole-body control"
  },
  {
+  "repo": "Roboparty/UFO",
+  "stars": 350,
+  "pushed": "2026-11-23",
+  "created": "2026-07-13",
+  "desc": "An open-source unsupervised RL framework for humanoid control with FB/TeCH training, robot-aware motion import",
+  "q": "humanoid teleoperation"
+ },
+ {
   "repo": "Motphys/Uni-SuperMimic",
-  "stars": 314,
+  "stars": 316,
   "pushed": "2026-11-21",
   "created": "2026-10-22",
   "desc": "SuperMimic-UniLab: An Independent reproduction of SuperMimic on UniLab for whole-body humanoid motion tracking",
@@ -121,7 +129,7 @@
  },
  {
   "repo": "black-forest-labs/flux-action",
-  "stars": 227,
+  "stars": 228,
   "pushed": "2026-11-10",
   "created": "2026-09-23",
   "desc": "FLUX 3 Action: open weights 7B world action model from Black Forest Labs. Train, fine-tune and run action pred",
@@ -130,14 +138,14 @@
  {
   "repo": "Huy-Quang-Dao/instantTrack",
   "stars": 216,
-  "pushed": "2026-11-07",
+  "pushed": "2026-11-23",
   "created": "2026-10-29",
   "desc": "Whole-body motion tracking for the Unitree G1 in under 3 minutes on average on one GPU: return 0.82 with 0/40 ",
   "q": "humanoid motion tracking"
  },
  {
   "repo": "CumulusAlpha/Dex-Supermimic",
-  "stars": 159,
+  "stars": 160,
   "pushed": "2026-11-03",
   "created": "2026-10-26",
   "desc": "This is a reproduction of SuperMimic for dexterous hand manipulation tasks.",
@@ -184,11 +192,11 @@
   "q": "humanoid whole-body control"
  },
  {
-  "repo": "hgupt3/eigendexplore",
-  "stars": 68,
-  "pushed": "2026-11-15",
-  "created": "2026-10-06",
-  "desc": "Official code release for EigenDEXplore: Structured Exploration for Dexterous Manipulation with Human Priors. ",
+  "repo": "Holiday-Robot/FlashDexRetarget",
+  "stars": 77,
+  "pushed": "2026-11-23",
+  "created": "2026-10-04",
+  "desc": "FlashDexRetarget: Accelerating Dexterous Manipulation Data Generation through Multi-Motion Retargeting",
   "q": "dexterous manipulation"
  },
  {
