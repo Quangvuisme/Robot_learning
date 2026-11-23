@@ -83,5 +83,130 @@
   "title": "WAM-Policy: World Action Models with On-Policy Distillation for Quadrupedal Loco-Manipulation",
   "arxiv": "2611.24011",
   "repo": "AIGeeksGroup/WAM-Policy"
+ },
+ {
+  "title": "humanoid",
+  "arxiv": null,
+  "repo": "zajirA1/humanoid"
+ },
+ {
+  "title": "HumanoidsStreetFighter",
+  "arxiv": null,
+  "repo": "fruffers/HumanoidsStreetFighter"
+ },
+ {
+  "title": "humanoidrobotlar",
+  "arxiv": null,
+  "repo": "AliDenizTufekci/humanoidrobotlar"
+ },
+ {
+  "title": "HUMANOID_PROJECT",
+  "arxiv": null,
+  "repo": "DhiaAlhemdani/HUMANOID_PROJECT"
+ },
+ {
+  "title": "compliant-humanoid",
+  "arxiv": null,
+  "repo": "original-dk/compliant-humanoid"
+ },
+ {
+  "title": "Humano\u00efde taille enfant con\u00e7u module par module, actionneurs maison.",
+  "arxiv": null,
+  "repo": "JordvnK/Humanoide-uqtr"
+ },
+ {
+  "title": "CELOS LAB \uc2ec\ud654\uc2e4\uc2b5",
+  "arxiv": null,
+  "repo": "planta223/CELOS_Humanoid"
+ },
+ {
+  "title": "Procedural low-poly humanoid for three.js: data-driven characters, layered pose animation and a live character editor.",
+  "arxiv": null,
+  "repo": "SpaceChakra/humanoid-rig"
+ },
+ {
+  "title": "MINI-Humanoids",
+  "arxiv": null,
+  "repo": "AsaruEl-Bey-hash/MINI-Humanoids"
+ },
+ {
+  "title": "humanoid_hand-",
+  "arxiv": null,
+  "repo": "prathameshnaik2898/humanoid_hand-"
+ },
+ {
+  "title": "SmolVLA and vision-language-action learning workspace",
+  "arxiv": null,
+  "repo": "ZzxArthur/vla-learning"
+ },
+ {
+  "title": "Project website for FluentAct: Efficient Action Continuations for Asynchronous Vision-Language-Action Control",
+  "arxiv": null,
+  "repo": "shuobao214/FluentAct"
+ },
+ {
+  "title": "Project page for FreshVLA, a vision-language-action model for robot manipulation.",
+  "arxiv": null,
+  "repo": "FreshVLA/freshvla.github.io"
+ },
+ {
+  "title": "SmallDrive: An Efficient Vision-Language-Action Model for Autonomous Driving via Flow Matching",
+  "arxiv": null,
+  "repo": "atanas1054/SmallDrive"
+ },
+ {
+  "title": "Project website for Weave-VLA: 3D Relational Grounding for Vision-Language-Action Models",
+  "arxiv": null,
+  "repo": "Kingzein/weave-vla"
+ },
+ {
+  "title": "Quantizing in the Loop: Drift-Aware Ultra-Low-Bit Vision-Language-Action Models",
+  "arxiv": null,
+  "repo": "ForeverBlue816/LoopQ"
+ },
+ {
+  "title": "Project website for TauPrune-VLA: Scale-Adaptive Token Pruning for Vision-Language-Action Models",
+  "arxiv": null,
+  "repo": "Lin0e0/TauPrune-VLA"
+ },
+ {
+  "title": "SmolVLM2 Dropped: 100% Offline Video AI on Laptop, iPhone & 4GB GPUs! Compact on-device multimodal vision-language model for local video chaptering, spatial hazard radar, and action search.",
+  "arxiv": null,
+  "repo": "47thtechcorner/RayCodes_SmolVLM2"
+ },
+ {
+  "title": "High-throughput single-GPU inference and zero-padding dynamic-batching engine for Vision-Language-Action models (\u03c00.5, OpenVLA-OFT, LingBot-VLA2).",
+  "arxiv": null,
+  "repo": "X1Agu/VVLA"
+ },
+ {
+  "title": "Empirical benchmarking suite for Vision-Language-Action (VLA) models on the LeRobot SO-ARM 101 platform\u2014evaluating vision backbones (SigLIP vs. CLIP in SmolVLA), spatial patching tradeoffs, and edge inference latency.",
+  "arxiv": null,
+  "repo": "ETechZone/LeRobot_Bench"
+ },
+ {
+  "title": "\u57fa\u4e8e SuperMimic \u7684\u8db3\u5f0f\u673a\u5668\u4eba\u697c\u68af\u8fd0\u52a8\u4eff\u771f \u00b7 Go2 and G1 stair locomotion in MuJoCo, with a Three.js and Tauri desktop app",
+  "arxiv": null,
+  "repo": "ZHT1235456/SuperMimic-Based-Stair-Locomotion-Simulation-for-Legged-Robots"
+ },
+ {
+  "title": "RL locomotion write-up for an 8-legged, 24-servo spider robot (Isaac Lab + skrl) - design decisions, reward-engineering process, and current status.",
+  "arxiv": null,
+  "repo": "luisgast/arachne-rl-spider-writeup"
+ },
+ {
+  "title": "GR00T-WholeBodyControl",
+  "arxiv": null,
+  "repo": "antiloafer/GR00T-WholeBodyControl"
+ },
+ {
+  "title": "REWIRE: Rapid Equilibrium through Whole-body Integrated control for Real-time Execution. Modeling, control and real-time implementation of a ball-balancing cart system. DSM, Mechatronic Systems Design.",
+  "arxiv": null,
+  "repo": "angor-root/rewire"
+ },
+ {
+  "title": "Whole-Body Control Simulation of an 82.6 kg Quadruped Mobile Manipulator (8-DOF Legs + 6-Axis Arm + Vacuum Gripper) in MATLAB Simscape Multibody",
+  "arxiv": null,
+  "repo": "VasanEV007/quadruped-wbc-simscape"
  }
 ]

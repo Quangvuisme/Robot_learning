@@ -1,6 +1,71 @@
 {
- "generated": "2026-11-23 10:41Z",
+ "generated": "2026-11-23 17:35Z",
  "items": [
+  {
+   "section": "Loco-Manipulation and Whole-Body-Control",
+   "venue": "arXiv",
+   "date": "2026-11-20",
+   "url": "https://arxiv.org/abs/2611.27648",
+   "title": "Trust What Repeats: Capped World-Model Policy Gradients for Humanoid Motion Tracking"
+  },
+  {
+   "section": "Loco-Manipulation and Whole-Body-Control",
+   "venue": "arXiv",
+   "date": "2026-11-20",
+   "url": "https://arxiv.org/abs/2611.27552",
+   "title": "S-BFM: A Behavioral Foundation Model for Humanoid Control from Sparse Spatiotemporal Goals"
+  },
+  {
+   "section": "Loco-Manipulation and Whole-Body-Control",
+   "venue": "arXiv",
+   "date": "2026-11-20",
+   "url": "https://arxiv.org/abs/2611.27397",
+   "title": "AnyBodyCodec: A Shared Native Interface for Body-Model Conversion, Extension, and Humanoid Control"
+  },
+  {
+   "section": "Loco-Manipulation and Whole-Body-Control",
+   "venue": "arXiv",
+   "date": "2026-11-20",
+   "url": "https://arxiv.org/abs/2611.27338",
+   "title": "Latent Jacobian Steer: Eliciting Contact-Rich Out-of-Distribution Behaviors from Pretrained Humanoid Controllers",
+   "website": "https://latent-jacobian-steer.github.io/"
+  },
+  {
+   "section": "Loco-Manipulation and Whole-Body-Control",
+   "venue": "arXiv",
+   "date": "2026-11-20",
+   "url": "https://arxiv.org/abs/2611.27047",
+   "title": "BeyondEgo: Learning to Act Beyond Egocentric Perception via Humanoid Ego-Exo Foresight"
+  },
+  {
+   "section": "Navigation",
+   "venue": "arXiv",
+   "date": "2026-11-20",
+   "url": "https://arxiv.org/abs/2611.27939",
+   "title": "What Must a Model Tell a Planner? Outcome Interfaces for Risk-Aware Planning After Robot Damage"
+  },
+  {
+   "section": "Navigation",
+   "venue": "arXiv",
+   "date": "2026-11-20",
+   "url": "https://arxiv.org/abs/2611.27499",
+   "title": "NavRSI: Recursive Harness Self-Improvement for Vision-and-Language Navigation",
+   "website": "https://daiguangzhao.github.io/NavRSI/"
+  },
+  {
+   "section": "State Estimation",
+   "venue": "arXiv",
+   "date": "2026-11-20",
+   "url": "https://arxiv.org/abs/2611.27181",
+   "title": "HumanoidPose: Monocular 3D Pose Estimation for Humanoid Robots"
+  },
+  {
+   "section": "Physics-Based Character Animation",
+   "venue": "arXiv",
+   "date": "2026-11-20",
+   "url": "https://arxiv.org/abs/2611.27603",
+   "title": "Synthesizing Expressive Human-Object Interactions via Test-time Latent Adaptation"
+  },
   {
    "section": "Loco-Manipulation and Whole-Body-Control",
    "venue": "arXiv",
@@ -11,12 +76,12 @@
    "code": "https://github.com/engineai-robotics/Awaken-HI",
    "gh": {
     "official": true,
-    "stars": 14,
+    "stars": 16,
     "forks": 0,
     "issues": 0,
     "pushed": "2026-11-20",
     "created": "2026-11-17",
-    "spd": 2.33,
+    "spd": 2.67,
     "license": null,
     "full": "engineai-robotics/Awaken-HI"
    }
@@ -312,25 +377,6 @@
    "section": "Loco-Manipulation and Whole-Body-Control",
    "venue": "arXiv",
    "date": "2026-11-01",
-   "url": "https://arxiv.org/abs/2611.08039",
-   "title": "HITCH: Teaching a Vision-Language Model to Operate a Humanoid through a Whole-Body Harness",
-   "website": "https://hitch.axell.top/",
-   "gh": {
-    "official": false,
-    "stars": 23,
-    "forks": 3,
-    "issues": 0,
-    "pushed": "2026-11-16",
-    "created": "2026-11-16",
-    "spd": 3.29,
-    "license": "MIT",
-    "full": "Axellwppr/HITCH"
-   }
-  },
-  {
-   "section": "Loco-Manipulation and Whole-Body-Control",
-   "venue": "arXiv",
-   "date": "2026-11-01",
    "url": "https://arxiv.org/abs/2611.09605",
    "title": "DKWBC: Decoupling Motion Tracking and Balancing for Humanoid Whole-Body Control",
    "website": "https://robbyant-research.github.io/DKWBC/",
@@ -444,6 +490,14 @@
    "url": "https://arxiv.org/abs/2611.08664",
    "title": "ForPC: Force-Aware Whole-Body Control for Precise Humanoid Cart Pushing",
    "website": "https://roboforpc.github.io/"
+  },
+  {
+   "section": "Loco-Manipulation and Whole-Body-Control",
+   "venue": "arXiv",
+   "date": "2026-11-01",
+   "url": "https://arxiv.org/abs/2611.08039",
+   "title": "HITCH: Teaching a Vision-Language Model to Operate a Humanoid through a Whole-Body Harness",
+   "website": "https://hitch.axell.top/"
   },
   {
    "section": "Loco-Manipulation and Whole-Body-Control",

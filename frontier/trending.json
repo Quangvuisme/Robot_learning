@@ -41,7 +41,7 @@
  },
  {
   "repo": "HybridRobotics/supermimic",
-  "stars": 1971,
+  "stars": 1979,
   "pushed": "2026-11-21",
   "created": "2026-11-10",
   "desc": "Humanoid whole-body motion tracking with one differentiable world model.",
@@ -49,7 +49,7 @@
  },
  {
   "repo": "unitreerobotics/xr_teleoperate",
-  "stars": 1737,
+  "stars": 1738,
   "pushed": "2026-11-17",
   "created": "2024-08-05",
   "desc": "This repository implements teleoperation of the Unitree humanoid robot using XR Devices.",
@@ -57,7 +57,7 @@
  },
  {
   "repo": "RainBowLuoCS/Gamer",
-  "stars": 1389,
+  "stars": 1407,
   "pushed": "2026-11-16",
   "created": "2026-10-30",
   "desc": "Official Implementation of Gamer: A Generalist Vision-Language-Action Foundation Model for Long-Horizon Real-T",
@@ -73,7 +73,7 @@
  },
  {
   "repo": "Robbyant/lingbot-touch",
-  "stars": 809,
+  "stars": 813,
   "pushed": "2026-11-11",
   "created": "2026-11-09",
   "desc": "Learning Heterogeneous Tactile Representation for General Dexterous Manipulation",
@@ -81,7 +81,7 @@
  },
  {
   "repo": "sou350121/VLA-Handbook",
-  "stars": 792,
+  "stars": 793,
   "pushed": "2026-11-23",
   "created": "2025-11-23",
   "desc": "本项目旨在为致力于进入VLA(Vision-Language-Action)领域的算法工程师提供一份全中文、实战导向的学习/面试手册。  不同于通用的 CV/NLP 面试指南，本项目聚焦于 Robotics 特有的挑战",
@@ -89,7 +89,7 @@
  },
  {
   "repo": "HorizonRobotics/HoloMotion",
-  "stars": 771,
+  "stars": 772,
   "pushed": "2026-10-26",
   "created": "2025-07-30",
   "desc": "A Foundation Model for Whole-Body Humanoid Control",
@@ -97,7 +97,7 @@
  },
  {
   "repo": "shengshu-ai/Motus2",
-  "stars": 608,
+  "stars": 613,
   "pushed": "2026-11-22",
   "created": "2026-09-11",
   "desc": "Motus2: A Self-Evolving General World Model for Dexterous Manipulation",
@@ -170,7 +170,7 @@
  {
   "repo": "Bench2Dex/Bench2Dex",
   "stars": 108,
-  "pushed": "2026-11-15",
+  "pushed": "2026-11-23",
   "created": "2026-08-14",
   "desc": "A Bimanual Manipulation Benchmark across Dexterous Hands with Simulated Visuo-Tactile Support",
   "q": "dexterous manipulation"
@@ -209,7 +209,7 @@
  },
  {
   "repo": "bytepioneerX/Acp_supermimic_vibed",
-  "stars": 49,
+  "stars": 50,
   "pushed": "2026-11-05",
   "created": "2026-11-05",
   "desc": "ACP reproduction + SuperMimic for Unitree G1 humanoid locomotion, contact planning, parkour, and whole-body co",

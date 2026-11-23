@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-23 10:57Z",
+ "generated": "2026-11-23 17:34Z",
  "papers": [
   {
    "id": "2611.27967",
@@ -1553,9 +1553,9 @@
    "cat": "cs.CV",
    "comment": "8-page main paper with references and supplementary material (15 pages); 5 figures, 13 tables. Code: https://github.com/starsholic/AeroRSI Project page: https://starsholic.github.io/AeroRSI/",
    "hf": {
-    "up": 4,
+    "up": 5,
     "repo": "https://github.com/starsholic/AeroRSI",
-    "stars": 4,
+    "stars": 8,
     "proj": "https://starsholic.github.io/AeroRSI/"
    },
    "code_in_text": [
@@ -1591,9 +1591,9 @@
    "cat": "cs.RO",
    "comment": "Code: https://github.com/AIGeeksGroup/WAM-Policy, Website: https://aigeeksgroup.github.io/WAM-Policy/",
    "hf": {
-    "up": 18,
+    "up": 20,
     "repo": "https://github.com/AIGeeksGroup/WAM-Policy",
-    "stars": 9,
+    "stars": 10,
     "proj": "https://aigeeksgroup.github.io/WAM-Policy/"
    },
    "code_in_text": [
