@@ -17,7 +17,7 @@
   ],
   "head": " Scaling Humanoid Intelligence with Whole-Body Human Experience \u2728 Highlights - Awaken-HI is a VLA model for humanoid loco-manipulation that predicts human motion and retargeted robot actions with one action expert. - Awa",
   "tier": "S",
-  "why": "code coming soon"
+  "why": "code not released yet (README says so)"
  },
  {
   "title": "Awaken-HI: Scaling Humanoid Intelligence with Whole-Body Human Experience",
@@ -113,7 +113,7 @@
   ],
   "head": "Heave-Ho: Decentralized Long-HorizonMulti-Humanoid Collaboration Ting-Hsuan Chen1&nbsp;&nbsp; Siheng Zhao1&Dagger;&nbsp;&nbsp; Han Jiang1&nbsp;&nbsp; Qi Pan1&nbsp;&nbsp; Louison Lu1 Jiaheng Luo1&nbsp;&nbsp; Henghui Bao1&",
   "tier": "S",
-  "why": "code coming soon"
+  "why": "code not released yet (README says so)"
  },
  {
   "title": "Heave-Ho: Decentralized Long-Horizon Multi-Humanoid Collaboration",
@@ -230,8 +230,8 @@
    "soon: ...idence](website/public/data/evidence.json)  This repository currently contains the editable project website, demonstration media and supporting evidenc..."
   ],
   "head": " PERA Incremental Skill Learning for Humanoid Robots Project Page \u00b7 Paper \u00b7 English(README.md) \u00b7 \u7b80\u4f53\u4e2d\u6587(README.zh-CN.md) PERA expands a pretrained humanoid controller with independently trained task experts. The HoloMotion",
-  "tier": "B",
-  "why": "paper cited + runnable usage, no explicit 'official' claim"
+  "tier": "S",
+  "why": "code not released yet (README says so)"
  },
  {
   "title": "HITCH: Teaching a Vision-Language Model to Operate a Humanoid through a Whole-Body Harness",

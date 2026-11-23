@@ -23,6 +23,7 @@ for p in json.load(open(os.path.join(HERE,"repro.json"))):
 for extra in json.load(open(os.path.join(HERE,"extra_repos.json"))) if os.path.exists(os.path.join(HERE,"extra_repos.json")) else []:
     cands.setdefault(extra["title"],(extra.get("arxiv"),[]))[1].append(extra["repo"])
 LISTY=re.compile(r"awesome|arxiv|daily|paper-?list|papers|digest|survey|handbook|watch|notes|github\.io|atlas|reading",re.I)
+STRONG=re.compile(r"[☐□]\s*\**(training )?code|\[ \]\s*\**(training )?code|code,? including inference|currently contains the editable|training/evaluation code[^.]{0,60}being prepared",re.I)
 OFFICIAL=re.compile(r"official (implementation|code|repo|repository|release)|this is the official|the official (code|implementation)|official pytorch",re.I)
 UNOFF=re.compile(r"unofficial|re-?implementation of|(independent|our|a|faithful) (re)?production of|reproduction of|independent(ly)? (implementation|reproduc)|not affiliated|community (port|implementation)",re.I)
 SOON=re.compile(r"[☐□]\s*\**(training )?code|\[ \]\s*\**(training )?code|code,? including inference|being prepared|currently contains the editable|coming soon|code (will be|to be) (released|made)|to be released|release soon|stay tuned|todo.*(code|release)|\[ \].*(code|release)",re.I)
@@ -54,6 +55,7 @@ for title,(aid,repos) in cands.items():
         about=rec["id_in_readme"] or rec["title_in_readme"] or rec["name_in_readme"]
         if LISTY.search(repo.split("/")[1]): rec.update(tier="L",why="list/site repo")
         elif not about: rec.update(tier="X",why="README does not mention the paper")
+        elif STRONG.search(txt): rec.update(tier="S",why="code not released yet (README says so)")
         elif rec["unofficial_claim"] and not rec["official_claim"]: rec.update(tier="R" if rec["usage"] and not rec["coming_soon"] else "S",why="reproduction/unofficial" if rec["usage"] else "unofficial, no usage")
         elif rec["coming_soon"] and not rec["usage"]: rec.update(tier="S",why="code coming soon")
         elif rec["coming_soon"] and not rec["usage"]: rec.update(tier="S",why="code not released yet")
