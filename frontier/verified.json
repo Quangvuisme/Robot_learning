@@ -1229,8 +1229,22 @@
   "title": "Kimodo-Policy: Learning Kinematic Action Models for Humanoid Loco-Manipulation",
   "arxiv": "2611.11554",
   "repo": "kimodo-policy/kimodo-policy",
-  "tier": "X",
-  "why": "no README or private"
+  "id_in_readme": true,
+  "title_in_readme": true,
+  "name_in_readme": true,
+  "official_claim": true,
+  "unofficial_claim": false,
+  "coming_soon": true,
+  "usage": true,
+  "weights": true,
+  "len": 61892,
+  "evidence": [
+   "official: ...oidArena website](https://humanoidarena.github.io/). If the official release is updated or changed, you can use our [archived dataset sn...",
+   "soon: ...2.0](https://bigym2.github.io/docs/) Training & Evaluation (Coming Soon)  - [ ] [HumanoidToolBench](https://github.com/SNU-PI/Human..."
+  ],
+  "head": " Yunheng Wang1, &nbsp; Jiaxi Zhang1, &nbsp; Wei Lu1, &nbsp; Yuetong Fang1 &nbsp; Taowen Wang1 &nbsp; Yixiao Feng1 Shuning Zhang1 &nbsp; Junzhe Xu1,2 &nbsp; Yichi Wang3 &nbsp; Zizhao Yuan1 &nbsp; Kailun Huang1 Lusong Li2 ",
+  "tier": "A",
+  "why": "paper cited + official claim + runnable usage"
  },
  {
   "title": "Thermo-VLA: A Thermal-Aware Vision-Language-Action Model with Gated Residual Modulation for Robotic Manipulation",
@@ -2692,5 +2706,23 @@
   "head": " PreWAM project page Static academic project website. Plain HTML, CSS and JavaScript; no build step. Local preview sh python -m http.server 8765 Open http://localhost:8765/ in a browser. GitHub Pages Intended repository:",
   "tier": "S",
   "why": "mentions paper but no usage instructions"
+ },
+ {
+  "title": "Tactile sensing and action-conditioned world models for robotic manipulation in FlexiTac simulation.",
+  "arxiv": null,
+  "repo": "ruijia-liu/tactile-aware-world-models",
+  "id_in_readme": false,
+  "title_in_readme": false,
+  "name_in_readme": false,
+  "official_claim": false,
+  "unofficial_claim": false,
+  "coming_soon": false,
+  "usage": true,
+  "weights": true,
+  "len": 7431,
+  "evidence": [],
+  "head": " Tactile-Aware World Models for Robotic Manipulation Can fingertip sensing help a robot predict where a grasped object will move when its pose is temporarily hidden? This repository implements a paired comparison in Flex",
+  "tier": "X",
+  "why": "README does not mention the paper"
  }
 ]

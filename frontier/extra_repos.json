@@ -263,5 +263,10 @@
   "title": "humanoid",
   "arxiv": null,
   "repo": "Hermelloy/humanoid"
+ },
+ {
+  "title": "Tactile sensing and action-conditioned world models for robotic manipulation in FlexiTac simulation.",
+  "arxiv": null,
+  "repo": "ruijia-liu/tactile-aware-world-models"
  }
 ]
