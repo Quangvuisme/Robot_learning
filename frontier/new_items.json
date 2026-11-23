@@ -1,0 +1,443 @@
+{
+ "papers": [
+  {
+   "id": "2611.27182",
+   "title": "Tripwire: Robot Agents that Program Their Own Interrupts under Human Disturbance",
+   "date": "2026-11-20",
+   "authors": [
+    "Sunli Chen",
+    "Yun Zong",
+    "Qinhong Zhou",
+    "Xiaowen Qiu"
+   ],
+   "abstract": "Agent harnesses are turn-based: the agent acts, waits for the result, then reasons. When the action invokes a pretrained robot policy, such as a vision-language-action (VLA) or world action model (WAM), the policy may react continuously to observations, but the agent cannot revisit its decision unti",
+   "cat": "cs.RO",
+   "comment": "",
+   "code_in_text": []
+  },
+  {
+   "id": "2611.26969",
+   "title": "RoboDyna: A Benchmark for Evaluating Robotic Manipulation under Physically Grounded Dynamics",
+   "date": "2026-11-20",
+   "authors": [
+    "Zhiyuan Li",
+    "Rui Heng Yang",
+    "Xuan Zhao",
+    "Amir Rasouli"
+   ],
+   "abstract": "Object manipulation in the dynamic real world requires understanding how the environment functions and evolves, and acting accordingly. Existing benchmarks, however, do not adequately address these needs. Physics-oriented benchmarks evaluate predictive fidelity but not closed-loop action. Dynamic ro",
+   "cat": "cs.RO",
+   "comment": "8 pages, 9 figures, 2 tables. Project page: https://robodyna.github.io/robodyna/",
+   "code_in_text": []
+  },
+  {
+   "id": "2611.26855",
+   "title": "Coherent Moment Propagation: Epistemic Uncertainty for Pre-trained Robot Policies",
+   "date": "2026-11-19",
+   "authors": [
+    "Miguel Saavedra-Ruiz",
+    "Anqi Li",
+    "Claudia D'Arpino",
+    "Alperen Degirmenci"
+   ],
+   "abstract": "Flow matching policies underpin the state-of-the-art in robot learning, with impressive results ranging from long-horizon planning to dexterous manipulation. However, they provide no measure of whether their predicted commands can be trusted, particularly in novel situations outside their training s",
+   "cat": "cs.RO",
+   "comment": "Webpage: https://comp-uq.github.io/comp-uq/",
+   "code_in_text": []
+  },
+  {
+   "id": "2611.25580",
+   "title": "FlashX: Scaling Robotic Experience Reuse for Embodied Agents with CBA-Based NAND Flash",
+   "date": "2026-11-19",
+   "authors": [
+    "Yuseon Choi",
+    "Sanghyeon Park",
+    "Eunjong Lee",
+    "Hanseo Lee"
+   ],
+   "abstract": "Embodied agents are emerging as a promising paradigm for complex robotic tasks, leveraging Vision-Language-Action (VLA) and World Action Models (WAMs) to generate actions through Diffusion Transformer (DiT)-based iterative denoising. However, existing models often struggle to generalize to out-of-di",
+   "cat": "cs.AR",
+   "comment": "",
+   "code_in_text": []
+  },
+  {
+   "id": "2611.25529",
+   "title": "CoachSI: Self-Improvement of Robot Policies with a Language Coach",
+   "date": "2026-11-19",
+   "authors": [
+    "Jiachen Tao",
+    "Gengyu Zhang",
+    "Haoxuan Wang",
+    "Bing Liu"
+   ],
+   "abstract": "Generalist robot policies execute atomic skills reliably but fail when the same skills are composed into long-horizon tasks. Self-improvement from the policy's own experience does not close this gap: experience collected by the policy alone stays within its own distribution and reproduces what it ca",
+   "cat": "cs.RO",
+   "comment": "Project page: https://tlxhlll.github.io/CoachSI/",
+   "code_in_text": []
+  },
+  {
+   "id": "2611.25461",
+   "title": "ActMem: From Latent Memory Reasoning to Grounded Robotic Action",
+   "date": "2026-11-19",
+   "authors": [
+    "Linfeng Dong",
+    "Jianwei Niu",
+    "Jiuyi Zhao",
+    "Ruibing Feng"
+   ],
+   "abstract": "Vision-Language-Action (VLA) models have shown promising results in real-world long-horizon manipulation, where memory plays a crucial role. However, existing memory-augmented VLAs either retrieve past observations without reasoning about what they imply, or reason over the full history in a shared ",
+   "cat": "cs.CV",
+   "comment": "17 pages, 11 figures, 6 tables. Code and checkpoints: https://github.com/LigphiDonk/ActMem",
+   "code_in_text": [
+    "https://github.com/LigphiDonk/ActMem"
+   ]
+  },
+  {
+   "id": "2611.24925",
+   "title": "Render the Robot, Generate the World: One Video World Model Across Embodiments",
+   "date": "2026-11-18",
+   "authors": [
+    "Yash Jangir",
+    "Karan Mirakhor",
+    "Renos Zabounidis",
+    "Muhammad Zubair Irshad"
+   ],
+   "abstract": "Predicting the consequences of an agent's actions requires modeling both the body's motion and the environment's response. Most video world models attempt to learn both from numerical actions, even though geometry and kinematics already specify the intended motion. We introduce Doppel, an embodiment",
+   "cat": "cs.RO",
+   "comment": "Project page: https://doppelwm.github.io/",
+   "code_in_text": []
+  },
+  {
+   "id": "2611.24816",
+   "title": "RoboMorpher: Scaling Robot Morphology Representations for Cross-Embodiment Action Prediction",
+   "date": "2026-11-18",
+   "authors": [
+    "Wenwei Lin",
+    "Yan Qin",
+    "Weiliang Deng",
+    "Zixuan Li"
+   ],
+   "abstract": "Learning shared action representations is central to cross-embodiment manipulation. However, identical joint values can produce different spatial configurations across robots, limiting representations learned from joint values alone. We introduce RoboMorpher, a morphology-conditioned action tokenize",
+   "cat": "cs.RO",
+   "comment": "Website: https://robomorpher.github.io/",
+   "code_in_text": []
+  },
+  {
+   "id": "2611.24554",
+   "title": "TinyARM-X: A Series of Open-Source, Configurable, and Transparent Torque-Controlled Desktop-Scale Robotic Manipulators",
+   "date": "2026-11-18",
+   "authors": [
+    "Nicolas Kosanovic",
+    "Jean Chagas Vaz"
+   ],
+   "abstract": "Visuomotor policies have demonstrated that imprecise low-cost robots can autonomously complete complex manipulation tasks. However, most inexpensive manipulators rely on compact and rigidly position-controlled servos for actuation, which complicate simulation, operation, and safety. This work introd",
+   "cat": "cs.RO",
+   "comment": "9 pages, 5 figures. Submitted to a robotics Journal. Reviews have not come in yet",
+   "code_in_text": []
+  },
+  {
+   "id": "2611.24511",
+   "title": "OmniFish: A Bioinspired, Modular, Reconfigurable Soft Robotic Fish Enabling Multi-Modal Swimming",
+   "date": "2026-11-18",
+   "authors": [
+    "Mathias Jensen",
+    "Saravana Prashanth Murali Babu"
+   ],
+   "abstract": "In this work, we introduce OmniFish, a bioinspired modular soft robotic fish designed to emulate the full spectrum of body and/or caudal fin (BCF) locomotion modes within a single robotic platform. The design combines morphology averaging across representative fish species with a tendon-driven compl",
+   "cat": "cs.RO",
+   "comment": "Under review at Bioinspiration & Biomimetics. 10 figures, 7 tables",
+   "code_in_text": []
+  },
+  {
+   "id": "2611.24494",
+   "title": "RECLAIM: Robot-Vision-Informed Adversarial Patch Defense via Embodied Attention Feedback",
+   "date": "2026-11-18",
+   "authors": [
+    "Jiayou Zhu",
+    "Peng Guo",
+    "Litian Zhang",
+    "Xinze Shi"
+   ],
+   "abstract": "Vision-language-action policies control embodied agents through a perception-action loop grounded in physical interaction, where adversarial patches can corrupt action predictions and thereby alter subsequent observations. To mitigate these threats, many existing defenses rely on policy adaptation o",
+   "cat": "cs.RO",
+   "comment": "10 pages, 2 figures",
+   "code_in_text": []
+  },
+  {
+   "id": "2611.24279",
+   "title": "QDD-MM: A Simple and Compact Open-Source Muscle Module with Quasi-Direct-Drive Motor for Tendon-driven Robots",
+   "date": "2026-11-18",
+   "authors": [
+    "Kento Kawaharazuka",
+    "Yoshimoto Ribayashi",
+    "Takahiro Hattori",
+    "Shunnosuke Yoshimura"
+   ],
+   "abstract": "Tendon-driven robots, which actuate like biological muscles by using motors to wind wires, offer advantages such as variable stiffness and redundant actuation. Despite these advantages, musculoskeletal structures inherently involve a large number of diverse muscles, making it desirable to compactly ",
+   "cat": "cs.RO",
+   "comment": "Accepted to IEEE-RAS Humanoids 2026, website - https://haraduka.github.io/qddmm/, youtube - https://www.youtube.com/watch?v=09xRhZO497k",
+   "code_in_text": []
+  },
+  {
+   "id": "2611.24155",
+   "title": "BEV-Diffusion: Camera-Only Traversability Navigation with BEV Memory and Efficient Cross-Robot Adaptation",
+   "date": "2026-11-18",
+   "authors": [
+    "Iana Zhura",
+    "Timofei Kozlov",
+    "Dmitrii Plotnikov",
+    "Ivan Valuev"
+   ],
+   "abstract": "Robot navigation requires both an understanding of the scene and an efficient adaptation to new robots, yet current methods rely on expensive LiDAR sensors, long mapping and modular pipelines. We present BEV-Diffusion, a camera-only model that learns a bird's-eye view (BEV) traversability map, its u",
+   "cat": "cs.RO",
+   "comment": "",
+   "code_in_text": []
+  },
+  {
+   "id": "2611.24138",
+   "title": "Ego2X: Contact-aware Transfer from Egocentric Human Data to Any Robot",
+   "date": "2026-11-18",
+   "authors": [
+    "Xinke Lyu",
+    "Bowen Yang",
+    "Zhicheng Wang"
+   ],
+   "abstract": "Embodied models depend on real interaction data, yet collecting it on physical robots is slow and labor-intensive. Recent ego-to-robot pipelines retarget first-person view human videos to robot data via transferring hand and arm motion. They judge fidelity mainly by visual appearance. However, traje",
+   "cat": "cs.RO",
+   "comment": "10 pages, 7 figures",
+   "code_in_text": []
+  },
+  {
+   "id": "2611.23628",
+   "title": "LoRN: Low-Rank Noise Steering for Generative Robot Policies",
+   "date": "2026-11-17",
+   "authors": [
+    "Wei Liu",
+    "Abrar Anwar",
+    "Huihua Zhao",
+    "Soha Pouya"
+   ],
+   "abstract": "Noise steering improves pretrained generative robot policies by learning to select their initial noise without updating model weights. We find that actions in the evaluated world-action models are more sensitive to video noise than action noise, making video noise an expressive input for steering. H",
+   "cat": "cs.RO",
+   "comment": "",
+   "code_in_text": []
+  },
+  {
+   "id": "2611.23567",
+   "title": "Panini- Feasible Grammar For Robot Designs",
+   "date": "2026-11-17",
+   "authors": [
+    "Mayukh Debnath",
+    "Manan Roy Choudhury"
+   ],
+   "abstract": "Symbolic methods make robot designs interpretable but often overlook continuous geometry; learned methods handle geometry but offer less transparent structure. We introduce a typed production grammar that uses case-role relations, parameter inheritance, and specificity-based rule arbitration to gene",
+   "cat": "cs.RO",
+   "comment": "",
+   "code_in_text": []
+  }
+ ],
+ "repos": [
+  {
+   "title": "Fixing the Twin, Not the Detector: Sim-to-Real Roadside LiDAR Detection from Digital-Twin Data",
+   "arxiv": "2611.26035",
+   "repo": "dipper13579/urbantwin-sim2real-lidar",
+   "id_in_readme": true,
+   "title_in_readme": true,
+   "name_in_readme": true,
+   "official_claim": false,
+   "unofficial_claim": false,
+   "coming_soon": false,
+   "usage": true,
+   "weights": true,
+   "len": 14848,
+   "evidence": [],
+   "head": " UrbanTwin Sim2Real: final LUMPI and V2X submissions Team: dipper13579 Author: KuanLin Chen \u2014 Department of Industrial and Systems Engineering, Chung Yuan Christian University (\u4e2d\u539f\u5927\u5b78\u5de5\u696d\u8207\u7cfb\u7d71\u5de5\u7a0b\u5b78\u7cfb). Challenge: UCF UrbanTwin Si",
+   "tier": "B",
+   "why": "paper cited + runnable usage, no explicit 'official' claim"
+  },
+  {
+   "title": "humanoid",
+   "arxiv": null,
+   "repo": "zajirA1/humanoid",
+   "id_in_readme": false,
+   "title_in_readme": true,
+   "name_in_readme": true,
+   "official_claim": false,
+   "unofficial_claim": false,
+   "coming_soon": false,
+   "usage": true,
+   "weights": false,
+   "len": 3935,
+   "evidence": [],
+   "head": " Humanoid \u2013 simul\u00e1tor robota Emil H22 Soukrom\u00fd prohl\u00ed\u017ee\u010d a simul\u00e1tor humanoida Emil H22. V\u0161e se po\u010d\u00edt\u00e1 v prohl\u00ed\u017ee\u010di, server jen po p\u0159ihl\u00e1\u0161en\u00ed vyd\u00e1 jeden soubor. B\u011b\u017e\u00ed na Hetzner Webhostingu (bez SSH), c\u00edlov\u00e1 adresa robot.",
+   "tier": "B",
+   "why": "paper cited + runnable usage, no explicit 'official' claim"
+  },
+  {
+   "title": "compliant-humanoid",
+   "arxiv": null,
+   "repo": "original-dk/compliant-humanoid",
+   "id_in_readme": false,
+   "title_in_readme": true,
+   "name_in_readme": true,
+   "official_claim": false,
+   "unofficial_claim": false,
+   "coming_soon": false,
+   "usage": true,
+   "weights": true,
+   "len": 1775,
+   "evidence": [],
+   "head": " Compliant Humanoid \u4f7f\u7528 uv \u7ba1\u7406\u73af\u5883\u3002\u8bad\u7ec3\u4ee3\u7801\u4f4d\u4e8e src/compliant_humanoid\uff0cG1 MJCF\u3001URDF\u3001\u7f51\u683c\u548c\u6f14\u793a\u52a8\u4f5c\u4f4d\u4e8e data\u3002\u8bf7\u5728\u4ed3\u5e93\u6839\u76ee\u5f55\u6267\u884c\u547d\u4ee4\u3002 NVIDIA GPU \u8bad\u7ec3 ~~~powershell uv sync --locked --extra cuda uv run --locked --extra cuda compliant-humanoid --iterations",
+   "tier": "B",
+   "why": "paper cited + runnable usage, no explicit 'official' claim"
+  },
+  {
+   "title": "SmallDrive: An Efficient Vision-Language-Action Model for Autonomous Driving via Flow Matching",
+   "arxiv": null,
+   "repo": "atanas1054/SmallDrive",
+   "id_in_readme": false,
+   "title_in_readme": true,
+   "name_in_readme": true,
+   "official_claim": false,
+   "unofficial_claim": false,
+   "coming_soon": false,
+   "usage": true,
+   "weights": true,
+   "len": 10356,
+   "evidence": [],
+   "head": " SmallDrive: An Efficient Vision-Language-Action Model for Autonomous Driving via Flow Matching GCPR 2026 \u00b7 \ud83e\udd17 Model weights SmallDrive is a lightweight Vision-Language-Action (VLA) model that combines high-level semantic",
+   "tier": "B",
+   "why": "paper cited + runnable usage, no explicit 'official' claim"
+  },
+  {
+   "title": "SmolVLM2 Dropped: 100% Offline Video AI on Laptop, iPhone & 4GB GPUs! Compact on-device multimodal vision-language model for local video chaptering, spatial hazard radar, and action search.",
+   "arxiv": null,
+   "repo": "47thtechcorner/RayCodes_SmolVLM2",
+   "id_in_readme": false,
+   "title_in_readme": true,
+   "name_in_readme": true,
+   "official_claim": false,
+   "unofficial_claim": false,
+   "coming_soon": false,
+   "usage": true,
+   "weights": true,
+   "len": 5424,
+   "evidence": [],
+   "head": " \ud83d\udcfa Watch the full tutorial on YouTube SmolVLM2: Compact On-Device Video Vision-Language Model License: Apache 2.0 Model Family Video-MME VRAM Footprint-purple.svg) Edge Ready \"A compact family of open-source vision-langu",
+   "tier": "B",
+   "why": "paper cited + runnable usage, no explicit 'official' claim"
+  },
+  {
+   "title": "GR00T-WholeBodyControl",
+   "arxiv": null,
+   "repo": "antiloafer/GR00T-WholeBodyControl",
+   "id_in_readme": false,
+   "title_in_readme": true,
+   "name_in_readme": true,
+   "official_claim": false,
+   "unofficial_claim": false,
+   "coming_soon": false,
+   "usage": true,
+   "weights": true,
+   "len": 23837,
+   "evidence": [],
+   "head": " License(LICENSE) IsaacLab Documentation Demo --- GR00T-WholeBodyControl This is the codebase for the GR00T Whole-Body Control (WBC) projects. It hosts model checkpoints and scripts for training, evaluating, and deployin",
+   "tier": "B",
+   "why": "paper cited + runnable usage, no explicit 'official' claim"
+  },
+  {
+   "title": "REWIRE: Rapid Equilibrium through Whole-body Integrated control for Real-time Execution. Modeling, control and real-time implementation of a ball-balancing cart system. DSM, Mechatronic Systems Design.",
+   "arxiv": null,
+   "repo": "angor-root/rewire",
+   "id_in_readme": false,
+   "title_in_readme": true,
+   "name_in_readme": true,
+   "official_claim": false,
+   "unofficial_claim": false,
+   "coming_soon": false,
+   "usage": true,
+   "weights": false,
+   "len": 11224,
+   "evidence": [],
+   "head": " REWIRE Rapid Equilibrium through Whole-body Integrated control for Real-time Execution A ball-and-plate system that does not sit on a bench: a differential-drive robot carries a two-axis plate and keeps a ball on it whi",
+   "tier": "B",
+   "why": "paper cited + runnable usage, no explicit 'official' claim"
+  },
+  {
+   "title": "MemE-WAM-Memory-Efficient-World-Action-Models-",
+   "arxiv": null,
+   "repo": "Thu-WangMX/MemE-WAM-Memory-Efficient-World-Action-Models-",
+   "id_in_readme": false,
+   "title_in_readme": true,
+   "name_in_readme": true,
+   "official_claim": false,
+   "unofficial_claim": false,
+   "coming_soon": false,
+   "usage": true,
+   "weights": true,
+   "len": 9824,
+   "evidence": [],
+   "head": " MemE-WAM Memory-Efficient World Action Models with Multiscale Context and Latent Transition Supervision MemE-WAM extends Fast-WAM with multiscale visual memory and latent-transition (LT) supervision. The main RoboMME mo",
+   "tier": "B",
+   "why": "paper cited + runnable usage, no explicit 'official' claim"
+  },
+  {
+   "title": "FlexWAM: Learning Flexible Visual Routing for World Action Models",
+   "arxiv": null,
+   "repo": "FlexWAM/FlexWAM",
+   "id_in_readme": false,
+   "title_in_readme": true,
+   "name_in_readme": true,
+   "official_claim": false,
+   "unofficial_claim": false,
+   "coming_soon": true,
+   "usage": true,
+   "weights": true,
+   "len": 10605,
+   "evidence": [
+    "soon: ...yright header keep that header.  ---  ## \ud83d\udcda Citation  arXiv: coming soon.  <!-- Replace the eprint and url when the arXiv id is avai..."
+   ],
+   "head": " FlexWAM: Learning Flexible Visual Routing for World Action Models Mingyu Mei1,, Haojie Xu1,, Zibo Dai1, Hongjie Fang2, Shirun Tang3, Zhengrui Lv1, Yang Liu4, Guang Chen1,5, Xingyue Zhao1, Huiliang Shen1, Zaixing He1,\u2020 1",
+   "tier": "B",
+   "why": "paper cited + runnable usage, no explicit 'official' claim"
+  },
+  {
+   "title": "Bagel Labs\u2019 open-weight world-action model for bimanual robot manipulation, with training code and RoboDojo-Sim evaluation.",
+   "arxiv": null,
+   "repo": "bageldotcom/Bagel-Robotics-1",
+   "id_in_readme": false,
+   "title_in_readme": true,
+   "name_in_readme": true,
+   "official_claim": false,
+   "unofficial_claim": false,
+   "coming_soon": false,
+   "usage": true,
+   "weights": true,
+   "len": 11382,
+   "evidence": [],
+   "head": " Bagel-Robotics-1 Bagel-Robotics-1 is Bagel Labs\u2019 open-weight world-action model for bimanual robot manipulation. Given a task instruction, three camera views and the robot\u2019s current state, it predicts how to move both a",
+   "tier": "B",
+   "why": "paper cited + runnable usage, no explicit 'official' claim"
+  },
+  {
+   "title": "Build an action-conditioned Joint Embedding Predictive Architecture (JEPA) world model in pure PyTorch. An encoder and EMA target learn collapse-resistant latents of a 2D room via VICReg, a predictor rolls dynamics in embedding space, and acting is random-shooting MPC toward goal embeddings. No decoder, no pixels, no learned policy.",
+   "arxiv": null,
+   "repo": "Anirudh-Senani/jepa-world-model-from-scratch",
+   "id_in_readme": false,
+   "title_in_readme": true,
+   "name_in_readme": true,
+   "official_claim": false,
+   "unofficial_claim": false,
+   "coming_soon": true,
+   "usage": true,
+   "weights": false,
+   "len": 1636,
+   "evidence": [
+    "soon: ..._random_transitions - [x] **7.** build_transition_dataset - [ ] **8.** init_encoder_params - [ ] **9.** encoder_forward - [ ] **10.** init_tar..."
+   ],
+   "head": " JEPA World Model from Scratch Build an action-conditioned Joint Embedding Predictive Architecture (JEPA) world model in pure PyTorch. An encoder and EMA target learn collapse-resistant latents of a 2D room via VICReg, a",
+   "tier": "B",
+   "why": "paper cited + runnable usage, no explicit 'official' claim"
+  }
+ ]
+}

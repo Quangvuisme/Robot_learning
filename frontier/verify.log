@@ -1,0 +1,29 @@
+Counter({'L': 77, 'B': 23, 'S': 22, 'X': 17, 'R': 4, 'A': 1})
+B Axellwppr/HITCH | HITCH: Teaching a Vision-Language Model to Op | paper cited + runnable usage, no explicit 'official' claim | weights
+B yaozhang182/inhabitant | Inhabitant: An Agent Framework for Long-Horiz | paper cited + runnable usage, no explicit 'official' claim | weights
+R nico-bohlinger/xmimic | XMimic and XSoma: Learning Humanoid Motion Tr | reproduction/unofficial | weights
+R nico-bohlinger/xsoma | XMimic and XSoma: Learning Humanoid Motion Tr | reproduction/unofficial | weights
+A kimodo-policy/kimodo-policy | Kimodo-Policy: Learning Kinematic Action Mode | paper cited + official claim + runnable usage | weights
+B ryan-seungyong-lee/RoboTryOn | RoboTryOn: Synthesizing Dexterous Robot Demon | paper cited + runnable usage, no explicit 'official' claim | weights
+B jellyho/telescene | Telescene whole-body humanoid teleoperation | paper cited + runnable usage, no explicit 'official' claim | weights
+B HybridRobotics/supermimic | SuperMimic | paper cited + runnable usage, no explicit 'official' claim 
+R Motphys/Uni-SuperMimic | SuperMimic | reproduction/unofficial | weights
+B NVlabs/GR00T-WholeBodyControl | GR00T whole-body control | paper cited + runnable usage, no explicit 'official' claim | weights
+R nico-bohlinger/xmimic | XMimic and XSoma: Learning Humanoid Motion Tr | reproduction/unofficial | weights
+B Jordanlllll/FORTH | FORTH: Grounding Tactile VLA Execution via Fo | paper cited + runnable usage, no explicit 'official' claim | weights
+B Mind2Act/Mind2Act_World | Mind2Act World: A Diagnostic Benchmark for Em | paper cited + runnable usage, no explicit 'official' claim | weights
+B robfiras/loco-mujoco | LocoMuJoCo: A Comprehensive Imitation Learnin | paper cited + runnable usage, no explicit 'official' claim | weights
+B franciscoliu/SAFI | Teaching Vision-Language-Action Models to Sto | paper cited + runnable usage, no explicit 'official' claim | weights
+B dipper13579/urbantwin-sim2real-lidar | Fixing the Twin, Not the Detector: Sim-to-Rea | paper cited + runnable usage, no explicit 'official' claim | weights
+B starsholic/AeroRSI | AeroRSI: Recursive Self-Improvement for Aeria | paper cited + runnable usage, no explicit 'official' claim | weights
+B AIGeeksGroup/WAM-Policy | WAM-Policy: World Action Models with On-Polic | paper cited + runnable usage, no explicit 'official' claim | weights
+B zajirA1/humanoid | humanoid | paper cited + runnable usage, no explicit 'official' claim 
+B original-dk/compliant-humanoid | compliant-humanoid | paper cited + runnable usage, no explicit 'official' claim | weights
+B atanas1054/SmallDrive | SmallDrive: An Efficient Vision-Language-Acti | paper cited + runnable usage, no explicit 'official' claim | weights
+B 47thtechcorner/RayCodes_SmolVLM2 | SmolVLM2 Dropped: 100% Offline Video AI on La | paper cited + runnable usage, no explicit 'official' claim | weights
+B antiloafer/GR00T-WholeBodyControl | GR00T-WholeBodyControl | paper cited + runnable usage, no explicit 'official' claim | weights
+B angor-root/rewire | REWIRE: Rapid Equilibrium through Whole-body  | paper cited + runnable usage, no explicit 'official' claim 
+B Thu-WangMX/MemE-WAM-Memory-Efficient-World-Action-Models- | MemE-WAM-Memory-Efficient-World-Action-Models | paper cited + runnable usage, no explicit 'official' claim | weights
+B FlexWAM/FlexWAM | FlexWAM: Learning Flexible Visual Routing for | paper cited + runnable usage, no explicit 'official' claim | weights
+B bageldotcom/Bagel-Robotics-1 | Bagel Labs’ open-weight world-action model fo | paper cited + runnable usage, no explicit 'official' claim | weights
+B Anirudh-Senani/jepa-world-model-from-scratch | Build an action-conditioned Joint Embedding P | paper cited + runnable usage, no explicit 'official' claim 
