@@ -27,6 +27,22 @@ for p in R:
     if rs: rows_+=f'<tr><td class="n">{p["date"]}</td><td>{E(p["title"])}<div class="s">'+" · ".join(f'<a href="https://github.com/{r["repo"]}">{r["repo"]}</a> ★{r["stars"]} ({r["kind"]})' for r in rs[:3])+"</div></td></tr>"
 body+='<h2>Code found on GitHub for recent papers</h2><p class="m">Repos whose README cites the paper. Papers under 2 weeks old rarely have independent reproductions yet; &ldquo;mentions&rdquo; means the repo cites the paper and is not confirmed official.</p><div class="w"><table>'+rows_+'</table></div>'
 body+='<h2>Community reproductions found (older papers)</h2><div class="w"><table><tr><td><a href="https://github.com/Motphys/Uni-SuperMimic">Motphys/Uni-SuperMimic</a> ★314<div class="s">independent reproduction of SuperMimic on UniLab</div></td></tr><tr><td><a href="https://github.com/bytepioneerX/Acp_supermimic_vibed">bytepioneerX/Acp_supermimic_vibed</a><div class="s">ACP reproduction + SuperMimic for Unitree G1</div></td></tr><tr><td><a href="https://github.com/kaibohex/muscle-supermimic">kaibohex/muscle-supermimic</a><div class="s">SuperMimic tracking for muscle-driven humanoids on mjlab</div></td></tr><tr><td><a href="https://github.com/EGalahad/mimic-lite">EGalahad/mimic-lite</a> ★76<div class="s">efficient humanoid motion tracking, scalable sim-to-real training</div></td></tr></table></div>'
+F=json.load(open('/home/user/Robot_learning/frontier/fresh.json'))
+V={ (v["arxiv"] or v["title"], v["repo"]):v for v in json.load(open('/home/user/Robot_learning/frontier/verified.json'))}
+def fr(p):
+    h=p.get("hf"); extra=""
+    if h: extra=f' · HF ▲{h["up"]}'+(f' · <a href="{E(h["repo"])}">repo</a>' if h.get("repo") else "")
+    return f'<tr><td class="n">{p["date"]}</td><td><a href="https://arxiv.org/abs/{p["id"]}">{E(p["title"])}</a><div class="s">{E(", ".join(p["authors"]))} · {p["cat"]}{extra}</div></td></tr>'
+fresh='<h2>Fresh from arXiv (last 3 days, direct feed)</h2><div class="w"><table>'+"".join(fr(p) for p in F["papers"][:60])+'</table></div>'
+TIER={"A":"released, official claim","B":"released, paper cited","R":"independent reproduction"}
+vr=[v for v in json.load(open('/home/user/Robot_learning/frontier/verified.json')) if v["tier"] in TIER]
+seen=set(); vrows=""
+for v in sorted(vr,key=lambda x:x["tier"]):
+    if v["repo"] in seen: continue
+    seen.add(v["repo"]); vrows+=f'<tr><td>{v["tier"]}</td><td><a href="https://github.com/{v["repo"]}">{v["repo"]}</a><div class="s">{E(v["title"][:80])} · {TIER[v["tier"]]}{" · weights" if v.get("weights") else ""}</div></td></tr>'
+nr=sum(1 for v in json.load(open('/home/user/Robot_learning/frontier/verified.json')) if v["tier"]=="S")
+ver=f'<h2>Verified code (README read)</h2><p class="m">Tier A/B/R only. {nr} repos were excluded because the README says code is not released or the repo is only a page.</p><div class="w"><table>{vrows}</table></div>'
+body=fresh+ver+body
 nc=sum('code' in i for i in d['items'])
 open('/tmp/claude-0/-home-user-Robot-learning/0673c822-7c37-5a1e-9ffa-49cb001bb9d2/scratchpad/frontier.html','w').write(f'''<title>Humanoid Frontier Map</title>
 <meta name="claude:viewport-fit-sides" content="cover">

@@ -1,6 +1,87 @@
-[{"title":"zeta0 world action model","arxiv":null,"repo":"chenyizhi123/zeta0-project"},
- {"title":"Telescene whole-body humanoid teleoperation","arxiv":null,"repo":"jellyho/telescene"},
- {"title":"SuperMimic","arxiv":null,"repo":"HybridRobotics/supermimic"},
- {"title":"SuperMimic","arxiv":null,"repo":"Motphys/Uni-SuperMimic"},
- {"title":"GR00T whole-body control","arxiv":null,"repo":"NVlabs/GR00T-WholeBodyControl"},
- {"title":"XMimic and XSoma: Learning Humanoid Motion Tracking","arxiv":"2611.20452","repo":"nico-bohlinger/xmimic"}]
+[
+ {
+  "title": "zeta0 world action model",
+  "arxiv": null,
+  "repo": "chenyizhi123/zeta0-project"
+ },
+ {
+  "title": "Telescene whole-body humanoid teleoperation",
+  "arxiv": null,
+  "repo": "jellyho/telescene"
+ },
+ {
+  "title": "SuperMimic",
+  "arxiv": null,
+  "repo": "HybridRobotics/supermimic"
+ },
+ {
+  "title": "SuperMimic",
+  "arxiv": null,
+  "repo": "Motphys/Uni-SuperMimic"
+ },
+ {
+  "title": "GR00T whole-body control",
+  "arxiv": null,
+  "repo": "NVlabs/GR00T-WholeBodyControl"
+ },
+ {
+  "title": "XMimic and XSoma: Learning Humanoid Motion Tracking",
+  "arxiv": "2611.20452",
+  "repo": "nico-bohlinger/xmimic"
+ },
+ {
+  "title": "Skill-JEPA: Learning Planner-Aligned Action Spaces for World Models",
+  "arxiv": "2611.26825",
+  "repo": "tcouso/Skill-JEPA"
+ },
+ {
+  "title": "FORTH: Grounding Tactile VLA Execution via Forward-Only Proxy-Control Pairing",
+  "arxiv": "2611.26744",
+  "repo": "Jordanlllll/FORTH"
+ },
+ {
+  "title": "Mind2Act World: A Diagnostic Benchmark for Embodied Mind, Physical Action, and Mind-Action Composition in Robotic Manipulation",
+  "arxiv": "2611.26444",
+  "repo": "Mind2Act/Mind2Act_World"
+ },
+ {
+  "title": "LocoMuJoCo: A Comprehensive Imitation Learning Benchmark for Whole-Body Control",
+  "arxiv": "2611.26293",
+  "repo": "robfiras/loco-mujoco"
+ },
+ {
+  "title": "Teaching Vision-Language-Action Models to Stop Safely",
+  "arxiv": "2611.26239",
+  "repo": "franciscoliu/SAFI"
+ },
+ {
+  "title": "Fixing the Twin, Not the Detector: Sim-to-Real Roadside LiDAR Detection from Digital-Twin Data",
+  "arxiv": "2611.26035",
+  "repo": "dipper13579/urbantwin-sim2real-lidar"
+ },
+ {
+  "title": "ActMem: From Latent Memory Reasoning to Grounded Robotic Action",
+  "arxiv": "2611.25461",
+  "repo": "LigphiDonk/ActMem"
+ },
+ {
+  "title": "Inhabitant: An Agent Framework for Long-Horizon Human-Scene Interaction with Spatial Control and Quantitative Feedback",
+  "arxiv": "2611.25005",
+  "repo": "yaozhang182/inhabitant"
+ },
+ {
+  "title": "TrajWAM: Trajectory-Conditioned Future Learning for Vision-Language Driving",
+  "arxiv": "2611.24192",
+  "repo": "FangWD520/TrajWAM"
+ },
+ {
+  "title": "AeroRSI: Recursive Self-Improvement for Aerial Vision-Language Navigation",
+  "arxiv": "2611.24077",
+  "repo": "starsholic/AeroRSI"
+ },
+ {
+  "title": "WAM-Policy: World Action Models with On-Policy Distillation for Quadrupedal Loco-Manipulation",
+  "arxiv": "2611.24011",
+  "repo": "AIGeeksGroup/WAM-Policy"
+ }
+]
