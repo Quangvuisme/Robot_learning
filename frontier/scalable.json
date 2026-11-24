@@ -1,0 +1,92 @@
+[
+ {
+  "repo": "LeCAR-Lab/BFM-Zero",
+  "stars": 845,
+  "pushed": "2026-10-21",
+  "created": "2025-11-04",
+  "lic": "NOASSERTION",
+  "desc": "BFM_Zero: A Promptable Behavioral Foundation Model for Humanoid Control Using Unsupervised Reinforce",
+  "flags": [
+   "multi",
+   "weights",
+   "usage",
+   "train",
+   "soon",
+   "sim2real"
+  ],
+  "head": " BFM-Zero: A Promptable Behavioral Foundation Model for Humanoid Control Using Unsupervised Reinforcement Learning arXiv Paper Website Code Code will be released in stages: - x Pretrained checkpoints ",
+  "arxiv": [
+   "2511.04131"
+  ]
+ },
+ {
+  "repo": "zengweishuai/ScaleBFM",
+  "stars": 313,
+  "pushed": "2026-07-25",
+  "created": "2026-07-16",
+  "lic": null,
+  "desc": "The official implementation of the paper \"Scaling Behavior Foundation Model for Humanoid Robots\"",
+  "flags": [
+   "multi",
+   "sim2real"
+  ],
+  "head": " ScaleBFM The official implementation of Scaling Behavior Foundation Model for Humanoid Robots. ScaleBFM investigates how Behavior Foundation Models can be effectively scaled through the coordinated d",
+  "arxiv": [
+   "2607.15163"
+  ]
+ },
+ {
+  "repo": "Gamma-Robot/bfm_ttc",
+  "stars": 227,
+  "pushed": "2026-10-20",
+  "created": "2026-10-10",
+  "lic": "NOASSERTION",
+  "desc": "Code for Test-Time Compute for Humanoid Behavior Foundation Models",
+  "flags": [
+   "moe",
+   "multi",
+   "weights",
+   "usage"
+  ],
+  "head": " Test-Time Compute for Humanoid Behavior Foundation Models Weiji Xie†, Junsong Wu†, Zibo Zhou, Yueru Chen, Xingyi Wang, Zhenhua Xiong, Weinan Zhang, Chenjia Bai Paper · Project page We study how test-",
+  "arxiv": [
+   "2610.14896"
+  ]
+ },
+ {
+  "repo": "Roboparty/P-BFM",
+  "stars": 132,
+  "pushed": "2026-11-17",
+  "created": "2026-10-04",
+  "lic": "NOASSERTION",
+  "desc": "Perceptive behavioral foundation models for terrain-adaptive humanoid control: motion tracking, goal",
+  "flags": [
+   "multi",
+   "weights",
+   "usage",
+   "train",
+   "sim2real"
+  ],
+  "head": " P-BFM: Perceptive Behavioral Foundation Models for Humanoid Control via Unsupervised Reinforcement Learning English 中文 &nbsp;&nbsp;&nbsp;&nbsp; P-BFM maps motion references, target body states, and r",
+  "arxiv": [
+   "2610.15833"
+  ]
+ },
+ {
+  "repo": "LogosIntelligenceLab/x-wbc",
+  "stars": 21,
+  "pushed": "2026-10-25",
+  "created": "2026-09-11",
+  "lic": null,
+  "desc": "[CoRL 2026] Official repository and project page for X-WBC: A Cross-Embodiment Foundation Model for ",
+  "flags": [
+   "multi",
+   "weights",
+   "sim2real"
+  ],
+  "head": "X-WBC: A Cross-Embodiment Foundation Model for Humanoid Whole-Body Control CoRL 2026 Project Page · Paper · Video · Repository X-WBC overview(docs/assets/images/teaser.png) Release status: This reposi",
+  "arxiv": [
+   "2609.15213"
+  ]
+ }
+]
