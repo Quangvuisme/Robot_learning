@@ -17,7 +17,7 @@
  },
  {
   "repo": "enactic/openarm",
-  "stars": 3719,
+  "stars": 3720,
   "pushed": "2026-11-23",
   "created": "2024-09-29",
   "desc": "A fully open-source humanoid arm for physical AI research and deployment in contact-rich environments.",
@@ -57,7 +57,7 @@
  },
  {
   "repo": "RainBowLuoCS/Gamer",
-  "stars": 1463,
+  "stars": 1465,
   "pushed": "2026-11-16",
   "created": "2026-10-30",
   "desc": "Official Implementation of Gamer: A Generalist Vision-Language-Action Foundation Model for Long-Horizon Real-T",
@@ -145,7 +145,7 @@
  },
  {
   "repo": "CumulusAlpha/Dex-Supermimic",
-  "stars": 161,
+  "stars": 162,
   "pushed": "2026-11-03",
   "created": "2026-10-26",
   "desc": "This is a reproduction of SuperMimic for dexterous hand manipulation tasks.",
