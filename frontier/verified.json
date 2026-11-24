@@ -2832,5 +2832,23 @@
   "head": " Role-Aware 4D World\u2013Action Modeling for Dynamic Manipulation Jiaqi Yin1,2&nbsp;&nbsp; Baoyue Zhang2&nbsp;&nbsp; Jiyuan Zhang3&nbsp;&nbsp; Wenxuan Liu2&nbsp;&nbsp; Zhaofei Yu2&nbsp;&nbsp; Yue Deng1,\u2020&nbsp;&nbsp; Tiejun H",
   "tier": "B",
   "why": "paper cited + runnable usage, no explicit 'official' claim"
+ },
+ {
+  "title": "Blender Python humanoid rig, QA framework and showcase pipeline",
+  "arxiv": null,
+  "repo": "411tmnd-star/Humanoid-Robot",
+  "id_in_readme": false,
+  "title_in_readme": false,
+  "name_in_readme": false,
+  "official_claim": false,
+  "unofficial_claim": false,
+  "coming_soon": false,
+  "usage": true,
+  "weights": false,
+  "len": 4824,
+  "evidence": [],
+  "head": "\ufeff Humanoid-Robot A humanoid service robot built, rigged, checked and rendered with Blender Python: 184 bones in three layers, a read-only QA framework, and an export that is verified in Three.js. 411 humanoid robot, thre",
+  "tier": "X",
+  "why": "README does not mention the paper"
  }
 ]

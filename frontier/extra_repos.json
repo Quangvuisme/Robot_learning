@@ -298,5 +298,10 @@
   "title": "Role-Aware 4D World\u2013Action Modeling for Dynamic Manipulation",
   "arxiv": null,
   "repo": "ArrebolBlack/FoveaWAM"
+ },
+ {
+  "title": "Blender Python humanoid rig, QA framework and showcase pipeline",
+  "arxiv": null,
+  "repo": "411tmnd-star/Humanoid-Robot"
  }
 ]
