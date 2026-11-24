@@ -1,146 +1,174 @@
 {
  "papers": [
   {
-   "id": "2611.30308",
-   "title": "ConsisX: Cross-View Consistency Thinking in 3D for Vision-Language-Action Models",
+   "id": "2611.30083",
+   "title": "MotionServe: Efficient Multi-Robot Serving by Exploiting Robot Execution Slack",
    "date": "2026-11-23",
    "authors": [
-    "Yunhe Zhang",
-    "Long Gao",
-    "Yuedong Fu",
-    "Gang He"
+    "Zikang Wen",
+    "Yuning Zhang",
+    "Dong Yuan"
    ],
-   "abstract": "Vision-language-action (VLA) models integrate visual perception and language understanding from vision-language models (VLMs) with action prediction for robotic manipulation. Although multi-view observations provide complementary scene information, VLMs model cross-view interactions based on 2D feat",
+   "abstract": "As robotic arms undertake diverse manipulation tasks, a deployment may need to serve many task-specific vision-language-action (VLA) policies concurrently. Dedicating a GPU to each robot is costly, motivating shared-GPU inference. Low-rank adaptation (LoRA) allows compatible policies to share a froz",
    "cat": "cs.RO",
    "comment": "",
    "code_in_text": []
   },
   {
-   "id": "2611.30291",
-   "title": "Beyond Which: Where, How, and When in Vision-Language-Action Models",
+   "id": "2611.30077",
+   "title": "PushMimic: Learning Adaptive Humanoid Box Pushing via Dynamic Motion Augmentation and Reference Distillation",
    "date": "2026-11-23",
    "authors": [
-    "Yunhe Zhang",
-    "Long Gao",
-    "Yuedong Fu",
-    "Gang He"
+    "Yulun Zhuang",
+    "Hanyu Zhang",
+    "Jingyu Liu",
+    "Yanran Ding"
    ],
-   "abstract": "Vision-language-action (VLA) models typically rely on vision-language model (VLM) features as the primary perceptual source for action prediction, showing strong generalization across diverse robotic manipulation tasks. Although VLM features can identify which entities are relevant to action predict",
+   "abstract": "Humanoid box pushing is challenging when the physical properties of the task, such as the box mass and the ramp inclination, are unknown before the push begins. This paper presents PushMimic, a framework that learns adaptive humanoid box pushing from a single level-ground kinematic reference motion.",
+   "cat": "cs.RO",
+   "comment": "9 pages, 10 figures, 3 tables. Website at https://silvery107.github.io/pushmimic/",
+   "code_in_text": []
+  },
+  {
+   "id": "2611.30042",
+   "title": "SWAM: State-aware World Action Model for Multi-Agent 3D Environments",
+   "date": "2026-11-23",
+   "authors": [
+    "Jenna Kang",
+    "Bingxuan Li",
+    "Colin Groth",
+    "Anatolii Evdokimov"
+   ],
+   "abstract": "Interactive world models generate virtual environments autoregressively from player actions and visual history. However, visual history alone cannot reliably capture the evolving states of independently acting non-player characters (NPCs) in real games, particularly when they are outside the camera ",
+   "cat": "cs.AI",
+   "comment": "",
+   "code_in_text": []
+  },
+  {
+   "id": "2611.30041",
+   "title": "Spiking World-Action Models for Robotic Manipulation",
+   "date": "2026-11-23",
+   "authors": [
+    "Mingquan Liu",
+    "Peng Zhou",
+    "Shanming Yao",
+    "Shuai Wang"
+   ],
+   "abstract": "World action models (WAMs) predict how the world responds to actions and offer a promising path toward general embodied intelligence, but they are large and run the network many times per plan, so they are hard to deploy on robots. Spiking neural networks (SNNs) compute with sparse binary spikes and",
    "cat": "cs.RO",
    "comment": "",
    "code_in_text": []
   },
   {
-   "id": "2611.30209",
-   "title": "RoboAda: Adapting Frozen Robot Policies at Test Time to Physics They Cannot See",
+   "id": "2611.30026",
+   "title": "Design of a Compact Cable-driven 4-DoF Salamander Robotic Limb with Large Range of Motion and High Load Capacity",
    "date": "2026-11-23",
    "authors": [
-    "Yunbei Zhang",
-    "Zijian Jin",
-    "Shuaicheng Niu",
-    "Baian Chen"
+    "Zhuowen Li",
+    "Qiyuan Fu",
+    "Auke Ijspeert"
    ],
-   "abstract": "Pretrained robot policies decide what to do from camera images, yet some of the physics that decides whether their plans succeed is not visible. An object may look light but be 100 times heavier, and a weakened joint or a lagging controller leaves no trace in the image. When the physics at deploymen",
-   "cat": "cs.RO",
-   "comment": "Project page and code: https://RoboAda.github.io/",
-   "code_in_text": []
-  },
-  {
-   "id": "2611.30195",
-   "title": "Quantization for Action, Execution for Deployment: Joint Precision and Execution Selection for World Action Models",
-   "date": "2026-11-23",
-   "authors": [
-    "Tianqi Li",
-    "Xin He",
-    "Xue Geng",
-    "Le Zhang"
-   ],
-   "abstract": "World action models guide robots by predicting the effects of actions or generating commands from observations. A model may compare hundreds of candidate futures before acting, repeatedly reading weights that must fit in device memory. Post-training quantization reduces the number of bits used to st",
-   "cat": "cs.CV",
-   "comment": "",
-   "code_in_text": []
-  },
-  {
-   "id": "2611.30188",
-   "title": "Calibrating World Action Models: From Adaptive System 2 Takeover to Self-Evolution",
-   "date": "2026-11-23",
-   "authors": [
-    "Wenhao Li",
-    "Yu Han",
-    "Xiu Su",
-    "Dehao Wu"
-   ],
-   "abstract": "World action models (WAMs) deliver fast visuomotor control, yet degrade sharply in challenging scenes and act blindly when about to fail; conversely, foundation-model-based agents generalize and recover reliably, but incur prohibitive latency and cost when queried at every step. To achieve both WAM ",
+   "abstract": "A compact yet agile and powerful limb is essential for amphibious legged robots that transition between spine-based swimming and leg-based terrestrial walking, as salamanders do. Salamander limbs combine large ranges of motion (ROM), multiple degrees of freedom (DoFs), and high load capacity. These ",
    "cat": "cs.RO",
    "comment": "",
    "code_in_text": []
   },
   {
-   "id": "2611.30178",
-   "title": "Quantizing in the Loop: Drift-Aware Ultra-Low-Bit Vision-Language-Action Models",
+   "id": "2611.30024",
+   "title": "FlexWAM: Learning Flexible Visual Routing for World Action Models",
    "date": "2026-11-23",
    "authors": [
-    "Yanlong Chen",
-    "Thongthornpatch Chamadol",
-    "Yichen Guo",
-    "Yunfei Gao"
+    "Mingyu Mei",
+    "Haojie Xu",
+    "Zibo Dai",
+    "Hongjie Fang"
    ],
-   "abstract": "Deploying large vision-language-action (VLA) models on resource-constrained robots demands extreme compression, yet existing post-training quantization (PTQ) methods frequently collapse at ultra-low bit-widths ($\\le$ 2 bits). We trace this failure to two mismatches in standard pipelines. First, cali",
+   "abstract": "Humans dynamically adjust their reliance on sensory modalities across manipulation stages. Although existing World Action Models (WAMs) fuse multi-camera observations, they struggle to adapt their reliance on individual views based on the current observations. This raises a central question: how can",
    "cat": "cs.RO",
-   "comment": "The paper is currently under review. Code and models: https://github.com/ForeverBlue816/LoopQ",
+   "comment": "Project website: https://flexwam.github.io/",
+   "code_in_text": []
+  },
+  {
+   "id": "2611.29980",
+   "title": "TeleMultiStream: An Integrated Robot Teleoperation System with Low-Latency Multi-Stream Video Feedback",
+   "date": "2026-11-23",
+   "authors": [
+    "Chenchen Lv",
+    "Lingchen Hu",
+    "Yaosai Zhang",
+    "Chunlan Li"
+   ],
+   "abstract": "Training embodied-intelligence models requires large-scale, high-quality demonstration data. Robot teleoperation provides an important means of collecting these data. Low-latency teleoperation also helps human operators take control promptly and provide corrective demonstrations in DAgger-based inte",
+   "cat": "cs.RO",
+   "comment": "",
+   "code_in_text": []
+  },
+  {
+   "id": "2611.29897",
+   "title": "Motion Mamba 2.0: Autoregressive Diffusion Mamba for Long-Horizon Humanoid Control",
+   "date": "2026-11-23",
+   "authors": [
+    "Yue Huang",
+    "Tianshan Zhang",
+    "Zeyu Zhang",
+    "Jayeon Kang"
+   ],
+   "abstract": "Long-horizon, real-time controllable motion generation is essential for interactive animation and humanoid robotics, where an agent must respond to changing instructions and spatial goals while moving. Existing autoregressive diffusion methods generate motion incrementally, but bounded attention cac",
+   "cat": "cs.RO",
+   "comment": "Code: https://github.com/AIGeeksGroup/MotionMamba2.0. Website: https://aigeeksgroup.github.io/MotionMamba2.0",
+   "hf": {
+    "up": 4,
+    "repo": "https://github.com/AIGeeksGroup/MotionMamba2.0",
+    "stars": null,
+    "proj": "https://aigeeksgroup.github.io/MotionMamba2.0/"
+   },
    "code_in_text": [
-    "https://github.com/ForeverBlue816/LoopQ"
+    "https://github.com/AIGeeksGroup/MotionMamba2.0."
    ]
   },
   {
-   "id": "2611.30145",
-   "title": "RMR-VLA: Recurrent Memory Reasoning for Vision-Language-Action Models",
+   "id": "2611.29873",
+   "title": "ProMix: Efficient Data Mixture Optimization for Robotic Imitation via Proxy-Reference DRO",
    "date": "2026-11-23",
    "authors": [
-    "Yiheng Du",
-    "Jingqi Tian",
-    "Xu Jiang",
-    "Jiexuan Zhang"
+    "Qie Sima",
+    "Wei Xue",
+    "Yike Guo"
    ],
-   "abstract": "Long-horizon, history-dependent robotic manipulation often requires acting on visual cues that have disappeared, such as an object indicated earlier or a target hidden under a moving cup. The key challenge is to maintain what past evidence means for the next action as the scene changes. We introduce",
-   "cat": "cs.CV",
+   "abstract": "Vision-Language-Action (VLA) models excel in open-world manipulation, yet their performance often saturates when training data are naively pooled across heterogeneous robots, tasks, and environments. Distributionally robust data mixture optimization, exemplified by Re-Mix, can recover much of this p",
+   "cat": "cs.RO",
    "comment": "",
    "code_in_text": []
   },
   {
-   "id": "2611.30111",
-   "title": "RoboThink: Let the Agent Think, Let the Policy Act",
+   "id": "2611.29868",
+   "title": "Arcadian: Open-Source Humanoid Ecosystem for Accessible and Customizable Research and Education",
    "date": "2026-11-23",
    "authors": [
-    "Yunbei Zhang",
-    "Zijian Jin",
-    "Janet Wang",
-    "Xingchen Zhao"
+    "Zelin Shen",
+    "Gabriel Ramos Salinas",
+    "Qiyu Zhang",
+    "Yue Qin"
    ],
-   "abstract": "Robot policies act in real time but fail without knowing why, whereas a reasoning agent that watches the robot can often tell what went wrong. Existing systems either hand the agent control, which takes minutes per episode, or let it send instructions. Yet a policy follows a new instruction only fro",
+   "abstract": "Reproducing and modifying a meter-scale humanoid remains challenging for research and teaching groups with limited fabrication resources and engineering support. This paper presents Arcadian, an open-source humanoid ecosystem that offers accessible and customizable humanoid hardware and software wit",
    "cat": "cs.RO",
-   "comment": "Project page and code: https://robo-think.github.io/",
+   "comment": "8 pages, 10 figures, project website https://arcadian-humanoid.github.io/",
+   "code_in_text": []
+  },
+  {
+   "id": "2611.29813",
+   "title": "Hierarchical Reasoning Action Head for Tiny Vision-Language-Action Models",
+   "date": "2026-11-22",
+   "authors": [
+    "Aditya Makineni",
+    "Amitesh Sahoo",
+    "Qing Tian"
+   ],
+   "abstract": "Real-time onboard robot control calls for a lightweight vision-language-action (VLA) model, yet shrinking the backbone leaves less capacity for deliberation at inference time. Chain-of-thought decoding, dual-system architectures, and larger backbones can restore deliberation but reintroduce the late",
+   "cat": "cs.CV",
+   "comment": "10 pages, 6 figures, 4 tables",
    "code_in_text": []
   }
  ],
- "repos": [
-  {
-   "title": "humanoid-sim",
-   "arxiv": null,
-   "repo": "SeonilChoi/humanoid-sim",
-   "id_in_readme": false,
-   "title_in_readme": true,
-   "name_in_readme": true,
-   "official_claim": false,
-   "unofficial_claim": false,
-   "coming_soon": false,
-   "usage": true,
-   "weights": true,
-   "len": 11050,
-   "evidence": [],
-   "head": " humanoid_sim Isaac Lab project for the ARTI-H1 robot, trained with the method of M\u00fcller, Knoop et al., Olaf: Bringing an Animated Character to Life in the Physical World (arXiv 2512.16705v2). It starts from arti_h1_olaf",
-   "tier": "B",
-   "why": "paper cited + runnable usage, no explicit 'official' claim"
-  }
- ]
+ "repos": []
 }

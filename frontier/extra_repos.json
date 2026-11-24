@@ -328,5 +328,10 @@
   "title": "humanoid-sim",
   "arxiv": null,
   "repo": "SeonilChoi/humanoid-sim"
+ },
+ {
+  "title": "humanoid-ws",
+  "arxiv": null,
+  "repo": "SeonilChoi/humanoid-ws"
  }
 ]

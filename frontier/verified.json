@@ -2758,19 +2758,8 @@
   "title": "humanoid_cpp",
   "arxiv": null,
   "repo": "Pranava116/humanoid_cpp",
-  "id_in_readme": false,
-  "title_in_readme": false,
-  "name_in_readme": false,
-  "official_claim": false,
-  "unofficial_claim": false,
-  "coming_soon": false,
-  "usage": true,
-  "weights": false,
-  "len": 2712,
-  "evidence": [],
-  "head": " humanoid (C++) C++20 rewrite of the Python humanoid controller. No classes: plain structs plus free functions (see docs/architecture.md). Layout CMakeLists.txt top-level build cmake/ shared CMake helpers config/ robot.y",
   "tier": "X",
-  "why": "README does not mention the paper"
+  "why": "no README or private"
  },
  {
   "title": "Procedural humanoid figure built and rendered entirely from Python in Blender 4.2.1",
@@ -2933,5 +2922,23 @@
   "head": " humanoid_sim Isaac Lab project for the ARTI-H1 robot, trained with the method of M\u00fcller, Knoop et al., Olaf: Bringing an Animated Character to Life in the Physical World (arXiv 2512.16705v2). It starts from arti_h1_olaf",
   "tier": "B",
   "why": "paper cited + runnable usage, no explicit 'official' claim"
+ },
+ {
+  "title": "humanoid-ws",
+  "arxiv": null,
+  "repo": "SeonilChoi/humanoid-ws",
+  "id_in_readme": false,
+  "title_in_readme": true,
+  "name_in_readme": true,
+  "official_claim": false,
+  "unofficial_claim": false,
+  "coming_soon": false,
+  "usage": false,
+  "weights": false,
+  "len": 14,
+  "evidence": [],
+  "head": " humanoid-ws ",
+  "tier": "S",
+  "why": "mentions paper but no usage instructions"
  }
 ]
