@@ -1,103 +1,36 @@
 {
  "papers": [
   {
-   "id": "2611.29749",
-   "title": "CarlHOI: Counterfactual Predictive Imagination for Generalizable Multi-Humanoid Object Interaction under Constrained Environments",
+   "id": "2611.29279",
+   "title": "A2I-VLA: A Two-Stage Vision-Language-Action model with Semantic-Physical Alignment and Integration",
    "date": "2026-11-22",
    "authors": [
-    "Wenjie Lin",
-    "Jin Wei-Kocsis"
+    "Kun Dai",
+    "Tianqi Wang",
+    "Haibo Lei",
+    "Chaoyang Li"
    ],
-   "abstract": "Recent advances in physics-based humanoid control enable teams of varying sizes to coordinate their movements and cooperatively transport shared objects. However, adapting learned cooperative behaviors to unseen environmental constraints remains challenging, particularly when obstacles require coord",
-   "cat": "cs.RO",
-   "comment": "Project page: https://carlhoi.github.io",
-   "code_in_text": []
-  },
-  {
-   "id": "2611.29646",
-   "title": "JKO-GRPO: Augmenting GRPO with Wasserstein Proximal Steps for Flow-Matching VLAs",
-   "date": "2026-11-22",
-   "authors": [
-    "Jiyong Kwon",
-    "Yikun Bai",
-    "Amirhossein Mollaali",
-    "Guang Lin"
-   ],
-   "abstract": "Flow-based vision-language-action (VLA) models such as $\u03c0_0,\u03c0_{0.5}$ generate continuous action chunks by flow matching, and online reinforcement learning (RL) can improve them beyond supervised fine-tuning. Existing methods, such as Flow-GRPO and $\u03c0_{\\mathrm{RL}}$, optimize likelihood ratios of sto",
+   "abstract": "Force and tactile feedback provide essential information about physical interactions in contact-rich manipulation that visual observations alone cannot reliably capture.However, integrating these signals into vision-language-action (VLA) models remains challenging owing to the representational gap b",
    "cat": "cs.RO",
    "comment": "",
    "code_in_text": []
   },
   {
-   "id": "2611.29610",
-   "title": "Dr. Grasp-RL: Diverse and Robust Dexterous Grasping via Reinforcement Learning",
+   "id": "2611.29277",
+   "title": "$\u03b6_0$: A Framework for World Action Models with Joint Scene and Body Foresight in Humanoid Control",
    "date": "2026-11-22",
    "authors": [
-    "Kunqi Xu",
-    "Xiaokang Sun",
-    "Xueyan Zou"
+    "Yizhi Chen",
+    "Zhanxiang Cao",
+    "Yitong Wang",
+    "Junyu Liu"
    ],
-   "abstract": "Human interaction with physical objects relies on a combination of dexterity and robustness. In robotic manipulation, dexterity requires not only flexible end effectors but also a diverse repertoire of manipulation strategies, while robustness requires closed-loop adaptation to disturbances and unex",
+   "abstract": "World Action Models anticipate visual outcomes to guide robot actions, yet humanoid interaction also depends on how the robot's body responds. Visual foresight alone can miss body motion, while latent-distance losses do not directly supervise action responses. We present $\u03b6_0$, a framework that turn",
    "cat": "cs.RO",
-   "comment": "",
-   "code_in_text": []
-  },
-  {
-   "id": "2611.29553",
-   "title": "Detecting Is Not Choosing: What a World Model Needs to Keep a VLA Policy Safe",
-   "date": "2026-11-22",
-   "authors": [
-    "Thanish Bolla"
-   ],
-   "abstract": "Vision-language-action (VLA) policies complete most benchmark tasks but often violate safety constraints. Since they are stochastic, one remedy is to sample several candidate action chunks and execute one that a world model predicts is safe. We ask what such a model must do. In simulation, a lookahe",
-   "cat": "cs.RO",
-   "comment": "10 pages, 1 figure, 1 table. Accepted at the CoRL 2026 Workshop \"Do Robots Need World Models?\". OpenReview: https://openreview.net/forum?id=oIzsAcOuYl",
-   "code_in_text": []
-  },
-  {
-   "id": "2611.29501",
-   "title": "MAWAM: Joint Imagination for Collaborative Robot Manipulation with a Multi-Agent World Action Model",
-   "date": "2026-11-22",
-   "authors": [
-    "Rongze Tang",
-    "Chenyu Zhou",
-    "Jianjie Fang",
-    "Ziming Liu"
-   ],
-   "abstract": "World action models (WAMs) excel at robot manipulation by imagining future observations and decoding actions from them, yet remain confined to a single embodied agent. In practice, manipulation often requires multiple robots to collaborate across disjoint workspaces, coupled timing, and heterogeneou",
-   "cat": "cs.RO",
-   "comment": "Project page: https://embodiedcity.github.io/MAWAM/",
-   "code_in_text": []
-  },
-  {
-   "id": "2611.29383",
-   "title": "Self-Refining VLA Sampling",
-   "date": "2026-11-22",
-   "authors": [
-    "Jeff Duan",
-    "Arjun Sharma",
-    "Jennifer Cruden",
-    "Vansh Tibrewal"
-   ],
-   "abstract": "Vision-Language-Action (VLA) models typically use flow-based generative modeling to learn a rich, often multimodal, distribution of robot actions. Generating samples from flow-based methods involves iteratively updating random noise, and distinct noise samples from the same state can result in disti",
-   "cat": "cs.RO",
-   "comment": "Accepted to the CoRL 2026 Learn@Deploy Workshop",
-   "code_in_text": []
-  },
-  {
-   "id": "2611.29339",
-   "title": "More Than Picturing the Future: Motion-Oriented Latent Reasoning for Generalizable Robot Manipulation",
-   "date": "2026-11-22",
-   "authors": [
-    "Xin Zhang",
-    "Yushuo Hou",
-    "Anqi Zhao",
-    "Moyun Liu"
-   ],
-   "abstract": "Latent reasoning lets Vision-Language-Action (VLA) models deliberate at a fraction of the cost of explicit chain-of-thought, increasingly through visual foresight, which we show to be indispensable for predicting actions. Yet this paradigm is inherited from Vision-Language Models, where it serves un",
-   "cat": "cs.RO",
-   "comment": "",
-   "code_in_text": []
+   "comment": "18 pages (including appendix), 10 figures, 12 tables. Project page: https://chenyizhi123.github.io/zeta0-project/ ; Code & Data: https://github.com/chenyizhi123/Zeta0",
+   "code_in_text": [
+    "https://github.com/chenyizhi123/Zeta0"
+   ]
   }
  ],
  "repos": []
