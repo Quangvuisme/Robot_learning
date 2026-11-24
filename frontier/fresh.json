@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-23 23:33Z",
+ "generated": "2026-11-24 00:04Z",
  "papers": [
   {
    "id": "2611.27967",
@@ -548,12 +548,6 @@
    "abstract": "Embodied intelligence aims to let robots perform complex physical tasks with human-like adaptability and reliability, which requires three complementary capabilities: history-based cognitive reasoning, precise and timely physical execution, and the composition of reasoning and execution through envi",
    "cat": "cs.RO",
    "comment": "",
-   "hf": {
-    "up": 56,
-    "repo": "https://github.com/Mind2Act/Mind2Act_World",
-    "stars": 45,
-    "proj": "https://mind2act-world.com/"
-   },
    "code_in_text": []
   },
   {
@@ -658,12 +652,6 @@
    "abstract": "Vision-language-action (VLA) models enable robots to perform diverse tasks from visual observations and language instructions. While prior work has explored task suppression and refusal, stopping prohibited behavior once execution is underway and controlling the resulting physical response remain ch",
    "cat": "cs.RO",
    "comment": "A two-stage pipeline that teaches VLAs to stop prohibited tasks safely while preserving permitted skills",
-   "hf": {
-    "up": 9,
-    "repo": "https://github.com/franciscoliu/SAFI",
-    "stars": 1,
-    "proj": "https://franciscoliu.github.io/SAFI/"
-   },
    "code_in_text": []
   },
   {
@@ -764,12 +752,6 @@
    "abstract": "World models aim to predict environment dynamics under actions, enabling the prediction of action consequences without executing them in the real world. Yet despite producing increasingly realistic videos, current world models often fail to capture how small action changes affect future observations",
    "cat": "cs.RO",
    "comment": "27 pages, preprint",
-   "hf": {
-    "up": 17,
-    "repo": null,
-    "stars": null,
-    "proj": "https://periphanes.github.io/affect/"
-   },
    "code_in_text": []
   },
   {
@@ -1191,12 +1173,6 @@
    "abstract": "Recent work on human-scene interaction (HSI) generation moves from single interactions to long-horizon interaction, where a language-model agent plans and executes a sequence of interactions in a 3D scene under one instruction. However, existing agents struggle in challenging everyday scenarios (e.g",
    "cat": "cs.RO",
    "comment": "https://ryenhails.github.io/Inhabitant/",
-   "hf": {
-    "up": 2,
-    "repo": "https://github.com/yaozhang182/inhabitant",
-    "stars": 2,
-    "proj": "https://ryenhails.github.io/Inhabitant/"
-   },
    "code_in_text": []
   },
   {
@@ -1590,12 +1566,6 @@
    "abstract": "Arm-free quadrupeds can perform loco-manipulation, walking on three legs while manipulating with a front leg, yet no existing policy for it follows language instructions. World action models (WAMs) have emerged as effective language-conditioned manipulation policies, but are pretrained for robot arm",
    "cat": "cs.RO",
    "comment": "Code: https://github.com/AIGeeksGroup/WAM-Policy, Website: https://aigeeksgroup.github.io/WAM-Policy/",
-   "hf": {
-    "up": 20,
-    "repo": "https://github.com/AIGeeksGroup/WAM-Policy",
-    "stars": 10,
-    "proj": "https://aigeeksgroup.github.io/WAM-Policy/"
-   },
    "code_in_text": [
     "https://github.com/AIGeeksGroup/WAM-Policy"
    ]

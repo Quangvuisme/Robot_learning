@@ -57,7 +57,7 @@
  },
  {
   "repo": "RainBowLuoCS/Gamer",
-  "stars": 1424,
+  "stars": 1425,
   "pushed": "2026-11-16",
   "created": "2026-10-30",
   "desc": "Official Implementation of Gamer: A Generalist Vision-Language-Action Foundation Model for Long-Horizon Real-T",
@@ -158,14 +158,6 @@
   "created": "2026-10-04",
   "desc": "Perceptive behavioral foundation models for terrain-adaptive humanoid control: motion tracking, goal reaching,",
   "q": "humanoid teleoperation"
- },
- {
-  "repo": "DAGroup-PKU/ViGAR",
-  "stars": 115,
-  "pushed": "2026-10-25",
-  "created": "2026-09-28",
-  "desc": "Rethinking World-Action Model for Compositional and In-context Robotic Manipulation",
-  "q": "world action model robot"
  },
  {
   "repo": "Bench2Dex/Bench2Dex",

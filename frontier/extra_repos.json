@@ -268,5 +268,25 @@
   "title": "Tactile sensing and action-conditioned world models for robotic manipulation in FlexiTac simulation.",
   "arxiv": null,
   "repo": "ruijia-liu/tactile-aware-world-models"
+ },
+ {
+  "title": "humanoid_cpp",
+  "arxiv": null,
+  "repo": "Pranava116/humanoid_cpp"
+ },
+ {
+  "title": "Procedural humanoid figure built and rendered entirely from Python in Blender 4.2.1",
+  "arxiv": null,
+  "repo": "adedayocornexology-sys/blender-humanoid"
+ },
+ {
+  "title": "Repository for my journey into the world of humanoid robotics",
+  "arxiv": null,
+  "repo": "Ant0nymous/humanoid-journey"
+ },
+ {
+  "title": "Closed-loop Vision-Language-Action (SmolVLA / LeRobot) pipeline for a UR10e manipulator on a linear rail in Gazebo Harmonic and ROS 2 Humble.",
+  "arxiv": null,
+  "repo": "emirArn/ifarlab-vla"
  }
 ]
