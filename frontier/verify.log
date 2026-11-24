@@ -1,4 +1,4 @@
-Counter({'L': 77, 'S': 25, 'B': 24, 'X': 20, 'R': 4, 'A': 1})
+Counter({'L': 77, 'S': 26, 'B': 25, 'X': 20, 'R': 4, 'A': 1})
 B Axellwppr/HITCH | HITCH: Teaching a Vision-Language Model to Op | paper cited + runnable usage, no explicit 'official' claim | weights
 B yaozhang182/inhabitant | Inhabitant: An Agent Framework for Long-Horiz | paper cited + runnable usage, no explicit 'official' claim | weights
 R nico-bohlinger/xmimic | XMimic and XSoma: Learning Humanoid Motion Tr | reproduction/unofficial | weights
@@ -28,3 +28,4 @@ B FlexWAM/FlexWAM | FlexWAM: Learning Flexible Visual Routing for | paper cited 
 B bageldotcom/Bagel-Robotics-1 | Bagel Labs’ open-weight world-action model fo | paper cited + runnable usage, no explicit 'official' claim | weights
 B Anirudh-Senani/jepa-world-model-from-scratch | Build an action-conditioned Joint Embedding P | paper cited + runnable usage, no explicit 'official' claim 
 B ravijo/vla-humanoid | Fine-tuning NVIDIA's GR00T N1.7 to control a  | paper cited + runnable usage, no explicit 'official' claim | weights
+B ArrebolBlack/FoveaWAM | Role-Aware 4D World–Action Modeling for Dynam | paper cited + runnable usage, no explicit 'official' claim | weights
