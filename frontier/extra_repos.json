@@ -343,5 +343,10 @@
   "title": "An AI-powered Voice Recognition module for the Humanoid Robot AI project. It uses SpeechBrain ECAPA-TDNN speaker embeddings to identify and verify speakers through microphone input, with Voice Activity Detection (VAD) and DeepFilterNet-based noise suppression for improved recognition in noisy environments. Built with Python, PyTorch, and audio-proc",
   "arxiv": null,
   "repo": "pramodpjingade/HumanoidRobotAI-Voice-Recognition"
+ },
+ {
+  "title": "Speculative Action Generation for World Action Models \u2014 project website.",
+  "arxiv": null,
+  "repo": "sag-wam/sag-wam.github.io"
  }
 ]

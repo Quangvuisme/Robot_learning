@@ -2972,5 +2972,12 @@
   "repo": "pramodpjingade/HumanoidRobotAI-Voice-Recognition",
   "tier": "X",
   "why": "no README or private"
+ },
+ {
+  "title": "Speculative Action Generation for World Action Models \u2014 project website.",
+  "arxiv": null,
+  "repo": "sag-wam/sag-wam.github.io",
+  "tier": "X",
+  "why": "no README or private"
  }
 ]

@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-24 07:33Z",
+ "generated": "2026-11-24 09:04Z",
  "papers": [
   {
    "id": "2611.31240",
@@ -74,6 +74,12 @@
    "abstract": "Vision-language-action (VLA) models leverage pretrained vision-language representations for instruction-conditioned robot control, yet their understanding of task-relevant 3D relations and how these relations evolve during manipulation remains largely implicit. To address this challenge, we introduc",
    "cat": "cs.RO",
    "comment": "21 pages, 7 figures",
+   "hf": {
+    "up": 2,
+    "repo": "https://github.com/Kingzein/WeaveVLA",
+    "stars": null,
+    "proj": "https://kingzein.github.io/weave-vla/#overview"
+   },
    "code_in_text": []
   },
   {
@@ -116,7 +122,7 @@
    "cat": "cs.RO",
    "comment": "",
    "hf": {
-    "up": 9,
+    "up": 26,
     "repo": "https://github.com/xyangzhou/WorldLeague",
     "stars": 5,
     "proj": "https://xyangzhou.github.io/WorldLeague/"
@@ -165,6 +171,12 @@
    "abstract": "Large and diverse video sources, such as egocentric human video and heterogeneous robot recordings, carry rich dynamics but come either without actions or without a shared action space. Latent action models (LAMs) can recover these dynamics, but they train their inverse- and forward-dynamics models ",
    "cat": "cs.CV",
    "comment": "19 pages, 7 figures, 6 tables. Project page: https://pawteam-eai.github.io/native-lam/",
+   "hf": {
+    "up": 1,
+    "repo": null,
+    "stars": null,
+    "proj": "https://pawteam-eai.github.io/native-lam/"
+   },
    "code_in_text": []
   },
   {
@@ -727,7 +739,7 @@
    "cat": "cs.RO",
    "comment": "Code: https://github.com/AIGeeksGroup/MotionMamba2.0. Website: https://aigeeksgroup.github.io/MotionMamba2.0",
    "hf": {
-    "up": 76,
+    "up": 87,
     "repo": "https://github.com/AIGeeksGroup/MotionMamba2.0",
     "stars": 3,
     "proj": "https://aigeeksgroup.github.io/MotionMamba2.0/"
