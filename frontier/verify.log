@@ -11,7 +11,7 @@ B HybridRobotics/supermimic | SuperMimic | paper cited + runnable usage, no expl
 R Motphys/Uni-SuperMimic | SuperMimic | reproduction/unofficial | weights
 B NVlabs/GR00T-WholeBodyControl | GR00T whole-body control | paper cited + runnable usage, no explicit 'official' claim | weights
 R nico-bohlinger/xmimic | XMimic and XSoma: Learning Humanoid Motion Tr | reproduction/unofficial | weights
-B Jordanlllll/FORTH | FORTH: Grounding Tactile VLA Execution via Fo | paper cited + runnable usage, no explicit 'official' claim | weights
+B Jordanlllll/FORTH | FORTH: Grounding Tactile VLA Execution via Fo | paper cited + runnable usage, no explicit 'official' claim 
 B Mind2Act/Mind2Act_World | Mind2Act World: A Diagnostic Benchmark for Em | paper cited + runnable usage, no explicit 'official' claim | weights
 B robfiras/loco-mujoco | LocoMuJoCo: A Comprehensive Imitation Learnin | paper cited + runnable usage, no explicit 'official' claim 
 B franciscoliu/SAFI | Teaching Vision-Language-Action Models to Sto | paper cited + runnable usage, no explicit 'official' claim | weights

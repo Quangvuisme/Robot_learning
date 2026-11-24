@@ -41,7 +41,7 @@
  },
  {
   "repo": "HybridRobotics/supermimic",
-  "stars": 2006,
+  "stars": 2009,
   "pushed": "2026-11-21",
   "created": "2026-11-10",
   "desc": "Humanoid whole-body motion tracking with one differentiable world model.",
@@ -57,7 +57,7 @@
  },
  {
   "repo": "RainBowLuoCS/Gamer",
-  "stars": 1458,
+  "stars": 1459,
   "pushed": "2026-11-16",
   "created": "2026-10-30",
   "desc": "Official Implementation of Gamer: A Generalist Vision-Language-Action Foundation Model for Long-Horizon Real-T",
@@ -73,7 +73,7 @@
  },
  {
   "repo": "Robbyant/lingbot-touch",
-  "stars": 817,
+  "stars": 818,
   "pushed": "2026-11-11",
   "created": "2026-11-09",
   "desc": "Learning Heterogeneous Tactile Representation for General Dexterous Manipulation",
@@ -97,7 +97,7 @@
  },
  {
   "repo": "shengshu-ai/Motus2",
-  "stars": 627,
+  "stars": 629,
   "pushed": "2026-11-22",
   "created": "2026-09-11",
   "desc": "Motus2: A Self-Evolving General World Model for Dexterous Manipulation",
@@ -113,7 +113,7 @@
  },
  {
   "repo": "Roboparty/UFO",
-  "stars": 350,
+  "stars": 351,
   "pushed": "2026-11-23",
   "created": "2026-07-13",
   "desc": "An open-source unsupervised RL framework for humanoid control with FB/TeCH training, robot-aware motion import",

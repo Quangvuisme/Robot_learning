@@ -1958,10 +1958,10 @@
   "unofficial_claim": false,
   "coming_soon": false,
   "usage": true,
-  "weights": true,
-  "len": 23772,
+  "weights": false,
+  "len": 4204,
   "evidence": [],
-  "head": " FORTH \u2014 tactile representation, update, and grip control Version 1.2.0 \u00b7 MIT \u00b7 numpy only Paper: arXiv:2611.26744 \u2014 FORTH: Grounding Tactile VLA Execution via Forward-Only Proxy-Control Pairing FORTH is the algorithmic ",
+  "head": " FORTH \u2014 tactile representation, update, and grip control Version 1.2.0 \u00b7 MIT \u00b7 numpy only Paper: arXiv:2611.26744 \u2014 FORTH: Grounding Tactile VLA Execution via Forward-Only Proxy-Control Pairing Junde Li, Wei-Han Yu, Xia",
   "tier": "B",
   "why": "paper cited + runnable usage, no explicit 'official' claim"
  },
