@@ -33,7 +33,7 @@
  },
  {
   "repo": "dexmal/opendm",
-  "stars": 2745,
+  "stars": 2746,
   "pushed": "2026-11-06",
   "created": "2026-07-06",
   "desc": "An Open-World Foundation Model for General-Purpose Embodied Intelligence.",
@@ -41,7 +41,7 @@
  },
  {
   "repo": "HybridRobotics/supermimic",
-  "stars": 1987,
+  "stars": 1990,
   "pushed": "2026-11-21",
   "created": "2026-11-10",
   "desc": "Humanoid whole-body motion tracking with one differentiable world model.",
@@ -57,7 +57,7 @@
  },
  {
   "repo": "RainBowLuoCS/Gamer",
-  "stars": 1439,
+  "stars": 1441,
   "pushed": "2026-11-16",
   "created": "2026-10-30",
   "desc": "Official Implementation of Gamer: A Generalist Vision-Language-Action Foundation Model for Long-Horizon Real-T",
@@ -121,7 +121,7 @@
  },
  {
   "repo": "Motphys/Uni-SuperMimic",
-  "stars": 316,
+  "stars": 317,
   "pushed": "2026-11-21",
   "created": "2026-10-22",
   "desc": "SuperMimic-UniLab: An Independent reproduction of SuperMimic on UniLab for whole-body humanoid motion tracking",

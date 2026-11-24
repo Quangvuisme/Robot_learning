@@ -2892,9 +2892,9 @@
   "coming_soon": false,
   "usage": true,
   "weights": true,
-  "len": 11072,
+  "len": 11050,
   "evidence": [],
-  "head": " humanoid_sim Isaac Lab project for the ARTI-H1 knee-bent (KB) robot, trained with the method of M\u00fcller, Knoop et al., Olaf: Bringing an Animated Character to Life in the Physical World (arXiv 2512.16705v2). It starts fr",
+  "head": " humanoid_sim Isaac Lab project for the ARTI-H1 robot, trained with the method of M\u00fcller, Knoop et al., Olaf: Bringing an Animated Character to Life in the Physical World (arXiv 2512.16705v2). It starts from arti_h1_olaf",
   "tier": "B",
   "why": "paper cited + runnable usage, no explicit 'official' claim"
  }
