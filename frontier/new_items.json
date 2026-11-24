@@ -1,50 +1,99 @@
 {
  "papers": [
   {
-   "id": "2611.29240",
-   "title": "Tacinf: A Unified Tactile Infrastructure for Robot Manipulation",
-   "date": "2026-11-22",
-   "authors": [
-    "Qiwei Wu",
-    "Xiangyu Chen",
-    "Xin Xiang",
-    "Rui Zhang"
-   ],
-   "abstract": "Force-aware manipulation requires robots to infer appropriate interaction forces from task context and tactile feedback. We present Tacinf, a low-cost, modular infrastructure that enables policies to predict robot actions and fingertip forces from task language, vision, and touch. Task instructions ",
-   "cat": "cs.RO",
-   "comment": "",
-   "code_in_text": []
-  },
-  {
-   "id": "2611.29195",
-   "title": "FunGrasp-Zero: Field-Conditioned Graph Attention Policy for Zero-Shot Cross-Embodiment Dexterous Functional Grasping",
-   "date": "2026-11-22",
-   "authors": [
-    "Yanhan Lin",
-    "Yuliang Wu",
-    "Yihao Guo",
-    "Wei-Jin Huang"
-   ],
-   "abstract": "Dexterous functional grasping is critical for robotic tool use, yet current dexterous hands exhibit substantial morphological diversity. This hardware heterogeneity makes cross-embodiment functional grasping a fundamental but largely unexplored problem. Existing functional grasping methods use retar",
-   "cat": "cs.RO",
-   "comment": "",
-   "code_in_text": []
-  },
-  {
-   "id": "2611.29096",
-   "title": "JEPA-Tuner: From Predictive Fine-Tuning to Asynchronous Execution of Vision-Language-Action Models",
+   "id": "2611.28943",
+   "title": "SANA-Robot: Efficient World Action Model with Hybrid Memory",
    "date": "2026-11-21",
    "authors": [
-    "Jingxiang Qu",
-    "Tian Xie",
-    "Youngjin Hong",
-    "Changhyun Choi"
+    "Yuyang Zhao",
+    "Zekai Li",
+    "Yicheng Pan",
+    "Jiaming Tang"
    ],
-   "abstract": "Vision-Language-Action (VLA) models generate sequences of actions from visual observations, proprioceptive states, and language instructions. In embodied interaction, executing these actions influences subsequent observations and robot states, providing a natural predictive signal for policy learnin",
+   "abstract": "World action models (WAMs) leverage the world knowledge of video generation models to improve action generation by aligning visual prediction with action prediction. However, their prediction overhead prevents real-time deployment on edge devices, and they usually lack an effective long-term memory.",
    "cat": "cs.RO",
    "comment": "",
+   "code_in_text": []
+  },
+  {
+   "id": "2611.28871",
+   "title": "KineState-SWAM: A Surgical World Action Model with Explicit Kinematics and Causal Interaction Dynamics",
+   "date": "2026-11-21",
+   "authors": [
+    "Rulin Zhou",
+    "Yujie Ma",
+    "Rui Tang",
+    "Qiujie Song"
+   ],
+   "abstract": "Existing surgical world models often leave implicit how instrument motion drives localized tissue responses and how interaction history informs subsequent actions. We introduce KineState-SWAM, a surgical world-action model coupling action prediction and video generation through a persistent interact",
+   "cat": "cs.CV",
+   "comment": "",
+   "code_in_text": []
+  },
+  {
+   "id": "2611.28867",
+   "title": "LIBERO-MOR: A Multimodal Robustness Benchmark Across the Vision-Language-Action Pipeline",
+   "date": "2026-11-21",
+   "authors": [
+    "Qihang Chen",
+    "Tengjie Li",
+    "Hongwei Lu",
+    "Jason Wu"
+   ],
+   "abstract": "Vision-language-action (VLA) models have achieved strong performance on robot manipulation benchmarks. Translating this progress into reliable deployment calls for systematic evaluation of how policies respond to variations throughout the robot interaction loop. We introduce LIBERO-MOR, a multimodal",
+   "cat": "cs.RO",
+   "comment": "",
+   "code_in_text": []
+  },
+  {
+   "id": "2611.28839",
+   "title": "Spatially Grounded Latent Lookahead for Vision-Language-Action Models",
+   "date": "2026-11-21",
+   "authors": [
+    "Qihang Chen",
+    "Tengjie Li",
+    "Hongwei Lu",
+    "Jason Wu"
+   ],
+   "abstract": "Vision-language-action (VLA) models benefit from strong semantic representations that support object recognition and instruction understanding. However, precise manipulation also depends on resolving object locations and workspace relations, and on selecting actions with an estimate of how the scene",
+   "cat": "cs.CV",
+   "comment": "",
+   "code_in_text": []
+  },
+  {
+   "id": "2611.28732",
+   "title": "Entangle: Scaling Human-Video In-Context World-Action Models across Unseen Tasks and Contexts",
+   "date": "2026-11-21",
+   "authors": [
+    "Chendong Xiang",
+    "Chengwen Zhang",
+    "Ruowen Zhao",
+    "Zeyuan Wang"
+   ],
+   "abstract": "In-context learning (ICL) enables foundation models to perform unseen tasks from context without parameter updates. In robotic manipulation, a human video provides the context that specifies how a task should be performed. However, scaling human-video ICL on world-action models (WAMs) faces two chal",
+   "cat": "cs.RO",
+   "comment": "26 pages, 13 figures, including the appendix",
    "code_in_text": []
   }
  ],
- "repos": []
+ "repos": [
+  {
+   "title": "humanoid_sim",
+   "arxiv": null,
+   "repo": "SeonilChoi/humanoid_sim",
+   "id_in_readme": false,
+   "title_in_readme": true,
+   "name_in_readme": true,
+   "official_claim": false,
+   "unofficial_claim": false,
+   "coming_soon": false,
+   "usage": true,
+   "weights": true,
+   "len": 11072,
+   "evidence": [],
+   "head": " humanoid_sim Isaac Lab project for the ARTI-H1 knee-bent (KB) robot, trained with the method of M\u00fcller, Knoop et al., Olaf: Bringing an Animated Character to Life in the Physical World (arXiv 2512.16705v2). It starts fr",
+   "tier": "B",
+   "why": "paper cited + runnable usage, no explicit 'official' claim"
+  }
+ ]
 }

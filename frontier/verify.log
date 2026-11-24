@@ -1,4 +1,4 @@
-Counter({'L': 77, 'S': 26, 'B': 25, 'X': 22, 'R': 4, 'A': 2})
+Counter({'L': 77, 'S': 26, 'B': 26, 'X': 22, 'R': 4, 'A': 2})
 A shangchaohu718/PERA | PERA: Plug-in Experts for Robotic Actions in  | paper cited + official claim + runnable usage | weights
 B Axellwppr/HITCH | HITCH: Teaching a Vision-Language Model to Op | paper cited + runnable usage, no explicit 'official' claim | weights
 B yaozhang182/inhabitant | Inhabitant: An Agent Framework for Long-Horiz | paper cited + runnable usage, no explicit 'official' claim | weights
@@ -30,3 +30,4 @@ B bageldotcom/Bagel-Robotics-1 | Bagel Labs’ open-weight world-action model fo
 B Anirudh-Senani/jepa-world-model-from-scratch | Build an action-conditioned Joint Embedding P | paper cited + runnable usage, no explicit 'official' claim 
 B ravijo/vla-humanoid | Fine-tuning NVIDIA's GR00T N1.7 to control a  | paper cited + runnable usage, no explicit 'official' claim | weights
 B ArrebolBlack/FoveaWAM | Role-Aware 4D World–Action Modeling for Dynam | paper cited + runnable usage, no explicit 'official' claim | weights
+B SeonilChoi/humanoid_sim | humanoid_sim | paper cited + runnable usage, no explicit 'official' claim | weights

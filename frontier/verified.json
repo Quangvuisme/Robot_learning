@@ -2879,5 +2879,23 @@
   "head": " WeaveVLA 3D Relational Grounding for Vision-Language-Action Models Object-centric 3D relations and recurrent edge memory for StarVLA and \u03c00.5 policies. Overview WeaveVLA builds a graph of objects and their 3D relations ",
   "tier": "S",
   "why": "mentions paper but no usage instructions"
+ },
+ {
+  "title": "humanoid_sim",
+  "arxiv": null,
+  "repo": "SeonilChoi/humanoid_sim",
+  "id_in_readme": false,
+  "title_in_readme": true,
+  "name_in_readme": true,
+  "official_claim": false,
+  "unofficial_claim": false,
+  "coming_soon": false,
+  "usage": true,
+  "weights": true,
+  "len": 11072,
+  "evidence": [],
+  "head": " humanoid_sim Isaac Lab project for the ARTI-H1 knee-bent (KB) robot, trained with the method of M\u00fcller, Knoop et al., Olaf: Bringing an Animated Character to Life in the Physical World (arXiv 2512.16705v2). It starts fr",
+  "tier": "B",
+  "why": "paper cited + runnable usage, no explicit 'official' claim"
  }
 ]
