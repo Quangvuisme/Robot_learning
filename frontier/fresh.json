@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-24 07:04Z",
+ "generated": "2026-11-24 07:33Z",
  "papers": [
   {
    "id": "2611.31240",
@@ -101,6 +101,41 @@
    "abstract": "Scaling robot manipulation learning remains challenging due to the high cost of collecting real-world interaction data. Real-to-Sim-to-Real (Real2Sim2Real) offers a promising route by enabling policy learning in simulation grounded in real-world observations, yet scaling this paradigm across diverse",
    "cat": "cs.RO",
    "comment": "",
+   "code_in_text": []
+  },
+  {
+   "id": "2611.30989",
+   "title": "WorldLeague: Benchmarking Physical Agency",
+   "date": "2026-11-23",
+   "authors": [
+    "Xinyang Zhou",
+    "Qi Li",
+    "Xinchao Wang"
+   ],
+   "abstract": "AI systems can now operate Blender, follow instructions in complex video games, and manipulate objects with robot arms. What range of physical goals can today's AI systems achieve autonomously? Answering this question requires testing systems on tasks that demand different combinations of perception",
+   "cat": "cs.RO",
+   "comment": "",
+   "hf": {
+    "up": 9,
+    "repo": "https://github.com/xyangzhou/WorldLeague",
+    "stars": 5,
+    "proj": "https://xyangzhou.github.io/WorldLeague/"
+   },
+   "code_in_text": []
+  },
+  {
+   "id": "2611.30963",
+   "title": "Foresight Forcing: Learning Spatial Foresight for Robotic Manipulation",
+   "date": "2026-11-23",
+   "authors": [
+    "Mishuo Han",
+    "Zhixuan Liang",
+    "Zhaoyuan Wan",
+    "Wendi Chen"
+   ],
+   "abstract": "Robotic manipulation policies can improve action prediction by anticipating how objects move and how their spatial relationships change. World Action Models (WAMs) learn to predict future visual observations, but their training objectives typically leave the underlying 3D geometric transitions impli",
+   "cat": "cs.RO",
+   "comment": "Project website: https://anson2333.github.io/foresight-forcing",
    "code_in_text": []
   },
   {
@@ -692,7 +727,7 @@
    "cat": "cs.RO",
    "comment": "Code: https://github.com/AIGeeksGroup/MotionMamba2.0. Website: https://aigeeksgroup.github.io/MotionMamba2.0",
    "hf": {
-    "up": 61,
+    "up": 76,
     "repo": "https://github.com/AIGeeksGroup/MotionMamba2.0",
     "stars": 3,
     "proj": "https://aigeeksgroup.github.io/MotionMamba2.0/"
@@ -1758,36 +1793,6 @@
     "Ioannis Havoutis"
    ],
    "abstract": "Robotic vision-language-action (VLA) models can execute diverse individual manipulation skills, yet they still struggle with long-horizon loco-manipulation tasks, where temporal structure, skills, and precision are tightly coupled within a monolithic model. We propose Physically Grounded Execution (",
-   "cat": "cs.RO",
-   "comment": "",
-   "code_in_text": []
-  },
-  {
-   "id": "2611.26565",
-   "title": "PhyDEX: A Benchmark for Physical Reasoning in Vision-Language-Action Models via Dynamic Extrinsic Dexterity",
-   "date": "2026-11-19",
-   "authors": [
-    "Hao Vo",
-    "Taisei Hanyu",
-    "Yuki Ikebe",
-    "Pham Tri Quang"
-   ],
-   "abstract": "Vision-Language-Action (VLA) models have advanced rapidly in language-conditioned robotic manipulation, yet existing benchmarks mainly evaluate gripper--object contact and largely ignore how objects interact with the environment through gravity, friction, inertia, and mass distribution. As a result,",
-   "cat": "cs.RO",
-   "comment": "",
-   "code_in_text": []
-  },
-  {
-   "id": "2611.26485",
-   "title": "An Open-Source ROS 2 Framework for Shared Control in Surgical Teleoperation: Integrating the Haply Inverse3 with the da Vinci Research Kit",
-   "date": "2026-11-19",
-   "authors": [
-    "Balint Varga",
-    "Sebastian Fritz",
-    "Gergely Kiss",
-    "Kristof Takacs"
-   ],
-   "abstract": "Surgical teleoperation deprives surgeons of touch, forcing visual inference of tissue forces; the commercial platforms now restoring force feedback remain closed, preventing open research on haptic shared control. This paper provides a system contribution: it presents an open-source, ROS 2-native fr",
    "cat": "cs.RO",
    "comment": "",
    "code_in_text": []
