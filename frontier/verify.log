@@ -1,9 +1,9 @@
-Counter({'L': 77, 'S': 25, 'B': 23, 'X': 20, 'R': 4, 'A': 1})
+Counter({'L': 77, 'S': 25, 'B': 24, 'X': 20, 'R': 4, 'A': 1})
+B Axellwppr/HITCH | HITCH: Teaching a Vision-Language Model to Op | paper cited + runnable usage, no explicit 'official' claim | weights
 B yaozhang182/inhabitant | Inhabitant: An Agent Framework for Long-Horiz | paper cited + runnable usage, no explicit 'official' claim | weights
 R nico-bohlinger/xmimic | XMimic and XSoma: Learning Humanoid Motion Tr | reproduction/unofficial | weights
 R nico-bohlinger/xsoma | XMimic and XSoma: Learning Humanoid Motion Tr | reproduction/unofficial | weights
 A kimodo-policy/kimodo-policy | Kimodo-Policy: Learning Kinematic Action Mode | paper cited + official claim + runnable usage | weights
-B Axellwppr/HITCH | HITCH: Teaching a Vision-Language Model to Op | paper cited + runnable usage, no explicit 'official' claim | weights
 B ryan-seungyong-lee/RoboTryOn | RoboTryOn: Synthesizing Dexterous Robot Demon | paper cited + runnable usage, no explicit 'official' claim | weights
 B jellyho/telescene | Telescene whole-body humanoid teleoperation | paper cited + runnable usage, no explicit 'official' claim | weights
 B HybridRobotics/supermimic | SuperMimic | paper cited + runnable usage, no explicit 'official' claim 
@@ -27,3 +27,4 @@ B Thu-WangMX/MemE-WAM-Memory-Efficient-World-Action-Models- | MemE-WAM-Memory-Ef
 B FlexWAM/FlexWAM | FlexWAM: Learning Flexible Visual Routing for | paper cited + runnable usage, no explicit 'official' claim | weights
 B bageldotcom/Bagel-Robotics-1 | Bagel Labs’ open-weight world-action model fo | paper cited + runnable usage, no explicit 'official' claim | weights
 B Anirudh-Senani/jepa-world-model-from-scratch | Build an action-conditioned Joint Embedding P | paper cited + runnable usage, no explicit 'official' claim 
+B ravijo/vla-humanoid | Fine-tuning NVIDIA's GR00T N1.7 to control a  | paper cited + runnable usage, no explicit 'official' claim | weights

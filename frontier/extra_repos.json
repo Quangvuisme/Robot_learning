@@ -288,5 +288,10 @@
   "title": "Closed-loop Vision-Language-Action (SmolVLA / LeRobot) pipeline for a UR10e manipulator on a linear rail in Gazebo Harmonic and ROS 2 Humble.",
   "arxiv": null,
   "repo": "emirArn/ifarlab-vla"
+ },
+ {
+  "title": "Fine-tuning NVIDIA's GR00T N1.7 to control a Unitree G1 humanoid on a single 16 GB GPU",
+  "arxiv": null,
+  "repo": "ravijo/vla-humanoid"
  }
 ]
