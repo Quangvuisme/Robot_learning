@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-24 05:03Z",
+ "generated": "2026-11-24 05:35Z",
  "papers": [
   {
    "id": "2611.30308",
@@ -165,6 +165,204 @@
    "abstract": "Robot policies act in real time but fail without knowing why, whereas a reasoning agent that watches the robot can often tell what went wrong. Existing systems either hand the agent control, which takes minutes per episode, or let it send instructions. Yet a policy follows a new instruction only fro",
    "cat": "cs.RO",
    "comment": "Project page and code: https://robo-think.github.io/",
+   "code_in_text": []
+  },
+  {
+   "id": "2611.30083",
+   "title": "MotionServe: Efficient Multi-Robot Serving by Exploiting Robot Execution Slack",
+   "date": "2026-11-23",
+   "authors": [
+    "Zikang Wen",
+    "Yuning Zhang",
+    "Dong Yuan"
+   ],
+   "abstract": "As robotic arms undertake diverse manipulation tasks, a deployment may need to serve many task-specific vision-language-action (VLA) policies concurrently. Dedicating a GPU to each robot is costly, motivating shared-GPU inference. Low-rank adaptation (LoRA) allows compatible policies to share a froz",
+   "cat": "cs.RO",
+   "comment": "",
+   "code_in_text": []
+  },
+  {
+   "id": "2611.30077",
+   "title": "PushMimic: Learning Adaptive Humanoid Box Pushing via Dynamic Motion Augmentation and Reference Distillation",
+   "date": "2026-11-23",
+   "authors": [
+    "Yulun Zhuang",
+    "Hanyu Zhang",
+    "Jingyu Liu",
+    "Yanran Ding"
+   ],
+   "abstract": "Humanoid box pushing is challenging when the physical properties of the task, such as the box mass and the ramp inclination, are unknown before the push begins. This paper presents PushMimic, a framework that learns adaptive humanoid box pushing from a single level-ground kinematic reference motion.",
+   "cat": "cs.RO",
+   "comment": "9 pages, 10 figures, 3 tables. Website at https://silvery107.github.io/pushmimic/",
+   "code_in_text": []
+  },
+  {
+   "id": "2611.30042",
+   "title": "SWAM: State-aware World Action Model for Multi-Agent 3D Environments",
+   "date": "2026-11-23",
+   "authors": [
+    "Jenna Kang",
+    "Bingxuan Li",
+    "Colin Groth",
+    "Anatolii Evdokimov"
+   ],
+   "abstract": "Interactive world models generate virtual environments autoregressively from player actions and visual history. However, visual history alone cannot reliably capture the evolving states of independently acting non-player characters (NPCs) in real games, particularly when they are outside the camera ",
+   "cat": "cs.AI",
+   "comment": "",
+   "code_in_text": []
+  },
+  {
+   "id": "2611.30041",
+   "title": "Spiking World-Action Models for Robotic Manipulation",
+   "date": "2026-11-23",
+   "authors": [
+    "Mingquan Liu",
+    "Peng Zhou",
+    "Shanming Yao",
+    "Shuai Wang"
+   ],
+   "abstract": "World action models (WAMs) predict how the world responds to actions and offer a promising path toward general embodied intelligence, but they are large and run the network many times per plan, so they are hard to deploy on robots. Spiking neural networks (SNNs) compute with sparse binary spikes and",
+   "cat": "cs.RO",
+   "comment": "",
+   "code_in_text": []
+  },
+  {
+   "id": "2611.30026",
+   "title": "Design of a Compact Cable-driven 4-DoF Salamander Robotic Limb with Large Range of Motion and High Load Capacity",
+   "date": "2026-11-23",
+   "authors": [
+    "Zhuowen Li",
+    "Qiyuan Fu",
+    "Auke Ijspeert"
+   ],
+   "abstract": "A compact yet agile and powerful limb is essential for amphibious legged robots that transition between spine-based swimming and leg-based terrestrial walking, as salamanders do. Salamander limbs combine large ranges of motion (ROM), multiple degrees of freedom (DoFs), and high load capacity. These ",
+   "cat": "cs.RO",
+   "comment": "",
+   "code_in_text": []
+  },
+  {
+   "id": "2611.30024",
+   "title": "FlexWAM: Learning Flexible Visual Routing for World Action Models",
+   "date": "2026-11-23",
+   "authors": [
+    "Mingyu Mei",
+    "Haojie Xu",
+    "Zibo Dai",
+    "Hongjie Fang"
+   ],
+   "abstract": "Humans dynamically adjust their reliance on sensory modalities across manipulation stages. Although existing World Action Models (WAMs) fuse multi-camera observations, they struggle to adapt their reliance on individual views based on the current observations. This raises a central question: how can",
+   "cat": "cs.RO",
+   "comment": "Project website: https://flexwam.github.io/",
+   "code_in_text": []
+  },
+  {
+   "id": "2611.29980",
+   "title": "TeleMultiStream: An Integrated Robot Teleoperation System with Low-Latency Multi-Stream Video Feedback",
+   "date": "2026-11-23",
+   "authors": [
+    "Chenchen Lv",
+    "Lingchen Hu",
+    "Yaosai Zhang",
+    "Chunlan Li"
+   ],
+   "abstract": "Training embodied-intelligence models requires large-scale, high-quality demonstration data. Robot teleoperation provides an important means of collecting these data. Low-latency teleoperation also helps human operators take control promptly and provide corrective demonstrations in DAgger-based inte",
+   "cat": "cs.RO",
+   "comment": "",
+   "code_in_text": []
+  },
+  {
+   "id": "2611.29970",
+   "title": "FASCIA: Seeing Beneath the Surface with Queryable, Personalized Anatomy in Any Pose",
+   "date": "2026-11-23",
+   "authors": [
+    "R. James Cotton",
+    "Tim Unger",
+    "Lucinda Williamson"
+   ],
+   "abstract": "We present FASCIA (*Functional Anatomical Structures and Composition via Implicit Atlas*), a Momentum Human Rig (MHR)-anchored framework that predicts and poses a person's internal anatomy from their external body shape and skeletal proportions. FASCIA maps a single 290-structure population template",
+   "cat": "cs.CV",
+   "comment": "",
+   "code_in_text": []
+  },
+  {
+   "id": "2611.29913",
+   "title": "MoMa-NMP: Scene-Scale Neural Motion Planning for Mobile Manipulators",
+   "date": "2026-11-23",
+   "authors": [
+    "Adam Kan",
+    "Jason Jingzhou Liu",
+    "Jiahui Yang",
+    "Kenneth Shaw"
+   ],
+   "abstract": "Mobile manipulators operating in homes and other complex environments must coordinate their base and arm over long horizons, navigating around obstacles, through narrow passages, and between constrained workspaces. Neural motion planners can provide fast closed-loop planning from partial observation",
+   "cat": "cs.RO",
+   "comment": "Website: https://adamhkan.com/moma-nmp/",
+   "code_in_text": []
+  },
+  {
+   "id": "2611.29897",
+   "title": "Motion Mamba 2.0: Autoregressive Diffusion Mamba for Long-Horizon Humanoid Control",
+   "date": "2026-11-23",
+   "authors": [
+    "Yue Huang",
+    "Tianshan Zhang",
+    "Zeyu Zhang",
+    "Jayeon Kang"
+   ],
+   "abstract": "Long-horizon, real-time controllable motion generation is essential for interactive animation and humanoid robotics, where an agent must respond to changing instructions and spatial goals while moving. Existing autoregressive diffusion methods generate motion incrementally, but bounded attention cac",
+   "cat": "cs.RO",
+   "comment": "Code: https://github.com/AIGeeksGroup/MotionMamba2.0. Website: https://aigeeksgroup.github.io/MotionMamba2.0",
+   "hf": {
+    "up": 4,
+    "repo": "https://github.com/AIGeeksGroup/MotionMamba2.0",
+    "stars": null,
+    "proj": "https://aigeeksgroup.github.io/MotionMamba2.0/"
+   },
+   "code_in_text": [
+    "https://github.com/AIGeeksGroup/MotionMamba2.0."
+   ]
+  },
+  {
+   "id": "2611.29873",
+   "title": "ProMix: Efficient Data Mixture Optimization for Robotic Imitation via Proxy-Reference DRO",
+   "date": "2026-11-23",
+   "authors": [
+    "Qie Sima",
+    "Wei Xue",
+    "Yike Guo"
+   ],
+   "abstract": "Vision-Language-Action (VLA) models excel in open-world manipulation, yet their performance often saturates when training data are naively pooled across heterogeneous robots, tasks, and environments. Distributionally robust data mixture optimization, exemplified by Re-Mix, can recover much of this p",
+   "cat": "cs.RO",
+   "comment": "",
+   "code_in_text": []
+  },
+  {
+   "id": "2611.29868",
+   "title": "Arcadian: Open-Source Humanoid Ecosystem for Accessible and Customizable Research and Education",
+   "date": "2026-11-23",
+   "authors": [
+    "Zelin Shen",
+    "Gabriel Ramos Salinas",
+    "Qiyu Zhang",
+    "Yue Qin"
+   ],
+   "abstract": "Reproducing and modifying a meter-scale humanoid remains challenging for research and teaching groups with limited fabrication resources and engineering support. This paper presents Arcadian, an open-source humanoid ecosystem that offers accessible and customizable humanoid hardware and software wit",
+   "cat": "cs.RO",
+   "comment": "8 pages, 10 figures, project website https://arcadian-humanoid.github.io/",
+   "code_in_text": []
+  },
+  {
+   "id": "2611.29813",
+   "title": "Hierarchical Reasoning Action Head for Tiny Vision-Language-Action Models",
+   "date": "2026-11-22",
+   "authors": [
+    "Aditya Makineni",
+    "Amitesh Sahoo",
+    "Qing Tian"
+   ],
+   "abstract": "Real-time onboard robot control calls for a lightweight vision-language-action (VLA) model, yet shrinking the backbone leaves less capacity for deliberation at inference time. Chain-of-thought decoding, dual-system architectures, and larger backbones can restore deliberation but reintroduce the late",
+   "cat": "cs.CV",
+   "comment": "10 pages, 6 figures, 4 tables",
    "code_in_text": []
   },
   {
@@ -1576,195 +1774,6 @@
    "abstract": "World action models (WAMs) predict how a scene will evolve and condition their actions on this predicted future. Deploying them on a robot's onboard computer calls for 4-bit weights, activations and key-value caches (W4A4KV4). Existing 4-bit quantizers for WAMs preserve the generated action, and est",
    "cat": "cs.AI",
    "comment": "10 pages, 4 figures, 6 tables",
-   "code_in_text": []
-  },
-  {
-   "id": "2611.25595",
-   "title": "LoopedWAM: Looped World Action Models for Elastic Inference",
-   "date": "2026-11-19",
-   "authors": [
-    "Anh Dao",
-    "Xinxin Liu",
-    "Hang Yu",
-    "Jeffrey A Chan Santiago"
-   ],
-   "abstract": "World action models (WAMs) couple generative video modeling with robotic action prediction but typically require large video and action transformers, limiting deployment efficiency. We present LoopedWAM, a compact WAM that recurrently applies a shared six-block core in each expert, executing 30 tran",
-   "cat": "cs.CV",
-   "comment": "",
-   "code_in_text": []
-  },
-  {
-   "id": "2611.25580",
-   "title": "FlashX: Scaling Robotic Experience Reuse for Embodied Agents with CBA-Based NAND Flash",
-   "date": "2026-11-19",
-   "authors": [
-    "Yuseon Choi",
-    "Sanghyeon Park",
-    "Eunjong Lee",
-    "Hanseo Lee"
-   ],
-   "abstract": "Embodied agents are emerging as a promising paradigm for complex robotic tasks, leveraging Vision-Language-Action (VLA) and World Action Models (WAMs) to generate actions through Diffusion Transformer (DiT)-based iterative denoising. However, existing models often struggle to generalize to out-of-di",
-   "cat": "cs.AR",
-   "comment": "",
-   "code_in_text": []
-  },
-  {
-   "id": "2611.25575",
-   "title": "Trajectory-Calibrated Merging of Embodied Policies",
-   "date": "2026-11-19",
-   "authors": [
-    "Wenshuo Chen",
-    "Honglei Jin",
-    "Le Yang",
-    "Jianfei Song"
-   ],
-   "abstract": "Robot foundation models are increasingly adapted into task specialists to expand their embodied capabilities. Yet these capabilities remain fragmented across separate policies, and existing model-merging methods do not reliably preserve them during closed-loop execution: parameter-space alignment pr",
-   "cat": "cs.RO",
-   "comment": "",
-   "code_in_text": []
-  },
-  {
-   "id": "2611.25529",
-   "title": "CoachSI: Self-Improvement of Robot Policies with a Language Coach",
-   "date": "2026-11-19",
-   "authors": [
-    "Jiachen Tao",
-    "Gengyu Zhang",
-    "Haoxuan Wang",
-    "Bing Liu"
-   ],
-   "abstract": "Generalist robot policies execute atomic skills reliably but fail when the same skills are composed into long-horizon tasks. Self-improvement from the policy's own experience does not close this gap: experience collected by the policy alone stays within its own distribution and reproduces what it ca",
-   "cat": "cs.RO",
-   "comment": "Project page: https://tlxhlll.github.io/CoachSI/",
-   "code_in_text": []
-  },
-  {
-   "id": "2611.25461",
-   "title": "ActMem: From Latent Memory Reasoning to Grounded Robotic Action",
-   "date": "2026-11-19",
-   "authors": [
-    "Linfeng Dong",
-    "Jianwei Niu",
-    "Jiuyi Zhao",
-    "Ruibing Feng"
-   ],
-   "abstract": "Vision-Language-Action (VLA) models have shown promising results in real-world long-horizon manipulation, where memory plays a crucial role. However, existing memory-augmented VLAs either retrieve past observations without reasoning about what they imply, or reason over the full history in a shared ",
-   "cat": "cs.CV",
-   "comment": "17 pages, 11 figures, 6 tables. Code and checkpoints: https://github.com/LigphiDonk/ActMem",
-   "code_in_text": [
-    "https://github.com/LigphiDonk/ActMem"
-   ]
-  },
-  {
-   "id": "2611.25460",
-   "title": "LoongForge-Embodied: A Unified Framework for Training Heterogeneous Embodied Models",
-   "date": "2026-11-19",
-   "authors": [
-    " LoongForge Team"
-   ],
-   "abstract": "Training Vision-Language-Action (VLA) models and World-Action Models (WAMs) is computationally expensive, while their heterogeneous architectures and fragmented training stacks make system optimizations difficult to reuse across models. To address these challenges, we present LoongForge-Embodied, a ",
-   "cat": "cs.AI",
-   "comment": "",
-   "code_in_text": []
-  },
-  {
-   "id": "2611.25413",
-   "title": "WAMotor: Accelerating World Action Models via Speculative Inference under Dual Nonuniform Denoising Dynamics",
-   "date": "2026-11-19",
-   "authors": [
-    "Zexun Lin",
-    "Yuan Feng",
-    "Xike Xie"
-   ],
-   "abstract": "World Action Models (WAMs) unify world modeling and action generation for robotic control by integrating flow-matching velocities, yet suffer from high multi-step denoising latency. Recent studies have explored speculative inference to accelerate WAMs by drafting and verifying denoising steps in par",
-   "cat": "cs.RO",
-   "comment": "",
-   "code_in_text": []
-  },
-  {
-   "id": "2611.25400",
-   "title": "Dune: A Zeroth-Order Optimizer with Time-Conditioned Historical Error Regression for VLA Test-Time Adaptation",
-   "date": "2026-11-19",
-   "authors": [
-    "Chengyang Dong",
-    "Ze Chen",
-    "Kai Ye",
-    "Chutian Wang"
-   ],
-   "abstract": "Test-Time Adaptation (TTA) enables Vision-Language-Action (VLA) models to handle distribution shifts during deployment without source-domain retraining. However, backpropagation-based adaptation incurs heavy memory overhead on resource-constrained robots, whereas zeroth-order (ZO) methods suffer fro",
-   "cat": "cs.RO",
-   "comment": "",
-   "code_in_text": []
-  },
-  {
-   "id": "2611.25398",
-   "title": "RefreshGrad: An Online Adaptive Data-sampling Method for Diffusion-based Visuomotor Learning",
-   "date": "2026-11-19",
-   "authors": [
-    "Dijia Zhan",
-    "Jinyi Li",
-    "Xuemiao Xu",
-    "Yan Zhou"
-   ],
-   "abstract": "Training vision-language-action (VLA) policies from demonstrations typically samples trajectory segments uniformly or relies on static offline data curation before training. However, we find that demonstration data vary sharply in supervision value across temporal windows, and that each window's val",
-   "cat": "cs.RO",
-   "comment": "13 pages, 5 figures, 7 tables",
-   "code_in_text": []
-  },
-  {
-   "id": "2611.25385",
-   "title": "Drifting, Discriminating, and Directioning for Action Coordination in Higher-dimensional Action Space",
-   "date": "2026-11-19",
-   "authors": [
-    "Taisuke Kobayashi"
-   ],
-   "abstract": "This paper proposes a lightweight policy model to mitigate the difficulty of handling higher-dimensional action spaces in reinforcement learning (RL), alongside an algorithm to effectively train it. To address this, we focus on drifting models, which can implicitly represent complex distributions an",
-   "cat": "cs.LG",
-   "comment": "15 pages, 6 figures",
-   "code_in_text": []
-  },
-  {
-   "id": "2611.25373",
-   "title": "Differentiable Hydrodynamics for Whole-Body MPC of Underwater Robots",
-   "date": "2026-11-19",
-   "authors": [
-    "Hefan Wang",
-    "Yvan Petillot",
-    "Carlos Mastalli"
-   ],
-   "abstract": "Underwater vehicle-manipulator systems distribute actuation across thrusters and joint motors. Whole-body model predictive control (MPC), rather than separate vehicle and arm controllers, can coordinate both to extend the workspace and exploit the system's full kinematic capability. Doing so, howeve",
-   "cat": "cs.RO",
-   "comment": "",
-   "code_in_text": []
-  },
-  {
-   "id": "2611.25251",
-   "title": "WEVO: World Model-Enabled VLA Optimization for Whole-Body Loco-Manipulation",
-   "date": "2026-11-18",
-   "authors": [
-    "Qianzhong Chen",
-    "Muyuan Lin",
-    "Yuyin Sun",
-    "Mac Schwager"
-   ],
-   "abstract": "Reinforcement learning (RL) can improve vision-language-action (VLA) policies beyond imitation, but humanoid exploration is unsafe and simulator RL can exploit residual sim-to-real gaps. We present WEVO, a teleoperation-free framework for post-training a whole-body humanoid VLA in an action-conditio",
-   "cat": "cs.RO",
-   "comment": "",
-   "code_in_text": []
-  },
-  {
-   "id": "2611.25215",
-   "title": "Bridging vision-language reasoning and learned control for legged navigation in the wild",
-   "date": "2026-11-18",
-   "authors": [
-    "Takahiro Miki",
-    "Robin Schmid",
-    "Manthan Patel",
-    "Turcan Tuna"
-   ],
-   "abstract": "Autonomous navigation in diverse real-world environments remains one of the greatest challenges in robotics. It demands both robust low-level motion control to handle diverse terrain and high-level reasoning to interpret environmental cues. We present ROAM (Robust Open-world Autonomous Mobility), a ",
-   "cat": "cs.RO",
-   "comment": "42 pages, 6 figures, 15 supplementary figures. Author's version of the article published in Science Robotics. Project page: https://roam-hiking.github.io",
    "code_in_text": []
   }
  ]
