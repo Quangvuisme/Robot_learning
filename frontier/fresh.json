@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-24 04:04Z",
+ "generated": "2026-11-24 04:33Z",
  "papers": [
   {
    "id": "2611.29771",
@@ -129,6 +129,38 @@
    "cat": "cs.RO",
    "comment": "",
    "code_in_text": []
+  },
+  {
+   "id": "2611.29279",
+   "title": "A2I-VLA: A Two-Stage Vision-Language-Action model with Semantic-Physical Alignment and Integration",
+   "date": "2026-11-22",
+   "authors": [
+    "Kun Dai",
+    "Tianqi Wang",
+    "Haibo Lei",
+    "Chaoyang Li"
+   ],
+   "abstract": "Force and tactile feedback provide essential information about physical interactions in contact-rich manipulation that visual observations alone cannot reliably capture.However, integrating these signals into vision-language-action (VLA) models remains challenging owing to the representational gap b",
+   "cat": "cs.RO",
+   "comment": "",
+   "code_in_text": []
+  },
+  {
+   "id": "2611.29277",
+   "title": "$ζ_0$: A Framework for World Action Models with Joint Scene and Body Foresight in Humanoid Control",
+   "date": "2026-11-22",
+   "authors": [
+    "Yizhi Chen",
+    "Zhanxiang Cao",
+    "Yitong Wang",
+    "Junyu Liu"
+   ],
+   "abstract": "World Action Models anticipate visual outcomes to guide robot actions, yet humanoid interaction also depends on how the robot's body responds. Visual foresight alone can miss body motion, while latent-distance losses do not directly supervise action responses. We present $ζ_0$, a framework that turn",
+   "cat": "cs.RO",
+   "comment": "18 pages (including appendix), 10 figures, 12 tables. Project page: https://chenyizhi123.github.io/zeta0-project/ ; Code & Data: https://github.com/chenyizhi123/Zeta0",
+   "code_in_text": [
+    "https://github.com/chenyizhi123/Zeta0"
+   ]
   },
   {
    "id": "2611.29240",
@@ -1322,7 +1354,7 @@
   },
   {
    "id": "2611.25683",
-   "title": "TipDex-VTLA: Learning When to Refine Actions with Touch for Dexterous Manipulation",
+   "title": "TipDex-VTLA: Learning to Refine Actions with Visual Reliability and Tactile Feedback for Dexterous Manipulation",
    "date": "2026-11-19",
    "authors": [
     "Xudi Ge",
@@ -1332,7 +1364,7 @@
    ],
    "abstract": "Changes in illumination can induce action drift in dexterous manipulation even when the physical state remains unchanged. Although existing vision--tactile--language--action (VTLA) policies incorporate tactile feedback, when and how touch refines actions under changing visual conditions remains chal",
    "cat": "cs.RO",
-   "comment": "",
+   "comment": "10 pages, 5 figures. Title updated; main text and results unchanged",
    "code_in_text": []
   },
   {
@@ -1730,36 +1762,6 @@
    "cat": "cs.CV",
    "comment": "",
    "code_in_text": []
-  },
-  {
-   "id": "2611.24708",
-   "title": "F$^3$: What Makes Good Experience in World-Action Models?",
-   "date": "2026-11-18",
-   "authors": [
-    "Zihe Huang",
-    "Sirui Zhou",
-    "Haozhi Han",
-    "Ruge Zhang"
-   ],
-   "abstract": "Deployed world-action models (WAMs) can keep improving only if they make good use of their own experience. Existing methods supply retrieved rollouts or demonstrations to the policy as context, yet such experience often turns previously solved tasks into failures. What, then, makes good experience f",
-   "cat": "cs.AI",
-   "comment": "",
-   "code_in_text": []
-  },
-  {
-   "id": "2611.28129",
-   "title": "Urban State Representation for Autonomous Mobility: A Survey of Multimodal Perception, Architectures, Datasets, and Benchmarks",
-   "date": "2026-11-18",
-   "authors": [
-    "Binay Kumar Singh",
-    "Niels Da Vitoria Lobo"
-   ],
-   "abstract": "Cities are sensed by many platforms at once: on-board cameras, LiDAR and radar on autonomous vehicles, roadside units at intersections, drones and satellites overhead, and the GNSS traces of millions of trips. Yet most learned representations are built for one platform, one city, and one task. We su",
-   "cat": "cs.CV",
-   "comment": "Accepted to the UrbanState Workshop at WACV 2027. 8 pages + references + 5-page supplementary appendix. Code and data: https://github.com/binayksingh/Awesome-Urban-State-Representation",
-   "code_in_text": [
-    "https://github.com/binayksingh/Awesome-Urban-State-Representation"
-   ]
   }
  ]
 }
