@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-24 10:04Z",
+ "generated": "2026-11-24 10:33Z",
  "papers": [
   {
    "id": "2611.31240",
@@ -172,7 +172,7 @@
    "cat": "cs.CV",
    "comment": "19 pages, 7 figures, 6 tables. Project page: https://pawteam-eai.github.io/native-lam/",
    "hf": {
-    "up": 11,
+    "up": 15,
     "repo": null,
     "stars": null,
     "proj": "https://pawteam-eai.github.io/native-lam/"
@@ -739,7 +739,7 @@
    "cat": "cs.RO",
    "comment": "Code: https://github.com/AIGeeksGroup/MotionMamba2.0. Website: https://aigeeksgroup.github.io/MotionMamba2.0",
    "hf": {
-    "up": 106,
+    "up": 112,
     "repo": "https://github.com/AIGeeksGroup/MotionMamba2.0",
     "stars": 3,
     "proj": "https://aigeeksgroup.github.io/MotionMamba2.0/"
