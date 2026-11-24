@@ -1,7 +1,7 @@
 [
  {
   "repo": "starVLA/starVLA",
-  "stars": 3973,
+  "stars": 3974,
   "pushed": "2026-11-18",
   "created": "2025-10-09",
   "desc": "StarVLA: A Lego-like Codebase for Vision-Language-Action Model Developing",
@@ -41,7 +41,7 @@
  },
  {
   "repo": "HybridRobotics/supermimic",
-  "stars": 1998,
+  "stars": 2000,
   "pushed": "2026-11-21",
   "created": "2026-11-10",
   "desc": "Humanoid whole-body motion tracking with one differentiable world model.",
@@ -57,7 +57,7 @@
  },
  {
   "repo": "RainBowLuoCS/Gamer",
-  "stars": 1453,
+  "stars": 1456,
   "pushed": "2026-11-16",
   "created": "2026-10-30",
   "desc": "Official Implementation of Gamer: A Generalist Vision-Language-Action Foundation Model for Long-Horizon Real-T",
