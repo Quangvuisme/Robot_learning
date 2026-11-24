@@ -313,6 +313,26 @@
   "why": "code not released yet (README says so)"
  },
  {
+  "title": "PERA: Plug-in Experts for Robotic Actions in Continual Whole-Body Control",
+  "arxiv": "2611.16188",
+  "repo": "shangchaohu718/PERA",
+  "id_in_readme": true,
+  "title_in_readme": true,
+  "name_in_readme": true,
+  "official_claim": true,
+  "unofficial_claim": false,
+  "coming_soon": false,
+  "usage": true,
+  "weights": true,
+  "len": 7423,
+  "evidence": [
+   "official: ... not redistributed. Download the exact v1.4.0 base from the official repository using [the download guide](docs/HOLOMOTION_DOWNLOAD.m..."
+  ],
+  "head": " PERA Plug-in Experts for Robotic Actions in Continual Whole-Body Control Paper \u00b7 PDF \u00b7 English(README.md) \u00b7 \u7b80\u4f53\u4e2d\u6587(README.zh-CN.md) \u00b7 Website source \u00b7 Models(docs/MODELS.md) \u00b7 Setup(docs/ENVIRONMENT.md) The open-source re",
+  "tier": "A",
+  "why": "paper cited + official claim + runnable usage"
+ },
+ {
   "title": "HITCH: Teaching a Vision-Language Model to Operate a Humanoid through a Whole-Body Harness",
   "arxiv": "2611.08039",
   "repo": "Axellwppr/HITCH",

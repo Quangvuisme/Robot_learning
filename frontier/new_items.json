@@ -1,4 +1,49 @@
 {
- "papers": [],
+ "papers": [
+  {
+   "id": "2611.28585",
+   "title": "AsyncMixVLA: Runtime Asynchronous Robot Policy Switching for Adaptation to Dynamic Environments",
+   "date": "2026-11-21",
+   "authors": [
+    "Tamoghno Das",
+    "Keyon Jazayeri",
+    "Yerin Cho",
+    "Nazmul Takbir"
+   ],
+   "abstract": "Vision-language-action (VLA) models translate visual observations and language instructions into robot actions, enabling general-purpose robotic control. However, environmental perturbations, such as objects moving during execution, can undermine their reliability. Different policies exhibit complem",
+   "cat": "cs.RO",
+   "comment": "Manuscript prepared for the DAC 2027 Research Track (IEEE conference format)",
+   "code_in_text": []
+  },
+  {
+   "id": "2611.28551",
+   "title": "PhysPPF: Learning Robotic Manipulation with Past, Present, and Future Physical Representations",
+   "date": "2026-11-21",
+   "authors": [
+    "Junjie Li",
+    "Dawei Yan",
+    "Guoting Wei",
+    "Ruike Song"
+   ],
+   "abstract": "Vision-language-action (VLA) models have advanced robotic manipulation, yet complex tasks requiring both precise 3D contact and long-horizon coordination remain challenging. Most existing studies enhance spatial perception or temporal reasoning in VLAs separately. Spatial methods primarily inject ge",
+   "cat": "cs.RO",
+   "comment": "11 pages, 5 figures, 4 tables",
+   "code_in_text": []
+  },
+  {
+   "id": "2611.28509",
+   "title": "AlpaSafe: Risk-Aware Trajectory Selection for Vision-Language-Action Models in Autonomous Driving",
+   "date": "2026-11-21",
+   "authors": [
+    "Qiren Wang",
+    "Mingyu Guo",
+    "Weisong Shi"
+   ],
+   "abstract": "Reasoning-based driving vision-language-action (VLA) models propose multiple candidate trajectories at each decision, yet only one is executed. Standard evaluation scores the best candidate, assuming an oracle selector that deployment lacks, and leaves the risk of the executed candidate unexamined. ",
+   "cat": "cs.RO",
+   "comment": "",
+   "code_in_text": []
+  }
+ ],
  "repos": []
 }
