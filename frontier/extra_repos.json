@@ -333,5 +333,10 @@
   "title": "humanoid-ws",
   "arxiv": null,
   "repo": "SeonilChoi/humanoid-ws"
+ },
+ {
+  "title": "Epsilon Tilde: Does Initial Noise Induce Directional Bias in Vision-Language-Action Models?",
+  "arxiv": null,
+  "repo": "june65/Epsilon-Tilde"
  }
 ]
