@@ -2195,7 +2195,7 @@
   "coming_soon": false,
   "usage": true,
   "weights": true,
-  "len": 22550,
+  "len": 23686,
   "evidence": [],
   "head": " Legged Robot MPC Controller ros2_control implementation for legged robot MPC using ocs2_ros2 and pinocchio. Tested in ros2 jazzy and mujoco simulation environment. Demos Unitree G1Velocity and base-height control Unitre",
   "tier": "X",
