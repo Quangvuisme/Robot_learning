@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-24 21:04Z",
+ "generated": "2026-11-24 21:33Z",
  "papers": [
   {
    "id": "2611.31240",
@@ -77,7 +77,7 @@
    "hf": {
     "up": 2,
     "repo": "https://github.com/Kingzein/WeaveVLA",
-    "stars": 9,
+    "stars": 13,
     "proj": "https://kingzein.github.io/weave-vla/#overview"
    },
    "code_in_text": []
@@ -122,7 +122,7 @@
    "cat": "cs.RO",
    "comment": "",
    "hf": {
-    "up": 72,
+    "up": 74,
     "repo": "https://github.com/xyangzhou/WorldLeague",
     "stars": 18,
     "proj": "https://xyangzhou.github.io/WorldLeague/"
