@@ -1,47 +1,48 @@
 {
  "papers": [
   {
-   "id": "2611.28346",
-   "title": "Defending Vision-Language-Action Models against Transferable Attacks via Visual-Proprioceptive Consistency",
-   "date": "2026-11-20",
+   "id": "2611.29240",
+   "title": "Tacinf: A Unified Tactile Infrastructure for Robot Manipulation",
+   "date": "2026-11-22",
    "authors": [
-    "Jiahao Wang",
-    "Ming F. Li",
-    "Han Xu"
+    "Qiwei Wu",
+    "Xiangyu Chen",
+    "Xin Xiang",
+    "Rui Zhang"
    ],
-   "abstract": "Vision-Language-Action (VLA) models have demonstrated strong capabilities in a wide range of robotic tasks. However, adversarial attacks in VLA models have shown strong transferability across robotic tasks, posing significant threats to robotic systems. Despite their different attack strategies, we ",
-   "cat": "cs.RO",
-   "comment": "14 pages, 10 figures",
-   "code_in_text": []
-  },
-  {
-   "id": "2611.28289",
-   "title": "Intervention-Robust VLA: Diverse Demonstrations for Robot Deployment with Safety Filters",
-   "date": "2026-11-20",
-   "authors": [
-    "Tzu-Yuan Huang",
-    "Shao-Hsuan Chang",
-    "Dai-Jie Wu",
-    "Ralf R\u00f6mer"
-   ],
-   "abstract": "Vision-Language-Action models (VLAs) have shown strong potential for learning complex robotic behaviors from demonstrations. However, learning safe behavior directly from data requires extensive coverage of safety-critical situations, which is often impractical in real-world settings. Test-time safe",
+   "abstract": "Force-aware manipulation requires robots to infer appropriate interaction forces from task context and tactile feedback. We present Tacinf, a low-cost, modular infrastructure that enables policies to predict robot actions and fingertip forces from task language, vision, and touch. Task instructions ",
    "cat": "cs.RO",
    "comment": "",
    "code_in_text": []
   },
   {
-   "id": "2611.28256",
-   "title": "FlowPAC: Flow-Guided Visual Pruning and Action Caching for Efficient VLA Inference",
-   "date": "2026-11-20",
+   "id": "2611.29195",
+   "title": "FunGrasp-Zero: Field-Conditioned Graph Attention Policy for Zero-Shot Cross-Embodiment Dexterous Functional Grasping",
+   "date": "2026-11-22",
    "authors": [
-    "Jintao Cheng",
-    "Yipu Zhang",
-    "Haozhe Wang",
-    "Lin Jiang"
+    "Yanhan Lin",
+    "Yuliang Wu",
+    "Yihao Guo",
+    "Wei-Jin Huang"
    ],
-   "abstract": "Vision-Language-Action (VLA) models have emerged as a powerful paradigm for embodied AI, yet their high inference latency and memory footprint remain major barriers to edge deployment. Existing training-free acceleration techniques, such as visual token pruning and action caching, typically rely on ",
+   "abstract": "Dexterous functional grasping is critical for robotic tool use, yet current dexterous hands exhibit substantial morphological diversity. This hardware heterogeneity makes cross-embodiment functional grasping a fundamental but largely unexplored problem. Existing functional grasping methods use retar",
    "cat": "cs.RO",
-   "comment": "Accepted at DATE 2027. 7 pages, 6 figures",
+   "comment": "",
+   "code_in_text": []
+  },
+  {
+   "id": "2611.29096",
+   "title": "JEPA-Tuner: From Predictive Fine-Tuning to Asynchronous Execution of Vision-Language-Action Models",
+   "date": "2026-11-21",
+   "authors": [
+    "Jingxiang Qu",
+    "Tian Xie",
+    "Youngjin Hong",
+    "Changhyun Choi"
+   ],
+   "abstract": "Vision-Language-Action (VLA) models generate sequences of actions from visual observations, proprioceptive states, and language instructions. In embodied interaction, executing these actions influences subsequent observations and robot states, providing a natural predictive signal for policy learnin",
+   "cat": "cs.RO",
+   "comment": "",
    "code_in_text": []
   }
  ],

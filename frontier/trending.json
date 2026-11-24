@@ -41,7 +41,7 @@
  },
  {
   "repo": "HybridRobotics/supermimic",
-  "stars": 1982,
+  "stars": 1986,
   "pushed": "2026-11-21",
   "created": "2026-11-10",
   "desc": "Humanoid whole-body motion tracking with one differentiable world model.",
@@ -57,7 +57,7 @@
  },
  {
   "repo": "RainBowLuoCS/Gamer",
-  "stars": 1434,
+  "stars": 1437,
   "pushed": "2026-11-16",
   "created": "2026-10-30",
   "desc": "Official Implementation of Gamer: A Generalist Vision-Language-Action Foundation Model for Long-Horizon Real-T",
@@ -97,7 +97,7 @@
  },
  {
   "repo": "shengshu-ai/Motus2",
-  "stars": 620,
+  "stars": 622,
   "pushed": "2026-11-22",
   "created": "2026-09-11",
   "desc": "Motus2: A Self-Evolving General World Model for Dexterous Manipulation",
@@ -161,7 +161,7 @@
  },
  {
   "repo": "Bench2Dex/Bench2Dex",
-  "stars": 108,
+  "stars": 109,
   "pushed": "2026-11-23",
   "created": "2026-08-14",
   "desc": "A Bimanual Manipulation Benchmark across Dexterous Hands with Simulated Visuo-Tactile Support",
@@ -201,7 +201,7 @@
  },
  {
   "repo": "bytepioneerX/Acp_supermimic_vibed",
-  "stars": 51,
+  "stars": 52,
   "pushed": "2026-11-05",
   "created": "2026-11-05",
   "desc": "ACP reproduction + SuperMimic for Unitree G1 humanoid locomotion, contact planning, parkour, and whole-body co",
