@@ -1,37 +1,146 @@
 {
  "papers": [
   {
-   "id": "2611.29279",
-   "title": "A2I-VLA: A Two-Stage Vision-Language-Action model with Semantic-Physical Alignment and Integration",
-   "date": "2026-11-22",
+   "id": "2611.30308",
+   "title": "ConsisX: Cross-View Consistency Thinking in 3D for Vision-Language-Action Models",
+   "date": "2026-11-23",
    "authors": [
-    "Kun Dai",
-    "Tianqi Wang",
-    "Haibo Lei",
-    "Chaoyang Li"
+    "Yunhe Zhang",
+    "Long Gao",
+    "Yuedong Fu",
+    "Gang He"
    ],
-   "abstract": "Force and tactile feedback provide essential information about physical interactions in contact-rich manipulation that visual observations alone cannot reliably capture.However, integrating these signals into vision-language-action (VLA) models remains challenging owing to the representational gap b",
+   "abstract": "Vision-language-action (VLA) models integrate visual perception and language understanding from vision-language models (VLMs) with action prediction for robotic manipulation. Although multi-view observations provide complementary scene information, VLMs model cross-view interactions based on 2D feat",
    "cat": "cs.RO",
    "comment": "",
    "code_in_text": []
   },
   {
-   "id": "2611.29277",
-   "title": "$\u03b6_0$: A Framework for World Action Models with Joint Scene and Body Foresight in Humanoid Control",
-   "date": "2026-11-22",
+   "id": "2611.30291",
+   "title": "Beyond Which: Where, How, and When in Vision-Language-Action Models",
+   "date": "2026-11-23",
    "authors": [
-    "Yizhi Chen",
-    "Zhanxiang Cao",
-    "Yitong Wang",
-    "Junyu Liu"
+    "Yunhe Zhang",
+    "Long Gao",
+    "Yuedong Fu",
+    "Gang He"
    ],
-   "abstract": "World Action Models anticipate visual outcomes to guide robot actions, yet humanoid interaction also depends on how the robot's body responds. Visual foresight alone can miss body motion, while latent-distance losses do not directly supervise action responses. We present $\u03b6_0$, a framework that turn",
+   "abstract": "Vision-language-action (VLA) models typically rely on vision-language model (VLM) features as the primary perceptual source for action prediction, showing strong generalization across diverse robotic manipulation tasks. Although VLM features can identify which entities are relevant to action predict",
    "cat": "cs.RO",
-   "comment": "18 pages (including appendix), 10 figures, 12 tables. Project page: https://chenyizhi123.github.io/zeta0-project/ ; Code & Data: https://github.com/chenyizhi123/Zeta0",
+   "comment": "",
+   "code_in_text": []
+  },
+  {
+   "id": "2611.30209",
+   "title": "RoboAda: Adapting Frozen Robot Policies at Test Time to Physics They Cannot See",
+   "date": "2026-11-23",
+   "authors": [
+    "Yunbei Zhang",
+    "Zijian Jin",
+    "Shuaicheng Niu",
+    "Baian Chen"
+   ],
+   "abstract": "Pretrained robot policies decide what to do from camera images, yet some of the physics that decides whether their plans succeed is not visible. An object may look light but be 100 times heavier, and a weakened joint or a lagging controller leaves no trace in the image. When the physics at deploymen",
+   "cat": "cs.RO",
+   "comment": "Project page and code: https://RoboAda.github.io/",
+   "code_in_text": []
+  },
+  {
+   "id": "2611.30195",
+   "title": "Quantization for Action, Execution for Deployment: Joint Precision and Execution Selection for World Action Models",
+   "date": "2026-11-23",
+   "authors": [
+    "Tianqi Li",
+    "Xin He",
+    "Xue Geng",
+    "Le Zhang"
+   ],
+   "abstract": "World action models guide robots by predicting the effects of actions or generating commands from observations. A model may compare hundreds of candidate futures before acting, repeatedly reading weights that must fit in device memory. Post-training quantization reduces the number of bits used to st",
+   "cat": "cs.CV",
+   "comment": "",
+   "code_in_text": []
+  },
+  {
+   "id": "2611.30188",
+   "title": "Calibrating World Action Models: From Adaptive System 2 Takeover to Self-Evolution",
+   "date": "2026-11-23",
+   "authors": [
+    "Wenhao Li",
+    "Yu Han",
+    "Xiu Su",
+    "Dehao Wu"
+   ],
+   "abstract": "World action models (WAMs) deliver fast visuomotor control, yet degrade sharply in challenging scenes and act blindly when about to fail; conversely, foundation-model-based agents generalize and recover reliably, but incur prohibitive latency and cost when queried at every step. To achieve both WAM ",
+   "cat": "cs.RO",
+   "comment": "",
+   "code_in_text": []
+  },
+  {
+   "id": "2611.30178",
+   "title": "Quantizing in the Loop: Drift-Aware Ultra-Low-Bit Vision-Language-Action Models",
+   "date": "2026-11-23",
+   "authors": [
+    "Yanlong Chen",
+    "Thongthornpatch Chamadol",
+    "Yichen Guo",
+    "Yunfei Gao"
+   ],
+   "abstract": "Deploying large vision-language-action (VLA) models on resource-constrained robots demands extreme compression, yet existing post-training quantization (PTQ) methods frequently collapse at ultra-low bit-widths ($\\le$ 2 bits). We trace this failure to two mismatches in standard pipelines. First, cali",
+   "cat": "cs.RO",
+   "comment": "The paper is currently under review. Code and models: https://github.com/ForeverBlue816/LoopQ",
    "code_in_text": [
-    "https://github.com/chenyizhi123/Zeta0"
+    "https://github.com/ForeverBlue816/LoopQ"
    ]
+  },
+  {
+   "id": "2611.30145",
+   "title": "RMR-VLA: Recurrent Memory Reasoning for Vision-Language-Action Models",
+   "date": "2026-11-23",
+   "authors": [
+    "Yiheng Du",
+    "Jingqi Tian",
+    "Xu Jiang",
+    "Jiexuan Zhang"
+   ],
+   "abstract": "Long-horizon, history-dependent robotic manipulation often requires acting on visual cues that have disappeared, such as an object indicated earlier or a target hidden under a moving cup. The key challenge is to maintain what past evidence means for the next action as the scene changes. We introduce",
+   "cat": "cs.CV",
+   "comment": "",
+   "code_in_text": []
+  },
+  {
+   "id": "2611.30111",
+   "title": "RoboThink: Let the Agent Think, Let the Policy Act",
+   "date": "2026-11-23",
+   "authors": [
+    "Yunbei Zhang",
+    "Zijian Jin",
+    "Janet Wang",
+    "Xingchen Zhao"
+   ],
+   "abstract": "Robot policies act in real time but fail without knowing why, whereas a reasoning agent that watches the robot can often tell what went wrong. Existing systems either hand the agent control, which takes minutes per episode, or let it send instructions. Yet a policy follows a new instruction only fro",
+   "cat": "cs.RO",
+   "comment": "Project page and code: https://robo-think.github.io/",
+   "code_in_text": []
   }
  ],
- "repos": []
+ "repos": [
+  {
+   "title": "humanoid-sim",
+   "arxiv": null,
+   "repo": "SeonilChoi/humanoid-sim",
+   "id_in_readme": false,
+   "title_in_readme": true,
+   "name_in_readme": true,
+   "official_claim": false,
+   "unofficial_claim": false,
+   "coming_soon": false,
+   "usage": true,
+   "weights": true,
+   "len": 11050,
+   "evidence": [],
+   "head": " humanoid_sim Isaac Lab project for the ARTI-H1 robot, trained with the method of M\u00fcller, Knoop et al., Olaf: Bringing an Animated Character to Life in the Physical World (arXiv 2512.16705v2). It starts from arti_h1_olaf",
+   "tier": "B",
+   "why": "paper cited + runnable usage, no explicit 'official' claim"
+  }
+ ]
 }

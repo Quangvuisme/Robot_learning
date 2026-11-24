@@ -1,1 +1,332 @@
-[{"title": "zeta0 world action model", "arxiv": null, "repo": "chenyizhi123/zeta0-project"}, {"title": "Telescene whole-body humanoid teleoperation", "arxiv": null, "repo": "jellyho/telescene"}, {"title": "SuperMimic", "arxiv": null, "repo": "HybridRobotics/supermimic"}, {"title": "SuperMimic", "arxiv": null, "repo": "Motphys/Uni-SuperMimic"}, {"title": "GR00T whole-body control", "arxiv": null, "repo": "NVlabs/GR00T-WholeBodyControl"}, {"title": "XMimic and XSoma: Learning Humanoid Motion Tracking", "arxiv": "2611.20452", "repo": "nico-bohlinger/xmimic"}, {"title": "Skill-JEPA: Learning Planner-Aligned Action Spaces for World Models", "arxiv": "2611.26825", "repo": "tcouso/Skill-JEPA"}, {"title": "FORTH: Grounding Tactile VLA Execution via Forward-Only Proxy-Control Pairing", "arxiv": "2611.26744", "repo": "Jordanlllll/FORTH"}, {"title": "Mind2Act World: A Diagnostic Benchmark for Embodied Mind, Physical Action, and Mind-Action Composition in Robotic Manipulation", "arxiv": "2611.26444", "repo": "Mind2Act/Mind2Act_World"}, {"title": "LocoMuJoCo: A Comprehensive Imitation Learning Benchmark for Whole-Body Control", "arxiv": "2611.26293", "repo": "robfiras/loco-mujoco"}, {"title": "Teaching Vision-Language-Action Models to Stop Safely", "arxiv": "2611.26239", "repo": "franciscoliu/SAFI"}, {"title": "Fixing the Twin, Not the Detector: Sim-to-Real Roadside LiDAR Detection from Digital-Twin Data", "arxiv": "2611.26035", "repo": "dipper13579/urbantwin-sim2real-lidar"}, {"title": "ActMem: From Latent Memory Reasoning to Grounded Robotic Action", "arxiv": "2611.25461", "repo": "LigphiDonk/ActMem"}, {"title": "Inhabitant: An Agent Framework for Long-Horizon Human-Scene Interaction with Spatial Control and Quantitative Feedback", "arxiv": "2611.25005", "repo": "yaozhang182/inhabitant"}, {"title": "TrajWAM: Trajectory-Conditioned Future Learning for Vision-Language Driving", "arxiv": "2611.24192", "repo": "FangWD520/TrajWAM"}, {"title": "AeroRSI: Recursive Self-Improvement for Aerial Vision-Language Navigation", "arxiv": "2611.24077", "repo": "starsholic/AeroRSI"}, {"title": "WAM-Policy: World Action Models with On-Policy Distillation for Quadrupedal Loco-Manipulation", "arxiv": "2611.24011", "repo": "AIGeeksGroup/WAM-Policy"}, {"title": "humanoid", "arxiv": null, "repo": "zajirA1/humanoid"}, {"title": "HumanoidsStreetFighter", "arxiv": null, "repo": "fruffers/HumanoidsStreetFighter"}, {"title": "humanoidrobotlar", "arxiv": null, "repo": "AliDenizTufekci/humanoidrobotlar"}, {"title": "HUMANOID_PROJECT", "arxiv": null, "repo": "DhiaAlhemdani/HUMANOID_PROJECT"}, {"title": "compliant-humanoid", "arxiv": null, "repo": "original-dk/compliant-humanoid"}, {"title": "Humano\u00efde taille enfant con\u00e7u module par module, actionneurs maison.", "arxiv": null, "repo": "JordvnK/Humanoide-uqtr"}, {"title": "CELOS LAB \uc2ec\ud654\uc2e4\uc2b5", "arxiv": null, "repo": "planta223/CELOS_Humanoid"}, {"title": "Procedural low-poly humanoid for three.js: data-driven characters, layered pose animation and a live character editor.", "arxiv": null, "repo": "SpaceChakra/humanoid-rig"}, {"title": "MINI-Humanoids", "arxiv": null, "repo": "AsaruEl-Bey-hash/MINI-Humanoids"}, {"title": "humanoid_hand-", "arxiv": null, "repo": "prathameshnaik2898/humanoid_hand-"}, {"title": "SmolVLA and vision-language-action learning workspace", "arxiv": null, "repo": "ZzxArthur/vla-learning"}, {"title": "Project website for FluentAct: Efficient Action Continuations for Asynchronous Vision-Language-Action Control", "arxiv": null, "repo": "shuobao214/FluentAct"}, {"title": "Project page for FreshVLA, a vision-language-action model for robot manipulation.", "arxiv": null, "repo": "FreshVLA/freshvla.github.io"}, {"title": "SmallDrive: An Efficient Vision-Language-Action Model for Autonomous Driving via Flow Matching", "arxiv": null, "repo": "atanas1054/SmallDrive"}, {"title": "Project website for Weave-VLA: 3D Relational Grounding for Vision-Language-Action Models", "arxiv": null, "repo": "Kingzein/weave-vla"}, {"title": "Quantizing in the Loop: Drift-Aware Ultra-Low-Bit Vision-Language-Action Models", "arxiv": null, "repo": "ForeverBlue816/LoopQ"}, {"title": "Project website for TauPrune-VLA: Scale-Adaptive Token Pruning for Vision-Language-Action Models", "arxiv": null, "repo": "Lin0e0/TauPrune-VLA"}, {"title": "SmolVLM2 Dropped: 100% Offline Video AI on Laptop, iPhone & 4GB GPUs! Compact on-device multimodal vision-language model for local video chaptering, spatial hazard radar, and action search.", "arxiv": null, "repo": "47thtechcorner/RayCodes_SmolVLM2"}, {"title": "High-throughput single-GPU inference and zero-padding dynamic-batching engine for Vision-Language-Action models (\u03c00.5, OpenVLA-OFT, LingBot-VLA2).", "arxiv": null, "repo": "X1Agu/VVLA"}, {"title": "Empirical benchmarking suite for Vision-Language-Action (VLA) models on the LeRobot SO-ARM 101 platform\u2014evaluating vision backbones (SigLIP vs. CLIP in SmolVLA), spatial patching tradeoffs, and edge inference latency.", "arxiv": null, "repo": "ETechZone/LeRobot_Bench"}, {"title": "\u57fa\u4e8e SuperMimic \u7684\u8db3\u5f0f\u673a\u5668\u4eba\u697c\u68af\u8fd0\u52a8\u4eff\u771f \u00b7 Go2 and G1 stair locomotion in MuJoCo, with a Three.js and Tauri desktop app", "arxiv": null, "repo": "ZHT1235456/SuperMimic-Based-Stair-Locomotion-Simulation-for-Legged-Robots"}, {"title": "RL locomotion write-up for an 8-legged, 24-servo spider robot (Isaac Lab + skrl) - design decisions, reward-engineering process, and current status.", "arxiv": null, "repo": "luisgast/arachne-rl-spider-writeup"}, {"title": "GR00T-WholeBodyControl", "arxiv": null, "repo": "antiloafer/GR00T-WholeBodyControl"}, {"title": "REWIRE: Rapid Equilibrium through Whole-body Integrated control for Real-time Execution. Modeling, control and real-time implementation of a ball-balancing cart system. DSM, Mechatronic Systems Design.", "arxiv": null, "repo": "angor-root/rewire"}, {"title": "Whole-Body Control Simulation of an 82.6 kg Quadruped Mobile Manipulator (8-DOF Legs + 6-Axis Arm + Vacuum Gripper) in MATLAB Simscape Multibody", "arxiv": null, "repo": "VasanEV007/quadruped-wbc-simscape"}, {"title": "An action-conditioned physics world model with a NumPy MLP and held-out rollout benchmarks.", "arxiv": null, "repo": "xiakangjun007-hash/world-model-lab"}, {"title": "MemE-WAM-Memory-Efficient-World-Action-Models-", "arxiv": null, "repo": "Thu-WangMX/MemE-WAM-Memory-Efficient-World-Action-Models-"}, {"title": "Large Commands, Small Effects: a JEPA world model's action-effect fidelity in PushT", "arxiv": null, "repo": "OmerTorres/jepa-action-effects"}, {"title": "FlexWAM: Learning Flexible Visual Routing for World Action Models", "arxiv": null, "repo": "FlexWAM/FlexWAM"}, {"title": "Bagel Labs\u2019 open-weight world-action model for bimanual robot manipulation, with training code and RoboDojo-Sim evaluation.", "arxiv": null, "repo": "bageldotcom/Bagel-Robotics-1"}, {"title": "Project page for Model Predictive Shape Controller Guided by a JEPA World Action Model", "arxiv": null, "repo": "ning-han99/shape-control"}, {"title": "Build an action-conditioned Joint Embedding Predictive Architecture (JEPA) world model in pure PyTorch. An encoder and EMA target learn collapse-resistant latents of a 2D room via VICReg, a predictor rolls dynamics in embedding space, and acting is random-shooting MPC toward goal embeddings. No decoder, no pixels, no learned policy.", "arxiv": null, "repo": "Anirudh-Senani/jepa-world-model-from-scratch"}, {"title": "Mid-Execution Corrections Interface (MECI) plugin for the Flex-\u03c0 world action model", "arxiv": null, "repo": "jessicawu-333/meci-flexpi"}, {"title": "DejaWorld: Scaling Action-Conditioned World Models through In-Context Dynamics Grounding (project page)", "arxiv": null, "repo": "dejaworld/dejaworld.github.io"}, {"title": "PreWAM: Exploring the Design of Latent Future Prediction for World-Action Modeling \u2014 project page", "arxiv": null, "repo": "newbrains1/PreWAM"}, {"title": "humanoid", "arxiv": null, "repo": "Hermelloy/humanoid"}, {"title": "Tactile sensing and action-conditioned world models for robotic manipulation in FlexiTac simulation.", "arxiv": null, "repo": "ruijia-liu/tactile-aware-world-models"}, {"title": "humanoid_cpp", "arxiv": null, "repo": "Pranava116/humanoid_cpp"}, {"title": "Procedural humanoid figure built and rendered entirely from Python in Blender 4.2.1", "arxiv": null, "repo": "adedayocornexology-sys/blender-humanoid"}, {"title": "Repository for my journey into the world of humanoid robotics", "arxiv": null, "repo": "Ant0nymous/humanoid-journey"}, {"title": "Closed-loop Vision-Language-Action (SmolVLA / LeRobot) pipeline for a UR10e manipulator on a linear rail in Gazebo Harmonic and ROS 2 Humble.", "arxiv": null, "repo": "emirArn/ifarlab-vla"}, {"title": "Fine-tuning NVIDIA's GR00T N1.7 to control a Unitree G1 humanoid on a single 16 GB GPU", "arxiv": null, "repo": "ravijo/vla-humanoid"}, {"title": "Role-Aware 4D World\u2013Action Modeling for Dynamic Manipulation", "arxiv": null, "repo": "ArrebolBlack/FoveaWAM"}, {"title": "Blender Python humanoid rig, QA framework and showcase pipeline", "arxiv": null, "repo": "411tmnd-star/Humanoid-Robot"}, {"title": "PERA: Plug-in Experts for Robotic Actions in Continual Whole-Body Control", "arxiv": "2611.16188", "repo": "shangchaohu718/PERA"}, {"title": "WeaveVLA: 3D Relational Grounding for Vision-Language-Action Models", "arxiv": null, "repo": "Kingzein/WeaveVLA"}, {"title": "humanoid_sim", "arxiv": null, "repo": "SeonilChoi/humanoid_sim"}, {"title": "zeta0 world action model", "arxiv": "2611.29277", "repo": "chenyizhi123/Zeta0"}]
+[
+ {
+  "title": "zeta0 world action model",
+  "arxiv": null,
+  "repo": "chenyizhi123/zeta0-project"
+ },
+ {
+  "title": "Telescene whole-body humanoid teleoperation",
+  "arxiv": null,
+  "repo": "jellyho/telescene"
+ },
+ {
+  "title": "SuperMimic",
+  "arxiv": null,
+  "repo": "HybridRobotics/supermimic"
+ },
+ {
+  "title": "SuperMimic",
+  "arxiv": null,
+  "repo": "Motphys/Uni-SuperMimic"
+ },
+ {
+  "title": "GR00T whole-body control",
+  "arxiv": null,
+  "repo": "NVlabs/GR00T-WholeBodyControl"
+ },
+ {
+  "title": "XMimic and XSoma: Learning Humanoid Motion Tracking",
+  "arxiv": "2611.20452",
+  "repo": "nico-bohlinger/xmimic"
+ },
+ {
+  "title": "Skill-JEPA: Learning Planner-Aligned Action Spaces for World Models",
+  "arxiv": "2611.26825",
+  "repo": "tcouso/Skill-JEPA"
+ },
+ {
+  "title": "FORTH: Grounding Tactile VLA Execution via Forward-Only Proxy-Control Pairing",
+  "arxiv": "2611.26744",
+  "repo": "Jordanlllll/FORTH"
+ },
+ {
+  "title": "Mind2Act World: A Diagnostic Benchmark for Embodied Mind, Physical Action, and Mind-Action Composition in Robotic Manipulation",
+  "arxiv": "2611.26444",
+  "repo": "Mind2Act/Mind2Act_World"
+ },
+ {
+  "title": "LocoMuJoCo: A Comprehensive Imitation Learning Benchmark for Whole-Body Control",
+  "arxiv": "2611.26293",
+  "repo": "robfiras/loco-mujoco"
+ },
+ {
+  "title": "Teaching Vision-Language-Action Models to Stop Safely",
+  "arxiv": "2611.26239",
+  "repo": "franciscoliu/SAFI"
+ },
+ {
+  "title": "Fixing the Twin, Not the Detector: Sim-to-Real Roadside LiDAR Detection from Digital-Twin Data",
+  "arxiv": "2611.26035",
+  "repo": "dipper13579/urbantwin-sim2real-lidar"
+ },
+ {
+  "title": "ActMem: From Latent Memory Reasoning to Grounded Robotic Action",
+  "arxiv": "2611.25461",
+  "repo": "LigphiDonk/ActMem"
+ },
+ {
+  "title": "Inhabitant: An Agent Framework for Long-Horizon Human-Scene Interaction with Spatial Control and Quantitative Feedback",
+  "arxiv": "2611.25005",
+  "repo": "yaozhang182/inhabitant"
+ },
+ {
+  "title": "TrajWAM: Trajectory-Conditioned Future Learning for Vision-Language Driving",
+  "arxiv": "2611.24192",
+  "repo": "FangWD520/TrajWAM"
+ },
+ {
+  "title": "AeroRSI: Recursive Self-Improvement for Aerial Vision-Language Navigation",
+  "arxiv": "2611.24077",
+  "repo": "starsholic/AeroRSI"
+ },
+ {
+  "title": "WAM-Policy: World Action Models with On-Policy Distillation for Quadrupedal Loco-Manipulation",
+  "arxiv": "2611.24011",
+  "repo": "AIGeeksGroup/WAM-Policy"
+ },
+ {
+  "title": "humanoid",
+  "arxiv": null,
+  "repo": "zajirA1/humanoid"
+ },
+ {
+  "title": "HumanoidsStreetFighter",
+  "arxiv": null,
+  "repo": "fruffers/HumanoidsStreetFighter"
+ },
+ {
+  "title": "humanoidrobotlar",
+  "arxiv": null,
+  "repo": "AliDenizTufekci/humanoidrobotlar"
+ },
+ {
+  "title": "HUMANOID_PROJECT",
+  "arxiv": null,
+  "repo": "DhiaAlhemdani/HUMANOID_PROJECT"
+ },
+ {
+  "title": "compliant-humanoid",
+  "arxiv": null,
+  "repo": "original-dk/compliant-humanoid"
+ },
+ {
+  "title": "Humano\u00efde taille enfant con\u00e7u module par module, actionneurs maison.",
+  "arxiv": null,
+  "repo": "JordvnK/Humanoide-uqtr"
+ },
+ {
+  "title": "CELOS LAB \uc2ec\ud654\uc2e4\uc2b5",
+  "arxiv": null,
+  "repo": "planta223/CELOS_Humanoid"
+ },
+ {
+  "title": "Procedural low-poly humanoid for three.js: data-driven characters, layered pose animation and a live character editor.",
+  "arxiv": null,
+  "repo": "SpaceChakra/humanoid-rig"
+ },
+ {
+  "title": "MINI-Humanoids",
+  "arxiv": null,
+  "repo": "AsaruEl-Bey-hash/MINI-Humanoids"
+ },
+ {
+  "title": "humanoid_hand-",
+  "arxiv": null,
+  "repo": "prathameshnaik2898/humanoid_hand-"
+ },
+ {
+  "title": "SmolVLA and vision-language-action learning workspace",
+  "arxiv": null,
+  "repo": "ZzxArthur/vla-learning"
+ },
+ {
+  "title": "Project website for FluentAct: Efficient Action Continuations for Asynchronous Vision-Language-Action Control",
+  "arxiv": null,
+  "repo": "shuobao214/FluentAct"
+ },
+ {
+  "title": "Project page for FreshVLA, a vision-language-action model for robot manipulation.",
+  "arxiv": null,
+  "repo": "FreshVLA/freshvla.github.io"
+ },
+ {
+  "title": "SmallDrive: An Efficient Vision-Language-Action Model for Autonomous Driving via Flow Matching",
+  "arxiv": null,
+  "repo": "atanas1054/SmallDrive"
+ },
+ {
+  "title": "Project website for Weave-VLA: 3D Relational Grounding for Vision-Language-Action Models",
+  "arxiv": null,
+  "repo": "Kingzein/weave-vla"
+ },
+ {
+  "title": "Quantizing in the Loop: Drift-Aware Ultra-Low-Bit Vision-Language-Action Models",
+  "arxiv": null,
+  "repo": "ForeverBlue816/LoopQ"
+ },
+ {
+  "title": "Project website for TauPrune-VLA: Scale-Adaptive Token Pruning for Vision-Language-Action Models",
+  "arxiv": null,
+  "repo": "Lin0e0/TauPrune-VLA"
+ },
+ {
+  "title": "SmolVLM2 Dropped: 100% Offline Video AI on Laptop, iPhone & 4GB GPUs! Compact on-device multimodal vision-language model for local video chaptering, spatial hazard radar, and action search.",
+  "arxiv": null,
+  "repo": "47thtechcorner/RayCodes_SmolVLM2"
+ },
+ {
+  "title": "High-throughput single-GPU inference and zero-padding dynamic-batching engine for Vision-Language-Action models (\u03c00.5, OpenVLA-OFT, LingBot-VLA2).",
+  "arxiv": null,
+  "repo": "X1Agu/VVLA"
+ },
+ {
+  "title": "Empirical benchmarking suite for Vision-Language-Action (VLA) models on the LeRobot SO-ARM 101 platform\u2014evaluating vision backbones (SigLIP vs. CLIP in SmolVLA), spatial patching tradeoffs, and edge inference latency.",
+  "arxiv": null,
+  "repo": "ETechZone/LeRobot_Bench"
+ },
+ {
+  "title": "\u57fa\u4e8e SuperMimic \u7684\u8db3\u5f0f\u673a\u5668\u4eba\u697c\u68af\u8fd0\u52a8\u4eff\u771f \u00b7 Go2 and G1 stair locomotion in MuJoCo, with a Three.js and Tauri desktop app",
+  "arxiv": null,
+  "repo": "ZHT1235456/SuperMimic-Based-Stair-Locomotion-Simulation-for-Legged-Robots"
+ },
+ {
+  "title": "RL locomotion write-up for an 8-legged, 24-servo spider robot (Isaac Lab + skrl) - design decisions, reward-engineering process, and current status.",
+  "arxiv": null,
+  "repo": "luisgast/arachne-rl-spider-writeup"
+ },
+ {
+  "title": "GR00T-WholeBodyControl",
+  "arxiv": null,
+  "repo": "antiloafer/GR00T-WholeBodyControl"
+ },
+ {
+  "title": "REWIRE: Rapid Equilibrium through Whole-body Integrated control for Real-time Execution. Modeling, control and real-time implementation of a ball-balancing cart system. DSM, Mechatronic Systems Design.",
+  "arxiv": null,
+  "repo": "angor-root/rewire"
+ },
+ {
+  "title": "Whole-Body Control Simulation of an 82.6 kg Quadruped Mobile Manipulator (8-DOF Legs + 6-Axis Arm + Vacuum Gripper) in MATLAB Simscape Multibody",
+  "arxiv": null,
+  "repo": "VasanEV007/quadruped-wbc-simscape"
+ },
+ {
+  "title": "An action-conditioned physics world model with a NumPy MLP and held-out rollout benchmarks.",
+  "arxiv": null,
+  "repo": "xiakangjun007-hash/world-model-lab"
+ },
+ {
+  "title": "MemE-WAM-Memory-Efficient-World-Action-Models-",
+  "arxiv": null,
+  "repo": "Thu-WangMX/MemE-WAM-Memory-Efficient-World-Action-Models-"
+ },
+ {
+  "title": "Large Commands, Small Effects: a JEPA world model's action-effect fidelity in PushT",
+  "arxiv": null,
+  "repo": "OmerTorres/jepa-action-effects"
+ },
+ {
+  "title": "FlexWAM: Learning Flexible Visual Routing for World Action Models",
+  "arxiv": null,
+  "repo": "FlexWAM/FlexWAM"
+ },
+ {
+  "title": "Bagel Labs\u2019 open-weight world-action model for bimanual robot manipulation, with training code and RoboDojo-Sim evaluation.",
+  "arxiv": null,
+  "repo": "bageldotcom/Bagel-Robotics-1"
+ },
+ {
+  "title": "Project page for Model Predictive Shape Controller Guided by a JEPA World Action Model",
+  "arxiv": null,
+  "repo": "ning-han99/shape-control"
+ },
+ {
+  "title": "Build an action-conditioned Joint Embedding Predictive Architecture (JEPA) world model in pure PyTorch. An encoder and EMA target learn collapse-resistant latents of a 2D room via VICReg, a predictor rolls dynamics in embedding space, and acting is random-shooting MPC toward goal embeddings. No decoder, no pixels, no learned policy.",
+  "arxiv": null,
+  "repo": "Anirudh-Senani/jepa-world-model-from-scratch"
+ },
+ {
+  "title": "Mid-Execution Corrections Interface (MECI) plugin for the Flex-\u03c0 world action model",
+  "arxiv": null,
+  "repo": "jessicawu-333/meci-flexpi"
+ },
+ {
+  "title": "DejaWorld: Scaling Action-Conditioned World Models through In-Context Dynamics Grounding (project page)",
+  "arxiv": null,
+  "repo": "dejaworld/dejaworld.github.io"
+ },
+ {
+  "title": "PreWAM: Exploring the Design of Latent Future Prediction for World-Action Modeling \u2014 project page",
+  "arxiv": null,
+  "repo": "newbrains1/PreWAM"
+ },
+ {
+  "title": "humanoid",
+  "arxiv": null,
+  "repo": "Hermelloy/humanoid"
+ },
+ {
+  "title": "Tactile sensing and action-conditioned world models for robotic manipulation in FlexiTac simulation.",
+  "arxiv": null,
+  "repo": "ruijia-liu/tactile-aware-world-models"
+ },
+ {
+  "title": "humanoid_cpp",
+  "arxiv": null,
+  "repo": "Pranava116/humanoid_cpp"
+ },
+ {
+  "title": "Procedural humanoid figure built and rendered entirely from Python in Blender 4.2.1",
+  "arxiv": null,
+  "repo": "adedayocornexology-sys/blender-humanoid"
+ },
+ {
+  "title": "Repository for my journey into the world of humanoid robotics",
+  "arxiv": null,
+  "repo": "Ant0nymous/humanoid-journey"
+ },
+ {
+  "title": "Closed-loop Vision-Language-Action (SmolVLA / LeRobot) pipeline for a UR10e manipulator on a linear rail in Gazebo Harmonic and ROS 2 Humble.",
+  "arxiv": null,
+  "repo": "emirArn/ifarlab-vla"
+ },
+ {
+  "title": "Fine-tuning NVIDIA's GR00T N1.7 to control a Unitree G1 humanoid on a single 16 GB GPU",
+  "arxiv": null,
+  "repo": "ravijo/vla-humanoid"
+ },
+ {
+  "title": "Role-Aware 4D World\u2013Action Modeling for Dynamic Manipulation",
+  "arxiv": null,
+  "repo": "ArrebolBlack/FoveaWAM"
+ },
+ {
+  "title": "Blender Python humanoid rig, QA framework and showcase pipeline",
+  "arxiv": null,
+  "repo": "411tmnd-star/Humanoid-Robot"
+ },
+ {
+  "title": "PERA: Plug-in Experts for Robotic Actions in Continual Whole-Body Control",
+  "arxiv": "2611.16188",
+  "repo": "shangchaohu718/PERA"
+ },
+ {
+  "title": "WeaveVLA: 3D Relational Grounding for Vision-Language-Action Models",
+  "arxiv": null,
+  "repo": "Kingzein/WeaveVLA"
+ },
+ {
+  "title": "humanoid_sim",
+  "arxiv": null,
+  "repo": "SeonilChoi/humanoid_sim"
+ },
+ {
+  "title": "zeta0 world action model",
+  "arxiv": "2611.29277",
+  "repo": "chenyizhi123/Zeta0"
+ },
+ {
+  "title": "humanoid-sim",
+  "arxiv": null,
+  "repo": "SeonilChoi/humanoid-sim"
+ }
+]
