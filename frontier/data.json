@@ -1,6 +1,59 @@
 {
- "generated": "2026-11-24 13:05Z",
+ "generated": "2026-11-24 13:34Z",
  "items": [
+  {
+   "section": "Loco-Manipulation and Whole-Body-Control",
+   "venue": "arXiv",
+   "date": "2026-11-23",
+   "url": "https://arxiv.org/abs/2611.30632",
+   "title": "GeoMerge-OPD: Balanced Skill Integration in Vision-Language-Action Models"
+  },
+  {
+   "section": "Loco-Manipulation and Whole-Body-Control",
+   "venue": "arXiv",
+   "date": "2026-11-23",
+   "url": "https://arxiv.org/abs/2611.30449",
+   "title": "CHAMP: Coordinated Humanoid Loco-Manipulation with Whole-Body Motion Priors"
+  },
+  {
+   "section": "Loco-Manipulation and Whole-Body-Control",
+   "venue": "arXiv",
+   "date": "2026-11-23",
+   "url": "https://arxiv.org/abs/2611.30077",
+   "title": "PushMimic: Learning Adaptive Humanoid Box Pushing via Dynamic Motion Augmentation and Reference Distillation",
+   "website": "https://silvery107.github.io/pushmimic/"
+  },
+  {
+   "section": "Hardware Design",
+   "venue": "arXiv",
+   "date": "2026-11-23",
+   "url": "https://arxiv.org/abs/2611.29868",
+   "title": "Arcadian: Open-Source Humanoid Ecosystem for Accessible and Customizable Research and Education",
+   "website": "https://arcadian-humanoid.github.io/"
+  },
+  {
+   "section": "Physics-Based Character Animation",
+   "venue": "arXiv",
+   "date": "2026-11-23",
+   "url": "https://arxiv.org/abs/2611.30312",
+   "title": "One Policy, Many Bodies: Cooperative Human-Object Interaction with Heterogeneous Teams"
+  },
+  {
+   "section": "Loco-Manipulation and Whole-Body-Control",
+   "venue": "arXiv",
+   "date": "2026-11-22",
+   "url": "https://arxiv.org/abs/2611.29771",
+   "title": "Into My Arms: Structured reinforcement learning for autonomous transport of objects and humans",
+   "website": "https://elle-miller.github.io/into_my_arms"
+  },
+  {
+   "section": "Physics-Based Character Animation",
+   "venue": "arXiv",
+   "date": "2026-11-22",
+   "url": "https://arxiv.org/abs/2611.29749",
+   "title": "CarlHOI: Counterfactual Predictive Imagination for Generalizable Multi-Humanoid Object Interaction under Constrained Environments",
+   "website": "https://carlhoi.github.io"
+  },
   {
    "section": "Loco-Manipulation and Whole-Body-Control",
    "venue": "arXiv",
@@ -122,7 +175,18 @@
    "date": "2026-11-19",
    "url": "https://arxiv.org/abs/2611.26218",
    "title": "MixReact: Physics-Based Reactive Humanoid Control from Multimodal Cues via a Discrete-Continuous Mixture of Transformers",
-   "website": "https://binlee26.github.io/MixReact_Page/"
+   "website": "https://binlee26.github.io/MixReact_Page/",
+   "gh": {
+    "official": false,
+    "stars": 0,
+    "forks": 0,
+    "issues": 0,
+    "pushed": "2026-11-23",
+    "created": "2026-11-19",
+    "spd": 0.0,
+    "license": null,
+    "full": "BinLee26/MixReact_Page"
+   }
   },
   {
    "section": "Hardware Design",
