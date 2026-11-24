@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-24 12:36Z",
+ "generated": "2026-11-24 15:04Z",
  "papers": [
   {
    "id": "2611.31240",
@@ -122,7 +122,7 @@
    "cat": "cs.RO",
    "comment": "",
    "hf": {
-    "up": 35,
+    "up": 57,
     "repo": "https://github.com/xyangzhou/WorldLeague",
     "stars": 5,
     "proj": "https://xyangzhou.github.io/WorldLeague/"
@@ -172,7 +172,7 @@
    "cat": "cs.CV",
    "comment": "19 pages, 7 figures, 6 tables. Project page: https://pawteam-eai.github.io/native-lam/",
    "hf": {
-    "up": 20,
+    "up": 23,
     "repo": null,
     "stars": null,
     "proj": "https://pawteam-eai.github.io/native-lam/"
@@ -255,7 +255,7 @@
    "cat": "cs.RO",
    "comment": "28 pages, 24 figures. Project page: https://damin3927.github.io/SWEEP-Bench",
    "hf": {
-    "up": 0,
+    "up": 1,
     "repo": "https://github.com/Damin3927/SWEEP-Bench",
     "stars": 1,
     "proj": "http://damin3927.github.io/SWEEP-Bench"
@@ -353,7 +353,7 @@
    "cat": "cs.RO",
    "comment": "",
    "hf": {
-    "up": 0,
+    "up": 9,
     "repo": "https://github.com/HaoranZhangumich/DexDuet",
     "stars": 1,
     "proj": "https://rcl-robotics.github.io/Dexduet.io/"
@@ -745,7 +745,7 @@
    "cat": "cs.RO",
    "comment": "Code: https://github.com/AIGeeksGroup/MotionMamba2.0. Website: https://aigeeksgroup.github.io/MotionMamba2.0",
    "hf": {
-    "up": 128,
+    "up": 159,
     "repo": "https://github.com/AIGeeksGroup/MotionMamba2.0",
     "stars": 3,
     "proj": "https://aigeeksgroup.github.io/MotionMamba2.0/"
