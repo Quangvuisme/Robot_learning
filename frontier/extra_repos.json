@@ -363,5 +363,10 @@
   "title": "HumanoidRobot",
   "arxiv": null,
   "repo": "Insight00001/HumanoidRobot"
+ },
+ {
+  "title": "legged_locomotion",
+  "arxiv": null,
+  "repo": "axelmnts/legged_locomotion"
  }
 ]

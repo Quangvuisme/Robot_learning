@@ -3043,5 +3043,23 @@
   "repo": "Insight00001/HumanoidRobot",
   "tier": "X",
   "why": "no README or private"
+ },
+ {
+  "title": "legged_locomotion",
+  "arxiv": null,
+  "repo": "axelmnts/legged_locomotion",
+  "id_in_readme": false,
+  "title_in_readme": true,
+  "name_in_readme": false,
+  "official_claim": false,
+  "unofficial_claim": false,
+  "coming_soon": false,
+  "usage": true,
+  "weights": false,
+  "len": 1720,
+  "evidence": [],
+  "head": " Learning-based legged locomotion in simulation Training a velocity-tracking locomotion policy for the Unitree Go1 quadruped with PPO, in MuJoCo MJX with thousands of GPU-parallel environments (JAX / Brax). Goal: a polic",
+  "tier": "B",
+  "why": "paper cited + runnable usage, no explicit 'official' claim"
  }
 ]
