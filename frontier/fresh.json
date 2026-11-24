@@ -1,6 +1,81 @@
 {
- "generated": "2026-11-24 01:33Z",
+ "generated": "2026-11-24 02:03Z",
  "papers": [
+  {
+   "id": "2611.28616",
+   "title": "Fast World Planner: Advantage-Aware Action-Chunk Policy for Online Planning",
+   "date": "2026-11-21",
+   "authors": [
+    "Jiangtao Kong",
+    "Yuchen Wang",
+    "Yandong Luo",
+    "Rongchao Xu"
+   ],
+   "abstract": "Model Predictive Path Integral (MPPI) control is central to online planning for model-based reinforcement learning (MBRL), but its iterative refinement incurs planning latency. Reducing refinement iterations often degrades performance, motivating stronger policy guidance learned from the planner. Ho",
+   "cat": "cs.RO",
+   "comment": "",
+   "code_in_text": []
+  },
+  {
+   "id": "2611.28585",
+   "title": "AsyncMixVLA: Runtime Asynchronous Robot Policy Switching for Adaptation to Dynamic Environments",
+   "date": "2026-11-21",
+   "authors": [
+    "Tamoghno Das",
+    "Keyon Jazayeri",
+    "Yerin Cho",
+    "Nazmul Takbir"
+   ],
+   "abstract": "Vision-language-action (VLA) models translate visual observations and language instructions into robot actions, enabling general-purpose robotic control. However, environmental perturbations, such as objects moving during execution, can undermine their reliability. Different policies exhibit complem",
+   "cat": "cs.RO",
+   "comment": "Manuscript prepared for the DAC 2027 Research Track (IEEE conference format)",
+   "code_in_text": []
+  },
+  {
+   "id": "2611.28551",
+   "title": "PhysPPF: Learning Robotic Manipulation with Past, Present, and Future Physical Representations",
+   "date": "2026-11-21",
+   "authors": [
+    "Junjie Li",
+    "Dawei Yan",
+    "Guoting Wei",
+    "Ruike Song"
+   ],
+   "abstract": "Vision-language-action (VLA) models have advanced robotic manipulation, yet complex tasks requiring both precise 3D contact and long-horizon coordination remain challenging. Most existing studies enhance spatial perception or temporal reasoning in VLAs separately. Spatial methods primarily inject ge",
+   "cat": "cs.RO",
+   "comment": "11 pages, 5 figures, 4 tables",
+   "code_in_text": []
+  },
+  {
+   "id": "2611.28547",
+   "title": "SBTenv: A Literature-Validated Split-Belt Treadmill Simulation Environment",
+   "date": "2026-11-21",
+   "authors": [
+    "Philip Byrne",
+    "John Drazan",
+    "Nidhi Seethapathi"
+   ],
+   "abstract": "The split-belt treadmill is an important tool for studying human locomotor adaptation. Physics-based simulations complement such experiments by allowing hypotheses about the mechanisms of adaptation to be tested directly, and high-throughput simulation is increasingly needed as these models grow in ",
+   "cat": "cs.RO",
+   "comment": "5 pages, 3 figures, 1 table. Code available at https://github.com/PhilipByrn3/sbtenv",
+   "code_in_text": [
+    "https://github.com/PhilipByrn3/sbtenv"
+   ]
+  },
+  {
+   "id": "2611.28509",
+   "title": "AlpaSafe: Risk-Aware Trajectory Selection for Vision-Language-Action Models in Autonomous Driving",
+   "date": "2026-11-21",
+   "authors": [
+    "Qiren Wang",
+    "Mingyu Guo",
+    "Weisong Shi"
+   ],
+   "abstract": "Reasoning-based driving vision-language-action (VLA) models propose multiple candidate trajectories at each decision, yet only one is executed. Standard evaluation scores the best candidate, assuming an oracle selector that deployment lacks, and leaves the risk of the executed candidate unexamined. ",
+   "cat": "cs.RO",
+   "comment": "",
+   "code_in_text": []
+  },
   {
    "id": "2611.27967",
    "title": "Task2Hand: A Contact-Grounded Skill for Parametric Dexterous-Hand Morphology Design",
@@ -1701,79 +1776,6 @@
     "Weitao Zhou"
    ],
    "abstract": "General robot manipulation requires both semantic competence and physical foresight. World action models (WAMs) acquire an understanding of and predictive capability over the physical world by jointly modeling visual foresight and action distributions. However, existing WAMs still lack semantic comp",
-   "cat": "cs.RO",
-   "comment": "",
-   "code_in_text": []
-  },
-  {
-   "id": "2611.23714",
-   "title": "ExecGap: Exploiting Command-Execution Gap for Patch Attacks on Vision-Language-Action Models",
-   "date": "2026-11-18",
-   "authors": [
-    "Keke Tang",
-    "Guolin Qiu",
-    "Tianyu Hao",
-    "Daizong Liu"
-   ],
-   "abstract": "Vision-Language-Action (VLA) models have become a powerful paradigm for robotic manipulation and show strong promise for real-world deployment, making adversarial robustness critical for reliable robot operation. Existing adversarial attacks on VLA-controlled robots mainly optimize prediction-level ",
-   "cat": "cs.RO",
-   "comment": "CoRL 2026",
-   "code_in_text": []
-  },
-  {
-   "id": "2611.23676",
-   "title": "Finetuning VLAs for Dexterous Manipulation: The Right Checkpoint Is All You Need",
-   "date": "2026-11-18",
-   "authors": [
-    "Artur Kuramshin",
-    "Charlotte Cloutier",
-    "Michael Przystupa",
-    "Kirsty Ellis"
-   ],
-   "abstract": "Vision-Language-Action models have demonstrated strong manipulation capabilities. A limitation of VLA models is that most manipulation datasets focus on parallel-jaw gripper systems, making transfer to multi-finger hands challenging, particularly as teleoperation datasets are harder to collect with ",
-   "cat": "cs.RO",
-   "comment": "Accepted to the Workshop on Dexterous Manipulation at CoRL 2026",
-   "code_in_text": []
-  },
-  {
-   "id": "2611.23670",
-   "title": "EyeDiT: Anatomy-Grounded Multi-Modal Eye Generation and Simulation",
-   "date": "2026-11-18",
-   "authors": [
-    "Yonghan Lee",
-    "Zachary Willms",
-    "Kun Liu",
-    "Pushkar Anand"
-   ],
-   "abstract": "Synthetic eye data are critical for rapid development of eye tracking (ET) in AR/VR applications. However, existing synthetic eye generators are largely image-centric and lack a high-quality underlying 3D anatomy of the eye, which limits their control mainly to the gaze and provides no anatomical la",
-   "cat": "cs.CV",
-   "comment": "",
-   "code_in_text": []
-  },
-  {
-   "id": "2611.23628",
-   "title": "LoRN: Low-Rank Noise Steering for Generative Robot Policies",
-   "date": "2026-11-17",
-   "authors": [
-    "Wei Liu",
-    "Abrar Anwar",
-    "Huihua Zhao",
-    "Soha Pouya"
-   ],
-   "abstract": "Noise steering improves pretrained generative robot policies by learning to select their initial noise without updating model weights. We find that actions in the evaluated world-action models are more sensitive to video noise than action noise, making video noise an expressive input for steering. H",
-   "cat": "cs.RO",
-   "comment": "",
-   "code_in_text": []
-  },
-  {
-   "id": "2611.23567",
-   "title": "Panini- Feasible Grammar For Robot Designs",
-   "date": "2026-11-17",
-   "authors": [
-    "Mayukh Debnath",
-    "Manan Roy Choudhury"
-   ],
-   "abstract": "Symbolic methods make robot designs interpretable but often overlook continuous geometry; learned methods handle geometry but offer less transparent structure. We introduce a typed production grammar that uses case-role relations, parameter inheritance, and specificity-based rule arbitration to gene",
    "cat": "cs.RO",
    "comment": "",
    "code_in_text": []
