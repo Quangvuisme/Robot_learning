@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-24 03:03Z",
+ "generated": "2026-11-24 03:33Z",
  "papers": [
   {
    "id": "2611.29240",
@@ -71,6 +71,139 @@
    ],
    "abstract": "Vision-Language-Action (VLA) models generate sequences of actions from visual observations, proprioceptive states, and language instructions. In embodied interaction, executing these actions influences subsequent observations and robot states, providing a natural predictive signal for policy learnin",
    "cat": "cs.RO",
+   "comment": "",
+   "code_in_text": []
+  },
+  {
+   "id": "2611.28943",
+   "title": "SANA-Robot: Efficient World Action Model with Hybrid Memory",
+   "date": "2026-11-21",
+   "authors": [
+    "Yuyang Zhao",
+    "Zekai Li",
+    "Yicheng Pan",
+    "Jiaming Tang"
+   ],
+   "abstract": "World action models (WAMs) leverage the world knowledge of video generation models to improve action generation by aligning visual prediction with action prediction. However, their prediction overhead prevents real-time deployment on edge devices, and they usually lack an effective long-term memory.",
+   "cat": "cs.RO",
+   "comment": "",
+   "code_in_text": []
+  },
+  {
+   "id": "2611.28873",
+   "title": "NAT: Scaling Causal Neural Action Tokenizers Across Embodiments",
+   "date": "2026-11-21",
+   "authors": [
+    "Ahad Jawaid",
+    "Alexander Swerdlow",
+    "Yu Xiang"
+   ],
+   "abstract": "Action tokenizers let robot policies treat control as autoregressive next-token prediction. As these policies are trained on larger and more diverse datasets, they will need a universal tokenizer that can encode actions from many embodiments and data sources, including ones it has not seen. We study",
+   "cat": "cs.RO",
+   "comment": "",
+   "code_in_text": []
+  },
+  {
+   "id": "2611.28871",
+   "title": "KineState-SWAM: A Surgical World Action Model with Explicit Kinematics and Causal Interaction Dynamics",
+   "date": "2026-11-21",
+   "authors": [
+    "Rulin Zhou",
+    "Yujie Ma",
+    "Rui Tang",
+    "Qiujie Song"
+   ],
+   "abstract": "Existing surgical world models often leave implicit how instrument motion drives localized tissue responses and how interaction history informs subsequent actions. We introduce KineState-SWAM, a surgical world-action model coupling action prediction and video generation through a persistent interact",
+   "cat": "cs.CV",
+   "comment": "",
+   "code_in_text": []
+  },
+  {
+   "id": "2611.28867",
+   "title": "LIBERO-MOR: A Multimodal Robustness Benchmark Across the Vision-Language-Action Pipeline",
+   "date": "2026-11-21",
+   "authors": [
+    "Qihang Chen",
+    "Tengjie Li",
+    "Hongwei Lu",
+    "Jason Wu"
+   ],
+   "abstract": "Vision-language-action (VLA) models have achieved strong performance on robot manipulation benchmarks. Translating this progress into reliable deployment calls for systematic evaluation of how policies respond to variations throughout the robot interaction loop. We introduce LIBERO-MOR, a multimodal",
+   "cat": "cs.RO",
+   "comment": "",
+   "code_in_text": []
+  },
+  {
+   "id": "2611.28839",
+   "title": "Spatially Grounded Latent Lookahead for Vision-Language-Action Models",
+   "date": "2026-11-21",
+   "authors": [
+    "Qihang Chen",
+    "Tengjie Li",
+    "Hongwei Lu",
+    "Jason Wu"
+   ],
+   "abstract": "Vision-language-action (VLA) models benefit from strong semantic representations that support object recognition and instruction understanding. However, precise manipulation also depends on resolving object locations and workspace relations, and on selecting actions with an estimate of how the scene",
+   "cat": "cs.CV",
+   "comment": "",
+   "code_in_text": []
+  },
+  {
+   "id": "2611.28803",
+   "title": "DeRail: Escaping Trajectory Priors via Counterfactual Action Steering for Mid-Execution Instruction Switching",
+   "date": "2026-11-21",
+   "authors": [
+    "Yitong Hong",
+    "Xiangdong Feng",
+    "Xiaoxi Sun",
+    "Senqiao Yang"
+   ],
+   "abstract": "Robots operating in the real world must often adapt when user instructions change mid-execution, yet current instruction-conditioned robot policies, including Vision-Language-Action (VLA) models and World-Action Models (WAMs), are largely evaluated under fixed-instruction episodes. We study mid-exec",
+   "cat": "cs.RO",
+   "comment": "65 pages, including appendix",
+   "code_in_text": []
+  },
+  {
+   "id": "2611.28752",
+   "title": "VTLA-RL: Learning Visuotactile Policies for Load-Adaptive Grasping",
+   "date": "2026-11-21",
+   "authors": [
+    "Qiwei Wu",
+    "Qixuan Li",
+    "Xin Xiang",
+    "Xiangyu Chen"
+   ],
+   "abstract": "Vision-language-action foundation models learn general manipulation priors, but object mass and local slip are difficult to infer from vision alone. Changing loads require contact-driven grasp adjustments that demonstrations collected under fixed conditions may not adequately cover. We present VTLA-",
+   "cat": "cs.RO",
+   "comment": "",
+   "code_in_text": []
+  },
+  {
+   "id": "2611.28732",
+   "title": "Entangle: Scaling Human-Video In-Context World-Action Models across Unseen Tasks and Contexts",
+   "date": "2026-11-21",
+   "authors": [
+    "Chendong Xiang",
+    "Chengwen Zhang",
+    "Ruowen Zhao",
+    "Zeyuan Wang"
+   ],
+   "abstract": "In-context learning (ICL) enables foundation models to perform unseen tasks from context without parameter updates. In robotic manipulation, a human video provides the context that specifies how a task should be performed. However, scaling human-video ICL on world-action models (WAMs) faces two chal",
+   "cat": "cs.RO",
+   "comment": "26 pages, 13 figures, including the appendix",
+   "code_in_text": []
+  },
+  {
+   "id": "2611.28682",
+   "title": "CHORD: Closed-loop Human-Object Rectified-flow Decomposition",
+   "date": "2026-11-21",
+   "authors": [
+    "Yi Wang",
+    "Yubo Zhao",
+    "Chi-Keung Tang"
+   ],
+   "abstract": "Text-driven 3D human-object interaction (HOI) generation requires synthesizing whole-body human and object motions that stay coupled through contact. Yet existing generators either entangle the core variables that govern an interaction (object pose, contacting regions, and limb posture) with dozens ",
+   "cat": "cs.CV",
    "comment": "",
    "code_in_text": []
   },
@@ -1628,150 +1761,6 @@
    "cat": "cs.RO",
    "comment": "18 pages, 12 Figures",
    "code_in_text": []
-  },
-  {
-   "id": "2611.24280",
-   "title": "Remote Teleoperation of Endovascular Robots: A Network Emulation Framework for Systematic Performance Evaluation",
-   "date": "2026-11-18",
-   "authors": [
-    "Xingyu Chen",
-    "Nikola Fischer",
-    "Harry Robertshaw",
-    "Weiyuan Deng"
-   ],
-   "abstract": "Remote endovascular teleoperation requires network performance to be evaluated in relation to physical navigation and operator experience, while the effects of network degradation on the usability of remote endovascular systems remain insufficiently characterized from the perspective of clinical use",
-   "cat": "cs.RO",
-   "comment": "",
-   "code_in_text": []
-  },
-  {
-   "id": "2611.24279",
-   "title": "QDD-MM: A Simple and Compact Open-Source Muscle Module with Quasi-Direct-Drive Motor for Tendon-driven Robots",
-   "date": "2026-11-18",
-   "authors": [
-    "Kento Kawaharazuka",
-    "Yoshimoto Ribayashi",
-    "Takahiro Hattori",
-    "Shunnosuke Yoshimura"
-   ],
-   "abstract": "Tendon-driven robots, which actuate like biological muscles by using motors to wind wires, offer advantages such as variable stiffness and redundant actuation. Despite these advantages, musculoskeletal structures inherently involve a large number of diverse muscles, making it desirable to compactly ",
-   "cat": "cs.RO",
-   "comment": "Accepted to IEEE-RAS Humanoids 2026, website - https://haraduka.github.io/qddmm/, youtube - https://www.youtube.com/watch?v=09xRhZO497k",
-   "code_in_text": []
-  },
-  {
-   "id": "2611.24247",
-   "title": "Allocentric Memory, Egocentric Acting: A Dual-Frame VLA for Urban Aerial Navigation",
-   "date": "2026-11-18",
-   "authors": [
-    "Haotian Xu",
-    "Yue Hu",
-    "Zhengqiu Zhu",
-    "Tuo Feng"
-   ],
-   "abstract": "Language-goal aerial navigation requires a UAV to reach a destination specified in natural language using observations collected during flight. A key challenge is linking changing egocentric perception with spatial evidence anchored to stable locations for long-range navigation. We propose CityNav-V",
-   "cat": "cs.CV",
-   "comment": "",
-   "code_in_text": []
-  },
-  {
-   "id": "2611.24192",
-   "title": "TrajWAM: Trajectory-Conditioned Future Learning for Vision-Language Driving",
-   "date": "2026-11-18",
-   "authors": [
-    "Xuerui Fang",
-    "Gulimila Kezierbieke",
-    "Chen Wangxing",
-    "Hui Li"
-   ],
-   "abstract": "World Action Models (WAMs) connect future scene prediction with action planning for autonomous driving. Each driving record pairs an executed ego trajectory with its observed future, providing a factual outcome for learning this connection. We present TrajWAM, a trajectory-conditioned WAM that impro",
-   "cat": "cs.CV",
-   "comment": "22 pages, including supplementary material. Code and model weights: https://github.com/FangWD520/TrajWAM",
-   "code_in_text": [
-    "https://github.com/FangWD520/TrajWAM"
-   ]
-  },
-  {
-   "id": "2611.24178",
-   "title": "Adaptive Action Horizon Selection via Flow-Field Uncertainty",
-   "date": "2026-11-18",
-   "authors": [
-    "Idan Ben-Ami",
-    "Arnon Netzer",
-    "Sarah Keren",
-    "Idit Diamant"
-   ],
-   "abstract": "Reliable uncertainty estimates are important for adaptive execution in vision-language-action (VLA) models. Existing approaches such as Adaptive Action Chunking (AAC) estimate action entropy from multiple sampled action chunks, introducing additional inference cost and capturing both uncertainty wit",
-   "cat": "cs.LG",
-   "comment": "IEEE IROS 2026 Workshop",
-   "code_in_text": []
-  },
-  {
-   "id": "2611.24155",
-   "title": "BEV-Diffusion: Camera-Only Traversability Navigation with BEV Memory and Efficient Cross-Robot Adaptation",
-   "date": "2026-11-18",
-   "authors": [
-    "Iana Zhura",
-    "Timofei Kozlov",
-    "Dmitrii Plotnikov",
-    "Ivan Valuev"
-   ],
-   "abstract": "Robot navigation requires both an understanding of the scene and an efficient adaptation to new robots, yet current methods rely on expensive LiDAR sensors, long mapping and modular pipelines. We present BEV-Diffusion, a camera-only model that learns a bird's-eye view (BEV) traversability map, its u",
-   "cat": "cs.RO",
-   "comment": "",
-   "code_in_text": []
-  },
-  {
-   "id": "2611.24142",
-   "title": "BiPathCPG: A Novel Load-Sharing Design Architecture for Compound Planetary Gearboxes",
-   "date": "2026-11-18",
-   "authors": [
-    "Deepak Kapa",
-    "Aman Singh",
-    "Saketh Vegesna",
-    "Suryank Joshi"
-   ],
-   "abstract": "Quasi-Direct Drive (QDD) actuators are widely used in legged robots due to their low reflected inertia, high backdrivability, and high torque density, commonly employing planetary or cycloidal gearboxes. Single-stage planetary gearboxes offer high efficiency but limited torque density; multi-stage d",
-   "cat": "cs.RO",
-   "comment": "8 pages, 6 figures, 2 tables. Project page: https://deepak-kapa.github.io/PancakeActuator/ Accepted to IEEE Robotics and Automation Letters (RA-L)",
-   "code_in_text": []
-  },
-  {
-   "id": "2611.24138",
-   "title": "Ego2X: Contact-aware Transfer from Egocentric Human Data to Any Robot",
-   "date": "2026-11-18",
-   "authors": [
-    "Xinke Lyu",
-    "Bowen Yang",
-    "Zhicheng Wang"
-   ],
-   "abstract": "Embodied models depend on real interaction data, yet collecting it on physical robots is slow and labor-intensive. Recent ego-to-robot pipelines retarget first-person view human videos to robot data via transferring hand and arm motion. They judge fidelity mainly by visual appearance. However, traje",
-   "cat": "cs.RO",
-   "comment": "10 pages, 7 figures",
-   "code_in_text": []
-  },
-  {
-   "id": "2611.24077",
-   "title": "AeroRSI: Recursive Self-Improvement for Aerial Vision-Language Navigation",
-   "date": "2026-11-18",
-   "authors": [
-    "Shiwei Wu",
-    "Yuwen Pan",
-    "Zhi Li",
-    "Yaowen Li"
-   ],
-   "abstract": "Vision-language-action (VLA) models enable unmanned aerial vehicles (UAVs) to follow natural-language instructions, yet still fail frequently in closed-loop flight. Correcting these failures requires repairs, i.e., actions that avoid them at the states the policy itself reaches, which human pilots c",
-   "cat": "cs.CV",
-   "comment": "8-page main paper with references and supplementary material (15 pages); 5 figures, 13 tables. Code: https://github.com/starsholic/AeroRSI Project page: https://starsholic.github.io/AeroRSI/",
-   "hf": {
-    "up": 7,
-    "repo": "https://github.com/starsholic/AeroRSI",
-    "stars": 8,
-    "proj": "https://starsholic.github.io/AeroRSI/"
-   },
-   "code_in_text": [
-    "https://github.com/starsholic/AeroRSI"
-   ]
   }
  ]
 }
