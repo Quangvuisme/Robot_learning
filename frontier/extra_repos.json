@@ -338,5 +338,10 @@
   "title": "Epsilon Tilde: Does Initial Noise Induce Directional Bias in Vision-Language-Action Models?",
   "arxiv": null,
   "repo": "june65/Epsilon-Tilde"
+ },
+ {
+  "title": "An AI-powered Voice Recognition module for the Humanoid Robot AI project. It uses SpeechBrain ECAPA-TDNN speaker embeddings to identify and verify speakers through microphone input, with Voice Activity Detection (VAD) and DeepFilterNet-based noise suppression for improved recognition in noisy environments. Built with Python, PyTorch, and audio-proc",
+  "arxiv": null,
+  "repo": "pramodpjingade/HumanoidRobotAI-Voice-Recognition"
  }
 ]
