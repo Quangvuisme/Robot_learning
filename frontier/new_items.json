@@ -16,5 +16,24 @@
    "code_in_text": []
   }
  ],
- "repos": []
+ "repos": [
+  {
+   "title": "HumanoidAI-IdentityFusion",
+   "arxiv": null,
+   "repo": "pramodpjingade/HumanoidAI-IdentityFusion",
+   "id_in_readme": false,
+   "title_in_readme": true,
+   "name_in_readme": true,
+   "official_claim": false,
+   "unofficial_claim": false,
+   "coming_soon": false,
+   "usage": true,
+   "weights": false,
+   "len": 3757,
+   "evidence": [],
+   "head": " Humanoid AI \u2013 Multimodal Identity Fusion An AI-powered multimodal identity recognition system for humanoid robots that combines facial recognition and voice recognition to identify individuals more reliably. Overview Th",
+   "tier": "B",
+   "why": "paper cited + runnable usage, no explicit 'official' claim"
+  }
+ ]
 }

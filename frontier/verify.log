@@ -1,4 +1,4 @@
-Counter({'L': 77, 'B': 28, 'S': 27, 'X': 25, 'R': 4, 'A': 2})
+Counter({'L': 78, 'B': 29, 'S': 28, 'X': 23, 'R': 4, 'A': 2})
 A shangchaohu718/PERA | PERA: Plug-in Experts for Robotic Actions in  | paper cited + official claim + runnable usage | weights
 B Axellwppr/HITCH | HITCH: Teaching a Vision-Language Model to Op | paper cited + runnable usage, no explicit 'official' claim | weights
 B yaozhang182/inhabitant | Inhabitant: An Agent Framework for Long-Horiz | paper cited + runnable usage, no explicit 'official' claim | weights
@@ -33,3 +33,4 @@ B ArrebolBlack/FoveaWAM | Role-Aware 4D World–Action Modeling for Dynam | pape
 B Kingzein/WeaveVLA | WeaveVLA: 3D Relational Grounding for Vision- | paper cited + runnable usage, no explicit 'official' claim | weights
 B SeonilChoi/humanoid_sim | humanoid_sim | paper cited + runnable usage, no explicit 'official' claim | weights
 B SeonilChoi/humanoid-sim | humanoid-sim | paper cited + runnable usage, no explicit 'official' claim | weights
+B pramodpjingade/HumanoidAI-IdentityFusion | HumanoidAI-IdentityFusion | paper cited + runnable usage, no explicit 'official' claim 
