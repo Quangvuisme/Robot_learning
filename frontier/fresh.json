@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-24 19:04Z",
+ "generated": "2026-11-24 19:33Z",
  "papers": [
   {
    "id": "2611.31240",
@@ -124,7 +124,7 @@
    "hf": {
     "up": 69,
     "repo": "https://github.com/xyangzhou/WorldLeague",
-    "stars": 5,
+    "stars": 18,
     "proj": "https://xyangzhou.github.io/WorldLeague/"
    },
    "code_in_text": []
