@@ -308,5 +308,10 @@
   "title": "PERA: Plug-in Experts for Robotic Actions in Continual Whole-Body Control",
   "arxiv": "2611.16188",
   "repo": "shangchaohu718/PERA"
+ },
+ {
+  "title": "WeaveVLA: 3D Relational Grounding for Vision-Language-Action Models",
+  "arxiv": null,
+  "repo": "Kingzein/WeaveVLA"
  }
 ]

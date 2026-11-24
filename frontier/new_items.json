@@ -1,47 +1,47 @@
 {
  "papers": [
   {
-   "id": "2611.28585",
-   "title": "AsyncMixVLA: Runtime Asynchronous Robot Policy Switching for Adaptation to Dynamic Environments",
-   "date": "2026-11-21",
+   "id": "2611.28346",
+   "title": "Defending Vision-Language-Action Models against Transferable Attacks via Visual-Proprioceptive Consistency",
+   "date": "2026-11-20",
    "authors": [
-    "Tamoghno Das",
-    "Keyon Jazayeri",
-    "Yerin Cho",
-    "Nazmul Takbir"
+    "Jiahao Wang",
+    "Ming F. Li",
+    "Han Xu"
    ],
-   "abstract": "Vision-language-action (VLA) models translate visual observations and language instructions into robot actions, enabling general-purpose robotic control. However, environmental perturbations, such as objects moving during execution, can undermine their reliability. Different policies exhibit complem",
+   "abstract": "Vision-Language-Action (VLA) models have demonstrated strong capabilities in a wide range of robotic tasks. However, adversarial attacks in VLA models have shown strong transferability across robotic tasks, posing significant threats to robotic systems. Despite their different attack strategies, we ",
    "cat": "cs.RO",
-   "comment": "Manuscript prepared for the DAC 2027 Research Track (IEEE conference format)",
+   "comment": "14 pages, 10 figures",
    "code_in_text": []
   },
   {
-   "id": "2611.28551",
-   "title": "PhysPPF: Learning Robotic Manipulation with Past, Present, and Future Physical Representations",
-   "date": "2026-11-21",
+   "id": "2611.28289",
+   "title": "Intervention-Robust VLA: Diverse Demonstrations for Robot Deployment with Safety Filters",
+   "date": "2026-11-20",
    "authors": [
-    "Junjie Li",
-    "Dawei Yan",
-    "Guoting Wei",
-    "Ruike Song"
+    "Tzu-Yuan Huang",
+    "Shao-Hsuan Chang",
+    "Dai-Jie Wu",
+    "Ralf R\u00f6mer"
    ],
-   "abstract": "Vision-language-action (VLA) models have advanced robotic manipulation, yet complex tasks requiring both precise 3D contact and long-horizon coordination remain challenging. Most existing studies enhance spatial perception or temporal reasoning in VLAs separately. Spatial methods primarily inject ge",
-   "cat": "cs.RO",
-   "comment": "11 pages, 5 figures, 4 tables",
-   "code_in_text": []
-  },
-  {
-   "id": "2611.28509",
-   "title": "AlpaSafe: Risk-Aware Trajectory Selection for Vision-Language-Action Models in Autonomous Driving",
-   "date": "2026-11-21",
-   "authors": [
-    "Qiren Wang",
-    "Mingyu Guo",
-    "Weisong Shi"
-   ],
-   "abstract": "Reasoning-based driving vision-language-action (VLA) models propose multiple candidate trajectories at each decision, yet only one is executed. Standard evaluation scores the best candidate, assuming an oracle selector that deployment lacks, and leaves the risk of the executed candidate unexamined. ",
+   "abstract": "Vision-Language-Action models (VLAs) have shown strong potential for learning complex robotic behaviors from demonstrations. However, learning safe behavior directly from data requires extensive coverage of safety-critical situations, which is often impractical in real-world settings. Test-time safe",
    "cat": "cs.RO",
    "comment": "",
+   "code_in_text": []
+  },
+  {
+   "id": "2611.28256",
+   "title": "FlowPAC: Flow-Guided Visual Pruning and Action Caching for Efficient VLA Inference",
+   "date": "2026-11-20",
+   "authors": [
+    "Jintao Cheng",
+    "Yipu Zhang",
+    "Haozhe Wang",
+    "Lin Jiang"
+   ],
+   "abstract": "Vision-Language-Action (VLA) models have emerged as a powerful paradigm for embodied AI, yet their high inference latency and memory footprint remain major barriers to edge deployment. Existing training-free acceleration techniques, such as visual token pruning and action caching, typically rely on ",
+   "cat": "cs.RO",
+   "comment": "Accepted at DATE 2027. 7 pages, 6 figures",
    "code_in_text": []
   }
  ],
