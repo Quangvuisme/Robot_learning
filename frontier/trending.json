@@ -41,7 +41,7 @@
  },
  {
   "repo": "HybridRobotics/supermimic",
-  "stars": 2021,
+  "stars": 2023,
   "pushed": "2026-11-21",
   "created": "2026-11-10",
   "desc": "Humanoid whole-body motion tracking with one differentiable world model.",
@@ -57,7 +57,7 @@
  },
  {
   "repo": "RainBowLuoCS/Gamer",
-  "stars": 1475,
+  "stars": 1476,
   "pushed": "2026-11-16",
   "created": "2026-10-30",
   "desc": "Official Implementation of Gamer: A Generalist Vision-Language-Action Foundation Model for Long-Horizon Real-T",
@@ -138,7 +138,7 @@
  {
   "repo": "Huy-Quang-Dao/instantTrack",
   "stars": 218,
-  "pushed": "2026-11-23",
+  "pushed": "2026-11-24",
   "created": "2026-10-29",
   "desc": "Whole-body motion tracking for the Unitree G1 in under 3 minutes on average on one GPU: return 0.82 with 0/40 ",
   "q": "humanoid motion tracking"
