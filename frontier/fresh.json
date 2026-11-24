@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-24 02:03Z",
+ "generated": "2026-11-24 02:34Z",
  "papers": [
   {
    "id": "2611.28616",
@@ -74,6 +74,78 @@
    "abstract": "Reasoning-based driving vision-language-action (VLA) models propose multiple candidate trajectories at each decision, yet only one is executed. Standard evaluation scores the best candidate, assuming an oracle selector that deployment lacks, and leaves the risk of the executed candidate unexamined. ",
    "cat": "cs.RO",
    "comment": "",
+   "code_in_text": []
+  },
+  {
+   "id": "2611.28346",
+   "title": "Defending Vision-Language-Action Models against Transferable Attacks via Visual-Proprioceptive Consistency",
+   "date": "2026-11-20",
+   "authors": [
+    "Jiahao Wang",
+    "Ming F. Li",
+    "Han Xu"
+   ],
+   "abstract": "Vision-Language-Action (VLA) models have demonstrated strong capabilities in a wide range of robotic tasks. However, adversarial attacks in VLA models have shown strong transferability across robotic tasks, posing significant threats to robotic systems. Despite their different attack strategies, we ",
+   "cat": "cs.RO",
+   "comment": "14 pages, 10 figures",
+   "code_in_text": []
+  },
+  {
+   "id": "2611.28308",
+   "title": "Probing Invisible Actuation Shifts for Test-time Calibration of Visuomotor Policies",
+   "date": "2026-11-20",
+   "authors": [
+    "Jie Liu",
+    "Hui Xie",
+    "Qinfeng Feng",
+    "Joaquin Vanschoren"
+   ],
+   "abstract": "Visuomotor policies such as vision-language-action models (VLAs) and world action models (WAMs) are increasingly deployed on robots whose cameras and controllers differ from those used to collect their training data. Such deployment introduces two kinds of shifts. Visual shifts, such as a moved came",
+   "cat": "cs.RO",
+   "comment": "",
+   "code_in_text": []
+  },
+  {
+   "id": "2611.28289",
+   "title": "Intervention-Robust VLA: Diverse Demonstrations for Robot Deployment with Safety Filters",
+   "date": "2026-11-20",
+   "authors": [
+    "Tzu-Yuan Huang",
+    "Shao-Hsuan Chang",
+    "Dai-Jie Wu",
+    "Ralf Römer"
+   ],
+   "abstract": "Vision-Language-Action models (VLAs) have shown strong potential for learning complex robotic behaviors from demonstrations. However, learning safe behavior directly from data requires extensive coverage of safety-critical situations, which is often impractical in real-world settings. Test-time safe",
+   "cat": "cs.RO",
+   "comment": "",
+   "code_in_text": []
+  },
+  {
+   "id": "2611.28274",
+   "title": "Neural Fidelity Calibration for Informative Sim-to-Real Adaptation",
+   "date": "2026-11-20",
+   "authors": [
+    "Youwei Yu",
+    "Lantao Liu"
+   ],
+   "abstract": "Deep reinforcement learning (RL) can transfer agile robot skills from simulation to the real world, but closing the sim-to-real gap by domain randomization requires expert physics knowledge, and simulator calibration from real data typically targets a few hand-picked parameters. Even then, simulator",
+   "cat": "cs.RO",
+   "comment": "The code and demonstration videos are available at https://www.youwei-yu.com/nfc/",
+   "code_in_text": []
+  },
+  {
+   "id": "2611.28256",
+   "title": "FlowPAC: Flow-Guided Visual Pruning and Action Caching for Efficient VLA Inference",
+   "date": "2026-11-20",
+   "authors": [
+    "Jintao Cheng",
+    "Yipu Zhang",
+    "Haozhe Wang",
+    "Lin Jiang"
+   ],
+   "abstract": "Vision-Language-Action (VLA) models have emerged as a powerful paradigm for embodied AI, yet their high inference latency and memory footprint remain major barriers to edge deployment. Existing training-free acceleration techniques, such as visual token pruning and action caching, typically rely on ",
+   "cat": "cs.RO",
+   "comment": "Accepted at DATE 2027. 7 pages, 6 figures",
    "code_in_text": []
   },
   {
@@ -1340,6 +1412,21 @@
    "code_in_text": []
   },
   {
+   "id": "2611.28129",
+   "title": "Urban State Representation for Autonomous Mobility: A Survey of Multimodal Perception, Architectures, Datasets, and Benchmarks",
+   "date": "2026-11-18",
+   "authors": [
+    "Binay Kumar Singh",
+    "Niels Da Vitoria Lobo"
+   ],
+   "abstract": "Cities are sensed by many platforms at once: on-board cameras, LiDAR and radar on autonomous vehicles, roadside units at intersections, drones and satellites overhead, and the GNSS traces of millions of trips. Yet most learned representations are built for one platform, one city, and one task. We su",
+   "cat": "cs.CV",
+   "comment": "Accepted to the UrbanState Workshop at WACV 2027. 8 pages + references + 5-page supplementary appendix. Code and data: https://github.com/binayksingh/Awesome-Urban-State-Representation",
+   "code_in_text": [
+    "https://github.com/binayksingh/Awesome-Urban-State-Representation"
+   ]
+  },
+  {
    "id": "2611.24585",
    "title": "SHAPE: Discrete Supervision and Parallel Continuous Streams for Learning Dexterous Manipulation from Egocentric Human Data",
    "date": "2026-11-18",
@@ -1686,96 +1773,6 @@
     "Juncheng Cai"
    ],
    "abstract": "In contact-rich dexterous manipulation, occlusion by the fingers and interacting objects obscures local geometry, preventing visual observations from fully capturing contact locations. Visually similar scenes may also differ subtly in the relative positions of interacting objects, leading to differe",
-   "cat": "cs.RO",
-   "comment": "",
-   "code_in_text": []
-  },
-  {
-   "id": "2611.23939",
-   "title": "Effects of Locomotion and Viewpoint Control on Immersive Robot Telepresence for Navigation and Inspection",
-   "date": "2026-11-18",
-   "authors": [
-    "Ammaar Zaman",
-    "Neven ElSayed",
-    "Oliver Prentner",
-    "Mohamed Ellethy"
-   ],
-   "abstract": "In many robot telepresence interfaces, movement and viewing are managed through handheld inputs. This can divide attention between steering, looking, and inspection. We compared joystick versus omnidirectional treadmill locomotion and joystick-based versus head-guided camera control in a within-subj",
-   "cat": "cs.RO",
-   "comment": "",
-   "code_in_text": []
-  },
-  {
-   "id": "2611.23926",
-   "title": "GTI: Grounding Task Intent Throughout Long-Horizon VLA Manipulation",
-   "date": "2026-11-18",
-   "authors": [
-    "Tianqi Gong",
-    "Haochen Niu",
-    "Yusheng Zhao",
-    "Lantao Zhang"
-   ],
-   "abstract": "Vision-language-action (VLA) models generate local actions from visual observations, language, and robot state, but long-horizon manipulation requires the global task intent to remain grounded in the currently executable context. We propose GTI (Grounding Task Intent), which uses the current observa",
-   "cat": "cs.RO",
-   "comment": "8 pages, 4 figures, 7 tables",
-   "code_in_text": []
-  },
-  {
-   "id": "2611.23916",
-   "title": "ReLoco: Unified Humanoid Locomotion and Fall Recovery via Behavior-Conditioned Motion Priors",
-   "date": "2026-11-18",
-   "authors": [
-    "Lequn Fu",
-    "Yufeng Hu",
-    "Yijun Zhong",
-    "Jie Zhang"
-   ],
-   "abstract": "Humanoid robots must recover from falls and resume commanded motion to sustain locomotion. Learning these behaviors in one policy requires supervision that accommodates both upright movement and ground-contact recovery. We present ReLoco, a framework that uses behavior-conditioned adversarial motion",
-   "cat": "cs.RO",
-   "comment": "",
-   "code_in_text": []
-  },
-  {
-   "id": "2611.23871",
-   "title": "HOForce: Motion and Force Reconstruction of Hand-Object Interaction Using a Single-View RGB-D Video",
-   "date": "2026-11-18",
-   "authors": [
-    "Jiahui Wang",
-    "Wanqing Du",
-    "Yuanbin Zou",
-    "Zhefeng Xu"
-   ],
-   "abstract": "Reconstructing hand-object interactions is an important task, and achieving it with a single camera makes large-scale capture practical but challenging due to heavy occlusions. We introduce HOForce to track hands and objects, and further recover interaction forces from single-view RGB-D video and kn",
-   "cat": "cs.CV",
-   "comment": "Includes supplementary material. Project page: https://huggingface.co/spaces/fnoi16wjhui/HOForce",
-   "code_in_text": []
-  },
-  {
-   "id": "2611.23843",
-   "title": "RePlan-VLA: Progress-Aware Replanning for Long-Horizon Vision-Language-Action Models",
-   "date": "2026-11-18",
-   "authors": [
-    "Apoorva Vashisth",
-    "Manav Kulshrestha",
-    "Damon Conover",
-    "Zachary Kingston"
-   ],
-   "abstract": "Vision-Language-Action (VLA) models have emerged as a promising paradigm for general-purpose robotic manipulation, yet their performance often degrades on long-horizon tasks that require multiple interdependent manipulations. Instead of burdening the VLA policies with long-horizon reasoning, memory,",
-   "cat": "cs.RO",
-   "comment": "Apoorva Vashisth and Manav Kulshrestha contributed equally to this work. Prof. Zachary Kingston and Prof. Aniket Bera jointly advised this work",
-   "code_in_text": []
-  },
-  {
-   "id": "2611.23803",
-   "title": "CoT-WAM: Collaborative Training of Vision-Language Models and World-Action Models via Plan Latents",
-   "date": "2026-11-18",
-   "authors": [
-    "Jinhao Zhang",
-    "Yushen Zuo",
-    "Ke Rui",
-    "Weitao Zhou"
-   ],
-   "abstract": "General robot manipulation requires both semantic competence and physical foresight. World action models (WAMs) acquire an understanding of and predictive capability over the physical world by jointly modeling visual foresight and action distributions. However, existing WAMs still lack semantic comp",
    "cat": "cs.RO",
    "comment": "",
    "code_in_text": []
