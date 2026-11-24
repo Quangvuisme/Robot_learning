@@ -41,7 +41,7 @@
  },
  {
   "repo": "HybridRobotics/supermimic",
-  "stars": 2018,
+  "stars": 2021,
   "pushed": "2026-11-21",
   "created": "2026-11-10",
   "desc": "Humanoid whole-body motion tracking with one differentiable world model.",
@@ -201,7 +201,7 @@
  },
  {
   "repo": "bytepioneerX/Acp_supermimic_vibed",
-  "stars": 52,
+  "stars": 53,
   "pushed": "2026-11-05",
   "created": "2026-11-05",
   "desc": "ACP reproduction + SuperMimic for Unitree G1 humanoid locomotion, contact planning, parkour, and whole-body co",
