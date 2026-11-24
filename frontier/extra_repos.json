@@ -353,5 +353,10 @@
   "title": "HumanoidAI-IdentityFusion",
   "arxiv": null,
   "repo": "pramodpjingade/HumanoidAI-IdentityFusion"
+ },
+ {
+  "title": "3D-printed original humanoid robot & VLA research plan (target: Jan 2028)",
+  "arxiv": null,
+  "repo": "mutomasa/kawasemi-humanoid"
  }
 ]
