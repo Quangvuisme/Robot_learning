@@ -1,6 +1,135 @@
 {
- "generated": "2026-11-24 03:33Z",
+ "generated": "2026-11-24 04:04Z",
  "papers": [
+  {
+   "id": "2611.29771",
+   "title": "Into My Arms: Structured reinforcement learning for autonomous transport of objects and humans",
+   "date": "2026-11-22",
+   "authors": [
+    "Elle Miller",
+    "Reem Almheiri",
+    "Takuma Tsukakoshi",
+    "Ben Sanati"
+   ],
+   "abstract": "Whole-body humanoid manipulation remains bottlenecked by high-dimensional state-action spaces, contact-rich environments, and long task horizons. This trilemma is a challenge that state-of-the-art reinforcement learning (RL) methods are yet to resolve reliably. We address it with three contributions",
+   "cat": "cs.RO",
+   "comment": "14 pages, 8 figures",
+   "code_in_text": []
+  },
+  {
+   "id": "2611.29749",
+   "title": "CarlHOI: Counterfactual Predictive Imagination for Generalizable Multi-Humanoid Object Interaction under Constrained Environments",
+   "date": "2026-11-22",
+   "authors": [
+    "Wenjie Lin",
+    "Jin Wei-Kocsis"
+   ],
+   "abstract": "Recent advances in physics-based humanoid control enable teams of varying sizes to coordinate their movements and cooperatively transport shared objects. However, adapting learned cooperative behaviors to unseen environmental constraints remains challenging, particularly when obstacles require coord",
+   "cat": "cs.RO",
+   "comment": "Project page: https://carlhoi.github.io",
+   "code_in_text": []
+  },
+  {
+   "id": "2611.29646",
+   "title": "JKO-GRPO: Augmenting GRPO with Wasserstein Proximal Steps for Flow-Matching VLAs",
+   "date": "2026-11-22",
+   "authors": [
+    "Jiyong Kwon",
+    "Yikun Bai",
+    "Amirhossein Mollaali",
+    "Guang Lin"
+   ],
+   "abstract": "Flow-based vision-language-action (VLA) models such as $π_0,π_{0.5}$ generate continuous action chunks by flow matching, and online reinforcement learning (RL) can improve them beyond supervised fine-tuning. Existing methods, such as Flow-GRPO and $π_{\\mathrm{RL}}$, optimize likelihood ratios of sto",
+   "cat": "cs.RO",
+   "comment": "",
+   "code_in_text": []
+  },
+  {
+   "id": "2611.29610",
+   "title": "Dr. Grasp-RL: Diverse and Robust Dexterous Grasping via Reinforcement Learning",
+   "date": "2026-11-22",
+   "authors": [
+    "Kunqi Xu",
+    "Xiaokang Sun",
+    "Xueyan Zou"
+   ],
+   "abstract": "Human interaction with physical objects relies on a combination of dexterity and robustness. In robotic manipulation, dexterity requires not only flexible end effectors but also a diverse repertoire of manipulation strategies, while robustness requires closed-loop adaptation to disturbances and unex",
+   "cat": "cs.RO",
+   "comment": "",
+   "code_in_text": []
+  },
+  {
+   "id": "2611.29553",
+   "title": "Detecting Is Not Choosing: What a World Model Needs to Keep a VLA Policy Safe",
+   "date": "2026-11-22",
+   "authors": [
+    "Thanish Bolla"
+   ],
+   "abstract": "Vision-language-action (VLA) policies complete most benchmark tasks but often violate safety constraints. Since they are stochastic, one remedy is to sample several candidate action chunks and execute one that a world model predicts is safe. We ask what such a model must do. In simulation, a lookahe",
+   "cat": "cs.RO",
+   "comment": "10 pages, 1 figure, 1 table. Accepted at the CoRL 2026 Workshop \"Do Robots Need World Models?\". OpenReview: https://openreview.net/forum?id=oIzsAcOuYl",
+   "code_in_text": []
+  },
+  {
+   "id": "2611.29501",
+   "title": "MAWAM: Joint Imagination for Collaborative Robot Manipulation with a Multi-Agent World Action Model",
+   "date": "2026-11-22",
+   "authors": [
+    "Rongze Tang",
+    "Chenyu Zhou",
+    "Jianjie Fang",
+    "Ziming Liu"
+   ],
+   "abstract": "World action models (WAMs) excel at robot manipulation by imagining future observations and decoding actions from them, yet remain confined to a single embodied agent. In practice, manipulation often requires multiple robots to collaborate across disjoint workspaces, coupled timing, and heterogeneou",
+   "cat": "cs.RO",
+   "comment": "Project page: https://embodiedcity.github.io/MAWAM/",
+   "code_in_text": []
+  },
+  {
+   "id": "2611.29483",
+   "title": "Representation Alignment Is Only as Good as the Teacher's Behavioral Structure",
+   "date": "2026-11-22",
+   "authors": [
+    "Zhengfeiyang Zhang",
+    "Haoyuan Chen",
+    "Hexin Wang",
+    "Hanyu Zhou"
+   ],
+   "abstract": "Recent works align the intermediate features of vision-language-action (VLA) models with frozen vision encoders during fine-tuning, hoping to inject additional priors such as 3D awareness or affordances. Unlike in image generation, where teachers for representation alignment (REPA) are assessed with",
+   "cat": "cs.RO",
+   "comment": "25 pages, 7 figures, 8 tables, including supplementary material",
+   "code_in_text": []
+  },
+  {
+   "id": "2611.29383",
+   "title": "Self-Refining VLA Sampling",
+   "date": "2026-11-22",
+   "authors": [
+    "Jeff Duan",
+    "Arjun Sharma",
+    "Jennifer Cruden",
+    "Vansh Tibrewal"
+   ],
+   "abstract": "Vision-Language-Action (VLA) models typically use flow-based generative modeling to learn a rich, often multimodal, distribution of robot actions. Generating samples from flow-based methods involves iteratively updating random noise, and distinct noise samples from the same state can result in disti",
+   "cat": "cs.RO",
+   "comment": "Accepted to the CoRL 2026 Learn@Deploy Workshop",
+   "code_in_text": []
+  },
+  {
+   "id": "2611.29339",
+   "title": "More Than Picturing the Future: Motion-Oriented Latent Reasoning for Generalizable Robot Manipulation",
+   "date": "2026-11-22",
+   "authors": [
+    "Xin Zhang",
+    "Yushuo Hou",
+    "Anqi Zhao",
+    "Moyun Liu"
+   ],
+   "abstract": "Latent reasoning lets Vision-Language-Action (VLA) models deliberate at a fraction of the cost of explicit chain-of-thought, increasingly through visual foresight, which we show to be indispensable for predicting actions. Yet this paradigm is inherited from Vision-Language Models, where it serves un",
+   "cat": "cs.RO",
+   "comment": "",
+   "code_in_text": []
+  },
   {
    "id": "2611.29240",
    "title": "Tacinf: A Unified Tactile Infrastructure for Robot Manipulation",
@@ -1631,136 +1760,6 @@
    "code_in_text": [
     "https://github.com/binayksingh/Awesome-Urban-State-Representation"
    ]
-  },
-  {
-   "id": "2611.24585",
-   "title": "SHAPE: Discrete Supervision and Parallel Continuous Streams for Learning Dexterous Manipulation from Egocentric Human Data",
-   "date": "2026-11-18",
-   "authors": [
-    "Yaping Li",
-    "Zhihong Liu",
-    "Jiacheng Li",
-    "Yi Yang"
-   ],
-   "abstract": "Egocentric human recordings are far cheaper than dexterous robot demonstrations, promising stronger pretraining and direct skill learning without task-specific robot data. Yet humans and robots differ in morphology and kinematics, so human recordings lack the joint positions and actuator commands th",
-   "cat": "cs.RO",
-   "comment": "Project page: https://li-yaping.github.io/SHAPE/",
-   "code_in_text": []
-  },
-  {
-   "id": "2611.24554",
-   "title": "TinyARM-X: A Series of Open-Source, Configurable, and Transparent Torque-Controlled Desktop-Scale Robotic Manipulators",
-   "date": "2026-11-18",
-   "authors": [
-    "Nicolas Kosanovic",
-    "Jean Chagas Vaz"
-   ],
-   "abstract": "Visuomotor policies have demonstrated that imprecise low-cost robots can autonomously complete complex manipulation tasks. However, most inexpensive manipulators rely on compact and rigidly position-controlled servos for actuation, which complicate simulation, operation, and safety. This work introd",
-   "cat": "cs.RO",
-   "comment": "9 pages, 5 figures. Submitted to a robotics Journal. Reviews have not come in yet",
-   "code_in_text": []
-  },
-  {
-   "id": "2611.24511",
-   "title": "OmniFish: A Bioinspired, Modular, Reconfigurable Soft Robotic Fish Enabling Multi-Modal Swimming",
-   "date": "2026-11-18",
-   "authors": [
-    "Mathias Jensen",
-    "Saravana Prashanth Murali Babu"
-   ],
-   "abstract": "In this work, we introduce OmniFish, a bioinspired modular soft robotic fish designed to emulate the full spectrum of body and/or caudal fin (BCF) locomotion modes within a single robotic platform. The design combines morphology averaging across representative fish species with a tendon-driven compl",
-   "cat": "cs.RO",
-   "comment": "Under review at Bioinspiration & Biomimetics. 10 figures, 7 tables",
-   "code_in_text": []
-  },
-  {
-   "id": "2611.24499",
-   "title": "Single-Controller Teleoperation and Multimodal Dataset Generation for a Mobile Manipulator",
-   "date": "2026-11-18",
-   "authors": [
-    "Fardien Azizi",
-    "Sitor Sla",
-    "Christiaan Peppelman",
-    "Dion van Santen"
-   ],
-   "abstract": "Robot learning systems require synchronized, high-quality demonstrations that combine visual, proprioceptive, and action data. However, collecting such datasets with mobile manipulators is often slowed down by fragmented teleoperation interfaces and manual post-processing workflows. This paper prese",
-   "cat": "cs.RO",
-   "comment": "",
-   "code_in_text": []
-  },
-  {
-   "id": "2611.24494",
-   "title": "RECLAIM: Robot-Vision-Informed Adversarial Patch Defense via Embodied Attention Feedback",
-   "date": "2026-11-18",
-   "authors": [
-    "Jiayou Zhu",
-    "Peng Guo",
-    "Litian Zhang",
-    "Xinze Shi"
-   ],
-   "abstract": "Vision-language-action policies control embodied agents through a perception-action loop grounded in physical interaction, where adversarial patches can corrupt action predictions and thereby alter subsequent observations. To mitigate these threats, many existing defenses rely on policy adaptation o",
-   "cat": "cs.RO",
-   "comment": "10 pages, 2 figures",
-   "code_in_text": []
-  },
-  {
-   "id": "2611.24455",
-   "title": "Homeward: No Place Like the Training View",
-   "date": "2026-11-18",
-   "authors": [
-    "Mingyang Lyu",
-    "Yinqian Sun",
-    "Gongce Cao",
-    "Guobin Shen"
-   ],
-   "abstract": "Vision-language-action (VLA) policies implicitly assume that third-person cameras remain fixed at their data-collection poses; once a camera is bumped, remounted, or swapped at deployment, task success degrades precipitously even though the underlying task and robot remain unchanged. We present Home",
-   "cat": "cs.RO",
-   "comment": "22 pages, including supplementary material; author metadata simplified; paper content unchanged",
-   "code_in_text": []
-  },
-  {
-   "id": "2611.24360",
-   "title": "Towards Pose-Robust Few-Shot Vision-Language-Action Models",
-   "date": "2026-11-18",
-   "authors": [
-    "Wenhao Li",
-    "Zhongyi Han",
-    "Yuhao Wei",
-    "Liang Han"
-   ],
-   "abstract": "Fine-tuning a vision-language-action (VLA) model on a few dozen demonstrations is the standard way to put a manipulation policy on a robot, yet the resulting policy silently assumes that the camera and the robot base stay exactly where they were during data collection: a bumped tripod or a base re-d",
-   "cat": "cs.RO",
-   "comment": "17 pages, 13 figures, 17 tables (including supplementary material). Project page: https://peacelwh.github.io/WACO/",
-   "code_in_text": []
-  },
-  {
-   "id": "2611.24327",
-   "title": "Pixel2Perspective: A Benchmark for Multi-Modal and Multi-View Generalization in Vision-Language Models",
-   "date": "2026-11-18",
-   "authors": [
-    "Aditya Gandhamal",
-    "Aniruddh Sikdar",
-    "Arya Kishor",
-    "Suresh Sundaram"
-   ],
-   "abstract": "Embodied AI systems, such as drones and autonomous vehicles, improve navigation by enhancing perception in environments containing unseen objects. While Visual Language Models (VLMs) offer strong image understanding, their real-world application is underexplored. For effective deployment, open-vocab",
-   "cat": "cs.CV",
-   "comment": "16 pages",
-   "code_in_text": []
-  },
-  {
-   "id": "2611.24310",
-   "title": "Proprioceptive Simultaneous Base and Terrain Elevation Estimation for Legged Robot Locomotion",
-   "date": "2026-11-18",
-   "authors": [
-    "Michael Maravgakis",
-    "Stylianos Piperakis",
-    "Panos Trahanias"
-   ],
-   "abstract": "Legged robots in visually degraded environments must rely exclusively on proprioceptive sensing, under which global position and yaw are unobservable. Vertical drift is particularly detrimental, as it corrupts the height reference required by swing-leg trajectories and can destabilize the robot. We ",
-   "cat": "cs.RO",
-   "comment": "18 pages, 12 Figures",
-   "code_in_text": []
   }
  ]
 }
