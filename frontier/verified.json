@@ -254,6 +254,24 @@
   "why": "paper cited + official claim + runnable usage"
  },
  {
+  "title": "HITCH: Teaching a Vision-Language Model to Operate a Humanoid through a Whole-Body Harness",
+  "arxiv": "2611.08039",
+  "repo": "Axellwppr/HITCH",
+  "id_in_readme": true,
+  "title_in_readme": true,
+  "name_in_readme": true,
+  "official_claim": false,
+  "unofficial_claim": false,
+  "coming_soon": false,
+  "usage": true,
+  "weights": true,
+  "len": 5519,
+  "evidence": [],
+  "head": " HITCH Teaching a Vision-Language Model to Operate a Humanoid through a Whole-Body Harness Project page arXiv Models Python HITCH is a low-level harness that lets a vision-language model operate a Unitree G1 humanoid thr",
+  "tier": "B",
+  "why": "paper cited + runnable usage, no explicit 'official' claim"
+ },
+ {
   "title": "DKWBC: Decoupling Motion Tracking and Balancing for Humanoid Whole-Body Control",
   "arxiv": "2611.09605",
   "repo": "robbyant-research/DKWBC",
@@ -1230,24 +1248,6 @@
   "head": " Yunheng Wang1, &nbsp; Jiaxi Zhang1, &nbsp; Wei Lu1, &nbsp; Yuetong Fang1 &nbsp; Taowen Wang1 &nbsp; Yixiao Feng1 Shuning Zhang1 &nbsp; Junzhe Xu1,2 &nbsp; Yichi Wang3 &nbsp; Zizhao Yuan1 &nbsp; Kailun Huang1 Lusong Li2 ",
   "tier": "A",
   "why": "paper cited + official claim + runnable usage"
- },
- {
-  "title": "HITCH: Teaching a Vision-Language Model to Operate a Humanoid through a Whole-Body Harness",
-  "arxiv": "2611.08039",
-  "repo": "Axellwppr/HITCH",
-  "id_in_readme": true,
-  "title_in_readme": true,
-  "name_in_readme": true,
-  "official_claim": false,
-  "unofficial_claim": false,
-  "coming_soon": false,
-  "usage": true,
-  "weights": true,
-  "len": 5519,
-  "evidence": [],
-  "head": " HITCH Teaching a Vision-Language Model to Operate a Humanoid through a Whole-Body Harness Project page arXiv Models Python HITCH is a low-level harness that lets a vision-language model operate a Unitree G1 humanoid thr",
-  "tier": "B",
-  "why": "paper cited + runnable usage, no explicit 'official' claim"
  },
  {
   "title": "Thermo-VLA: A Thermal-Aware Vision-Language-Action Model with Gated Residual Modulation for Robotic Manipulation",
