@@ -303,5 +303,10 @@
   "title": "Blender Python humanoid rig, QA framework and showcase pipeline",
   "arxiv": null,
   "repo": "411tmnd-star/Humanoid-Robot"
+ },
+ {
+  "title": "PERA: Plug-in Experts for Robotic Actions in Continual Whole-Body Control",
+  "arxiv": "2611.16188",
+  "repo": "shangchaohu718/PERA"
  }
 ]
