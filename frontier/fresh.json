@@ -1,6 +1,82 @@
 {
- "generated": "2026-11-24 05:35Z",
+ "generated": "2026-11-24 06:03Z",
  "papers": [
+  {
+   "id": "2611.30907",
+   "title": "DexLatentWorld: 3D Cross-Embodiment Latent Action World Models for Zero-Shot Robotic Manipulation",
+   "date": "2026-11-23",
+   "authors": [
+    "Vinay Udit Mohan",
+    "Xuchuan Huang",
+    "Rolandos Alexandros Potamias"
+   ],
+   "abstract": "World models facilitate planning and control in robotic manipulation by enabling agents to anticipate the consequences of their actions. However, they typically rely on action-labelled interaction data that is costly to acquire and difficult to scale. These models are also often tied to the specific",
+   "cat": "cs.RO",
+   "comment": "15 pages, including supplementary material",
+   "code_in_text": []
+  },
+  {
+   "id": "2611.30898",
+   "title": "World Models as Native Latent Action Models",
+   "date": "2026-11-23",
+   "authors": [
+    "Qinyue Li",
+    "Weijie Qiao",
+    "Qingyi Tao",
+    "Zerui Gong"
+   ],
+   "abstract": "Large and diverse video sources, such as egocentric human video and heterogeneous robot recordings, carry rich dynamics but come either without actions or without a shared action space. Latent action models (LAMs) can recover these dynamics, but they train their inverse- and forward-dynamics models ",
+   "cat": "cs.CV",
+   "comment": "19 pages, 7 figures, 6 tables. Project page: https://pawteam-eai.github.io/native-lam/",
+   "code_in_text": []
+  },
+  {
+   "id": "2611.30836",
+   "title": "Can Multimodal Fusion MakeSense for Embodied Vision in Degraded Sensing?",
+   "date": "2026-11-23",
+   "authors": [
+    "Cheng-Ru Chou",
+    "Shih-Yu Lai",
+    "Pei-Lin Chiang",
+    "Shou-Po Tsai"
+   ],
+   "abstract": "Embodied vision systems rely on complementary sensors to perceive and act as conditions change. Even models that accept arbitrary sensor subsets can exhibit negative fusion: adding a sensor increases prediction error. We propose MakeSense, a multimodal fusion framework that preserves sensor-specific",
+   "cat": "cs.CV",
+   "comment": "",
+   "code_in_text": []
+  },
+  {
+   "id": "2611.30817",
+   "title": "NeuroMotion: Aligning EEG to Discrete Motion Primitives for Continuous Motion Decoding",
+   "date": "2026-11-23",
+   "authors": [
+    "Yi Liu",
+    "Qi Zhang",
+    "HaoLin Li",
+    "Lai Zhong Yuan"
+   ],
+   "abstract": "EEG-to-motion decoding remains challenging because noisy scalp EEG is difficult to map directly to continuous kinematics. We present NeuroMotion, a framework that aligns EEG representations to discrete motion primitives for continuous motion decoding across heterogeneous paradigms, including full-bo",
+   "cat": "cs.LG",
+   "comment": "32 pages, 10 figures. Code: https://github.com/Liuyi2351433/NeuroAction",
+   "code_in_text": [
+    "https://github.com/Liuyi2351433/NeuroAction"
+   ]
+  },
+  {
+   "id": "2611.30784",
+   "title": "Beyond Domain Randomization: Real-World Policy Adaptation in Learned Dynamics for Legged Robots",
+   "date": "2026-11-23",
+   "authors": [
+    "Rui Dai",
+    "Shunpeng Yang",
+    "Zhen Fu",
+    "Maolin Lei"
+   ],
+   "abstract": "Reinforcement learning policies are often trained with static domain randomization for real-world deployment. However, real-world environments often exhibit unmodeled dynamic variations, such as payload changes or friction shifts, that lie outside the randomization distribution, leading to performan",
+   "cat": "cs.RO",
+   "comment": "",
+   "code_in_text": []
+  },
   {
    "id": "2611.30308",
    "title": "ConsisX: Cross-View Consistency Thinking in 3D for Vision-Language-Action Models",
@@ -313,7 +389,7 @@
    "cat": "cs.RO",
    "comment": "Code: https://github.com/AIGeeksGroup/MotionMamba2.0. Website: https://aigeeksgroup.github.io/MotionMamba2.0",
    "hf": {
-    "up": 4,
+    "up": 20,
     "repo": "https://github.com/AIGeeksGroup/MotionMamba2.0",
     "stars": null,
     "proj": "https://aigeeksgroup.github.io/MotionMamba2.0/"
@@ -1699,81 +1775,6 @@
    "abstract": "World action models (WAMs) predict future videos and actions with one backbone, and their imagined future is often seen as a safety signal. We introduce SteerTrace, a targeted universal attack on WAMs that also traces its effect inside the model. One $\\ell_\\infty$-bounded (4/255) perturbation per mo",
    "cat": "cs.CV",
    "comment": "10 pages, 5 figures, 5 tables",
-   "code_in_text": []
-  },
-  {
-   "id": "2611.25695",
-   "title": "DMT-Attack: Diffusion-Prior Texture Search for Closed-Loop Vision-Language-Action Policies",
-   "date": "2026-11-19",
-   "authors": [
-    "Jun Xia",
-    "Shangwen Wang",
-    "Jun Ma",
-    "Ruichao Ren"
-   ],
-   "abstract": "Vision-language-action (VLA) policies rely on visual feedback throughout manipulation, making them vulnerable to persistent texture attacks. However, optimized patterns can stand out from their surroundings, making an attack easier to notice and its carrier more likely to be inspected or removed. To",
-   "cat": "cs.AI",
-   "comment": "",
-   "code_in_text": []
-  },
-  {
-   "id": "2611.25683",
-   "title": "TipDex-VTLA: Learning to Refine Actions with Visual Reliability and Tactile Feedback for Dexterous Manipulation",
-   "date": "2026-11-19",
-   "authors": [
-    "Xudi Ge",
-    "Yepeng Liu",
-    "Haifeng Liu",
-    "Enze Shi"
-   ],
-   "abstract": "Changes in illumination can induce action drift in dexterous manipulation even when the physical state remains unchanged. Although existing vision--tactile--language--action (VTLA) policies incorporate tactile feedback, when and how touch refines actions under changing visual conditions remains chal",
-   "cat": "cs.RO",
-   "comment": "10 pages, 5 figures. Title updated; main text and results unchanged",
-   "code_in_text": []
-  },
-  {
-   "id": "2611.25667",
-   "title": "CauSyncVLA: Causal Latent World Modeling for Asynchronous Robot Control",
-   "date": "2026-11-19",
-   "authors": [
-    "Xu Pan",
-    "Chubin Zhang",
-    "Xingrui Yu",
-    "Runmin Lan"
-   ],
-   "abstract": "Vision-Language-Action (VLA) policies must react while visual inference is still running. Overlapping computation and execution reduces waiting, yet leaves perceptual memory stale and successive action chunks disconnected. We present CauSyncVLA, an asynchronous dual-system controller that aligns per",
-   "cat": "cs.RO",
-   "comment": "",
-   "code_in_text": []
-  },
-  {
-   "id": "2611.25656",
-   "title": "A$^2$-VLA: Adapting Vision-Language-Action Policies to New Tools through Agentic Affordance Discovery",
-   "date": "2026-11-19",
-   "authors": [
-    "Chenyuan Zhou",
-    "Chaoyi Huang",
-    "Zibo Wang",
-    "Zhiyuan Li"
-   ],
-   "abstract": "Tools with different shapes can have similar functions, but transferring manipulation skills across tools requires understanding how tool geometry relates to the specific task and adjusting the manipulation strategy accordingly. The key challenge is to discover the common affordances that contribute",
-   "cat": "cs.RO",
-   "comment": "16 pages, 6 figures. Includes appendices",
-   "code_in_text": []
-  },
-  {
-   "id": "2611.25614",
-   "title": "Don't Lose the Future: Latent-Aware 4-Bit Quantization of World Action Models",
-   "date": "2026-11-19",
-   "authors": [
-    "Yichen Guo",
-    "Yanlong Chen",
-    "Xinyue Zhang",
-    "Mohan Liu"
-   ],
-   "abstract": "World action models (WAMs) predict how a scene will evolve and condition their actions on this predicted future. Deploying them on a robot's onboard computer calls for 4-bit weights, activations and key-value caches (W4A4KV4). Existing 4-bit quantizers for WAMs preserve the generated action, and est",
-   "cat": "cs.AI",
-   "comment": "10 pages, 4 figures, 6 tables",
    "code_in_text": []
   }
  ]
