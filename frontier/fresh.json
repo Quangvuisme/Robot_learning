@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-25 10:03Z",
+ "generated": "2026-11-25 10:34Z",
  "papers": [
   {
    "id": "2611.33144",
@@ -75,7 +75,7 @@
    "cat": "cs.CV",
    "comment": "Code: https://github.com/iPPLab/robodojo-mirror",
    "hf": {
-    "up": 24,
+    "up": 25,
     "repo": "https://github.com/iPPLab/robodojo-mirror",
     "stars": 0,
     "proj": "https://ipplab.github.io/robodojo-mirror"
@@ -1579,7 +1579,7 @@
    "cat": "cs.RO",
    "comment": "Code: https://github.com/AIGeeksGroup/MotionMamba2.0. Website: https://aigeeksgroup.github.io/MotionMamba2.0",
    "hf": {
-    "up": 189,
+    "up": 190,
     "repo": "https://github.com/AIGeeksGroup/MotionMamba2.0",
     "stars": 29,
     "proj": "https://aigeeksgroup.github.io/MotionMamba2.0/"
