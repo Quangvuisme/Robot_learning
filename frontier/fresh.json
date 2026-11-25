@@ -1,6 +1,82 @@
 {
- "generated": "2026-11-25 03:34Z",
+ "generated": "2026-11-25 04:03Z",
  "papers": [
+  {
+   "id": "2611.32944",
+   "title": "DynaMimic: A Physics-Informed World Model for Humanoid Motion Tracking",
+   "date": "2026-11-24",
+   "authors": [
+    "Chaoyue Xing",
+    "Linyi Huang",
+    "Yiting He",
+    "Yixuan Yin"
+   ],
+   "abstract": "Whole-body motion tracking enables humanoid robots to reproduce diverse skills from human demonstrations. Existing model-free reinforcement learning methods either distill motion specialists into a single policy at the cost of performance or train a generalist policy directly using cluster-scale com",
+   "cat": "cs.RO",
+   "comment": "",
+   "code_in_text": []
+  },
+  {
+   "id": "2611.32937",
+   "title": "Self-Sensing Compliant Anthropomorphic Hand for Speed-Dictated Shared Force Control in Teleoperation",
+   "date": "2026-11-24",
+   "authors": [
+    "Huijiang Wang",
+    "Yu Zhang",
+    "Rui Chen",
+    "Tristan Bonato"
+   ],
+   "abstract": "In vision-based teleoperation of robotic hands, the operator receives no haptic feedback and therefore struggles to regulate the grasp force, while adding tactile sensors to the fingers increases wiring, cost and integration complexity. Compliant hands offer an alternative, as their mechanical compl",
+   "cat": "cs.RO",
+   "comment": "This work has been submitted to the IEEE for possible publication. Copyright may be transferred without notice, after which this version may no longer be accessible. Project page: https://huijiang-wang.github.io/selfsensing-hand/",
+   "code_in_text": []
+  },
+  {
+   "id": "2611.32903",
+   "title": "IMPACT-Seg: Consistent Anatomical Segmentation and Representation Learning Across CT, CBCT, and MRI",
+   "date": "2026-11-24",
+   "authors": [
+    "Cédric Hémon",
+    "Valentin Boussot",
+    "Matthew McCormick",
+    "Lukas Zimmermann"
+   ],
+   "abstract": "Computed tomography (CT), cone-beam CT (CBCT), and magnetic resonance imaging (MRI) provide complementary representations of the same underlying anatomy, yet substantial differences in image appearance challenge consistent segmentation and deformable registration in adaptive radiotherapy. We investi",
+   "cat": "cs.CV",
+   "comment": "preprint (https://github.com/HEMONCedric/IMPACTSeg, https://huggingface.co/HCedric/IMPACTSeg)",
+   "code_in_text": [
+    "https://github.com/HEMONCedric/IMPACTSeg"
+   ]
+  },
+  {
+   "id": "2611.32858",
+   "title": "What Does a Skill Vocabulary Cost? A Closed-Loop Decomposition over Demonstrated Motions",
+   "date": "2026-11-24",
+   "authors": [
+    "Maximilian Xiling Li",
+    "Nils Blank",
+    "Paul Mattes",
+    "Pankhuri Vanjani"
+   ],
+   "abstract": "Discrete skill policies execute motions drawn from a finite vocabulary. In most current methods, this vocabulary is a latent codebook learned jointly with a selector and a decoder. When such a policy fails in closed loop, the failure cannot be traced to the vocabulary, to the choice of skill or to i",
+   "cat": "cs.RO",
+   "comment": "27 pages, 7 figures, 18 tables. Project page: https://intuitive-robots.github.io/mpq",
+   "code_in_text": []
+  },
+  {
+   "id": "2611.32793",
+   "title": "Back to Raw Motion: Latent-Free Diffusion Transformers for Text-to-Motion and Exact Conditional Generation",
+   "date": "2026-11-24",
+   "authors": [
+    "Yun Chen",
+    "Jeonghyeok Do",
+    "Munchurl Kim"
+   ],
+   "abstract": "As generative models tackle larger and more complex datasets, learned codecs enable efficient generation through compact latent representations, but may lose details and cannot guarantee exact preservation of given conditions. Generating directly in the original data space avoids errors introduced b",
+   "cat": "cs.CV",
+   "comment": "The first two authors contributed equally to this work (equal contribution). Please visit our project page at https://kaist-viclab.github.io/RawMo_site",
+   "code_in_text": []
+  },
   {
    "id": "2611.32381",
    "title": "Does Research-Paper Context Improve LLM-Generated Quadruped Navigation? An Exploratory Simulation Study",
@@ -565,7 +641,7 @@
    "cat": "cs.RO",
    "comment": "",
    "hf": {
-    "up": 111,
+    "up": 115,
     "repo": "https://github.com/xyangzhou/WorldLeague",
     "stars": 18,
     "proj": "https://xyangzhou.github.io/WorldLeague/"
@@ -935,7 +1011,7 @@
    "cat": "cs.RO",
    "comment": "87 pages, 25 figures, Project Page: https://baai-eai.github.io/innata-0/",
    "hf": {
-    "up": 10,
+    "up": 11,
     "repo": null,
     "stars": null,
     "proj": "https://baai-eai.github.io/innata-0/"
@@ -1743,77 +1819,6 @@
    "abstract": "Deep reinforcement learning (RL) can transfer agile robot skills from simulation to the real world, but closing the sim-to-real gap by domain randomization requires expert physics knowledge, and simulator calibration from real data typically targets a few hand-picked parameters. Even then, simulator",
    "cat": "cs.RO",
    "comment": "The code and demonstration videos are available at https://www.youwei-yu.com/nfc/",
-   "code_in_text": []
-  },
-  {
-   "id": "2611.28256",
-   "title": "FlowPAC: Flow-Guided Visual Pruning and Action Caching for Efficient VLA Inference",
-   "date": "2026-11-20",
-   "authors": [
-    "Jintao Cheng",
-    "Yipu Zhang",
-    "Haozhe Wang",
-    "Lin Jiang"
-   ],
-   "abstract": "Vision-Language-Action (VLA) models have emerged as a powerful paradigm for embodied AI, yet their high inference latency and memory footprint remain major barriers to edge deployment. Existing training-free acceleration techniques, such as visual token pruning and action caching, typically rely on ",
-   "cat": "cs.RO",
-   "comment": "Accepted at DATE 2027. 7 pages, 6 figures",
-   "code_in_text": []
-  },
-  {
-   "id": "2611.27967",
-   "title": "Task2Hand: A Contact-Grounded Skill for Parametric Dexterous-Hand Morphology Design",
-   "date": "2026-11-20",
-   "authors": [
-    "Haoyang Wang",
-    "Weibo Gao",
-    "Zhengxiong Li",
-    "Lingfeng Tao"
-   ],
-   "abstract": "Dexterous hand design demands repeated expert work across geometry, robot-description code, collision debugging, grasp initialization, and policy training. We present Task2Hand, a Skill: a specification package that turns a functional manipulation brief into a parameterized hand model and routes eve",
-   "cat": "cs.RO",
-   "comment": "9 pages, 7 figures, 3 tables",
-   "code_in_text": []
-  },
-  {
-   "id": "2611.27939",
-   "title": "What Must a Model Tell a Planner? Outcome Interfaces for Risk-Aware Planning After Robot Damage",
-   "date": "2026-11-20",
-   "authors": [
-    "Hassan Iqbal",
-    "Krishna Kumar"
-   ],
-   "abstract": "When a robot is damaged, it must decide which routes it can still afford, and the amount of risk it may accept can change from one mission to the next. We argue that whether a learned model helps such a robot depends on its decision interface, that is, on what the model hands to the planner. A decis",
-   "cat": "cs.RO",
-   "comment": "",
-   "code_in_text": []
-  },
-  {
-   "id": "2611.27845",
-   "title": "Humanoid robots for safety-critical electrical switching: A perception-informed runtime constraint filter",
-   "date": "2026-11-20",
-   "authors": [
-    "Songyang Liu",
-    "Yu Hou",
-    "Yuqing Hu",
-    "Shuai Li"
-   ],
-   "abstract": "Humanoid robots can reduce personnel exposure in electrical switching, but safe control is challenging because the tool must reach a target switch next to similar devices, where an imprecise operator command can contact a non-target switch. This study proposes a runtime safety filter that checks eac",
-   "cat": "cs.RO",
-   "comment": "",
-   "code_in_text": []
-  },
-  {
-   "id": "2611.27648",
-   "title": "Trust What Repeats: Capped World-Model Policy Gradients for Humanoid Motion Tracking",
-   "date": "2026-11-20",
-   "authors": [
-    "Xuzhe Dang",
-    "Stefan Edelkamp"
-   ],
-   "abstract": "Training a humanoid motion tracker by backpropagating imagined returns through a learned world model is fast, because the model gives a first-order policy gradient. We ask how much of that gradient holds in the simulator. On a tracker for the Unitree G1, the $0.5\\%$ of imagined rollouts with the lar",
-   "cat": "cs.RO",
-   "comment": "",
    "code_in_text": []
   }
  ]
