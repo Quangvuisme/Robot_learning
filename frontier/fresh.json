@@ -1,6 +1,217 @@
 {
- "generated": "2026-11-25 02:34Z",
+ "generated": "2026-11-25 03:04Z",
  "papers": [
+  {
+   "id": "2611.32381",
+   "title": "Does Research-Paper Context Improve LLM-Generated Quadruped Navigation? An Exploratory Simulation Study",
+   "date": "2026-11-24",
+   "authors": [
+    "Barnabas Juhasz",
+    "Rolf Pfister"
+   ],
+   "abstract": "Large language models can write competent robot navigation code, but not only does the research on the topic advance, a model may also, due to the volume of findings, fail to recall relevant findings and apply them to the task at hand. In this work, we test whether providing particular research pape",
+   "cat": "cs.RO",
+   "comment": "10 pages, 4 figures, 6 tables",
+   "code_in_text": []
+  },
+  {
+   "id": "2611.32304",
+   "title": "Sparse Poison, Strong Hijack: Efficient Trajectory-Level Backdoors in Vision-Language-Action Models with Only 1\\% Poisoning",
+   "date": "2026-11-24",
+   "authors": [
+    "Simin Huang",
+    "Jiawei Chen",
+    "Shaolong Zhu",
+    "Qiwei Liang"
+   ],
+   "abstract": "Vision-Language-Action (VLA) models advance robotic manipulation, but their reliance on demonstrations exposes them to backdoor threats. Among these threats, trajectory-level targeted backdoors are particularly challenging and may pose greater safety risks than behavior-disrupting attacks: rather th",
+   "cat": "cs.AI",
+   "comment": "15 pages, 7 figures, including supplementary material. Simin Huang and Jiawei Chen contributed equally. Code: https://github.com/vla-attack/Sparse_Poison_Strong_Hijack",
+   "code_in_text": [
+    "https://github.com/vla-attack/Sparse_Poison_Strong_Hijack"
+   ]
+  },
+  {
+   "id": "2611.32260",
+   "title": "EgoLoAF: Learning Humanoid Loco-Manipulation from Egocentric Demonstrations with Hand-Object Affordances",
+   "date": "2026-11-24",
+   "authors": [
+    "Yiming Zeng",
+    "Jiangyuxuan Dai",
+    "Yuheng Na",
+    "Tan Zhu Xuan"
+   ],
+   "abstract": "Training humanoid vision-language-action (VLA) models relies heavily on costly real-robot teleoperation. Recent efforts convert egocentric human demonstrations into humanoid training data. However, most methods still require wearable motion trackers and leave important hand-object interaction cues i",
+   "cat": "cs.RO",
+   "comment": "",
+   "code_in_text": []
+  },
+  {
+   "id": "2611.32245",
+   "title": "VLAs Execute, Code Recovers: 3D Skill Envelopes Bridge the Compositional Gap in Agentic Manipulation",
+   "date": "2026-11-24",
+   "authors": [
+    "Jiajie Zhang",
+    "Yankai Xiang",
+    "Changhao Chen"
+   ],
+   "abstract": "Composing frozen Vision-Language-Action (VLA) skills under an agentic planner promises scalable long-horizon manipulation without long-horizon demonstrations, yet strong atomic skills routinely fail at seams even under a correct plan. Standard remedies reset the robot's pose or draft entry condition",
+   "cat": "cs.RO",
+   "comment": "",
+   "code_in_text": []
+  },
+  {
+   "id": "2611.32241",
+   "title": "Motion Chain of Thought: Disentangling Motion Semantics from Visual Appearance for Robotic Manipulation",
+   "date": "2026-11-24",
+   "authors": [
+    "Xiangkai Ma",
+    "Xinyi Wang",
+    "Junjie Wang",
+    "Sheng Xu"
+   ],
+   "abstract": "World Action Models (WAMs) aim to construct a unified architecture capable of understanding world state evolution and guiding action generation. However, existing visual branches focus on predicting static visual observation, rather than reflecting potential transition information that captures the ",
+   "cat": "cs.RO",
+   "comment": "",
+   "code_in_text": []
+  },
+  {
+   "id": "2611.32216",
+   "title": "NativeDrive: Native Multimodal Foundations for Autonomous Driving",
+   "date": "2026-11-24",
+   "authors": [
+    "Zehua Fan",
+    "Qi Jiang",
+    "Wei Li",
+    "Kai Tang"
+   ],
+   "abstract": "Autonomous driving requires semantic understanding and fine-grained scene perception for precise action prediction. Vision-language-action models (VLAs) inherit semantic priors, but low-dimensional action labels provide limited structural supervision. Some studies extend VLAs with visual generation ",
+   "cat": "cs.CV",
+   "comment": "16 pages, 8 figures, 7 tables, including supplementary material",
+   "code_in_text": []
+  },
+  {
+   "id": "2611.32206",
+   "title": "Seeing Is Not Reaching: Instruction Shortcuts Override Visual Grounding in Vision-Language-Action Models",
+   "date": "2026-11-24",
+   "authors": [
+    "Qing Zhang",
+    "Xuesong Li",
+    "Zhaoyuan Yang",
+    "Changlin Song"
+   ],
+   "abstract": "Vision-language-action models (VLAs) are expected to inherit visual grounding from vision-language models, yet often reach for an object's training location after it has been moved. Across six VLAs, we identify two shortcuts: a scene shortcut, where the arm follows the scene's original task despite ",
+   "cat": "cs.CV",
+   "comment": "31 pages, including supplementary material. Code: https://github.com/QZhang2111/psg",
+   "code_in_text": [
+    "https://github.com/QZhang2111/psg"
+   ]
+  },
+  {
+   "id": "2611.32186",
+   "title": "SkillHarness: Execution-Aware Coordination with Plug-and-Play Skills for Long-Horizon Traversal",
+   "date": "2026-11-24",
+   "authors": [
+    "Bailin He",
+    "Xiting Zhao",
+    "Kang Wang",
+    "Xinyu Zhou"
+   ],
+   "abstract": "Traversing complex terrain requires robots to coordinate diverse locomotion skills while adapting to unseen obstacles and changing environments. Although perceptive reinforcement learning enables agile locomotion, conventional multi-terrain locomotion rely on fixed policy, limiting adaptability and ",
+   "cat": "cs.RO",
+   "comment": "",
+   "code_in_text": []
+  },
+  {
+   "id": "2611.32101",
+   "title": "Ego2Real: Learning Bimanual Dexterous Manipulation from Egocentric Visuo-Tactile Demonstrations",
+   "date": "2026-11-24",
+   "authors": [
+    "Ange Bao",
+    "Haishan Zhang",
+    "Lingzi Xie",
+    "Shuang Li"
+   ],
+   "abstract": "Learning dexterous manipulation from egocentric human demonstrations offers a scalable path toward robot skill acquisition. Vision alone, however, provides limited information about physical contacts and the demonstrator's force intent, leading to ambiguities in interpreting hand-object interactions",
+   "cat": "cs.RO",
+   "comment": "19 pages, 9 figures",
+   "code_in_text": []
+  },
+  {
+   "id": "2611.32098",
+   "title": "ActiveBridge: Scaling Active Prior for Robots through Egocentric Perception-Interaction Modeling",
+   "date": "2026-11-24",
+   "authors": [
+    "Zixiao Gu",
+    "Qiren Qin",
+    "Yu He",
+    "Zhengyang Liu"
+   ],
+   "abstract": "Robotics foundation models are now widely used for manipulation, and egocentric videos offer rich data for scaling. However, existing methods overlook the human active priors captured in egocentric videos, which limits performance in unstructured scenes. They act on given observations instead of act",
+   "cat": "cs.RO",
+   "comment": "",
+   "code_in_text": []
+  },
+  {
+   "id": "2611.32081",
+   "title": "KeyMemVLA: Subtask-Guided Key Memory for Long-Horizon Robotic Manipulation",
+   "date": "2026-11-24",
+   "authors": [
+    "Yongwei Zhang",
+    "Tao Chen",
+    "Sicheng Ma",
+    "Yuanzhe Xing"
+   ],
+   "abstract": "Memory-dependent long-horizon manipulation requires vision-language-action (VLA) policies to infer task progress and recall evidence absent from current observations. Under a limited memory budget, the challenge is to retain history that resolves stage ambiguity and supports subsequent decisions. We",
+   "cat": "cs.RO",
+   "comment": "",
+   "code_in_text": []
+  },
+  {
+   "id": "2611.32053",
+   "title": "EffectWAM: Learning Action-Grounded Effects for Robot Manipulation",
+   "date": "2026-11-24",
+   "authors": [
+    "Yuan Zhang",
+    "Hao Cui",
+    "Jingfei Ni",
+    "Meiyi Wang"
+   ],
+   "abstract": "World-action models connect visual prediction with executable robot control. We present EffectWAM, which develops this connection through three complementary components: Effect, camera positional encoding (CaPE), and Action Grounding. Effect represents visual change as the difference between indepen",
+   "cat": "cs.AI",
+   "comment": "",
+   "code_in_text": []
+  },
+  {
+   "id": "2611.32016",
+   "title": "RoboHarness-RL: Agentic Reinforcement Learning for VLM-Based Robot Manipulation",
+   "date": "2026-11-24",
+   "authors": [
+    "Liyang Li",
+    "Mingyu Liu",
+    "Xiaoman Li",
+    "Zhiyue Zhao"
+   ],
+   "abstract": "Agentic harnesses enable frontier vision-language models (VLMs) to manipulate robots through perception, planning, and control tools, yet achieving comparable performance with compact open-weight VLMs remains challenging. We present RoboHarness-RL, an agentic reinforcement learning framework for imp",
+   "cat": "cs.RO",
+   "comment": "",
+   "code_in_text": []
+  },
+  {
+   "id": "2611.31954",
+   "title": "Perception Is Enough, at the Right Scale: Scale-Adaptive Token Pruning for Vision-Language-Action Models",
+   "date": "2026-11-24",
+   "authors": [
+    "Yifeng Lin",
+    "Liuxiang Qiu",
+    "Yunfeng Chen",
+    "Tiesong Zhao"
+   ],
+   "abstract": "Vision-language-action (VLA) models must process continuous streams of visual observations, and the resulting computational cost limits real-time robotic control. Token pruning reduces this cost, but a fixed semantic scale of perceptual representation can overlook information needed at different sta",
+   "cat": "cs.AI",
+   "comment": "10 pages, 6 figures, 5 tables. Project page: https://lin0e0.github.io/TauPrune-VLA/",
+   "code_in_text": []
+  },
   {
    "id": "2611.31863",
    "title": "Ada-BFM: Adapting Behavior Foundation Models for Humanoid Scene Interaction",
@@ -324,7 +535,7 @@
    "cat": "cs.RO",
    "comment": "",
    "hf": {
-    "up": 102,
+    "up": 104,
     "repo": "https://github.com/xyangzhou/WorldLeague",
     "stars": 18,
     "proj": "https://xyangzhou.github.io/WorldLeague/"
@@ -694,7 +905,7 @@
    "cat": "cs.RO",
    "comment": "87 pages, 25 figures, Project Page: https://baai-eai.github.io/innata-0/",
    "hf": {
-    "up": 3,
+    "up": 9,
     "repo": null,
     "stars": null,
     "proj": "https://baai-eai.github.io/innata-0/"
@@ -953,7 +1164,7 @@
    "cat": "cs.RO",
    "comment": "Code: https://github.com/AIGeeksGroup/MotionMamba2.0. Website: https://aigeeksgroup.github.io/MotionMamba2.0",
    "hf": {
-    "up": 175,
+    "up": 178,
     "repo": "https://github.com/AIGeeksGroup/MotionMamba2.0",
     "stars": 23,
     "proj": "https://aigeeksgroup.github.io/MotionMamba2.0/"
@@ -1603,213 +1814,6 @@
    "abstract": "Whole-body segmentation tools such as TotalSegmentator and MOOSE split more than 100 classes across five or six networks. The reason is memory. Standard 3D inference, as implemented in nnU-Net and MONAI, holds a logit for every class and voxel, on the working grid and again on the scanner's grid. Fo",
    "cat": "cs.CV",
    "comment": "",
-   "code_in_text": []
-  },
-  {
-   "id": "2611.27552",
-   "title": "S-BFM: A Behavioral Foundation Model for Humanoid Control from Sparse Spatiotemporal Goals",
-   "date": "2026-11-20",
-   "authors": [
-    "Kun Yang",
-    "Xuanyu Chen",
-    "Jing Tan",
-    "Yanjing Liu"
-   ],
-   "abstract": "General-purpose whole-body trackers can execute diverse humanoid motions, but they require dense reference trajectories. However, tasks usually specify only where, in which posture, and when the robot should arrive, leaving the motion in between to a separate planner. Inspired by human motor coordin",
-   "cat": "cs.RO",
-   "comment": "11 pages, 7 figures, 4 tables",
-   "code_in_text": []
-  },
-  {
-   "id": "2611.27499",
-   "title": "NavRSI: Recursive Harness Self-Improvement for Vision-and-Language Navigation",
-   "date": "2026-11-20",
-   "authors": [
-    "Guangzhao Dai",
-    "Guoxin Lian",
-    "Shuo Wang",
-    "Shengbin Yue"
-   ],
-   "abstract": "Frontier large language models (LLMs) have enabled vision-and-language navigation (VLN) through direct closed-loop perception and action. However, navigation performance depends strongly on the harness governing LLM-environment interactions, while existing harnesses largely rely on manually designed",
-   "cat": "cs.RO",
-   "comment": "",
-   "code_in_text": []
-  },
-  {
-   "id": "2611.27467",
-   "title": "ROSWORLD: When Digital Task Competence Meets Physical Execution",
-   "date": "2026-11-20",
-   "authors": [
-    "Caoyuan Ma",
-    "Wendi Liu",
-    "Zhimin Zhang",
-    "Muyao Niu"
-   ],
-   "abstract": "Computer-use agents now solve most desktop tasks through direct software input, but a robot using the same computer must turn GUI knowledge into physical contact with a keyboard and mouse. We introduce ROSWorld, a benchmark that couples a physically simulated robot workstation to a live OSWorld desk",
-   "cat": "cs.RO",
-   "comment": "13 pages, 9 figures, 4 tables",
-   "code_in_text": []
-  },
-  {
-   "id": "2611.27401",
-   "title": "Beyond Linear Decodability: Understanding and Improving Instruction Following in World Action Models",
-   "date": "2026-11-20",
-   "authors": [
-    "Bokai Ji",
-    "Jiapeng Chen",
-    "Yi Zhang",
-    "Zeyuan Ding"
-   ],
-   "abstract": "World action models (WAMs) exhibit strong manipulation capabilities yet often fail to follow test-time language instructions. Prior work shows that non-following (NF) WAMs encode information about the instructed target, but this information does not control their behavior. By comparing NF WAM with i",
-   "cat": "cs.AI",
-   "comment": "38 pages, including appendices. Project page: https://ruflect-intelligence.github.io/LDS-Homepage/",
-   "code_in_text": []
-  },
-  {
-   "id": "2611.27397",
-   "title": "AnyBodyCodec: A Shared Native Interface for Body-Model Conversion, Extension, and Humanoid Control",
-   "date": "2026-11-20",
-   "authors": [
-    "Qianxing Li"
-   ],
-   "abstract": "Parametric body models expose incompatible pose and shape controls, tying humanoid policies to particular input formats. AnyBodyCodec learns a shared representation through native conversion, then reuses it for new body models and control with its core frozen. Encoders map MHR, SMPL-X, and SOMA to a",
-   "cat": "cs.RO",
-   "comment": "",
-   "code_in_text": []
-  },
-  {
-   "id": "2611.27372",
-   "title": "ReActWAM: Action-Consistent Caching for Efficient World-Action Models",
-   "date": "2026-11-20",
-   "authors": [
-    "Zhaochen Guo",
-    "Yunke Wang",
-    "Siyu Xu",
-    "Zijian Wang"
-   ],
-   "abstract": "World-action models (WAMs) often generate future visual states alongside robot actions, introducing substantial computational overhead during inference. During closed-loop execution, consecutive inference cycles often predict similar action sequences, leading to redundant computation. However, reduc",
-   "cat": "cs.AI",
-   "comment": "10 pages, 5 figures",
-   "code_in_text": []
-  },
-  {
-   "id": "2611.27338",
-   "title": "Latent Jacobian Steer: Eliciting Contact-Rich Out-of-Distribution Behaviors from Pretrained Humanoid Controllers",
-   "date": "2026-11-20",
-   "authors": [
-    "S K Swaminathan",
-    "Shivam Sood",
-    "Shreyansh Kansal",
-    "Chengyang He"
-   ],
-   "abstract": "Given a pretrained general latent-conditioned whole-body humanoid controller, say a behavioral foundation model (BFM), how can we elicit complex and contact-rich out-of-distribution behaviors? Raw joint-action exploration enables direct, task-specific adjustments but can disrupt coordination learned",
-   "cat": "cs.RO",
-   "comment": "36 pages. Project page: https://latent-jacobian-steer.github.io/",
-   "code_in_text": []
-  },
-  {
-   "id": "2611.27293",
-   "title": "A Vision-Based Framework for Manual Assembly Verification and Adaptive Operator Assistance",
-   "date": "2026-11-20",
-   "authors": [
-    "Naveen Joseph Delphin",
-    "Leonardo Venturoso",
-    "Isabella Soraruf",
-    "Marco Todescato"
-   ],
-   "abstract": "Manual assembly remains difficult to monitor because operator actions, components, and task progress must be interpreted together. This paper presents a modular framework based on a single overhead red-green-blue (RGB) camera, combining object detection, hand-motion tracking, region-aware interactio",
-   "cat": "cs.CV",
-   "comment": "",
-   "code_in_text": []
-  },
-  {
-   "id": "2611.27226",
-   "title": "Trailblazer-F: Speculative Action-Flow Inference for Autonomous Driving",
-   "date": "2026-11-20",
-   "authors": [
-    "Haibo Hu",
-    "Lianming Huang",
-    "Qiao Li",
-    "Nan Guan"
-   ],
-   "abstract": "Driving world-action models generate planned trajectories through iterative action denoising, with each update depending on the preceding state. This sequential dependency incurs substantial inference latency, limiting timely planning. Speculative inference offers an opportunity to reduce this laten",
-   "cat": "cs.RO",
-   "comment": "",
-   "code_in_text": []
-  },
-  {
-   "id": "2611.27223",
-   "title": "LiDAR Signals for Robot Locomotion: Spherical Range Images Enable Robust Sim-to-Real Transfer",
-   "date": "2026-11-20",
-   "authors": [
-    "Nian Liu",
-    "Xinyi Tong",
-    "Ming Ren",
-    "Long Ye"
-   ],
-   "abstract": "Existing legged-locomotion systems commonly rely on depth images or online elevation maps. However, depth-based policies suffer from perceptual sim-to-real discrepancies due to imperfect depth sensor modeling, while map-based approaches are vulnerable to drift and misalignment. LiDAR offers direct m",
-   "cat": "cs.AI",
-   "comment": "",
-   "code_in_text": []
-  },
-  {
-   "id": "2611.27187",
-   "title": "SCAP: Stochastic Context for Action Expert Pretraining",
-   "date": "2026-11-20",
-   "authors": [
-    "Xiao Lin",
-    "Yaoxu Lyu",
-    "Ronghao Dang",
-    "Zhili Liu"
-   ],
-   "abstract": "Single-modality action-expert pretraining controls competition from visual shortcuts before vision--language--action (VLA) adaptation. Yet single-modality pretraining can impair the vision--language interactions needed for subsequent joint prediction. We construct a diagnostic model in which VA or L",
-   "cat": "cs.CV",
-   "comment": "",
-   "code_in_text": []
-  },
-  {
-   "id": "2611.27182",
-   "title": "Tripwire: Robot Agents that Program Their Own Interrupts under Human Disturbance",
-   "date": "2026-11-20",
-   "authors": [
-    "Sunli Chen",
-    "Yun Zong",
-    "Qinhong Zhou",
-    "Xiaowen Qiu"
-   ],
-   "abstract": "Agent harnesses are turn-based: the agent acts, waits for the result, then reasons. When the action invokes a pretrained robot policy, such as a vision-language-action (VLA) or world action model (WAM), the policy may react continuously to observations, but the agent cannot revisit its decision unti",
-   "cat": "cs.RO",
-   "comment": "",
-   "code_in_text": []
-  },
-  {
-   "id": "2611.27181",
-   "title": "HumanoidPose: Monocular 3D Pose Estimation for Humanoid Robots",
-   "date": "2026-11-20",
-   "authors": [
-    "Jinlin Gan",
-    "Mingzhe Li",
-    "Junsheng Zhang",
-    "Zhibo Zhou"
-   ],
-   "abstract": "As humanoid robots increasingly enter real-world environments, recovering their 3D whole-body pose from monocular imagery is becoming increasingly important for external state perception, motion analysis, and robot learning. However, Humanoid Robot Pose Estimation (HRPE) lies at the intersection of ",
-   "cat": "cs.RO",
-   "comment": "",
-   "code_in_text": []
-  },
-  {
-   "id": "2611.27171",
-   "title": "Learning from Incomplete Actions: Interval Motion Supervision for Vision-Language-Action Policies",
-   "date": "2026-11-20",
-   "authors": [
-    "Yunpeng Mei",
-    "Chenyu Wang",
-    "Xiaowen Zhu",
-    "Chenbo Xin"
-   ],
-   "abstract": "Visual labeling of egocentric demonstrations often leaves contiguous gaps in action supervision. Reliable poses around a gap still provide its net translation and rotation. We use this information to train vision-language-action policies while preserving ordinary flow matching on reliable local acti",
-   "cat": "cs.RO",
-   "comment": "17 pages, including supplementary material",
    "code_in_text": []
   }
  ]
