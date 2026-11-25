@@ -17,7 +17,7 @@
  },
  {
   "repo": "enactic/openarm",
-  "stars": 3723,
+  "stars": 3724,
   "pushed": "2026-11-25",
   "created": "2024-09-29",
   "desc": "A fully open-source humanoid arm for physical AI research and deployment in contact-rich environments.",
@@ -41,7 +41,7 @@
  },
  {
   "repo": "HybridRobotics/supermimic",
-  "stars": 2044,
+  "stars": 2045,
   "pushed": "2026-11-21",
   "created": "2026-11-10",
   "desc": "Humanoid whole-body motion tracking with one differentiable world model.",
@@ -73,7 +73,7 @@
  },
  {
   "repo": "Robbyant/lingbot-touch",
-  "stars": 835,
+  "stars": 836,
   "pushed": "2026-11-11",
   "created": "2026-11-09",
   "desc": "Learning Heterogeneous Tactile Representation for General Dexterous Manipulation",

@@ -99,85 +99,6 @@
   "why": "list/site repo"
  },
  {
-  "title": "MixReact: Physics-Based Reactive Humanoid Control from Multimodal Cues via a Discrete-Continuous Mixture of Transformers",
-  "arxiv": "2611.26218",
-  "repo": "BinLee26/MixReact_Page",
-  "id_in_readme": false,
-  "title_in_readme": true,
-  "name_in_readme": true,
-  "official_claim": false,
-  "unofficial_claim": false,
-  "coming_soon": false,
-  "usage": false,
-  "weights": false,
-  "len": 1707,
-  "evidence": [],
-  "head": " MixReact project page Academic project website for MixReact: Physics-Based Reactive Humanoid Control from Multimodal Cues via a Discrete\u2013Continuous Mixture of Transformers. Live site: https://binlee26.github.io/MixReact",
-  "tier": "S",
-  "why": "mentions paper but no usage instructions"
- },
- {
-  "title": "MixReact: Physics-Based Reactive Humanoid Control from Multimodal Cues via a Discrete-Continuous Mixture of Transformers",
-  "arxiv": "2611.26218",
-  "repo": "Tavish9/awesome-daily-AI-arxiv",
-  "id_in_readme": true,
-  "title_in_readme": true,
-  "name_in_readme": true,
-  "official_claim": true,
-  "unofficial_claim": false,
-  "coming_soon": true,
-  "usage": false,
-  "weights": true,
-  "len": 1465024,
-  "evidence": [
-   "official: ...e samplers at higher step counts across most tested models. The official implementation is available atthis https URL.   </details>  - **[TANGO: Tr...",
-   "soon: ...atial reasoning research and benchmark design. Datasets and code will be released atthis https URL.   </details>  - **[Rescuing Discarded Bou..."
-  ],
-  "head": " \ud83d\ude80 Daily AI arXiv Digest Total Papers() Last Updated arXiv API License(LICENSE) \ud83d\udccc \u200bTracking Breakthroughs in: AI \u2022 NLP \u2022 CV \u2022 ML \u2022 Robotics \u23f0 \u200bUpdate Schedule: UTC 02:00 GMT+8 10:00 \ud83c\udf1f Today's Highlights - \ud83d\udd25 Hot Topic - B",
-  "tier": "L",
-  "why": "list/site repo"
- },
- {
-  "title": "MixReact: Physics-Based Reactive Humanoid Control from Multimodal Cues via a Discrete-Continuous Mixture of Transformers",
-  "arxiv": "2611.26218",
-  "repo": "memoryunreal/awesome-whole-body-control",
-  "id_in_readme": true,
-  "title_in_readme": true,
-  "name_in_readme": true,
-  "official_claim": true,
-  "unofficial_claim": true,
-  "coming_soon": true,
-  "usage": true,
-  "weights": true,
-  "len": 420822,
-  "evidence": [
-   "official: ... Coming Soon**: authors state code will be released - \ud83d\udd01 **Unofficial Code**: third-party implementation only - \u274c **No Code Found** - ...",
-   "unofficial: ...de Coming Soon**: authors state code will be released - \ud83d\udd01 **Unofficial Code**: third-party implementation only - \u274c **No Code Found...",
-   "soon: ...*Project Page**: project page available, no code - \u23f3 **Code Coming Soon**: authors state code will be released - \ud83d\udd01 **Unofficial Cod..."
-  ],
-  "head": " Awesome Human-Object Interaction Generation and Whole-Body Control Awesome Maintenance PRs Welcome A curated list of recent papers, datasets, codebases, and benchmarks on human-object interaction (HOI) motion generation",
-  "tier": "L",
-  "why": "list/site repo"
- },
- {
-  "title": "MixReact: Physics-Based Reactive Humanoid Control from Multimodal Cues via a Discrete-Continuous Mixture of Transformers",
-  "arxiv": "2611.26218",
-  "repo": "roatienza/cybersecurity-ai-weekly",
-  "id_in_readme": true,
-  "title_in_readme": false,
-  "name_in_readme": false,
-  "official_claim": false,
-  "unofficial_claim": false,
-  "coming_soon": false,
-  "usage": false,
-  "weights": true,
-  "len": 18007,
-  "evidence": [],
-  "head": " Cybersecurity \u00d7 AI Weekly A weekly digest of what matters at the intersection of cybersecurity and artificial intelligence \u2014 news, product announcements, research papers, open-source projects, and open problems. Maintai",
-  "tier": "S",
-  "why": "mentions paper but no usage instructions"
- },
- {
   "title": "QDD-MM: A Simple and Compact Open-Source Muscle Module with Quasi-Direct-Drive Motor for Tendon-driven Robots",
   "arxiv": "2611.24279",
   "repo": "haraduka/qddmm",
@@ -294,24 +215,6 @@
   "head": " PERA Plug-in Experts for Robotic Actions in Continual Whole-Body Control Paper \u00b7 PDF \u00b7 English(README.md) \u00b7 \u7b80\u4f53\u4e2d\u6587(README.zh-CN.md) \u00b7 Website source \u00b7 Models(docs/MODELS.md) \u00b7 Setup(docs/ENVIRONMENT.md) The open-source re",
   "tier": "A",
   "why": "paper cited + official claim + runnable usage"
- },
- {
-  "title": "HITCH: Teaching a Vision-Language Model to Operate a Humanoid through a Whole-Body Harness",
-  "arxiv": "2611.08039",
-  "repo": "Axellwppr/HITCH",
-  "id_in_readme": true,
-  "title_in_readme": true,
-  "name_in_readme": true,
-  "official_claim": false,
-  "unofficial_claim": false,
-  "coming_soon": false,
-  "usage": true,
-  "weights": true,
-  "len": 5519,
-  "evidence": [],
-  "head": " HITCH Teaching a Vision-Language Model to Operate a Humanoid through a Whole-Body Harness Project page arXiv Models Python HITCH is a low-level harness that lets a vision-language model operate a Unitree G1 humanoid thr",
-  "tier": "B",
-  "why": "paper cited + runnable usage, no explicit 'official' claim"
  },
  {
   "title": "DKWBC: Decoupling Motion Tracking and Balancing for Humanoid Whole-Body Control",
@@ -531,6 +434,67 @@
   "why": "list/site repo"
  },
  {
+  "title": "MixReact: Physics-Based Reactive Humanoid Control from Multimodal Cues via a Discrete-Continuous Mixture of Transformers",
+  "arxiv": "2611.26218",
+  "repo": "Tavish9/awesome-daily-AI-arxiv",
+  "id_in_readme": true,
+  "title_in_readme": true,
+  "name_in_readme": true,
+  "official_claim": true,
+  "unofficial_claim": false,
+  "coming_soon": true,
+  "usage": false,
+  "weights": true,
+  "len": 1465024,
+  "evidence": [
+   "official: ...e samplers at higher step counts across most tested models. The official implementation is available atthis https URL.   </details>  - **[TANGO: Tr...",
+   "soon: ...atial reasoning research and benchmark design. Datasets and code will be released atthis https URL.   </details>  - **[Rescuing Discarded Bou..."
+  ],
+  "head": " \ud83d\ude80 Daily AI arXiv Digest Total Papers() Last Updated arXiv API License(LICENSE) \ud83d\udccc \u200bTracking Breakthroughs in: AI \u2022 NLP \u2022 CV \u2022 ML \u2022 Robotics \u23f0 \u200bUpdate Schedule: UTC 02:00 GMT+8 10:00 \ud83c\udf1f Today's Highlights - \ud83d\udd25 Hot Topic - B",
+  "tier": "L",
+  "why": "list/site repo"
+ },
+ {
+  "title": "MixReact: Physics-Based Reactive Humanoid Control from Multimodal Cues via a Discrete-Continuous Mixture of Transformers",
+  "arxiv": "2611.26218",
+  "repo": "memoryunreal/awesome-whole-body-control",
+  "id_in_readme": true,
+  "title_in_readme": true,
+  "name_in_readme": true,
+  "official_claim": true,
+  "unofficial_claim": true,
+  "coming_soon": true,
+  "usage": true,
+  "weights": true,
+  "len": 420822,
+  "evidence": [
+   "official: ... Coming Soon**: authors state code will be released - \ud83d\udd01 **Unofficial Code**: third-party implementation only - \u274c **No Code Found** - ...",
+   "unofficial: ...de Coming Soon**: authors state code will be released - \ud83d\udd01 **Unofficial Code**: third-party implementation only - \u274c **No Code Found...",
+   "soon: ...*Project Page**: project page available, no code - \u23f3 **Code Coming Soon**: authors state code will be released - \ud83d\udd01 **Unofficial Cod..."
+  ],
+  "head": " Awesome Human-Object Interaction Generation and Whole-Body Control Awesome Maintenance PRs Welcome A curated list of recent papers, datasets, codebases, and benchmarks on human-object interaction (HOI) motion generation",
+  "tier": "L",
+  "why": "list/site repo"
+ },
+ {
+  "title": "MixReact: Physics-Based Reactive Humanoid Control from Multimodal Cues via a Discrete-Continuous Mixture of Transformers",
+  "arxiv": "2611.26218",
+  "repo": "roatienza/cybersecurity-ai-weekly",
+  "id_in_readme": true,
+  "title_in_readme": false,
+  "name_in_readme": false,
+  "official_claim": false,
+  "unofficial_claim": false,
+  "coming_soon": false,
+  "usage": false,
+  "weights": true,
+  "len": 18007,
+  "evidence": [],
+  "head": " Cybersecurity \u00d7 AI Weekly A weekly digest of what matters at the intersection of cybersecurity and artificial intelligence \u2014 news, product announcements, research papers, open-source projects, and open problems. Maintai",
+  "tier": "S",
+  "why": "mentions paper but no usage instructions"
+ },
+ {
   "title": "WEVO: World Model-Enabled VLA Optimization for Whole-Body Loco-Manipulation",
   "arxiv": "2611.25251",
   "repo": "BaiShuanghao/my_arXiv_daily",
@@ -658,7 +622,7 @@
   "coming_soon": false,
   "usage": false,
   "weights": true,
-  "len": 72106,
+  "len": 75412,
   "evidence": [
    "unofficial: ... a repository that is not online yet. Repositories marked *(unofficial)* are by other people and cite the paper in their README; t..."
   ],
@@ -1275,6 +1239,24 @@
   "head": " Yunheng Wang1, &nbsp; Jiaxi Zhang1, &nbsp; Wei Lu1, &nbsp; Yuetong Fang1 &nbsp; Taowen Wang1 &nbsp; Yixiao Feng1 Shuning Zhang1 &nbsp; Junzhe Xu1,2 &nbsp; Yichi Wang3 &nbsp; Zizhao Yuan1 &nbsp; Kailun Huang1 Lusong Li2 ",
   "tier": "A",
   "why": "paper cited + official claim + runnable usage"
+ },
+ {
+  "title": "HITCH: Teaching a Vision-Language Model to Operate a Humanoid through a Whole-Body Harness",
+  "arxiv": "2611.08039",
+  "repo": "Axellwppr/HITCH",
+  "id_in_readme": true,
+  "title_in_readme": true,
+  "name_in_readme": true,
+  "official_claim": false,
+  "unofficial_claim": false,
+  "coming_soon": false,
+  "usage": true,
+  "weights": true,
+  "len": 5519,
+  "evidence": [],
+  "head": " HITCH Teaching a Vision-Language Model to Operate a Humanoid through a Whole-Body Harness Project page arXiv Models Python HITCH is a low-level harness that lets a vision-language model operate a Unitree G1 humanoid thr",
+  "tier": "B",
+  "why": "paper cited + runnable usage, no explicit 'official' claim"
  },
  {
   "title": "Thermo-VLA: A Thermal-Aware Vision-Language-Action Model with Gated Residual Modulation for Robotic Manipulation",
@@ -2680,7 +2662,7 @@
   "weights": false,
   "len": 1636,
   "evidence": [
-   "soon: ..._random_transitions - [x] **7.** build_transition_dataset - [ ] **8.** init_encoder_params - [ ] **9.** encoder_forward - [ ] **10.** init_tar..."
+   "soon: ...build_transition_dataset - [x] **8.** init_encoder_params - [ ] **9.** encoder_forward - [ ] **10.** init_target_encoder - [ ] **11.** em..."
   ],
   "head": " JEPA World Model from Scratch Build an action-conditioned Joint Embedding Predictive Architecture (JEPA) world model in pure PyTorch. An encoder and EMA target learn collapse-resistant latents of a 2D room via VICReg, a",
   "tier": "B",
@@ -3366,6 +3348,24 @@
   "len": 62,
   "evidence": [],
   "head": " Vision-language-action-indoor-robot-with-semantic-navigation",
+  "tier": "S",
+  "why": "mentions paper but no usage instructions"
+ },
+ {
+  "title": "Humanoid-RL",
+  "arxiv": null,
+  "repo": "Aayush-Bindal/Humanoid-RL",
+  "id_in_readme": false,
+  "title_in_readme": false,
+  "name_in_readme": true,
+  "official_claim": false,
+  "unofficial_claim": false,
+  "coming_soon": false,
+  "usage": true,
+  "weights": true,
+  "len": 3154,
+  "evidence": [],
+  "head": " Webcam-guided humanoid navigation See Humanoid gait experiment(EXPERIMENT.md) to try the optional walking checkpoint and review the comparison. Run from this project folder. On a fresh Windows machine, use Python 3.12 a",
   "tier": "S",
   "why": "mentions paper but no usage instructions"
  }

@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-25 14:04Z",
+ "generated": "2026-11-25 14:33Z",
  "papers": [
   {
    "id": "2611.33144",
@@ -75,7 +75,7 @@
    "cat": "cs.CV",
    "comment": "Code: https://github.com/iPPLab/robodojo-mirror",
    "hf": {
-    "up": 26,
+    "up": 27,
     "repo": "https://github.com/iPPLab/robodojo-mirror",
     "stars": 0,
     "proj": "https://ipplab.github.io/robodojo-mirror"

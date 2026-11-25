@@ -458,5 +458,10 @@
   "title": "Vision-language-action-indoor-robot-with-semantic-navigation",
   "arxiv": null,
   "repo": "tanvirajeshgurav-arch/Vision-language-action-indoor-robot-with-semantic-navigation"
+ },
+ {
+  "title": "Humanoid-RL",
+  "arxiv": null,
+  "repo": "Aayush-Bindal/Humanoid-RL"
  }
 ]
