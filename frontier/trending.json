@@ -17,7 +17,7 @@
  },
  {
   "repo": "enactic/openarm",
-  "stars": 3720,
+  "stars": 3721,
   "pushed": "2026-11-23",
   "created": "2024-09-29",
   "desc": "A fully open-source humanoid arm for physical AI research and deployment in contact-rich environments.",
@@ -41,7 +41,7 @@
  },
  {
   "repo": "HybridRobotics/supermimic",
-  "stars": 2026,
+  "stars": 2027,
   "pushed": "2026-11-21",
   "created": "2026-11-10",
   "desc": "Humanoid whole-body motion tracking with one differentiable world model.",
@@ -57,7 +57,7 @@
  },
  {
   "repo": "RainBowLuoCS/Gamer",
-  "stars": 1498,
+  "stars": 1501,
   "pushed": "2026-11-16",
   "created": "2026-10-30",
   "desc": "Official Implementation of Gamer: A Generalist Vision-Language-Action Foundation Model for Long-Horizon Real-T",
@@ -65,7 +65,7 @@
  },
  {
   "repo": "DravenALG/awesome-vla-wam",
-  "stars": 1068,
+  "stars": 1069,
   "pushed": "2026-11-11",
   "created": "2026-02-06",
   "desc": "A Curated List of Vision-Language-Action (VLA) and World Action Models (WAM) Research and Beyond",
@@ -73,7 +73,7 @@
  },
  {
   "repo": "Robbyant/lingbot-touch",
-  "stars": 827,
+  "stars": 828,
   "pushed": "2026-11-11",
   "created": "2026-11-09",
   "desc": "Learning Heterogeneous Tactile Representation for General Dexterous Manipulation",

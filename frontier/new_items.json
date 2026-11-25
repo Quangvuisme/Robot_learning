@@ -1,6 +1,93 @@
 {
  "papers": [
   {
+   "id": "2611.31863",
+   "title": "Ada-BFM: Adapting Behavior Foundation Models for Humanoid Scene Interaction",
+   "date": "2026-11-24",
+   "authors": [
+    "Furui Xu",
+    "Weishuai Zeng",
+    "Zirui Wang",
+    "Kangning Yin"
+   ],
+   "abstract": "Behavior Foundation Models (BFMs) have emerged as a promising paradigm for general-purpose humanoid control through pretraining on large-scale behavioral data. However, their proficiency in whole-body coordination does not readily extend to scene interaction, which requires adapting motion to scene-",
+   "cat": "cs.RO",
+   "comment": "",
+   "code_in_text": []
+  },
+  {
+   "id": "2611.31822",
+   "title": "G0.7: Scaling Up a Fast World Action Model with Long Context",
+   "date": "2026-11-24",
+   "authors": [
+    "Tianyuan Yuan",
+    "Baijun Ye",
+    "Shicheng Cao",
+    "Xing Nie"
+   ],
+   "abstract": "World action models (WAMs) adapt pretrained video generators for robot control by jointly predicting future camera frames and actions, transferring physical priors learned from video into manipulation policies. However, generating future frames before every action makes test-time inference too slow ",
+   "cat": "cs.CV",
+   "comment": "",
+   "code_in_text": []
+  },
+  {
+   "id": "2611.31782",
+   "title": "Many Senses, One World: Learning Hierarchical Multimodal World Representations for Bimanual Dexterous Manipulation",
+   "date": "2026-11-24",
+   "authors": [
+    "Jin Yang",
+    "Youlin Wang",
+    "Ping Wei"
+   ],
+   "abstract": "Bimanual dexterous manipulation relies on multimodal inputs that capture visual context and non-visual physical interaction cues for precise and coordinated control. To address the challenge of effectively integrating these modalities for policy learning, we propose HiMoDex, a two-stage framework ce",
+   "cat": "cs.RO",
+   "comment": "",
+   "code_in_text": []
+  },
+  {
+   "id": "2611.31740",
+   "title": "LeanWAM: Learning Latent World Action Models from Frozen Video Models",
+   "date": "2026-11-24",
+   "authors": [
+    "Shaolong Li",
+    "Hongze Fu",
+    "Joyce Chai",
+    "Yinpei Dai"
+   ],
+   "abstract": "World action models (WAMs) typically adapt large pretrained video generators to jointly predict future observations and robot actions, incurring substantial training and deployment costs. However, it remains unclear which future representations a policy actually needs and how compactly they can be r",
+   "cat": "cs.CV",
+   "comment": "Project Page: https://shaolonl-16.github.io/leanwam/",
+   "code_in_text": []
+  },
+  {
+   "id": "2611.31715",
+   "title": "Sparks of Weight-Space Programming for Robot Foundation Models",
+   "date": "2026-11-24",
+   "authors": [
+    "Kyle Coelho",
+    "Eugen Solowjow"
+   ],
+   "abstract": "This paper demonstrates an approach for correcting failures of robot foundation models (RFMs) without additional data collection, demonstrations, or training. We apply weight-space programming (WSP), in which a language-model agent directly reads and writes a neural network's parameters, to a large,",
+   "cat": "cs.RO",
+   "comment": "",
+   "code_in_text": []
+  },
+  {
+   "id": "2611.31705",
+   "title": "FoveaWAM: Role-Aware 4D World-Action Modeling for Dynamic Manipulation",
+   "date": "2026-11-23",
+   "authors": [
+    "Jiaqi Yin",
+    "Baoyue Zhang",
+    "Jiyuan Zhang",
+    "Wenxuan Liu"
+   ],
+   "abstract": "To manipulate a moving object, a policy must predict the scene at the moment its action executes, yet every millisecond spent predicting pushes that moment further away. Scene-level forecasts are computationally expensive, whereas target-centric forecasts can omit nearby objects that affect contact.",
+   "cat": "cs.RO",
+   "comment": "19 pages, 9 figures. Supplementary material included",
+   "code_in_text": []
+  },
+  {
    "id": "2611.30963",
    "title": "Foresight Forcing: Learning Spatial Foresight for Robotic Manipulation",
    "date": "2026-11-23",
