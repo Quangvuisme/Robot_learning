@@ -1,82 +1,186 @@
 {
  "papers": [
   {
-   "id": "2611.31535",
-   "title": "Hi3R-VLA: Grounding Semantics and Actions in 3D",
-   "date": "2026-11-23",
+   "id": "2611.32381",
+   "title": "Does Research-Paper Context Improve LLM-Generated Quadruped Navigation? An Exploratory Simulation Study",
+   "date": "2026-11-24",
    "authors": [
-    "Shizhe Chen",
-    "Paul Pacaud",
-    "Cordelia Schmid"
+    "Barnabas Juhasz",
+    "Rolf Pfister"
    ],
-   "abstract": "While recent vision-language-action (VLA) models increasingly incorporate 3D geometry, how to effectively exploit it for precise and generalizable action prediction remains a central challenge. We introduce Hi3R-VLA, a 3D policy that grounds heterogeneous modalities - vision, language, and action - ",
+   "abstract": "Large language models can write competent robot navigation code, but not only does the research on the topic advance, a model may also, due to the volume of findings, fail to recall relevant findings and apply them to the task at hand. In this work, we test whether providing particular research pape",
+   "cat": "cs.RO",
+   "comment": "10 pages, 4 figures, 6 tables",
+   "code_in_text": []
+  },
+  {
+   "id": "2611.32304",
+   "title": "Sparse Poison, Strong Hijack: Efficient Trajectory-Level Backdoors in Vision-Language-Action Models with Only 1\\% Poisoning",
+   "date": "2026-11-24",
+   "authors": [
+    "Simin Huang",
+    "Jiawei Chen",
+    "Shaolong Zhu",
+    "Qiwei Liang"
+   ],
+   "abstract": "Vision-Language-Action (VLA) models advance robotic manipulation, but their reliance on demonstrations exposes them to backdoor threats. Among these threats, trajectory-level targeted backdoors are particularly challenging and may pose greater safety risks than behavior-disrupting attacks: rather th",
+   "cat": "cs.AI",
+   "comment": "15 pages, 7 figures, including supplementary material. Simin Huang and Jiawei Chen contributed equally. Code: https://github.com/vla-attack/Sparse_Poison_Strong_Hijack",
+   "code_in_text": [
+    "https://github.com/vla-attack/Sparse_Poison_Strong_Hijack"
+   ]
+  },
+  {
+   "id": "2611.32260",
+   "title": "EgoLoAF: Learning Humanoid Loco-Manipulation from Egocentric Demonstrations with Hand-Object Affordances",
+   "date": "2026-11-24",
+   "authors": [
+    "Yiming Zeng",
+    "Jiangyuxuan Dai",
+    "Yuheng Na",
+    "Tan Zhu Xuan"
+   ],
+   "abstract": "Training humanoid vision-language-action (VLA) models relies heavily on costly real-robot teleoperation. Recent efforts convert egocentric human demonstrations into humanoid training data. However, most methods still require wearable motion trackers and leave important hand-object interaction cues i",
    "cat": "cs.RO",
    "comment": "",
    "code_in_text": []
   },
   {
-   "id": "2611.31511",
-   "title": "Near-Zero Forgetting Is Not Enough: Out-of-Distribution Robustness in Continual Learning of Pretrained VLAs",
-   "date": "2026-11-23",
+   "id": "2611.32245",
+   "title": "VLAs Execute, Code Recovers: 3D Skill Envelopes Bridge the Compositional Gap in Agentic Manipulation",
+   "date": "2026-11-24",
    "authors": [
-    "Adri\u00e0 Ruiz",
-    "Bart\u0142omiej Twardowski",
-    "Tinne Tuytelaars",
-    "Sergi Masip"
+    "Jiajie Zhang",
+    "Yankai Xiang",
+    "Changhao Chen"
    ],
-   "abstract": "Recent work shows that pretrained Vision-Language-Action (VLA) models exhibit near-zero forgetting in specific continual learning settings with experience replay. However, robustness to domain shift of learned tasks remains unexplored. In this work, we study the robustness of Pi0 fine-tuned with exp",
-   "cat": "cs.LG",
-   "comment": "Presented at the CoRL 2026 Workshop on Robot Learning at Deployment (Learn@Deploy). Project page: https://adrrp.github.io/vla-ood-robustness",
-   "code_in_text": []
-  },
-  {
-   "id": "2611.31488",
-   "title": "Embodied Neuro-symbolic AI: Making Robot Behavior Auditable, Safe, and Scalable",
-   "date": "2026-11-23",
-   "authors": [
-    "Ruwan Wickramarachchi",
-    "Jonathan Francis",
-    "Alessandro Oltramari"
-   ],
-   "abstract": "Current Vision-Language-Action (VLA) end-to-end systems have driven major progress in robot learning, yet they still face persistent barriers to dependable real-world deployment. In practice, these models often exhibit brittle generalization under distribution shift (i.e., novel objects, layouts, li",
+   "abstract": "Composing frozen Vision-Language-Action (VLA) skills under an agentic planner promises scalable long-horizon manipulation without long-horizon demonstrations, yet strong atomic skills routinely fail at seams even under a correct plan. Standard remedies reset the robot's pose or draft entry condition",
    "cat": "cs.RO",
-   "comment": "6 pages, 2 figures",
+   "comment": "",
    "code_in_text": []
   },
   {
-   "id": "2611.31452",
-   "title": "Ground, Guide, Act: Improving VLA Spatial Generalization with Multimodal Foundation Models",
-   "date": "2026-11-23",
+   "id": "2611.32241",
+   "title": "Motion Chain of Thought: Disentangling Motion Semantics from Visual Appearance for Robotic Manipulation",
+   "date": "2026-11-24",
    "authors": [
-    "Guangting Zheng",
-    "Shaoxuan Wang",
-    "Yu Yuan",
-    "Zhipeng Tang"
+    "Xiangkai Ma",
+    "Xinyi Wang",
+    "Junjie Wang",
+    "Sheng Xu"
    ],
-   "abstract": "Vision-Language-Action (VLA) models effectively learn action policies from robot demonstrations, but struggle to generalize to changes in object positions and task goals. General multimodal foundation models (MFMs) offer complementary scene understanding and spatial reasoning, but remain slow and un",
+   "abstract": "World Action Models (WAMs) aim to construct a unified architecture capable of understanding world state evolution and guiding action generation. However, existing visual branches focus on predicting static visual observation, rather than reflecting potential transition information that captures the ",
+   "cat": "cs.RO",
+   "comment": "",
+   "code_in_text": []
+  },
+  {
+   "id": "2611.32206",
+   "title": "Seeing Is Not Reaching: Instruction Shortcuts Override Visual Grounding in Vision-Language-Action Models",
+   "date": "2026-11-24",
+   "authors": [
+    "Qing Zhang",
+    "Xuesong Li",
+    "Zhaoyuan Yang",
+    "Changlin Song"
+   ],
+   "abstract": "Vision-language-action models (VLAs) are expected to inherit visual grounding from vision-language models, yet often reach for an object's training location after it has been moved. Across six VLAs, we identify two shortcuts: a scene shortcut, where the arm follows the scene's original task despite ",
    "cat": "cs.CV",
+   "comment": "31 pages, including supplementary material. Code: https://github.com/QZhang2111/psg",
+   "code_in_text": [
+    "https://github.com/QZhang2111/psg"
+   ]
+  },
+  {
+   "id": "2611.32101",
+   "title": "Ego2Real: Learning Bimanual Dexterous Manipulation from Egocentric Visuo-Tactile Demonstrations",
+   "date": "2026-11-24",
+   "authors": [
+    "Ange Bao",
+    "Haishan Zhang",
+    "Lingzi Xie",
+    "Shuang Li"
+   ],
+   "abstract": "Learning dexterous manipulation from egocentric human demonstrations offers a scalable path toward robot skill acquisition. Vision alone, however, provides limited information about physical contacts and the demonstrator's force intent, leading to ambiguities in interpreting hand-object interactions",
+   "cat": "cs.RO",
+   "comment": "19 pages, 9 figures",
+   "code_in_text": []
+  },
+  {
+   "id": "2611.32098",
+   "title": "ActiveBridge: Scaling Active Prior for Robots through Egocentric Perception-Interaction Modeling",
+   "date": "2026-11-24",
+   "authors": [
+    "Zixiao Gu",
+    "Qiren Qin",
+    "Yu He",
+    "Zhengyang Liu"
+   ],
+   "abstract": "Robotics foundation models are now widely used for manipulation, and egocentric videos offer rich data for scaling. However, existing methods overlook the human active priors captured in egocentric videos, which limits performance in unstructured scenes. They act on given observations instead of act",
+   "cat": "cs.RO",
    "comment": "",
+   "code_in_text": []
+  },
+  {
+   "id": "2611.32081",
+   "title": "KeyMemVLA: Subtask-Guided Key Memory for Long-Horizon Robotic Manipulation",
+   "date": "2026-11-24",
+   "authors": [
+    "Yongwei Zhang",
+    "Tao Chen",
+    "Sicheng Ma",
+    "Yuanzhe Xing"
+   ],
+   "abstract": "Memory-dependent long-horizon manipulation requires vision-language-action (VLA) policies to infer task progress and recall evidence absent from current observations. Under a limited memory budget, the challenge is to retain history that resolves stage ambiguity and supports subsequent decisions. We",
+   "cat": "cs.RO",
+   "comment": "",
+   "code_in_text": []
+  },
+  {
+   "id": "2611.32053",
+   "title": "EffectWAM: Learning Action-Grounded Effects for Robot Manipulation",
+   "date": "2026-11-24",
+   "authors": [
+    "Yuan Zhang",
+    "Hao Cui",
+    "Jingfei Ni",
+    "Meiyi Wang"
+   ],
+   "abstract": "World-action models connect visual prediction with executable robot control. We present EffectWAM, which develops this connection through three complementary components: Effect, camera positional encoding (CaPE), and Action Grounding. Effect represents visual change as the difference between indepen",
+   "cat": "cs.AI",
+   "comment": "",
+   "code_in_text": []
+  },
+  {
+   "id": "2611.32016",
+   "title": "RoboHarness-RL: Agentic Reinforcement Learning for VLM-Based Robot Manipulation",
+   "date": "2026-11-24",
+   "authors": [
+    "Liyang Li",
+    "Mingyu Liu",
+    "Xiaoman Li",
+    "Zhiyue Zhao"
+   ],
+   "abstract": "Agentic harnesses enable frontier vision-language models (VLMs) to manipulate robots through perception, planning, and control tools, yet achieving comparable performance with compact open-weight VLMs remains challenging. We present RoboHarness-RL, an agentic reinforcement learning framework for imp",
+   "cat": "cs.RO",
+   "comment": "",
+   "code_in_text": []
+  },
+  {
+   "id": "2611.31954",
+   "title": "Perception Is Enough, at the Right Scale: Scale-Adaptive Token Pruning for Vision-Language-Action Models",
+   "date": "2026-11-24",
+   "authors": [
+    "Yifeng Lin",
+    "Liuxiang Qiu",
+    "Yunfeng Chen",
+    "Tiesong Zhao"
+   ],
+   "abstract": "Vision-language-action (VLA) models must process continuous streams of visual observations, and the resulting computational cost limits real-time robotic control. Token pruning reduces this cost, but a fixed semantic scale of perceptual representation can overlook information needed at different sta",
+   "cat": "cs.AI",
+   "comment": "10 pages, 6 figures, 5 tables. Project page: https://lin0e0.github.io/TauPrune-VLA/",
    "code_in_text": []
   }
  ],
- "repos": [
-  {
-   "title": "ActMem: From Latent Memory Reasoning to Grounded Robotic Action",
-   "arxiv": "2611.25461",
-   "repo": "LigphiDonk/ActMem",
-   "id_in_readme": true,
-   "title_in_readme": true,
-   "name_in_readme": true,
-   "official_claim": false,
-   "unofficial_claim": false,
-   "coming_soon": false,
-   "usage": true,
-   "weights": true,
-   "len": 3350,
-   "evidence": [],
-   "head": " ActMem Inference code for ActMem, an in-context memory framework for VLA policies: a pretrained vision-language backbone (Qwen3-VL) reasons over the timestamped interaction history, its hidden states over the inferred s",
-   "tier": "B",
-   "why": "paper cited + runnable usage, no explicit 'official' claim"
-  }
- ]
+ "repos": []
 }

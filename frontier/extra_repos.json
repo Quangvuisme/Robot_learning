@@ -378,5 +378,10 @@
   "title": "Bidirectional Action-Latent Interaction with Multi-Source Video World Model Evidence for End-to-End Autonomous Driving",
   "arxiv": null,
   "repo": "MaochengBai/BALI-Drive"
+ },
+ {
+  "title": "FineDex: Bridging Fine-Grained Human\u2013Object Interaction Generation to Dexterous Humanoid Manipulation",
+  "arxiv": null,
+  "repo": "zyjOrz/FineDex"
  }
 ]
