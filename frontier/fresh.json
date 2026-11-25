@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-25 10:34Z",
+ "generated": "2026-11-25 11:03Z",
  "papers": [
   {
    "id": "2611.33144",
@@ -75,7 +75,7 @@
    "cat": "cs.CV",
    "comment": "Code: https://github.com/iPPLab/robodojo-mirror",
    "hf": {
-    "up": 25,
+    "up": 26,
     "repo": "https://github.com/iPPLab/robodojo-mirror",
     "stars": 0,
     "proj": "https://ipplab.github.io/robodojo-mirror"
@@ -881,6 +881,12 @@
    "abstract": "Model alignment is the primary safety and security mechanism for enforcing refusal of malicious prompts in modern foundation models; yet, existing adversarial evaluations implicitly assume underlying hardware integrity. In this paper, we present FATCAT, the first physical fault-injection attacks cap",
    "cat": "cs.CR",
    "comment": "",
+   "hf": {
+    "up": 0,
+    "repo": null,
+    "stars": null,
+    "proj": null
+   },
    "code_in_text": []
   },
   {
@@ -944,7 +950,7 @@
    "cat": "cs.RO",
    "comment": "",
    "hf": {
-    "up": 139,
+    "up": 140,
     "repo": "https://github.com/xyangzhou/WorldLeague",
     "stars": 18,
     "proj": "https://xyangzhou.github.io/WorldLeague/"
@@ -1000,7 +1006,7 @@
    "cat": "cs.CV",
    "comment": "19 pages, 7 figures, 6 tables. Project page: https://pawteam-eai.github.io/native-lam/",
    "hf": {
-    "up": 27,
+    "up": 28,
     "repo": null,
     "stars": null,
     "proj": "https://pawteam-eai.github.io/native-lam/"
@@ -1579,7 +1585,7 @@
    "cat": "cs.RO",
    "comment": "Code: https://github.com/AIGeeksGroup/MotionMamba2.0. Website: https://aigeeksgroup.github.io/MotionMamba2.0",
    "hf": {
-    "up": 190,
+    "up": 191,
     "repo": "https://github.com/AIGeeksGroup/MotionMamba2.0",
     "stars": 29,
     "proj": "https://aigeeksgroup.github.io/MotionMamba2.0/"
