@@ -3217,5 +3217,30 @@
   "head": " Dobot Nova 2 \u2014 VLA pick and place Tell the robot what to move, not how: pick the object 'gear_housing' place the 'bin_A' gear_housing is a folder of reference photos of the product (objects/gear_housing/). bin_A is an e",
   "tier": "S",
   "why": "mentions paper but no usage instructions"
+ },
+ {
+  "title": "WARP-VLA: Wrist-Camera Adaptation for View-Robust Policy Execution in Vision-Language-Action Models",
+  "arxiv": null,
+  "repo": "june65/WARP-VLA",
+  "id_in_readme": false,
+  "title_in_readme": true,
+  "name_in_readme": true,
+  "official_claim": false,
+  "unofficial_claim": false,
+  "coming_soon": false,
+  "usage": false,
+  "weights": false,
+  "len": 303,
+  "evidence": [],
+  "head": " WARP-VLA Project page for WARP-VLA: Wrist-Camera Adaptation for View-Robust Policy Execution in Vision-Language-Action Models (ICRA 2027). - Project page: https://june65.github.io/WARP-VLA/ - arXiv: https://arxiv.org/ab",
+  "tier": "S",
+  "why": "mentions paper but no usage instructions"
+ },
+ {
+  "title": "holosoma_beyondmimic_supermimic",
+  "arxiv": null,
+  "repo": "pjm-jpg/humanoid_whole_body_control",
+  "tier": "X",
+  "why": "no README or private"
  }
 ]

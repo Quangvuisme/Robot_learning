@@ -413,5 +413,15 @@
   "title": "Vision-Language-Action (VLA) pipeline for autonomous control and manipulation of the Dobot Nova 2 robotic arm",
   "arxiv": null,
   "repo": "raghulrajg/dobot-nova2-vla-control"
+ },
+ {
+  "title": "WARP-VLA: Wrist-Camera Adaptation for View-Robust Policy Execution in Vision-Language-Action Models",
+  "arxiv": null,
+  "repo": "june65/WARP-VLA"
+ },
+ {
+  "title": "holosoma_beyondmimic_supermimic",
+  "arxiv": null,
+  "repo": "pjm-jpg/humanoid_whole_body_control"
  }
 ]
