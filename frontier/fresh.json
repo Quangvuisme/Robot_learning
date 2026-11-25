@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-25 03:04Z",
+ "generated": "2026-11-25 03:34Z",
  "papers": [
   {
    "id": "2611.32381",
@@ -210,6 +210,36 @@
    "abstract": "Vision-language-action (VLA) models must process continuous streams of visual observations, and the resulting computational cost limits real-time robotic control. Token pruning reduces this cost, but a fixed semantic scale of perceptual representation can overlook information needed at different sta",
    "cat": "cs.AI",
    "comment": "10 pages, 6 figures, 5 tables. Project page: https://lin0e0.github.io/TauPrune-VLA/",
+   "code_in_text": []
+  },
+  {
+   "id": "2611.31903",
+   "title": "Beyond Expert Replay: Cross-Instruction Anchoring for Continual Vision-Language-Action Learning",
+   "date": "2026-11-24",
+   "authors": [
+    "Ziyang Chen",
+    "Dehua Chen",
+    "Shaoguang Wang",
+    "Xu Yan"
+   ],
+   "abstract": "Vision-language-action (VLA) models need to continually acquire new manipulation skills while retaining the ability to follow previously learned instructions. Experience replay (ER) can mitigate catastrophic forgetting, but retaining only a small number of historical expert frames per task leaves ma",
+   "cat": "cs.CV",
+   "comment": "19 pages, 12 figures, 10 tables, including supplementary material",
+   "code_in_text": []
+  },
+  {
+   "id": "2611.31901",
+   "title": "PreWAM: Exploring the Design of Latent Future Prediction for World-Action Modeling",
+   "date": "2026-11-24",
+   "authors": [
+    "Wan Chi",
+    "Sen Li",
+    "Zihang Cui",
+    "Chuqin Huang"
+   ],
+   "abstract": "World-action models combine action generation with future prediction, allowing visual transitions to serve as supervision for policy learning. Our controlled study of prediction spaces shows that spatially structured semantic features support better overall generalization under visual perturbations ",
+   "cat": "cs.RO",
+   "comment": "",
    "code_in_text": []
   },
   {
@@ -535,7 +565,7 @@
    "cat": "cs.RO",
    "comment": "",
    "hf": {
-    "up": 104,
+    "up": 111,
     "repo": "https://github.com/xyangzhou/WorldLeague",
     "stars": 18,
     "proj": "https://xyangzhou.github.io/WorldLeague/"
@@ -905,7 +935,7 @@
    "cat": "cs.RO",
    "comment": "87 pages, 25 figures, Project Page: https://baai-eai.github.io/innata-0/",
    "hf": {
-    "up": 9,
+    "up": 10,
     "repo": null,
     "stars": null,
     "proj": "https://baai-eai.github.io/innata-0/"
@@ -1164,7 +1194,7 @@
    "cat": "cs.RO",
    "comment": "Code: https://github.com/AIGeeksGroup/MotionMamba2.0. Website: https://aigeeksgroup.github.io/MotionMamba2.0",
    "hf": {
-    "up": 178,
+    "up": 179,
     "repo": "https://github.com/AIGeeksGroup/MotionMamba2.0",
     "stars": 23,
     "proj": "https://aigeeksgroup.github.io/MotionMamba2.0/"
@@ -1783,36 +1813,6 @@
    ],
    "abstract": "Training a humanoid motion tracker by backpropagating imagined returns through a learned world model is fast, because the model gives a first-order policy gradient. We ask how much of that gradient holds in the simulator. On a tracker for the Unitree G1, the $0.5\\%$ of imagined rollouts with the lar",
    "cat": "cs.RO",
-   "comment": "",
-   "code_in_text": []
-  },
-  {
-   "id": "2611.27645",
-   "title": "Efficient VLA Reinforcement Learning via Subchunk Rollouts in Latent World Models",
-   "date": "2026-11-20",
-   "authors": [
-    "Nan Tang",
-    "Han-Tao Zhang",
-    "Jing-Cheng Pang",
-    "Hao-Nan Wang"
-   ],
-   "abstract": "Model-based reinforcement learning (MBRL) can improve pretrained vision-language-action (VLA) policies through imagined experiences. However, existing VLA-MBRL methods primarily rely on large-scale image or video generation world models, incurring large computational overhead. Latent world models of",
-   "cat": "cs.LG",
-   "comment": "",
-   "code_in_text": []
-  },
-  {
-   "id": "2611.27630",
-   "title": "Segment Everything, Materialize Nothing: Exact Streaming Inference for Many-Class 3D Segmentation",
-   "date": "2026-11-20",
-   "authors": [
-    "Fabian Isensee",
-    "Jakob Wasserthal",
-    "Lalith Kumar Shiyam Sundar",
-    "Maximilian Rokuss"
-   ],
-   "abstract": "Whole-body segmentation tools such as TotalSegmentator and MOOSE split more than 100 classes across five or six networks. The reason is memory. Standard 3D inference, as implemented in nnU-Net and MONAI, holds a logit for every class and voxel, on the working grid and again on the scanner's grid. Fo",
-   "cat": "cs.CV",
    "comment": "",
    "code_in_text": []
   }
