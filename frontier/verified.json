@@ -1999,8 +1999,19 @@
   "title": "LocoMuJoCo: A Comprehensive Imitation Learning Benchmark for Whole-Body Control",
   "arxiv": "2611.26293",
   "repo": "robfiras/loco-mujoco",
-  "tier": "X",
-  "why": "no README or private"
+  "id_in_readme": true,
+  "title_in_readme": true,
+  "name_in_readme": true,
+  "official_claim": false,
+  "unofficial_claim": false,
+  "coming_soon": false,
+  "usage": true,
+  "weights": false,
+  "len": 7461,
+  "evidence": [],
+  "head": " continuous integration Documentation Status PyPI Python License: MIT \ud83d\ude80 Latest News: A new release (v1.2) just dropped \ud83c\udf89 New: LocoMuJoCo now includes SuperMimic and supports real-robot deployment on the AgiBot X2 Ultra a",
+  "tier": "B",
+  "why": "paper cited + runnable usage, no explicit 'official' claim"
  },
  {
   "title": "Teaching Vision-Language-Action Models to Stop Safely",
@@ -2669,7 +2680,7 @@
   "weights": false,
   "len": 1636,
   "evidence": [
-   "soon: ...] **8.** init_encoder_params - [x] **9.** encoder_forward - [ ] **10.** init_target_encoder - [ ] **11.** ema_update - [ ] **12.** encode_batch - [ ] ..."
+   "soon: ....** train_linear_probe - [ ] **29.** probe_state_recovery - [ ] **30.** encode_goal - [ ] **31.** latent_cost - [ ] **32.** sample_action_..."
   ],
   "head": " JEPA World Model from Scratch Build an action-conditioned Joint Embedding Predictive Architecture (JEPA) world model in pure PyTorch. An encoder and EMA target learn collapse-resistant latents of a 2D room via VICReg, a",
   "tier": "B",
@@ -3409,6 +3420,24 @@
   "len": 329,
   "evidence": [],
   "head": " Built with AI Studio The fastest path from prompt to production with Gemini. Start building ",
+  "tier": "X",
+  "why": "README does not mention the paper"
+ },
+ {
+  "title": "Q8 R5 four-wheel-legged robot: editable SolidWorks CAD, printable parts, MuJoCo simulation and locomotion training.",
+  "arxiv": null,
+  "repo": "LRaina215/q8-wheel-leg-robot",
+  "id_in_readme": false,
+  "title_in_readme": false,
+  "name_in_readme": false,
+  "official_claim": false,
+  "unofficial_claim": false,
+  "coming_soon": false,
+  "usage": true,
+  "weights": false,
+  "len": 1985,
+  "evidence": [],
+  "head": " Q8 R5 \u56db\u8f6e\u8db3\u673a\u5668\u4eba \u672c\u4ed3\u5e93\u4fdd\u5b58 8 \u6267\u884c\u5668\u8f6e\u8db3\u8f66\u7684\u53ef\u7f16\u8f91 SolidWorks \u603b\u88c5\u3001A1 \u6253\u5370\u4ef6\u3001\u6574\u8f66\u8f7d\u8377\u548c\u7ebf\u675f\u8bbe\u8ba1\uff0c\u4ee5\u53ca\u7528\u4e8e\u53f0\u9636\u3001\u8df3\u8dc3\u3001\u884c\u9a76\u548c\u6062\u590d\u52a8\u4f5c\u7684 MuJoCo \u6a21\u578b\u3001\u8bad\u7ec3\u4ee3\u7801\u3001\u6743\u91cd\u548c\u9a8c\u6536\u8bb0\u5f55\u3002 \u6253\u5f00\u6574\u8f66 \u5c06\u4ed3\u5e93\u514b\u9686\u5230\u672c\u5730\uff0c\u4fdd\u7559\u76ee\u5f55\u7ed3\u6784\u3002\u5728 SolidWorks \u4e2d\u6253\u5f00 \u4ea4\u4ed8\u603b\u88c5(\u4ea4\u4ed8/SolidWorks/Q8R5_Q8_R5_\u6574\u8f66.SLDASM)\uff0c\u9009\u62e9 Motion \u914d\u7f6e\u5ba1\u9605\u88c5\u914d\u4e0e\u8fd0\u52a8\u3002\u56fa\u5b9a\u65b9\u5f0f\u3001\u59ff\u6001\u914d\u7f6e\u548c\u53ef\u9009\u4ef6\u89c1",
   "tier": "X",
   "why": "README does not mention the paper"
  }

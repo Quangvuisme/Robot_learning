@@ -1,4 +1,4 @@
-Counter({'L': 81, 'S': 37, 'B': 33, 'X': 32, 'R': 4, 'A': 2})
+Counter({'L': 81, 'S': 37, 'B': 34, 'X': 32, 'R': 4, 'A': 2})
 A shangchaohu718/PERA | PERA: Plug-in Experts for Robotic Actions in  | paper cited + official claim + runnable usage | weights
 B Axellwppr/HITCH | HITCH: Teaching a Vision-Language Model to Op | paper cited + runnable usage, no explicit 'official' claim | weights
 B yaozhang182/inhabitant | Inhabitant: An Agent Framework for Long-Horiz | paper cited + runnable usage, no explicit 'official' claim | weights
@@ -13,6 +13,7 @@ B NVlabs/GR00T-WholeBodyControl | GR00T whole-body control | paper cited + runna
 R nico-bohlinger/xmimic | XMimic and XSoma: Learning Humanoid Motion Tr | reproduction/unofficial | weights
 B Jordanlllll/FORTH | FORTH: Grounding Tactile VLA Execution via Fo | paper cited + runnable usage, no explicit 'official' claim 
 B Mind2Act/Mind2Act_World | Mind2Act World: A Diagnostic Benchmark for Em | paper cited + runnable usage, no explicit 'official' claim | weights
+B robfiras/loco-mujoco | LocoMuJoCo: A Comprehensive Imitation Learnin | paper cited + runnable usage, no explicit 'official' claim 
 B franciscoliu/SAFI | Teaching Vision-Language-Action Models to Sto | paper cited + runnable usage, no explicit 'official' claim | weights
 B dipper13579/urbantwin-sim2real-lidar | Fixing the Twin, Not the Detector: Sim-to-Rea | paper cited + runnable usage, no explicit 'official' claim | weights
 B LigphiDonk/ActMem | ActMem: From Latent Memory Reasoning to Groun | paper cited + runnable usage, no explicit 'official' claim | weights

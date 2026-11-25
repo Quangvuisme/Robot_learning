@@ -473,5 +473,10 @@
   "title": "An AI system that acts as a real-time, mathematically verifiable firewall between autonomous AI agents and critical real-world systems.",
   "arxiv": null,
   "repo": "GAJENDRA-SRINIVASAPPA/AI-Deterministic-Action-Verification-Model"
+ },
+ {
+  "title": "Q8 R5 four-wheel-legged robot: editable SolidWorks CAD, printable parts, MuJoCo simulation and locomotion training.",
+  "arxiv": null,
+  "repo": "LRaina215/q8-wheel-leg-robot"
  }
 ]
