@@ -3399,9 +3399,9 @@
   "coming_soon": false,
   "usage": true,
   "weights": true,
-  "len": 3154,
+  "len": 4381,
   "evidence": [],
-  "head": " Webcam-guided humanoid navigation See Humanoid gait experiment(EXPERIMENT.md) to try the optional walking checkpoint and review the comparison. Run from this project folder. On a fresh Windows machine, use Python 3.12 a",
+  "head": " Tabletop Walker Click a spot on a tabletop and watch a simulated humanoid walk there. Tabletop Walker uses a webcam to locate the walking surface, estimate obstacle positions, and display the MuJoCo humanoid over the vi",
   "tier": "S",
   "why": "mentions paper but no usage instructions"
  },

@@ -41,7 +41,7 @@
  },
  {
   "repo": "HybridRobotics/supermimic",
-  "stars": 2047,
+  "stars": 2048,
   "pushed": "2026-11-21",
   "created": "2026-11-10",
   "desc": "Humanoid whole-body motion tracking with one differentiable world model.",
@@ -81,7 +81,7 @@
  },
  {
   "repo": "sou350121/VLA-Handbook",
-  "stars": 795,
+  "stars": 796,
   "pushed": "2026-11-25",
   "created": "2025-11-23",
   "desc": "本项目旨在为致力于进入VLA(Vision-Language-Action)领域的算法工程师提供一份全中文、实战导向的学习/面试手册。  不同于通用的 CV/NLP 面试指南，本项目聚焦于 Robotics 特有的挑战",
@@ -121,7 +121,7 @@
  },
  {
   "repo": "black-forest-labs/flux-action",
-  "stars": 229,
+  "stars": 230,
   "pushed": "2026-11-10",
   "created": "2026-09-23",
   "desc": "FLUX 3 Action: open weights 7B world action model from Black Forest Labs. Train, fine-tune and run action pred",
