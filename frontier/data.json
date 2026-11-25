@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-25 19:34Z",
+ "generated": "2026-11-25 20:04Z",
  "items": [
   {
    "section": "Loco-Manipulation and Whole-Body-Control",
@@ -31,13 +31,13 @@
    "gh": {
     "official": false,
     "stars": 0,
-    "forks": 0,
+    "forks": 1,
     "issues": 0,
-    "pushed": "2026-11-20",
-    "created": "2026-11-20",
+    "pushed": "2026-11-23",
+    "created": "2026-11-18",
     "spd": 0.0,
     "license": null,
-    "full": "EgoLoAF/EgoLoAF-Official"
+    "full": "YuhengNa/EgoLoAF"
    }
   },
   {
