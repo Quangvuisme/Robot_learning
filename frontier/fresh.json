@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-25 13:33Z",
+ "generated": "2026-11-25 14:04Z",
  "papers": [
   {
    "id": "2611.33144",
@@ -950,7 +950,7 @@
    "cat": "cs.RO",
    "comment": "",
    "hf": {
-    "up": 141,
+    "up": 135,
     "repo": "https://github.com/xyangzhou/WorldLeague",
     "stars": 18,
     "proj": "https://xyangzhou.github.io/WorldLeague/"
