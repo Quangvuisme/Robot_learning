@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-25 09:33Z",
+ "generated": "2026-11-25 10:03Z",
  "papers": [
   {
    "id": "2611.33144",
@@ -75,7 +75,7 @@
    "cat": "cs.CV",
    "comment": "Code: https://github.com/iPPLab/robodojo-mirror",
    "hf": {
-    "up": 23,
+    "up": 24,
     "repo": "https://github.com/iPPLab/robodojo-mirror",
     "stars": 0,
     "proj": "https://ipplab.github.io/robodojo-mirror"
@@ -1320,7 +1320,7 @@
    "cat": "cs.RO",
    "comment": "87 pages, 25 figures, Project Page: https://baai-eai.github.io/innata-0/",
    "hf": {
-    "up": 40,
+    "up": 41,
     "repo": null,
     "stars": null,
     "proj": "https://baai-eai.github.io/innata-0/"

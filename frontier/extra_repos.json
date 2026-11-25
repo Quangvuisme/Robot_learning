@@ -438,5 +438,15 @@
   "title": "Website for SURENA humanoid robots family",
   "arxiv": null,
   "repo": "mohammadabedi1179/surena-humanoid"
+ },
+ {
+  "title": "humanoidsalliance",
+  "arxiv": null,
+  "repo": "CraigLMatthews/humanoidsalliance"
+ },
+ {
+  "title": "2PWBC (2 Policy Whole-Body Control) coordinates locomotion and manipulation for Go2 and L1-W robots equipped with Airbot arms. ",
+  "arxiv": null,
+  "repo": "lksk-bit/legged-manipulation_unilab-2PWBC"
  }
 ]
