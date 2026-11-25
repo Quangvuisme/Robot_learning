@@ -433,5 +433,10 @@
   "title": "A curated list of hardware\u2013software co-design in embodied robotics, from bimanual manipulation to legged locomotion.",
   "arxiv": null,
   "repo": "VisionAscend/awesome-embodied-codesign"
+ },
+ {
+  "title": "Website for SURENA humanoid robots family",
+  "arxiv": null,
+  "repo": "mohammadabedi1179/surena-humanoid"
  }
 ]
