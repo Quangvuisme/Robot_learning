@@ -3295,9 +3295,9 @@
   "coming_soon": false,
   "usage": false,
   "weights": false,
-  "len": 11154,
+  "len": 19756,
   "evidence": [],
-  "head": " Awesome Embodied Co-Design \u5177\u8eab\u667a\u80fd\u4e2d\u7684\u8f6f\u786c\u4ef6\u534f\u540c\u8bbe\u8ba1\uff1a\u5c11\u800c\u7cbe\u7684\u8bba\u6587\u6e05\u5355\u3002 \u53ea\u6536\u4e00\u7c7b\u5de5\u4f5c\u2014\u2014\u628a\u673a\u5668\u4eba\u7684\u8eab\u4f53\u3001\u4f20\u611f\u5668\u3001\u793a\u6559\u88c5\u7f6e\u6216\u6267\u884c\u63a5\u53e3\u5f53\u6210\u548c\u7b56\u7565\u4e00\u8d77\u4f18\u5316\u3001\u4e00\u8d77\u9a8c\u8bc1\u7684\u53d8\u91cf\uff0c\u800c\u4e0d\u662f\u5148\u5b9a\u786c\u4ef6\u518d\u8c03\u7b97\u6cd5\u3002\u5960\u57fa\u6027\u7684\u7ecf\u5178\u4fdd\u7559\u51e0\u7bc7\uff0c\u4e3b\u4f53\u662f 2025\u20132026 \u5e74\u7684\u65b0\u5de5\u4f5c\u3002 \u8bfb\u6cd5\uff1a\u5148\u626b\u603b\u89c8\u8868\uff0c\u6311\u4e0e\u4f60\u5f53\u524d\u51b3\u7b56\u76f8\u5173\u7684\u4e00\u7ec4\u8bfb\u6b63\u6587\u3002\u6bcf\u6761\u56fa\u5b9a\u4e09\u6bb5\u2014\u2014\u534f\u540c\u4e86\u4ec0\u4e48 / \u8bc1\u636e / \u542f\u793a\u2014\u2014\u542f\u793a\u4e00\u53e5\u8bdd\u53ef\u76f4\u63a5\u62ff\u53bb\u8bc4\u5ba1\u6216\u9009\u578b\u3002 \u603b\u89c8 19 \u7bc7\uff0c\u5176\u4e2d",
+  "head": " Awesome Embodied Co-Design \u673a\u5668\u4eba\u8f6f\u786c\u4ef6\u534f\u540c\u8bbe\u8ba1\u8bba\u6587\u6e05\u5355\uff1a\u786c\u4ef6\u548c\u7b97\u6cd5\u4e00\u8d77\u6539\u3001\u4e00\u8d77\u6d4b\u7684\u7814\u7a76\u3002 \u505a\u673a\u5668\u4eba\u7684\u5e38\u89c4\u6d41\u7a0b\u662f\u5148\u628a\u786c\u4ef6\u9020\u597d\uff0c\u518d\u53bb\u8c03\u7b97\u6cd5\u3002\u8fd9\u91cc\u6536\u7684\u8bba\u6587\u6362\u4e86\u4e2a\u505a\u6cd5\uff1a\u628a\u786c\u4ef6\u548c\u7b97\u6cd5\u653e\u5728\u4e00\u8d77\u6539\uff0c\u770b\u4e24\u8fb9\u4e00\u8d77\u6539\u662f\u4e0d\u662f\u6bd4\u53ea\u6539\u4e00\u8fb9\u6548\u679c\u66f4\u597d\u3002\u4e3e\u4e2a\u4f8b\u5b50\uff0cDogger(dogger) \u4e00\u8fb9\u6362\u56db\u8db3\u673a\u5668\u4eba\u7684\u817f\u957f\u548c\u819d\u76d6\u5f39\u7c27\uff0c\u4e00\u8fb9\u8ba9\u540c\u4e00\u4e2a\u63a7\u5236\u7f51\u7edc\u53bb\u9a71\u52a8\u6bcf\u79cd\u817f\uff0c\u6700\u540e\u6311\u51fa\u8d70\u8def\u6700\u7701\u7535\u7684\u90a3\u4e00\u6b3e\u9020\u51fa\u6765\u3002 \u8fd9\u4efd\u6e05\u5355\u9002\u5408\u505a\u673a\u5668\u4eba\u786c\u4ef6\u3001\u63a7\u5236\u7b97\u6cd5\u6216\u6570\u636e\u91c7\u96c6",
   "tier": "L",
   "why": "list/site repo"
  },
@@ -3370,6 +3370,24 @@
   "why": "mentions paper but no usage instructions"
  },
  {
+  "title": "Vision-language-action-indoor-robot-with-semantic-navigation",
+  "arxiv": null,
+  "repo": "tanaviGurav05/Vision-language-action-indoor-robot-with-semantic-navigation",
+  "id_in_readme": false,
+  "title_in_readme": true,
+  "name_in_readme": true,
+  "official_claim": false,
+  "unofficial_claim": false,
+  "coming_soon": false,
+  "usage": false,
+  "weights": false,
+  "len": 3120,
+  "evidence": [],
+  "head": " Vision-language-action-indoor-robot-with-semantic-navigation About the Project The project aims to develop an intelligent indoor robot that understands natural-language commands, plans tasks, navigates through indoor en",
+  "tier": "S",
+  "why": "mentions paper but no usage instructions"
+ },
+ {
   "title": "Humanoid-RL",
   "arxiv": null,
   "repo": "Aayush-Bindal/Humanoid-RL",
@@ -3386,5 +3404,23 @@
   "head": " Webcam-guided humanoid navigation See Humanoid gait experiment(EXPERIMENT.md) to try the optional walking checkpoint and review the comparison. Run from this project folder. On a fresh Windows machine, use Python 3.12 a",
   "tier": "S",
   "why": "mentions paper but no usage instructions"
+ },
+ {
+  "title": "An AI system that acts as a real-time, mathematically verifiable firewall between autonomous AI agents and critical real-world systems.",
+  "arxiv": null,
+  "repo": "GAJENDRA-SRINIVASAPPA/AI-Deterministic-Action-Verification-Model",
+  "id_in_readme": false,
+  "title_in_readme": false,
+  "name_in_readme": false,
+  "official_claim": false,
+  "unofficial_claim": false,
+  "coming_soon": false,
+  "usage": false,
+  "weights": false,
+  "len": 329,
+  "evidence": [],
+  "head": " Built with AI Studio The fastest path from prompt to production with Gemini. Start building ",
+  "tier": "X",
+  "why": "README does not mention the paper"
  }
 ]
