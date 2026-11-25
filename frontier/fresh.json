@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-25 02:03Z",
+ "generated": "2026-11-25 02:34Z",
  "papers": [
   {
    "id": "2611.31863",
@@ -113,6 +113,94 @@
    "abstract": "Two wiring diagrams now cover the whole central nervous system of an adult fruit fly: one female, one male. Can such a diagram, run as a network of spiking neurons, drive a body? And if we swap the body's muscles for engineered actuators, what survives? We ran both connectomes, BANC and MaleCNS, as ",
    "cat": "physics.bio-ph",
    "comment": "27 pages, 7 figures. Submitted to PLOS Computational Biology. Code, configurations and figure data: Zenodo doi:10.5281/zenodo.24302416 (public on journal publication)",
+   "code_in_text": []
+  },
+  {
+   "id": "2611.31588",
+   "title": "One Phase Is Enough: Sim-to-Real Transfer with Direct Visual Reinforcement Learning",
+   "date": "2026-11-23",
+   "authors": [
+    "John Marangola",
+    "Antonia Bronars",
+    "Younghyo Park",
+    "Stephen Andrews"
+   ],
+   "abstract": "Sim-to-real reinforcement learning (RL) has enabled impressive robotic behaviors, yet deploying policies directly from vision remains challenging. A common approach first trains a teacher policy with RL using privileged state observations, then distills its behavior into a vision-based student via i",
+   "cat": "cs.LG",
+   "comment": "",
+   "code_in_text": []
+  },
+  {
+   "id": "2611.31577",
+   "title": "FabricBench: A Standardized Policy Benchmark for Bimanual Fabric Manipulation with a Contact-Driven Deformable Simulator",
+   "date": "2026-11-23",
+   "authors": [
+    "Wenkang Hu",
+    "Haoran Wang",
+    "Liu Liu",
+    "Wenchao Huang"
+   ],
+   "abstract": "Fabric manipulation challenges robot policies with changing geometry, self-occlusion, and contact, yet standardized evaluation remains focused on rigid objects. We introduce FabricBench, a benchmark for bimanual fabric manipulation with six tasks spanning garments, silk, and bags, 10,000 simulation-",
+   "cat": "cs.RO",
+   "comment": "",
+   "code_in_text": []
+  },
+  {
+   "id": "2611.31535",
+   "title": "Hi3R-VLA: Grounding Semantics and Actions in 3D",
+   "date": "2026-11-23",
+   "authors": [
+    "Shizhe Chen",
+    "Paul Pacaud",
+    "Cordelia Schmid"
+   ],
+   "abstract": "While recent vision-language-action (VLA) models increasingly incorporate 3D geometry, how to effectively exploit it for precise and generalizable action prediction remains a central challenge. We introduce Hi3R-VLA, a 3D policy that grounds heterogeneous modalities - vision, language, and action - ",
+   "cat": "cs.RO",
+   "comment": "",
+   "code_in_text": []
+  },
+  {
+   "id": "2611.31511",
+   "title": "Near-Zero Forgetting Is Not Enough: Out-of-Distribution Robustness in Continual Learning of Pretrained VLAs",
+   "date": "2026-11-23",
+   "authors": [
+    "Adrià Ruiz",
+    "Bartłomiej Twardowski",
+    "Tinne Tuytelaars",
+    "Sergi Masip"
+   ],
+   "abstract": "Recent work shows that pretrained Vision-Language-Action (VLA) models exhibit near-zero forgetting in specific continual learning settings with experience replay. However, robustness to domain shift of learned tasks remains unexplored. In this work, we study the robustness of Pi0 fine-tuned with exp",
+   "cat": "cs.LG",
+   "comment": "Presented at the CoRL 2026 Workshop on Robot Learning at Deployment (Learn@Deploy). Project page: https://adrrp.github.io/vla-ood-robustness",
+   "code_in_text": []
+  },
+  {
+   "id": "2611.31488",
+   "title": "Embodied Neuro-symbolic AI: Making Robot Behavior Auditable, Safe, and Scalable",
+   "date": "2026-11-23",
+   "authors": [
+    "Ruwan Wickramarachchi",
+    "Jonathan Francis",
+    "Alessandro Oltramari"
+   ],
+   "abstract": "Current Vision-Language-Action (VLA) end-to-end systems have driven major progress in robot learning, yet they still face persistent barriers to dependable real-world deployment. In practice, these models often exhibit brittle generalization under distribution shift (i.e., novel objects, layouts, li",
+   "cat": "cs.RO",
+   "comment": "6 pages, 2 figures",
+   "code_in_text": []
+  },
+  {
+   "id": "2611.31452",
+   "title": "Ground, Guide, Act: Improving VLA Spatial Generalization with Multimodal Foundation Models",
+   "date": "2026-11-23",
+   "authors": [
+    "Guangting Zheng",
+    "Shaoxuan Wang",
+    "Yu Yuan",
+    "Zhipeng Tang"
+   ],
+   "abstract": "Vision-Language-Action (VLA) models effectively learn action policies from robot demonstrations, but struggle to generalize to changes in object positions and task goals. General multimodal foundation models (MFMs) offer complementary scene understanding and spatial reasoning, but remain slow and un",
+   "cat": "cs.CV",
+   "comment": "",
    "code_in_text": []
   },
   {
@@ -236,7 +324,7 @@
    "cat": "cs.RO",
    "comment": "",
    "hf": {
-    "up": 100,
+    "up": 102,
     "repo": "https://github.com/xyangzhou/WorldLeague",
     "stars": 18,
     "proj": "https://xyangzhou.github.io/WorldLeague/"
@@ -865,7 +953,7 @@
    "cat": "cs.RO",
    "comment": "Code: https://github.com/AIGeeksGroup/MotionMamba2.0. Website: https://aigeeksgroup.github.io/MotionMamba2.0",
    "hf": {
-    "up": 173,
+    "up": 175,
     "repo": "https://github.com/AIGeeksGroup/MotionMamba2.0",
     "stars": 23,
     "proj": "https://aigeeksgroup.github.io/MotionMamba2.0/"
@@ -1722,96 +1810,6 @@
    "abstract": "Visual labeling of egocentric demonstrations often leaves contiguous gaps in action supervision. Reliable poses around a gap still provide its net translation and rotation. We use this information to train vision-language-action policies while preserving ordinary flow matching on reliable local acti",
    "cat": "cs.RO",
    "comment": "17 pages, including supplementary material",
-   "code_in_text": []
-  },
-  {
-   "id": "2611.27136",
-   "title": "TrajRealm: A Large-Scale Point Tracking Dataset with Diverse Dynamics",
-   "date": "2026-11-20",
-   "authors": [
-    "Ni Yang",
-    "Weiguang Zhao",
-    "Jiafei Cao",
-    "Yankai Jiang"
-   ],
-   "abstract": "General-purpose point tracking requires large-scale training data with diverse dynamics, yet existing datasets struggle to combine rich dynamic content, accurate scene geometry, and sufficient scale. We introduce TrajRealm, the first public synthetic point-tracking dataset to reach the ten-million-f",
-   "cat": "cs.CV",
-   "comment": "14 pages, 5 figures. Project page: https://purplehihi.github.io/TrajRealm/",
-   "code_in_text": []
-  },
-  {
-   "id": "2611.27061",
-   "title": "PACE: Policy Augmentation and Compensation With Explicit Disturbance Estimation for Robust Locomotion",
-   "date": "2026-11-20",
-   "authors": [
-    "Shixuan Han",
-    "Yuyang Wang",
-    "Jingting Jia",
-    "Zeshuai Chen"
-   ],
-   "abstract": "Reinforcement learning has made quadrupedal locomotion remarkably robust. To handle unmodeled dynamics and external disturbances, domain randomization is usually employed to make a policy hedge against every condition it might meet. However, maintaining accurate tracking across varying dynamics and ",
-   "cat": "cs.RO",
-   "comment": "12 pages, 9 figures",
-   "code_in_text": []
-  },
-  {
-   "id": "2611.27047",
-   "title": "BeyondEgo: Learning to Act Beyond Egocentric Perception via Humanoid Ego-Exo Foresight",
-   "date": "2026-11-20",
-   "authors": [
-    "Zhaoshan Yang",
-    "Chenglei Li",
-    "Haoyu Lei",
-    "Yutao Zhang"
-   ],
-   "abstract": "Humanoid loco-manipulation requires coordinating whole-body motion to perform manipulation tasks in complex environments. Yet egocentric vision-language-action (VLA) policies can miss critical body--scene relationships, and action imitation alone provides no explicit supervision for future scene evo",
-   "cat": "cs.RO",
-   "comment": "",
-   "code_in_text": []
-  },
-  {
-   "id": "2611.27042",
-   "title": "RoboColiseum: Co-evolution of Simulation, Evaluation, and Models",
-   "date": "2026-11-20",
-   "authors": [
-    "Chenghao Yin",
-    "Da Huang",
-    "Di Yang",
-    "Jichao Wang"
-   ],
-   "abstract": "Simulation-based evaluation of embodied models requires calibrated interactions, diverse tasks, and explicit execution constraints. We present RoboColiseum, a platform combining system identification, composable physics and rendering, and multidimensional benchmarking. Recorded-command replay charac",
-   "cat": "cs.RO",
-   "comment": "11 pages, 8 figures. The first eight authors contributed equally. Maoqing Yao and Qian Wang are the corresponding authors",
-   "code_in_text": []
-  },
-  {
-   "id": "2611.27011",
-   "title": "FoRe: A Force-Guided Framework for Autonomous Grasp Recovery in Vision-Language-Action Models",
-   "date": "2026-11-20",
-   "authors": [
-    "Shuai Peng",
-    "Yongkai Liao",
-    "Yuxin Cheng",
-    "Haoyuan Wang"
-   ],
-   "abstract": "Vision-language-action (VLA) models have demonstrated strong performance in grasp-based manipulation, yet reliable recovery from local grasping failures remains challenging. Specifically, in pick-and-place tasks, policies may continue transport after a failed grasp instead of retrying, potentially r",
-   "cat": "cs.RO",
-   "comment": "",
-   "code_in_text": []
-  },
-  {
-   "id": "2611.26981",
-   "title": "ViewDreamer: A Robot World Model beyond Fixed Camera Setups",
-   "date": "2026-11-20",
-   "authors": [
-    "Ye Mao",
-    "Jinhui Xiong",
-    "Egor Larionov",
-    "Shiyang Lu"
-   ],
-   "abstract": "Video generation models are increasingly important for robot learning, yet most generate each camera view separately or tile all views in a fixed layout. Robot demonstrations, however, are captured by synchronized cameras whose number, placement, and order vary across embodiments. We present ViewDre",
-   "cat": "cs.CV",
-   "comment": "29 pages, 13 figures, 21 tables. Project page: https://matchlab-imperial.github.io/ViewDreamer/",
    "code_in_text": []
   }
  ]
