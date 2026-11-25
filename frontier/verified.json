@@ -1999,19 +1999,8 @@
   "title": "LocoMuJoCo: A Comprehensive Imitation Learning Benchmark for Whole-Body Control",
   "arxiv": "2611.26293",
   "repo": "robfiras/loco-mujoco",
-  "id_in_readme": true,
-  "title_in_readme": true,
-  "name_in_readme": true,
-  "official_claim": false,
-  "unofficial_claim": false,
-  "coming_soon": false,
-  "usage": true,
-  "weights": false,
-  "len": 7461,
-  "evidence": [],
-  "head": " continuous integration Documentation Status PyPI Python License: MIT \ud83d\ude80 Latest News: A new release (v1.2) just dropped \ud83c\udf89 New: LocoMuJoCo now includes SuperMimic and supports real-robot deployment on the AgiBot X2 Ultra a",
-  "tier": "B",
-  "why": "paper cited + runnable usage, no explicit 'official' claim"
+  "tier": "X",
+  "why": "no README or private"
  },
  {
   "title": "Teaching Vision-Language-Action Models to Stop Safely",
@@ -2680,7 +2669,7 @@
   "weights": false,
   "len": 1636,
   "evidence": [
-   "soon: ...build_transition_dataset - [x] **8.** init_encoder_params - [ ] **9.** encoder_forward - [ ] **10.** init_target_encoder - [ ] **11.** em..."
+   "soon: ...] **8.** init_encoder_params - [x] **9.** encoder_forward - [ ] **10.** init_target_encoder - [ ] **11.** ema_update - [ ] **12.** encode_batch - [ ] ..."
   ],
   "head": " JEPA World Model from Scratch Build an action-conditioned Joint Embedding Predictive Architecture (JEPA) world model in pure PyTorch. An encoder and EMA target learn collapse-resistant latents of a 2D room via VICReg, a",
   "tier": "B",
@@ -3295,9 +3284,9 @@
   "coming_soon": false,
   "usage": false,
   "weights": false,
-  "len": 19756,
+  "len": 21515,
   "evidence": [],
-  "head": " Awesome Embodied Co-Design \u673a\u5668\u4eba\u8f6f\u786c\u4ef6\u534f\u540c\u8bbe\u8ba1\u8bba\u6587\u6e05\u5355\uff1a\u786c\u4ef6\u548c\u7b97\u6cd5\u4e00\u8d77\u6539\u3001\u4e00\u8d77\u6d4b\u7684\u7814\u7a76\u3002 \u505a\u673a\u5668\u4eba\u7684\u5e38\u89c4\u6d41\u7a0b\u662f\u5148\u628a\u786c\u4ef6\u9020\u597d\uff0c\u518d\u53bb\u8c03\u7b97\u6cd5\u3002\u8fd9\u91cc\u6536\u7684\u8bba\u6587\u6362\u4e86\u4e2a\u505a\u6cd5\uff1a\u628a\u786c\u4ef6\u548c\u7b97\u6cd5\u653e\u5728\u4e00\u8d77\u6539\uff0c\u770b\u4e24\u8fb9\u4e00\u8d77\u6539\u662f\u4e0d\u662f\u6bd4\u53ea\u6539\u4e00\u8fb9\u6548\u679c\u66f4\u597d\u3002\u4e3e\u4e2a\u4f8b\u5b50\uff0cDogger(dogger) \u4e00\u8fb9\u6362\u56db\u8db3\u673a\u5668\u4eba\u7684\u817f\u957f\u548c\u819d\u76d6\u5f39\u7c27\uff0c\u4e00\u8fb9\u8ba9\u540c\u4e00\u4e2a\u63a7\u5236\u7f51\u7edc\u53bb\u9a71\u52a8\u6bcf\u79cd\u817f\uff0c\u6700\u540e\u6311\u51fa\u8d70\u8def\u6700\u7701\u7535\u7684\u90a3\u4e00\u6b3e\u9020\u51fa\u6765\u3002 \u8fd9\u4efd\u6e05\u5355\u9002\u5408\u505a\u673a\u5668\u4eba\u786c\u4ef6\u3001\u63a7\u5236\u7b97\u6cd5\u6216\u6570\u636e\u91c7\u96c6",
+  "head": " Awesome Embodied Co-Design \u673a\u5668\u4eba\u8f6f\u786c\u4ef6\u534f\u540c\u8bbe\u8ba1\u8bba\u6587\u6e05\u5355\uff1a\u786c\u4ef6\u548c\u7b97\u6cd5\u4e00\u8d77\u6539\u3001\u4e00\u8d77\u6d4b\u7684\u7814\u7a76\u3002 \u505a\u673a\u5668\u4eba\u7684\u5e38\u89c4\u6d41\u7a0b\u662f\u5148\u628a\u786c\u4ef6\u9020\u597d\uff0c\u518d\u53bb\u8c03\u7b97\u6cd5\u3002\u8fd9\u91cc\u6536\u7684\u8bba\u6587\u6362\u4e86\u4e2a\u505a\u6cd5\uff1a\u628a\u786c\u4ef6\u548c\u7b97\u6cd5\u653e\u5728\u4e00\u8d77\u6539\uff0c\u770b\u4e24\u8fb9\u4e00\u8d77\u6539\u662f\u4e0d\u662f\u6bd4\u53ea\u6539\u4e00\u8fb9\u6548\u679c\u66f4\u597d\u3002\u4e3e\u4e2a\u4f8b\u5b50\uff0cDogger(dogger) \u4e00\u8fb9\u6362\u56db\u8db3\u673a\u5668\u4eba\u7684\u817f\u957f\u548c\u819d\u76d6\u5f39\u7c27\uff0c\u4e00\u8fb9\u8ba9\u540c\u4e00\u4e2a\u63a7\u5236\u7f51\u7edc\u53bb\u9a71\u52a8\u6bcf\u79cd\u817f\uff0c\u6700\u540e\u4e3a\u5de1\u68c0\u548c\u642c\u8fd0\u5206\u522b\u6311\u51fa\u8282\u80fd\u7684\u65b9\u6848\u9020\u51fa\u6765\u3002 \u8fd9\u4efd\u6e05\u5355\u9002\u5408\u505a\u673a\u5668\u4eba\u786c\u4ef6\u3001\u63a7\u5236\u7b97\u6cd5\u6216",
   "tier": "L",
   "why": "list/site repo"
  },
