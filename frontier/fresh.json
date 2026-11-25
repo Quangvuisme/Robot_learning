@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-25 05:04Z",
+ "generated": "2026-11-25 05:33Z",
  "papers": [
   {
    "id": "2611.33144",
@@ -660,6 +660,12 @@
    "abstract": "While text-driven body motion generation has matured, pure-hand synthesis remains bottlenecked by data. Existing datasets often treat hands as rigid end-effectors, lack fine-grained captions, or are too limited in scale to support robust generalization. We introduce RoMo Hands, an in-the-wild, text-",
    "cat": "cs.CV",
    "comment": "Accepted to NeurIPS 2026. Project page: https://romodataset.github.io/romo-hands/ Dataset: https://huggingface.co/datasets/RoMoDataset/RoMo-Hands",
+   "hf": {
+    "up": 1,
+    "repo": "https://github.com/RoMoDataset/motion-toolbox",
+    "stars": null,
+    "proj": "https://romodataset.github.io/romo-hands/"
+   },
    "code_in_text": []
   },
   {
@@ -926,7 +932,7 @@
    "cat": "cs.RO",
    "comment": "",
    "hf": {
-    "up": 122,
+    "up": 125,
     "repo": "https://github.com/xyangzhou/WorldLeague",
     "stars": 18,
     "proj": "https://xyangzhou.github.io/WorldLeague/"
@@ -1157,7 +1163,7 @@
    "cat": "cs.RO",
    "comment": "",
    "hf": {
-    "up": 13,
+    "up": 14,
     "repo": "https://github.com/HaoranZhangumich/DexDuet",
     "stars": 10,
     "proj": "https://rcl-robotics.github.io/Dexduet.io/"
@@ -1296,7 +1302,7 @@
    "cat": "cs.RO",
    "comment": "87 pages, 25 figures, Project Page: https://baai-eai.github.io/innata-0/",
    "hf": {
-    "up": 11,
+    "up": 12,
     "repo": null,
     "stars": null,
     "proj": "https://baai-eai.github.io/innata-0/"
