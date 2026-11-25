@@ -368,5 +368,15 @@
   "title": "legged_locomotion",
   "arxiv": null,
   "repo": "axelmnts/legged_locomotion"
+ },
+ {
+  "title": "Vision-Language-Action (VLA) & Multimodal Models on Apple Silicon with MLX (Alpamayo 2 Edge, Cosmos 3 Edge, Alpamayo 1.5)",
+  "arxiv": null,
+  "repo": "SMJD11/mlx-vla"
+ },
+ {
+  "title": "Bidirectional Action-Latent Interaction with Multi-Source Video World Model Evidence for End-to-End Autonomous Driving",
+  "arxiv": null,
+  "repo": "MaochengBai/BALI-Drive"
  }
 ]

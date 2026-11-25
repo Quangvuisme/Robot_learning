@@ -3050,5 +3050,43 @@
   "head": " Learning-based legged locomotion in simulation Training a velocity-tracking locomotion policy for the Unitree Go1 quadruped with PPO, in MuJoCo MJX with thousands of GPU-parallel environments (JAX / Brax). Goal: a polic",
   "tier": "B",
   "why": "paper cited + runnable usage, no explicit 'official' claim"
+ },
+ {
+  "title": "Vision-Language-Action (VLA) & Multimodal Models on Apple Silicon with MLX (Alpamayo 2 Edge, Cosmos 3 Edge, Alpamayo 1.5)",
+  "arxiv": null,
+  "repo": "SMJD11/mlx-vla",
+  "id_in_readme": false,
+  "title_in_readme": false,
+  "name_in_readme": true,
+  "official_claim": false,
+  "unofficial_claim": false,
+  "coming_soon": true,
+  "usage": true,
+  "weights": true,
+  "len": 88842,
+  "evidence": [
+   "soon: ...6. LLaVA-OneVision 7. Mage-VL 8. Muse Spark Open  With more coming soon.  ### Usage Examples  #### Command Line ```sh mlx_vlm.gener..."
+  ],
+  "head": "MLX-VLA (built on MLX-VLM) Vision-Language-Action (VLA) &amp; Multimodal Models on Apple Silicon with MLX. First-class pure-MLX support for NVIDIA Alpamayo 2 Edge (2B), NVIDIA Cosmos 3 Edge, and Alpamayo 1.5 (10B) \u2014 zero",
+  "tier": "S",
+  "why": "mentions paper but no usage instructions"
+ },
+ {
+  "title": "Bidirectional Action-Latent Interaction with Multi-Source Video World Model Evidence for End-to-End Autonomous Driving",
+  "arxiv": null,
+  "repo": "MaochengBai/BALI-Drive",
+  "id_in_readme": false,
+  "title_in_readme": true,
+  "name_in_readme": true,
+  "official_claim": false,
+  "unofficial_claim": false,
+  "coming_soon": false,
+  "usage": true,
+  "weights": false,
+  "len": 3618,
+  "evidence": [],
+  "head": "BALI-Drive Bidirectional Action-Latent Interaction with Multi-Source Video World Model Evidence for End-to-End Autonomous Driving Overview &nbsp;&nbsp; Installation &nbsp;&nbsp; Usage &nbsp;&nbsp; API &amp; Configuration",
+  "tier": "B",
+  "why": "paper cited + runnable usage, no explicit 'official' claim"
  }
 ]
