@@ -453,5 +453,10 @@
   "title": "Agentic World Action Model for Embodied Intelligence",
   "arxiv": null,
   "repo": "ruiqi-song/AWAM"
+ },
+ {
+  "title": "Vision-language-action-indoor-robot-with-semantic-navigation",
+  "arxiv": null,
+  "repo": "tanvirajeshgurav-arch/Vision-language-action-indoor-robot-with-semantic-navigation"
  }
 ]

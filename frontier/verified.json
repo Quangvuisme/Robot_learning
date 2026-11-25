@@ -3329,5 +3329,23 @@
   "head": " AWAM Agentic World Action Model for Embodied Intelligence ",
   "tier": "S",
   "why": "mentions paper but no usage instructions"
+ },
+ {
+  "title": "Vision-language-action-indoor-robot-with-semantic-navigation",
+  "arxiv": null,
+  "repo": "tanvirajeshgurav-arch/Vision-language-action-indoor-robot-with-semantic-navigation",
+  "id_in_readme": false,
+  "title_in_readme": true,
+  "name_in_readme": true,
+  "official_claim": false,
+  "unofficial_claim": false,
+  "coming_soon": false,
+  "usage": false,
+  "weights": false,
+  "len": 62,
+  "evidence": [],
+  "head": " Vision-language-action-indoor-robot-with-semantic-navigation",
+  "tier": "S",
+  "why": "mentions paper but no usage instructions"
  }
 ]

@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-25 12:03Z",
+ "generated": "2026-11-25 12:33Z",
  "papers": [
   {
    "id": "2611.33144",
@@ -950,7 +950,7 @@
    "cat": "cs.RO",
    "comment": "",
    "hf": {
-    "up": 140,
+    "up": 141,
     "repo": "https://github.com/xyangzhou/WorldLeague",
     "stars": 18,
     "proj": "https://xyangzhou.github.io/WorldLeague/"
@@ -1189,7 +1189,7 @@
    "hf": {
     "up": 14,
     "repo": "https://github.com/HaoranZhangumich/DexDuet",
-    "stars": 10,
+    "stars": 15,
     "proj": "https://rcl-robotics.github.io/Dexduet.io/"
    },
    "code_in_text": []
@@ -1585,7 +1585,7 @@
    "cat": "cs.RO",
    "comment": "Code: https://github.com/AIGeeksGroup/MotionMamba2.0. Website: https://aigeeksgroup.github.io/MotionMamba2.0",
    "hf": {
-    "up": 192,
+    "up": 193,
     "repo": "https://github.com/AIGeeksGroup/MotionMamba2.0",
     "stars": 29,
     "proj": "https://aigeeksgroup.github.io/MotionMamba2.0/"
