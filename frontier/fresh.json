@@ -1,6 +1,120 @@
 {
- "generated": "2026-11-25 01:33Z",
+ "generated": "2026-11-25 02:03Z",
  "papers": [
+  {
+   "id": "2611.31863",
+   "title": "Ada-BFM: Adapting Behavior Foundation Models for Humanoid Scene Interaction",
+   "date": "2026-11-24",
+   "authors": [
+    "Furui Xu",
+    "Weishuai Zeng",
+    "Zirui Wang",
+    "Kangning Yin"
+   ],
+   "abstract": "Behavior Foundation Models (BFMs) have emerged as a promising paradigm for general-purpose humanoid control through pretraining on large-scale behavioral data. However, their proficiency in whole-body coordination does not readily extend to scene interaction, which requires adapting motion to scene-",
+   "cat": "cs.RO",
+   "comment": "",
+   "code_in_text": []
+  },
+  {
+   "id": "2611.31822",
+   "title": "G0.7: Scaling Up a Fast World Action Model with Long Context",
+   "date": "2026-11-24",
+   "authors": [
+    "Tianyuan Yuan",
+    "Baijun Ye",
+    "Shicheng Cao",
+    "Xing Nie"
+   ],
+   "abstract": "World action models (WAMs) adapt pretrained video generators for robot control by jointly predicting future camera frames and actions, transferring physical priors learned from video into manipulation policies. However, generating future frames before every action makes test-time inference too slow ",
+   "cat": "cs.CV",
+   "comment": "",
+   "code_in_text": []
+  },
+  {
+   "id": "2611.31782",
+   "title": "Many Senses, One World: Learning Hierarchical Multimodal World Representations for Bimanual Dexterous Manipulation",
+   "date": "2026-11-24",
+   "authors": [
+    "Jin Yang",
+    "Youlin Wang",
+    "Ping Wei"
+   ],
+   "abstract": "Bimanual dexterous manipulation relies on multimodal inputs that capture visual context and non-visual physical interaction cues for precise and coordinated control. To address the challenge of effectively integrating these modalities for policy learning, we propose HiMoDex, a two-stage framework ce",
+   "cat": "cs.RO",
+   "comment": "",
+   "code_in_text": []
+  },
+  {
+   "id": "2611.31766",
+   "title": "RoMo Hands: A Large Scale Richly Organized Text to Hand Motion Dataset",
+   "date": "2026-11-24",
+   "authors": [
+    "Yizhak Ben-Shabat",
+    "Jiahao Zhang",
+    "Joseph Liu",
+    "Seonghyeon Moon"
+   ],
+   "abstract": "While text-driven body motion generation has matured, pure-hand synthesis remains bottlenecked by data. Existing datasets often treat hands as rigid end-effectors, lack fine-grained captions, or are too limited in scale to support robust generalization. We introduce RoMo Hands, an in-the-wild, text-",
+   "cat": "cs.CV",
+   "comment": "Accepted to NeurIPS 2026. Project page: https://romodataset.github.io/romo-hands/ Dataset: https://huggingface.co/datasets/RoMoDataset/RoMo-Hands",
+   "code_in_text": []
+  },
+  {
+   "id": "2611.31740",
+   "title": "LeanWAM: Learning Latent World Action Models from Frozen Video Models",
+   "date": "2026-11-24",
+   "authors": [
+    "Shaolong Li",
+    "Hongze Fu",
+    "Joyce Chai",
+    "Yinpei Dai"
+   ],
+   "abstract": "World action models (WAMs) typically adapt large pretrained video generators to jointly predict future observations and robot actions, incurring substantial training and deployment costs. However, it remains unclear which future representations a policy actually needs and how compactly they can be r",
+   "cat": "cs.CV",
+   "comment": "Project Page: https://shaolonl-16.github.io/leanwam/",
+   "code_in_text": []
+  },
+  {
+   "id": "2611.31715",
+   "title": "Sparks of Weight-Space Programming for Robot Foundation Models",
+   "date": "2026-11-24",
+   "authors": [
+    "Kyle Coelho",
+    "Eugen Solowjow"
+   ],
+   "abstract": "This paper demonstrates an approach for correcting failures of robot foundation models (RFMs) without additional data collection, demonstrations, or training. We apply weight-space programming (WSP), in which a language-model agent directly reads and writes a neural network's parameters, to a large,",
+   "cat": "cs.RO",
+   "comment": "",
+   "code_in_text": []
+  },
+  {
+   "id": "2611.31705",
+   "title": "FoveaWAM: Role-Aware 4D World-Action Modeling for Dynamic Manipulation",
+   "date": "2026-11-23",
+   "authors": [
+    "Jiaqi Yin",
+    "Baoyue Zhang",
+    "Jiyuan Zhang",
+    "Wenxuan Liu"
+   ],
+   "abstract": "To manipulate a moving object, a policy must predict the scene at the moment its action executes, yet every millisecond spent predicting pushes that moment further away. Scene-level forecasts are computationally expensive, whereas target-centric forecasts can omit nearby objects that affect contact.",
+   "cat": "cs.RO",
+   "comment": "19 pages, 9 figures. Supplementary material included",
+   "code_in_text": []
+  },
+  {
+   "id": "2611.31644",
+   "title": "The cyborg fly: reflexes survive engineered actuators, coordination needs stand-ins",
+   "date": "2026-11-23",
+   "authors": [
+    "Mauricio Muñoz Arias"
+   ],
+   "abstract": "Two wiring diagrams now cover the whole central nervous system of an adult fruit fly: one female, one male. Can such a diagram, run as a network of spiking neurons, drive a body? And if we swap the body's muscles for engineered actuators, what survives? We ran both connectomes, BANC and MaleCNS, as ",
+   "cat": "physics.bio-ph",
+   "comment": "27 pages, 7 figures. Submitted to PLOS Computational Biology. Code, configurations and figure data: Zenodo doi:10.5281/zenodo.24302416 (public on journal publication)",
+   "code_in_text": []
+  },
   {
    "id": "2611.31240",
    "title": "Pruning Autonomous Driving VLAs: What to Preserve for Reasoning and Action",
@@ -122,7 +236,7 @@
    "cat": "cs.RO",
    "comment": "",
    "hf": {
-    "up": 98,
+    "up": 100,
     "repo": "https://github.com/xyangzhou/WorldLeague",
     "stars": 18,
     "proj": "https://xyangzhou.github.io/WorldLeague/"
@@ -751,7 +865,7 @@
    "cat": "cs.RO",
    "comment": "Code: https://github.com/AIGeeksGroup/MotionMamba2.0. Website: https://aigeeksgroup.github.io/MotionMamba2.0",
    "hf": {
-    "up": 172,
+    "up": 173,
     "repo": "https://github.com/AIGeeksGroup/MotionMamba2.0",
     "stars": 23,
     "proj": "https://aigeeksgroup.github.io/MotionMamba2.0/"
@@ -1698,127 +1812,6 @@
    "abstract": "Video generation models are increasingly important for robot learning, yet most generate each camera view separately or tile all views in a fixed layout. Robot demonstrations, however, are captured by synchronized cameras whose number, placement, and order vary across embodiments. We present ViewDre",
    "cat": "cs.CV",
    "comment": "29 pages, 13 figures, 21 tables. Project page: https://matchlab-imperial.github.io/ViewDreamer/",
-   "code_in_text": []
-  },
-  {
-   "id": "2611.26969",
-   "title": "RoboDyna: A Benchmark for Evaluating Robotic Manipulation under Physically Grounded Dynamics",
-   "date": "2026-11-20",
-   "authors": [
-    "Zhiyuan Li",
-    "Rui Heng Yang",
-    "Xuan Zhao",
-    "Amir Rasouli"
-   ],
-   "abstract": "Object manipulation in the dynamic real world requires understanding how the environment functions and evolves, and acting accordingly. Existing benchmarks, however, do not adequately address these needs. Physics-oriented benchmarks evaluate predictive fidelity but not closed-loop action. Dynamic ro",
-   "cat": "cs.RO",
-   "comment": "8 pages, 9 figures, 2 tables. Project page: https://robodyna.github.io/robodyna/",
-   "code_in_text": []
-  },
-  {
-   "id": "2611.26944",
-   "title": "Analysis of Multi-Client Inference Techniques for Vision-Language-Action Models",
-   "date": "2026-11-20",
-   "authors": [
-    "Stefan de Lasa",
-    "Mohammadreza Mofayezi",
-    "Gennady Pekhimenko",
-    "Nandita Vijaykumar"
-   ],
-   "abstract": "Vision-Language-Action models (VLAs) are a new class of machine learning model for generalizable robot control. While they enable robots to perform complex tasks in unseen environments, serving VLAs leaves hardware idle between inference passes and under-utilized during inference. Serving multiple c",
-   "cat": "cs.DC",
-   "comment": "IISWC 2026",
-   "code_in_text": []
-  },
-  {
-   "id": "2611.26855",
-   "title": "Coherent Moment Propagation: Epistemic Uncertainty for Pre-trained Robot Policies",
-   "date": "2026-11-19",
-   "authors": [
-    "Miguel Saavedra-Ruiz",
-    "Anqi Li",
-    "Claudia D'Arpino",
-    "Alperen Degirmenci"
-   ],
-   "abstract": "Flow matching policies underpin the state-of-the-art in robot learning, with impressive results ranging from long-horizon planning to dexterous manipulation. However, they provide no measure of whether their predicted commands can be trusted, particularly in novel situations outside their training s",
-   "cat": "cs.RO",
-   "comment": "Webpage: https://comp-uq.github.io/comp-uq/",
-   "code_in_text": []
-  },
-  {
-   "id": "2611.26853",
-   "title": "LoCo-WAM: Test-Time Training as Long Context for World-Action Models",
-   "date": "2026-11-19",
-   "authors": [
-    "Sheng Cheng",
-    "Deqian Kong"
-   ],
-   "abstract": "World-action models guide robot actions by predicting what happens next, but typically condition on a short observation history. Extending this history increases computation at every decision and can require a separately trained model. We introduce LoCo-WAM, which learns from the outcomes of its act",
-   "cat": "cs.RO",
-   "comment": "",
-   "code_in_text": []
-  },
-  {
-   "id": "2611.26825",
-   "title": "Skill-JEPA: Learning Planner-Aligned Action Spaces for World Models",
-   "date": "2026-11-19",
-   "authors": [
-    "Tomás Couso Coddou",
-    "Christ Devia",
-    "Rex G. Liu",
-    "Rodrigo Toro Icarte"
-   ],
-   "abstract": "World models based on Joint-Embedding Predictive Architectures (JEPAs) learn from pixels to predict the outcome of actions in a latent space. To reach a goal, a planner samples many candidate action sequences, uses the model to predict where each one leads, and executes the best one. However, standa",
-   "cat": "cs.RO",
-   "comment": "Code: https://github.com/tcouso/Skill-JEPA",
-   "code_in_text": [
-    "https://github.com/tcouso/Skill-JEPA"
-   ]
-  },
-  {
-   "id": "2611.26783",
-   "title": "CADENCE:Temporally Coherent Whole-Body Human Mesh Recovery that Preserves Expressive Hand Motion",
-   "date": "2026-11-19",
-   "authors": [
-    "Keniel Peart",
-    "Jagmohan Chauhan",
-    "Indu P. Bodala",
-    "Shelly Vishwakarma"
-   ],
-   "abstract": "Whole-body SMPL-X estimators recover body, hand, and face meshes from single images, but applied frame by frame to video they produce jittery motion. Smoothing the output removes the jitter at a cost that body-only benchmarks do not measure: a temporal filter strong enough to steady the torso also f",
-   "cat": "cs.CV",
-   "comment": "",
-   "code_in_text": []
-  },
-  {
-   "id": "2611.26744",
-   "title": "FORTH: Grounding Tactile VLA Execution via Forward-Only Proxy-Control Pairing",
-   "date": "2026-11-19",
-   "authors": [
-    "Junde Li",
-    "Wei-Han Yu",
-    "Xiangyi Chu",
-    "Yaoxin Li"
-   ],
-   "abstract": "Vision-Language-Action (VLA) policies are widely credited with force control, operating on the unverified assumption that proxy loss minimization implies physical force grounding. In this work, we demonstrate that this assumption breaks down at three core deployment levels: frozen visual backbones d",
-   "cat": "cs.RO",
-   "comment": "The code and models are open-sourced at https://github.com/Jordanlllll/FORTH",
-   "code_in_text": [
-    "https://github.com/Jordanlllll/FORTH"
-   ]
-  },
-  {
-   "id": "2611.26596",
-   "title": "PGX: Physically Grounded Execution for Long-Horizon Humanoid Loco-Manipulation",
-   "date": "2026-11-19",
-   "authors": [
-    "Kai Lu",
-    "Chenyang Ma",
-    "Ioannis Havoutis"
-   ],
-   "abstract": "Robotic vision-language-action (VLA) models can execute diverse individual manipulation skills, yet they still struggle with long-horizon loco-manipulation tasks, where temporal structure, skills, and precision are tightly coupled within a monolithic model. We propose Physically Grounded Execution (",
-   "cat": "cs.RO",
-   "comment": "",
    "code_in_text": []
   }
  ]
