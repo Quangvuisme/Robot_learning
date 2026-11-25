@@ -1,168 +1,71 @@
 {
  "papers": [
   {
-   "id": "2611.32722",
-   "title": "AG-WAM: Attention-Guided World Action Model for Accurate and Efficient Robot Manipulation",
+   "id": "2611.33144",
+   "title": "PyRUA-Dex: Learning Programmatic Policies for Dexterous Bimanual Manipulation with Coding Agents",
    "date": "2026-11-24",
    "authors": [
-    "Hongcheng Zhang",
-    "Lei Sun",
-    "Songxuan Liu",
-    "Tengteng Pan"
+    "Feixiang Ruan",
+    "Guodong Lv",
+    "Kewei Zhang",
+    "Wenbo Huang"
    ],
-   "abstract": "Recently developed World Action Models (WAMs) jointly predict future observations and robot actions, providing predictive context for control. However, existing WAMs typically learn implicit attention allocation with limited explicit action-relevant attention guidance, leading to limited performance",
+   "abstract": "Learning for dexterous manipulation is limited by the scarcity of high-quality demonstrations: retargeting from human video is imprecise, teleoperation gives no force feedback to the operator, and exoskeleton-based collection is hard to scale up. We present PyRUA-Dex, a framework that enables coding",
    "cat": "cs.RO",
-   "comment": "16 pages, 6 figures, 13 tables",
+   "comment": "23 pages, 9 figures, 7 tables. Project page: https://vme0522.github.io/PyRUA-Dex/",
    "code_in_text": []
   },
   {
-   "id": "2611.32705",
-   "title": "Knocked Off Course: Tracing Uncommanded Motion from Perception to Action in Embodied VLAs",
+   "id": "2611.33130",
+   "title": "Exploratory Midtraining for Robot Policies",
    "date": "2026-11-24",
    "authors": [
-    "Dan Zlotnikov",
-    "Nadav Alali",
-    "Ohad Ben-Shahar"
+    " Kshitiz",
+    "Zheyuan Hu",
+    "Robyn Wu",
+    "Yizhou Li"
    ],
-   "abstract": "Vision-Language-Action models (VLAs) enable simultaneous processing of egocentric video and textual target descriptions to produce action commands for embodied tracking platforms. However, these platforms rarely move exactly as commanded, in part due to unexpected environmental disturbances such as ",
+   "abstract": "Robot policies predominantly learn from human-collected data emphasizing competent behavior, limiting coverage of the low-level behaviors needed to support autonomous improvement. We study how a form of midtraining can be used to build coverage over diverse low-level behaviors that connect challengi",
+   "cat": "cs.RO",
+   "comment": "",
+   "code_in_text": []
+  },
+  {
+   "id": "2611.33010",
+   "title": "Embodied AI Fails the Mirror Test: How a Simple Mirror Breaks Robot Policies",
+   "date": "2026-11-24",
+   "authors": [
+    "Xuanchen Liu",
+    "Hejun Zhang",
+    "Boxuan Dong",
+    "Ying Wu"
+   ],
+   "abstract": "Can a simple mirror expose the limitations of today's robotic manipulation policies? Inspired by the mirror self-recognition test in animal cognition, we investigate whether robot policies can reliably manipulate physical objects in scenes containing their reflections. We introduce RoboDojo-Mirror, ",
    "cat": "cs.CV",
-   "comment": "",
-   "code_in_text": []
-  },
-  {
-   "id": "2611.32665",
-   "title": "DiffGR00T: Execution-Aware Differentiable Training for Humanoid Whole-Body Vision-Language-Action Models",
-   "date": "2026-11-24",
-   "authors": [
-    "Sichen Wu",
-    "Qian Sun",
-    "Mengfan Liu",
-    "Weikai Qin"
-   ],
-   "abstract": "Vision-language-action (VLA) models have achieved strong results in arm-centric manipulation, yet humanoid whole-body control (WBC) requires dynamic balance and tightly coupled full-body coordination. Existing hierarchical humanoid VLAs typically decouple motion generation from physical execution, l",
-   "cat": "cs.RO",
-   "comment": "14 pages, 6 figures, 8 tables. Conference preprint. Corresponding author: Hesheng Wang",
-   "code_in_text": []
-  },
-  {
-   "id": "2611.32654",
-   "title": "DexWAC: A Unified World-Actor-Critic Model for Dexterous Robot Manipulation",
-   "date": "2026-11-24",
-   "authors": [
-    "Hongjia Liu",
-    "Dacheng Zhou",
-    "Minghao Fu",
-    "Chuanjun Guo"
-   ],
-   "abstract": "Robot demonstrations provide more than actions to imitate: they reveal how actions change the world and how those changes contribute to task success. Recent world-action models (WAMs) extend vision-language-action (VLA) models with the first signal by jointly predicting actions and future observatio",
-   "cat": "cs.RO",
-   "comment": "",
-   "code_in_text": []
-  },
-  {
-   "id": "2611.32642",
-   "title": "BARE: Body-Aware Reflexive Evasion for Humanoid Robots",
-   "date": "2026-11-24",
-   "authors": [
-    "Zihao Li",
-    "Tong Chen",
-    "Hua Song",
-    "Zitong Ding"
-   ],
-   "abstract": "Dynamic obstacle avoidance is essential for safely deploying humanoid robots in real-world environments, where rapidly approaching objects require immediate evasive responses. Recent advances in reflexive evasion have focused primarily on quadrupeds, which typically rely on large-scale whole-body ma",
-   "cat": "cs.RO",
-   "comment": "",
-   "code_in_text": []
-  },
-  {
-   "id": "2611.32639",
-   "title": "ReFocus: Progress-Guided Adaptive Practice for Long-Horizon Robotic Manipulation Reinforcement Learning",
-   "date": "2026-11-24",
-   "authors": [
-    "Haoyuan Li",
-    "Wei Huang",
-    "Jiehong Lin",
-    "Shengrong Zhang"
-   ],
-   "abstract": "Online reinforcement learning (RL) enables vision-language-action policies to improve through environmental interaction. However, in long-horizon manipulation, sparse success/failure feedback provides little information about where policies encounter bottlenecks. Moreover, repeated full-task rollout",
-   "cat": "cs.RO",
-   "comment": "27 pages, 15 figures",
-   "code_in_text": []
-  },
-  {
-   "id": "2611.32584",
-   "title": "An XR-Based System for Enhanced Spatial Awareness in Mobile Robot Teleoperation",
-   "date": "2026-11-24",
-   "authors": [
-    "Subhransu Sourav Priyadarshan",
-    "Valentina Pericu",
-    "Federico Rollo",
-    "Gianni Viardo Vercelli"
-   ],
-   "abstract": "Teleoperation of mobile robots represents a critical capability for operations in hazardous environments, yet maintaining adequate situational awareness remains challenging without effective visualization and control interfaces. This work presents a multi-modal extended reality (XR) system for robot",
-   "cat": "cs.RO",
-   "comment": "8 pages, 6 figures, 1 table. Author accepted manuscript published in the 2026 IEEE/ASME International Conference on Advanced Intelligent Mechatronics (AIM)",
-   "code_in_text": []
-  },
-  {
-   "id": "2611.32582",
-   "title": "Design, Control, and Teleoperation of a Dexterous Robotic Hand with Soft-Rigid Hybrid Fingers",
-   "date": "2026-11-24",
-   "authors": [
-    "Chao Liu",
-    "Wil J. Norton",
-    "Brandon Romero",
-    "Daniela Rus"
-   ],
-   "abstract": "Adding compliance to robot hands results in higher grasp quality and robust contact with the environment. Soft hands are inherently compliant, but are typically more complex to control and model than rigid equivalents. We extend prior work on soft-rigid hybrid robot fingers into a five-fingered dext",
-   "cat": "cs.RO",
-   "comment": "9 pages,10 figures",
-   "code_in_text": []
-  },
-  {
-   "id": "2611.32564",
-   "title": "MXI-MemICL: Towards In-Context Robot Manipulation through Self-Retrieved Interaction Memory",
-   "date": "2026-11-24",
-   "authors": [
-    "Jialong Peng",
-    "Shihao Zhou",
-    "Feng Yan",
-    "Wen Xiao"
-   ],
-   "abstract": "In-context learning (ICL) offers robots a way to acquire new skills from a single demonstration without parameter updates. However, existing robotic ICL methods either rely on large-scale pretraining constrained by scarce, costly robot interaction data or require additional annotations yet struggle ",
-   "cat": "cs.RO",
-   "comment": "17 pages, 8 figures, including supplementary material",
-   "code_in_text": []
-  },
-  {
-   "id": "2611.32502",
-   "title": "MRCT: An Object-Centric Two-Layer Control Architecture for Heavy-Payload Multi-Robot Transportation",
-   "date": "2026-11-24",
-   "authors": [
-    "Ning Wang",
-    "Yoshihiko Nakamura",
-    "Tianwei Zhang"
-   ],
-   "abstract": "Cooperative transportation of heavy payloads by heterogeneous mobile manipulators requires coordinated payload motion, force distribution, and compliant physical interaction. This paper presents MRCT, an object-centric two-layer control architecture for multi-robot transportation. At the object leve",
-   "cat": "cs.RO",
-   "comment": "",
-   "code_in_text": []
-  },
-  {
-   "id": "2611.32476",
-   "title": "ViTacLab: Physically Consistent Visuo-Tactile Simulation, Benchmarking, and Representation Learning for Robotic Manipulation",
-   "date": "2026-11-24",
-   "authors": [
-    "Linjing You",
-    "Zeming Yang",
-    "Zhenhao Shen",
-    "Shengqiang Xu"
-   ],
-   "abstract": "Tactile sensing is essential for contact-rich robotic manipulation, but existing visuo-tactile simulators trade physical fidelity for scalability, and benchmarks largely focus on two-finger grippers. We present ViTacLab, a framework comprising ViTacSim, ViTacBench, and ViTacPolicy. ViTacSim uses a t",
-   "cat": "cs.RO",
-   "comment": "8 pages, 5 figures, 4 tables",
-   "code_in_text": []
+   "comment": "Code: https://github.com/iPPLab/robodojo-mirror",
+   "code_in_text": [
+    "https://github.com/iPPLab/robodojo-mirror"
+   ]
   }
  ],
- "repos": []
+ "repos": [
+  {
+   "title": "Humanoid-locomotion",
+   "arxiv": null,
+   "repo": "GIlbertoRCP/Humanoid-locomotion",
+   "id_in_readme": false,
+   "title_in_readme": true,
+   "name_in_readme": true,
+   "official_claim": false,
+   "unofficial_claim": false,
+   "coming_soon": false,
+   "usage": true,
+   "weights": true,
+   "len": 5881,
+   "evidence": [],
+   "head": " Humanoid Locomotion over Uneven Terrain A 3D MuJoCo humanoid trained with PPO to cross an obstacle course: two bumps, an 8\u00b0 ramp and a landing pad. It \"sees\" the ground ahead through five rangefinder rays on its torso, ",
+   "tier": "B",
+   "why": "paper cited + runnable usage, no explicit 'official' claim"
+  }
+ ]
 }

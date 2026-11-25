@@ -3150,7 +3150,36 @@
   "title": "Humanoid-locomotion",
   "arxiv": null,
   "repo": "GIlbertoRCP/Humanoid-locomotion",
-  "tier": "X",
-  "why": "no README or private"
+  "id_in_readme": false,
+  "title_in_readme": true,
+  "name_in_readme": true,
+  "official_claim": false,
+  "unofficial_claim": false,
+  "coming_soon": false,
+  "usage": true,
+  "weights": true,
+  "len": 5881,
+  "evidence": [],
+  "head": " Humanoid Locomotion over Uneven Terrain A 3D MuJoCo humanoid trained with PPO to cross an obstacle course: two bumps, an 8\u00b0 ramp and a landing pad. It \"sees\" the ground ahead through five rangefinder rays on its torso, ",
+  "tier": "B",
+  "why": "paper cited + runnable usage, no explicit 'official' claim"
+ },
+ {
+  "title": "Continuously updated list of Visual World-Action Models for embodied AI and autonomous driving, with leaderboards (NAVSIM, nuScenes, Occ3D, LIBERO, CALVIN) and wamscore physics metrics (IVR, E_dn, \u0394_act). Companion to our survey in The Visual Computer.",
+  "arxiv": null,
+  "repo": "binayksingh/awesome-visual-world-action-models",
+  "id_in_readme": false,
+  "title_in_readme": false,
+  "name_in_readme": false,
+  "official_claim": false,
+  "unofficial_claim": false,
+  "coming_soon": false,
+  "usage": true,
+  "weights": true,
+  "len": 32325,
+  "evidence": [],
+  "head": " Awesome Visual World-Action Models Companion repository for the survey \"Visual World-Action Models for Embodied AI and Autonomous Driving: A Systematic Survey of Spatial Representations, Generative Dynamics, and Benchma",
+  "tier": "L",
+  "why": "list/site repo"
  }
 ]

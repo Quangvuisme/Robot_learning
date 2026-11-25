@@ -1,4 +1,4 @@
-Counter({'L': 79, 'B': 32, 'S': 28, 'X': 28, 'R': 4, 'A': 2})
+Counter({'L': 80, 'B': 33, 'S': 28, 'X': 27, 'R': 4, 'A': 2})
 A shangchaohu718/PERA | PERA: Plug-in Experts for Robotic Actions in  | paper cited + official claim + runnable usage | weights
 B Axellwppr/HITCH | HITCH: Teaching a Vision-Language Model to Op | paper cited + runnable usage, no explicit 'official' claim | weights
 B yaozhang182/inhabitant | Inhabitant: An Agent Framework for Long-Horiz | paper cited + runnable usage, no explicit 'official' claim | weights
@@ -37,3 +37,4 @@ B SeonilChoi/humanoid-sim | humanoid-sim | paper cited + runnable usage, no expl
 B pramodpjingade/HumanoidAI-IdentityFusion | HumanoidAI-IdentityFusion | paper cited + runnable usage, no explicit 'official' claim 
 B axelmnts/legged_locomotion | legged_locomotion | paper cited + runnable usage, no explicit 'official' claim 
 B MaochengBai/BALI-Drive | Bidirectional Action-Latent Interaction with  | paper cited + runnable usage, no explicit 'official' claim 
+B GIlbertoRCP/Humanoid-locomotion | Humanoid-locomotion | paper cited + runnable usage, no explicit 'official' claim | weights

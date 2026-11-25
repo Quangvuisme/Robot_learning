@@ -398,5 +398,10 @@
   "title": "Humanoid-locomotion",
   "arxiv": null,
   "repo": "GIlbertoRCP/Humanoid-locomotion"
+ },
+ {
+  "title": "Continuously updated list of Visual World-Action Models for embodied AI and autonomous driving, with leaderboards (NAVSIM, nuScenes, Occ3D, LIBERO, CALVIN) and wamscore physics metrics (IVR, E_dn, \u0394_act). Companion to our survey in The Visual Computer.",
+  "arxiv": null,
+  "repo": "binayksingh/awesome-visual-world-action-models"
  }
 ]
