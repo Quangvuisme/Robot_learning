@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-25 22:33Z",
+ "generated": "2026-11-25 23:04Z",
  "items": [
   {
    "section": "Loco-Manipulation and Whole-Body-Control",
@@ -243,12 +243,12 @@
    "code": "https://github.com/haraduka/qddmm",
    "gh": {
     "official": true,
-    "stars": 9,
+    "stars": 10,
     "forks": 0,
     "issues": 0,
     "pushed": "2026-11-25",
     "created": "2026-11-18",
-    "spd": 1.29,
+    "spd": 1.43,
     "license": "MIT",
     "full": "haraduka/qddmm"
    }

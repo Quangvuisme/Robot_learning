@@ -9,7 +9,7 @@
  },
  {
   "repo": "NVlabs/GR00T-WholeBodyControl",
-  "stars": 3951,
+  "stars": 3952,
   "pushed": "2026-11-03",
   "created": "2025-11-05",
   "desc": "Welcome to GR00T Whole-Body Control (WBC)! This is a unified platform for developing and deploying advanced hu",
@@ -17,7 +17,7 @@
  },
  {
   "repo": "enactic/openarm",
-  "stars": 3724,
+  "stars": 3725,
   "pushed": "2026-11-25",
   "created": "2024-09-29",
   "desc": "A fully open-source humanoid arm for physical AI research and deployment in contact-rich environments.",
@@ -89,7 +89,7 @@
  },
  {
   "repo": "shengshu-ai/Motus2",
-  "stars": 661,
+  "stars": 662,
   "pushed": "2026-11-22",
   "created": "2026-09-11",
   "desc": "Motus2: A Self-Evolving General World Model for Dexterous Manipulation",
