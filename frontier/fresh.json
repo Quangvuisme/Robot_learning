@@ -1,6 +1,83 @@
 {
- "generated": "2026-11-25 04:33Z",
+ "generated": "2026-11-25 05:04Z",
  "papers": [
+  {
+   "id": "2611.33144",
+   "title": "PyRUA-Dex: Learning Programmatic Policies for Dexterous Bimanual Manipulation with Coding Agents",
+   "date": "2026-11-24",
+   "authors": [
+    "Feixiang Ruan",
+    "Guodong Lv",
+    "Kewei Zhang",
+    "Wenbo Huang"
+   ],
+   "abstract": "Learning for dexterous manipulation is limited by the scarcity of high-quality demonstrations: retargeting from human video is imprecise, teleoperation gives no force feedback to the operator, and exoskeleton-based collection is hard to scale up. We present PyRUA-Dex, a framework that enables coding",
+   "cat": "cs.RO",
+   "comment": "23 pages, 9 figures, 7 tables. Project page: https://vme0522.github.io/PyRUA-Dex/",
+   "code_in_text": []
+  },
+  {
+   "id": "2611.33141",
+   "title": "iWAM: Efficient Action Prediction from World Models without Explicit Future Prediction",
+   "date": "2026-11-24",
+   "authors": [
+    "Vansh Kapoor",
+    "Max Sobol Mark",
+    "Sreyas Venkataraman",
+    "Max Simchowitz"
+   ],
+   "abstract": "World-action models (WAMs) build policies on pretrained video-generation models, on the premise that predicting how a scene evolves helps determine how to act. However, generating future scenes is expensive for real-time control. This motivates efficient proxies for future imagination, but how to tr",
+   "cat": "cs.RO",
+   "comment": "",
+   "code_in_text": []
+  },
+  {
+   "id": "2611.33137",
+   "title": "Physicl Scenes: An Artist-created 3D Dataset for Learning Perception and Action",
+   "date": "2026-11-24",
+   "authors": [
+    "Yueh-Cheng Liu",
+    "Snehal Jauhri",
+    "Matthias Nießner",
+    "Angela Dai"
+   ],
+   "abstract": "We present Physicl Scenes, a high-quality artist-created and curated dataset of 6,499 3D scenes spanning household rooms, public interiors, and outdoor spaces. The dataset combines detailed geometry, physically based materials, and carefully composed environments with object- and part-level semantic",
+   "cat": "cs.CV",
+   "comment": "Project: https://liu115.github.io/physicl video: https://youtu.be/UgyQFQSU-oc",
+   "code_in_text": []
+  },
+  {
+   "id": "2611.33130",
+   "title": "Exploratory Midtraining for Robot Policies",
+   "date": "2026-11-24",
+   "authors": [
+    " Kshitiz",
+    "Zheyuan Hu",
+    "Robyn Wu",
+    "Yizhou Li"
+   ],
+   "abstract": "Robot policies predominantly learn from human-collected data emphasizing competent behavior, limiting coverage of the low-level behaviors needed to support autonomous improvement. We study how a form of midtraining can be used to build coverage over diverse low-level behaviors that connect challengi",
+   "cat": "cs.RO",
+   "comment": "",
+   "code_in_text": []
+  },
+  {
+   "id": "2611.33010",
+   "title": "Embodied AI Fails the Mirror Test: How a Simple Mirror Breaks Robot Policies",
+   "date": "2026-11-24",
+   "authors": [
+    "Xuanchen Liu",
+    "Hejun Zhang",
+    "Boxuan Dong",
+    "Ying Wu"
+   ],
+   "abstract": "Can a simple mirror expose the limitations of today's robotic manipulation policies? Inspired by the mirror self-recognition test in animal cognition, we investigate whether robot policies can reliably manipulate physical objects in scenes containing their reflections. We introduce RoboDojo-Mirror, ",
+   "cat": "cs.CV",
+   "comment": "Code: https://github.com/iPPLab/robodojo-mirror",
+   "code_in_text": [
+    "https://github.com/iPPLab/robodojo-mirror"
+   ]
+  },
   {
    "id": "2611.32944",
    "title": "DynaMimic: A Physics-Informed World Model for Humanoid Motion Tracking",
@@ -849,7 +926,7 @@
    "cat": "cs.RO",
    "comment": "",
    "hf": {
-    "up": 117,
+    "up": 122,
     "repo": "https://github.com/xyangzhou/WorldLeague",
     "stars": 18,
     "proj": "https://xyangzhou.github.io/WorldLeague/"
@@ -1478,7 +1555,7 @@
    "cat": "cs.RO",
    "comment": "Code: https://github.com/AIGeeksGroup/MotionMamba2.0. Website: https://aigeeksgroup.github.io/MotionMamba2.0",
    "hf": {
-    "up": 179,
+    "up": 180,
     "repo": "https://github.com/AIGeeksGroup/MotionMamba2.0",
     "stars": 23,
     "proj": "https://aigeeksgroup.github.io/MotionMamba2.0/"
@@ -1746,80 +1823,6 @@
    ],
    "abstract": "World-action models learn from future prediction, but accessing their future representations directly at test time can require costly frame generation. Methods that generate future frames before planning incur additional forward passes, while future co-training methods omit explicit future predictio",
    "cat": "cs.CV",
-   "comment": "",
-   "code_in_text": []
-  },
-  {
-   "id": "2611.29096",
-   "title": "JEPA-Tuner: From Predictive Fine-Tuning to Asynchronous Execution of Vision-Language-Action Models",
-   "date": "2026-11-21",
-   "authors": [
-    "Jingxiang Qu",
-    "Tian Xie",
-    "Youngjin Hong",
-    "Changhyun Choi"
-   ],
-   "abstract": "Vision-Language-Action (VLA) models generate sequences of actions from visual observations, proprioceptive states, and language instructions. In embodied interaction, executing these actions influences subsequent observations and robot states, providing a natural predictive signal for policy learnin",
-   "cat": "cs.RO",
-   "comment": "",
-   "code_in_text": []
-  },
-  {
-   "id": "2611.28943",
-   "title": "SANA-Robot: Efficient World Action Model with Hybrid Memory",
-   "date": "2026-11-21",
-   "authors": [
-    "Yuyang Zhao",
-    "Zekai Li",
-    "Yicheng Pan",
-    "Jiaming Tang"
-   ],
-   "abstract": "World action models (WAMs) leverage the world knowledge of video generation models to improve action generation by aligning visual prediction with action prediction. However, their prediction overhead prevents real-time deployment on edge devices, and they usually lack an effective long-term memory.",
-   "cat": "cs.RO",
-   "comment": "",
-   "code_in_text": []
-  },
-  {
-   "id": "2611.28873",
-   "title": "NAT: Scaling Causal Neural Action Tokenizers Across Embodiments",
-   "date": "2026-11-21",
-   "authors": [
-    "Ahad Jawaid",
-    "Alexander Swerdlow",
-    "Yu Xiang"
-   ],
-   "abstract": "Action tokenizers let robot policies treat control as autoregressive next-token prediction. As these policies are trained on larger and more diverse datasets, they will need a universal tokenizer that can encode actions from many embodiments and data sources, including ones it has not seen. We study",
-   "cat": "cs.RO",
-   "comment": "",
-   "code_in_text": []
-  },
-  {
-   "id": "2611.28871",
-   "title": "KineState-SWAM: A Surgical World Action Model with Explicit Kinematics and Causal Interaction Dynamics",
-   "date": "2026-11-21",
-   "authors": [
-    "Rulin Zhou",
-    "Yujie Ma",
-    "Rui Tang",
-    "Qiujie Song"
-   ],
-   "abstract": "Existing surgical world models often leave implicit how instrument motion drives localized tissue responses and how interaction history informs subsequent actions. We introduce KineState-SWAM, a surgical world-action model coupling action prediction and video generation through a persistent interact",
-   "cat": "cs.CV",
-   "comment": "",
-   "code_in_text": []
-  },
-  {
-   "id": "2611.28867",
-   "title": "LIBERO-MOR: A Multimodal Robustness Benchmark Across the Vision-Language-Action Pipeline",
-   "date": "2026-11-21",
-   "authors": [
-    "Qihang Chen",
-    "Tengjie Li",
-    "Hongwei Lu",
-    "Jason Wu"
-   ],
-   "abstract": "Vision-language-action (VLA) models have achieved strong performance on robot manipulation benchmarks. Translating this progress into reliable deployment calls for systematic evaluation of how policies respond to variations throughout the robot interaction loop. We introduce LIBERO-MOR, a multimodal",
-   "cat": "cs.RO",
    "comment": "",
    "code_in_text": []
   }
