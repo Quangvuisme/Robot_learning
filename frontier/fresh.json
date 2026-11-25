@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-25 00:34Z",
+ "generated": "2026-11-25 01:04Z",
  "papers": [
   {
    "id": "2611.31240",
@@ -122,7 +122,7 @@
    "cat": "cs.RO",
    "comment": "",
    "hf": {
-    "up": 87,
+    "up": 91,
     "repo": "https://github.com/xyangzhou/WorldLeague",
     "stars": 18,
     "proj": "https://xyangzhou.github.io/WorldLeague/"
@@ -172,7 +172,7 @@
    "cat": "cs.CV",
    "comment": "19 pages, 7 figures, 6 tables. Project page: https://pawteam-eai.github.io/native-lam/",
    "hf": {
-    "up": 23,
+    "up": 24,
     "repo": null,
     "stars": null,
     "proj": "https://pawteam-eai.github.io/native-lam/"
