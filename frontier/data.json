@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-24 23:34Z",
+ "generated": "2026-11-25 00:05Z",
  "items": [
   {
    "section": "Loco-Manipulation and Whole-Body-Control",
@@ -795,14 +795,6 @@
    "date": "2026-10-14",
    "url": "https://arxiv.org/abs/2610.19635",
    "title": "Eye, Robot: Learning Expressive Gaze Dynamics via a VLM-Guided Transformer-VAE, [CoRL 2026](https://openreview.net/forum?id=aILPNAxgHb)"
-  },
-  {
-   "section": "Locomotion",
-   "venue": "arXiv",
-   "date": "2026-10-10",
-   "url": "https://arxiv.org/abs/2610.14564",
-   "title": "Chunk-wise Model-based Policy Optimization, [CoRL 2026](https://openreview.net/forum?id=dngZLI0SlV)",
-   "website": "https://song-wx.github.io/cmpo.github.io/"
   }
  ]
 }
