@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-25 18:04Z",
+ "generated": "2026-11-25 18:33Z",
  "papers": [
   {
    "id": "2611.33144",
@@ -77,7 +77,7 @@
    "hf": {
     "up": 27,
     "repo": "https://github.com/iPPLab/robodojo-mirror",
-    "stars": 0,
+    "stars": 8,
     "proj": "https://ipplab.github.io/robodojo-mirror"
    },
    "code_in_text": [
@@ -1091,7 +1091,7 @@
    "hf": {
     "up": 1,
     "repo": "https://github.com/Damin3927/SWEEP-Bench",
-    "stars": 2,
+    "stars": 3,
     "proj": "http://damin3927.github.io/SWEEP-Bench"
    },
    "code_in_text": []
@@ -1587,7 +1587,7 @@
    "hf": {
     "up": 194,
     "repo": "https://github.com/AIGeeksGroup/MotionMamba2.0",
-    "stars": 29,
+    "stars": 34,
     "proj": "https://aigeeksgroup.github.io/MotionMamba2.0/"
    },
    "code_in_text": [
