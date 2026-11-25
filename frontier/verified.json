@@ -2160,19 +2160,8 @@
   "title": "HumanoidsStreetFighter",
   "arxiv": null,
   "repo": "fruffers/HumanoidsStreetFighter",
-  "id_in_readme": false,
-  "title_in_readme": false,
-  "name_in_readme": false,
-  "official_claim": false,
-  "unofficial_claim": false,
-  "coming_soon": false,
-  "usage": true,
-  "weights": false,
-  "len": 18087,
-  "evidence": [],
-  "head": " Autodiscovery: Humanoids Smash Down A cute, silly, Street Fighter\u2013style 2D robot brawler for Autodiscovery. It runs in the browser and is built with React + Three.js + Vite + TypeScript. 13 real-world humanoid robots fi",
   "tier": "X",
-  "why": "README does not mention the paper"
+  "why": "no README or private"
  },
  {
   "title": "humanoidrobotlar",
