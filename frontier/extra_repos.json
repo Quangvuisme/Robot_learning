@@ -428,5 +428,10 @@
   "title": "GuidedWAM: Training-Free Energy Guidance for World Action Models in Autonomous Driving",
   "arxiv": null,
   "repo": "TUMFTM/GuidedWAM"
+ },
+ {
+  "title": "A curated list of hardware\u2013software co-design in embodied robotics, from bimanual manipulation to legged locomotion.",
+  "arxiv": null,
+  "repo": "VisionAscend/awesome-embodied-codesign"
  }
 ]
