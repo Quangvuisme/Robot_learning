@@ -1,107 +1,82 @@
 {
  "papers": [
   {
-   "id": "2611.31863",
-   "title": "Ada-BFM: Adapting Behavior Foundation Models for Humanoid Scene Interaction",
-   "date": "2026-11-24",
-   "authors": [
-    "Furui Xu",
-    "Weishuai Zeng",
-    "Zirui Wang",
-    "Kangning Yin"
-   ],
-   "abstract": "Behavior Foundation Models (BFMs) have emerged as a promising paradigm for general-purpose humanoid control through pretraining on large-scale behavioral data. However, their proficiency in whole-body coordination does not readily extend to scene interaction, which requires adapting motion to scene-",
-   "cat": "cs.RO",
-   "comment": "",
-   "code_in_text": []
-  },
-  {
-   "id": "2611.31822",
-   "title": "G0.7: Scaling Up a Fast World Action Model with Long Context",
-   "date": "2026-11-24",
-   "authors": [
-    "Tianyuan Yuan",
-    "Baijun Ye",
-    "Shicheng Cao",
-    "Xing Nie"
-   ],
-   "abstract": "World action models (WAMs) adapt pretrained video generators for robot control by jointly predicting future camera frames and actions, transferring physical priors learned from video into manipulation policies. However, generating future frames before every action makes test-time inference too slow ",
-   "cat": "cs.CV",
-   "comment": "",
-   "code_in_text": []
-  },
-  {
-   "id": "2611.31782",
-   "title": "Many Senses, One World: Learning Hierarchical Multimodal World Representations for Bimanual Dexterous Manipulation",
-   "date": "2026-11-24",
-   "authors": [
-    "Jin Yang",
-    "Youlin Wang",
-    "Ping Wei"
-   ],
-   "abstract": "Bimanual dexterous manipulation relies on multimodal inputs that capture visual context and non-visual physical interaction cues for precise and coordinated control. To address the challenge of effectively integrating these modalities for policy learning, we propose HiMoDex, a two-stage framework ce",
-   "cat": "cs.RO",
-   "comment": "",
-   "code_in_text": []
-  },
-  {
-   "id": "2611.31740",
-   "title": "LeanWAM: Learning Latent World Action Models from Frozen Video Models",
-   "date": "2026-11-24",
-   "authors": [
-    "Shaolong Li",
-    "Hongze Fu",
-    "Joyce Chai",
-    "Yinpei Dai"
-   ],
-   "abstract": "World action models (WAMs) typically adapt large pretrained video generators to jointly predict future observations and robot actions, incurring substantial training and deployment costs. However, it remains unclear which future representations a policy actually needs and how compactly they can be r",
-   "cat": "cs.CV",
-   "comment": "Project Page: https://shaolonl-16.github.io/leanwam/",
-   "code_in_text": []
-  },
-  {
-   "id": "2611.31715",
-   "title": "Sparks of Weight-Space Programming for Robot Foundation Models",
-   "date": "2026-11-24",
-   "authors": [
-    "Kyle Coelho",
-    "Eugen Solowjow"
-   ],
-   "abstract": "This paper demonstrates an approach for correcting failures of robot foundation models (RFMs) without additional data collection, demonstrations, or training. We apply weight-space programming (WSP), in which a language-model agent directly reads and writes a neural network's parameters, to a large,",
-   "cat": "cs.RO",
-   "comment": "",
-   "code_in_text": []
-  },
-  {
-   "id": "2611.31705",
-   "title": "FoveaWAM: Role-Aware 4D World-Action Modeling for Dynamic Manipulation",
+   "id": "2611.31535",
+   "title": "Hi3R-VLA: Grounding Semantics and Actions in 3D",
    "date": "2026-11-23",
    "authors": [
-    "Jiaqi Yin",
-    "Baoyue Zhang",
-    "Jiyuan Zhang",
-    "Wenxuan Liu"
+    "Shizhe Chen",
+    "Paul Pacaud",
+    "Cordelia Schmid"
    ],
-   "abstract": "To manipulate a moving object, a policy must predict the scene at the moment its action executes, yet every millisecond spent predicting pushes that moment further away. Scene-level forecasts are computationally expensive, whereas target-centric forecasts can omit nearby objects that affect contact.",
+   "abstract": "While recent vision-language-action (VLA) models increasingly incorporate 3D geometry, how to effectively exploit it for precise and generalizable action prediction remains a central challenge. We introduce Hi3R-VLA, a 3D policy that grounds heterogeneous modalities - vision, language, and action - ",
    "cat": "cs.RO",
-   "comment": "19 pages, 9 figures. Supplementary material included",
+   "comment": "",
    "code_in_text": []
   },
   {
-   "id": "2611.30963",
-   "title": "Foresight Forcing: Learning Spatial Foresight for Robotic Manipulation",
+   "id": "2611.31511",
+   "title": "Near-Zero Forgetting Is Not Enough: Out-of-Distribution Robustness in Continual Learning of Pretrained VLAs",
    "date": "2026-11-23",
    "authors": [
-    "Mishuo Han",
-    "Zhixuan Liang",
-    "Zhaoyuan Wan",
-    "Wendi Chen"
+    "Adri\u00e0 Ruiz",
+    "Bart\u0142omiej Twardowski",
+    "Tinne Tuytelaars",
+    "Sergi Masip"
    ],
-   "abstract": "Robotic manipulation policies can improve action prediction by anticipating how objects move and how their spatial relationships change. World Action Models (WAMs) learn to predict future visual observations, but their training objectives typically leave the underlying 3D geometric transitions impli",
+   "abstract": "Recent work shows that pretrained Vision-Language-Action (VLA) models exhibit near-zero forgetting in specific continual learning settings with experience replay. However, robustness to domain shift of learned tasks remains unexplored. In this work, we study the robustness of Pi0 fine-tuned with exp",
+   "cat": "cs.LG",
+   "comment": "Presented at the CoRL 2026 Workshop on Robot Learning at Deployment (Learn@Deploy). Project page: https://adrrp.github.io/vla-ood-robustness",
+   "code_in_text": []
+  },
+  {
+   "id": "2611.31488",
+   "title": "Embodied Neuro-symbolic AI: Making Robot Behavior Auditable, Safe, and Scalable",
+   "date": "2026-11-23",
+   "authors": [
+    "Ruwan Wickramarachchi",
+    "Jonathan Francis",
+    "Alessandro Oltramari"
+   ],
+   "abstract": "Current Vision-Language-Action (VLA) end-to-end systems have driven major progress in robot learning, yet they still face persistent barriers to dependable real-world deployment. In practice, these models often exhibit brittle generalization under distribution shift (i.e., novel objects, layouts, li",
    "cat": "cs.RO",
-   "comment": "Project website: https://anson2333.github.io/foresight-forcing",
+   "comment": "6 pages, 2 figures",
+   "code_in_text": []
+  },
+  {
+   "id": "2611.31452",
+   "title": "Ground, Guide, Act: Improving VLA Spatial Generalization with Multimodal Foundation Models",
+   "date": "2026-11-23",
+   "authors": [
+    "Guangting Zheng",
+    "Shaoxuan Wang",
+    "Yu Yuan",
+    "Zhipeng Tang"
+   ],
+   "abstract": "Vision-Language-Action (VLA) models effectively learn action policies from robot demonstrations, but struggle to generalize to changes in object positions and task goals. General multimodal foundation models (MFMs) offer complementary scene understanding and spatial reasoning, but remain slow and un",
+   "cat": "cs.CV",
+   "comment": "",
    "code_in_text": []
   }
  ],
- "repos": []
+ "repos": [
+  {
+   "title": "ActMem: From Latent Memory Reasoning to Grounded Robotic Action",
+   "arxiv": "2611.25461",
+   "repo": "LigphiDonk/ActMem",
+   "id_in_readme": true,
+   "title_in_readme": true,
+   "name_in_readme": true,
+   "official_claim": false,
+   "unofficial_claim": false,
+   "coming_soon": false,
+   "usage": true,
+   "weights": true,
+   "len": 3350,
+   "evidence": [],
+   "head": " ActMem Inference code for ActMem, an in-context memory framework for VLA policies: a pretrained vision-language backbone (Qwen3-VL) reasons over the timestamped interaction history, its hidden states over the inferred s",
+   "tier": "B",
+   "why": "paper cited + runnable usage, no explicit 'official' claim"
+  }
+ ]
 }

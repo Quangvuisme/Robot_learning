@@ -1,4 +1,4 @@
-Counter({'L': 78, 'B': 31, 'S': 27, 'X': 26, 'R': 4, 'A': 2})
+Counter({'L': 78, 'B': 32, 'S': 27, 'X': 26, 'R': 4, 'A': 2})
 A shangchaohu718/PERA | PERA: Plug-in Experts for Robotic Actions in  | paper cited + official claim + runnable usage | weights
 B Axellwppr/HITCH | HITCH: Teaching a Vision-Language Model to Op | paper cited + runnable usage, no explicit 'official' claim | weights
 B yaozhang182/inhabitant | Inhabitant: An Agent Framework for Long-Horiz | paper cited + runnable usage, no explicit 'official' claim | weights
@@ -16,6 +16,7 @@ B Mind2Act/Mind2Act_World | Mind2Act World: A Diagnostic Benchmark for Em | pape
 B robfiras/loco-mujoco | LocoMuJoCo: A Comprehensive Imitation Learnin | paper cited + runnable usage, no explicit 'official' claim 
 B franciscoliu/SAFI | Teaching Vision-Language-Action Models to Sto | paper cited + runnable usage, no explicit 'official' claim | weights
 B dipper13579/urbantwin-sim2real-lidar | Fixing the Twin, Not the Detector: Sim-to-Rea | paper cited + runnable usage, no explicit 'official' claim | weights
+B LigphiDonk/ActMem | ActMem: From Latent Memory Reasoning to Groun | paper cited + runnable usage, no explicit 'official' claim | weights
 B starsholic/AeroRSI | AeroRSI: Recursive Self-Improvement for Aeria | paper cited + runnable usage, no explicit 'official' claim | weights
 B AIGeeksGroup/WAM-Policy | WAM-Policy: World Action Models with On-Polic | paper cited + runnable usage, no explicit 'official' claim | weights
 B zajirA1/humanoid | humanoid | paper cited + runnable usage, no explicit 'official' claim 
