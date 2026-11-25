@@ -383,5 +383,10 @@
   "title": "FineDex: Bridging Fine-Grained Human\u2013Object Interaction Generation to Dexterous Humanoid Manipulation",
   "arxiv": null,
   "repo": "zyjOrz/FineDex"
+ },
+ {
+  "title": "GPU evaluation harness for failure recovery in Vision-Language-Action robot policies (OpenVLA-7B on LIBERO, run on Modal).",
+  "arxiv": null,
+  "repo": "tpshadow11/vla-self-correction-harness"
  }
 ]

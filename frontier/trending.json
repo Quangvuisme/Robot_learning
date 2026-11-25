@@ -41,7 +41,7 @@
  },
  {
   "repo": "HybridRobotics/supermimic",
-  "stars": 2028,
+  "stars": 2030,
   "pushed": "2026-11-21",
   "created": "2026-11-10",
   "desc": "Humanoid whole-body motion tracking with one differentiable world model.",
@@ -73,7 +73,7 @@
  },
  {
   "repo": "Robbyant/lingbot-touch",
-  "stars": 828,
+  "stars": 829,
   "pushed": "2026-11-11",
   "created": "2026-11-09",
   "desc": "Learning Heterogeneous Tactile Representation for General Dexterous Manipulation",
@@ -113,7 +113,7 @@
  },
  {
   "repo": "Motphys/Uni-SuperMimic",
-  "stars": 318,
+  "stars": 319,
   "pushed": "2026-11-21",
   "created": "2026-10-22",
   "desc": "SuperMimic-UniLab: An Independent reproduction of SuperMimic on UniLab for whole-body humanoid motion tracking",
@@ -184,19 +184,19 @@
   "q": "dexterous manipulation"
  },
  {
+  "repo": "bytepioneerX/Acp_supermimic_vibed",
+  "stars": 55,
+  "pushed": "2026-11-05",
+  "created": "2026-11-05",
+  "desc": "ACP reproduction + SuperMimic for Unitree G1 humanoid locomotion, contact planning, parkour, and whole-body co",
+  "q": "humanoid whole-body control"
+ },
+ {
   "repo": "kaibohex/muscle-supermimic",
   "stars": 55,
   "pushed": "2026-11-14",
   "created": "2026-10-26",
   "desc": "SuperMimic whole-body motion tracking for muscle-driven humanoids on mjlab.",
   "q": "humanoid motion tracking"
- },
- {
-  "repo": "bytepioneerX/Acp_supermimic_vibed",
-  "stars": 54,
-  "pushed": "2026-11-05",
-  "created": "2026-11-05",
-  "desc": "ACP reproduction + SuperMimic for Unitree G1 humanoid locomotion, contact planning, parkour, and whole-body co",
-  "q": "humanoid whole-body control"
  }
 ]
