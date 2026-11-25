@@ -41,7 +41,7 @@
  },
  {
   "repo": "HybridRobotics/supermimic",
-  "stars": 2030,
+  "stars": 2031,
   "pushed": "2026-11-21",
   "created": "2026-11-10",
   "desc": "Humanoid whole-body motion tracking with one differentiable world model.",
@@ -49,7 +49,7 @@
  },
  {
   "repo": "unitreerobotics/xr_teleoperate",
-  "stars": 1739,
+  "stars": 1740,
   "pushed": "2026-11-17",
   "created": "2024-08-05",
   "desc": "This repository implements teleoperation of the Unitree humanoid robot using XR Devices.",
@@ -57,7 +57,7 @@
  },
  {
   "repo": "RainBowLuoCS/Gamer",
-  "stars": 1505,
+  "stars": 1506,
   "pushed": "2026-11-16",
   "created": "2026-10-30",
   "desc": "Official Implementation of Gamer: A Generalist Vision-Language-Action Foundation Model for Long-Horizon Real-T",
@@ -89,7 +89,7 @@
  },
  {
   "repo": "shengshu-ai/Motus2",
-  "stars": 647,
+  "stars": 648,
   "pushed": "2026-11-22",
   "created": "2026-09-11",
   "desc": "Motus2: A Self-Evolving General World Model for Dexterous Manipulation",

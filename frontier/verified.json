@@ -3127,5 +3127,23 @@
   "head": " VLA Self-Correction Harness A GPU evaluation harness for studying failure recovery in Vision-Language-Action (VLA) robot policies. It runs OpenVLA-7B on the LIBERO manipulation benchmark on Modal, captures every failed ",
   "tier": "X",
   "why": "README does not mention the paper"
+ },
+ {
+  "title": "From world models to world action models (WAMs): a bilingual atlas of embodied AI history, system architectures, classic papers and evidence-tested frontier trends.",
+  "arxiv": null,
+  "repo": "hyfine/embodied-world-models-atlas",
+  "id_in_readme": false,
+  "title_in_readme": false,
+  "name_in_readme": false,
+  "official_claim": false,
+  "unofficial_claim": false,
+  "coming_soon": false,
+  "usage": false,
+  "weights": true,
+  "len": 9418,
+  "evidence": [],
+  "head": " Embodied AI \u00d7 World Models Atlas From world models to world action models: how learning what happens next can shape what a robot does next. English \u00b7 \u7b80\u4f53\u4e2d\u6587 Prediction and action meet in cascaded and joint WAMs. Planning ",
+  "tier": "L",
+  "why": "list/site repo"
  }
 ]

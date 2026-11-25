@@ -1,6 +1,36 @@
 {
  "papers": [
   {
+   "id": "2611.32944",
+   "title": "DynaMimic: A Physics-Informed World Model for Humanoid Motion Tracking",
+   "date": "2026-11-24",
+   "authors": [
+    "Chaoyue Xing",
+    "Linyi Huang",
+    "Yiting He",
+    "Yixuan Yin"
+   ],
+   "abstract": "Whole-body motion tracking enables humanoid robots to reproduce diverse skills from human demonstrations. Existing model-free reinforcement learning methods either distill motion specialists into a single policy at the cost of performance or train a generalist policy directly using cluster-scale com",
+   "cat": "cs.RO",
+   "comment": "",
+   "code_in_text": []
+  },
+  {
+   "id": "2611.32937",
+   "title": "Self-Sensing Compliant Anthropomorphic Hand for Speed-Dictated Shared Force Control in Teleoperation",
+   "date": "2026-11-24",
+   "authors": [
+    "Huijiang Wang",
+    "Yu Zhang",
+    "Rui Chen",
+    "Tristan Bonato"
+   ],
+   "abstract": "In vision-based teleoperation of robotic hands, the operator receives no haptic feedback and therefore struggles to regulate the grasp force, while adding tactile sensors to the fingers increases wiring, cost and integration complexity. Compliant hands offer an alternative, as their mechanical compl",
+   "cat": "cs.RO",
+   "comment": "This work has been submitted to the IEEE for possible publication. Copyright may be transferred without notice, after which this version may no longer be accessible. Project page: https://huijiang-wang.github.io/selfsensing-hand/",
+   "code_in_text": []
+  },
+  {
    "id": "2611.31903",
    "title": "Beyond Expert Replay: Cross-Instruction Anchoring for Continual Vision-Language-Action Learning",
    "date": "2026-11-24",
