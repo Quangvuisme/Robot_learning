@@ -41,7 +41,7 @@
  },
  {
   "repo": "HybridRobotics/supermimic",
-  "stars": 2031,
+  "stars": 2032,
   "pushed": "2026-11-21",
   "created": "2026-11-10",
   "desc": "Humanoid whole-body motion tracking with one differentiable world model.",
@@ -57,7 +57,7 @@
  },
  {
   "repo": "RainBowLuoCS/Gamer",
-  "stars": 1508,
+  "stars": 1509,
   "pushed": "2026-11-16",
   "created": "2026-10-30",
   "desc": "Official Implementation of Gamer: A Generalist Vision-Language-Action Foundation Model for Long-Horizon Real-T",
@@ -73,7 +73,7 @@
  },
  {
   "repo": "Robbyant/lingbot-touch",
-  "stars": 831,
+  "stars": 832,
   "pushed": "2026-11-11",
   "created": "2026-11-09",
   "desc": "Learning Heterogeneous Tactile Representation for General Dexterous Manipulation",
@@ -194,7 +194,7 @@
  {
   "repo": "kaibohex/muscle-supermimic",
   "stars": 55,
-  "pushed": "2026-11-14",
+  "pushed": "2026-11-25",
   "created": "2026-10-26",
   "desc": "SuperMimic whole-body motion tracking for muscle-driven humanoids on mjlab.",
   "q": "humanoid motion tracking"

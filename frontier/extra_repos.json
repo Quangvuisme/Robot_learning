@@ -403,5 +403,15 @@
   "title": "Continuously updated list of Visual World-Action Models for embodied AI and autonomous driving, with leaderboards (NAVSIM, nuScenes, Occ3D, LIBERO, CALVIN) and wamscore physics metrics (IVR, E_dn, \u0394_act). Companion to our survey in The Visual Computer.",
   "arxiv": null,
   "repo": "binayksingh/awesome-visual-world-action-models"
+ },
+ {
+  "title": "Humanoid Robot",
+  "arxiv": null,
+  "repo": "thepitho/H175_V2"
+ },
+ {
+  "title": "Vision-Language-Action (VLA) pipeline for autonomous control and manipulation of the Dobot Nova 2 robotic arm",
+  "arxiv": null,
+  "repo": "raghulrajg/dobot-nova2-vla-control"
  }
 ]

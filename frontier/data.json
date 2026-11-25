@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-25 06:03Z",
+ "generated": "2026-11-25 06:34Z",
  "items": [
   {
    "section": "Loco-Manipulation and Whole-Body-Control",
@@ -200,7 +200,7 @@
     "stars": 7,
     "forks": 0,
     "issues": 0,
-    "pushed": "2026-11-18",
+    "pushed": "2026-11-25",
     "created": "2026-11-18",
     "spd": 1.0,
     "license": "MIT",
