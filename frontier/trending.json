@@ -57,7 +57,7 @@
  },
  {
   "repo": "RainBowLuoCS/Gamer",
-  "stars": 1506,
+  "stars": 1507,
   "pushed": "2026-11-16",
   "created": "2026-10-30",
   "desc": "Official Implementation of Gamer: A Generalist Vision-Language-Action Foundation Model for Long-Horizon Real-T",
@@ -105,7 +105,7 @@
  },
  {
   "repo": "Roboparty/UFO",
-  "stars": 351,
+  "stars": 352,
   "pushed": "2026-11-23",
   "created": "2026-07-13",
   "desc": "An open-source unsupervised RL framework for humanoid control with FB/TeCH training, robot-aware motion import",

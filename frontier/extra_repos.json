@@ -393,5 +393,10 @@
   "title": "From world models to world action models (WAMs): a bilingual atlas of embodied AI history, system architectures, classic papers and evidence-tested frontier trends.",
   "arxiv": null,
   "repo": "hyfine/embodied-world-models-atlas"
+ },
+ {
+  "title": "Humanoid-locomotion",
+  "arxiv": null,
+  "repo": "GIlbertoRCP/Humanoid-locomotion"
  }
 ]

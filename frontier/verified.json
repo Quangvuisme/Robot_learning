@@ -3145,5 +3145,12 @@
   "head": " Embodied AI \u00d7 World Models Atlas From world models to world action models: how learning what happens next can shape what a robot does next. English \u00b7 \u7b80\u4f53\u4e2d\u6587 Prediction and action meet in cascaded and joint WAMs. Planning ",
   "tier": "L",
   "why": "list/site repo"
+ },
+ {
+  "title": "Humanoid-locomotion",
+  "arxiv": null,
+  "repo": "GIlbertoRCP/Humanoid-locomotion",
+  "tier": "X",
+  "why": "no README or private"
  }
 ]
