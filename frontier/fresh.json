@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-25 00:05Z",
+ "generated": "2026-11-25 00:34Z",
  "papers": [
   {
    "id": "2611.31240",
@@ -122,7 +122,7 @@
    "cat": "cs.RO",
    "comment": "",
    "hf": {
-    "up": 86,
+    "up": 87,
     "repo": "https://github.com/xyangzhou/WorldLeague",
     "stars": 18,
     "proj": "https://xyangzhou.github.io/WorldLeague/"
@@ -355,7 +355,7 @@
    "hf": {
     "up": 13,
     "repo": "https://github.com/HaoranZhangumich/DexDuet",
-    "stars": 1,
+    "stars": 10,
     "proj": "https://rcl-robotics.github.io/Dexduet.io/"
    },
    "code_in_text": []
