@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-25 11:03Z",
+ "generated": "2026-11-25 11:34Z",
  "papers": [
   {
    "id": "2611.33144",
@@ -1326,7 +1326,7 @@
    "cat": "cs.RO",
    "comment": "87 pages, 25 figures, Project Page: https://baai-eai.github.io/innata-0/",
    "hf": {
-    "up": 41,
+    "up": 42,
     "repo": null,
     "stars": null,
     "proj": "https://baai-eai.github.io/innata-0/"

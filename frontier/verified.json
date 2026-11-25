@@ -3311,5 +3311,23 @@
   "head": " 2PWBC \u00b7 Whole-Body Control on UniLab 2PWBC (2 Policy Whole-Body Control) coordinates locomotion and manipulation for Go2 and L1-W robots equipped with Airbot arms. In MuJoCo, the robots track end-effector targets while ",
   "tier": "B",
   "why": "paper cited + runnable usage, no explicit 'official' claim"
+ },
+ {
+  "title": "Agentic World Action Model for Embodied Intelligence",
+  "arxiv": null,
+  "repo": "ruiqi-song/AWAM",
+  "id_in_readme": false,
+  "title_in_readme": true,
+  "name_in_readme": true,
+  "official_claim": false,
+  "unofficial_claim": false,
+  "coming_soon": false,
+  "usage": false,
+  "weights": false,
+  "len": 60,
+  "evidence": [],
+  "head": " AWAM Agentic World Action Model for Embodied Intelligence ",
+  "tier": "S",
+  "why": "mentions paper but no usage instructions"
  }
 ]

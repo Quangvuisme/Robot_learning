@@ -448,5 +448,10 @@
   "title": "2PWBC (2 Policy Whole-Body Control) coordinates locomotion and manipulation for Go2 and L1-W robots equipped with Airbot arms. ",
   "arxiv": null,
   "repo": "lksk-bit/legged-manipulation_unilab-2PWBC"
+ },
+ {
+  "title": "Agentic World Action Model for Embodied Intelligence",
+  "arxiv": null,
+  "repo": "ruiqi-song/AWAM"
  }
 ]
