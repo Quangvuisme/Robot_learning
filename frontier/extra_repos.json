@@ -423,5 +423,10 @@
   "title": "holosoma_beyondmimic_supermimic",
   "arxiv": null,
   "repo": "pjm-jpg/humanoid_whole_body_control"
+ },
+ {
+  "title": "GuidedWAM: Training-Free Energy Guidance for World Action Models in Autonomous Driving",
+  "arxiv": null,
+  "repo": "TUMFTM/GuidedWAM"
  }
 ]

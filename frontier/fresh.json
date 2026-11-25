@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-25 06:34Z",
+ "generated": "2026-11-25 07:33Z",
  "papers": [
   {
    "id": "2611.33144",
@@ -75,7 +75,7 @@
    "cat": "cs.CV",
    "comment": "Code: https://github.com/iPPLab/robodojo-mirror",
    "hf": {
-    "up": 7,
+    "up": 21,
     "repo": "https://github.com/iPPLab/robodojo-mirror",
     "stars": 0,
     "proj": "https://ipplab.github.io/robodojo-mirror"
@@ -938,7 +938,7 @@
    "cat": "cs.RO",
    "comment": "",
    "hf": {
-    "up": 130,
+    "up": 134,
     "repo": "https://github.com/xyangzhou/WorldLeague",
     "stars": 18,
     "proj": "https://xyangzhou.github.io/WorldLeague/"
@@ -988,7 +988,7 @@
    "cat": "cs.CV",
    "comment": "19 pages, 7 figures, 6 tables. Project page: https://pawteam-eai.github.io/native-lam/",
    "hf": {
-    "up": 25,
+    "up": 27,
     "repo": null,
     "stars": null,
     "proj": "https://pawteam-eai.github.io/native-lam/"
@@ -1308,7 +1308,7 @@
    "cat": "cs.RO",
    "comment": "87 pages, 25 figures, Project Page: https://baai-eai.github.io/innata-0/",
    "hf": {
-    "up": 20,
+    "up": 24,
     "repo": null,
     "stars": null,
     "proj": "https://baai-eai.github.io/innata-0/"
@@ -1567,7 +1567,7 @@
    "cat": "cs.RO",
    "comment": "Code: https://github.com/AIGeeksGroup/MotionMamba2.0. Website: https://aigeeksgroup.github.io/MotionMamba2.0",
    "hf": {
-    "up": 183,
+    "up": 186,
     "repo": "https://github.com/AIGeeksGroup/MotionMamba2.0",
     "stars": 29,
     "proj": "https://aigeeksgroup.github.io/MotionMamba2.0/"
