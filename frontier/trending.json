@@ -41,7 +41,7 @@
  },
  {
   "repo": "HybridRobotics/supermimic",
-  "stars": 2046,
+  "stars": 2047,
   "pushed": "2026-11-21",
   "created": "2026-11-10",
   "desc": "Humanoid whole-body motion tracking with one differentiable world model.",
@@ -57,7 +57,7 @@
  },
  {
   "repo": "RainBowLuoCS/Gamer",
-  "stars": 1539,
+  "stars": 1540,
   "pushed": "2026-11-16",
   "created": "2026-10-30",
   "desc": "Official Implementation of Gamer: A Generalist Vision-Language-Action Foundation Model for Long-Horizon Real-T",
@@ -137,7 +137,7 @@
  },
  {
   "repo": "CumulusAlpha/Dex-Supermimic",
-  "stars": 166,
+  "stars": 167,
   "pushed": "2026-11-03",
   "created": "2026-10-26",
   "desc": "This is a reproduction of SuperMimic for dexterous hand manipulation tasks.",
