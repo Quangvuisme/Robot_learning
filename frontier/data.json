@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-25 21:04Z",
+ "generated": "2026-11-25 21:35Z",
  "items": [
   {
    "section": "Loco-Manipulation and Whole-Body-Control",
@@ -465,6 +465,25 @@
    "section": "Loco-Manipulation and Whole-Body-Control",
    "venue": "arXiv",
    "date": "2026-11-01",
+   "url": "https://arxiv.org/abs/2611.08039",
+   "title": "HITCH: Teaching a Vision-Language Model to Operate a Humanoid through a Whole-Body Harness",
+   "website": "https://hitch.axell.top/",
+   "gh": {
+    "official": false,
+    "stars": 27,
+    "forks": 3,
+    "issues": 0,
+    "pushed": "2026-11-16",
+    "created": "2026-11-16",
+    "spd": 3.0,
+    "license": "MIT",
+    "full": "Axellwppr/HITCH"
+   }
+  },
+  {
+   "section": "Loco-Manipulation and Whole-Body-Control",
+   "venue": "arXiv",
+   "date": "2026-11-01",
    "url": "https://arxiv.org/abs/2611.09605",
    "title": "DKWBC: Decoupling Motion Tracking and Balancing for Humanoid Whole-Body Control",
    "website": "https://robbyant-research.github.io/DKWBC/",
@@ -578,14 +597,6 @@
    "url": "https://arxiv.org/abs/2611.08664",
    "title": "ForPC: Force-Aware Whole-Body Control for Precise Humanoid Cart Pushing",
    "website": "https://roboforpc.github.io/"
-  },
-  {
-   "section": "Loco-Manipulation and Whole-Body-Control",
-   "venue": "arXiv",
-   "date": "2026-11-01",
-   "url": "https://arxiv.org/abs/2611.08039",
-   "title": "HITCH: Teaching a Vision-Language Model to Operate a Humanoid through a Whole-Body Harness",
-   "website": "https://hitch.axell.top/"
   },
   {
    "section": "Loco-Manipulation and Whole-Body-Control",
