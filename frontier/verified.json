@@ -1,5 +1,26 @@
 [
  {
+  "title": "EgoLoAF: Learning Humanoid Loco-Manipulation from Egocentric Demonstrations with Hand-Object Affordances, [repository](https://github.com/EgoLoAF/EgoLoAF-Official)",
+  "arxiv": "2611.32260",
+  "repo": "EgoLoAF/EgoLoAF-Official",
+  "id_in_readme": false,
+  "title_in_readme": false,
+  "name_in_readme": true,
+  "official_claim": true,
+  "unofficial_claim": false,
+  "coming_soon": true,
+  "usage": false,
+  "weights": false,
+  "len": 400,
+  "evidence": [
+   "official: ...per](https://egoloaf.github.io/assets/EgoLoAF.pdf)  </div>  Official code repository for **EgoLoAF**.  ## Code release  **Coming soon...",
+   "soon: ...ficial code repository for **EgoLoAF**.  ## Code release  **Coming soon.**  The code will be released in this repository. Please st..."
+  ],
+  "head": " EgoLoAF Learning Humanoid Loco-Manipulationfrom Egocentric Demonstrations with Hand\u2013Object Affordances Project Page \u00b7 Paper Official code repository for EgoLoAF. Code release Coming soon. The code will be released in th",
+  "tier": "S",
+  "why": "code coming soon"
+ },
+ {
   "title": "Awaken-HI: Scaling Humanoid Intelligence with Whole-Body Human Experience",
   "arxiv": "2611.26420",
   "repo": "engineai-robotics/Awaken-HI",

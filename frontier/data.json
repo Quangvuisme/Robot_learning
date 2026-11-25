@@ -1,6 +1,52 @@
 {
- "generated": "2026-11-25 13:04Z",
+ "generated": "2026-11-25 13:34Z",
  "items": [
+  {
+   "section": "Loco-Manipulation and Whole-Body-Control",
+   "venue": "arXiv",
+   "date": "2026-11-24",
+   "url": "https://arxiv.org/abs/2611.32944",
+   "title": "DynaMimic: A Physics-Informed World Model for Humanoid Motion Tracking"
+  },
+  {
+   "section": "Loco-Manipulation and Whole-Body-Control",
+   "venue": "arXiv",
+   "date": "2026-11-24",
+   "url": "https://arxiv.org/abs/2611.32665",
+   "title": "DiffGR00T: Execution-Aware Differentiable Training for Humanoid Whole-Body Vision-Language-Action Models"
+  },
+  {
+   "section": "Loco-Manipulation and Whole-Body-Control",
+   "venue": "arXiv",
+   "date": "2026-11-24",
+   "url": "https://arxiv.org/abs/2611.32642",
+   "title": "BARE: Body-Aware Reflexive Evasion for Humanoid Robots"
+  },
+  {
+   "section": "Loco-Manipulation and Whole-Body-Control",
+   "venue": "arXiv",
+   "date": "2026-11-24",
+   "url": "https://arxiv.org/abs/2611.32260",
+   "title": "EgoLoAF: Learning Humanoid Loco-Manipulation from Egocentric Demonstrations with Hand-Object Affordances, [repository](https://github.com/EgoLoAF/EgoLoAF-Official)",
+   "gh": {
+    "official": false,
+    "stars": 0,
+    "forks": 0,
+    "issues": 0,
+    "pushed": "2026-11-20",
+    "created": "2026-11-20",
+    "spd": 0.0,
+    "license": null,
+    "full": "EgoLoAF/EgoLoAF-Official"
+   }
+  },
+  {
+   "section": "Loco-Manipulation and Whole-Body-Control",
+   "venue": "arXiv",
+   "date": "2026-11-24",
+   "url": "https://arxiv.org/abs/2611.31863",
+   "title": "Ada-BFM: Adapting Behavior Foundation Models for Humanoid Scene Interaction"
+  },
   {
    "section": "Loco-Manipulation and Whole-Body-Control",
    "venue": "arXiv",
