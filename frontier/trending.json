@@ -41,7 +41,7 @@
  },
  {
   "repo": "HybridRobotics/supermimic",
-  "stars": 2039,
+  "stars": 2040,
   "pushed": "2026-11-21",
   "created": "2026-11-10",
   "desc": "Humanoid whole-body motion tracking with one differentiable world model.",
@@ -57,7 +57,7 @@
  },
  {
   "repo": "RainBowLuoCS/Gamer",
-  "stars": 1519,
+  "stars": 1521,
   "pushed": "2026-11-16",
   "created": "2026-10-30",
   "desc": "Official Implementation of Gamer: A Generalist Vision-Language-Action Foundation Model for Long-Horizon Real-T",
@@ -161,7 +161,7 @@
  },
  {
   "repo": "TsinghuaC3I/HandsOn",
-  "stars": 84,
+  "stars": 85,
   "pushed": "2026-11-17",
   "created": "2026-10-13",
   "desc": "HandsOn: a large-scale simulation benchmark for generalizable dexterous manipulation",

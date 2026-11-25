@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-25 09:03Z",
+ "generated": "2026-11-25 09:33Z",
  "papers": [
   {
    "id": "2611.33144",
@@ -250,7 +250,7 @@
    "hf": {
     "up": 1,
     "repo": "https://github.com/ReFocus-Robotics/ReFocus",
-    "stars": null,
+    "stars": 1,
     "proj": "https://refocus-robotics.github.io/"
    },
    "code_in_text": []
@@ -965,9 +965,9 @@
    "cat": "cs.RO",
    "comment": "Project website: https://anson2333.github.io/foresight-forcing",
    "hf": {
-    "up": 0,
+    "up": 1,
     "repo": "https://github.com/anson2333/ForesightForcing",
-    "stars": null,
+    "stars": 3,
     "proj": "https://anson2333.github.io/foresight-forcing/"
    },
    "code_in_text": []
@@ -1320,7 +1320,7 @@
    "cat": "cs.RO",
    "comment": "87 pages, 25 figures, Project Page: https://baai-eai.github.io/innata-0/",
    "hf": {
-    "up": 38,
+    "up": 40,
     "repo": null,
     "stars": null,
     "proj": "https://baai-eai.github.io/innata-0/"

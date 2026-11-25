@@ -3274,10 +3274,10 @@
   "unofficial_claim": false,
   "coming_soon": false,
   "usage": false,
-  "weights": true,
-  "len": 21987,
+  "weights": false,
+  "len": 6855,
   "evidence": [],
-  "head": " Awesome Embodied Co-Design \u622a\u81f3 2026 \u5e74 11 \u6708 25 \u65e5\uff0c\u6536\u5f55 99 \u4e2a\u6761\u76ee\uff0c\u8986\u76d6 1982 \u5e74\u7684\u5de5\u4e1a\u88c5\u914d\u5230\u8fd1\u671f\u7684\u9ad8\u901f\u53cc\u81c2\u4e0e\u5f62\u6001\u641c\u7d22\u3002\u6bcf\u6761\u7ed9\u51fa\u673a\u6784\u6216\u63a5\u53e3\u3001\u4e0e\u5176\u914d\u5408\u7684\u63a7\u5236\u6216\u5b66\u4e60\u65b9\u6cd5\uff0c\u4ee5\u53ca\u8bba\u6587\u5b9e\u9645\u6d4b\u8fc7\u7684\u4efb\u52a1\u3002 \u9605\u8bfb\u8def\u7ebf \u60f3\u5f04\u6e05\u7684\u95ee\u9898 \u5efa\u8bae\u5148\u8bfb \u770b\u54ea\u7ec4\u8bc1\u636e --------- \u793a\u6559\u5668\u4f1a\u6539\u53d8\u673a\u5668\u4eba\u5b66\u5230\u7684\u52a8\u4f5c\u5417\uff1f ALOHA \u2192 Flash ALOHA \u4ece\u4e3b\u4ece\u5173\u8282\u6620\u5c04\u5230\u76f4\u63a5\u62d6\u52a8\u53cc\u81c2\u3002\u5bf9\u7167\u88c5\u7535\u6c60\u7684\u6210\u529f\u7387\u4e0e\u8017\u65f6\uff0c",
+  "head": " Awesome Embodied Co-Design \u7ed9\u5b9a\u4efb\u52a1\u548c\u6a21\u578b\uff0c\u6539\u53d8\u673a\u5668\u4eba\u7684\u8eab\u4f53\u3001\u611f\u77e5\u6216\u63a7\u5236\u63a5\u53e3\uff0c\u771f\u673a\u8868\u73b0\u4f1a\u600e\u6837\u53d8\u5316\uff1f \u8fd9\u91cc\u6536\u5f55\u80fd\u7528\u5b9e\u9a8c\u56de\u7b54\u8fd9\u4e2a\u95ee\u9898\u7684\u7814\u7a76\uff0c\u4e5f\u5173\u6ce8\u793a\u6559\u88c5\u7f6e\u5982\u4f55\u901a\u8fc7\u6570\u636e\u6539\u53d8\u5b66\u51fa\u6765\u7684\u884c\u4e3a\u3002\u622a\u81f3 2026 \u5e74 11 \u6708 25 \u65e5\uff0c\u7cbe\u9009 20 \u9879\u7814\u7a76\uff0c\u5176\u4e2d 16 \u9879\uff0880%\uff09 \u7684\u6240\u5f15\u65e9\u671f\u516c\u5f00\u7248\u672c\u53d1\u8868\u4e8e 2025\u20132026 \u5e74\u3002 \u4ece\u4f60\u7684\u5b9e\u9a8c\u95ee\u9898\u51fa\u53d1 \u5efa\u8bae\u5148\u8bfb ------ \u793a\u6559\u90fd\u6210\u529f\u4e86\uff0c\u7b56\u7565\u4e3a\u4ec0\u4e48\u8fd8\u4f1a\u7ed5\u8def\u3001\u9009\u9519\u624b\uff1f(dem",
   "tier": "L",
   "why": "list/site repo"
  },
@@ -3285,18 +3285,7 @@
   "title": "Website for SURENA humanoid robots family",
   "arxiv": null,
   "repo": "mohammadabedi1179/surena-humanoid",
-  "id_in_readme": false,
-  "title_in_readme": false,
-  "name_in_readme": false,
-  "official_claim": false,
-  "unofficial_claim": false,
-  "coming_soon": false,
-  "usage": true,
-  "weights": false,
-  "len": 3190,
-  "evidence": [],
-  "head": " SURENA / Awake An interactive website for SURENA, the Iranian humanoid robot family developed at CAST, University of Tehran. The opening uses the supplied Surena IV geometry with a pointer-following head, cinematic ligh",
   "tier": "X",
-  "why": "README does not mention the paper"
+  "why": "no README or private"
  }
 ]
