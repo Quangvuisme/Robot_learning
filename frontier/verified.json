@@ -3248,8 +3248,19 @@
   "title": "holosoma_beyondmimic_supermimic",
   "arxiv": null,
   "repo": "pjm-jpg/humanoid_whole_body_control",
+  "id_in_readme": false,
+  "title_in_readme": false,
+  "name_in_readme": false,
+  "official_claim": false,
+  "unofficial_claim": false,
+  "coming_soon": false,
+  "usage": true,
+  "weights": true,
+  "len": 5284,
+  "evidence": [],
+  "head": " Holosoma Holosoma (Greek: \"whole-body\") is a comprehensive humanoid robotics framework for training and deploying reinforcement learning policies on humanoid robots, as well as motion retargeting. Supports locomotion (v",
   "tier": "X",
-  "why": "no README or private"
+  "why": "README does not mention the paper"
  },
  {
   "title": "GuidedWAM: Training-Free Energy Guidance for World Action Models in Autonomous Driving",

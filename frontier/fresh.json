@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-26 02:04Z",
+ "generated": "2026-11-26 02:33Z",
  "papers": [
   {
    "id": "2611.33739",
@@ -105,6 +105,123 @@
    "code_in_text": [
     "https://github.com/wongyun-yu/DexEngine"
    ]
+  },
+  {
+   "id": "2611.33498",
+   "title": "A 3D Simulator for Passive SPAD Imaging",
+   "date": "2026-11-24",
+   "authors": [
+    "Elia Mergaert",
+    "Rong Zou",
+    "Roberto Pellerito",
+    "Simone Nascivera"
+   ],
+   "abstract": "Passive single-photon avalanche diode (SPAD) cameras provide short-exposure observations for low-light perception, but collecting task annotations for these sensors remains difficult, and annotated datasets are scarce. We present a 3D simulation pipeline that generates realistic photon detections to",
+   "cat": "cs.CV",
+   "comment": "",
+   "code_in_text": []
+  },
+  {
+   "id": "2611.33467",
+   "title": "SplatWAM: Splatting World Action Models for Real-Time 3D Imagination",
+   "date": "2026-11-24",
+   "authors": [
+    "Frank Tsu-Fang Lu",
+    "Karthik Sundar Senthilkumar",
+    "Christopher Thirgood",
+    "Oscar Mendez"
+   ],
+   "abstract": "World models typically predict future observations in pixel or latent space, limiting their ability to directly represent true 3D scene evolution. We present SplatWAM (Splatting World Action Model), a generative world model that learns action-conditioned dynamics directly over compact 3D Gaussian pr",
+   "cat": "cs.CV",
+   "comment": "21 pages, 15 figures, 13 tables",
+   "code_in_text": []
+  },
+  {
+   "id": "2611.33460",
+   "title": "Fast Muscle-Driven Whole-Body Motion Tracking with a Differentiable World Model",
+   "date": "2026-11-24",
+   "authors": [
+    "Kaibo He",
+    "Maciej Bakowicz",
+    "Shihe Zhou",
+    "Yusen Feng"
+   ],
+   "abstract": "Tracking motion capture with a whole-body musculoskeletal model means coordinating hundreds of muscles through contact, and current controllers take hours to days of GPU time to train, so every tuning decision is expensive. SuperMimic trains a tracking policy by backpropagating through the rollouts ",
+   "cat": "cs.LG",
+   "comment": "",
+   "code_in_text": []
+  },
+  {
+   "id": "2611.33407",
+   "title": "An Adversarial Multi-Agent Pursuit Game for Locomotor Agility Pretraining",
+   "date": "2026-11-24",
+   "authors": [
+    "Nathan A. C. Hogg",
+    "Matt Hyatt",
+    "Neil Klingensmith",
+    "George K. Thiruvathukal"
+   ],
+   "abstract": "Agile humanoid locomotion requires controllers that can adapt to rapidly changing motion demands while remaining stable and robust. Recent locomotion controllers are typically designed with either a dense reward that is carefully shaped to encourage steps and penalize falling, or by using a referenc",
+   "cat": "cs.RO",
+   "comment": "8 pages, 13 figures",
+   "code_in_text": []
+  },
+  {
+   "id": "2611.33398",
+   "title": "Best-of-$N$ Test-Time Steering Can Lead to Reward Hacking in Vision-Language-Action Models",
+   "date": "2026-11-24",
+   "authors": [
+    "Vanshaj Khattar",
+    "Jing Liu",
+    "Toshiaki Koike-Akino",
+    "Ming Jin"
+   ],
+   "abstract": "Vision-language-action (VLA) models have shown promise for general-purpose robotic manipulation, but adapting to changing environmental conditions still remains challenging. Recent test-time steering methods have shown promise in enabling adaptive VLA policies by utilizing additional computation dur",
+   "cat": "cs.RO",
+   "comment": "17 pages, 11 figures, to be presented at 1st Workshop on Physical World AI at NeurIPS 2026",
+   "code_in_text": []
+  },
+  {
+   "id": "2611.33380",
+   "title": "FOCI: Trajectory Optimization on Gaussian Splats for Gaussian Robots",
+   "date": "2026-11-24",
+   "authors": [
+    "Mario Gomez Andreu",
+    "Carlos Martinez Cuenca",
+    "Maximum Wilder-Smith",
+    "Victor Klemm"
+   ],
+   "abstract": "3D Gaussian Splatting (3DGS) has recently gained popularity as a faster alternative to Neural Radiance Fields (NeRFs) in 3D reconstruction and view synthesis methods. Leveraging the spatial information encoded in 3DGS, this work proposes FOCI (Field Overlap Collision Integral), an algorithm that is ",
+   "cat": "cs.RO",
+   "comment": "",
+   "code_in_text": []
+  },
+  {
+   "id": "2611.33352",
+   "title": "Why Does Sensor Depth Fail Learned Manipulation Policies? Finding the Failure Mode with ACT",
+   "date": "2026-11-24",
+   "authors": [
+    "Inayat Rasool",
+    "Chulwoo Pack",
+    "Shabbir Ahmed"
+   ],
+   "abstract": "Learned manipulation policies, from task-specific imitation policies to vision-language-action (VLA) models, rely primarily on RGB images. While some studies report gains from sensor depth, others avoid depth cameras because of measurement noise. Depth cameras introduce both noise and missing depth ",
+   "cat": "cs.RO",
+   "comment": "8 pages, 4 figures, 2 tables",
+   "code_in_text": []
+  },
+  {
+   "id": "2611.33296",
+   "title": "CoSMo: A Compact Spectral Space of Body Motion in Video",
+   "date": "2026-11-24",
+   "authors": [
+    "Maham Tanveer",
+    "Hao Zhang"
+   ],
+   "abstract": "We introduce CoSMo, a compact spectral space of body motion in video, in which each motion is a single code that can be compared and edited without training, transferred to a new subject, interpolated, composed, scaled in intensity and detail, or sampled anew. Our encoder expresses how a clip's DINO",
+   "cat": "cs.CV",
+   "comment": "Project page: https://cosmospectral.github.io/cosmo/",
+   "code_in_text": []
   },
   {
    "id": "2611.33144",
@@ -1450,7 +1567,7 @@
    ],
    "abstract": "Pretrained robot policies decide what to do from camera images, yet some of the physics that decides whether their plans succeed is not visible. An object may look light but be 100 times heavier, and a weakened joint or a lagging controller leaves no trace in the image. When the physics at deploymen",
    "cat": "cs.RO",
-   "comment": "Project page and code: https://RoboAda.github.io/",
+   "comment": "This version was posted before the coauthors completed their review of the paper",
    "code_in_text": []
   },
   {
@@ -1541,7 +1658,7 @@
    ],
    "abstract": "Robot policies act in real time but fail without knowing why, whereas a reasoning agent that watches the robot can often tell what went wrong. Existing systems either hand the agent control, which takes minutes per episode, or let it send instructions. Yet a policy follows a new instruction only fro",
    "cat": "cs.RO",
-   "comment": "Project page and code: https://robo-think.github.io/",
+   "comment": "This version was posted before the coauthors completed their review of the paper",
    "code_in_text": []
   },
   {
@@ -1690,7 +1807,7 @@
    "cat": "cs.RO",
    "comment": "Code: https://github.com/AIGeeksGroup/MotionMamba2.0. Website: https://aigeeksgroup.github.io/MotionMamba2.0",
    "hf": {
-    "up": 202,
+    "up": 207,
     "repo": "https://github.com/AIGeeksGroup/MotionMamba2.0",
     "stars": 34,
     "proj": "https://aigeeksgroup.github.io/MotionMamba2.0/"
@@ -1740,120 +1857,6 @@
    "abstract": "Real-time onboard robot control calls for a lightweight vision-language-action (VLA) model, yet shrinking the backbone leaves less capacity for deliberation at inference time. Chain-of-thought decoding, dual-system architectures, and larger backbones can restore deliberation but reintroduce the late",
    "cat": "cs.CV",
    "comment": "10 pages, 6 figures, 4 tables",
-   "code_in_text": []
-  },
-  {
-   "id": "2611.29771",
-   "title": "Into My Arms: Structured reinforcement learning for autonomous transport of objects and humans",
-   "date": "2026-11-22",
-   "authors": [
-    "Elle Miller",
-    "Reem Almheiri",
-    "Takuma Tsukakoshi",
-    "Ben Sanati"
-   ],
-   "abstract": "Whole-body humanoid manipulation remains bottlenecked by high-dimensional state-action spaces, contact-rich environments, and long task horizons. This trilemma is a challenge that state-of-the-art reinforcement learning (RL) methods are yet to resolve reliably. We address it with three contributions",
-   "cat": "cs.RO",
-   "comment": "14 pages, 8 figures",
-   "code_in_text": []
-  },
-  {
-   "id": "2611.29749",
-   "title": "CarlHOI: Counterfactual Predictive Imagination for Generalizable Multi-Humanoid Object Interaction under Constrained Environments",
-   "date": "2026-11-22",
-   "authors": [
-    "Wenjie Lin",
-    "Jin Wei-Kocsis"
-   ],
-   "abstract": "Recent advances in physics-based humanoid control enable teams of varying sizes to coordinate their movements and cooperatively transport shared objects. However, adapting learned cooperative behaviors to unseen environmental constraints remains challenging, particularly when obstacles require coord",
-   "cat": "cs.RO",
-   "comment": "Project page: https://carlhoi.github.io",
-   "code_in_text": []
-  },
-  {
-   "id": "2611.29646",
-   "title": "JKO-GRPO: Augmenting GRPO with Wasserstein Proximal Steps for Flow-Matching VLAs",
-   "date": "2026-11-22",
-   "authors": [
-    "Jiyong Kwon",
-    "Yikun Bai",
-    "Amirhossein Mollaali",
-    "Guang Lin"
-   ],
-   "abstract": "Flow-based vision-language-action (VLA) models such as $π_0,π_{0.5}$ generate continuous action chunks by flow matching, and online reinforcement learning (RL) can improve them beyond supervised fine-tuning. Existing methods, such as Flow-GRPO and $π_{\\mathrm{RL}}$, optimize likelihood ratios of sto",
-   "cat": "cs.RO",
-   "comment": "",
-   "code_in_text": []
-  },
-  {
-   "id": "2611.29610",
-   "title": "Dr. Grasp-RL: Diverse and Robust Dexterous Grasping via Reinforcement Learning",
-   "date": "2026-11-22",
-   "authors": [
-    "Kunqi Xu",
-    "Xiaokang Sun",
-    "Xueyan Zou"
-   ],
-   "abstract": "Human interaction with physical objects relies on a combination of dexterity and robustness. In robotic manipulation, dexterity requires not only flexible end effectors but also a diverse repertoire of manipulation strategies, while robustness requires closed-loop adaptation to disturbances and unex",
-   "cat": "cs.RO",
-   "comment": "",
-   "code_in_text": []
-  },
-  {
-   "id": "2611.29553",
-   "title": "Detecting Is Not Choosing: What a World Model Needs to Keep a VLA Policy Safe",
-   "date": "2026-11-22",
-   "authors": [
-    "Thanish Bolla"
-   ],
-   "abstract": "Vision-language-action (VLA) policies complete most benchmark tasks but often violate safety constraints. Since they are stochastic, one remedy is to sample several candidate action chunks and execute one that a world model predicts is safe. We ask what such a model must do. In simulation, a lookahe",
-   "cat": "cs.RO",
-   "comment": "10 pages, 1 figure, 1 table. Accepted at the CoRL 2026 Workshop \"Do Robots Need World Models?\". OpenReview: https://openreview.net/forum?id=oIzsAcOuYl",
-   "code_in_text": []
-  },
-  {
-   "id": "2611.29501",
-   "title": "MAWAM: Joint Imagination for Collaborative Robot Manipulation with a Multi-Agent World Action Model",
-   "date": "2026-11-22",
-   "authors": [
-    "Rongze Tang",
-    "Chenyu Zhou",
-    "Jianjie Fang",
-    "Ziming Liu"
-   ],
-   "abstract": "World action models (WAMs) excel at robot manipulation by imagining future observations and decoding actions from them, yet remain confined to a single embodied agent. In practice, manipulation often requires multiple robots to collaborate across disjoint workspaces, coupled timing, and heterogeneou",
-   "cat": "cs.RO",
-   "comment": "Project page: https://embodiedcity.github.io/MAWAM/",
-   "code_in_text": []
-  },
-  {
-   "id": "2611.29483",
-   "title": "Representation Alignment Is Only as Good as the Teacher's Behavioral Structure",
-   "date": "2026-11-22",
-   "authors": [
-    "Zhengfeiyang Zhang",
-    "Haoyuan Chen",
-    "Hexin Wang",
-    "Hanyu Zhou"
-   ],
-   "abstract": "Recent works align the intermediate features of vision-language-action (VLA) models with frozen vision encoders during fine-tuning, hoping to inject additional priors such as 3D awareness or affordances. Unlike in image generation, where teachers for representation alignment (REPA) are assessed with",
-   "cat": "cs.RO",
-   "comment": "25 pages, 7 figures, 8 tables, including supplementary material",
-   "code_in_text": []
-  },
-  {
-   "id": "2611.29383",
-   "title": "Self-Refining VLA Sampling",
-   "date": "2026-11-22",
-   "authors": [
-    "Jeff Duan",
-    "Arjun Sharma",
-    "Jennifer Cruden",
-    "Vansh Tibrewal"
-   ],
-   "abstract": "Vision-Language-Action (VLA) models typically use flow-based generative modeling to learn a rich, often multimodal, distribution of robot actions. Generating samples from flow-based methods involves iteratively updating random noise, and distinct noise samples from the same state can result in disti",
-   "cat": "cs.RO",
-   "comment": "Accepted to the CoRL 2026 Learn@Deploy Workshop",
    "code_in_text": []
   }
  ]

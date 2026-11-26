@@ -1,79 +1,79 @@
 {
  "papers": [
   {
-   "id": "2611.33731",
-   "title": "RoboJackVR: Turning Robot Tasks into VR Games for Scalable Demonstration Collection",
-   "date": "2026-11-25",
+   "id": "2611.33467",
+   "title": "SplatWAM: Splatting World Action Models for Real-Time 3D Imagination",
+   "date": "2026-11-24",
    "authors": [
-    "Ben Ma",
-    "Jixuan Cai"
+    "Frank Tsu-Fang Lu",
+    "Karthik Sundar Senthilkumar",
+    "Christopher Thirgood",
+    "Oscar Mendez"
    ],
-   "abstract": "Scaling robot demonstration datasets requires collection systems that accommodate more participants and diverse tasks, yet teleoperation barriers and task-adaptation effort limit this expansion. We present RoboJackVR, a standalone virtual reality (VR) game in which players manipulate simulated robot",
-   "cat": "cs.RO",
-   "comment": "8 pages, 3 figures",
+   "abstract": "World models typically predict future observations in pixel or latent space, limiting their ability to directly represent true 3D scene evolution. We present SplatWAM (Splatting World Action Model), a generative world model that learns action-conditioned dynamics directly over compact 3D Gaussian pr",
+   "cat": "cs.CV",
+   "comment": "21 pages, 15 figures, 13 tables",
    "code_in_text": []
   },
   {
-   "id": "2611.33710",
-   "title": "$\\mathrm{M}^{2}$-WAM: Efficient Hierarchical Memory Across Modalities and Timescales for World-Action Models",
-   "date": "2026-11-25",
+   "id": "2611.33460",
+   "title": "Fast Muscle-Driven Whole-Body Motion Tracking with a Differentiable World Model",
+   "date": "2026-11-24",
    "authors": [
-    "Xiaopeng Zhang",
-    "Weiqi Yuan",
-    "Xin Zhu",
-    "Jiaxi Huang"
+    "Kaibo He",
+    "Maciej Bakowicz",
+    "Shihe Zhou",
+    "Yusen Feng"
    ],
-   "abstract": "Long-horizon robotic manipulation requires historical context, yet retaining extensive visual histories incurs growing storage and retrieval costs, while aggressive compression risks losing fine-grained information needed for subsequent decisions. Moreover, executed action histories capture intermed",
-   "cat": "cs.RO",
+   "abstract": "Tracking motion capture with a whole-body musculoskeletal model means coordinating hundreds of muscles through contact, and current controllers take hours to days of GPU time to train, so every tuning decision is expensive. SuperMimic trains a tracking policy by backpropagating through the rollouts ",
+   "cat": "cs.LG",
    "comment": "",
    "code_in_text": []
   },
   {
-   "id": "2611.33702",
-   "title": "Systematic study of the performance of small robots on controlled laboratory substrates",
-   "date": "2026-11-25",
+   "id": "2611.33407",
+   "title": "An Adversarial Multi-Agent Pursuit Game for Locomotor Agility Pretraining",
+   "date": "2026-11-24",
    "authors": [
-    "Chen Li",
-    "Aaron M. Hoover",
-    "Paul Birkmeyer",
-    "Paul B. Umbanhowar"
+    "Nathan A. C. Hogg",
+    "Matt Hyatt",
+    "Neil Klingensmith",
+    "George K. Thiruvathukal"
    ],
-   "abstract": "The design of robots able to locomote effectively over a diversity of terrain requires detailed ground interaction models; unfortunately such models are lacking due to the complicated response of real world substrates which can yield and flow in response to loading. To advance our understanding of t",
-   "cat": "physics.bio-ph",
+   "abstract": "Agile humanoid locomotion requires controllers that can adapt to rapidly changing motion demands while remaining stable and robust. Recent locomotion controllers are typically designed with either a dense reward that is carefully shaped to encourage steps and penalize falling, or by using a referenc",
+   "cat": "cs.RO",
+   "comment": "8 pages, 13 figures",
+   "code_in_text": []
+  },
+  {
+   "id": "2611.33398",
+   "title": "Best-of-$N$ Test-Time Steering Can Lead to Reward Hacking in Vision-Language-Action Models",
+   "date": "2026-11-24",
+   "authors": [
+    "Vanshaj Khattar",
+    "Jing Liu",
+    "Toshiaki Koike-Akino",
+    "Ming Jin"
+   ],
+   "abstract": "Vision-language-action (VLA) models have shown promise for general-purpose robotic manipulation, but adapting to changing environmental conditions still remains challenging. Recent test-time steering methods have shown promise in enabling adaptive VLA policies by utilizing additional computation dur",
+   "cat": "cs.RO",
+   "comment": "17 pages, 11 figures, to be presented at 1st Workshop on Physical World AI at NeurIPS 2026",
+   "code_in_text": []
+  },
+  {
+   "id": "2611.33380",
+   "title": "FOCI: Trajectory Optimization on Gaussian Splats for Gaussian Robots",
+   "date": "2026-11-24",
+   "authors": [
+    "Mario Gomez Andreu",
+    "Carlos Martinez Cuenca",
+    "Maximum Wilder-Smith",
+    "Victor Klemm"
+   ],
+   "abstract": "3D Gaussian Splatting (3DGS) has recently gained popularity as a faster alternative to Neural Radiance Fields (NeRFs) in 3D reconstruction and view synthesis methods. Leveraging the spatial information encoded in 3DGS, this work proposes FOCI (Field Overlap Collision Integral), an algorithm that is ",
+   "cat": "cs.RO",
    "comment": "",
    "code_in_text": []
-  },
-  {
-   "id": "2611.33635",
-   "title": "FreshVLA: Frequency-Regularized Time Scale Hierarchical Latent Actions for Vision-Language-Action Models",
-   "date": "2026-11-25",
-   "authors": [
-    "Jiaming Liang",
-    "Yifeng Zhan",
-    "Rongyi He",
-    "Mu Li"
-   ],
-   "abstract": "Learning reusable latent actions from action-free videos offers an effective route to improving Vision-Language-Action (VLA) policies. However, reconstruction-oriented latent actions do not necessarily benefit policy learning: as they may encode task-irrelevant static appearance with scene identity,",
-   "cat": "cs.RO",
-   "comment": "20 pages",
-   "code_in_text": []
-  },
-  {
-   "id": "2611.33579",
-   "title": "DexEngine: Scaling Human Demonstrations into Physically Executable Whole-Robot Data",
-   "date": "2026-11-25",
-   "authors": [
-    "Wongyun Yu",
-    "Honggeun Kim",
-    "Donguk Lee",
-    "Minchan Kim"
-   ],
-   "abstract": "A growing body of recent work addresses the retargeting of human hand-object demonstrations to robotic hands. To train whole-robot policies, however, the retargeted motions must be kinematically feasible and physically executable, and be produced efficiently at scale. We present DexEngine, a simulat",
-   "cat": "cs.RO",
-   "comment": "Project page: https://wongyun-yu.github.io/dexengine/ Code: https://github.com/wongyun-yu/DexEngine Data: https://huggingface.co/datasets/Wongyun/DexEngine",
-   "code_in_text": [
-    "https://github.com/wongyun-yu/DexEngine"
-   ]
   }
  ],
  "repos": []
