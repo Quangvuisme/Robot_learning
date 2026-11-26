@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-26 12:03Z",
+ "generated": "2026-11-26 12:34Z",
  "items": [
   {
    "section": "Loco-Manipulation and Whole-Body-Control",
@@ -175,12 +175,12 @@
    "code": "https://github.com/engineai-robotics/Awaken-HI",
    "gh": {
     "official": true,
-    "stars": 19,
+    "stars": 20,
     "forks": 0,
     "issues": 0,
     "pushed": "2026-11-20",
     "created": "2026-11-17",
-    "spd": 2.11,
+    "spd": 2.22,
     "license": null,
     "full": "engineai-robotics/Awaken-HI"
    }
