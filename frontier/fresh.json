@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-26 21:03Z",
+ "generated": "2026-11-26 21:33Z",
  "papers": [
   {
    "id": "2611.34936",
@@ -646,7 +646,7 @@
    "hf": {
     "up": 3,
     "repo": "https://github.com/wongyun-yu/DexEngine",
-    "stars": 4,
+    "stars": 6,
     "proj": "https://wongyun-yu.github.io/dexengine/"
    },
    "code_in_text": [
