@@ -487,9 +487,9 @@
   "coming_soon": false,
   "usage": false,
   "weights": true,
-  "len": 1624514,
+  "len": 1629580,
   "evidence": [],
-  "head": " Updated on 2026.11.25 Usage instructions: here(./docs/README.mdusage) Table of Contents Planning & Control End-to-end Driving Prediction Autonomous Driving Simulation Perception Planning & Control Publish DateTitleAutho",
+  "head": " Updated on 2026.11.26 Usage instructions: here(./docs/README.mdusage) Table of Contents Planning & Control End-to-end Driving Prediction Autonomous Driving Simulation Perception Planning & Control Publish DateTitleAutho",
   "tier": "L",
   "why": "list/site repo"
  },
@@ -1523,11 +1523,11 @@
   "coming_soon": false,
   "usage": false,
   "weights": false,
-  "len": 21453,
+  "len": 21179,
   "evidence": [
    "official: ...B0%E6%8D%AE%E9%87%91%E6%A0%87%E5%87%86.md)**\uff08\u5177\u8eab\u667a\u80fd \u00b7 Ropedia Official Release \u00b7 GitHub & HuggingFace (arXiv:2611.17060) \u00b7 \u539f\u520a `2026-11-13`..."
   ],
-  "head": " ResearchWorkbench \u00b7 \u6295\u7814\u7b14\u8bb0\u672c\uff08Leuchtturm1917 Edition\uff09 \u66f4\u65b0\u65e5\u671f\uff1a2026-11-26 \u00b7 7 \u4e2a\u6838\u5fc3\u8d5b\u9053\u56fe\u8c31 \u00b7 470 \u4e2a\u4e00\u624b\u4fe1\u6e90\u4e3b\u4f53 \u00b7 257 \u7bc7\u5355\u7bc7\u5bfc\u8bfb \u00b7 2 \u4efd\u4e13\u9898\u6df1\u6316 01 \u00b7 \u5f53\u524d\u7814\u7a76\u91cd\u70b9\uff08Focus\uff09 1. \u5177\u8eab\u667a\u80fd\uff08\u4e3b\u529b\u805a\u7126\uff09\uff1a\u4ece\u5355\u6b21\u6f14\u793a\u8f6c\u5411\u8de8\u4efb\u52a1/\u8de8\u672c\u4f53\u7684\u771f\u5b9e\u8282\u62cd\uff08UPH\uff09\u4e0e ROI \u9a8c\u6536\u3002\u67b6\u6784\u6536\u655b\u4e3a S2 \u5e76\u884c\u89c6\u89c9\u89c4\u5212\u4e0e\u4e16\u754c\u6a21\u578b\uff08VFlash / DreamZero",
+  "head": " ResearchWorkbench \u00b7 \u6295\u7814\u7b14\u8bb0\u672c\uff08Leuchtturm1917 Edition\uff09 \u66f4\u65b0\u65e5\u671f\uff1a2026-11-26 \u00b7 7 \u4e2a\u6838\u5fc3\u8d5b\u9053\u56fe\u8c31 \u00b7 470 \u4e2a\u4e00\u624b\u4fe1\u6e90\u4e3b\u4f53 \u00b7 260 \u7bc7\u5355\u7bc7\u5bfc\u8bfb \u00b7 2 \u4efd\u4e13\u9898\u6df1\u6316 01 \u00b7 \u5f53\u524d\u7814\u7a76\u91cd\u70b9\uff08Focus\uff09 1. \u5177\u8eab\u667a\u80fd\uff1a\u5168\u8eab\u8fd0\u63a7\u8d8b\u4e8e\u6536\u655b\uff0c\u80dc\u8d1f\u624b\u79fb\u81f3\u7aef\u4fa7\u64cd\u4f5c\u4e0e\u771f\u673a\u89e6\u89c9\uff1b\u5343\u4e07\u5c0f\u65f6\u91cd\u5728\u4fe1\u606f\u5bc6\u5ea6\u4e0e I/O\uff0c\u771f\u673a\u89e6\u89c9\u8865\u9f50\u89c6\u9891\u7f3a\u53e3 2. AI\u5e94\u7528\u4e0e\u5f00\u53d1\u5de5\u5177\uff1a\u751f\u6210\u8fb9\u9645\u6210\u672c\u5f52\u96f6\uff0c\u74f6\u9888\u79fb\u81f3\u957f",
   "tier": "L",
   "why": "list/site repo"
  },
@@ -3601,5 +3601,43 @@
   "head": " SuperMimic: Omnidirectional RL Whole-Body Control & Shared-Decoder Co-Training (Unitree G1) Single-GPU reproduction and algorithmic extension of CoRL 2026 SuperMimic: Scaling Humanoid Whole-Body Control with One Differe",
   "tier": "B",
   "why": "paper cited + runnable usage, no explicit 'official' claim"
+ },
+ {
+  "title": "Project page for DriftWAM: Faster World-Action Models via Action-Aware Video Drifting",
+  "arxiv": null,
+  "repo": "MinyangLi/driftwam-project-page",
+  "id_in_readme": false,
+  "title_in_readme": false,
+  "name_in_readme": false,
+  "official_claim": false,
+  "unofficial_claim": false,
+  "coming_soon": false,
+  "usage": false,
+  "weights": true,
+  "len": 485,
+  "evidence": [],
+  "head": " DriftWAM project page Static project website for DriftWAM: Faster World-Action Models via Action-Aware Video Drifting. - Paper: https://arxiv.org/abs/2611.33797 - Model: https://huggingface.co/wkrfugs/DriftWAM This repo",
+  "tier": "X",
+  "why": "README does not mention the paper"
+ },
+ {
+  "title": "Project page for Endogenous and Exogenous Memory for World Action Models",
+  "arxiv": null,
+  "repo": "PAWTeam-EAI/em-wam",
+  "id_in_readme": false,
+  "title_in_readme": false,
+  "name_in_readme": false,
+  "official_claim": false,
+  "unofficial_claim": false,
+  "coming_soon": true,
+  "usage": false,
+  "weights": true,
+  "len": 3019,
+  "evidence": [
+   "soon: ...ks, and real-robot rollouts.  ## Code, models, and dataset  Coming soon. Model and dataset releases will appear in the [EM-WAM Hugg..."
+  ],
+  "head": " Endogenous and Exogenous Memory for World Action Models Zerui Gong1, Marina Barannikov2, Zhonghua Wu1\u2020, Shanshan Lu2, Junjie Gao1, Zhe Yang2, Jinglin He1, Quanzhou Li2, Weijie Qiao1,2, Qinyue Li1, Qingyi Tao1, Chen Chan",
+  "tier": "X",
+  "why": "README does not mention the paper"
  }
 ]

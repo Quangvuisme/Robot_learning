@@ -528,5 +528,15 @@
   "title": "Omnidirectional RL Whole-Body Control & Shared-Decoder Co-Training based on CoRL 2026 SuperMimic (Unitree G1)",
   "arxiv": null,
   "repo": "121400-cheng/supermimic-g1-wbc"
+ },
+ {
+  "title": "Project page for DriftWAM: Faster World-Action Models via Action-Aware Video Drifting",
+  "arxiv": null,
+  "repo": "MinyangLi/driftwam-project-page"
+ },
+ {
+  "title": "Project page for Endogenous and Exogenous Memory for World Action Models",
+  "arxiv": null,
+  "repo": "PAWTeam-EAI/em-wam"
  }
 ]

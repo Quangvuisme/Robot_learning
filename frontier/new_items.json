@@ -1,23 +1,4 @@
 {
  "papers": [],
- "repos": [
-  {
-   "title": "Omnidirectional RL Whole-Body Control & Shared-Decoder Co-Training based on CoRL 2026 SuperMimic (Unitree G1)",
-   "arxiv": null,
-   "repo": "121400-cheng/supermimic-g1-wbc",
-   "id_in_readme": false,
-   "title_in_readme": true,
-   "name_in_readme": true,
-   "official_claim": false,
-   "unofficial_claim": false,
-   "coming_soon": false,
-   "usage": true,
-   "weights": true,
-   "len": 9132,
-   "evidence": [],
-   "head": " SuperMimic: Omnidirectional RL Whole-Body Control & Shared-Decoder Co-Training (Unitree G1) Single-GPU reproduction and algorithmic extension of CoRL 2026 SuperMimic: Scaling Humanoid Whole-Body Control with One Differe",
-   "tier": "B",
-   "why": "paper cited + runnable usage, no explicit 'official' claim"
-  }
- ]
+ "repos": []
 }

@@ -41,7 +41,7 @@
  },
  {
   "repo": "HybridRobotics/supermimic",
-  "stars": 2061,
+  "stars": 2063,
   "pushed": "2026-11-21",
   "created": "2026-11-10",
   "desc": "Humanoid whole-body motion tracking with one differentiable world model.",
@@ -89,7 +89,7 @@
  },
  {
   "repo": "shengshu-ai/Motus2",
-  "stars": 671,
+  "stars": 672,
   "pushed": "2026-11-22",
   "created": "2026-09-11",
   "desc": "Motus2: A Self-Evolving General World Model for Dexterous Manipulation",
@@ -121,7 +121,7 @@
  },
  {
   "repo": "black-forest-labs/flux-action",
-  "stars": 230,
+  "stars": 231,
   "pushed": "2026-11-10",
   "created": "2026-09-23",
   "desc": "FLUX 3 Action: open weights 7B world action model from Black Forest Labs. Train, fine-tune and run action pred",
@@ -161,7 +161,7 @@
  },
  {
   "repo": "Bench2Dex/Bench2Dex",
-  "stars": 110,
+  "stars": 111,
   "pushed": "2026-11-23",
   "created": "2026-08-14",
   "desc": "A Bimanual Manipulation Benchmark across Dexterous Hands with Simulated Visuo-Tactile Support",
