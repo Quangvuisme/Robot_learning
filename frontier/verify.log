@@ -1,9 +1,9 @@
 Counter({'L': 82, 'X': 45, 'B': 38, 'S': 37, 'R': 4, 'A': 1})
+B Axellwppr/HITCH | HITCH: Teaching a Vision-Language Model to Op | paper cited + runnable usage, no explicit 'official' claim | weights
 B yaozhang182/inhabitant | Inhabitant: An Agent Framework for Long-Horiz | paper cited + runnable usage, no explicit 'official' claim | weights
 R nico-bohlinger/xmimic | XMimic and XSoma: Learning Humanoid Motion Tr | reproduction/unofficial | weights
 R nico-bohlinger/xsoma | XMimic and XSoma: Learning Humanoid Motion Tr | reproduction/unofficial | weights
 A kimodo-policy/kimodo-policy | Kimodo-Policy: Learning Kinematic Action Mode | paper cited + official claim + runnable usage | weights
-B Axellwppr/HITCH | HITCH: Teaching a Vision-Language Model to Op | paper cited + runnable usage, no explicit 'official' claim | weights
 B ryan-seungyong-lee/RoboTryOn | RoboTryOn: Synthesizing Dexterous Robot Demon | paper cited + runnable usage, no explicit 'official' claim | weights
 B jellyho/telescene | Telescene whole-body humanoid teleoperation | paper cited + runnable usage, no explicit 'official' claim | weights
 B HybridRobotics/supermimic | SuperMimic | paper cited + runnable usage, no explicit 'official' claim 

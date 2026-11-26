@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-26 21:33Z",
+ "generated": "2026-11-26 22:33Z",
  "papers": [
   {
    "id": "2611.34936",
@@ -1680,7 +1680,7 @@
    "hf": {
     "up": 2,
     "repo": "https://github.com/Kingzein/WeaveVLA",
-    "stars": 13,
+    "stars": 14,
     "proj": "https://kingzein.github.io/weave-vla/#overview"
    },
    "code_in_text": []
