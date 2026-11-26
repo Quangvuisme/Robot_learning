@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-26 19:03Z",
+ "generated": "2026-11-26 19:34Z",
  "papers": [
   {
    "id": "2611.34936",
@@ -1657,7 +1657,7 @@
    "cat": "cs.CR",
    "comment": "",
    "hf": {
-    "up": 1,
+    "up": 2,
     "repo": null,
     "stars": null,
     "proj": null
@@ -1866,7 +1866,7 @@
    "hf": {
     "up": 1,
     "repo": "https://github.com/Damin3927/SWEEP-Bench",
-    "stars": 3,
+    "stars": 4,
     "proj": "http://damin3927.github.io/SWEEP-Bench"
    },
    "code_in_text": []
