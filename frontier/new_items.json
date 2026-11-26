@@ -1,78 +1,78 @@
 {
  "papers": [
   {
-   "id": "2611.33467",
-   "title": "SplatWAM: Splatting World Action Models for Real-Time 3D Imagination",
-   "date": "2026-11-24",
+   "id": "2611.34287",
+   "title": "DataForgeVLA: Fully Synthetic Manipulation Demonstrations for Vision-Language-Action Training",
+   "date": "2026-11-25",
    "authors": [
-    "Frank Tsu-Fang Lu",
-    "Karthik Sundar Senthilkumar",
-    "Christopher Thirgood",
-    "Oscar Mendez"
+    "Sergei Kurchev",
+    "Iaroslav Kolomiets",
+    "Filipp Maksimov",
+    "Elizaveta Semenyakina"
    ],
-   "abstract": "World models typically predict future observations in pixel or latent space, limiting their ability to directly represent true 3D scene evolution. We present SplatWAM (Splatting World Action Model), a generative world model that learns action-conditioned dynamics directly over compact 3D Gaussian pr",
-   "cat": "cs.CV",
-   "comment": "21 pages, 15 figures, 13 tables",
+   "abstract": "We present a dataset of 340 fully synthetic manipulation demonstrations generated from real seed data for Vision-Language-Action (VLA) training. The corpus contains 32,340 frames with synchronized RGB and actions across eight object categories, represented as LeRobot v2.1 episodes with H.264 video, ",
+   "cat": "cs.RO",
+   "comment": "5 pages, 2 figures, 1 table. Dataset available at https://huggingface.co/datasets/mws-physical-ai/dataforgevla-340",
    "code_in_text": []
   },
   {
-   "id": "2611.33460",
-   "title": "Fast Muscle-Driven Whole-Body Motion Tracking with a Differentiable World Model",
-   "date": "2026-11-24",
+   "id": "2611.34280",
+   "title": "Escapingthe instruction blackhole of vision-language-action policies via optimal-transport wormholes",
+   "date": "2026-11-25",
    "authors": [
-    "Kaibo He",
-    "Maciej Bakowicz",
-    "Shihe Zhou",
-    "Yusen Feng"
+    "Xuetao Li",
+    "Chen Liu",
+    "Jing Wu",
+    "Sheng Liu"
    ],
-   "abstract": "Tracking motion capture with a whole-body musculoskeletal model means coordinating hundreds of muscles through contact, and current controllers take hours to days of GPU time to train, so every tuning decision is expensive. SuperMimic trains a tracking policy by backpropagating through the rollouts ",
-   "cat": "cs.LG",
+   "abstract": "Vision-language-action (VLA) policies are trained to follow a fixed instruction, yet people change their minds while the robot acts. We identify the instruction black hole: once a VLA policy commits to a task, new instructions are absorbed and the robot completes the old task or freezes. We quantify",
+   "cat": "cs.RO",
+   "comment": "",
+   "code_in_text": []
+  },
+  {
+   "id": "2611.34257",
+   "title": "CamAct: Learning Robotic Manipulation from In-the-Wild Videos via Camera Motion",
+   "date": "2026-11-25",
+   "authors": [
+    "Haoming Gu",
+    "Yunpeng Qing",
+    "Zhi Hou",
+    "Weinan Zhang"
+   ],
+   "abstract": "Vision-Language-Action (VLA) models benefit from large, diverse datasets for robotic manipulation, yet collecting robot demonstrations remains costly. Recent work has explored egocentric videos as a source of supervision, primarily drawing on demonstrations of human-object interaction. We show that ",
+   "cat": "cs.RO",
    "comment": "",
    "code_in_text": []
   },
   {
-   "id": "2611.33407",
-   "title": "An Adversarial Multi-Agent Pursuit Game for Locomotor Agility Pretraining",
-   "date": "2026-11-24",
+   "id": "2611.34124",
+   "title": "WAtcher: Watching Ahead for Safe Robotic Manipulation with Efficient World-Action Models",
+   "date": "2026-11-25",
    "authors": [
-    "Nathan A. C. Hogg",
-    "Matt Hyatt",
-    "Neil Klingensmith",
-    "George K. Thiruvathukal"
+    "Ziyu Shan",
+    "Xiao Ma",
+    "Kangrui Yu",
+    "Changjie Wang"
    ],
-   "abstract": "Agile humanoid locomotion requires controllers that can adapt to rapidly changing motion demands while remaining stable and robust. Recent locomotion controllers are typically designed with either a dense reward that is carefully shaped to encourage steps and penalize falling, or by using a referenc",
+   "abstract": "World-action models (WAMs) couple future imagination with action generation, but they execute every action chunk while ignoring the potential risk. To fill this gap, we present WAtcher, a safety-aware world-action framework in which the policy imagines the outcome of the candidate chunk before execu",
    "cat": "cs.RO",
-   "comment": "8 pages, 13 figures",
+   "comment": "12 pages, 4 figures, 6 tables. Project page: https://zyshan0929.github.io/WAtcher",
    "code_in_text": []
   },
   {
-   "id": "2611.33398",
-   "title": "Best-of-$N$ Test-Time Steering Can Lead to Reward Hacking in Vision-Language-Action Models",
-   "date": "2026-11-24",
+   "id": "2611.34117",
+   "title": "CoTacWAM: Joint Modeling of Vision and Touch for Robotic Manipulation",
+   "date": "2026-11-25",
    "authors": [
-    "Vanshaj Khattar",
-    "Jing Liu",
-    "Toshiaki Koike-Akino",
-    "Ming Jin"
+    "Lei Jin",
+    "Yiding Ma",
+    "Zhuohang Li",
+    "Jiachen Liu"
    ],
-   "abstract": "Vision-language-action (VLA) models have shown promise for general-purpose robotic manipulation, but adapting to changing environmental conditions still remains challenging. Recent test-time steering methods have shown promise in enabling adaptive VLA policies by utilizing additional computation dur",
+   "abstract": "We present CoTacWAM, a world-action model that learns shared contact semantics between wrist vision and touch, achieving the best observed performance in our nominal manipulation and missing-input evaluations. The two modalities observe the same local interaction through different signals: wrist ima",
    "cat": "cs.RO",
-   "comment": "17 pages, 11 figures, to be presented at 1st Workshop on Physical World AI at NeurIPS 2026",
-   "code_in_text": []
-  },
-  {
-   "id": "2611.33380",
-   "title": "FOCI: Trajectory Optimization on Gaussian Splats for Gaussian Robots",
-   "date": "2026-11-24",
-   "authors": [
-    "Mario Gomez Andreu",
-    "Carlos Martinez Cuenca",
-    "Maximum Wilder-Smith",
-    "Victor Klemm"
-   ],
-   "abstract": "3D Gaussian Splatting (3DGS) has recently gained popularity as a faster alternative to Neural Radiance Fields (NeRFs) in 3D reconstruction and view synthesis methods. Leveraging the spatial information encoded in 3DGS, this work proposes FOCI (Field Overlap Collision Integral), an algorithm that is ",
-   "cat": "cs.RO",
-   "comment": "",
+   "comment": "19 pages, including appendix",
    "code_in_text": []
   }
  ],

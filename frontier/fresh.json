@@ -1,6 +1,81 @@
 {
- "generated": "2026-11-26 02:33Z",
+ "generated": "2026-11-26 03:04Z",
  "papers": [
+  {
+   "id": "2611.34287",
+   "title": "DataForgeVLA: Fully Synthetic Manipulation Demonstrations for Vision-Language-Action Training",
+   "date": "2026-11-25",
+   "authors": [
+    "Sergei Kurchev",
+    "Iaroslav Kolomiets",
+    "Filipp Maksimov",
+    "Elizaveta Semenyakina"
+   ],
+   "abstract": "We present a dataset of 340 fully synthetic manipulation demonstrations generated from real seed data for Vision-Language-Action (VLA) training. The corpus contains 32,340 frames with synchronized RGB and actions across eight object categories, represented as LeRobot v2.1 episodes with H.264 video, ",
+   "cat": "cs.RO",
+   "comment": "5 pages, 2 figures, 1 table. Dataset available at https://huggingface.co/datasets/mws-physical-ai/dataforgevla-340",
+   "code_in_text": []
+  },
+  {
+   "id": "2611.34280",
+   "title": "Escapingthe instruction blackhole of vision-language-action policies via optimal-transport wormholes",
+   "date": "2026-11-25",
+   "authors": [
+    "Xuetao Li",
+    "Chen Liu",
+    "Jing Wu",
+    "Sheng Liu"
+   ],
+   "abstract": "Vision-language-action (VLA) policies are trained to follow a fixed instruction, yet people change their minds while the robot acts. We identify the instruction black hole: once a VLA policy commits to a task, new instructions are absorbed and the robot completes the old task or freezes. We quantify",
+   "cat": "cs.RO",
+   "comment": "",
+   "code_in_text": []
+  },
+  {
+   "id": "2611.34257",
+   "title": "CamAct: Learning Robotic Manipulation from In-the-Wild Videos via Camera Motion",
+   "date": "2026-11-25",
+   "authors": [
+    "Haoming Gu",
+    "Yunpeng Qing",
+    "Zhi Hou",
+    "Weinan Zhang"
+   ],
+   "abstract": "Vision-Language-Action (VLA) models benefit from large, diverse datasets for robotic manipulation, yet collecting robot demonstrations remains costly. Recent work has explored egocentric videos as a source of supervision, primarily drawing on demonstrations of human-object interaction. We show that ",
+   "cat": "cs.RO",
+   "comment": "",
+   "code_in_text": []
+  },
+  {
+   "id": "2611.34124",
+   "title": "WAtcher: Watching Ahead for Safe Robotic Manipulation with Efficient World-Action Models",
+   "date": "2026-11-25",
+   "authors": [
+    "Ziyu Shan",
+    "Xiao Ma",
+    "Kangrui Yu",
+    "Changjie Wang"
+   ],
+   "abstract": "World-action models (WAMs) couple future imagination with action generation, but they execute every action chunk while ignoring the potential risk. To fill this gap, we present WAtcher, a safety-aware world-action framework in which the policy imagines the outcome of the candidate chunk before execu",
+   "cat": "cs.RO",
+   "comment": "12 pages, 4 figures, 6 tables. Project page: https://zyshan0929.github.io/WAtcher",
+   "code_in_text": []
+  },
+  {
+   "id": "2611.34117",
+   "title": "CoTacWAM: Joint Modeling of Vision and Touch for Robotic Manipulation",
+   "date": "2026-11-25",
+   "authors": [
+    "Lei Jin",
+    "Yiding Ma",
+    "Zhuohang Li",
+    "Jiachen Liu"
+   ],
+   "abstract": "We present CoTacWAM, a world-action model that learns shared contact semantics between wrist vision and touch, achieving the best observed performance in our nominal manipulation and missing-input evaluations. The two modalities observe the same local interaction through different signals: wrist ima",
+   "cat": "cs.RO",
+   "comment": "19 pages, including appendix",
+   "code_in_text": []
+  },
   {
    "id": "2611.33739",
    "title": "RegHarness: Regulating What Code-as-Policy Agents Keep from Steps to Skills",
@@ -1548,7 +1623,7 @@
    "cat": "cs.RO",
    "comment": "87 pages, 25 figures, Project Page: https://baai-eai.github.io/innata-0/",
    "hf": {
-    "up": 42,
+    "up": 44,
     "repo": null,
     "stars": null,
     "proj": "https://baai-eai.github.io/innata-0/"
@@ -1776,87 +1851,6 @@
    "abstract": "We present FASCIA (*Functional Anatomical Structures and Composition via Implicit Atlas*), a Momentum Human Rig (MHR)-anchored framework that predicts and poses a person's internal anatomy from their external body shape and skeletal proportions. FASCIA maps a single 290-structure population template",
    "cat": "cs.CV",
    "comment": "",
-   "code_in_text": []
-  },
-  {
-   "id": "2611.29913",
-   "title": "MoMa-NMP: Scene-Scale Neural Motion Planning for Mobile Manipulators",
-   "date": "2026-11-23",
-   "authors": [
-    "Adam Kan",
-    "Jason Jingzhou Liu",
-    "Jiahui Yang",
-    "Kenneth Shaw"
-   ],
-   "abstract": "Mobile manipulators operating in homes and other complex environments must coordinate their base and arm over long horizons, navigating around obstacles, through narrow passages, and between constrained workspaces. Neural motion planners can provide fast closed-loop planning from partial observation",
-   "cat": "cs.RO",
-   "comment": "Website: https://adamhkan.com/moma-nmp/",
-   "code_in_text": []
-  },
-  {
-   "id": "2611.29897",
-   "title": "Motion Mamba 2.0: Autoregressive Diffusion Mamba for Long-Horizon Humanoid Control",
-   "date": "2026-11-23",
-   "authors": [
-    "Yue Huang",
-    "Tianshan Zhang",
-    "Zeyu Zhang",
-    "Jayeon Kang"
-   ],
-   "abstract": "Long-horizon, real-time controllable motion generation is essential for interactive animation and humanoid robotics, where an agent must respond to changing instructions and spatial goals while moving. Existing autoregressive diffusion methods generate motion incrementally, but bounded attention cac",
-   "cat": "cs.RO",
-   "comment": "Code: https://github.com/AIGeeksGroup/MotionMamba2.0. Website: https://aigeeksgroup.github.io/MotionMamba2.0",
-   "hf": {
-    "up": 207,
-    "repo": "https://github.com/AIGeeksGroup/MotionMamba2.0",
-    "stars": 34,
-    "proj": "https://aigeeksgroup.github.io/MotionMamba2.0/"
-   },
-   "code_in_text": [
-    "https://github.com/AIGeeksGroup/MotionMamba2.0."
-   ]
-  },
-  {
-   "id": "2611.29873",
-   "title": "ProMix: Efficient Data Mixture Optimization for Robotic Imitation via Proxy-Reference DRO",
-   "date": "2026-11-23",
-   "authors": [
-    "Qie Sima",
-    "Wei Xue",
-    "Yike Guo"
-   ],
-   "abstract": "Vision-Language-Action (VLA) models excel in open-world manipulation, yet their performance often saturates when training data are naively pooled across heterogeneous robots, tasks, and environments. Distributionally robust data mixture optimization, exemplified by Re-Mix, can recover much of this p",
-   "cat": "cs.RO",
-   "comment": "",
-   "code_in_text": []
-  },
-  {
-   "id": "2611.29868",
-   "title": "Arcadian: Open-Source Humanoid Ecosystem for Accessible and Customizable Research and Education",
-   "date": "2026-11-23",
-   "authors": [
-    "Zelin Shen",
-    "Gabriel Ramos Salinas",
-    "Qiyu Zhang",
-    "Yue Qin"
-   ],
-   "abstract": "Reproducing and modifying a meter-scale humanoid remains challenging for research and teaching groups with limited fabrication resources and engineering support. This paper presents Arcadian, an open-source humanoid ecosystem that offers accessible and customizable humanoid hardware and software wit",
-   "cat": "cs.RO",
-   "comment": "8 pages, 10 figures, project website https://arcadian-humanoid.github.io/",
-   "code_in_text": []
-  },
-  {
-   "id": "2611.29813",
-   "title": "Hierarchical Reasoning Action Head for Tiny Vision-Language-Action Models",
-   "date": "2026-11-22",
-   "authors": [
-    "Aditya Makineni",
-    "Amitesh Sahoo",
-    "Qing Tian"
-   ],
-   "abstract": "Real-time onboard robot control calls for a lightweight vision-language-action (VLA) model, yet shrinking the backbone leaves less capacity for deliberation at inference time. Chain-of-thought decoding, dual-system architectures, and larger backbones can restore deliberation but reintroduce the late",
-   "cat": "cs.CV",
-   "comment": "10 pages, 6 figures, 4 tables",
    "code_in_text": []
   }
  ]
