@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-26 00:33Z",
+ "generated": "2026-11-26 01:04Z",
  "papers": [
   {
    "id": "2611.33144",
@@ -1585,7 +1585,7 @@
    "cat": "cs.RO",
    "comment": "Code: https://github.com/AIGeeksGroup/MotionMamba2.0. Website: https://aigeeksgroup.github.io/MotionMamba2.0",
    "hf": {
-    "up": 194,
+    "up": 196,
     "repo": "https://github.com/AIGeeksGroup/MotionMamba2.0",
     "stars": 34,
     "proj": "https://aigeeksgroup.github.io/MotionMamba2.0/"
