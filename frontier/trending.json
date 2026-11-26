@@ -9,7 +9,7 @@
  },
  {
   "repo": "NVlabs/GR00T-WholeBodyControl",
-  "stars": 3958,
+  "stars": 3959,
   "pushed": "2026-11-03",
   "created": "2025-11-05",
   "desc": "Welcome to GR00T Whole-Body Control (WBC)! This is a unified platform for developing and deploying advanced hu",
@@ -25,7 +25,7 @@
  },
  {
   "repo": "dexmal/dexbotic",
-  "stars": 3234,
+  "stars": 3233,
   "pushed": "2026-11-11",
   "created": "2025-10-17",
   "desc": "Dexbotic: Open-Source Vision-Language-Action Toolbox",
@@ -33,7 +33,7 @@
  },
  {
   "repo": "dexmal/opendm",
-  "stars": 2748,
+  "stars": 2747,
   "pushed": "2026-11-06",
   "created": "2026-07-06",
   "desc": "An Open-World Foundation Model for General-Purpose Embodied Intelligence.",
@@ -73,7 +73,7 @@
  },
  {
   "repo": "Robbyant/lingbot-touch",
-  "stars": 851,
+  "stars": 850,
   "pushed": "2026-11-11",
   "created": "2026-11-09",
   "desc": "Learning Heterogeneous Tactile Representation for General Dexterous Manipulation",
