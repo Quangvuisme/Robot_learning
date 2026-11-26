@@ -543,5 +543,10 @@
   "title": "Open source evals for physical AI. Run any LLM/VLA on any arm/humanoid against any real/sim benchmark.",
   "arxiv": null,
   "repo": "robodeltas/inspect-robots"
+ },
+ {
+  "title": "Paired action responses in contact-graph world models. Reproducibility code and experimental data.",
+  "arxiv": null,
+  "repo": "LudwigWangMu/contact-graph-action-responses"
  }
 ]

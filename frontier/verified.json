@@ -119,18 +119,19 @@
   "title": "MixReact: Physics-Based Reactive Humanoid Control from Multimodal Cues via a Discrete-Continuous Mixture of Transformers",
   "arxiv": "2611.26218",
   "repo": "Tavish9/awesome-daily-AI-arxiv",
-  "id_in_readme": true,
-  "title_in_readme": true,
-  "name_in_readme": true,
+  "id_in_readme": false,
+  "title_in_readme": false,
+  "name_in_readme": false,
   "official_claim": true,
-  "unofficial_claim": false,
+  "unofficial_claim": true,
   "coming_soon": true,
   "usage": false,
   "weights": true,
-  "len": 1465024,
+  "len": 1383685,
   "evidence": [
-   "official: ...e samplers at higher step counts across most tested models. The official implementation is available atthis https URL.   </details>  - **[TANGO: Tr...",
-   "soon: ...atial reasoning research and benchmark design. Datasets and code will be released atthis https URL.   </details>  - **[Rescuing Discarded Bou..."
+   "official: ...tablished competitors without zero-support prior shortcuts. The official code is publicly available atthis https URL.   </details>  - **[...",
+   "unofficial: ...etrieval score of 78.5, compared with 60.0 and 64.2 for our reimplementation of LeVLJEPA with the same encoders and data. On Sentinel-2 opt...",
+   "soon: ...verage improves success, while low coverage changes little. Code will be released upon acceptance.   </details>  - **[RadOncGym: An Agent-Bas..."
   ],
   "head": " \ud83d\ude80 Daily AI arXiv Digest Total Papers() Last Updated arXiv API License(LICENSE) \ud83d\udccc \u200bTracking Breakthroughs in: AI \u2022 NLP \u2022 CV \u2022 ML \u2022 Robotics \u23f0 \u200bUpdate Schedule: UTC 02:00 GMT+8 10:00 \ud83c\udf1f Today's Highlights - \ud83d\udd25 Hot Topic - B",
   "tier": "L",
@@ -3644,5 +3645,23 @@
   "head": " Inspect Robots An open-source evaluation framework for physical AI Define a robotics benchmark once, then run any policy (LLM agent, VLA) against any compatible embodiment (a real arm or humanoid, or a simulator) with a",
   "tier": "X",
   "why": "README does not mention the paper"
+ },
+ {
+  "title": "Paired action responses in contact-graph world models. Reproducibility code and experimental data.",
+  "arxiv": null,
+  "repo": "LudwigWangMu/contact-graph-action-responses",
+  "id_in_readme": false,
+  "title_in_readme": true,
+  "name_in_readme": true,
+  "official_claim": false,
+  "unofficial_claim": false,
+  "coming_soon": false,
+  "usage": true,
+  "weights": false,
+  "len": 2651,
+  "evidence": [],
+  "head": " How Far Does a Push Travel? Paired Action Responses in Contact-Graph World Models. The experiments compare contact propagation, event-based predictions and learned corrections using paired initial states. The physical c",
+  "tier": "B",
+  "why": "paper cited + runnable usage, no explicit 'official' claim"
  }
 ]
