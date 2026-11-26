@@ -3676,11 +3676,11 @@
   "coming_soon": false,
   "usage": true,
   "weights": true,
-  "len": 9655,
+  "len": 9689,
   "evidence": [
    "official: ...pip ```  Install a CUDA-compatible PyTorch build using the [official PyTorch installation instructions](https://pytorch.org/get-started/..."
   ],
-  "head": " LWAM \u2014 Lightweight Latent World Action Model A lightweight robotics research project exploring action-conditioned latent world modeling and future-aware action generation on consumer-grade GPUs. Project status: Early-st",
+  "head": "English \ud55c\uad6d\uc5b4(README_ko.md) LWAM \u2014 Lightweight Latent World Action Model A lightweight robotics research project exploring action-conditioned latent world modeling and future-aware action generation on consumer-grade GPUs.",
   "tier": "X",
   "why": "README does not mention the paper"
  }

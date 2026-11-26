@@ -57,7 +57,7 @@
  },
  {
   "repo": "RainBowLuoCS/Gamer",
-  "stars": 1570,
+  "stars": 1571,
   "pushed": "2026-11-16",
   "created": "2026-10-30",
   "desc": "Official Implementation of Gamer: A Generalist Vision-Language-Action Foundation Model for Long-Horizon Real-T",
@@ -81,7 +81,7 @@
  },
  {
   "repo": "sou350121/VLA-Handbook",
-  "stars": 796,
+  "stars": 797,
   "pushed": "2026-11-26",
   "created": "2025-11-23",
   "desc": "本项目旨在为致力于进入VLA(Vision-Language-Action)领域的算法工程师提供一份全中文、实战导向的学习/面试手册。  不同于通用的 CV/NLP 面试指南，本项目聚焦于 Robotics 特有的挑战",
@@ -193,7 +193,7 @@
  },
  {
   "repo": "kaibohex/muscle-supermimic",
-  "stars": 56,
+  "stars": 58,
   "pushed": "2026-11-26",
   "created": "2026-10-26",
   "desc": "SuperMimic whole-body motion tracking for muscle-driven humanoids on mjlab.",
