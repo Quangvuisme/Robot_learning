@@ -513,5 +513,10 @@
   "title": "Official implementation of SteerQuant: Steering Quantization Error with Action-Guided Scaling in World\u2013Action Models",
   "arxiv": null,
   "repo": "CathyyW/Steerquant"
+ },
+ {
+  "title": "Project page for RetroWAM: World Action Models Self-Calibrate Their Robots by Reading, Not Imagining",
+  "arxiv": null,
+  "repo": "retro-wam/retro-wam.github.io"
  }
 ]

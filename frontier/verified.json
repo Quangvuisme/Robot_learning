@@ -2956,7 +2956,7 @@
   "coming_soon": false,
   "usage": true,
   "weights": true,
-  "len": 4094,
+  "len": 4451,
   "evidence": [],
   "head": "\u03b5\u0303: Does Initial Noise Induce Directional Bias in Vision-Language-Action Models? Junmyeong Lee, Dongmin Shin, Wooseok Jeon, JunGyu Lee, Seunghyun Shin, Hae-Gon Jeon Overview Two changes on top of an existing flow-matchin",
   "tier": "X",
@@ -3545,5 +3545,23 @@
   "head": "\u2388 SteerQuant: Steering Quantization Error with Action-Guided Scaling in World\u2013Action Models Explore more on our Project Page Overview \u00b7 Installation \u00b7 Model &amp; Data \u00b7 Calibration \u00b7 Evaluation \u00b7 Real Robot Overview Ste",
   "tier": "X",
   "why": "README does not mention the paper"
+ },
+ {
+  "title": "Project page for RetroWAM: World Action Models Self-Calibrate Their Robots by Reading, Not Imagining",
+  "arxiv": null,
+  "repo": "retro-wam/retro-wam.github.io",
+  "id_in_readme": false,
+  "title_in_readme": true,
+  "name_in_readme": false,
+  "official_claim": false,
+  "unofficial_claim": false,
+  "coming_soon": false,
+  "usage": false,
+  "weights": false,
+  "len": 739,
+  "evidence": [],
+  "head": " RetroWAM project page Source for https://retro-wam.github.io, the project page for RetroWAM: World Action Models Self-Calibrate Their Robots by Reading, Not Imagining. Plain static HTML, no build step. GitHub Pages serv",
+  "tier": "L",
+  "why": "list/site repo"
  }
 ]
