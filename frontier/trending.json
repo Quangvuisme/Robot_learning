@@ -17,7 +17,7 @@
  },
  {
   "repo": "enactic/openarm",
-  "stars": 3725,
+  "stars": 3726,
   "pushed": "2026-11-25",
   "created": "2024-09-29",
   "desc": "A fully open-source humanoid arm for physical AI research and deployment in contact-rich environments.",
@@ -57,7 +57,7 @@
  },
  {
   "repo": "RainBowLuoCS/Gamer",
-  "stars": 1542,
+  "stars": 1543,
   "pushed": "2026-11-16",
   "created": "2026-10-30",
   "desc": "Official Implementation of Gamer: A Generalist Vision-Language-Action Foundation Model for Long-Horizon Real-T",
@@ -129,7 +129,7 @@
  },
  {
   "repo": "Huy-Quang-Dao/instantTrack",
-  "stars": 218,
+  "stars": 220,
   "pushed": "2026-11-24",
   "created": "2026-10-29",
   "desc": "Whole-body motion tracking for the Unitree G1 in under 3 minutes on average on one GPU: return 0.82 with 0/40 ",

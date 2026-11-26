@@ -483,5 +483,30 @@
   "title": "Object Replacement in Vision\u2013Language\u2013Action Control",
   "arxiv": null,
   "repo": "GSS789666/Contact-Recovery-and-Route-Compliance-after-Mid-Execution-Object-Replacement-in-VLA-Control"
+ },
+ {
+  "title": "Mini vision-language-action model on LIBERO-Goal: frozen SmolVLM2 backbone + action expert built from scratch, with language and regression vs. flow-matching ablations. Plus a DINO-WM world-model reproduction. Work in progress.",
+  "arxiv": null,
+  "repo": "codewithadityard/vla-two-embodiments"
+ },
+ {
+  "title": "DT-VLA \u4e2d\u6587\u7814\u7a76\u62a5\u544a\u4e0e\u4ea4\u4e92\u5f0f\u673a\u5668\u4eba\u6f14\u793a | Continual adaptation for vision-language-action models",
+  "arxiv": null,
+  "repo": "Luyao-Leo-Sun/dt-vla-report"
+ },
+ {
+  "title": "Reproducing NeurIPS 2026 Event-Grounded Sparse Autoencoders for Vision-Language-Action Policies (OpenVLA 7B + LIBERO-Goal) on Colab L4 \u2014 Baseline 70.0%, Event-aligned 10.0%, Random 70.0%",
+  "arxiv": null,
+  "repo": "bsf1703846/event-sae-demo"
+ },
+ {
+  "title": "Agent framework for playing Dwarf Fortress through DFHack: world model, verified actions, goals, events.",
+  "arxiv": null,
+  "repo": "nordicnode/dfkit"
+ },
+ {
+  "title": "IDM-JEPA: semi-supervised action inference via inverse dynamics in JEPA world models (NeurIPS 2026 WM-PAI workshop)",
+  "arxiv": null,
+  "repo": "ludperrier/IDM-JEPA"
  }
 ]

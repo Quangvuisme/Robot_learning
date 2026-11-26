@@ -1,4 +1,4 @@
-Counter({'L': 81, 'S': 37, 'B': 34, 'X': 33, 'R': 4, 'A': 2})
+Counter({'L': 81, 'S': 37, 'X': 37, 'B': 35, 'R': 4, 'A': 2})
 A shangchaohu718/PERA | PERA: Plug-in Experts for Robotic Actions in  | paper cited + official claim + runnable usage | weights
 B Axellwppr/HITCH | HITCH: Teaching a Vision-Language Model to Op | paper cited + runnable usage, no explicit 'official' claim | weights
 B yaozhang182/inhabitant | Inhabitant: An Agent Framework for Long-Horiz | paper cited + runnable usage, no explicit 'official' claim | weights
@@ -39,3 +39,4 @@ B axelmnts/legged_locomotion | legged_locomotion | paper cited + runnable usage,
 B MaochengBai/BALI-Drive | Bidirectional Action-Latent Interaction with  | paper cited + runnable usage, no explicit 'official' claim 
 B GIlbertoRCP/Humanoid-locomotion | Humanoid-locomotion | paper cited + runnable usage, no explicit 'official' claim | weights
 B lksk-bit/legged-manipulation_unilab-2PWBC | 2PWBC (2 Policy Whole-Body Control) coordinat | paper cited + runnable usage, no explicit 'official' claim | weights
+B ludperrier/IDM-JEPA | IDM-JEPA: semi-supervised action inference vi | paper cited + runnable usage, no explicit 'official' claim | weights
