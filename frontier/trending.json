@@ -9,7 +9,7 @@
  },
  {
   "repo": "NVlabs/GR00T-WholeBodyControl",
-  "stars": 3953,
+  "stars": 3954,
   "pushed": "2026-11-03",
   "created": "2025-11-05",
   "desc": "Welcome to GR00T Whole-Body Control (WBC)! This is a unified platform for developing and deploying advanced hu",
@@ -25,7 +25,7 @@
  },
  {
   "repo": "dexmal/dexbotic",
-  "stars": 3234,
+  "stars": 3235,
   "pushed": "2026-11-11",
   "created": "2025-10-17",
   "desc": "Dexbotic: Open-Source Vision-Language-Action Toolbox",
@@ -57,7 +57,7 @@
  },
  {
   "repo": "RainBowLuoCS/Gamer",
-  "stars": 1557,
+  "stars": 1558,
   "pushed": "2026-11-16",
   "created": "2026-10-30",
   "desc": "Official Implementation of Gamer: A Generalist Vision-Language-Action Foundation Model for Long-Horizon Real-T",
@@ -89,7 +89,7 @@
  },
  {
   "repo": "shengshu-ai/Motus2",
-  "stars": 667,
+  "stars": 668,
   "pushed": "2026-11-22",
   "created": "2026-09-11",
   "desc": "Motus2: A Self-Evolving General World Model for Dexterous Manipulation",
@@ -194,7 +194,7 @@
  {
   "repo": "kaibohex/muscle-supermimic",
   "stars": 56,
-  "pushed": "2026-11-25",
+  "pushed": "2026-11-26",
   "created": "2026-10-26",
   "desc": "SuperMimic whole-body motion tracking for muscle-driven humanoids on mjlab.",
   "q": "humanoid motion tracking"

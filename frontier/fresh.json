@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-26 05:03Z",
+ "generated": "2026-11-26 05:33Z",
  "papers": [
   {
    "id": "2611.34936",
@@ -73,6 +73,12 @@
    "abstract": "World-action models jointly predict future observations and actions, yet visual corruption can disrupt the resulting policies. We introduce HOG-WAM, which adds future Histograms of Oriented Gradients (HOG) as structural supervision derived directly from demonstration images. An auxiliary HOG diffusi",
    "cat": "cs.CV",
    "comment": "Code: https://github.com/iPPLab/HOG-WAM",
+   "hf": {
+    "up": 3,
+    "repo": "https://github.com/iPPLab/HOG-WAM",
+    "stars": null,
+    "proj": null
+   },
    "code_in_text": [
     "https://github.com/iPPLab/HOG-WAM"
    ]
@@ -135,6 +141,12 @@
    "abstract": "Robots should adapt to unfamiliar environments and acquire new skills through interaction, then execute those skills efficiently with practice. Vision-language-action policies provide efficient control, but often need additional human demonstrations to handle unfamiliar settings; reasoning agents ca",
    "cat": "cs.RO",
    "comment": "Project page: https://kaiknower.github.io/RoboEvo2/",
+   "hf": {
+    "up": 6,
+    "repo": "https://github.com/kaiknower/RoboEvo2",
+    "stars": null,
+    "proj": "https://kaiknower.github.io/RoboEvo2/"
+   },
    "code_in_text": []
   },
   {
@@ -760,7 +772,7 @@
    "cat": "cs.RO",
    "comment": "23 pages, 9 figures, 7 tables. Project page: https://vme0522.github.io/PyRUA-Dex/",
    "hf": {
-    "up": 19,
+    "up": 24,
     "repo": null,
     "stars": null,
     "proj": "https://vme0522.github.io/PyRUA-Dex/"
