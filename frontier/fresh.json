@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-26 09:04Z",
+ "generated": "2026-11-26 09:33Z",
  "papers": [
   {
    "id": "2611.34936",
@@ -74,7 +74,7 @@
    "cat": "cs.CV",
    "comment": "Code: https://github.com/iPPLab/HOG-WAM",
    "hf": {
-    "up": 19,
+    "up": 20,
     "repo": "https://github.com/iPPLab/HOG-WAM",
     "stars": 2,
     "proj": null
@@ -644,9 +644,9 @@
    "cat": "cs.RO",
    "comment": "Project page: https://wongyun-yu.github.io/dexengine/ Code: https://github.com/wongyun-yu/DexEngine Data: https://huggingface.co/datasets/Wongyun/DexEngine",
    "hf": {
-    "up": 0,
+    "up": 1,
     "repo": "https://github.com/wongyun-yu/DexEngine",
-    "stars": null,
+    "stars": 4,
     "proj": "https://wongyun-yu.github.io/dexengine/"
    },
    "code_in_text": [
@@ -1025,7 +1025,7 @@
    "hf": {
     "up": 1,
     "repo": "https://github.com/ReFocus-Robotics/ReFocus",
-    "stars": 1,
+    "stars": 2,
     "proj": "https://refocus-robotics.github.io/"
    },
    "code_in_text": []
@@ -1748,7 +1748,7 @@
    "hf": {
     "up": 1,
     "repo": "https://github.com/anson2333/ForesightForcing",
-    "stars": 4,
+    "stars": 5,
     "proj": "https://anson2333.github.io/foresight-forcing/"
    },
    "code_in_text": []
