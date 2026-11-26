@@ -1,23 +1,4 @@
 {
  "papers": [],
- "repos": [
-  {
-   "title": "IDM-JEPA: semi-supervised action inference via inverse dynamics in JEPA world models (NeurIPS 2026 WM-PAI workshop)",
-   "arxiv": null,
-   "repo": "ludperrier/IDM-JEPA",
-   "id_in_readme": false,
-   "title_in_readme": true,
-   "name_in_readme": false,
-   "official_claim": false,
-   "unofficial_claim": false,
-   "coming_soon": false,
-   "usage": true,
-   "weights": true,
-   "len": 3360,
-   "evidence": [],
-   "head": " IDM-JEPA Semi-Supervised Action Inference via Inverse Dynamics in Joint-Embedding Predictive Architectures \u2014 World Models in Physical AI workshop, NeurIPS 2026. Project page \u00b7 Paper(workshop/IDM-JEPA_paper.pdf) \u00b7 Poster",
-   "tier": "B",
-   "why": "paper cited + runnable usage, no explicit 'official' claim"
-  }
- ]
+ "repos": []
 }

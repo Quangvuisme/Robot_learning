@@ -73,7 +73,7 @@
  },
  {
   "repo": "Robbyant/lingbot-touch",
-  "stars": 840,
+  "stars": 841,
   "pushed": "2026-11-11",
   "created": "2026-11-09",
   "desc": "Learning Heterogeneous Tactile Representation for General Dexterous Manipulation",
@@ -137,7 +137,7 @@
  },
  {
   "repo": "CumulusAlpha/Dex-Supermimic",
-  "stars": 167,
+  "stars": 168,
   "pushed": "2026-11-03",
   "created": "2026-10-26",
   "desc": "This is a reproduction of SuperMimic for dexterous hand manipulation tasks.",

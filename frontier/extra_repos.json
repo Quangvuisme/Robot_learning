@@ -508,5 +508,10 @@
   "title": "IDM-JEPA: semi-supervised action inference via inverse dynamics in JEPA world models (NeurIPS 2026 WM-PAI workshop)",
   "arxiv": null,
   "repo": "ludperrier/IDM-JEPA"
+ },
+ {
+  "title": "Official implementation of SteerQuant: Steering Quantization Error with Action-Guided Scaling in World\u2013Action Models",
+  "arxiv": null,
+  "repo": "CathyyW/Steerquant"
  }
 ]
