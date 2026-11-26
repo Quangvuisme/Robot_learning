@@ -1,6 +1,127 @@
 {
- "generated": "2026-11-26 03:04Z",
+ "generated": "2026-11-26 04:03Z",
  "papers": [
+  {
+   "id": "2611.34936",
+   "title": "DexLink: Synthesizing Dexterous Behaviors from Chained Hand-object Poses",
+   "date": "2026-11-25",
+   "authors": [
+    "Meenal Parakh",
+    "Deep Patel",
+    "Beining Han",
+    "Jia Deng"
+   ],
+   "abstract": "Synthesizing diverse dexterous manipulation policies is challenging: existing simulation-based approaches rely on human demonstrations which are difficult to scale, or use generic reward functions, which provide limited control over the hand-object interactions. We propose DexLink, which addresses t",
+   "cat": "cs.RO",
+   "comment": "",
+   "code_in_text": []
+  },
+  {
+   "id": "2611.34914",
+   "title": "Cairn: Object-Centric 3D Trajectory Priors for Steering Frozen VLAs",
+   "date": "2026-11-25",
+   "authors": [
+    "Agelos Kratimenos",
+    "Kostas Daniilidis",
+    "Evangelos Chatzipantazis"
+   ],
+   "abstract": "Vision-language-action models (VLAs) are capable low-level controllers, but they tie where objects go to the layouts they were trained on: when objects are moved or obstacles block the way, they carry them to the wrong place or into collisions. Fine-tuning on new layouts needs robot data for each on",
+   "cat": "cs.RO",
+   "comment": "",
+   "code_in_text": []
+  },
+  {
+   "id": "2611.34884",
+   "title": "FineDex: Bridging Fine-Grained Human-Object Interaction Generation to Dexterous Humanoid Manipulation",
+   "date": "2026-11-25",
+   "authors": [
+    "Yujia Zeng",
+    "Yuxin Chen",
+    "Yuzhen Song",
+    "Runhan Huang"
+   ],
+   "abstract": "Dexterity is, at its core, finger-level control, yet existing dexterous manipulation and human-object interaction (HOI) generation methods rarely let one specify how an interaction is performed: five-fingered hands are often reduced to grippers, or finger usage is copied from individual human demons",
+   "cat": "cs.RO",
+   "comment": "Project page: https://finedex.github.io/",
+   "code_in_text": []
+  },
+  {
+   "id": "2611.34864",
+   "title": "RePace: Reasoning about Demonstration Speedup for Faster Vision-Language-Action Policies",
+   "date": "2026-11-25",
+   "authors": [
+    "Insup Lee",
+    "Hojin Jeon",
+    "Sunguk Shin",
+    "Seoungbin Bae"
+   ],
+   "abstract": "Since vision-language-action (VLA) policies can inherit the slow pace of human demonstrations, accelerating these demonstrations before fine-tuning can lead to faster VLA policies without an additional speed-selection module at deployment. Several offline speedup methods have focused on identifying ",
+   "cat": "cs.RO",
+   "comment": "",
+   "code_in_text": []
+  },
+  {
+   "id": "2611.34811",
+   "title": "HOG-WAM: Improving Visual Robustness through Future Gradient Prediction",
+   "date": "2026-11-25",
+   "authors": [
+    "Boxuan Dong",
+    "Yupeng Qian",
+    "Ying Wu",
+    "Heshuai Li"
+   ],
+   "abstract": "World-action models jointly predict future observations and actions, yet visual corruption can disrupt the resulting policies. We introduce HOG-WAM, which adds future Histograms of Oriented Gradients (HOG) as structural supervision derived directly from demonstration images. An auxiliary HOG diffusi",
+   "cat": "cs.CV",
+   "comment": "Code: https://github.com/iPPLab/HOG-WAM",
+   "code_in_text": [
+    "https://github.com/iPPLab/HOG-WAM"
+   ]
+  },
+  {
+   "id": "2611.34778",
+   "title": "Toward Agentic Robotics: A Large-Scale Study of Harness Design for Robot-Use Agents",
+   "date": "2026-11-25",
+   "authors": [
+    "Yuxiang Lai",
+    "Jike Zhong",
+    "Yu-Jhe Li",
+    "Lan Wang"
+   ],
+   "abstract": "Recent vision-language models (VLMs) can act as robot-use agents that understand diverse scenes and control robots through policy code and tools. However, they predict 3D gripper poses poorly even with extended reasoning, struggling with precise manipulation. Vision-language-action (VLA) and world-a",
+   "cat": "cs.RO",
+   "comment": "",
+   "code_in_text": []
+  },
+  {
+   "id": "2611.34750",
+   "title": "SOLVE: Sparse, Ordered Keyposes Make LLM Agents Versatile and Efficient Robot Manipulator",
+   "date": "2026-11-25",
+   "authors": [
+    "Xiang Li",
+    "Hongyu Zhou",
+    "Ya-Li Li",
+    "Tao Li"
+   ],
+   "abstract": "LLM agents have made remarkable progress in robot manipulation, yet they suffer from expensive inference, dense step-by-step control, and tool bottlenecks. We introduce SOLVE, a training-free, versatile and efficient agent policy: a multimodal LLM agent writes a sparse, ordered sequence of 6-DoF end",
+   "cat": "cs.RO",
+   "comment": "",
+   "code_in_text": []
+  },
+  {
+   "id": "2611.34698",
+   "title": "A Failure-Driven Data Flywheel for Post-Training Vision-Language-Action Models",
+   "date": "2026-11-25",
+   "authors": [
+    "Yuhao Luo",
+    "Zihao Sheng",
+    "Zilin Huang",
+    "Zhengyang Wan"
+   ],
+   "abstract": "Pretrained vision-language-action (VLA) models rarely satisfy all behavioral requirements of a new platform, and teams without a large deployed fleet lack the data to address the resulting failures. We propose a failure-driven data flywheel for post-training such models. It constructs target scenari",
+   "cat": "cs.AI",
+   "comment": "",
+   "code_in_text": []
+  },
   {
    "id": "2611.34287",
    "title": "DataForgeVLA: Fully Synthetic Manipulation Demonstrations for Vision-Language-Action Training",
@@ -75,6 +196,170 @@
    "cat": "cs.RO",
    "comment": "19 pages, including appendix",
    "code_in_text": []
+  },
+  {
+   "id": "2611.33993",
+   "title": "Aegis-VLA: Reliability-Gated Action Refinement via a Trajectory World Model for Dynamic Object Manipulation",
+   "date": "2026-11-25",
+   "authors": [
+    "Lennox Wei",
+    "Jiaqi Yao",
+    "Shixin Sun",
+    "Yuanzheng Zhang"
+   ],
+   "abstract": "Dynamic object manipulation requires maintaining spatial and temporal alignment with targets that continue to move during inference and execution. Although future prediction can inform action correction, an accurate forecast does not establish whether modifying an existing action would be beneficial",
+   "cat": "cs.RO",
+   "comment": "",
+   "code_in_text": []
+  },
+  {
+   "id": "2611.33963",
+   "title": "Targeted Adaptation of World-Action Models via Interaction and Motion Heads",
+   "date": "2026-11-25",
+   "authors": [
+    "Yuze Zhu",
+    "Jacky Li",
+    "Yusen Luo",
+    "Ken Jiankun Zheng"
+   ],
+   "abstract": "World-Action Models (WAMs) are a promising new paradigm of robot manipulation policies that jointly generate future video and actions. Successful manipulation requires both identifying where to interact and modeling how the robot and objects move. Yet standard adaptation methods, such as full fine-t",
+   "cat": "cs.RO",
+   "comment": "Project page: https://headlight-wam.github.io/",
+   "code_in_text": []
+  },
+  {
+   "id": "2611.33934",
+   "title": "Towards 360$^\\circ$ Embodied UAV Tracking Without Turning",
+   "date": "2026-11-25",
+   "authors": [
+    "Bingyu Li",
+    "Wu Du",
+    "Zhiyuan Zhao",
+    "Junyu Gao"
+   ],
+   "abstract": "Conventional embodied UAV tracking couples target observability with heading control because targets may leave the field of view of forward-facing cameras. We investigate a complementary paradigm that uses full-spherical perception to follow designated targets without active heading adjustment. To s",
+   "cat": "cs.CV",
+   "comment": "",
+   "code_in_text": []
+  },
+  {
+   "id": "2611.33917",
+   "title": "Event-WAM: Learning to Act with Event-Derived Futures",
+   "date": "2026-11-25",
+   "authors": [
+    "Jongseong Bae",
+    "Hyunwoo Kim",
+    "Yeongin Lee",
+    "Eubin So"
+   ],
+   "abstract": "World Action Models (WAMs) leverage future visual modeling for robotic action learning, with recent studies exploring alternative or complementary objectives beyond conventional RGB prediction. We introduce Event-WAM, which incorporates event-derived visual changes as auxiliary future supervision al",
+   "cat": "cs.CV",
+   "comment": "",
+   "code_in_text": []
+  },
+  {
+   "id": "2611.33880",
+   "title": "Integration of Vision-Language-Action Control for Autonomous Forklift Unloading with Limited Real-World Data",
+   "date": "2026-11-25",
+   "authors": [
+    "Koshi Oishi",
+    "Seigo Ito"
+   ],
+   "abstract": "Forklifts play a critical role in warehousing and distribution, but existing automation systems remain limited in handling complex tasks that require sequential decision-making. Recently, vision--language--action (VLA) models have emerged as a promising approach for multi-step decision-making by dir",
+   "cat": "cs.RO",
+   "comment": "accepted SII2027",
+   "code_in_text": []
+  },
+  {
+   "id": "2611.33828",
+   "title": "Learning a Whole-Body Pivot-Walking Gait for Heavy-Box Transport with a Humanoid",
+   "date": "2026-11-25",
+   "authors": [
+    "Rikuto Hidaka",
+    "Tsung-Yuan Chen",
+    "Kento Kawaharazuka"
+   ],
+   "abstract": "Through pivot walking, humans can transport objects that are too heavy to lift. Previous humanoid studies have relied on planned sequences in which object manipulation and stepping are executed separately and the object is brought to rest between successive rotations. However, few studies have devel",
+   "cat": "cs.RO",
+   "comment": "Accepted to IEEE-RAS Humanoids 2026. 8 pages, 7 figures, 3 tables. Project page: https://uni963.github.io/pivot-walking/ Video: https://youtu.be/8lKDYrlzyZ4",
+   "code_in_text": []
+  },
+  {
+   "id": "2611.33816",
+   "title": "$\\widetilde{\\varepsilon}$: Does Initial Noise Induce Directional Bias in Vision-Language-Action Models?",
+   "date": "2026-11-25",
+   "authors": [
+    "Junmyeong Lee",
+    "Dongmin Shin",
+    "Wooseok Jeon",
+    "JunGyu Lee"
+   ],
+   "abstract": "Vision-language-action models (VLAs) have widely adopted diffusion-based action generation for continuous robot motions, enabling fine-grained control across diverse tasks. However, recent studies have shown that their performance is highly sensitive to initial noise, with resulting action errors th",
+   "cat": "cs.RO",
+   "comment": "Project page: https://june65.github.io/Epsilon-Tilde",
+   "code_in_text": []
+  },
+  {
+   "id": "2611.33810",
+   "title": "FlipVLA: Backdoor Attacks on Vision-Language-Action(VLA) Models Only Through Bit Flips",
+   "date": "2026-11-25",
+   "authors": [
+    "Zexi Zhao",
+    "Zizhen Liu",
+    "Jing Justin Ye",
+    "Huawei Li"
+   ],
+   "abstract": "Vision-language-action (VLA) models generate robot actions from visual observations and language instructions in real-world environments, making malicious model tampering a potential threat to physical safety. We study whether object-triggered backdoors can be implanted through a small, fixed set of",
+   "cat": "cs.CV",
+   "comment": "14 pages, including references and supplementary material",
+   "code_in_text": []
+  },
+  {
+   "id": "2611.33799",
+   "title": "Dynamic Forcing: Learning Action-Grounded Sparse Dynamic Representations with Dense Future Guidance for World Action Models",
+   "date": "2026-11-25",
+   "authors": [
+    "Ziqiang Li",
+    "Shisheng Chen",
+    "Yunnan Wang",
+    "Wenyao Zhang"
+   ],
+   "abstract": "World action models (WAMs) support robot control through visual prediction, but dense future modeling repeatedly encodes static context already available in the current observation, while action-relevant changes are often spatially sparse. We study sparse dynamic representation learning, retaining t",
+   "cat": "cs.CV",
+   "comment": "",
+   "code_in_text": []
+  },
+  {
+   "id": "2611.33797",
+   "title": "DriftWAM: Faster World-Action Models via Action-Aware Video Drifting",
+   "date": "2026-11-25",
+   "authors": [
+    "Minyang Li",
+    "Siyu Xu",
+    "Yunke Wang",
+    "Ying-Cong Chen"
+   ],
+   "abstract": "World-action models (WAMs) unify future video prediction and action generation for robotic control, but their reliance on iterative denoising incurs substantial inference costs. Distilling these models into few-step generators offers a promising route to efficient deployment, yet maintaining task pe",
+   "cat": "cs.CV",
+   "comment": "16 pages, 5 figures",
+   "code_in_text": []
+  },
+  {
+   "id": "2611.33769",
+   "title": "FailPoint-X: A Policy-Matched, Failure-Anchored Benchmark for Offline VLA Post-Training from Human Takeovers",
+   "date": "2026-11-25",
+   "authors": [
+    "Zirui Li",
+    "Yujie Yan",
+    "Jingxuan Qian",
+    "Yangang Ren"
+   ],
+   "abstract": "Human takeovers offer corrective supervision for vision-language-action (VLA) policies, but their contribution to offline post-training must be separated from that of continued optimization. We introduce FailPoint-X, a benchmark for offline VLA post-training with human takeovers. To represent uncert",
+   "cat": "cs.RO",
+   "comment": "34 pages (8-page main paper, references, and 24-page supplementary material), 9 figures, 20 tables. Zirui Li and Yujie Yan contributed equally. Project page: https://lzrbit.github.io/FailPoint_X/ ; Code: https://github.com/yujieyan81/failpoint-x",
+   "code_in_text": [
+    "https://github.com/yujieyan81/failpoint-x"
+   ]
   },
   {
    "id": "2611.33739",
@@ -311,6 +596,12 @@
    "abstract": "Learning for dexterous manipulation is limited by the scarcity of high-quality demonstrations: retargeting from human video is imprecise, teleoperation gives no force feedback to the operator, and exoskeleton-based collection is hard to scale up. We present PyRUA-Dex, a framework that enables coding",
    "cat": "cs.RO",
    "comment": "23 pages, 9 figures, 7 tables. Project page: https://vme0522.github.io/PyRUA-Dex/",
+   "hf": {
+    "up": 15,
+    "repo": null,
+    "stars": null,
+    "proj": "https://vme0522.github.io/PyRUA-Dex/"
+   },
    "code_in_text": []
   },
   {
@@ -1561,295 +1852,6 @@
    ],
    "abstract": "Driving models need to choose which capabilities to use and when to reconsider their decisions. We introduce AgentMoT, a Mixture-of-Transformers with built-in agent reasoning and system scheduling. Combinations of agent, world, and action experts form three jointly trained pathways for direct-action",
    "cat": "cs.RO",
-   "comment": "",
-   "code_in_text": []
-  },
-  {
-   "id": "2611.30308",
-   "title": "ConsisX: Cross-View Consistency Thinking in 3D for Vision-Language-Action Models",
-   "date": "2026-11-23",
-   "authors": [
-    "Yunhe Zhang",
-    "Long Gao",
-    "Yuedong Fu",
-    "Gang He"
-   ],
-   "abstract": "Vision-language-action (VLA) models integrate visual perception and language understanding from vision-language models (VLMs) with action prediction for robotic manipulation. Although multi-view observations provide complementary scene information, VLMs model cross-view interactions based on 2D feat",
-   "cat": "cs.RO",
-   "comment": "",
-   "code_in_text": []
-  },
-  {
-   "id": "2611.30291",
-   "title": "Beyond Which: Where, How, and When in Vision-Language-Action Models",
-   "date": "2026-11-23",
-   "authors": [
-    "Yunhe Zhang",
-    "Long Gao",
-    "Yuedong Fu",
-    "Gang He"
-   ],
-   "abstract": "Vision-language-action (VLA) models typically rely on vision-language model (VLM) features as the primary perceptual source for action prediction, showing strong generalization across diverse robotic manipulation tasks. Although VLM features can identify which entities are relevant to action predict",
-   "cat": "cs.RO",
-   "comment": "",
-   "code_in_text": []
-  },
-  {
-   "id": "2611.30264",
-   "title": "Skill-Adaptive Noise Scheduling for Diffusion Policies",
-   "date": "2026-11-23",
-   "authors": [
-    "Woo Kyung Kim",
-    "Gwangpyo Yoo",
-    "Eunyoung Park",
-    "Honguk Woo"
-   ],
-   "abstract": "Recent advances in diffusion policies have demonstrated strong effectiveness when integrated into hierarchical skill-based learning frameworks, leveraging offline data to capture multimodal and temporally abstracted behaviors. However, prior approaches have rarely considered the diffusion process as",
-   "cat": "cs.RO",
-   "comment": "40th Conference on Neural Information Processing Systems (NeurIPS 2026)",
-   "code_in_text": []
-  },
-  {
-   "id": "2611.30254",
-   "title": "Innata-0: A Native Embodied World System with Model-Agent Co-Design",
-   "date": "2026-11-23",
-   "authors": [
-    " Innata Team",
-    "Yu Bai",
-    "Ziyi Bai",
-    "Yuxuan Cai"
-   ],
-   "abstract": "The physical world is open-ended, dynamic, and partially observable. While foundation models have advanced embodied intelligence, standalone models struggle with long-horizon execution, and simply integrating models with agents may lead to inconsistencies between planning and physical control. To su",
-   "cat": "cs.RO",
-   "comment": "87 pages, 25 figures, Project Page: https://baai-eai.github.io/innata-0/",
-   "hf": {
-    "up": 44,
-    "repo": null,
-    "stars": null,
-    "proj": "https://baai-eai.github.io/innata-0/"
-   },
-   "code_in_text": []
-  },
-  {
-   "id": "2611.30209",
-   "title": "RoboAda: Adapting Frozen Robot Policies at Test Time to Physics They Cannot See",
-   "date": "2026-11-23",
-   "authors": [
-    "Yunbei Zhang",
-    "Zijian Jin",
-    "Shuaicheng Niu",
-    "Baian Chen"
-   ],
-   "abstract": "Pretrained robot policies decide what to do from camera images, yet some of the physics that decides whether their plans succeed is not visible. An object may look light but be 100 times heavier, and a weakened joint or a lagging controller leaves no trace in the image. When the physics at deploymen",
-   "cat": "cs.RO",
-   "comment": "This version was posted before the coauthors completed their review of the paper",
-   "code_in_text": []
-  },
-  {
-   "id": "2611.30195",
-   "title": "Quantization for Action, Execution for Deployment: Joint Precision and Execution Selection for World Action Models",
-   "date": "2026-11-23",
-   "authors": [
-    "Tianqi Li",
-    "Xin He",
-    "Xue Geng",
-    "Le Zhang"
-   ],
-   "abstract": "World action models guide robots by predicting the effects of actions or generating commands from observations. A model may compare hundreds of candidate futures before acting, repeatedly reading weights that must fit in device memory. Post-training quantization reduces the number of bits used to st",
-   "cat": "cs.CV",
-   "comment": "",
-   "code_in_text": []
-  },
-  {
-   "id": "2611.30188",
-   "title": "Calibrating World Action Models: From Adaptive System 2 Takeover to Self-Evolution",
-   "date": "2026-11-23",
-   "authors": [
-    "Wenhao Li",
-    "Yu Han",
-    "Xiu Su",
-    "Dehao Wu"
-   ],
-   "abstract": "World action models (WAMs) deliver fast visuomotor control, yet degrade sharply in challenging scenes and act blindly when about to fail; conversely, foundation-model-based agents generalize and recover reliably, but incur prohibitive latency and cost when queried at every step. To achieve both WAM ",
-   "cat": "cs.RO",
-   "comment": "",
-   "code_in_text": []
-  },
-  {
-   "id": "2611.30178",
-   "title": "Quantizing in the Loop: Drift-Aware Ultra-Low-Bit Vision-Language-Action Models",
-   "date": "2026-11-23",
-   "authors": [
-    "Yanlong Chen",
-    "Thongthornpatch Chamadol",
-    "Yichen Guo",
-    "Yunfei Gao"
-   ],
-   "abstract": "Deploying large vision-language-action (VLA) models on resource-constrained robots demands extreme compression, yet existing post-training quantization (PTQ) methods frequently collapse at ultra-low bit-widths ($\\le$ 2 bits). We trace this failure to two mismatches in standard pipelines. First, cali",
-   "cat": "cs.RO",
-   "comment": "The paper is currently under review. Code and models: https://github.com/ForeverBlue816/LoopQ",
-   "code_in_text": [
-    "https://github.com/ForeverBlue816/LoopQ"
-   ]
-  },
-  {
-   "id": "2611.30173",
-   "title": "Confidently Lost: Silent Failure and Edge Deployment of Dense Visual SLAM under Photon Starvation",
-   "date": "2026-11-23",
-   "authors": [
-    "Shrikrishna Bhagirath Rajule",
-    "Srinath Neelamagam",
-    "Aniket Bera"
-   ],
-   "abstract": "Dense visual SLAM built on learned two-view geometry is evaluated in good light; in low light it fails silently. Two frames of 9-level quantized noise, no scene at all, give MASt3R-SLAM's network a cross-view geometric self-consistency of 0.936; a real dark frame pair gives 0.935. Starved of structu",
-   "cat": "cs.RO",
-   "comment": "8 pages, 7 figures. Submitted to IEEE ICRA 2027",
-   "code_in_text": []
-  },
-  {
-   "id": "2611.30145",
-   "title": "RMR-VLA: Recurrent Memory Reasoning for Vision-Language-Action Models",
-   "date": "2026-11-23",
-   "authors": [
-    "Yiheng Du",
-    "Jingqi Tian",
-    "Xu Jiang",
-    "Jiexuan Zhang"
-   ],
-   "abstract": "Long-horizon, history-dependent robotic manipulation often requires acting on visual cues that have disappeared, such as an object indicated earlier or a target hidden under a moving cup. The key challenge is to maintain what past evidence means for the next action as the scene changes. We introduce",
-   "cat": "cs.CV",
-   "comment": "",
-   "code_in_text": []
-  },
-  {
-   "id": "2611.30111",
-   "title": "RoboThink: Let the Agent Think, Let the Policy Act",
-   "date": "2026-11-23",
-   "authors": [
-    "Yunbei Zhang",
-    "Zijian Jin",
-    "Janet Wang",
-    "Xingchen Zhao"
-   ],
-   "abstract": "Robot policies act in real time but fail without knowing why, whereas a reasoning agent that watches the robot can often tell what went wrong. Existing systems either hand the agent control, which takes minutes per episode, or let it send instructions. Yet a policy follows a new instruction only fro",
-   "cat": "cs.RO",
-   "comment": "This version was posted before the coauthors completed their review of the paper",
-   "code_in_text": []
-  },
-  {
-   "id": "2611.30083",
-   "title": "MotionServe: Efficient Multi-Robot Serving by Exploiting Robot Execution Slack",
-   "date": "2026-11-23",
-   "authors": [
-    "Zikang Wen",
-    "Yuning Zhang",
-    "Dong Yuan"
-   ],
-   "abstract": "As robotic arms undertake diverse manipulation tasks, a deployment may need to serve many task-specific vision-language-action (VLA) policies concurrently. Dedicating a GPU to each robot is costly, motivating shared-GPU inference. Low-rank adaptation (LoRA) allows compatible policies to share a froz",
-   "cat": "cs.RO",
-   "comment": "",
-   "code_in_text": []
-  },
-  {
-   "id": "2611.30077",
-   "title": "PushMimic: Learning Adaptive Humanoid Box Pushing via Dynamic Motion Augmentation and Reference Distillation",
-   "date": "2026-11-23",
-   "authors": [
-    "Yulun Zhuang",
-    "Hanyu Zhang",
-    "Jingyu Liu",
-    "Yanran Ding"
-   ],
-   "abstract": "Humanoid box pushing is challenging when the physical properties of the task, such as the box mass and the ramp inclination, are unknown before the push begins. This paper presents PushMimic, a framework that learns adaptive humanoid box pushing from a single level-ground kinematic reference motion.",
-   "cat": "cs.RO",
-   "comment": "9 pages, 10 figures, 3 tables. Website at https://silvery107.github.io/pushmimic/",
-   "code_in_text": []
-  },
-  {
-   "id": "2611.30042",
-   "title": "SWAM: State-aware World Action Model for Multi-Agent 3D Environments",
-   "date": "2026-11-23",
-   "authors": [
-    "Jenna Kang",
-    "Bingxuan Li",
-    "Colin Groth",
-    "Anatolii Evdokimov"
-   ],
-   "abstract": "Interactive world models generate virtual environments autoregressively from player actions and visual history. However, visual history alone cannot reliably capture the evolving states of independently acting non-player characters (NPCs) in real games, particularly when they are outside the camera ",
-   "cat": "cs.AI",
-   "comment": "",
-   "code_in_text": []
-  },
-  {
-   "id": "2611.30041",
-   "title": "Spiking World-Action Models for Robotic Manipulation",
-   "date": "2026-11-23",
-   "authors": [
-    "Mingquan Liu",
-    "Peng Zhou",
-    "Shanming Yao",
-    "Shuai Wang"
-   ],
-   "abstract": "World action models (WAMs) predict how the world responds to actions and offer a promising path toward general embodied intelligence, but they are large and run the network many times per plan, so they are hard to deploy on robots. Spiking neural networks (SNNs) compute with sparse binary spikes and",
-   "cat": "cs.RO",
-   "comment": "",
-   "code_in_text": []
-  },
-  {
-   "id": "2611.30026",
-   "title": "Design of a Compact Cable-driven 4-DoF Salamander Robotic Limb with Large Range of Motion and High Load Capacity",
-   "date": "2026-11-23",
-   "authors": [
-    "Zhuowen Li",
-    "Qiyuan Fu",
-    "Auke Ijspeert"
-   ],
-   "abstract": "A compact yet agile and powerful limb is essential for amphibious legged robots that transition between spine-based swimming and leg-based terrestrial walking, as salamanders do. Salamander limbs combine large ranges of motion (ROM), multiple degrees of freedom (DoFs), and high load capacity. These ",
-   "cat": "cs.RO",
-   "comment": "",
-   "code_in_text": []
-  },
-  {
-   "id": "2611.30024",
-   "title": "FlexWAM: Learning Flexible Visual Routing for World Action Models",
-   "date": "2026-11-23",
-   "authors": [
-    "Mingyu Mei",
-    "Haojie Xu",
-    "Zibo Dai",
-    "Hongjie Fang"
-   ],
-   "abstract": "Humans dynamically adjust their reliance on sensory modalities across manipulation stages. Although existing World Action Models (WAMs) fuse multi-camera observations, they struggle to adapt their reliance on individual views based on the current observations. This raises a central question: how can",
-   "cat": "cs.RO",
-   "comment": "Project website: https://flexwam.github.io/",
-   "code_in_text": []
-  },
-  {
-   "id": "2611.29980",
-   "title": "TeleMultiStream: An Integrated Robot Teleoperation System with Low-Latency Multi-Stream Video Feedback",
-   "date": "2026-11-23",
-   "authors": [
-    "Chenchen Lv",
-    "Lingchen Hu",
-    "Yaosai Zhang",
-    "Chunlan Li"
-   ],
-   "abstract": "Training embodied-intelligence models requires large-scale, high-quality demonstration data. Robot teleoperation provides an important means of collecting these data. Low-latency teleoperation also helps human operators take control promptly and provide corrective demonstrations in DAgger-based inte",
-   "cat": "cs.RO",
-   "comment": "",
-   "code_in_text": []
-  },
-  {
-   "id": "2611.29970",
-   "title": "FASCIA: Seeing Beneath the Surface with Queryable, Personalized Anatomy in Any Pose",
-   "date": "2026-11-23",
-   "authors": [
-    "R. James Cotton",
-    "Tim Unger",
-    "Lucinda Williamson"
-   ],
-   "abstract": "We present FASCIA (*Functional Anatomical Structures and Composition via Implicit Atlas*), a Momentum Human Rig (MHR)-anchored framework that predicts and poses a person's internal anatomy from their external body shape and skeletal proportions. FASCIA maps a single 290-structure population template",
-   "cat": "cs.CV",
    "comment": "",
    "code_in_text": []
   }
