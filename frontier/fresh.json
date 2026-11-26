@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-26 09:33Z",
+ "generated": "2026-11-26 10:04Z",
  "papers": [
   {
    "id": "2611.34936",
@@ -644,7 +644,7 @@
    "cat": "cs.RO",
    "comment": "Project page: https://wongyun-yu.github.io/dexengine/ Code: https://github.com/wongyun-yu/DexEngine Data: https://huggingface.co/datasets/Wongyun/DexEngine",
    "hf": {
-    "up": 1,
+    "up": 2,
     "repo": "https://github.com/wongyun-yu/DexEngine",
     "stars": 4,
     "proj": "https://wongyun-yu.github.io/dexengine/"
@@ -784,7 +784,7 @@
    "cat": "cs.RO",
    "comment": "23 pages, 9 figures, 7 tables. Project page: https://vme0522.github.io/PyRUA-Dex/",
    "hf": {
-    "up": 39,
+    "up": 40,
     "repo": null,
     "stars": null,
     "proj": "https://vme0522.github.io/PyRUA-Dex/"
