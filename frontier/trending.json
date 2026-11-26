@@ -1,7 +1,7 @@
 [
  {
   "repo": "starVLA/starVLA",
-  "stars": 3977,
+  "stars": 3978,
   "pushed": "2026-11-18",
   "created": "2025-10-09",
   "desc": "StarVLA: A Lego-like Codebase for Vision-Language-Action Model Developing",
@@ -9,7 +9,7 @@
  },
  {
   "repo": "NVlabs/GR00T-WholeBodyControl",
-  "stars": 3954,
+  "stars": 3955,
   "pushed": "2026-11-03",
   "created": "2025-11-05",
   "desc": "Welcome to GR00T Whole-Body Control (WBC)! This is a unified platform for developing and deploying advanced hu",
@@ -41,7 +41,7 @@
  },
  {
   "repo": "HybridRobotics/supermimic",
-  "stars": 2056,
+  "stars": 2059,
   "pushed": "2026-11-21",
   "created": "2026-11-10",
   "desc": "Humanoid whole-body motion tracking with one differentiable world model.",
@@ -89,7 +89,7 @@
  },
  {
   "repo": "shengshu-ai/Motus2",
-  "stars": 670,
+  "stars": 671,
   "pushed": "2026-11-22",
   "created": "2026-09-11",
   "desc": "Motus2: A Self-Evolving General World Model for Dexterous Manipulation",
@@ -137,7 +137,7 @@
  },
  {
   "repo": "CumulusAlpha/Dex-Supermimic",
-  "stars": 168,
+  "stars": 169,
   "pushed": "2026-11-03",
   "created": "2026-10-26",
   "desc": "This is a reproduction of SuperMimic for dexterous hand manipulation tasks.",
