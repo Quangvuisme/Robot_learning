@@ -1230,9 +1230,9 @@
   "coming_soon": false,
   "usage": false,
   "weights": true,
-  "len": 159243,
+  "len": 159334,
   "evidence": [],
-  "head": " Updated on 2026.11.25 Top 50 most recent papers per topic. For full filtering by date or tag, see GitHub Pages(./docs/). Total corpus: 21769 papers across 26 months. Table of Contents Scientific Machine Learning & PINNs",
+  "head": " Updated on 2026.11.26 Top 50 most recent papers per topic. For full filtering by date or tag, see GitHub Pages(./docs/). Total corpus: 21821 papers across 26 months. Table of Contents Scientific Machine Learning & PINNs",
   "tier": "L",
   "why": "list/site repo"
  },
@@ -1669,9 +1669,9 @@
   "coming_soon": false,
   "usage": false,
   "weights": true,
-  "len": 246778,
+  "len": 254713,
   "evidence": [],
-  "head": " Updated on 2026.11.23 Usage instructions: here(./docs/README.mdusage) Table of Contents Archive SLAM SFM Visual Localization Keypoint Detection Image Matching NeRF Gaussian Splatting 3D Reconstruction World Model VLA an",
+  "head": " Updated on 2026.11.26 Usage instructions: here(./docs/README.mdusage) Table of Contents Archive SLAM SFM Visual Localization Keypoint Detection Image Matching NeRF Gaussian Splatting 3D Reconstruction World Model VLA an",
   "tier": "L",
   "why": "list/site repo"
  },
