@@ -538,5 +538,10 @@
   "title": "Project page for Endogenous and Exogenous Memory for World Action Models",
   "arxiv": null,
   "repo": "PAWTeam-EAI/em-wam"
+ },
+ {
+  "title": "Open source evals for physical AI. Run any LLM/VLA on any arm/humanoid against any real/sim benchmark.",
+  "arxiv": null,
+  "repo": "robodeltas/inspect-robots"
  }
 ]

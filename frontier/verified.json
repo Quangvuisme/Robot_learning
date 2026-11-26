@@ -3632,11 +3632,29 @@
   "coming_soon": true,
   "usage": false,
   "weights": true,
-  "len": 3019,
+  "len": 3164,
   "evidence": [
    "soon: ...ks, and real-robot rollouts.  ## Code, models, and dataset  Coming soon. Model and dataset releases will appear in the [EM-WAM Hugg..."
   ],
   "head": " Endogenous and Exogenous Memory for World Action Models Zerui Gong1, Marina Barannikov2, Zhonghua Wu1\u2020, Shanshan Lu2, Junjie Gao1, Zhe Yang2, Jinglin He1, Quanzhou Li2, Weijie Qiao1,2, Qinyue Li1, Qingyi Tao1, Chen Chan",
+  "tier": "X",
+  "why": "README does not mention the paper"
+ },
+ {
+  "title": "Open source evals for physical AI. Run any LLM/VLA on any arm/humanoid against any real/sim benchmark.",
+  "arxiv": null,
+  "repo": "robodeltas/inspect-robots",
+  "id_in_readme": false,
+  "title_in_readme": false,
+  "name_in_readme": false,
+  "official_claim": false,
+  "unofficial_claim": false,
+  "coming_soon": false,
+  "usage": true,
+  "weights": true,
+  "len": 22696,
+  "evidence": [],
+  "head": " Inspect Robots An open-source evaluation framework for physical AI Define a robotics benchmark once, then run any policy (LLM agent, VLA) against any compatible embodiment (a real arm or humanoid, or a simulator) with a",
   "tier": "X",
   "why": "README does not mention the paper"
  }
