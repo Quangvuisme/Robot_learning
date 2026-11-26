@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-26 20:03Z",
+ "generated": "2026-11-26 20:34Z",
  "papers": [
   {
    "id": "2611.34936",
@@ -850,7 +850,7 @@
    "cat": "cs.CV",
    "comment": "Code: https://github.com/iPPLab/robodojo-mirror",
    "hf": {
-    "up": 32,
+    "up": 33,
     "repo": "https://github.com/iPPLab/robodojo-mirror",
     "stars": 10,
     "proj": "https://ipplab.github.io/robodojo-mirror"
@@ -1727,7 +1727,7 @@
    "hf": {
     "up": 137,
     "repo": "https://github.com/xyangzhou/WorldLeague",
-    "stars": 20,
+    "stars": 21,
     "proj": "https://xyangzhou.github.io/WorldLeague/"
    },
    "code_in_text": []
@@ -1864,7 +1864,7 @@
    "cat": "cs.RO",
    "comment": "28 pages, 24 figures. Project page: https://damin3927.github.io/SWEEP-Bench",
    "hf": {
-    "up": 1,
+    "up": 2,
     "repo": "https://github.com/Damin3927/SWEEP-Bench",
     "stars": 4,
     "proj": "http://damin3927.github.io/SWEEP-Bench"
