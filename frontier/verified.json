@@ -1585,7 +1585,7 @@
   "coming_soon": false,
   "usage": false,
   "weights": true,
-  "len": 31174,
+  "len": 31404,
   "evidence": [],
   "head": " Awesome Embodied Benchmarks Awesome A curated, categorized list of benchmarks for robot learning and embodied AI \u2014 from classic simulation suites (Meta-World, RLBench, Habitat) to the newest VLA, humanoid, world-model-a",
   "tier": "L",
