@@ -1,4 +1,80 @@
 {
- "papers": [],
+ "papers": [
+  {
+   "id": "2611.33731",
+   "title": "RoboJackVR: Turning Robot Tasks into VR Games for Scalable Demonstration Collection",
+   "date": "2026-11-25",
+   "authors": [
+    "Ben Ma",
+    "Jixuan Cai"
+   ],
+   "abstract": "Scaling robot demonstration datasets requires collection systems that accommodate more participants and diverse tasks, yet teleoperation barriers and task-adaptation effort limit this expansion. We present RoboJackVR, a standalone virtual reality (VR) game in which players manipulate simulated robot",
+   "cat": "cs.RO",
+   "comment": "8 pages, 3 figures",
+   "code_in_text": []
+  },
+  {
+   "id": "2611.33710",
+   "title": "$\\mathrm{M}^{2}$-WAM: Efficient Hierarchical Memory Across Modalities and Timescales for World-Action Models",
+   "date": "2026-11-25",
+   "authors": [
+    "Xiaopeng Zhang",
+    "Weiqi Yuan",
+    "Xin Zhu",
+    "Jiaxi Huang"
+   ],
+   "abstract": "Long-horizon robotic manipulation requires historical context, yet retaining extensive visual histories incurs growing storage and retrieval costs, while aggressive compression risks losing fine-grained information needed for subsequent decisions. Moreover, executed action histories capture intermed",
+   "cat": "cs.RO",
+   "comment": "",
+   "code_in_text": []
+  },
+  {
+   "id": "2611.33702",
+   "title": "Systematic study of the performance of small robots on controlled laboratory substrates",
+   "date": "2026-11-25",
+   "authors": [
+    "Chen Li",
+    "Aaron M. Hoover",
+    "Paul Birkmeyer",
+    "Paul B. Umbanhowar"
+   ],
+   "abstract": "The design of robots able to locomote effectively over a diversity of terrain requires detailed ground interaction models; unfortunately such models are lacking due to the complicated response of real world substrates which can yield and flow in response to loading. To advance our understanding of t",
+   "cat": "physics.bio-ph",
+   "comment": "",
+   "code_in_text": []
+  },
+  {
+   "id": "2611.33635",
+   "title": "FreshVLA: Frequency-Regularized Time Scale Hierarchical Latent Actions for Vision-Language-Action Models",
+   "date": "2026-11-25",
+   "authors": [
+    "Jiaming Liang",
+    "Yifeng Zhan",
+    "Rongyi He",
+    "Mu Li"
+   ],
+   "abstract": "Learning reusable latent actions from action-free videos offers an effective route to improving Vision-Language-Action (VLA) policies. However, reconstruction-oriented latent actions do not necessarily benefit policy learning: as they may encode task-irrelevant static appearance with scene identity,",
+   "cat": "cs.RO",
+   "comment": "20 pages",
+   "code_in_text": []
+  },
+  {
+   "id": "2611.33579",
+   "title": "DexEngine: Scaling Human Demonstrations into Physically Executable Whole-Robot Data",
+   "date": "2026-11-25",
+   "authors": [
+    "Wongyun Yu",
+    "Honggeun Kim",
+    "Donguk Lee",
+    "Minchan Kim"
+   ],
+   "abstract": "A growing body of recent work addresses the retargeting of human hand-object demonstrations to robotic hands. To train whole-robot policies, however, the retargeted motions must be kinematically feasible and physically executable, and be produced efficiently at scale. We present DexEngine, a simulat",
+   "cat": "cs.RO",
+   "comment": "Project page: https://wongyun-yu.github.io/dexengine/ Code: https://github.com/wongyun-yu/DexEngine Data: https://huggingface.co/datasets/Wongyun/DexEngine",
+   "code_in_text": [
+    "https://github.com/wongyun-yu/DexEngine"
+   ]
+  }
+ ],
  "repos": []
 }

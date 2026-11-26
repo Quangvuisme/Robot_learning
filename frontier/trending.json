@@ -33,7 +33,7 @@
  },
  {
   "repo": "dexmal/opendm",
-  "stars": 2747,
+  "stars": 2748,
   "pushed": "2026-11-06",
   "created": "2026-07-06",
   "desc": "An Open-World Foundation Model for General-Purpose Embodied Intelligence.",
@@ -41,7 +41,7 @@
  },
  {
   "repo": "HybridRobotics/supermimic",
-  "stars": 2050,
+  "stars": 2051,
   "pushed": "2026-11-21",
   "created": "2026-11-10",
   "desc": "Humanoid whole-body motion tracking with one differentiable world model.",
@@ -57,7 +57,7 @@
  },
  {
   "repo": "RainBowLuoCS/Gamer",
-  "stars": 1546,
+  "stars": 1549,
   "pushed": "2026-11-16",
   "created": "2026-10-30",
   "desc": "Official Implementation of Gamer: A Generalist Vision-Language-Action Foundation Model for Long-Horizon Real-T",

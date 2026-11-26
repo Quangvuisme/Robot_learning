@@ -1,6 +1,111 @@
 {
- "generated": "2026-11-26 01:33Z",
+ "generated": "2026-11-26 02:04Z",
  "papers": [
+  {
+   "id": "2611.33739",
+   "title": "RegHarness: Regulating What Code-as-Policy Agents Keep from Steps to Skills",
+   "date": "2026-11-25",
+   "authors": [
+    "Shengming Liu",
+    "Yunyi Gao",
+    "Xinyi Wang",
+    "Jianyong Sun"
+   ],
+   "abstract": "Code-as-Policy agents generate, execute, and revise robot programs, but often lack explicit mechanisms to govern what persists across executions: which actions are retained within a trial and which code modifications carry over to subsequent runs. This leaves two critical aspects of agent behavior i",
+   "cat": "cs.RO",
+   "comment": "18 pages, 7 figures, including the appendix",
+   "code_in_text": []
+  },
+  {
+   "id": "2611.33731",
+   "title": "RoboJackVR: Turning Robot Tasks into VR Games for Scalable Demonstration Collection",
+   "date": "2026-11-25",
+   "authors": [
+    "Ben Ma",
+    "Jixuan Cai"
+   ],
+   "abstract": "Scaling robot demonstration datasets requires collection systems that accommodate more participants and diverse tasks, yet teleoperation barriers and task-adaptation effort limit this expansion. We present RoboJackVR, a standalone virtual reality (VR) game in which players manipulate simulated robot",
+   "cat": "cs.RO",
+   "comment": "8 pages, 3 figures",
+   "code_in_text": []
+  },
+  {
+   "id": "2611.33721",
+   "title": "A general-purpose safe manipulator planning framework for diverse environments without retraining",
+   "date": "2026-11-25",
+   "authors": [
+    "Mingkang Long",
+    "Rong Su",
+    "Luhang Hong",
+    "Qingqing Wang"
+   ],
+   "abstract": "Nowadays, robots need to be retrained whenever their operating environment changes, and this prohibitive training cost keeps them far from daily use. The community is calling for innovations that bestow on a robot the ability to safely grasp different objects under different conditions without exces",
+   "cat": "cs.RO",
+   "comment": "46 pages, 7 figures; main text and supplementary materials",
+   "code_in_text": []
+  },
+  {
+   "id": "2611.33710",
+   "title": "$\\mathrm{M}^{2}$-WAM: Efficient Hierarchical Memory Across Modalities and Timescales for World-Action Models",
+   "date": "2026-11-25",
+   "authors": [
+    "Xiaopeng Zhang",
+    "Weiqi Yuan",
+    "Xin Zhu",
+    "Jiaxi Huang"
+   ],
+   "abstract": "Long-horizon robotic manipulation requires historical context, yet retaining extensive visual histories incurs growing storage and retrieval costs, while aggressive compression risks losing fine-grained information needed for subsequent decisions. Moreover, executed action histories capture intermed",
+   "cat": "cs.RO",
+   "comment": "",
+   "code_in_text": []
+  },
+  {
+   "id": "2611.33702",
+   "title": "Systematic study of the performance of small robots on controlled laboratory substrates",
+   "date": "2026-11-25",
+   "authors": [
+    "Chen Li",
+    "Aaron M. Hoover",
+    "Paul Birkmeyer",
+    "Paul B. Umbanhowar"
+   ],
+   "abstract": "The design of robots able to locomote effectively over a diversity of terrain requires detailed ground interaction models; unfortunately such models are lacking due to the complicated response of real world substrates which can yield and flow in response to loading. To advance our understanding of t",
+   "cat": "physics.bio-ph",
+   "comment": "",
+   "code_in_text": []
+  },
+  {
+   "id": "2611.33635",
+   "title": "FreshVLA: Frequency-Regularized Time Scale Hierarchical Latent Actions for Vision-Language-Action Models",
+   "date": "2026-11-25",
+   "authors": [
+    "Jiaming Liang",
+    "Yifeng Zhan",
+    "Rongyi He",
+    "Mu Li"
+   ],
+   "abstract": "Learning reusable latent actions from action-free videos offers an effective route to improving Vision-Language-Action (VLA) policies. However, reconstruction-oriented latent actions do not necessarily benefit policy learning: as they may encode task-irrelevant static appearance with scene identity,",
+   "cat": "cs.RO",
+   "comment": "20 pages",
+   "code_in_text": []
+  },
+  {
+   "id": "2611.33579",
+   "title": "DexEngine: Scaling Human Demonstrations into Physically Executable Whole-Robot Data",
+   "date": "2026-11-25",
+   "authors": [
+    "Wongyun Yu",
+    "Honggeun Kim",
+    "Donguk Lee",
+    "Minchan Kim"
+   ],
+   "abstract": "A growing body of recent work addresses the retargeting of human hand-object demonstrations to robotic hands. To train whole-robot policies, however, the retargeted motions must be kinematically feasible and physically executable, and be produced efficiently at scale. We present DexEngine, a simulat",
+   "cat": "cs.RO",
+   "comment": "Project page: https://wongyun-yu.github.io/dexengine/ Code: https://github.com/wongyun-yu/DexEngine Data: https://huggingface.co/datasets/Wongyun/DexEngine",
+   "code_in_text": [
+    "https://github.com/wongyun-yu/DexEngine"
+   ]
+  },
   {
    "id": "2611.33144",
    "title": "PyRUA-Dex: Learning Programmatic Policies for Dexterous Bimanual Manipulation with Coding Agents",
@@ -1585,7 +1690,7 @@
    "cat": "cs.RO",
    "comment": "Code: https://github.com/AIGeeksGroup/MotionMamba2.0. Website: https://aigeeksgroup.github.io/MotionMamba2.0",
    "hf": {
-    "up": 200,
+    "up": 202,
     "repo": "https://github.com/AIGeeksGroup/MotionMamba2.0",
     "stars": 34,
     "proj": "https://aigeeksgroup.github.io/MotionMamba2.0/"
@@ -1749,111 +1854,6 @@
    "abstract": "Vision-Language-Action (VLA) models typically use flow-based generative modeling to learn a rich, often multimodal, distribution of robot actions. Generating samples from flow-based methods involves iteratively updating random noise, and distinct noise samples from the same state can result in disti",
    "cat": "cs.RO",
    "comment": "Accepted to the CoRL 2026 Learn@Deploy Workshop",
-   "code_in_text": []
-  },
-  {
-   "id": "2611.29339",
-   "title": "More Than Picturing the Future: Motion-Oriented Latent Reasoning for Generalizable Robot Manipulation",
-   "date": "2026-11-22",
-   "authors": [
-    "Xin Zhang",
-    "Yushuo Hou",
-    "Anqi Zhao",
-    "Moyun Liu"
-   ],
-   "abstract": "Latent reasoning lets Vision-Language-Action (VLA) models deliberate at a fraction of the cost of explicit chain-of-thought, increasingly through visual foresight, which we show to be indispensable for predicting actions. Yet this paradigm is inherited from Vision-Language Models, where it serves un",
-   "cat": "cs.RO",
-   "comment": "",
-   "code_in_text": []
-  },
-  {
-   "id": "2611.29279",
-   "title": "A2I-VLA: A Two-Stage Vision-Language-Action model with Semantic-Physical Alignment and Integration",
-   "date": "2026-11-22",
-   "authors": [
-    "Kun Dai",
-    "Tianqi Wang",
-    "Haibo Lei",
-    "Chaoyang Li"
-   ],
-   "abstract": "Force and tactile feedback provide essential information about physical interactions in contact-rich manipulation that visual observations alone cannot reliably capture.However, integrating these signals into vision-language-action (VLA) models remains challenging owing to the representational gap b",
-   "cat": "cs.RO",
-   "comment": "",
-   "code_in_text": []
-  },
-  {
-   "id": "2611.29277",
-   "title": "$ζ_0$: A Framework for World Action Models with Joint Scene and Body Foresight in Humanoid Control",
-   "date": "2026-11-22",
-   "authors": [
-    "Yizhi Chen",
-    "Zhanxiang Cao",
-    "Yitong Wang",
-    "Junyu Liu"
-   ],
-   "abstract": "World Action Models anticipate visual outcomes to guide robot actions, yet humanoid interaction also depends on how the robot's body responds. Visual foresight alone can miss body motion, while latent-distance losses do not directly supervise action responses. We present $ζ_0$, a framework that turn",
-   "cat": "cs.RO",
-   "comment": "18 pages (including appendix), 10 figures, 12 tables. Project page: https://chenyizhi123.github.io/zeta0-project/ ; Code & Data: https://github.com/chenyizhi123/Zeta0",
-   "code_in_text": [
-    "https://github.com/chenyizhi123/Zeta0"
-   ]
-  },
-  {
-   "id": "2611.29240",
-   "title": "Tacinf: A Unified Tactile Infrastructure for Robot Manipulation",
-   "date": "2026-11-22",
-   "authors": [
-    "Qiwei Wu",
-    "Xiangyu Chen",
-    "Xin Xiang",
-    "Rui Zhang"
-   ],
-   "abstract": "Force-aware manipulation requires robots to infer appropriate interaction forces from task context and tactile feedback. We present Tacinf, a low-cost, modular infrastructure that enables policies to predict robot actions and fingertip forces from task language, vision, and touch. Task instructions ",
-   "cat": "cs.RO",
-   "comment": "",
-   "code_in_text": []
-  },
-  {
-   "id": "2611.29230",
-   "title": "InfoField3D: Differentiable Information Field for Embodied Task-Oriented View Planning",
-   "date": "2026-11-22",
-   "authors": [
-    "Huan Lyu",
-    "Yawei Luo"
-   ],
-   "abstract": "Effective task execution requires embodied agents to select observation positions that provide sufficient task-relevant information. Existing approaches typically predict viewpoints with learned models or score discrete candidates, but they either struggle to incorporate new constraints such as reac",
-   "cat": "cs.RO",
-   "comment": "61 pages, 27 figures, 36 tables (including appendices)",
-   "code_in_text": []
-  },
-  {
-   "id": "2611.29195",
-   "title": "FunGrasp-Zero: Field-Conditioned Graph Attention Policy for Zero-Shot Cross-Embodiment Dexterous Functional Grasping",
-   "date": "2026-11-22",
-   "authors": [
-    "Yanhan Lin",
-    "Yuliang Wu",
-    "Yihao Guo",
-    "Wei-Jin Huang"
-   ],
-   "abstract": "Dexterous functional grasping is critical for robotic tool use, yet current dexterous hands exhibit substantial morphological diversity. This hardware heterogeneity makes cross-embodiment functional grasping a fundamental but largely unexplored problem. Existing functional grasping methods use retar",
-   "cat": "cs.RO",
-   "comment": "",
-   "code_in_text": []
-  },
-  {
-   "id": "2611.29125",
-   "title": "SilentWAM: Planning in the Masked State of a Diffusion World Model",
-   "date": "2026-11-22",
-   "authors": [
-    "Ziyu Zhao",
-    "Casey Sun",
-    "Zeyu Wang",
-    "Shicong Ma"
-   ],
-   "abstract": "World-action models learn from future prediction, but accessing their future representations directly at test time can require costly frame generation. Methods that generate future frames before planning incur additional forward passes, while future co-training methods omit explicit future predictio",
-   "cat": "cs.CV",
-   "comment": "",
    "code_in_text": []
   }
  ]
