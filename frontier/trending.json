@@ -41,7 +41,7 @@
  },
  {
   "repo": "HybridRobotics/supermimic",
-  "stars": 2072,
+  "stars": 2073,
   "pushed": "2026-11-21",
   "created": "2026-11-10",
   "desc": "Humanoid whole-body motion tracking with one differentiable world model.",
@@ -105,7 +105,7 @@
  },
  {
   "repo": "Roboparty/UFO",
-  "stars": 352,
+  "stars": 353,
   "pushed": "2026-11-23",
   "created": "2026-07-13",
   "desc": "An open-source unsupervised RL framework for humanoid control with FB/TeCH training, robot-aware motion import",
@@ -121,7 +121,7 @@
  },
  {
   "repo": "black-forest-labs/flux-action",
-  "stars": 231,
+  "stars": 232,
   "pushed": "2026-11-10",
   "created": "2026-09-23",
   "desc": "FLUX 3 Action: open weights 7B world action model from Black Forest Labs. Train, fine-tune and run action pred",
@@ -177,7 +177,7 @@
  },
  {
   "repo": "lok-i/vibe",
-  "stars": 78,
+  "stars": 79,
   "pushed": "2026-11-14",
   "created": "2026-09-08",
   "desc": "Post-training humanoid whole-body trackers for perceptive control tasks",

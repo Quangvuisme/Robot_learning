@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-26 13:04Z",
+ "generated": "2026-11-26 13:34Z",
  "papers": [
   {
    "id": "2611.34936",
@@ -73,12 +73,6 @@
    "abstract": "World-action models jointly predict future observations and actions, yet visual corruption can disrupt the resulting policies. We introduce HOG-WAM, which adds future Histograms of Oriented Gradients (HOG) as structural supervision derived directly from demonstration images. An auxiliary HOG diffusi",
    "cat": "cs.CV",
    "comment": "Code: https://github.com/iPPLab/HOG-WAM",
-   "hf": {
-    "up": 21,
-    "repo": "https://github.com/iPPLab/HOG-WAM",
-    "stars": 2,
-    "proj": null
-   },
    "code_in_text": [
     "https://github.com/iPPLab/HOG-WAM"
    ]
@@ -111,12 +105,6 @@
    "abstract": "LLM agents have made remarkable progress in robot manipulation, yet they suffer from expensive inference, dense step-by-step control, and tool bottlenecks. We introduce SOLVE, a training-free, versatile and efficient agent policy: a multimodal LLM agent writes a sparse, ordered sequence of 6-DoF end",
    "cat": "cs.RO",
    "comment": "",
-   "hf": {
-    "up": 0,
-    "repo": null,
-    "stars": null,
-    "proj": "https://serenos.github.io/solve-website"
-   },
    "code_in_text": []
   },
   {
@@ -147,12 +135,6 @@
    "abstract": "Robots should adapt to unfamiliar environments and acquire new skills through interaction, then execute those skills efficiently with practice. Vision-language-action policies provide efficient control, but often need additional human demonstrations to handle unfamiliar settings; reasoning agents ca",
    "cat": "cs.RO",
    "comment": "Project page: https://kaiknower.github.io/RoboEvo2/",
-   "hf": {
-    "up": 8,
-    "repo": "https://github.com/kaiknower/RoboEvo2",
-    "stars": 1,
-    "proj": "https://kaiknower.github.io/RoboEvo2/"
-   },
    "code_in_text": []
   },
   {
@@ -643,12 +625,6 @@
    "abstract": "A growing body of recent work addresses the retargeting of human hand-object demonstrations to robotic hands. To train whole-robot policies, however, the retargeted motions must be kinematically feasible and physically executable, and be produced efficiently at scale. We present DexEngine, a simulat",
    "cat": "cs.RO",
    "comment": "Project page: https://wongyun-yu.github.io/dexengine/ Code: https://github.com/wongyun-yu/DexEngine Data: https://huggingface.co/datasets/Wongyun/DexEngine",
-   "hf": {
-    "up": 2,
-    "repo": "https://github.com/wongyun-yu/DexEngine",
-    "stars": 4,
-    "proj": "https://wongyun-yu.github.io/dexengine/"
-   },
    "code_in_text": [
     "https://github.com/wongyun-yu/DexEngine"
    ]
@@ -783,12 +759,6 @@
    "abstract": "Learning for dexterous manipulation is limited by the scarcity of high-quality demonstrations: retargeting from human video is imprecise, teleoperation gives no force feedback to the operator, and exoskeleton-based collection is hard to scale up. We present PyRUA-Dex, a framework that enables coding",
    "cat": "cs.RO",
    "comment": "23 pages, 9 figures, 7 tables. Project page: https://vme0522.github.io/PyRUA-Dex/",
-   "hf": {
-    "up": 41,
-    "repo": null,
-    "stars": null,
-    "proj": "https://vme0522.github.io/PyRUA-Dex/"
-   },
    "code_in_text": []
   },
   {
@@ -849,12 +819,6 @@
    "abstract": "Can a simple mirror expose the limitations of today's robotic manipulation policies? Inspired by the mirror self-recognition test in animal cognition, we investigate whether robot policies can reliably manipulate physical objects in scenes containing their reflections. We introduce RoboDojo-Mirror, ",
    "cat": "cs.CV",
    "comment": "Code: https://github.com/iPPLab/robodojo-mirror",
-   "hf": {
-    "up": 32,
-    "repo": "https://github.com/iPPLab/robodojo-mirror",
-    "stars": 10,
-    "proj": "https://ipplab.github.io/robodojo-mirror"
-   },
    "code_in_text": [
     "https://github.com/iPPLab/robodojo-mirror"
    ]
@@ -1022,12 +986,6 @@
    "abstract": "Online reinforcement learning (RL) enables vision-language-action policies to improve through environmental interaction. However, in long-horizon manipulation, sparse success/failure feedback provides little information about where policies encounter bottlenecks. Moreover, repeated full-task rollout",
    "cat": "cs.RO",
    "comment": "27 pages, 15 figures",
-   "hf": {
-    "up": 1,
-    "repo": "https://github.com/ReFocus-Robotics/ReFocus",
-    "stars": 2,
-    "proj": "https://refocus-robotics.github.io/"
-   },
    "code_in_text": []
   },
   {
@@ -1447,12 +1405,6 @@
    "abstract": "While text-driven body motion generation has matured, pure-hand synthesis remains bottlenecked by data. Existing datasets often treat hands as rigid end-effectors, lack fine-grained captions, or are too limited in scale to support robust generalization. We introduce RoMo Hands, an in-the-wild, text-",
    "cat": "cs.CV",
    "comment": "Accepted to NeurIPS 2026. Project page: https://romodataset.github.io/romo-hands/ Dataset: https://huggingface.co/datasets/RoMoDataset/RoMo-Hands",
-   "hf": {
-    "up": 1,
-    "repo": "https://github.com/RoMoDataset/motion-toolbox",
-    "stars": 28,
-    "proj": "https://romodataset.github.io/romo-hands/"
-   },
    "code_in_text": []
   },
   {
@@ -1656,12 +1608,6 @@
    "abstract": "Model alignment is the primary safety and security mechanism for enforcing refusal of malicious prompts in modern foundation models; yet, existing adversarial evaluations implicitly assume underlying hardware integrity. In this paper, we present FATCAT, the first physical fault-injection attacks cap",
    "cat": "cs.CR",
    "comment": "",
-   "hf": {
-    "up": 1,
-    "repo": null,
-    "stars": null,
-    "proj": null
-   },
    "code_in_text": []
   },
   {
@@ -1677,12 +1623,6 @@
    "abstract": "Vision-language-action (VLA) models leverage pretrained vision-language representations for instruction-conditioned robot control, yet their understanding of task-relevant 3D relations and how these relations evolve during manipulation remains largely implicit. To address this challenge, we introduc",
    "cat": "cs.RO",
    "comment": "21 pages, 7 figures",
-   "hf": {
-    "up": 2,
-    "repo": "https://github.com/Kingzein/WeaveVLA",
-    "stars": 13,
-    "proj": "https://kingzein.github.io/weave-vla/#overview"
-   },
    "code_in_text": []
   },
   {
@@ -1724,12 +1664,6 @@
    "abstract": "AI systems can now operate Blender, follow instructions in complex video games, and manipulate objects with robot arms. What range of physical goals can today's AI systems achieve autonomously? Answering this question requires testing systems on tasks that demand different combinations of perception",
    "cat": "cs.RO",
    "comment": "",
-   "hf": {
-    "up": 137,
-    "repo": "https://github.com/xyangzhou/WorldLeague",
-    "stars": 20,
-    "proj": "https://xyangzhou.github.io/WorldLeague/"
-   },
    "code_in_text": []
   },
   {
@@ -1745,12 +1679,6 @@
    "abstract": "Robotic manipulation policies can improve action prediction by anticipating how objects move and how their spatial relationships change. World Action Models (WAMs) learn to predict future visual observations, but their training objectives typically leave the underlying 3D geometric transitions impli",
    "cat": "cs.RO",
    "comment": "Project website: https://anson2333.github.io/foresight-forcing",
-   "hf": {
-    "up": 1,
-    "repo": "https://github.com/anson2333/ForesightForcing",
-    "stars": 5,
-    "proj": "https://anson2333.github.io/foresight-forcing/"
-   },
    "code_in_text": []
   },
   {
@@ -1780,12 +1708,6 @@
    "abstract": "Large and diverse video sources, such as egocentric human video and heterogeneous robot recordings, carry rich dynamics but come either without actions or without a shared action space. Latent action models (LAMs) can recover these dynamics, but they train their inverse- and forward-dynamics models ",
    "cat": "cs.CV",
    "comment": "19 pages, 7 figures, 6 tables. Project page: https://pawteam-eai.github.io/native-lam/",
-   "hf": {
-    "up": 28,
-    "repo": null,
-    "stars": null,
-    "proj": "https://pawteam-eai.github.io/native-lam/"
-   },
    "code_in_text": []
   },
   {
@@ -1863,12 +1785,6 @@
    "abstract": "Robot policies must adapt to the speed of moving objects, yet existing benchmarks rarely measure this ability across diverse tasks and speeds. We introduce SWEEP-Bench, a simulation benchmark with 80 conveyor-belt manipulation tasks spanning 16 skill categories, each evaluated at 13 belt speeds (0.1",
    "cat": "cs.RO",
    "comment": "28 pages, 24 figures. Project page: https://damin3927.github.io/SWEEP-Bench",
-   "hf": {
-    "up": 1,
-    "repo": "https://github.com/Damin3927/SWEEP-Bench",
-    "stars": 3,
-    "proj": "http://damin3927.github.io/SWEEP-Bench"
-   },
    "code_in_text": []
   }
  ]
