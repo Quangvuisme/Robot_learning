@@ -1585,7 +1585,7 @@
   "coming_soon": false,
   "usage": false,
   "weights": true,
-  "len": 31371,
+  "len": 31174,
   "evidence": [],
   "head": " Awesome Embodied Benchmarks Awesome A curated, categorized list of benchmarks for robot learning and embodied AI \u2014 from classic simulation suites (Meta-World, RLBench, Habitat) to the newest VLA, humanoid, world-model-a",
   "tier": "L",
@@ -3528,9 +3528,9 @@
   "coming_soon": false,
   "usage": true,
   "weights": true,
-  "len": 6797,
+  "len": 7672,
   "evidence": [],
-  "head": "\u2388 SteerQuant: Steering Quantization Error with Action-Guided Scaling in World\u2013Action Models Explore more on our Project Page Overview \u00b7 Installation \u00b7 Model &amp; Data \u00b7 Calibration \u00b7 Evaluation \u00b7 Real Robot Overview Ste",
+  "head": "\u2388 SteerQuant: Steering Quantization Error with Action-Guided Scaling in World\u2013Action Models Steer the error. Keep actions on course. Yunhan Wang1,2,, Haodong Wang2,, Zhiming Liu3, Zicong Hong4, Qianli Liu2, Xiaoyi Pang2,",
   "tier": "X",
   "why": "README does not mention the paper"
  },
@@ -3663,5 +3663,25 @@
   "head": " How Far Does a Push Travel? Paired Action Responses in Contact-Graph World Models. The experiments compare contact propagation, event-based predictions and learned corrections using paired initial states. The physical c",
   "tier": "B",
   "why": "paper cited + runnable usage, no explicit 'official' claim"
+ },
+ {
+  "title": "A lightweight world action model for robotics, integrating latent world prediction and future-aware action generation on consumer-grade GPUs.",
+  "arxiv": null,
+  "repo": "trailer437/LWAM",
+  "id_in_readme": false,
+  "title_in_readme": false,
+  "name_in_readme": false,
+  "official_claim": true,
+  "unofficial_claim": false,
+  "coming_soon": false,
+  "usage": true,
+  "weights": true,
+  "len": 9655,
+  "evidence": [
+   "official: ...pip ```  Install a CUDA-compatible PyTorch build using the [official PyTorch installation instructions](https://pytorch.org/get-started/..."
+  ],
+  "head": " LWAM \u2014 Lightweight Latent World Action Model A lightweight robotics research project exploring action-conditioned latent world modeling and future-aware action generation on consumer-grade GPUs. Project status: Early-st",
+  "tier": "X",
+  "why": "README does not mention the paper"
  }
 ]

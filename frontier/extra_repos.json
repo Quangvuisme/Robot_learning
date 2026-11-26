@@ -548,5 +548,10 @@
   "title": "Paired action responses in contact-graph world models. Reproducibility code and experimental data.",
   "arxiv": null,
   "repo": "LudwigWangMu/contact-graph-action-responses"
+ },
+ {
+  "title": "A lightweight world action model for robotics, integrating latent world prediction and future-aware action generation on consumer-grade GPUs.",
+  "arxiv": null,
+  "repo": "trailer437/LWAM"
  }
 ]
