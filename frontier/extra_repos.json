@@ -523,5 +523,10 @@
   "title": "World-Value-Action-Model-for-Long-Horizon-Robotic-Manipulation-LIBERO-",
   "arxiv": null,
   "repo": "koushiktata/World-Value-Action-Model-for-Long-Horizon-Robotic-Manipulation-LIBERO-"
+ },
+ {
+  "title": "Omnidirectional RL Whole-Body Control & Shared-Decoder Co-Training based on CoRL 2026 SuperMimic (Unitree G1)",
+  "arxiv": null,
+  "repo": "121400-cheng/supermimic-g1-wbc"
  }
 ]
