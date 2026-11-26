@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-26 08:33Z",
+ "generated": "2026-11-26 09:04Z",
  "papers": [
   {
    "id": "2611.34936",
@@ -74,7 +74,7 @@
    "cat": "cs.CV",
    "comment": "Code: https://github.com/iPPLab/HOG-WAM",
    "hf": {
-    "up": 18,
+    "up": 19,
     "repo": "https://github.com/iPPLab/HOG-WAM",
     "stars": 2,
     "proj": null
@@ -643,6 +643,12 @@
    "abstract": "A growing body of recent work addresses the retargeting of human hand-object demonstrations to robotic hands. To train whole-robot policies, however, the retargeted motions must be kinematically feasible and physically executable, and be produced efficiently at scale. We present DexEngine, a simulat",
    "cat": "cs.RO",
    "comment": "Project page: https://wongyun-yu.github.io/dexengine/ Code: https://github.com/wongyun-yu/DexEngine Data: https://huggingface.co/datasets/Wongyun/DexEngine",
+   "hf": {
+    "up": 0,
+    "repo": "https://github.com/wongyun-yu/DexEngine",
+    "stars": null,
+    "proj": "https://wongyun-yu.github.io/dexengine/"
+   },
    "code_in_text": [
     "https://github.com/wongyun-yu/DexEngine"
    ]
@@ -1719,7 +1725,7 @@
    "cat": "cs.RO",
    "comment": "",
    "hf": {
-    "up": 136,
+    "up": 137,
     "repo": "https://github.com/xyangzhou/WorldLeague",
     "stars": 20,
     "proj": "https://xyangzhou.github.io/WorldLeague/"
