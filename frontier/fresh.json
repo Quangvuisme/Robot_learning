@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-26 10:04Z",
+ "generated": "2026-11-26 10:33Z",
  "papers": [
   {
    "id": "2611.34936",
@@ -784,7 +784,7 @@
    "cat": "cs.RO",
    "comment": "23 pages, 9 figures, 7 tables. Project page: https://vme0522.github.io/PyRUA-Dex/",
    "hf": {
-    "up": 40,
+    "up": 41,
     "repo": null,
     "stars": null,
     "proj": "https://vme0522.github.io/PyRUA-Dex/"
