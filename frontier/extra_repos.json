@@ -518,5 +518,10 @@
   "title": "Project page for RetroWAM: World Action Models Self-Calibrate Their Robots by Reading, Not Imagining",
   "arxiv": null,
   "repo": "retro-wam/retro-wam.github.io"
+ },
+ {
+  "title": "World-Value-Action-Model-for-Long-Horizon-Robotic-Manipulation-LIBERO-",
+  "arxiv": null,
+  "repo": "koushiktata/World-Value-Action-Model-for-Long-Horizon-Robotic-Manipulation-LIBERO-"
  }
 ]
