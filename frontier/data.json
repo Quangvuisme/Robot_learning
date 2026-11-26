@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-26 04:04Z",
+ "generated": "2026-11-26 04:34Z",
  "items": [
   {
    "section": "Loco-Manipulation and Whole-Body-Control",
@@ -221,7 +221,18 @@
    "date": "2026-11-19",
    "url": "https://arxiv.org/abs/2611.26218",
    "title": "MixReact: Physics-Based Reactive Humanoid Control from Multimodal Cues via a Discrete-Continuous Mixture of Transformers",
-   "website": "https://binlee26.github.io/MixReact_Page/"
+   "website": "https://binlee26.github.io/MixReact_Page/",
+   "gh": {
+    "official": false,
+    "stars": 0,
+    "forks": 0,
+    "issues": 0,
+    "pushed": "2026-11-23",
+    "created": "2026-11-19",
+    "spd": 0.0,
+    "license": null,
+    "full": "BinLee26/MixReact_Page"
+   }
   },
   {
    "section": "Hardware Design",

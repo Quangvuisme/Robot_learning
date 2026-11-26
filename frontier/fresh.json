@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-26 04:03Z",
+ "generated": "2026-11-26 04:33Z",
  "papers": [
   {
    "id": "2611.34936",
@@ -119,6 +119,169 @@
    ],
    "abstract": "Pretrained vision-language-action (VLA) models rarely satisfy all behavioral requirements of a new platform, and teams without a large deployed fleet lack the data to address the resulting failures. We propose a failure-driven data flywheel for post-training such models. It constructs target scenari",
    "cat": "cs.AI",
+   "comment": "",
+   "code_in_text": []
+  },
+  {
+   "id": "2611.34675",
+   "title": "RoboEvo$^2$: Recursive Robot Self-Improvement via Harness-Policy Co-Evolution",
+   "date": "2026-11-25",
+   "authors": [
+    "Chenzhi Liu",
+    "Jiehong Lin",
+    "Wei Huang",
+    "Xuzhao Huang"
+   ],
+   "abstract": "Robots should adapt to unfamiliar environments and acquire new skills through interaction, then execute those skills efficiently with practice. Vision-language-action policies provide efficient control, but often need additional human demonstrations to handle unfamiliar settings; reasoning agents ca",
+   "cat": "cs.RO",
+   "comment": "Project page: https://kaiknower.github.io/RoboEvo2/",
+   "code_in_text": []
+  },
+  {
+   "id": "2611.34655",
+   "title": "Nav4Manip: From Navigation to Dexterous Mobile Manipulation through Co-Evolution",
+   "date": "2026-11-25",
+   "authors": [
+    "Yusen Feng",
+    "Zixi Kang",
+    "Zhijun Yin",
+    "Changxiao Liu"
+   ],
+   "abstract": "Dexterous mobile manipulation is essential for robots to perform useful tasks in complex, unstructured environments. However, existing systems face two challenges. First, navigation remains too coarse for downstream manipulation, which often requires a precise base position and approach orientation ",
+   "cat": "cs.RO",
+   "comment": "",
+   "code_in_text": []
+  },
+  {
+   "id": "2611.34614",
+   "title": "Commit2Drive: Perception-Grounded Language Decisions as Commitments for Trajectory Planning in Vision-Language-Action Driving Models",
+   "date": "2026-11-25",
+   "authors": [
+    "Zikai Zhang",
+    "Hubert P. Shum",
+    "Toby Breckon"
+   ],
+   "abstract": "Vision-Language-Action (VLA) models introduce language reasoning into end-to-end autonomous driving. They output a language decision together with a trajectory, which makes the planner more interpretable. However, in existing methods the language decision is either an independent output or an index ",
+   "cat": "cs.CV",
+   "comment": "28 pages, 9 figures, 19 tables. Includes supplementary material. Code will be released soon",
+   "code_in_text": []
+  },
+  {
+   "id": "2611.34569",
+   "title": "Riding the Wave: Sim-to-Real Humanoid Control on Elastic Terrain",
+   "date": "2026-11-25",
+   "authors": [
+    "Yinglei Zhu",
+    "Qin Li",
+    "Honghao Pan",
+    "Bozhao Wang"
+   ],
+   "abstract": "Humanoid robots on deformable elastic terrains face a surface whose position and motion are coupled in space and time: deflection and rebound persist between contacts, and load at one foothold alters the support at others, so training must capture how each contact changes the support that follows. W",
+   "cat": "cs.RO",
+   "comment": "",
+   "code_in_text": []
+  },
+  {
+   "id": "2611.34560",
+   "title": "M$^{2}$AdaptVLA: Multimodal Memory-Augmented Vision-Language-Action Model with Predictive Test-Time Adaptation",
+   "date": "2026-11-25",
+   "authors": [
+    "Liufan Tan",
+    "Tong Wang",
+    "Yuehao Yin",
+    "Jian Chen"
+   ],
+   "abstract": "Effective robotic manipulation calls for multimodal memory and rapid adaptation to shifts in contact dynamics. However, many existing policies, which retain either visual or wrench history, may miss key cues from the other modality. Moreover, even with wrench memory, fixed policies can struggle when",
+   "cat": "cs.RO",
+   "comment": "16 pages, 11 figures, 8 tables, including supplementary material",
+   "code_in_text": []
+  },
+  {
+   "id": "2611.34538",
+   "title": "Dynamic Task Update Benchmark (DTU-Bench): Evaluating Runtime Task Adaptation in Robotic Manipulation",
+   "date": "2026-11-25",
+   "authors": [
+    "Yanran Jiang",
+    "Cécile Paris",
+    "Dana Kulić",
+    "Leimin Tian"
+   ],
+   "abstract": "Vision-language-action (VLA) policies perform well on fixed-instruction robotic manipulation benchmarks, but their ability to adapt to instruction changes during execution remains understudied. We introduce the Dynamic Task Update Benchmark (DTU-Bench), evaluating 40 task revisions across seven upda",
+   "cat": "cs.RO",
+   "comment": "",
+   "code_in_text": []
+  },
+  {
+   "id": "2611.34519",
+   "title": "AGLR: Attribute-Guided Latent Refinement for Fine-Grained Humanoid Motion Generation and Editing",
+   "date": "2026-11-25",
+   "authors": [
+    "Shuai Yuan",
+    "Yuwei Gui",
+    "Mingshuang Luo",
+    "Zhuo Li"
+   ],
+   "abstract": "Humanoid motion generation must accommodate evolving task requirements, where localized adjustments should satisfy new geometric constraints without disrupting desired motion details. However, language-based control lacks geometric precision, while joint-level constraints require explicit spatial ta",
+   "cat": "cs.RO",
+   "comment": "Project Page: https://syuan8889.github.io/AGLR-project/",
+   "code_in_text": []
+  },
+  {
+   "id": "2611.34449",
+   "title": "HoloBrain-0.5 Technical Report",
+   "date": "2026-11-25",
+   "authors": [
+    "Xuewu Lin",
+    "Jiahao Wang",
+    "Jiawei Li",
+    "Mengdi Li"
+   ],
+   "abstract": "We present HoloBrain-0.5, a family of vision-language-action (VLA) models for manipulation across robot embodiments. The policies plan in a shared action space using robot state, kinematic structure, and calibrated camera observations. We standardize joint axes, coordinate frames, and tool-center po",
+   "cat": "cs.RO",
+   "comment": "Technical report. 23 pages, 13 figures, 9 tables. Project page: https://horizonrobotics.github.io/robot_lab/holobrain_0_5/",
+   "code_in_text": []
+  },
+  {
+   "id": "2611.34422",
+   "title": "Can Visual World Models See Force?",
+   "date": "2026-11-25",
+   "authors": [
+    "Felix Tristram",
+    "Benjamin D. Killeen",
+    "Nassir Navab"
+   ],
+   "abstract": "World models and vision-language-action policy models are increasingly proposed as foundations for robot manipulation. They predict how scenes evolve and which actions to take, yet successful manipulation depends not solely on following observable trajectories but also on the hidden variable of inte",
+   "cat": "cs.CV",
+   "comment": "",
+   "code_in_text": []
+  },
+  {
+   "id": "2611.34360",
+   "title": "One Patch, Many Policies: Object-Associated Physical Patch Attacks on Robotic Manipulation",
+   "date": "2026-11-25",
+   "authors": [
+    "Yiqian Liu",
+    "Yuqi Lin",
+    "Hui Lu",
+    "Jiaming He"
+   ],
+   "abstract": "Vision-Language-Action (VLA) and World Action Models (WAMs) are vulnerable to adversarial visual interference, motivating the study of universal and transferable physical patch attacks. We propose Object-Associated Patch Attack (OAPA), a universal and transferable physical patch framework that enabl",
+   "cat": "cs.CV",
+   "comment": "",
+   "code_in_text": []
+  },
+  {
+   "id": "2611.34352",
+   "title": "Beyond Natural-Language Instructions: Temporal Logic as a Task Language for VLA Models with Visual-Logical Fusion",
+   "date": "2026-11-25",
+   "authors": [
+    "Zezhi Liu",
+    "Jingwen Sun",
+    "Hongjin Chen",
+    "Shaojie Ren"
+   ],
+   "abstract": "Robotic tasks combine object relations, logical dependencies, and temporal requirements, which robot planning and industrial control commonly specify in temporal logic (TL). We introduce TL-VLA, a vision--language--action framework that replaces natural-language task instructions with temporal logic",
+   "cat": "cs.RO",
    "comment": "",
    "code_in_text": []
   },
@@ -597,7 +760,7 @@
    "cat": "cs.RO",
    "comment": "23 pages, 9 figures, 7 tables. Project page: https://vme0522.github.io/PyRUA-Dex/",
    "hf": {
-    "up": 15,
+    "up": 18,
     "repo": null,
     "stars": null,
     "proj": "https://vme0522.github.io/PyRUA-Dex/"
@@ -865,7 +1028,7 @@
    "authors": [
     "Chao Liu",
     "Wil J. Norton",
-    "Brandon Romero",
+    "Branden Romero",
     "Daniela Rus"
    ],
    "abstract": "Adding compliance to robot hands results in higher grasp quality and robust contact with the environment. Soft hands are inherently compliant, but are typically more complex to control and model than rigid equivalents. We extend prior work on soft-rigid hybrid robot fingers into a five-fingered dext",
@@ -1682,177 +1845,6 @@
     "stars": 3,
     "proj": "http://damin3927.github.io/SWEEP-Bench"
    },
-   "code_in_text": []
-  },
-  {
-   "id": "2611.30636",
-   "title": "ABI: Actor-Free Behavior-Induced Representations for Zero-Shot Test-Time Guidance",
-   "date": "2026-11-23",
-   "authors": [
-    "Yifei Yao",
-    "Yude Zou",
-    "Guanbo Jiao",
-    "Jianming Ma"
-   ],
-   "abstract": "Behavior-cloning policies show strong ability in sequential control by generating coherent multi-step action chunks, yet their purely imitative objective limits zero-shot generalization to unseen tasks. While offline reinforcement learning offers principled policy improvement, existing methods eithe",
-   "cat": "cs.RO",
-   "comment": "Project page: https://securitycfs.github.io/ABI-demo/",
-   "code_in_text": []
-  },
-  {
-   "id": "2611.30632",
-   "title": "GeoMerge-OPD: Balanced Skill Integration in Vision-Language-Action Models",
-   "date": "2026-11-23",
-   "authors": [
-    "Le Yang",
-    "Haoyang Lyu",
-    "Honglei Jin",
-    "Wenshuo Chen"
-   ],
-   "abstract": "Vision-language-action (VLA) models excel at individual robotic skills, yet integrating heterogeneous skills into a single policy remains a key challenge for general-purpose robotic control, especially in whole-body tasks with differing manipulation and locomotion requirements. Common multi-skill in",
-   "cat": "cs.RO",
-   "comment": "29 pages, 4 figures, 17 tables. The first four authors contributed equally. Wenshuo Chen is the project leader. Yutao Yue and Xiaochun Cao are co-corresponding authors",
-   "code_in_text": []
-  },
-  {
-   "id": "2611.30550",
-   "title": "Body and Soul: Decoupling Robotic Brain and Policy with RoboHarness-Zero",
-   "date": "2026-11-23",
-   "authors": [
-    "Yihao Shen",
-    "Yuxuan Chen",
-    "Xuantong Liu",
-    "Jun Gao"
-   ],
-   "abstract": "Vision-language-action (VLA) policies can execute individual skills but fail to complete tasks that require combining several of them. In our audit of Xiaomi-Robotics-1, an estimated 43\\% of failures involve choosing the wrong target or losing track of task progress. Wrapping a frozen VLA in a visio",
-   "cat": "cs.RO",
-   "comment": "",
-   "code_in_text": []
-  },
-  {
-   "id": "2611.30534",
-   "title": "DelayOPSD: On-Policy Self-Distillation from a Synchronous Teacher for Real-time Asynchronous Policies",
-   "date": "2026-11-23",
-   "authors": [
-    "Hyeonjae Kim",
-    "Jeongsol Kim",
-    "Sunwoo Park",
-    "Chanyu Moon"
-   ],
-   "abstract": "Flow-based vision-language-action (VLA) policies incur substantial inference latency due to their large vision-language backbones and iterative denoising. Asynchronous execution reduces this latency by generating the next action chunk while executing the current one, but the new chunk is conditioned",
-   "cat": "cs.RO",
-   "comment": "24 pages. Code and videos: https://github.com/present091/DelayOPSD",
-   "code_in_text": [
-    "https://github.com/present091/DelayOPSD"
-   ]
-  },
-  {
-   "id": "2611.30516",
-   "title": "JEPA-ICL: Progress-Aligned Latent Plans for In-Context Robotic Manipulation",
-   "date": "2026-11-23",
-   "authors": [
-    "Tingjun Dai",
-    "Jianxiang He",
-    "Mingfei Han",
-    "Qihao Yu"
-   ],
-   "abstract": "Demonstrations show how a task can be completed, but differences in embodiment, appearance, and execution speed make it difficult to identify the guidance relevant to the robot's current progress. We introduce JEPA-ICL, a vision-language-action framework that couples predictive planning with demonst",
-   "cat": "cs.RO",
-   "comment": "13 pages, 5 figures, 6 tables",
-   "code_in_text": []
-  },
-  {
-   "id": "2611.30495",
-   "title": "DexDuet: Learning Contact-Preserving Bimanual Dexterity from Human Demonstrations",
-   "date": "2026-11-23",
-   "authors": [
-    "Haoran Zhang",
-    "Haokai Ding",
-    "Han Zhou",
-    "Zuxing Lu"
-   ],
-   "abstract": "Human demonstrations provide a rich source of bimanual dexterous skills, yet transferring them to robot hands remains challenging. Existing methods primarily optimize object trajectory tracking, often overlooking how human hands interact with the object. Even with accurate tracking, robots may conta",
-   "cat": "cs.RO",
-   "comment": "",
-   "hf": {
-    "up": 14,
-    "repo": "https://github.com/HaoranZhangumich/DexDuet",
-    "stars": 15,
-    "proj": "https://rcl-robotics.github.io/Dexduet.io/"
-   },
-   "code_in_text": []
-  },
-  {
-   "id": "2611.30490",
-   "title": "EgoStudy: How Does Scaling Egocentric Data Affect VLA and WAM Pretraining?",
-   "date": "2026-11-23",
-   "authors": [
-    "Puzhen Yuan",
-    "Yanjiang Guo",
-    "Yichen Liu",
-    "Xiang Zhu"
-   ],
-   "abstract": "Egocentric human manipulation data offer a scalable resource for training dexterous robot policies. However, how effectively robots can learn and benefit from these data remains unclear due to the embodiment gap between humans and robots. We present EgoStudy, a systematic, controlled study of egocen",
-   "cat": "cs.RO",
-   "comment": "Project Page: https://puzhenyuan.github.io/EgoStudy-website",
-   "code_in_text": []
-  },
-  {
-   "id": "2611.30477",
-   "title": "OVOGO: Offline Value-Guided On-Policy Generative Optimization for Flow-Based Vision-Language-Action Models",
-   "date": "2026-11-23",
-   "authors": [
-    "Rongzheng Yang",
-    "Jiaming Guo",
-    "Yuxuan Guo",
-    "Zihao Zhang"
-   ],
-   "abstract": "Flow-based vision-language-action models can benefit from robot experience collected during deployment, but repeatedly acquiring new physical interactions for policy improvement is costly. Offline reinforcement learning provides a natural way to reuse collected experience, while flow-based policies ",
-   "cat": "cs.RO",
-   "comment": "",
-   "code_in_text": []
-  },
-  {
-   "id": "2611.30461",
-   "title": "LiveMirror: Real-Time Diffusion Virtual Try-On on a Consumer GPU and Its Self-Supervised Adaptation to Indian Ethnic Wear",
-   "date": "2026-11-23",
-   "authors": [
-    "Jigyansha Jeevan Rout",
-    "Sukanta Kumar Sabut"
-   ],
-   "abstract": "Diffusion virtual try-on (VTO) models produce convincing garment transfers from a single product photograph, but at hundreds of milliseconds to seconds per image every deployment today is offline or falls back to AR mirrors that need a rigged 3D asset per product. We present LiveMirror, a live-camer",
-   "cat": "cs.CV",
-   "comment": "12 pages, 10 figures, 6 tables",
-   "code_in_text": []
-  },
-  {
-   "id": "2611.30449",
-   "title": "CHAMP: Coordinated Humanoid Loco-Manipulation with Whole-Body Motion Priors",
-   "date": "2026-11-23",
-   "authors": [
-    "Lijun Han",
-    "Muyuan Ma",
-    "Zichen Wang",
-    "Siyuan Liu"
-   ],
-   "abstract": "Coordinating locomotion and dexterous manipulation is fundamental to humanoid robots operating in human environments. A key challenge is learning motion priors from diverse data and using them effectively for coordinated robot control. We present CHAMP, a unified framework for humanoid loco-manipula",
-   "cat": "cs.RO",
-   "comment": "",
-   "code_in_text": []
-  },
-  {
-   "id": "2611.30389",
-   "title": "AgentMoT: An Agentic Mixture-of-Transformers for End-to-End Autonomous Driving",
-   "date": "2026-11-23",
-   "authors": [
-    "Qihang Huang",
-    "Collister Chua",
-    "YuJie Yan",
-    "Shiyu Fang"
-   ],
-   "abstract": "Driving models need to choose which capabilities to use and when to reconsider their decisions. We introduce AgentMoT, a Mixture-of-Transformers with built-in agent reasoning and system scheduling. Combinations of agent, world, and action experts form three jointly trained pathways for direct-action",
-   "cat": "cs.RO",
-   "comment": "",
    "code_in_text": []
   }
  ]
