@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-27 18:03Z",
+ "generated": "2026-11-27 18:34Z",
  "papers": [
   {
    "id": "2611.34936",
@@ -76,7 +76,7 @@
    "hf": {
     "up": 22,
     "repo": "https://github.com/iPPLab/HOG-WAM",
-    "stars": 5,
+    "stars": 6,
     "proj": null
    },
    "code_in_text": [
@@ -150,7 +150,7 @@
    "hf": {
     "up": 10,
     "repo": "https://github.com/kaiknower/RoboEvo2",
-    "stars": 4,
+    "stars": 5,
     "proj": "https://kaiknower.github.io/RoboEvo2/"
    },
    "code_in_text": []

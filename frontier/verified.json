@@ -3958,7 +3958,7 @@
   "coming_soon": false,
   "usage": true,
   "weights": true,
-  "len": 9143,
+  "len": 9117,
   "evidence": [],
   "head": " LeanWAM: Learning Latent World Action Models from Frozen Video Models Paper \u00b7 Project Page LeanWAM transfers frozen video priors into a compact policy through predictive tokens and world tokens. This repository provides",
   "tier": "B",
