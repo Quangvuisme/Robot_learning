@@ -593,5 +593,20 @@
   "title": "Innovative autonomous robot arm powered by agentic AI: LLM + computer vision turn commands in any language into actions. No pre-programmed movements.",
   "arxiv": null,
   "repo": "oleksandr-g-rock/roboarm"
+ },
+ {
+  "title": "Implicit affordance alignment for vision-language-action models (pi0.5, OpenVLA-OFT, SmolVLA)",
+  "arxiv": null,
+  "repo": "Knightbreeze/affordance-guided-vla"
+ },
+ {
+  "title": "Survey of Vision-Language (VLM) and Vision-Language-Action (VLA) models for scene understanding and reasoning in autonomous driving: paper list, taxonomy, benchmark results, and controlled comparisons.",
+  "arxiv": null,
+  "repo": "binayksingh/From-Seeing-to-Driving"
+ },
+ {
+  "title": "LoRA post-train of NVIDIA DreamZero (world-action model) on the MolmoAct2 BimanualYAM split, trained on Modal; three-model-family comparison vs pi0.5 and GR00T N1.7",
+  "arxiv": null,
+  "repo": "robodeltas/dreamzero-yam"
  }
 ]
