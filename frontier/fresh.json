@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-27 08:04Z",
+ "generated": "2026-11-27 08:33Z",
  "papers": [
   {
    "id": "2611.34936",
@@ -112,7 +112,7 @@
    "cat": "cs.RO",
    "comment": "",
    "hf": {
-    "up": 0,
+    "up": 1,
     "repo": null,
     "stars": null,
     "proj": "https://serenos.github.io/solve-website"
@@ -1727,7 +1727,7 @@
    "hf": {
     "up": 137,
     "repo": "https://github.com/xyangzhou/WorldLeague",
-    "stars": 21,
+    "stars": 22,
     "proj": "https://xyangzhou.github.io/WorldLeague/"
    },
    "code_in_text": []
