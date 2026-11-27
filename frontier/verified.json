@@ -2731,7 +2731,7 @@
   "coming_soon": false,
   "usage": false,
   "weights": false,
-  "len": 1300,
+  "len": 1506,
   "evidence": [],
   "head": " PreWAM project page Static academic project website. Plain HTML, CSS and JavaScript; no build step. Local preview sh python -m http.server 8765 Open http://localhost:8765/ in a browser. GitHub Pages Repository: newbrain",
   "tier": "S",
@@ -3924,9 +3924,9 @@
   "coming_soon": false,
   "usage": false,
   "weights": true,
-  "len": 2578,
+  "len": 5199,
   "evidence": [],
-  "head": " PAGE PAGE is a training-free visual intervention for frozen vision-language-action policies. It uses clean demonstrations to build a state-conditioned reference, detects patch-level deviations with a clean-calibrated ga",
+  "head": " PAGE License: MIT(LICENSE) Python = 3.10(pyproject.toml) Paper PAGE is a training-free visual intervention for frozen vision-language-action policies. It uses clean demonstrations to build a pose-conditioned reference, ",
   "tier": "S",
   "why": "mentions paper but no usage instructions"
  },
@@ -3947,5 +3947,23 @@
   "head": " LeanWAM: Learning Latent World Action Models from Frozen Video Models Paper \u00b7 Project Page LeanWAM transfers frozen video priors into a compact policy through predictive tokens and world tokens. This repository provides",
   "tier": "B",
   "why": "paper cited + runnable usage, no explicit 'official' claim"
+ },
+ {
+  "title": "Project page for C2P2: Compatibility-Conditioned Policy Preservation for Continual Vision-Language-Action Learning",
+  "arxiv": null,
+  "repo": "Haowen-Xiao/c2p2",
+  "id_in_readme": false,
+  "title_in_readme": false,
+  "name_in_readme": false,
+  "official_claim": false,
+  "unofficial_claim": false,
+  "coming_soon": false,
+  "usage": false,
+  "weights": false,
+  "len": 1169,
+  "evidence": [],
+  "head": " C\u00b2P\u00b2 Project Page Source for the project website of C\u00b2P\u00b2: Compatibility-Conditioned Policy Preservation for Continual Vision-Language-Action Learning. Live at: Structure - index.html \u2014 the page (Bulma-based, no build st",
+  "tier": "X",
+  "why": "README does not mention the paper"
  }
 ]

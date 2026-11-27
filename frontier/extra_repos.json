@@ -623,5 +623,10 @@
   "title": "LeanWAM: Learning Latent World Action Models from Frozen Video Models",
   "arxiv": null,
   "repo": "shaolonl-16/LeanWAM-code"
+ },
+ {
+  "title": "Project page for C2P2: Compatibility-Conditioned Policy Preservation for Continual Vision-Language-Action Learning",
+  "arxiv": null,
+  "repo": "Haowen-Xiao/c2p2"
  }
 ]
