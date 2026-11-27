@@ -3893,5 +3893,23 @@
   "head": " dreamzero-yam LoRA post-train of NVIDIA DreamZero (14B world-action model, base GEAR-Dreams/DreamZero-AgiBot) on the 124-repo MolmoAct2 BimanualYAM split, trained on Modal \u2014 the first public DreamZero fine-tune on this ",
   "tier": "S",
   "why": "mentions paper but no usage instructions"
+ },
+ {
+  "title": "How fast can one H100 train a humanoid motion tracker? SuperMimic speedrun on BONES-SEED.",
+  "arxiv": null,
+  "repo": "MetaCircleAI/supermimic-speedrun",
+  "id_in_readme": false,
+  "title_in_readme": false,
+  "name_in_readme": false,
+  "official_claim": false,
+  "unofficial_claim": false,
+  "coming_soon": false,
+  "usage": true,
+  "weights": true,
+  "len": 7639,
+  "evidence": [],
+  "head": " SuperMimic Speedrun How fast can one H100 train a humanoid to track 129,487 human motions? Current record: 16.08 minutes. The single-H100 training curve of the SuperMimic paper reaches this level at about 3 hours, and t",
+  "tier": "X",
+  "why": "README does not mention the paper"
  }
 ]

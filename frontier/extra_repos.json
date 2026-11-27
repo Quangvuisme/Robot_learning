@@ -608,5 +608,10 @@
   "title": "LoRA post-train of NVIDIA DreamZero (world-action model) on the MolmoAct2 BimanualYAM split, trained on Modal; three-model-family comparison vs pi0.5 and GR00T N1.7",
   "arxiv": null,
   "repo": "robodeltas/dreamzero-yam"
+ },
+ {
+  "title": "How fast can one H100 train a humanoid motion tracker? SuperMimic speedrun on BONES-SEED.",
+  "arxiv": null,
+  "repo": "MetaCircleAI/supermimic-speedrun"
  }
 ]

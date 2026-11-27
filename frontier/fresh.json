@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-27 07:03Z",
+ "generated": "2026-11-27 07:33Z",
  "papers": [
   {
    "id": "2611.34936",
@@ -1450,7 +1450,7 @@
    "hf": {
     "up": 1,
     "repo": "https://github.com/RoMoDataset/motion-toolbox",
-    "stars": 28,
+    "stars": 30,
     "proj": "https://romodataset.github.io/romo-hands/"
    },
    "code_in_text": []
