@@ -64,19 +64,8 @@
   "title": "Awaken-HI: Scaling Humanoid Intelligence with Whole-Body Human Experience",
   "arxiv": "2611.26420",
   "repo": "BaiShuanghao/my_arXiv_daily",
-  "id_in_readme": true,
-  "title_in_readme": true,
-  "name_in_readme": true,
-  "official_claim": false,
-  "unofficial_claim": false,
-  "coming_soon": false,
-  "usage": false,
-  "weights": true,
-  "len": 190531,
-  "evidence": [],
-  "head": " Updated on 2026.11.27 Usage instructions: here(./docs/README.mdusage) Table of Contents Robotic Manipulation Vision Language Action Model Humnaoid Imitation Learning Robotic Manipulation Publish DateTitleAuthorsPDFCode ",
-  "tier": "L",
-  "why": "list/site repo"
+  "tier": "X",
+  "why": "no README or private"
  },
  {
   "title": "Awaken-HI: Scaling Humanoid Intelligence with Whole-Body Human Experience",
@@ -3707,21 +3696,8 @@
   "title": "A lightweight world action model for robotics, integrating latent world prediction and future-aware action generation on consumer-grade GPUs.",
   "arxiv": null,
   "repo": "trailer437/LWAM",
-  "id_in_readme": false,
-  "title_in_readme": false,
-  "name_in_readme": false,
-  "official_claim": true,
-  "unofficial_claim": false,
-  "coming_soon": false,
-  "usage": true,
-  "weights": true,
-  "len": 9689,
-  "evidence": [
-   "official: ...pip ```  Install a CUDA-compatible PyTorch build using the [official PyTorch installation instructions](https://pytorch.org/get-started/..."
-  ],
-  "head": "English \ud55c\uad6d\uc5b4(README_ko.md) LWAM \u2014 Lightweight Latent World Action Model A lightweight robotics research project exploring action-conditioned latent world modeling and future-aware action generation on consumer-grade GPUs.",
   "tier": "X",
-  "why": "README does not mention the paper"
+  "why": "no README or private"
  },
  {
   "title": "Project page for RayWrist: Geometry-Guided Wrist-Token Completion for Frozen Vision-Language-Action Models",
@@ -3860,19 +3836,8 @@
   "title": "Implicit affordance alignment for vision-language-action models (pi0.5, OpenVLA-OFT, SmolVLA)",
   "arxiv": null,
   "repo": "Knightbreeze/affordance-guided-vla",
-  "id_in_readme": false,
-  "title_in_readme": false,
-  "name_in_readme": false,
-  "official_claim": false,
-  "unofficial_claim": false,
-  "coming_soon": false,
-  "usage": true,
-  "weights": true,
-  "len": 7293,
-  "evidence": [],
-  "head": " Affordance-Guided Vision-Language-Action Models The visual representations of most vision-language-action (VLA) models are dominated by the global appearance of objects rather than by the functional regions a task depen",
   "tier": "X",
-  "why": "README does not mention the paper"
+  "why": "no README or private"
  },
  {
   "title": "Survey of Vision-Language (VLM) and Vision-Language-Action (VLA) models for scene understanding and reasoning in autonomous driving: paper list, taxonomy, benchmark results, and controlled comparisons.",
@@ -4015,5 +3980,23 @@
   "repo": "furkansariyildiz/humanoid-RL",
   "tier": "X",
   "why": "no README or private"
+ },
+ {
+  "title": "Zero-Decode SAE Circuit Breakers for Action-Marginalized Hallucinations and Synthetic Rollout Curation in Embodied World Models (NVIDIA Cosmos-Predict2.5-2B & Cosmos-Policy-LIBERO)",
+  "arxiv": null,
+  "repo": "danielgaskins/sycophantic-world-models",
+  "id_in_readme": false,
+  "title_in_readme": true,
+  "name_in_readme": true,
+  "official_claim": false,
+  "unofficial_claim": false,
+  "coming_soon": false,
+  "usage": true,
+  "weights": true,
+  "len": 6166,
+  "evidence": [],
+  "head": " Sycophantic Physics in Embodied World Models (LatchGate Zero-Decode SAE Firewall) Case Study Paper PDF(paper/sycophantic_world_models_preprint.pdf) DOI arXiv Source(paper/sycophantic_world_models_arxiv_source.tar.gz) Li",
+  "tier": "B",
+  "why": "paper cited + runnable usage, no explicit 'official' claim"
  }
 ]

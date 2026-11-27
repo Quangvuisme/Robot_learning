@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-27 14:33Z",
+ "generated": "2026-11-27 15:33Z",
  "papers": [
   {
    "id": "2611.34936",
@@ -1781,7 +1781,7 @@
    "cat": "cs.CV",
    "comment": "19 pages, 7 figures, 6 tables. Project page: https://pawteam-eai.github.io/native-lam/",
    "hf": {
-    "up": 28,
+    "up": 29,
     "repo": null,
     "stars": null,
     "proj": "https://pawteam-eai.github.io/native-lam/"
