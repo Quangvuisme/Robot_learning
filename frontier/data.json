@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-27 09:04Z",
+ "generated": "2026-11-27 09:33Z",
  "items": [
   {
    "section": "Manipulation",
@@ -252,12 +252,12 @@
    "code": "https://github.com/engineai-robotics/Awaken-HI",
    "gh": {
     "official": true,
-    "stars": 20,
+    "stars": 19,
     "forks": 0,
     "issues": 0,
     "pushed": "2026-11-20",
     "created": "2026-11-17",
-    "spd": 2.0,
+    "spd": 1.9,
     "license": null,
     "full": "engineai-robotics/Awaken-HI"
    }
