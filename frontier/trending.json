@@ -17,7 +17,7 @@
  },
  {
   "repo": "enactic/openarm",
-  "stars": 3729,
+  "stars": 3730,
   "pushed": "2026-11-25",
   "created": "2024-09-29",
   "desc": "A fully open-source humanoid arm for physical AI research and deployment in contact-rich environments.",
@@ -41,7 +41,7 @@
  },
  {
   "repo": "HybridRobotics/supermimic",
-  "stars": 2099,
+  "stars": 2100,
   "pushed": "2026-11-21",
   "created": "2026-11-10",
   "desc": "Humanoid whole-body motion tracking with one differentiable world model.",
@@ -89,7 +89,7 @@
  },
  {
   "repo": "shengshu-ai/Motus2",
-  "stars": 698,
+  "stars": 699,
   "pushed": "2026-11-22",
   "created": "2026-09-11",
   "desc": "Motus2: A Self-Evolving General World Model for Dexterous Manipulation",
@@ -177,7 +177,7 @@
  },
  {
   "repo": "lok-i/vibe",
-  "stars": 79,
+  "stars": 80,
   "pushed": "2026-11-27",
   "created": "2026-09-08",
   "desc": "Post-training humanoid whole-body trackers for perceptive control tasks",
