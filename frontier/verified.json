@@ -4044,5 +4044,12 @@
   "head": " Sycophantic Physics in Embodied World Models (LatchGate Zero-Decode SAE Firewall) Case Study Paper PDF(paper/sycophantic_world_models_preprint.pdf) DOI arXiv Source(paper/sycophantic_world_models_arxiv_source.tar.gz) Li",
   "tier": "B",
   "why": "paper cited + runnable usage, no explicit 'official' claim"
+ },
+ {
+  "title": "FMP: Flow-Matching Motion Prior for Humanoid Control (project page)",
+  "arxiv": null,
+  "repo": "catachiii/fmp-humanoid",
+  "tier": "X",
+  "why": "no README or private"
  }
 ]

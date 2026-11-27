@@ -653,5 +653,10 @@
   "title": "Zero-Decode SAE Circuit Breakers for Action-Marginalized Hallucinations and Synthetic Rollout Curation in Embodied World Models (NVIDIA Cosmos-Predict2.5-2B & Cosmos-Policy-LIBERO)",
   "arxiv": null,
   "repo": "danielgaskins/sycophantic-world-models"
+ },
+ {
+  "title": "FMP: Flow-Matching Motion Prior for Humanoid Control (project page)",
+  "arxiv": null,
+  "repo": "catachiii/fmp-humanoid"
  }
 ]

@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-27 22:03Z",
+ "generated": "2026-11-27 22:33Z",
  "papers": [
   {
    "id": "2611.34936",
@@ -1025,7 +1025,7 @@
    "hf": {
     "up": 2,
     "repo": "https://github.com/ReFocus-Robotics/ReFocus",
-    "stars": 2,
+    "stars": 3,
     "proj": "https://refocus-robotics.github.io/"
    },
    "code_in_text": []
