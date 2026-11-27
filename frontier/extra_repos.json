@@ -618,5 +618,10 @@
   "title": "PAGE: Patch-wise Anomaly-Gated Editing for frozen vision-language-action policies",
   "arxiv": null,
   "repo": "madman008qqas/PAGE"
+ },
+ {
+  "title": "LeanWAM: Learning Latent World Action Models from Frozen Video Models",
+  "arxiv": null,
+  "repo": "shaolonl-16/LeanWAM-code"
  }
 ]

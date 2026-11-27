@@ -1532,11 +1532,11 @@
   "coming_soon": false,
   "usage": false,
   "weights": false,
-  "len": 30688,
+  "len": 31127,
   "evidence": [
    "official: ...B0%E6%8D%AE%E9%87%91%E6%A0%87%E5%87%86.md)**\uff08\u5177\u8eab\u667a\u80fd \u00b7 Ropedia Official Release \u00b7 GitHub & HuggingFace (arXiv:2611.17060) \u00b7 \u539f\u520a `2026-11-13`..."
   ],
-  "head": " ResearchWorkbench \u00b7 \u6295\u7814\u7b14\u8bb0\u672c\uff08Leuchtturm1917 Edition\uff09 \u66f4\u65b0\u65e5\u671f\uff1a2026-11-27 \u00b7 8 \u4e2a\u6838\u5fc3\u8d5b\u9053\u56fe\u8c31 \u00b7 583 \u4e2a\u4e00\u624b\u4fe1\u6e90\u4e3b\u4f53 \u00b7 281 \u7bc7\u5355\u7bc7\u5bfc\u8bfb \u00b7 2 \u4efd\u4e13\u9898\u6df1\u6316 01 \u00b7 \u5f53\u524d\u7814\u7a76\u91cd\u70b9\uff08Focus\uff09 1. \u5177\u8eab\u667a\u80fd\uff1a\u5168\u8eab\u8fd0\u63a7\u8d8b\u4e8e\u6536\u655b\uff0c\u80dc\u8d1f\u624b\u79fb\u81f3\u7aef\u4fa7\u64cd\u4f5c\u4e0e\u771f\u673a\u89e6\u89c9\uff1b\u5343\u4e07\u5c0f\u65f6\u91cd\u5728\u4fe1\u606f\u5bc6\u5ea6\u4e0e I/O\uff0c\u771f\u673a\u89e6\u89c9\u8865\u9f50\u89c6\u9891\u7f3a\u53e3 2. AI\u5e94\u7528\u4e0e\u5f00\u53d1\u5de5\u5177\uff1a\u751f\u6210\u8fb9\u9645\u6210\u672c\u5f52\u96f6\uff0c\u74f6\u9888\u79fb\u81f3\u957f",
+  "head": " ResearchWorkbench \u00b7 \u6295\u7814\u7b14\u8bb0\u672c\uff08Leuchtturm1917 Edition\uff09 \u66f4\u65b0\u65e5\u671f\uff1a2026-11-27 \u00b7 8 \u4e2a\u6838\u5fc3\u8d5b\u9053\u56fe\u8c31 \u00b7 583 \u4e2a\u4e00\u624b\u4fe1\u6e90\u4e3b\u4f53 \u00b7 281 \u7bc7\u5355\u7bc7\u5bfc\u8bfb \u00b7 3 \u4efd\u4e13\u9898\u6df1\u6316 01 \u00b7 \u5f53\u524d\u7814\u7a76\u91cd\u70b9\uff08Focus\uff09 1. \u5177\u8eab\u667a\u80fd\uff1a\u5168\u8eab\u8fd0\u63a7\u8d8b\u4e8e\u6536\u655b\uff0c\u80dc\u8d1f\u624b\u79fb\u81f3\u7aef\u4fa7\u64cd\u4f5c\u4e0e\u771f\u673a\u89e6\u89c9\uff1b\u5343\u4e07\u5c0f\u65f6\u91cd\u5728\u4fe1\u606f\u5bc6\u5ea6\u4e0e I/O\uff0c\u771f\u673a\u89e6\u89c9\u8865\u9f50\u89c6\u9891\u7f3a\u53e3 2. AI\u5e94\u7528\u4e0e\u5f00\u53d1\u5de5\u5177\uff1a\u751f\u6210\u8fb9\u9645\u6210\u672c\u5f52\u96f6\uff0c\u74f6\u9888\u79fb\u81f3\u957f",
   "tier": "L",
   "why": "list/site repo"
  },
@@ -2051,9 +2051,9 @@
   "coming_soon": false,
   "usage": true,
   "weights": true,
-  "len": 14848,
+  "len": 14866,
   "evidence": [],
-  "head": " UrbanTwin Sim2Real: final LUMPI and V2X submissions Team: dipper13579 Author: KuanLin Chen \u2014 Department of Industrial and Systems Engineering, Chung Yuan Christian University (\u4e2d\u539f\u5927\u5b78\u5de5\u696d\u8207\u7cfb\u7d71\u5de5\u7a0b\u5b78\u7cfb). Challenge: UCF UrbanTwin Si",
+  "head": " UrbanTwin Sim2Real: final LUMPI and V2X submissions Team: dipper13579 Code and challenge entry: KuanLin Chen \u2014 Department of Industrial and Systems Engineering, Chung Yuan Christian University (\u4e2d\u539f\u5927\u5b78\u5de5\u696d\u8207\u7cfb\u7d71\u5de5\u7a0b\u5b78\u7cfb). Challenge",
   "tier": "B",
   "why": "paper cited + runnable usage, no explicit 'official' claim"
  },
@@ -3929,5 +3929,23 @@
   "head": " PAGE PAGE is a training-free visual intervention for frozen vision-language-action policies. It uses clean demonstrations to build a state-conditioned reference, detects patch-level deviations with a clean-calibrated ga",
   "tier": "S",
   "why": "mentions paper but no usage instructions"
+ },
+ {
+  "title": "LeanWAM: Learning Latent World Action Models from Frozen Video Models",
+  "arxiv": null,
+  "repo": "shaolonl-16/LeanWAM-code",
+  "id_in_readme": false,
+  "title_in_readme": true,
+  "name_in_readme": true,
+  "official_claim": false,
+  "unofficial_claim": false,
+  "coming_soon": false,
+  "usage": true,
+  "weights": true,
+  "len": 9143,
+  "evidence": [],
+  "head": " LeanWAM: Learning Latent World Action Models from Frozen Video Models Paper \u00b7 Project Page LeanWAM transfers frozen video priors into a compact policy through predictive tokens and world tokens. This repository provides",
+  "tier": "B",
+  "why": "paper cited + runnable usage, no explicit 'official' claim"
  }
 ]
