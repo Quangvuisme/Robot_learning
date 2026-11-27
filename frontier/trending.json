@@ -17,7 +17,7 @@
  },
  {
   "repo": "enactic/openarm",
-  "stars": 3728,
+  "stars": 3729,
   "pushed": "2026-11-25",
   "created": "2024-09-29",
   "desc": "A fully open-source humanoid arm for physical AI research and deployment in contact-rich environments.",
@@ -41,7 +41,7 @@
  },
  {
   "repo": "HybridRobotics/supermimic",
-  "stars": 2095,
+  "stars": 2096,
   "pushed": "2026-11-21",
   "created": "2026-11-10",
   "desc": "Humanoid whole-body motion tracking with one differentiable world model.",
@@ -57,7 +57,7 @@
  },
  {
   "repo": "RainBowLuoCS/Gamer",
-  "stars": 1608,
+  "stars": 1609,
   "pushed": "2026-11-16",
   "created": "2026-10-30",
   "desc": "Official Implementation of Gamer: A Generalist Vision-Language-Action Foundation Model for Long-Horizon Real-T",
@@ -89,7 +89,7 @@
  },
  {
   "repo": "shengshu-ai/Motus2",
-  "stars": 693,
+  "stars": 694,
   "pushed": "2026-11-22",
   "created": "2026-09-11",
   "desc": "Motus2: A Self-Evolving General World Model for Dexterous Manipulation",
@@ -113,7 +113,7 @@
  },
  {
   "repo": "Motphys/Uni-SuperMimic",
-  "stars": 320,
+  "stars": 321,
   "pushed": "2026-11-27",
   "created": "2026-10-22",
   "desc": "SuperMimic-UniLab: An Independent reproduction of SuperMimic on UniLab for whole-body humanoid motion tracking",

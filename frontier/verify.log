@@ -1,9 +1,9 @@
-Counter({'L': 82, 'X': 54, 'S': 39, 'B': 39, 'R': 4, 'A': 1})
+Counter({'L': 82, 'X': 54, 'S': 41, 'B': 40, 'R': 4, 'A': 1})
+B Axellwppr/HITCH | HITCH: Teaching a Vision-Language Model to Op | paper cited + runnable usage, no explicit 'official' claim | weights
 B yaozhang182/inhabitant | Inhabitant: An Agent Framework for Long-Horiz | paper cited + runnable usage, no explicit 'official' claim | weights
 R nico-bohlinger/xmimic | XMimic and XSoma: Learning Humanoid Motion Tr | reproduction/unofficial | weights
 R nico-bohlinger/xsoma | XMimic and XSoma: Learning Humanoid Motion Tr | reproduction/unofficial | weights
 A kimodo-policy/kimodo-policy | Kimodo-Policy: Learning Kinematic Action Mode | paper cited + official claim + runnable usage | weights
-B Axellwppr/HITCH | HITCH: Teaching a Vision-Language Model to Op | paper cited + runnable usage, no explicit 'official' claim | weights
 B ryan-seungyong-lee/RoboTryOn | RoboTryOn: Synthesizing Dexterous Robot Demon | paper cited + runnable usage, no explicit 'official' claim | weights
 B jellyho/telescene | Telescene whole-body humanoid teleoperation | paper cited + runnable usage, no explicit 'official' claim | weights
 B HybridRobotics/supermimic | SuperMimic | paper cited + runnable usage, no explicit 'official' claim 
@@ -19,6 +19,7 @@ B LigphiDonk/ActMem | ActMem: From Latent Memory Reasoning to Groun | paper cite
 B starsholic/AeroRSI | AeroRSI: Recursive Self-Improvement for Aeria | paper cited + runnable usage, no explicit 'official' claim | weights
 B AIGeeksGroup/WAM-Policy | WAM-Policy: World Action Models with On-Polic | paper cited + runnable usage, no explicit 'official' claim | weights
 B zajirA1/humanoid | humanoid | paper cited + runnable usage, no explicit 'official' claim 
+B mrsssok2/humanoid | humanoid | paper cited + runnable usage, no explicit 'official' claim 
 B original-dk/compliant-humanoid | compliant-humanoid | paper cited + runnable usage, no explicit 'official' claim | weights
 B atanas1054/SmallDrive | SmallDrive: An Efficient Vision-Language-Acti | paper cited + runnable usage, no explicit 'official' claim | weights
 B ForeverBlue816/LoopQ | Quantizing in the Loop: Drift-Aware Ultra-Low | paper cited + runnable usage, no explicit 'official' claim | weights
