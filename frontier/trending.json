@@ -1,7 +1,7 @@
 [
  {
   "repo": "starVLA/starVLA",
-  "stars": 3985,
+  "stars": 3986,
   "pushed": "2026-11-26",
   "created": "2025-10-09",
   "desc": "StarVLA: A Lego-like Codebase for Vision-Language-Action Model Developing",
@@ -9,7 +9,7 @@
  },
  {
   "repo": "NVlabs/GR00T-WholeBodyControl",
-  "stars": 3961,
+  "stars": 3962,
   "pushed": "2026-11-03",
   "created": "2025-11-05",
   "desc": "Welcome to GR00T Whole-Body Control (WBC)! This is a unified platform for developing and deploying advanced hu",
@@ -33,7 +33,7 @@
  },
  {
   "repo": "dexmal/opendm",
-  "stars": 2747,
+  "stars": 2748,
   "pushed": "2026-11-06",
   "created": "2026-07-06",
   "desc": "An Open-World Foundation Model for General-Purpose Embodied Intelligence.",
@@ -57,7 +57,7 @@
  },
  {
   "repo": "RainBowLuoCS/Gamer",
-  "stars": 1601,
+  "stars": 1602,
   "pushed": "2026-11-16",
   "created": "2026-10-30",
   "desc": "Official Implementation of Gamer: A Generalist Vision-Language-Action Foundation Model for Long-Horizon Real-T",
@@ -145,7 +145,7 @@
  },
  {
   "repo": "Roboparty/P-BFM",
-  "stars": 134,
+  "stars": 135,
   "pushed": "2026-11-17",
   "created": "2026-10-04",
   "desc": "Perceptive behavioral foundation models for terrain-adaptive humanoid control: motion tracking, goal reaching,",

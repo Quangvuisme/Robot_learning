@@ -613,5 +613,10 @@
   "title": "How fast can one H100 train a humanoid motion tracker? SuperMimic speedrun on BONES-SEED.",
   "arxiv": null,
   "repo": "MetaCircleAI/supermimic-speedrun"
+ },
+ {
+  "title": "PAGE: Patch-wise Anomaly-Gated Editing for frozen vision-language-action policies",
+  "arxiv": null,
+  "repo": "madman008qqas/PAGE"
  }
 ]

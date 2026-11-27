@@ -498,7 +498,7 @@
   "weights": true,
   "len": 1629580,
   "evidence": [],
-  "head": " Updated on 2026.11.26 Usage instructions: here(./docs/README.mdusage) Table of Contents Planning & Control End-to-end Driving Prediction Autonomous Driving Simulation Perception Planning & Control Publish DateTitleAutho",
+  "head": " Updated on 2026.11.27 Usage instructions: here(./docs/README.mdusage) Table of Contents Planning & Control End-to-end Driving Prediction Autonomous Driving Simulation Perception Planning & Control Publish DateTitleAutho",
   "tier": "L",
   "why": "list/site repo"
  },
@@ -532,9 +532,9 @@
   "coming_soon": false,
   "usage": false,
   "weights": false,
-  "len": 11877,
+  "len": 12984,
   "evidence": [],
-  "head": " VLA Paper Watch \u81ea\u52a8\u8ffd\u8e2a Vision-Language-Action\uff08VLA\uff09\u3001\u5177\u8eab\u667a\u80fd\u4e0e\u673a\u5668\u4eba\u64cd\u4f5c\u9886\u57df\u7684\u8fd1\u671f\u9ad8\u8d28\u91cf\u8bba\u6587\u3002\u4ed3\u5e93\u4ec5\u4fdd\u5b58\u539f\u521b\u4e2d\u6587\u7b80\u4ecb\u3001\u5143\u6570\u636e\u548c\u539f\u59cb\u8bba\u6587\u94fe\u63a5\uff0c\u4e0d\u4fdd\u5b58\u8bba\u6587 PDF\u3002 \u8bba\u6587\u7d22\u5f15 \u6536\u5f55\u65e5\u671f \u8bba\u6587 \u6765\u6e90 \u94fe\u63a5 \u4e00\u53e5\u8bdd\u7b80\u4ecb --- --- --- --- --- 2026-11-24 DexLatentWorld: 3D Cross-Embodiment Latent Action World Mod",
+  "head": " VLA Paper Watch \u81ea\u52a8\u8ffd\u8e2a Vision-Language-Action\uff08VLA\uff09\u3001\u5177\u8eab\u667a\u80fd\u4e0e\u673a\u5668\u4eba\u64cd\u4f5c\u9886\u57df\u7684\u8fd1\u671f\u9ad8\u8d28\u91cf\u8bba\u6587\u3002\u4ed3\u5e93\u4ec5\u4fdd\u5b58\u539f\u521b\u4e2d\u6587\u7b80\u4ecb\u3001\u5143\u6570\u636e\u548c\u539f\u59cb\u8bba\u6587\u94fe\u63a5\uff0c\u4e0d\u4fdd\u5b58\u8bba\u6587 PDF\u3002 \u8bba\u6587\u7d22\u5f15 \u6536\u5f55\u65e5\u671f \u8bba\u6587 \u6765\u6e90 \u94fe\u63a5 \u4e00\u53e5\u8bdd\u7b80\u4ecb --- --- --- --- --- 2026-11-27 Cairn: Object-Centric 3D Trajectory Priors for Steering Fro",
   "tier": "L",
   "why": "list/site repo"
  },
@@ -686,9 +686,9 @@
   "coming_soon": false,
   "usage": false,
   "weights": false,
-  "len": 11877,
+  "len": 12984,
   "evidence": [],
-  "head": " VLA Paper Watch \u81ea\u52a8\u8ffd\u8e2a Vision-Language-Action\uff08VLA\uff09\u3001\u5177\u8eab\u667a\u80fd\u4e0e\u673a\u5668\u4eba\u64cd\u4f5c\u9886\u57df\u7684\u8fd1\u671f\u9ad8\u8d28\u91cf\u8bba\u6587\u3002\u4ed3\u5e93\u4ec5\u4fdd\u5b58\u539f\u521b\u4e2d\u6587\u7b80\u4ecb\u3001\u5143\u6570\u636e\u548c\u539f\u59cb\u8bba\u6587\u94fe\u63a5\uff0c\u4e0d\u4fdd\u5b58\u8bba\u6587 PDF\u3002 \u8bba\u6587\u7d22\u5f15 \u6536\u5f55\u65e5\u671f \u8bba\u6587 \u6765\u6e90 \u94fe\u63a5 \u4e00\u53e5\u8bdd\u7b80\u4ecb --- --- --- --- --- 2026-11-24 DexLatentWorld: 3D Cross-Embodiment Latent Action World Mod",
+  "head": " VLA Paper Watch \u81ea\u52a8\u8ffd\u8e2a Vision-Language-Action\uff08VLA\uff09\u3001\u5177\u8eab\u667a\u80fd\u4e0e\u673a\u5668\u4eba\u64cd\u4f5c\u9886\u57df\u7684\u8fd1\u671f\u9ad8\u8d28\u91cf\u8bba\u6587\u3002\u4ed3\u5e93\u4ec5\u4fdd\u5b58\u539f\u521b\u4e2d\u6587\u7b80\u4ecb\u3001\u5143\u6570\u636e\u548c\u539f\u59cb\u8bba\u6587\u94fe\u63a5\uff0c\u4e0d\u4fdd\u5b58\u8bba\u6587 PDF\u3002 \u8bba\u6587\u7d22\u5f15 \u6536\u5f55\u65e5\u671f \u8bba\u6587 \u6765\u6e90 \u94fe\u63a5 \u4e00\u53e5\u8bdd\u7b80\u4ecb --- --- --- --- --- 2026-11-27 Cairn: Object-Centric 3D Trajectory Priors for Steering Fro",
   "tier": "L",
   "why": "list/site repo"
  },
@@ -1714,9 +1714,9 @@
   "coming_soon": false,
   "usage": false,
   "weights": false,
-  "len": 11877,
+  "len": 12984,
   "evidence": [],
-  "head": " VLA Paper Watch \u81ea\u52a8\u8ffd\u8e2a Vision-Language-Action\uff08VLA\uff09\u3001\u5177\u8eab\u667a\u80fd\u4e0e\u673a\u5668\u4eba\u64cd\u4f5c\u9886\u57df\u7684\u8fd1\u671f\u9ad8\u8d28\u91cf\u8bba\u6587\u3002\u4ed3\u5e93\u4ec5\u4fdd\u5b58\u539f\u521b\u4e2d\u6587\u7b80\u4ecb\u3001\u5143\u6570\u636e\u548c\u539f\u59cb\u8bba\u6587\u94fe\u63a5\uff0c\u4e0d\u4fdd\u5b58\u8bba\u6587 PDF\u3002 \u8bba\u6587\u7d22\u5f15 \u6536\u5f55\u65e5\u671f \u8bba\u6587 \u6765\u6e90 \u94fe\u63a5 \u4e00\u53e5\u8bdd\u7b80\u4ecb --- --- --- --- --- 2026-11-24 DexLatentWorld: 3D Cross-Embodiment Latent Action World Mod",
+  "head": " VLA Paper Watch \u81ea\u52a8\u8ffd\u8e2a Vision-Language-Action\uff08VLA\uff09\u3001\u5177\u8eab\u667a\u80fd\u4e0e\u673a\u5668\u4eba\u64cd\u4f5c\u9886\u57df\u7684\u8fd1\u671f\u9ad8\u8d28\u91cf\u8bba\u6587\u3002\u4ed3\u5e93\u4ec5\u4fdd\u5b58\u539f\u521b\u4e2d\u6587\u7b80\u4ecb\u3001\u5143\u6570\u636e\u548c\u539f\u59cb\u8bba\u6587\u94fe\u63a5\uff0c\u4e0d\u4fdd\u5b58\u8bba\u6587 PDF\u3002 \u8bba\u6587\u7d22\u5f15 \u6536\u5f55\u65e5\u671f \u8bba\u6587 \u6765\u6e90 \u94fe\u63a5 \u4e00\u53e5\u8bdd\u7b80\u4ecb --- --- --- --- --- 2026-11-27 Cairn: Object-Centric 3D Trajectory Priors for Steering Fro",
   "tier": "L",
   "why": "list/site repo"
  },
@@ -1768,9 +1768,9 @@
   "coming_soon": false,
   "usage": false,
   "weights": false,
-  "len": 11877,
+  "len": 12984,
   "evidence": [],
-  "head": " VLA Paper Watch \u81ea\u52a8\u8ffd\u8e2a Vision-Language-Action\uff08VLA\uff09\u3001\u5177\u8eab\u667a\u80fd\u4e0e\u673a\u5668\u4eba\u64cd\u4f5c\u9886\u57df\u7684\u8fd1\u671f\u9ad8\u8d28\u91cf\u8bba\u6587\u3002\u4ed3\u5e93\u4ec5\u4fdd\u5b58\u539f\u521b\u4e2d\u6587\u7b80\u4ecb\u3001\u5143\u6570\u636e\u548c\u539f\u59cb\u8bba\u6587\u94fe\u63a5\uff0c\u4e0d\u4fdd\u5b58\u8bba\u6587 PDF\u3002 \u8bba\u6587\u7d22\u5f15 \u6536\u5f55\u65e5\u671f \u8bba\u6587 \u6765\u6e90 \u94fe\u63a5 \u4e00\u53e5\u8bdd\u7b80\u4ecb --- --- --- --- --- 2026-11-24 DexLatentWorld: 3D Cross-Embodiment Latent Action World Mod",
+  "head": " VLA Paper Watch \u81ea\u52a8\u8ffd\u8e2a Vision-Language-Action\uff08VLA\uff09\u3001\u5177\u8eab\u667a\u80fd\u4e0e\u673a\u5668\u4eba\u64cd\u4f5c\u9886\u57df\u7684\u8fd1\u671f\u9ad8\u8d28\u91cf\u8bba\u6587\u3002\u4ed3\u5e93\u4ec5\u4fdd\u5b58\u539f\u521b\u4e2d\u6587\u7b80\u4ecb\u3001\u5143\u6570\u636e\u548c\u539f\u59cb\u8bba\u6587\u94fe\u63a5\uff0c\u4e0d\u4fdd\u5b58\u8bba\u6587 PDF\u3002 \u8bba\u6587\u7d22\u5f15 \u6536\u5f55\u65e5\u671f \u8bba\u6587 \u6765\u6e90 \u94fe\u63a5 \u4e00\u53e5\u8bdd\u7b80\u4ecb --- --- --- --- --- 2026-11-27 Cairn: Object-Centric 3D Trajectory Priors for Steering Fro",
   "tier": "L",
   "why": "list/site repo"
  },
@@ -3911,5 +3911,23 @@
   "head": " SuperMimic Speedrun How fast can one H100 train a humanoid to track 129,487 human motions? Current record: 16.08 minutes. The single-H100 training curve of the SuperMimic paper reaches this level at about 3 hours, and t",
   "tier": "X",
   "why": "README does not mention the paper"
+ },
+ {
+  "title": "PAGE: Patch-wise Anomaly-Gated Editing for frozen vision-language-action policies",
+  "arxiv": null,
+  "repo": "madman008qqas/PAGE",
+  "id_in_readme": false,
+  "title_in_readme": false,
+  "name_in_readme": true,
+  "official_claim": false,
+  "unofficial_claim": false,
+  "coming_soon": false,
+  "usage": false,
+  "weights": true,
+  "len": 2578,
+  "evidence": [],
+  "head": " PAGE PAGE is a training-free visual intervention for frozen vision-language-action policies. It uses clean demonstrations to build a state-conditioned reference, detects patch-level deviations with a clean-calibrated ga",
+  "tier": "S",
+  "why": "mentions paper but no usage instructions"
  }
 ]
