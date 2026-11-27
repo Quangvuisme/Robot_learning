@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-27 10:33Z",
+ "generated": "2026-11-27 11:04Z",
  "papers": [
   {
    "id": "2611.34936",
@@ -784,7 +784,7 @@
    "cat": "cs.RO",
    "comment": "23 pages, 9 figures, 7 tables. Project page: https://vme0522.github.io/PyRUA-Dex/",
    "hf": {
-    "up": 44,
+    "up": 42,
     "repo": null,
     "stars": null,
     "proj": "https://vme0522.github.io/PyRUA-Dex/"
@@ -1725,7 +1725,7 @@
    "cat": "cs.RO",
    "comment": "",
    "hf": {
-    "up": 137,
+    "up": 86,
     "repo": "https://github.com/xyangzhou/WorldLeague",
     "stars": 22,
     "proj": "https://xyangzhou.github.io/WorldLeague/"

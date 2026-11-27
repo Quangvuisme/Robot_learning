@@ -628,5 +628,10 @@
   "title": "Project page for C2P2: Compatibility-Conditioned Policy Preservation for Continual Vision-Language-Action Learning",
   "arxiv": null,
   "repo": "Haowen-Xiao/c2p2"
+ },
+ {
+  "title": "MOZI is an open-source repository focused on reinforcement and imitation learning for desktop bipedal humanoid robots. It supports offline simulation and motion retargeting, bridging simulation-to-reality deployment for humanoid robot algorithm development.",
+  "arxiv": null,
+  "repo": "ZhibanpandaRobot/mozi_rl"
  }
 ]
