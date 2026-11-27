@@ -122,8 +122,19 @@
   "title": "MixReact: Physics-Based Reactive Humanoid Control from Multimodal Cues via a Discrete-Continuous Mixture of Transformers",
   "arxiv": "2611.26218",
   "repo": "BinLee26/MixReact_Page",
-  "tier": "X",
-  "why": "no README or private"
+  "id_in_readme": false,
+  "title_in_readme": true,
+  "name_in_readme": true,
+  "official_claim": false,
+  "unofficial_claim": false,
+  "coming_soon": false,
+  "usage": false,
+  "weights": false,
+  "len": 1707,
+  "evidence": [],
+  "head": " MixReact project page Academic project website for MixReact: Physics-Based Reactive Humanoid Control from Multimodal Cues via a Discrete\u2013Continuous Mixture of Transformers. Live site: https://binlee26.github.io/MixReact",
+  "tier": "S",
+  "why": "mentions paper but no usage instructions"
  },
  {
   "title": "MixReact: Physics-Based Reactive Humanoid Control from Multimodal Cues via a Discrete-Continuous Mixture of Transformers",
@@ -1122,8 +1133,19 @@
   "title": "TMA: Sim-to-Real Forceful Humanoid Manipulation via Tactile-Driven Motor Adaptation",
   "arxiv": "2611.18976",
   "repo": "humanoid-tma/humanoid-tma.github.io",
-  "tier": "X",
-  "why": "no README or private"
+  "id_in_readme": true,
+  "title_in_readme": true,
+  "name_in_readme": false,
+  "official_claim": false,
+  "unofficial_claim": false,
+  "coming_soon": false,
+  "usage": false,
+  "weights": false,
+  "len": 4988,
+  "evidence": [],
+  "head": " TMA project page Source for the project page of TMA: Sim-to-Real Forceful Humanoid Manipulation via Tactile-Driven Motor Adaptation, served at . A single static page with no build step and no frameworks. Open index.html",
+  "tier": "L",
+  "why": "list/site repo"
  },
  {
   "title": "When Will You Hand It Over? A Hidden Start Delay Makes Self-Play Handover Robust to Unfamiliar Partners",
@@ -1320,8 +1342,19 @@
   "title": "AHEADance: Anticipatory Humanoid Dance from Streaming Audio",
   "arxiv": "2611.13370",
   "repo": "lbtwyk/lbtwyk",
-  "tier": "X",
-  "why": "no README or private"
+  "id_in_readme": true,
+  "title_in_readme": true,
+  "name_in_readme": true,
+  "official_claim": false,
+  "unofficial_claim": false,
+  "coming_soon": false,
+  "usage": false,
+  "weights": false,
+  "len": 1677,
+  "evidence": [],
+  "head": " UCL MEng Robotics & AI \u00b7 Researcher, UCL Humanoid Robotics Lab \u00b7 previously Tsinghua IIIS \u00d7 Zhongguancun Academy and UBTECH. UCL Robotics & AI \u672c\u7855\u8fde\u8bfb \u00b7 UCL Humanoid Robotics Lab Researcher \u00b7 \u66fe\u5728\u6e05\u534e\u4ea4\u53c9\u4fe1\u606f\u7814\u7a76\u9662 \u00d7 \u4e2d\u5173\u6751\u5b66\u9662\u3001\u4f18\u5fc5\u9009\u4ece\u4e8b\u5177\u8eab\u667a\u80fd\u7814",
+  "tier": "S",
+  "why": "mentions paper but no usage instructions"
  },
  {
   "title": "DreamVLA: From Generated Human Motions to Humanoid Vision-Language-Action Policies",
@@ -2778,8 +2811,19 @@
   "title": "Repository for my journey into the world of humanoid robotics",
   "arxiv": null,
   "repo": "Ant0nymous/humanoid-journey",
-  "tier": "X",
-  "why": "no README or private"
+  "id_in_readme": false,
+  "title_in_readme": true,
+  "name_in_readme": true,
+  "official_claim": false,
+  "unofficial_claim": false,
+  "coming_soon": false,
+  "usage": false,
+  "weights": false,
+  "len": 1146,
+  "evidence": [],
+  "head": " humanoid-journey Repository for my journey into the world of humanoid robotics. GOAL Develop practical skills in humanoid robotics and AI by building, training, and experimenting with an SO-101 robotic arm. My long-term",
+  "tier": "S",
+  "why": "mentions paper but no usage instructions"
  },
  {
   "title": "Closed-loop Vision-Language-Action (SmolVLA / LeRobot) pipeline for a UR10e manipulator on a linear rail in Gazebo Harmonic and ROS 2 Humble.",
@@ -3432,8 +3476,21 @@
   "title": "Mini vision-language-action model on LIBERO-Goal: frozen SmolVLM2 backbone + action expert built from scratch, with language and regression vs. flow-matching ablations. Plus a DINO-WM world-model reproduction. Work in progress.",
   "arxiv": null,
   "repo": "codewithadityard/vla-two-embodiments",
-  "tier": "X",
-  "why": "no README or private"
+  "id_in_readme": false,
+  "title_in_readme": false,
+  "name_in_readme": true,
+  "official_claim": false,
+  "unofficial_claim": true,
+  "coming_soon": false,
+  "usage": false,
+  "weights": true,
+  "len": 9603,
+  "evidence": [
+   "unofficial: ...ion? 2. **Project 2: DINO-WM on the Wall task.** This is a *reproduction of evaluation and planning with the official checkpoint; train..."
+  ],
+  "head": " vla-two-embodiments A one-week robot-learning study on a fixed budget: free Kaggle T4 GPUs, about 30 GPU-hours, plus a laptop for code only. 1. Project 1 (main): a mini vision-language-action policy on LIBERO-Goal. It u",
+  "tier": "S",
+  "why": "unofficial, no usage"
  },
  {
   "title": "DT-VLA \u4e2d\u6587\u7814\u7a76\u62a5\u544a\u4e0e\u4ea4\u4e92\u5f0f\u673a\u5668\u4eba\u6f14\u793a | Continual adaptation for vision-language-action models",
