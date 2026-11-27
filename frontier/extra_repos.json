@@ -563,5 +563,35 @@
   "title": "Official code for RayWrist: Geometry-Guided Wrist-Token Completion for Frozen Vision-Language-Action Models",
   "arxiv": null,
   "repo": "seunghub/RayWrist"
+ },
+ {
+  "title": "humanoid robot walking pattern",
+  "arxiv": null,
+  "repo": "rahuldasvairagirsmec24/Humanoid-robot-RDV"
+ },
+ {
+  "title": "Humanoids: Watts to Work - a source-backed engineering library on humanoid robots",
+  "arxiv": null,
+  "repo": "ethanlabbe/humanoids-watts-to-work"
+ },
+ {
+  "title": "Unitree G1 standing and locomotion benchmark on GenesisLab and RSL-RL. Reproducible evaluation for robust and safe control research.",
+  "arxiv": null,
+  "repo": "PaoShou-China/genesis-humanoid-rl"
+ },
+ {
+  "title": "A Habitat-based humanoid visual navigation system with VLM-assisted perception, active verification, and web visualization.",
+  "arxiv": null,
+  "repo": "Cosiki776/humanoid-visual-nav"
+ },
+ {
+  "title": "apex-humanoid-assets",
+  "arxiv": null,
+  "repo": "HeshamZegoo/apex-humanoid-assets"
+ },
+ {
+  "title": "Innovative autonomous robot arm powered by agentic AI: LLM + computer vision turn commands in any language into actions. No pre-programmed movements.",
+  "arxiv": null,
+  "repo": "oleksandr-g-rock/roboarm"
  }
 ]

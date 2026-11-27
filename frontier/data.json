@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-26 23:33Z",
+ "generated": "2026-11-27 00:03Z",
  "items": [
   {
    "section": "Manipulation",
@@ -15,7 +15,7 @@
     "issues": 0,
     "pushed": "2026-11-25",
     "created": "2026-11-25",
-    "spd": 13.0,
+    "spd": 6.5,
     "license": null,
     "full": "zyjOrz/FineDex"
    }

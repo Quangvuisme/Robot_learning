@@ -198,5 +198,13 @@
   "created": "2026-10-26",
   "desc": "SuperMimic whole-body motion tracking for muscle-driven humanoids on mjlab.",
   "q": "humanoid motion tracking"
+ },
+ {
+  "repo": "openrobokit/retargetingkit",
+  "stars": 41,
+  "pushed": "2026-11-06",
+  "created": "2026-10-30",
+  "desc": "Maps live or recorded human motion to robot hands, arms, and humanoids.",
+  "q": "humanoid teleoperation"
  }
 ]
