@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-27 01:03Z",
+ "generated": "2026-11-27 01:33Z",
  "items": [
   {
    "section": "Manipulation",
@@ -257,7 +257,7 @@
     "issues": 0,
     "pushed": "2026-11-20",
     "created": "2026-11-17",
-    "spd": 2.22,
+    "spd": 2.0,
     "license": null,
     "full": "engineai-robotics/Awaken-HI"
    }
@@ -325,7 +325,7 @@
     "issues": 0,
     "pushed": "2026-11-25",
     "created": "2026-11-18",
-    "spd": 1.25,
+    "spd": 1.11,
     "license": "MIT",
     "full": "haraduka/qddmm"
    }
