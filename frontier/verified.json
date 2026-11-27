@@ -3605,7 +3605,7 @@
   "coming_soon": false,
   "usage": true,
   "weights": true,
-  "len": 10564,
+  "len": 11909,
   "evidence": [],
   "head": " SuperMimic: Omnidirectional RL Whole-Body Control & Shared-Decoder Co-Training (Unitree G1) Single-GPU reproduction and algorithmic extension of CoRL 2026 SuperMimic: Scaling Humanoid Whole-Body Control with One Differe",
   "tier": "B",

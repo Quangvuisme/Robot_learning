@@ -1,7 +1,7 @@
 [
  {
   "repo": "starVLA/starVLA",
-  "stars": 3983,
+  "stars": 3984,
   "pushed": "2026-11-26",
   "created": "2025-10-09",
   "desc": "StarVLA: A Lego-like Codebase for Vision-Language-Action Model Developing",
@@ -41,7 +41,7 @@
  },
  {
   "repo": "HybridRobotics/supermimic",
-  "stars": 2080,
+  "stars": 2081,
   "pushed": "2026-11-21",
   "created": "2026-11-10",
   "desc": "Humanoid whole-body motion tracking with one differentiable world model.",
@@ -89,7 +89,7 @@
  },
  {
   "repo": "shengshu-ai/Motus2",
-  "stars": 684,
+  "stars": 686,
   "pushed": "2026-11-22",
   "created": "2026-09-11",
   "desc": "Motus2: A Self-Evolving General World Model for Dexterous Manipulation",
@@ -178,7 +178,7 @@
  {
   "repo": "lok-i/vibe",
   "stars": 79,
-  "pushed": "2026-11-14",
+  "pushed": "2026-11-27",
   "created": "2026-09-08",
   "desc": "Post-training humanoid whole-body trackers for perceptive control tasks",
   "q": "humanoid whole-body control"
