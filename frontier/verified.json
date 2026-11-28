@@ -568,7 +568,7 @@
   "coming_soon": false,
   "usage": false,
   "weights": true,
-  "len": 172990,
+  "len": 188552,
   "evidence": [],
   "head": " ( Reinforcement Learning + Computer Vision ) Papers A curated list of papers applying Reinforcement Learning to Computer Vision tasks. Summary - Object Localization(object-localization) - Image Instance Segmentation(ima",
   "tier": "L",
@@ -3479,18 +3479,19 @@
   "id_in_readme": false,
   "title_in_readme": false,
   "name_in_readme": true,
-  "official_claim": false,
+  "official_claim": true,
   "unofficial_claim": true,
   "coming_soon": false,
   "usage": false,
   "weights": true,
-  "len": 10901,
+  "len": 11290,
   "evidence": [
+   "official: ...cem.md`). The official `final_eval/success_rate` is 0.28. - The official code also evaluates after every CEM step (`eval_every: 1`). The ...",
    "unofficial: ...ion? 2. **Project 2: DINO-WM on the Wall task.** This is a *reproduction of evaluation and planning with the official checkpoint; train..."
   ],
   "head": " vla-two-embodiments A one-week robot-learning study on a fixed budget: free Kaggle T4 GPUs, about 30 GPU-hours, plus a laptop for code only. 1. Project 1 (main): a mini vision-language-action policy on LIBERO-Goal. It u",
   "tier": "S",
-  "why": "unofficial, no usage"
+  "why": "mentions paper but no usage instructions"
  },
  {
   "title": "DT-VLA \u4e2d\u6587\u7814\u7a76\u62a5\u544a\u4e0e\u4ea4\u4e92\u5f0f\u673a\u5668\u4eba\u6f14\u793a | Continual adaptation for vision-language-action models",
