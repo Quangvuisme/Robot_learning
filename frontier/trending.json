@@ -9,7 +9,7 @@
  },
  {
   "repo": "NVlabs/GR00T-WholeBodyControl",
-  "stars": 3964,
+  "stars": 3963,
   "pushed": "2026-11-03",
   "created": "2025-11-05",
   "desc": "Welcome to GR00T Whole-Body Control (WBC)! This is a unified platform for developing and deploying advanced hu",
@@ -41,7 +41,7 @@
  },
  {
   "repo": "HybridRobotics/supermimic",
-  "stars": 2107,
+  "stars": 2108,
   "pushed": "2026-11-21",
   "created": "2026-11-10",
   "desc": "Humanoid whole-body motion tracking with one differentiable world model.",
@@ -57,7 +57,7 @@
  },
  {
   "repo": "RainBowLuoCS/Gamer",
-  "stars": 1642,
+  "stars": 1643,
   "pushed": "2026-11-16",
   "created": "2026-10-30",
   "desc": "Official Implementation of Gamer: A Generalist Vision-Language-Action Foundation Model for Long-Horizon Real-T",
@@ -97,7 +97,7 @@
  },
  {
   "repo": "Sirui-Xu/InterMimic",
-  "stars": 559,
+  "stars": 560,
   "pushed": "2026-11-12",
   "created": "2025-03-25",
   "desc": "[CVPR 2025 Highlight] InterMimic: Towards Universal Whole-Body Control for Physics-Based Human-Object Interact",
