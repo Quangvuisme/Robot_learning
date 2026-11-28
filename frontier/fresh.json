@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-28 02:33Z",
+ "generated": "2026-11-28 03:03Z",
  "papers": [
   {
    "id": "2611.34936",
@@ -74,7 +74,7 @@
    "cat": "cs.CV",
    "comment": "Code: https://github.com/iPPLab/HOG-WAM",
    "hf": {
-    "up": 22,
+    "up": 23,
     "repo": "https://github.com/iPPLab/HOG-WAM",
     "stars": 6,
     "proj": null
