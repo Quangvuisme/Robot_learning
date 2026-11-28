@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-28 09:04Z",
+ "generated": "2026-11-28 09:33Z",
  "papers": [
   {
    "id": "2611.34936",
@@ -644,7 +644,7 @@
    "cat": "cs.RO",
    "comment": "Project page: https://wongyun-yu.github.io/dexengine/ Code: https://github.com/wongyun-yu/DexEngine Data: https://huggingface.co/datasets/Wongyun/DexEngine",
    "hf": {
-    "up": 4,
+    "up": 5,
     "repo": "https://github.com/wongyun-yu/DexEngine",
     "stars": 7,
     "proj": "https://wongyun-yu.github.io/dexengine/"
