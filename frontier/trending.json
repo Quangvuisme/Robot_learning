@@ -41,7 +41,7 @@
  },
  {
   "repo": "HybridRobotics/supermimic",
-  "stars": 2105,
+  "stars": 2106,
   "pushed": "2026-11-21",
   "created": "2026-11-10",
   "desc": "Humanoid whole-body motion tracking with one differentiable world model.",
@@ -73,7 +73,7 @@
  },
  {
   "repo": "Robbyant/lingbot-touch",
-  "stars": 865,
+  "stars": 866,
   "pushed": "2026-11-11",
   "created": "2026-11-09",
   "desc": "Learning Heterogeneous Tactile Representation for General Dexterous Manipulation",
@@ -89,7 +89,7 @@
  },
  {
   "repo": "shengshu-ai/Motus2",
-  "stars": 705,
+  "stars": 706,
   "pushed": "2026-11-22",
   "created": "2026-09-11",
   "desc": "Motus2: A Self-Evolving General World Model for Dexterous Manipulation",
