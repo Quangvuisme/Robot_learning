@@ -683,5 +683,15 @@
   "title": "Research map: embodied RSI, agentic robotics + RSI, visuo-tactile world action models (2026)",
   "arxiv": null,
   "repo": "HaoyunT/embodied-rsi-map"
+ },
+ {
+  "title": "Legged locomotion reproduction",
+  "arxiv": null,
+  "repo": "Yufeng1216/Microduck"
+ },
+ {
+  "title": "world-model-action-",
+  "arxiv": null,
+  "repo": "nguyeudinhhaduong/world-model-action-"
  }
 ]

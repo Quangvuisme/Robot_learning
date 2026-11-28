@@ -1,4 +1,4 @@
-Counter({'L': 82, 'X': 60, 'S': 44, 'B': 41, 'R': 4, 'A': 1})
+Counter({'L': 82, 'X': 61, 'S': 44, 'B': 42, 'R': 4, 'A': 1})
 B Axellwppr/HITCH | HITCH: Teaching a Vision-Language Model to Op | paper cited + runnable usage, no explicit 'official' claim | weights
 B yaozhang182/inhabitant | Inhabitant: An Agent Framework for Long-Horiz | paper cited + runnable usage, no explicit 'official' claim | weights
 R nico-bohlinger/xmimic | XMimic and XSoma: Learning Humanoid Motion Tr | reproduction/unofficial | weights
@@ -45,3 +45,4 @@ B 121400-cheng/supermimic-g1-wbc | Omnidirectional RL Whole-Body Control & Share
 B LudwigWangMu/contact-graph-action-responses | Paired action responses in contact-graph worl | paper cited + runnable usage, no explicit 'official' claim 
 B shaolonl-16/LeanWAM-code | LeanWAM: Learning Latent World Action Models  | paper cited + runnable usage, no explicit 'official' claim | weights
 B danielgaskins/sycophantic-world-models | Zero-Decode SAE Circuit Breakers for Action-M | paper cited + runnable usage, no explicit 'official' claim | weights
+B nguyeudinhhaduong/world-model-action- | world-model-action- | paper cited + runnable usage, no explicit 'official' claim | weights

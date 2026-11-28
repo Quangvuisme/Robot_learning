@@ -1,4 +1,23 @@
 {
  "papers": [],
- "repos": []
+ "repos": [
+  {
+   "title": "world-model-action-",
+   "arxiv": null,
+   "repo": "nguyeudinhhaduong/world-model-action-",
+   "id_in_readme": false,
+   "title_in_readme": true,
+   "name_in_readme": true,
+   "official_claim": false,
+   "unofficial_claim": false,
+   "coming_soon": false,
+   "usage": true,
+   "weights": true,
+   "len": 5758,
+   "evidence": [],
+   "head": " World Model Action D\u1ef1 \u00e1n nghi\u00ean c\u1ee9u c\u00e1ch d\u00f9ng m\u00f4 h\u00ecnh th\u1ebf gi\u1edbi \u0111\u1ec3 quy\u1ebft \u0111\u1ecbnh khi n\u00e0o n\u00ean thay h\u00e0nh \u0111\u1ed9ng c\u1ee7a policy tham chi\u1ebfu. Nh\u00e1nh hi\u1ec7n h\u00e0nh, TALP-C11, h\u1ecdc t\u1eeb d\u1eef li\u1ec7u offline Minari v\u00e0 \u0111\u00e1nh gi\u00e1 tr\u00ean MuJoCo. Nh\u00e1nh Para",
+   "tier": "B",
+   "why": "paper cited + runnable usage, no explicit 'official' claim"
+  }
+ ]
 }
