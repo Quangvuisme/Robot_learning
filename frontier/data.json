@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-28 02:04Z",
+ "generated": "2026-11-28 02:34Z",
  "items": [
   {
    "section": "Manipulation",
@@ -15,7 +15,7 @@
     "issues": 0,
     "pushed": "2026-11-25",
     "created": "2026-11-25",
-    "spd": 6.5,
+    "spd": 4.33,
     "license": null,
     "full": "zyjOrz/FineDex"
    }
@@ -257,7 +257,7 @@
     "issues": 0,
     "pushed": "2026-11-20",
     "created": "2026-11-17",
-    "spd": 1.9,
+    "spd": 1.73,
     "license": null,
     "full": "engineai-robotics/Awaken-HI"
    }
@@ -298,7 +298,18 @@
    "date": "2026-11-19",
    "url": "https://arxiv.org/abs/2611.26218",
    "title": "MixReact: Physics-Based Reactive Humanoid Control from Multimodal Cues via a Discrete-Continuous Mixture of Transformers",
-   "website": "https://binlee26.github.io/MixReact_Page/"
+   "website": "https://binlee26.github.io/MixReact_Page/",
+   "gh": {
+    "official": false,
+    "stars": 0,
+    "forks": 0,
+    "issues": 0,
+    "pushed": "2026-11-23",
+    "created": "2026-11-19",
+    "spd": 0.0,
+    "license": null,
+    "full": "BinLee26/MixReact_Page"
+   }
   },
   {
    "section": "Hardware Design",
@@ -314,7 +325,7 @@
     "issues": 0,
     "pushed": "2026-11-25",
     "created": "2026-11-18",
-    "spd": 1.11,
+    "spd": 1.0,
     "license": "MIT",
     "full": "haraduka/qddmm"
    }

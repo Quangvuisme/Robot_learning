@@ -1,4 +1,4 @@
-Counter({'L': 82, 'X': 60, 'S': 43, 'B': 41, 'R': 4, 'A': 1})
+Counter({'L': 82, 'X': 61, 'S': 44, 'B': 40, 'R': 4, 'A': 1})
 B Axellwppr/HITCH | HITCH: Teaching a Vision-Language Model to Op | paper cited + runnable usage, no explicit 'official' claim | weights
 B yaozhang182/inhabitant | Inhabitant: An Agent Framework for Long-Horiz | paper cited + runnable usage, no explicit 'official' claim | weights
 R nico-bohlinger/xmimic | XMimic and XSoma: Learning Humanoid Motion Tr | reproduction/unofficial | weights
@@ -25,7 +25,6 @@ B atanas1054/SmallDrive | SmallDrive: An Efficient Vision-Language-Acti | paper 
 B ForeverBlue816/LoopQ | Quantizing in the Loop: Drift-Aware Ultra-Low | paper cited + runnable usage, no explicit 'official' claim | weights
 B 47thtechcorner/RayCodes_SmolVLM2 | SmolVLM2 Dropped: 100% Offline Video AI on La | paper cited + runnable usage, no explicit 'official' claim | weights
 B antiloafer/GR00T-WholeBodyControl | GR00T-WholeBodyControl | paper cited + runnable usage, no explicit 'official' claim | weights
-B angor-root/rewire | REWIRE: Rapid Equilibrium through Whole-body  | paper cited + runnable usage, no explicit 'official' claim 
 B Thu-WangMX/MemE-WAM-Memory-Efficient-World-Action-Models- | MemE-WAM-Memory-Efficient-World-Action-Models | paper cited + runnable usage, no explicit 'official' claim | weights
 B FlexWAM/FlexWAM | FlexWAM: Learning Flexible Visual Routing for | paper cited + runnable usage, no explicit 'official' claim | weights
 B bageldotcom/Bagel-Robotics-1 | Bagel Labs’ open-weight world-action model fo | paper cited + runnable usage, no explicit 'official' claim | weights
