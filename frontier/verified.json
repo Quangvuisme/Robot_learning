@@ -498,7 +498,7 @@
   "weights": true,
   "len": 1629580,
   "evidence": [],
-  "head": " Updated on 2026.11.27 Usage instructions: here(./docs/README.mdusage) Table of Contents Planning & Control End-to-end Driving Prediction Autonomous Driving Simulation Perception Planning & Control Publish DateTitleAutho",
+  "head": " Updated on 2026.11.28 Usage instructions: here(./docs/README.mdusage) Table of Contents Planning & Control End-to-end Driving Prediction Autonomous Driving Simulation Perception Planning & Control Publish DateTitleAutho",
   "tier": "L",
   "why": "list/site repo"
  },
@@ -4143,7 +4143,7 @@
   "coming_soon": false,
   "usage": true,
   "weights": true,
-  "len": 7612,
+  "len": 7526,
   "evidence": [],
   "head": " English \u00b7 \u7b80\u4f53\u4e2d\u6587(README.zh-CN.md) mjlab MuJoCo Python PyTorch WSL2 GPU Two ways to train the same kind of MLP policy for Microduck (Pollen Robotics), an 800 g, 25 cm bipedal duck robot: - PPO: model-free reinforcement lea",
   "tier": "X",

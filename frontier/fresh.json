@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-28 04:03Z",
+ "generated": "2026-11-28 07:33Z",
  "papers": [
   {
    "id": "2611.34936",
@@ -852,7 +852,7 @@
    "hf": {
     "up": 33,
     "repo": "https://github.com/iPPLab/robodojo-mirror",
-    "stars": 10,
+    "stars": 11,
     "proj": "https://ipplab.github.io/robodojo-mirror"
    },
    "code_in_text": [
