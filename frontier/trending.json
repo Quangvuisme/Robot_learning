@@ -41,7 +41,7 @@
  },
  {
   "repo": "HybridRobotics/supermimic",
-  "stars": 2106,
+  "stars": 2107,
   "pushed": "2026-11-21",
   "created": "2026-11-10",
   "desc": "Humanoid whole-body motion tracking with one differentiable world model.",
@@ -57,7 +57,7 @@
  },
  {
   "repo": "RainBowLuoCS/Gamer",
-  "stars": 1641,
+  "stars": 1642,
   "pushed": "2026-11-16",
   "created": "2026-10-30",
   "desc": "Official Implementation of Gamer: A Generalist Vision-Language-Action Foundation Model for Long-Horizon Real-T",
@@ -121,7 +121,7 @@
  },
  {
   "repo": "black-forest-labs/flux-action",
-  "stars": 235,
+  "stars": 236,
   "pushed": "2026-11-10",
   "created": "2026-09-23",
   "desc": "FLUX 3 Action: open weights 7B world action model from Black Forest Labs. Train, fine-tune and run action pred",

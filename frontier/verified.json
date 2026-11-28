@@ -4119,9 +4119,9 @@
   "coming_soon": false,
   "usage": true,
   "weights": false,
-  "len": 7444,
+  "len": 7771,
   "evidence": [],
-  "head": " hiApp: For hi-Series Agentic Robot Software Stacks Author: The Humanoid Intelligence Team OpenMOSS Group / Shanghai Innovation Institute / Fudan University English \u7b80\u4f53\u4e2d\u6587(./README.zh-CN.md) \u00b7 Docs: Changelog(CHANGELOG.md)",
+  "head": " hiApp: An App for hi-Series Agentic Robot Software Stacks Author: The Humanoid Intelligence Team OpenMOSS Group / Shanghai Innovation Institute / Fudan University English \u7b80\u4f53\u4e2d\u6587(./README.zh-CN.md) \u00b7 Docs: Changelog(CHANGE",
   "tier": "X",
   "why": "README does not mention the paper"
  },

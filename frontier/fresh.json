@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-28 10:03Z",
+ "generated": "2026-11-28 10:33Z",
  "papers": [
   {
    "id": "2611.34936",
@@ -1736,7 +1736,7 @@
    "hf": {
     "up": 1,
     "repo": "https://github.com/anson2333/ForesightForcing",
-    "stars": 6,
+    "stars": 7,
     "proj": "https://anson2333.github.io/foresight-forcing/"
    },
    "code_in_text": []
