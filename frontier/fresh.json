@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-27 23:33Z",
+ "generated": "2026-11-28 00:03Z",
  "papers": [
   {
    "id": "2611.34936",
@@ -1677,12 +1677,6 @@
    "abstract": "Vision-language-action (VLA) models leverage pretrained vision-language representations for instruction-conditioned robot control, yet their understanding of task-relevant 3D relations and how these relations evolve during manipulation remains largely implicit. To address this challenge, we introduc",
    "cat": "cs.RO",
    "comment": "21 pages, 7 figures",
-   "hf": {
-    "up": 2,
-    "repo": "https://github.com/Kingzein/WeaveVLA",
-    "stars": 14,
-    "proj": "https://kingzein.github.io/weave-vla/#overview"
-   },
    "code_in_text": []
   },
   {
@@ -1724,12 +1718,6 @@
    "abstract": "AI systems can now operate Blender, follow instructions in complex video games, and manipulate objects with robot arms. What range of physical goals can today's AI systems achieve autonomously? Answering this question requires testing systems on tasks that demand different combinations of perception",
    "cat": "cs.RO",
    "comment": "",
-   "hf": {
-    "up": 86,
-    "repo": "https://github.com/xyangzhou/WorldLeague",
-    "stars": 22,
-    "proj": "https://xyangzhou.github.io/WorldLeague/"
-   },
    "code_in_text": []
   },
   {
@@ -1780,12 +1768,6 @@
    "abstract": "Large and diverse video sources, such as egocentric human video and heterogeneous robot recordings, carry rich dynamics but come either without actions or without a shared action space. Latent action models (LAMs) can recover these dynamics, but they train their inverse- and forward-dynamics models ",
    "cat": "cs.CV",
    "comment": "19 pages, 7 figures, 6 tables. Project page: https://pawteam-eai.github.io/native-lam/",
-   "hf": {
-    "up": 29,
-    "repo": null,
-    "stars": null,
-    "proj": "https://pawteam-eai.github.io/native-lam/"
-   },
    "code_in_text": []
   },
   {
@@ -1863,12 +1845,6 @@
    "abstract": "Robot policies must adapt to the speed of moving objects, yet existing benchmarks rarely measure this ability across diverse tasks and speeds. We introduce SWEEP-Bench, a simulation benchmark with 80 conveyor-belt manipulation tasks spanning 16 skill categories, each evaluated at 13 belt speeds (0.1",
    "cat": "cs.RO",
    "comment": "28 pages, 24 figures. Project page: https://damin3927.github.io/SWEEP-Bench",
-   "hf": {
-    "up": 2,
-    "repo": "https://github.com/Damin3927/SWEEP-Bench",
-    "stars": 4,
-    "proj": "http://damin3927.github.io/SWEEP-Bench"
-   },
    "code_in_text": []
   }
  ]

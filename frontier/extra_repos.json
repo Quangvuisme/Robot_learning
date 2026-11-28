@@ -658,5 +658,30 @@
   "title": "FMP: Flow-Matching Motion Prior for Humanoid Control (project page)",
   "arxiv": null,
   "repo": "catachiii/fmp-humanoid"
+ },
+ {
+  "title": "IoT-enabled humanoid receptionist FastAPI backend",
+  "arxiv": null,
+  "repo": "Nishita-21022006/humanoid-receptionist-backend"
+ },
+ {
+  "title": "Does a LIBERO-trained SmolVLA read its instruction, and how does it fail under image and start-pose shifts? A paired evaluation of one public checkpoint.",
+  "arxiv": null,
+  "repo": "eljandoubi/vla-shift-lab"
+ },
+ {
+  "title": "AsymDepth-VLA: Official implementation of Asymmetric Cross-Depth Pruning and Multi-Level Knowledge Distillation for lightweight, low-latency Vision-Language-Action  models, achieving 99%+ success on LIBERO at 13.5 Hz on a single GPU.",
+  "arxiv": null,
+  "repo": "2005lay/AsymDepth-VLA"
+ },
+ {
+  "title": "[App] hiApp: An App for hi-Series Agentic Robot Software Stacks",
+  "arxiv": null,
+  "repo": "humanoidintelligence/hiApp"
+ },
+ {
+  "title": "Research map: embodied RSI, agentic robotics + RSI, visuo-tactile world action models (2026)",
+  "arxiv": null,
+  "repo": "HaoyunT/embodied-rsi-map"
  }
 ]
