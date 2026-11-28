@@ -3484,7 +3484,7 @@
   "coming_soon": false,
   "usage": false,
   "weights": true,
-  "len": 9603,
+  "len": 10315,
   "evidence": [
    "unofficial: ...ion? 2. **Project 2: DINO-WM on the Wall task.** This is a *reproduction of evaluation and planning with the official checkpoint; train..."
   ],
