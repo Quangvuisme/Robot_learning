@@ -57,7 +57,7 @@
  },
  {
   "repo": "RainBowLuoCS/Gamer",
-  "stars": 1640,
+  "stars": 1641,
   "pushed": "2026-11-16",
   "created": "2026-10-30",
   "desc": "Official Implementation of Gamer: A Generalist Vision-Language-Action Foundation Model for Long-Horizon Real-T",
@@ -162,7 +162,7 @@
  {
   "repo": "Bench2Dex/Bench2Dex",
   "stars": 111,
-  "pushed": "2026-11-23",
+  "pushed": "2026-11-28",
   "created": "2026-08-14",
   "desc": "A Bimanual Manipulation Benchmark across Dexterous Hands with Simulated Visuo-Tactile Support",
   "q": "dexterous manipulation"
